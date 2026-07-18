@@ -1,56 +1,57 @@
 # E-Review Agent
 
-> Enterprise-Oriented E-commerce Review Governance System
-
-基于真实电商业务闭环的 AI 评论分析、Agent 自动巡检、风险治理与运营处置系统。本项目基于开源项目 [linlinjava/litemall](https://github.com/linlinjava/litemall) 二次开发，面向毕业设计、工程实践和求职作品集展示。
+Enterprise-oriented e-commerce review governance system with AI analysis, Agent inspection, risk workflows and auditable readiness boundaries.
 
 ![Java](https://img.shields.io/badge/Java-Spring%20Boot-blue)
 ![Vue 2](https://img.shields.io/badge/Vue-2.x-42b883)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688)
 ![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1)
-![Docker Compose](https://img.shields.io/badge/Docker%20Compose-config%20provided-2496ED)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-engineering%20prototype-orange)
 
-## Project Overview
+## Overview
 
-E-Review Agent 将 litemall 的用户端商城、管理后台、Java 后端、FastAPI AI 服务和 MySQL 数据库组合成一个完整的评论治理闭环：
+E-Review Agent extends the open-source [linlinjava/litemall](https://github.com/linlinjava/litemall) project into a review-governance prototype for graduation-project, engineering-practice and portfolio demonstration.
 
-- 用户可以浏览商品、提交订单、使用演示支付/演示发货、确认收货并发布图文评价。
-- 后台 Agent 定时或手动巡检真实商品评价。
-- AI 服务输出结构化评论分析，包括情感、风险等级、风险类型和处理建议。
-- 高风险评价自动生成风险治理任务。
-- 运营人员在后台完成采纳、处理、关闭和日志留痕。
-- Dashboard 汇总展示待分析评论、风险任务、处理状态和巡检结果。
+The core loop is:
 
-支付、物流和退款均为毕业设计演示实现，不接入真实第三方渠道。
+1. A customer browses products in the H5 storefront.
+2. The customer submits an order through a demo payment and demo shipping flow.
+3. The customer confirms receipt and publishes a text/image review.
+4. The backend stores the review in the original litemall comment table.
+5. The inspection Agent scans unprocessed comments.
+6. The AI service returns structured review analysis.
+7. High-risk results generate risk tasks.
+8. Operators handle tasks in the admin console.
+9. Dashboard metrics update from persisted records.
+
+Payment, logistics and refund integrations are demo-mode implementations. This repository does not claim production readiness.
 
 ## Highlights
 
-| Highlight | What it demonstrates |
+| Area | What it demonstrates |
 |---|---|
-| 真实电商评论闭环 | 从 H5 用户端评价到后台治理任务的端到端链路 |
-| Agent 自动巡检 | 定时/手动扫描未分析评论，避免后台人工逐条触发 |
-| 结构化 AI 分析 | 统一 JSON contract，便于落库、统计和运营处理 |
-| 风险治理工作流 | 风险任务生成、详情查看、处理状态流转和操作日志 |
-| RAG 与本地模型实验 | BGE-M3、FAISS、本地模型和 VLM 作为高级实验模块 |
-| 可审计 readiness 证据 | 测试、隔离、安全卫生、soak 和 gate 证据有明确边界 |
+| Customer-to-Agent loop | End-to-end review governance from H5 customer review to admin operation workflow |
+| Agent inspection | Manual or scheduled scanning of unprocessed comments |
+| Structured AI analysis | JSON-contract based sentiment, risk level, risk type and operation suggestion output |
+| Risk workflow | Risk task creation, detail view, status transition and operation log |
+| Public audit boundary | Sanitized source snapshot without model weights, private data, raw benchmark assets or internal Git history |
 
 ## Business Flow
 
 ```mermaid
 flowchart LR
-    A["用户浏览商品"] --> B["提交订单"]
-    B --> C["演示支付与发货"]
-    C --> D["确认收货"]
-    D --> E["发布图文评价"]
-    E --> F["Agent 自动巡检"]
-    F --> G["AI 结构化分析"]
-    G --> H{"是否高风险"}
-    H -- "否" --> I["分析结果归档"]
-    H -- "是" --> J["生成风险治理任务"]
-    J --> K["运营人员处理"]
-    K --> L["Dashboard 数据更新"]
+    A["Customer browses product"] --> B["Submit demo order"]
+    B --> C["Demo payment and shipping"]
+    C --> D["Confirm receipt"]
+    D --> E["Publish text/image review"]
+    E --> F["Agent inspection"]
+    F --> G["Structured AI analysis"]
+    G --> H{"High risk?"}
+    H -- "No" --> I["Persist analysis"]
+    H -- "Yes" --> J["Create risk task"]
+    J --> K["Operator handles task"]
+    K --> L["Dashboard updates"]
 ```
 
 ## Architecture
@@ -62,8 +63,8 @@ flowchart TB
     B["Spring Boot Backend"]
     AI["FastAPI AI Service"]
     DB[("MySQL")]
-    RAG["BGE-M3 + FAISS<br/>Experimental"]
     AG["Review Inspection Agent"]
+    RAG["Optional RAG / local model experiments"]
 
     U --> B
     A --> B
@@ -74,32 +75,23 @@ flowchart TB
     AI --> B
 ```
 
-## Modules
-
-- 用户端商城：商品浏览、商品详情、订单演示链路、图文评价。
-- 管理后台：评论列表、AI 工作台、Dashboard、风险中心、运营中心。
-- Java 后端：wx-api、admin-api、数据库服务、Agent 巡检和风险任务接口。
-- FastAPI AI 服务：规则/Mock 模式、结构化输出、schema 校验、RAG/本地模型实验接口。
-- MySQL 数据库：litemall 原始表、AI 分析表、风险任务表、巡检日志表、运营日志表。
-- Readiness 审计：测试报告、隔离检查、安全卫生检查、soak 和 gate 证据摘要。
-
 ## Tech Stack
 
-| Area | Stack |
+| Layer | Stack |
 |---|---|
 | Backend | Java, Spring Boot, Maven, MyBatis |
-| Admin | Vue 2, Element UI, Axios |
+| Admin frontend | Vue 2, Element UI, Axios |
 | Customer H5 | Vue 2, Vant 2, Vuex, Vue Router |
-| AI Service | Python, FastAPI, Pydantic, pytest |
-| Data and Retrieval | MySQL, BGE-M3, FAISS experimental retrieval |
-| Engineering | Docker Compose config, smoke checks, Java/Python tests |
+| AI service | Python, FastAPI, Pydantic, pytest |
+| Data | MySQL |
+| Optional experiments | Local model adapters, VLM provider wiring, BGE-M3/FAISS retrieval code paths |
 
 ## Repository Structure
 
 ```text
 e-review-agent/
-├── ai-service/          # FastAPI AI service and tests
-├── data/                # Public schemas and governance metadata only
+├── ai-service/          # FastAPI AI service and public tests
+├── data/                # Public schemas and governance metadata
 ├── litemall-admin/      # Vue 2 admin console
 ├── litemall-vue/        # Vue 2 + Vant customer H5 frontend
 ├── litemall-admin-api/  # Spring Boot admin API
@@ -107,9 +99,8 @@ e-review-agent/
 ├── litemall-db/         # Database schema, mappers and AI SQL migrations
 ├── litemall-core/       # Shared Java configuration and infrastructure
 ├── litemall-all/        # Combined Spring Boot entry
-├── docs/                # Curated public project documentation
-├── docker-compose.yml   # Compose configuration, runtime evidence pending
-└── README.md
+├── docs/                # Public project documentation
+└── docker-compose.yml   # Compose configuration; runtime evidence pending
 ```
 
 ## Quick Start
@@ -118,8 +109,8 @@ e-review-agent/
 
 - JDK 8+
 - Maven 3.6+
-- MySQL 5.7/8.x
-- Node.js compatible with Vue CLI 3 projects
+- MySQL 5.7 or 8.x
+- Node.js compatible with Vue CLI 3/4 projects
 - Python 3.10+
 
 ### Database
@@ -134,10 +125,11 @@ Import schema and AI migration SQL files from `litemall-db/sql/` as needed. This
 ### Java Backend
 
 ```bash
+mvn test
 mvn -DskipTests package
 ```
 
-Typical local services:
+Typical local service ports:
 
 - wx-api: `http://localhost:8080`
 - admin-api: `http://localhost:8083`
@@ -149,7 +141,7 @@ cd ai-service
 python -m venv .venv
 .venv/Scripts/activate
 pip install -r requirements.txt
-python -m pytest
+python -m pytest -ra
 uvicorn app.main:app --host 0.0.0.0 --port 8008
 ```
 
@@ -157,7 +149,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8008
 
 ```bash
 cd litemall-admin
-npm install
+npm ci
 npm run build:prod
 npm run dev
 ```
@@ -166,88 +158,57 @@ npm run dev
 
 ```bash
 cd litemall-vue
-npm install
+npm ci
 npm run build:prod
 npm run dev
 ```
 
-## Docker Compose（配置已提供，运行证据待补）
+## Public Test Scope
 
-本仓库提供 Docker Compose 配置，便于后续 clean-room build 和部署验证。当前公开说明不声称 Docker runtime 已经完整通过；只有在远程 CI 或本地 Docker daemon 实际构建、启动和健康检查成功后，才应更新为 Docker Compose Quick Start。
+The public snapshot includes a reproducible subset of the internal test suite. Private-data, model-asset and internal benchmark dependent tests are excluded from this repository.
 
-## Tests and Evidence
-
-历史本地验证证据属于指定 commit 和本地验证环境：
-
-| Evidence | Result |
+| Evidence | Current public status |
 |---|---|
-| Python tests | 407 passed |
-| Java tests | 20 passed |
-| 90-minute active soak | passed |
-| External isolation audit | passed |
-| Security hygiene audit | passed |
-| Local runtime gate | passed |
-| Full enterprise gate | not passed |
-| Docker runtime | pending verification |
-
-这些结果用于说明工程验证过程，不代表生产安全认证或商业部署结论。
-
-公开快照排除了依赖私有本地脚本、真实世界数据接入、原始 benchmark 资产、模型文件和完整 soak 明细日志的测试；这些资产按开源边界保留在 Git 之外。
-`ai-service/pytest.ini` 将默认测试集限定为可公开复现的核心 API、schema、Agent、tenant isolation 和 provider wiring 测试。
+| Public Python test suite | Verified locally; see `docs/PUBLIC_RELEASE_HARDENING.md` for the latest run |
+| Java unit tests | Must be reported separately from packaging |
+| Java packaging | Verified separately with `mvn -DskipTests package` |
+| Admin production build | Verified locally with `npm ci` and `npm run build:prod` |
+| Customer production build | Verified locally with `npm ci` and `npm run build:prod` |
+| Local gitleaks scan | Reported as pass only when the local `gitleaks` binary actually runs |
+| GitHub Actions | Configured; pending first remote run until repository publication |
+| Docker runtime | Pending verification |
+| Production readiness | Not claimed |
 
 ## AI Capability Boundaries
 
-- Rule / Mock Mode：核心业务演示默认可使用规则能力，不依赖大模型权重。
-- Local Text Model Experiment：用于结构化输出和本地模型实验，模型权重不在仓库内。
-- Local VLM Experiment：用于图文评论研究，真实图片和模型文件不公开。
-- Synthetic SFT Experiment：只保留工程代码和公开说明，不公开私有训练集、adapter 或 checkpoint。
-- Enterprise RAG Experiment：BGE-M3 + FAISS 属于高级实验模块，不是交易主链路依赖。
+- Rule/mock mode is sufficient for the core business demo and does not require model weights.
+- Local text-model, VLM and RAG paths are experimental and optional.
+- Model weights, adapters, checkpoints, FAISS indexes and private datasets are intentionally excluded.
+- AI output is decision support. Important operational decisions should still keep human review.
 
-AI 输出用于辅助风险识别，重要运营处置仍保留人工确认。
+## Docker Compose
 
-## Readiness Status
+Docker Compose configuration is included for future clean-room validation. This repository currently does not claim Docker runtime verification until an actual build, startup and health-check run is completed in CI or a clean local Docker environment.
 
-| Capability | Status |
-|---|---|
-| Customer review loop | Complete |
-| Agent inspection | Complete |
-| Risk workflow | Complete |
-| Python tests | Passed |
-| Java tests | Passed |
-| Active soak | Passed |
-| Local runtime gate | Passed |
-| Docker static config | Passed |
-| Docker runtime | Pending verification |
-| Enterprise pilot ready | Not claimed |
-| Production ready | Not claimed |
+## Open Source Scope
 
-## Screenshots
+This is a sanitized public snapshot. It excludes:
 
-Safe demo screenshots can be added under `docs/images/` later. Recommended filenames:
+- internal Git history;
+- model weights, adapters and checkpoints;
+- private datasets and raw training data;
+- full benchmark corpora;
+- real user data and database backups;
+- FAISS or other large index binaries;
+- detailed soak raw logs;
+- screenshots containing personal information, secrets or local paths.
 
-- `customer-product-page.png`
-- `customer-review-submit.png`
-- `admin-ai-dashboard.png`
-- `agent-inspection-center.png`
-- `risk-task-center.png`
-- `operation-workflow.png`
+See [docs/OPEN_SOURCE_SCOPE.md](docs/OPEN_SOURCE_SCOPE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-Do not upload screenshots containing personal information, local paths, emails, tokens, phone numbers or real user data.
+## Security
 
-## Roadmap
-
-- CI clean-room build
-- Docker runtime verification
-- Automated business E2E test
-- OpenTelemetry observability
-- Backup and restore drill
-- SBOM and dependency scanning
-- AI online quality monitoring
-
-## Open Source Notice
-
-This repository is for learning, graduation project demonstration, engineering practice and technical communication. It is based on litemall and retains the upstream MIT license notice. Payment, logistics and refund features are demo implementations. Do not use it directly in a real production environment without independent security, privacy and operational review.
+Do not publish passwords, tokens, cookies, database dumps, private keys, real user data or screenshots containing sensitive information. See [SECURITY.md](SECURITY.md).
 
 ## License
 
-Licensed under the MIT License. See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+This snapshot retains the upstream litemall MIT license boundary and adds E-Review Agent project files under the repository license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
