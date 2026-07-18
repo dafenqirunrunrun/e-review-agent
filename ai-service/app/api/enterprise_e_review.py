@@ -52,7 +52,15 @@ def metrics() -> dict:
 
 @router.get("/runtime-status")
 def runtime_status() -> dict:
-    return _config.safe_public_status()
+    data = _config.safe_public_status()
+    data.update({
+        "runtimeMode": "public-rule",
+        "engineType": "rule",
+        "modelLoaded": False,
+        "privateAssetsRequired": False,
+        "schemaVersion": E_REVIEW_DECISION_SCHEMA_VERSION,
+    })
+    return data
 
 
 def _analyze(payload: EnterpriseAnalyzeRequest, rag: bool) -> dict:

@@ -166,9 +166,17 @@ class LlmReviewService:
         response.latency_ms = response.latency_ms or 0
         response.need_human_review = need_review
         response.missing_information = ["缺少可验证图片或订单上下文"] if need_review and not payload.image_urls else []
-        response.extra = dict(response.extra or {}, risk_type=risk_type, requested_provider=requested.provider_name)
-        if requested.provider_name != "local_rule_fallback":
-            self._append_trace(response, "LocalRuleFallbackTool", local.provider_name, 0, "success", None)
+        response.extra = dict(
+            response.extra or {},
+            risk_type=risk_type,
+            requested_provider=requested.provider_name,
+            engineType="rule",
+            runtimeMode="public-rule",
+            analyzerVersion="public-rule-v1",
+            schemaVersion="2.0.0",
+            fallbackUsed=response.fallback_used,
+        )
+        self._append_trace(response, "PublicRuleRuntimeTool", local.provider_name, 0, "success", None)
         return response
 
     def _prompt_context(self, payload: ReviewAnalyzeRequest, rag_context: Dict[str, object]) -> Dict[str, object]:

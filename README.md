@@ -188,7 +188,26 @@ The public snapshot includes a reproducible subset of the internal test suite. P
 
 ## Docker Compose
 
-Docker Compose configuration is included for future clean-room validation. This repository currently does not claim Docker runtime verification until an actual build, startup and health-check run is completed in CI or a clean local Docker environment.
+Public Docker runtime verification is implemented in `compose.public.yml` and `.github/workflows/public-runtime-ci.yml`.
+
+```bash
+docker compose -f compose.public.yml config
+docker compose -f compose.public.yml build
+docker compose -p ereview-public-local -f compose.public.yml up -d
+PUBLIC_COMPOSE_PROJECT=ereview-public-local python scripts/ci/wait_for_public_runtime.py
+python scripts/ci/public_business_smoke.py
+PUBLIC_COMPOSE_PROJECT=ereview-public-local python scripts/ci/public_ai_unavailable_smoke.py
+docker compose -p ereview-public-local -f compose.public.yml down -v --remove-orphans
+```
+
+Public Docker verification uses a deterministic public rule engine so the business workflow can be reproduced without private model assets. This mode does not represent the private local-model or Enterprise RAG runtime.
+
+Runtime docs:
+
+- [Public Runtime Audit](docs/runtime/PUBLIC_RUNTIME_AUDIT.md)
+- [Public Docker Runbook](docs/runtime/PUBLIC_DOCKER_RUNBOOK.md)
+- [Public Business E2E](docs/runtime/PUBLIC_BUSINESS_E2E.md)
+- [Public Runtime Limitations](docs/runtime/PUBLIC_RUNTIME_LIMITATIONS.md)
 
 ## Open Source Scope
 

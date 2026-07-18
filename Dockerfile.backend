@@ -1,0 +1,30 @@
+FROM maven:3.8.8-eclipse-temurin-8 AS build
+
+WORKDIR /workspace
+COPY pom.xml ./
+COPY litemall-core ./litemall-core
+COPY litemall-db ./litemall-db
+COPY litemall-wx-api ./litemall-wx-api
+COPY litemall-admin-api ./litemall-admin-api
+COPY litemall-all ./litemall-all
+RUN mkdir -p litemall-admin/dist litemall-vue/dist \
+    && mvn -pl litemall-all -am -DskipTests package
+
+FROM eclipse-temurin:8u412-b08-jre-jammy
+
+ENV SPRING_PROFILES_ACTIVE=db,core,admin,wx \
+    SERVER_PORT=8080
+
+WORKDIR /app
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl \
+    && rm -rf /var/lib/apt/lists/* \
+    && groupadd --system ereview \
+    && useradd --system --gid ereview --home-dir /app ereview
+COPY --from=build /workspace/litemall-all/target/litemall-all-0.1.0-exec.jar /app/litemall-all.jar
+RUN chown -R ereview:ereview /app
+USER ereview
+
+EXPOSE 8080
+HEALTHCHECK --interval=20s --timeout=5s --retries=15 CMD java -version >/dev/null 2>&1 && curl -fsS http://127.0.0.1:8080/public/runtime/ready >/dev/null || exit 1
+ENTRYPOINT ["java", "-jar", "/app/litemall-all.jar"]
