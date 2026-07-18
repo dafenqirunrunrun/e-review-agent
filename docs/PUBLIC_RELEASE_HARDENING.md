@@ -97,8 +97,8 @@ Remote result: PASS in public-runtime-ci run 29656286535
 |---|---:|---|---|
 | Public CI | `29650925931` | PASS | `repository-hygiene`, `java-test`, `python-test`, `admin-build` and `customer-build` all succeeded |
 | Secret Scan | `29650925951` | PASS | gitleaks workspace scan succeeded |
-| Public CI | `29656286537` | PASS | Current PR head `c97673e`; `repository-hygiene`, `java-test`, `python-test`, `admin-build` and `customer-build` all succeeded |
-| Secret Scan | `29656286534` | PASS | Current PR head `c97673e`; gitleaks workspace scan succeeded |
+| Public CI | `29656286537` | PASS | Runtime implementation commit `c97673e`; `repository-hygiene`, `java-test`, `python-test`, `admin-build` and `customer-build` all succeeded |
+| Secret Scan | `29656286534` | PASS | Runtime implementation commit `c97673e`; gitleaks workspace scan succeeded |
 | Public Runtime CI | `29656286535` | PASS | Compose config/build/up, service health, business E2E, AI unavailable recovery smoke and phase-2 gate all succeeded |
 
 Previous failed publication attempts were remediated by:

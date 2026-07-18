@@ -204,7 +204,7 @@ docker compose -p ereview-public-local -f compose.public.yml down -v --remove-or
 
 Public Docker verification uses a deterministic public rule engine so the business workflow can be reproduced without private model assets. This mode does not represent the private local-model or Enterprise RAG runtime.
 
-Latest remote runtime verification:
+Remote runtime implementation verification:
 
 - Public Runtime CI: PASS, run `29656286535`, job `public-runtime-phase2`.
 - Public CI: PASS, run `29656286537`, jobs `repository-hygiene`, `java-test`, `python-test`, `admin-build`, `customer-build`.
