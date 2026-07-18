@@ -6,6 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.linlinjava.litemall.admin.util.PublicRuntimeMetrics;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -48,6 +49,30 @@ public class PublicRuntimeHealthController {
             data.put("status", "not_ready");
             data.put("mysql", "failed");
             data.put("error", e.getClass().getSimpleName() + ": " + e.getMessage());
+        }
+        return data;
+    }
+
+    @GetMapping("/metrics")
+    public Map<String, Object> metrics() {
+        Map<String, Object> data = new HashMap<String, Object>();
+        data.put("service", "litemall-all");
+        data.put("runtimeMetrics", PublicRuntimeMetrics.snapshot());
+        try {
+            Integer patrolTotal = jdbcTemplate.queryForObject("select count(*) from litemall_ai_patrol_log where deleted = 0", Integer.class);
+            Integer patrolFailureTotal = jdbcTemplate.queryForObject("select count(*) from litemall_ai_patrol_log where deleted = 0 and failed_count > 0", Integer.class);
+            Integer analysisTotal = jdbcTemplate.queryForObject("select count(*) from litemall_review_ai_analysis where deleted = 0", Integer.class);
+            Integer pendingRiskTotal = jdbcTemplate.queryForObject("select count(*) from litemall_ai_review_risk_task where deleted = 0 and status = 'pending'", Integer.class);
+            Integer riskCreatedTotal = jdbcTemplate.queryForObject("select count(*) from litemall_ai_review_risk_task where deleted = 0", Integer.class);
+            data.put("agentScanTotal", patrolTotal);
+            data.put("agentScanFailureTotal", patrolFailureTotal);
+            data.put("aiAnalysisStoredTotal", analysisTotal);
+            data.put("riskTaskCreatedTotal", riskCreatedTotal);
+            data.put("pendingRiskTaskTotal", pendingRiskTotal);
+            data.put("status", "ok");
+        } catch (Exception e) {
+            data.put("status", "degraded");
+            data.put("errorCode", e.getClass().getSimpleName());
         }
         return data;
     }
