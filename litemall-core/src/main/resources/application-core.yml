@@ -43,7 +43,7 @@ litemall:
       - name: refund
         templateId: 159447
       tencent:
-        appid: ${LITEMALL_TENCENT_SMS_APP_ID:change_me}
+        appid: ${LITEMALL_TENCENT_SMS_APP_ID:0}
         appkey: ${LITEMALL_TENCENT_SMS_APP_KEY:change_me}
       aliyun:
         regionId: xxx
