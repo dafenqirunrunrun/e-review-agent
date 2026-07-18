@@ -100,7 +100,7 @@ e-review-agent/
 |-- litemall-core/       # Shared Java configuration and infrastructure
 |-- litemall-all/        # Combined Spring Boot entry
 |-- docs/                # Public project documentation
-`-- docker-compose.yml   # Compose configuration; runtime evidence pending
+`-- compose.public.yml   # Public Docker Compose runtime used by CI
 ```
 
 ## Quick Start
@@ -176,7 +176,9 @@ The public snapshot includes a reproducible subset of the internal test suite. P
 | Customer production build | PASS in GitHub Actions `public-ci` run `29650925931` |
 | Local gitleaks scan | PASS locally with gitleaks `8.24.3` during publication hardening |
 | GitHub gitleaks workflow | PASS in GitHub Actions `secret-scan` run `29650925951` |
-| Docker runtime | Pending verification |
+| Public Docker runtime | PASS in GitHub Actions `public-runtime-ci` run `29656286535` |
+| Customer-to-Agent E2E smoke | PASS in GitHub Actions `public-runtime-ci` run `29656286535` |
+| AI unavailable/recovery smoke | PASS in GitHub Actions `public-runtime-ci` run `29656286535` |
 | Production readiness | Not claimed |
 
 ## AI Capability Boundaries
@@ -201,6 +203,13 @@ docker compose -p ereview-public-local -f compose.public.yml down -v --remove-or
 ```
 
 Public Docker verification uses a deterministic public rule engine so the business workflow can be reproduced without private model assets. This mode does not represent the private local-model or Enterprise RAG runtime.
+
+Latest remote runtime verification:
+
+- Public Runtime CI: PASS, run `29656286535`, job `public-runtime-phase2`.
+- Public CI: PASS, run `29656286537`, jobs `repository-hygiene`, `java-test`, `python-test`, `admin-build`, `customer-build`.
+- Secret Scan: PASS, run `29656286534`, job `gitleaks`.
+- Draft PR: [#27](https://github.com/dafenqirunrunrun/e-review-agent/pull/27).
 
 Runtime docs:
 

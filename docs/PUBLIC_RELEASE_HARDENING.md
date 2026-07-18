@@ -8,7 +8,7 @@ This document records the public-snapshot hardening checks for the sanitized E-R
 - Internal source repository: not modified
 - Release tag: not created
 - Remote publication: completed at `https://github.com/dafenqirunrunrun/e-review-agent`
-- Remote verification: completed on `main` with GitHub Actions run IDs listed below
+- Remote verification: completed on draft PR `#27` with GitHub Actions run IDs listed below
 
 ## Security Boundary Checks
 
@@ -43,7 +43,9 @@ The public Python test suite is a reproducible subset of the internal test suite
 | Repository hygiene | PASS: GitHub Actions `public-ci` run `29650925931`, job `repository-hygiene` |
 | Local gitleaks | PASS: gitleaks `8.24.3`, no leaks found |
 | GitHub Actions secret scan | PASS: GitHub Actions `secret-scan` run `29650925951`, job `gitleaks` |
-| Docker runtime | Pending verification |
+| Public Docker runtime | PASS: GitHub Actions `public-runtime-ci` run `29656286535`, job `public-runtime-phase2` |
+| Customer-to-Agent E2E smoke | PASS: GitHub Actions `public-runtime-ci` run `29656286535` |
+| AI unavailable/recovery smoke | PASS: GitHub Actions `public-runtime-ci` run `29656286535` |
 | Production readiness | Not claimed |
 
 ## Latest Local Command Results
@@ -66,6 +68,27 @@ Result: PASS with existing Vue 2 / dependency / ESLint parser / Sass warnings
 
 gitleaks detect --source . --no-git --redact --exit-code 1
 Result: PASS locally with gitleaks 8.24.3; PASS remotely in secret-scan run 29650925951
+
+docker compose -f compose.public.yml config
+Result: PASS locally; PASS remotely in public-runtime-ci run 29656286535
+
+docker compose -f compose.public.yml build
+Remote result: PASS in public-runtime-ci run 29656286535
+
+docker compose -p <project> -f compose.public.yml up -d
+Remote result: PASS in public-runtime-ci run 29656286535
+
+python scripts/ci/wait_for_public_runtime.py
+Remote result: PASS in public-runtime-ci run 29656286535
+
+python scripts/ci/public_business_smoke.py
+Remote result: PASS in public-runtime-ci run 29656286535
+
+python scripts/ci/public_ai_unavailable_smoke.py
+Remote result: PASS in public-runtime-ci run 29656286535
+
+python scripts/readiness/run_public_runtime_phase2_gate.py
+Remote result: PASS in public-runtime-ci run 29656286535
 ```
 
 ## Remote CI Evidence
@@ -74,6 +97,9 @@ Result: PASS locally with gitleaks 8.24.3; PASS remotely in secret-scan run 2965
 |---|---:|---|---|
 | Public CI | `29650925931` | PASS | `repository-hygiene`, `java-test`, `python-test`, `admin-build` and `customer-build` all succeeded |
 | Secret Scan | `29650925951` | PASS | gitleaks workspace scan succeeded |
+| Public CI | `29656286537` | PASS | Current PR head `c97673e`; `repository-hygiene`, `java-test`, `python-test`, `admin-build` and `customer-build` all succeeded |
+| Secret Scan | `29656286534` | PASS | Current PR head `c97673e`; gitleaks workspace scan succeeded |
+| Public Runtime CI | `29656286535` | PASS | Compose config/build/up, service health, business E2E, AI unavailable recovery smoke and phase-2 gate all succeeded |
 
 Previous failed publication attempts were remediated by:
 
