@@ -90,17 +90,17 @@ flowchart TB
 
 ```text
 e-review-agent/
-├── ai-service/          # FastAPI AI service and public tests
-├── data/                # Public schemas and governance metadata
-├── litemall-admin/      # Vue 2 admin console
-├── litemall-vue/        # Vue 2 + Vant customer H5 frontend
-├── litemall-admin-api/  # Spring Boot admin API
-├── litemall-wx-api/     # Spring Boot customer API
-├── litemall-db/         # Database schema, mappers and AI SQL migrations
-├── litemall-core/       # Shared Java configuration and infrastructure
-├── litemall-all/        # Combined Spring Boot entry
-├── docs/                # Public project documentation
-└── docker-compose.yml   # Compose configuration; runtime evidence pending
+|-- ai-service/          # FastAPI AI service and public tests
+|-- data/                # Public schemas and governance metadata
+|-- litemall-admin/      # Vue 2 admin console
+|-- litemall-vue/        # Vue 2 + Vant customer H5 frontend
+|-- litemall-admin-api/  # Spring Boot admin API
+|-- litemall-wx-api/     # Spring Boot customer API
+|-- litemall-db/         # Database schema, mappers and AI SQL migrations
+|-- litemall-core/       # Shared Java configuration and infrastructure
+|-- litemall-all/        # Combined Spring Boot entry
+|-- docs/                # Public project documentation
+`-- docker-compose.yml   # Compose configuration; runtime evidence pending
 ```
 
 ## Quick Start
@@ -169,13 +169,13 @@ The public snapshot includes a reproducible subset of the internal test suite. P
 
 | Evidence | Current public status |
 |---|---|
-| Public Python test suite | Verified locally; see `docs/PUBLIC_RELEASE_HARDENING.md` for the latest run |
-| Java unit tests | Must be reported separately from packaging |
-| Java packaging | Verified separately with `mvn -DskipTests package` |
-| Admin production build | Verified locally with `npm ci` and `npm run build:prod` |
-| Customer production build | Verified locally with `npm ci` and `npm run build:prod` |
-| Local gitleaks scan | Reported as pass only when the local `gitleaks` binary actually runs |
-| GitHub Actions | Configured; pending first remote run until repository publication |
+| Public Python test suite | PASS in GitHub Actions `public-ci` run `29650925931` |
+| Java unit tests | PASS in GitHub Actions `public-ci` run `29650925931` |
+| Java packaging | PASS in GitHub Actions `public-ci` run `29650925931` |
+| Admin production build | PASS in GitHub Actions `public-ci` run `29650925931` |
+| Customer production build | PASS in GitHub Actions `public-ci` run `29650925931` |
+| Local gitleaks scan | PASS locally with gitleaks `8.24.3` during publication hardening |
+| GitHub gitleaks workflow | PASS in GitHub Actions `secret-scan` run `29650925951` |
 | Docker runtime | Pending verification |
 | Production readiness | Not claimed |
 
