@@ -16,6 +16,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+import static org.junit.Assume.assumeTrue;
+
 @WebAppConfiguration
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -27,6 +29,8 @@ public class TencentStorageTest {
 
     @Test
     public void test() throws IOException {
+        assumeTrue("External storage integration tests require LITEMALL_RUN_EXTERNAL_STORAGE_TESTS=true",
+                "true".equalsIgnoreCase(System.getenv("LITEMALL_RUN_EXTERNAL_STORAGE_TESTS")));
         String test = getClass().getClassLoader().getResource("litemall.png").getFile();
         File testFile = new File(test);
         tencentStorage.store(new FileInputStream(test), testFile.length(), "image/png", "litemall.png");

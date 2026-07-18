@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import os
 from enum import Enum
-from pathlib import Path
+from pathlib import Path, PurePosixPath, PureWindowsPath
 from typing import Any
 
 from pydantic import BaseModel, Field, ValidationError, field_validator
@@ -56,7 +56,11 @@ class EnterpriseRuntimeConfig(BaseModel):
     @field_validator("adapter_path")
     @classmethod
     def reject_absolute_adapter_path(cls, value: str | None) -> str | None:
-        if value and Path(value).is_absolute():
+        if value and (
+            Path(value).is_absolute()
+            or PureWindowsPath(value).is_absolute()
+            or PurePosixPath(value).is_absolute()
+        ):
             raise ValueError("adapter_path must not be an absolute path in Git-tracked configuration")
         return value
 

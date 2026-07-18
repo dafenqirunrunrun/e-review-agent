@@ -2,9 +2,9 @@ litemall:
   # 开发者应该设置成自己的wx相关信息
   wx:
     app-id: ${LITEMALL_WX_APP_ID:change_me}
-    app-secret: ${LITEMALL_WX_APP_SECRET:change_me}
+    app-secret: ${LITEMALL_WX_APP_SECRET:}
     mch-id: ${LITEMALL_WX_MCH_ID:change_me}
-    mch-key: ${LITEMALL_WX_MCH_KEY:change_me}
+    mch-key: ${LITEMALL_WX_MCH_KEY:}
     notify-url: http://www.example.com/wx/order/pay-notify
     # 商户证书文件路径
     # 请参考“商户证书”一节 https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=4_3
@@ -21,7 +21,7 @@ litemall:
       enable: false
       host: smtp.exmail.qq.com
       username: ${LITEMALL_MAIL_USERNAME:change_me}
-      password: ${LITEMALL_MAIL_PASSWORD:change_me}
+      password: ${LITEMALL_MAIL_PASSWORD:}
       sendfrom: ${LITEMALL_MAIL_FROM:change_me@example.com}
       sendto: ${LITEMALL_MAIL_TO:change_me@example.com}
       port: 465
@@ -44,17 +44,17 @@ litemall:
         templateId: 159447
       tencent:
         appid: ${LITEMALL_TENCENT_SMS_APP_ID:0}
-        appkey: ${LITEMALL_TENCENT_SMS_APP_KEY:change_me}
+        appkey: ${LITEMALL_TENCENT_SMS_APP_KEY:}
       aliyun:
         regionId: xxx
         accessKeyId: ${LITEMALL_ALIYUN_SMS_ACCESS_KEY_ID:change_me}
-        accessKeySecret: ${LITEMALL_ALIYUN_SMS_ACCESS_KEY_SECRET:change_me}
+        accessKeySecret: ${LITEMALL_ALIYUN_SMS_ACCESS_KEY_SECRET:}
 
   # 快鸟物流查询配置
   express:
     enable: false
     appId: "${LITEMALL_EXPRESS_APP_ID:change_me}"
-    appKey: "${LITEMALL_EXPRESS_APP_KEY:change_me}"
+    appKey: "${LITEMALL_EXPRESS_APP_KEY:}"
     vendors:
     - code: "ZTO"
       name: "中通快递"
@@ -96,18 +96,18 @@ litemall:
     aliyun:
       endpoint: oss-cn-shenzhen.aliyuncs.com
       accessKeyId: ${LITEMALL_OSS_ACCESS_KEY_ID:change_me}
-      accessKeySecret: ${LITEMALL_OSS_ACCESS_KEY_SECRET:change_me}
+      accessKeySecret: ${LITEMALL_OSS_ACCESS_KEY_SECRET:}
       bucketName: litemall
     # 腾讯对象存储配置信息
     # 请参考 https://cloud.tencent.com/document/product/436/6249
     tencent:
       secretId: ${LITEMALL_COS_SECRET_ID:change_me}
-      secretKey: ${LITEMALL_COS_SECRET_KEY:change_me}
+      secretKey: ${LITEMALL_COS_SECRET_KEY:}
       region: ${LITEMALL_COS_REGION:ap-shanghai}
       bucketName: ${LITEMALL_COS_BUCKET:litemall-demo}
     # 七牛云对象存储配置信息
     qiniu:
       endpoint: http://pd5cb6ulu.bkt.clouddn.com
       accessKey: ${LITEMALL_QINIU_ACCESS_KEY:change_me}
-      secretKey: ${LITEMALL_QINIU_SECRET_KEY:change_me}
+      secretKey: ${LITEMALL_QINIU_SECRET_KEY:}
       bucketName: litemall
