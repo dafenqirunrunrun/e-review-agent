@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallReviewAiAnalysisMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallReviewAiAnalysis">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="source_type" jdbcType="VARCHAR" property="sourceType" />
+    <result column="source_id" jdbcType="INTEGER" property="sourceId" />
+    <result column="review_id" jdbcType="VARCHAR" property="reviewId" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="review_text" jdbcType="LONGVARCHAR" property="reviewText" />
+    <result column="rating" jdbcType="INTEGER" property="rating" />
+    <result column="image_urls" jdbcType="LONGVARCHAR" property="imageUrls" />
+    <result column="sentiment_label" jdbcType="VARCHAR" property="sentimentLabel" />
+    <result column="confidence" jdbcType="DECIMAL" property="confidence" />
+    <result column="positive_score" jdbcType="DECIMAL" property="positiveScore" />
+    <result column="neutral_score" jdbcType="DECIMAL" property="neutralScore" />
+    <result column="negative_score" jdbcType="DECIMAL" property="negativeScore" />
+    <result column="evidence_json" jdbcType="LONGVARCHAR" property="evidenceJson" />
+    <result column="similar_cases_json" jdbcType="LONGVARCHAR" property="similarCasesJson" />
+    <result column="agent_suggestion_json" jdbcType="LONGVARCHAR" property="agentSuggestionJson" />
+    <result column="workflow_trace_json" jdbcType="LONGVARCHAR" property="workflowTraceJson" />
+    <result column="add_time" jdbcType="TIMESTAMP" property="addTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="deleted" jdbcType="BIT" property="deleted" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, source_type, source_id, review_id, product_id, product_name, review_text, rating, image_urls, sentiment_label,
+    confidence, positive_score, neutral_score, negative_score, evidence_json, similar_cases_json,
+    agent_suggestion_json, workflow_trace_json, add_time, update_time, deleted
+  </sql>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallReviewAiAnalysis" useGeneratedKeys="true" keyProperty="id">
+    insert into litemall_review_ai_analysis
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="reviewId != null">review_id,</if>
+      <if test="sourceType != null">source_type,</if>
+      <if test="sourceId != null">source_id,</if>
+      <if test="productId != null">product_id,</if>
+      <if test="productName != null">product_name,</if>
+      <if test="reviewText != null">review_text,</if>
+      <if test="rating != null">rating,</if>
+      <if test="imageUrls != null">image_urls,</if>
+      <if test="sentimentLabel != null">sentiment_label,</if>
+      <if test="confidence != null">confidence,</if>
+      <if test="positiveScore != null">positive_score,</if>
+      <if test="neutralScore != null">neutral_score,</if>
+      <if test="negativeScore != null">negative_score,</if>
+      <if test="evidenceJson != null">evidence_json,</if>
+      <if test="similarCasesJson != null">similar_cases_json,</if>
+      <if test="agentSuggestionJson != null">agent_suggestion_json,</if>
+      <if test="workflowTraceJson != null">workflow_trace_json,</if>
+      <if test="addTime != null">add_time,</if>
+      <if test="updateTime != null">update_time,</if>
+      <if test="deleted != null">deleted,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="reviewId != null">#{reviewId,jdbcType=VARCHAR},</if>
+      <if test="sourceType != null">#{sourceType,jdbcType=VARCHAR},</if>
+      <if test="sourceId != null">#{sourceId,jdbcType=INTEGER},</if>
+      <if test="productId != null">#{productId,jdbcType=INTEGER},</if>
+      <if test="productName != null">#{productName,jdbcType=VARCHAR},</if>
+      <if test="reviewText != null">#{reviewText,jdbcType=LONGVARCHAR},</if>
+      <if test="rating != null">#{rating,jdbcType=INTEGER},</if>
+      <if test="imageUrls != null">#{imageUrls,jdbcType=LONGVARCHAR},</if>
+      <if test="sentimentLabel != null">#{sentimentLabel,jdbcType=VARCHAR},</if>
+      <if test="confidence != null">#{confidence,jdbcType=DECIMAL},</if>
+      <if test="positiveScore != null">#{positiveScore,jdbcType=DECIMAL},</if>
+      <if test="neutralScore != null">#{neutralScore,jdbcType=DECIMAL},</if>
+      <if test="negativeScore != null">#{negativeScore,jdbcType=DECIMAL},</if>
+      <if test="evidenceJson != null">#{evidenceJson,jdbcType=LONGVARCHAR},</if>
+      <if test="similarCasesJson != null">#{similarCasesJson,jdbcType=LONGVARCHAR},</if>
+      <if test="agentSuggestionJson != null">#{agentSuggestionJson,jdbcType=LONGVARCHAR},</if>
+      <if test="workflowTraceJson != null">#{workflowTraceJson,jdbcType=LONGVARCHAR},</if>
+      <if test="addTime != null">#{addTime,jdbcType=TIMESTAMP},</if>
+      <if test="updateTime != null">#{updateTime,jdbcType=TIMESTAMP},</if>
+      <if test="deleted != null">#{deleted,jdbcType=BIT},</if>
+    </trim>
+  </insert>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from litemall_review_ai_analysis
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+
+  <select id="querySelective" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from litemall_review_ai_analysis
+    <where>
+      deleted = 0
+      <if test="productId != null">
+        and product_id = #{productId,jdbcType=INTEGER}
+      </if>
+      <if test="sentimentLabel != null and sentimentLabel != ''">
+        and sentiment_label = #{sentimentLabel,jdbcType=VARCHAR}
+      </if>
+    </where>
+    order by add_time desc
+  </select>
+
+  <select id="findBySource" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from litemall_review_ai_analysis
+    where source_type = #{sourceType,jdbcType=VARCHAR}
+      and source_id = #{sourceId,jdbcType=INTEGER}
+      and deleted = 0
+    order by id desc
+    limit 1
+  </select>
+
+  <select id="statSummary" resultType="java.util.HashMap">
+    select
+      count(1) as totalAnalyses,
+      sum(case when date(add_time) = curdate() then 1 else 0 end) as analysesToday,
+      sum(case when sentiment_label = 'negative' then 1 else 0 end) as negativeReviews,
+      sum(case when sentiment_label = 'negative' or negative_score >= 0.65 then 1 else 0 end) as highRiskReviews,
+      sum(case when confidence is null or confidence &lt; 0.6 then 1 else 0 end) as pendingRiskReviews,
+      coalesce(avg(confidence), 0) as avgConfidence,
+      max(add_time) as lastAnalysisTime
+    from litemall_review_ai_analysis
+    where deleted = 0
+  </select>
+
+  <select id="statSentimentDistribution" resultType="java.util.HashMap">
+    select sentiment_label as name, count(1) as value
+    from litemall_review_ai_analysis
+    where deleted = 0
+    group by sentiment_label
+    order by value desc
+  </select>
+
+  <select id="statRiskTrend" resultType="java.util.HashMap">
+    select
+      date_format(add_time, '%Y-%m-%d') as day,
+      count(1) as analyses,
+      sum(case when sentiment_label = 'negative' then 1 else 0 end) as negativeReviews,
+      sum(case when sentiment_label = 'negative' or negative_score >= 0.65 then 1 else 0 end) as highRiskReviews
+    from litemall_review_ai_analysis
+    where deleted = 0
+      and add_time >= date_sub(curdate(), interval 6 day)
+    group by date_format(add_time, '%Y-%m-%d')
+    order by day asc
+  </select>
+
+  <select id="statRiskTypeDistribution" resultType="java.util.HashMap">
+    select 'negative_sentiment' as name, count(1) as value
+    from litemall_review_ai_analysis
+    where deleted = 0 and sentiment_label = 'negative'
+    union all
+    select 'low_confidence' as name, count(1) as value
+    from litemall_review_ai_analysis
+    where deleted = 0 and (confidence is null or confidence &lt; 0.6)
+    union all
+    select 'high_negative_score' as name, count(1) as value
+    from litemall_review_ai_analysis
+    where deleted = 0 and negative_score >= 0.65
+  </select>
+
+  <select id="statTopRiskProducts" resultType="java.util.HashMap">
+    select
+      product_id as productId,
+      product_name as productName,
+      count(1) as riskCount,
+      coalesce(avg(confidence), 0) as avgConfidence
+    from litemall_review_ai_analysis
+    where deleted = 0
+      and (sentiment_label = 'negative' or negative_score >= 0.65 or confidence &lt; 0.6)
+    group by product_id, product_name
+    order by riskCount desc, product_id desc
+    limit 5
+  </select>
+</mapper>

@@ -1,0 +1,55 @@
+mode_version: "1.0"
+
+project_mode: private_noncommercial_research
+
+scope:
+  local_machine_only: true
+  noncommercial_only: true
+  public_release_allowed: false
+  public_dataset_redistribution_allowed: false
+  model_weight_distribution_allowed: false
+  formal_external_benchmark_allowed: false
+  formal_research_claim_allowed: false
+
+allowed_activities:
+  local_code_development: true
+  local_model_inference: true
+  local_rag_evaluation: true
+  private_exploratory_evaluation: true
+  synthetic_data_training: true
+  synthetic_data_evaluation: true
+  public_pilot_local_read_only: true
+  public_pilot_compatibility_testing: true
+  local_result_storage: true
+
+blocked_activities:
+  access_control_bypass: true
+  commercial_platform_scraping: true
+  restricted_data_redistribution: true
+  raw_personal_data_publication: true
+  public_pilot_formal_benchmark: true
+  public_pilot_model_training: true
+  public_pilot_sft: true
+  public_pilot_dpo: true
+  public_pilot_vlm_training: true
+  public_release: true
+  formal_external_evaluation: true
+
+training_policy:
+  project_owned_synthetic_training_allowed: true
+  explicitly_authorized_real_training_allowed: true
+  conditionally_approved_public_pilot_training_allowed: false
+  unknown_source_training_allowed: false
+  private_pilot_training_allowed: false
+
+data_policy:
+  raw_data_must_remain_local: true
+  public_pilot_must_remain_git_external: true
+  pii_must_not_enter_git: true
+  images_with_uncertain_privacy_must_not_enter_models: true
+  source_terms_still_apply: true
+
+legal_status:
+  legal_certification: false
+  legal_advice_provided: false
+  internal_workflow_scope_only: true

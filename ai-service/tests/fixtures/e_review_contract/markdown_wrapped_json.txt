@@ -1,0 +1,3 @@
+```json
+{"schema_version":"v2.0.0","risk_type":"normal_review","risk_level":"low","text_evidence":["synthetic markdown"],"visual_evidence":[],"retrieved_case_evidence":[],"need_human_review":false,"route_reason":"synthetic markdown fixture","missing_information":[],"unsupported_claims":[]}
+```

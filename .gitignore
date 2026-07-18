@@ -1,0 +1,80 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Java
+**/target/
+*.class
+*.jar
+*.war
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node
+**/node_modules/
+**/dist/
+**/.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Models and indexes
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.faiss
+checkpoints/
+adapters/
+models/
+model-cache/
+
+# Data and databases
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+backups/
+uploads/
+private-data/
+benchmark/raw/
+datasets/private/
+data/private_research/
+data/real_world/
+data/multimodal/
+data/rag/
+
+# Logs and evidence detail
+*.log
+logs/
+soak-logs/
+artifacts/raw/
+test-results/raw/
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local configuration
+application-local.yml
+application-local.yaml
+application-local.properties

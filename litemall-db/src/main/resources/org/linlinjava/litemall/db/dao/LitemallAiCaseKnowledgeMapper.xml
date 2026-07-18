@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallAiCaseKnowledgeMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallAiCaseKnowledge">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="case_title" jdbcType="VARCHAR" property="caseTitle" />
+    <result column="source_type" jdbcType="VARCHAR" property="sourceType" />
+    <result column="source_id" jdbcType="INTEGER" property="sourceId" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="comment_text" jdbcType="LONGVARCHAR" property="commentText" />
+    <result column="image_signal" jdbcType="VARCHAR" property="imageSignal" />
+    <result column="sentiment_label" jdbcType="VARCHAR" property="sentimentLabel" />
+    <result column="risk_types" jdbcType="VARCHAR" property="riskTypes" />
+    <result column="risk_level" jdbcType="VARCHAR" property="riskLevel" />
+    <result column="evidence" jdbcType="LONGVARCHAR" property="evidence" />
+    <result column="operation_result" jdbcType="LONGVARCHAR" property="operationResult" />
+    <result column="feedback_type" jdbcType="VARCHAR" property="feedbackType" />
+    <result column="tags" jdbcType="VARCHAR" property="tags" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+    <result column="deleted" jdbcType="BIT" property="deleted" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, case_title, source_type, source_id, product_id, product_name, comment_text,
+    image_signal, sentiment_label, risk_types, risk_level, evidence, operation_result,
+    feedback_type, tags, created_time, updated_time, deleted
+  </sql>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAiCaseKnowledge" useGeneratedKeys="true" keyProperty="id">
+    insert ignore into litemall_ai_case_knowledge
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="caseTitle != null">case_title,</if>
+      <if test="sourceType != null">source_type,</if>
+      <if test="sourceId != null">source_id,</if>
+      <if test="productId != null">product_id,</if>
+      <if test="productName != null">product_name,</if>
+      <if test="commentText != null">comment_text,</if>
+      <if test="imageSignal != null">image_signal,</if>
+      <if test="sentimentLabel != null">sentiment_label,</if>
+      <if test="riskTypes != null">risk_types,</if>
+      <if test="riskLevel != null">risk_level,</if>
+      <if test="evidence != null">evidence,</if>
+      <if test="operationResult != null">operation_result,</if>
+      <if test="feedbackType != null">feedback_type,</if>
+      <if test="tags != null">tags,</if>
+      <if test="createdTime != null">created_time,</if>
+      <if test="updatedTime != null">updated_time,</if>
+      <if test="deleted != null">deleted,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="caseTitle != null">#{caseTitle,jdbcType=VARCHAR},</if>
+      <if test="sourceType != null">#{sourceType,jdbcType=VARCHAR},</if>
+      <if test="sourceId != null">#{sourceId,jdbcType=INTEGER},</if>
+      <if test="productId != null">#{productId,jdbcType=INTEGER},</if>
+      <if test="productName != null">#{productName,jdbcType=VARCHAR},</if>
+      <if test="commentText != null">#{commentText,jdbcType=LONGVARCHAR},</if>
+      <if test="imageSignal != null">#{imageSignal,jdbcType=VARCHAR},</if>
+      <if test="sentimentLabel != null">#{sentimentLabel,jdbcType=VARCHAR},</if>
+      <if test="riskTypes != null">#{riskTypes,jdbcType=VARCHAR},</if>
+      <if test="riskLevel != null">#{riskLevel,jdbcType=VARCHAR},</if>
+      <if test="evidence != null">#{evidence,jdbcType=LONGVARCHAR},</if>
+      <if test="operationResult != null">#{operationResult,jdbcType=LONGVARCHAR},</if>
+      <if test="feedbackType != null">#{feedbackType,jdbcType=VARCHAR},</if>
+      <if test="tags != null">#{tags,jdbcType=VARCHAR},</if>
+      <if test="createdTime != null">#{createdTime,jdbcType=TIMESTAMP},</if>
+      <if test="updatedTime != null">#{updatedTime,jdbcType=TIMESTAMP},</if>
+      <if test="deleted != null">#{deleted,jdbcType=BIT},</if>
+    </trim>
+  </insert>
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_ai_case_knowledge
+    where id = #{id,jdbcType=INTEGER} and deleted = 0
+  </select>
+
+  <select id="querySelective" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_ai_case_knowledge
+    <where>
+      deleted = 0
+      <if test="keyword != null and keyword != ''">
+        and (case_title like concat('%', #{keyword,jdbcType=VARCHAR}, '%')
+          or product_name like concat('%', #{keyword,jdbcType=VARCHAR}, '%')
+          or comment_text like concat('%', #{keyword,jdbcType=VARCHAR}, '%')
+          or tags like concat('%', #{keyword,jdbcType=VARCHAR}, '%'))
+      </if>
+      <if test="riskLevel != null and riskLevel != ''">and risk_level = #{riskLevel,jdbcType=VARCHAR}</if>
+      <if test="sentimentLabel != null and sentimentLabel != ''">and sentiment_label = #{sentimentLabel,jdbcType=VARCHAR}</if>
+    </where>
+    order by updated_time desc, id desc
+  </select>
+
+  <select id="listForRetrieval" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_ai_case_knowledge
+    where deleted = 0
+    order by updated_time desc, id desc
+    limit 500
+  </select>
+
+  <insert id="buildFromHistory">
+    insert ignore into litemall_ai_case_knowledge(
+      case_title, source_type, source_id, product_id, product_name, comment_text, image_signal,
+      sentiment_label, risk_types, risk_level, evidence, operation_result, feedback_type, tags,
+      created_time, updated_time, deleted
+    )
+    select
+      concat('椋庨櫓妗堜緥 #', t.id) as case_title,
+      'risk_task' as source_type,
+      t.id as source_id,
+      t.product_id,
+      t.product_name,
+      t.review_text,
+      t.image_url,
+      t.sentiment_label,
+      t.risk_type,
+      t.risk_level,
+      coalesce(a.evidence_json, t.handle_note, t.review_text),
+      coalesce(t.handle_note, s.feedback_note, t.status),
+      s.feedback_type,
+      concat_ws(',', t.risk_type, t.risk_level, t.sentiment_label, t.product_name),
+      now(),
+      now(),
+      0
+    from litemall_ai_review_risk_task t
+    left join litemall_review_ai_analysis a on a.id = t.analysis_id and a.deleted = 0
+    left join (
+      select risk_task_id, max(feedback_type) feedback_type, max(feedback_note) feedback_note
+      from litemall_ai_agent_feedback
+      where deleted = 0
+      group by risk_task_id
+    ) s on s.risk_task_id = t.id
+    where t.deleted = 0
+      and t.review_text is not null
+      and t.review_text != ''
+  </insert>
+
+  <select id="statByRiskLevel" resultType="java.util.HashMap">
+    select risk_level name, count(1) value
+    from litemall_ai_case_knowledge
+    where deleted = 0
+    group by risk_level
+    order by value desc
+  </select>
+
+  <select id="statBySentiment" resultType="java.util.HashMap">
+    select sentiment_label name, count(1) value
+    from litemall_ai_case_knowledge
+    where deleted = 0
+    group by sentiment_label
+    order by value desc
+  </select>
+
+  <select id="countActive" resultType="int">
+    select count(1) from litemall_ai_case_knowledge where deleted = 0
+  </select>
+</mapper>

@@ -1,0 +1,346 @@
+.ai-workbench-page {
+  min-height: calc(100vh - 84px);
+  margin: -20px;
+  padding: 24px;
+  background: #f5f7fb;
+  color: #1f2937;
+
+  .ai-page-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .ai-page-kicker {
+    margin: 0 0 8px;
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .ai-page-title {
+    margin: 0;
+    color: #111827;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .ai-page-subtitle {
+    max-width: 760px;
+    margin: 8px 0 0;
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .ai-boundary-note {
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 7px 10px;
+    color: #475569;
+    background: #f8fafc;
+    border: 1px solid #dbeafe;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .ai-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .ai-card {
+    margin-bottom: 18px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+  }
+
+  .ai-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .ai-card-title {
+    margin: 0;
+    color: #1f2937;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .ai-card-desc {
+    margin: 4px 0 0;
+    color: #6b7280;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .ai-metric-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+  }
+
+  .ai-metric-card {
+    padding: 16px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+  }
+
+  .ai-metric-positive {
+    border-color: #bbf7d0;
+  }
+
+  .ai-metric-warning,
+  .ai-metric-medium {
+    border-color: #fde68a;
+  }
+
+  .ai-metric-danger,
+  .ai-metric-high {
+    border-color: #fecaca;
+  }
+
+  .ai-metric-label {
+    color: #64748b;
+    font-size: 13px;
+  }
+
+  .ai-metric-value {
+    margin-top: 8px;
+    color: #111827;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .ai-metric-hint {
+    margin-top: 6px;
+    color: #6b7280;
+    font-size: 12px;
+  }
+
+  .ai-metric-trend {
+    margin-top: 8px;
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .ai-status-tag {
+    display: inline-flex;
+    align-items: center;
+    height: 24px;
+    padding: 0 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .ai-status-positive {
+    background: #dcfce7;
+    color: #16a34a;
+  }
+
+  .ai-status-neutral {
+    background: #e0f2fe;
+    color: #0369a1;
+  }
+
+  .ai-status-negative,
+  .ai-status-high {
+    background: #fee2e2;
+    color: #dc2626;
+  }
+
+  .ai-status-medium {
+    background: #fef3c7;
+    color: #b45309;
+  }
+
+  .ai-status-low {
+    background: #e0f2fe;
+    color: #2563eb;
+  }
+
+  .ai-empty-state {
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: #6b7280;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    border: 1px dashed #cbd5e1;
+    border-radius: 8px;
+  }
+
+  .ai-empty-state i {
+    color: #2563eb;
+    font-size: 42px;
+  }
+
+  .ai-advice-note {
+    margin: 12px 0 0;
+    padding: 10px 12px;
+    color: #475569;
+    font-size: 12px;
+    line-height: 1.6;
+    background: #f8fafc;
+    border: 1px solid #dbeafe;
+    border-left: 4px solid #2563eb;
+    border-radius: 8px;
+  }
+
+  .ai-flow-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+  }
+
+  .ai-flow-step {
+    min-height: 112px;
+    padding: 14px;
+    text-align: left;
+    color: #475569;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color .2s, box-shadow .2s, transform .2s;
+
+    &:hover,
+    &.active {
+      border-color: #2563eb;
+      box-shadow: 0 10px 24px rgba(37, 99, 235, 0.12);
+      transform: translateY(-1px);
+    }
+
+    strong,
+    em {
+      display: block;
+    }
+
+    strong {
+      margin-top: 10px;
+      color: #111827;
+      font-size: 15px;
+      font-style: normal;
+    }
+
+    em {
+      margin-top: 6px;
+      color: #64748b;
+      font-size: 12px;
+      font-style: normal;
+      line-height: 1.5;
+    }
+  }
+
+  .ai-flow-index {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+    background: #2563eb;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .ai-quick-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .ai-section-note {
+    margin: 0 0 14px;
+    padding: 10px 12px;
+    color: #475569;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .ai-embedded-panel {
+    margin-top: 14px;
+  }
+
+  .ai-embedded-panel > .ai-workbench-page {
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+  }
+
+  .ai-advanced-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+  }
+
+  .ai-advanced-card {
+    padding: 16px;
+    color: #475569;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+
+    strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #111827;
+      font-size: 15px;
+    }
+
+    span {
+      display: block;
+      min-height: 38px;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+  }
+}
+
+.ai-placeholder-page {
+  .ai-placeholder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ai-workbench-page {
+    margin: -10px;
+    padding: 14px;
+
+    .ai-page-header {
+      display: block;
+    }
+
+    .ai-toolbar {
+      justify-content: flex-start;
+      margin-top: 14px;
+    }
+  }
+}

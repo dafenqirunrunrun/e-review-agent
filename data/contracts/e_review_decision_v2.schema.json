@@ -1,0 +1,127 @@
+{
+  "$defs": {
+    "RetrievedCaseEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "case_id": {
+          "minLength": 1,
+          "title": "Case Id",
+          "type": "string"
+        },
+        "reason": {
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "case_id",
+        "reason"
+      ],
+      "title": "RetrievedCaseEvidence",
+      "type": "object"
+    },
+    "RiskLevel": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "RiskLevel",
+      "type": "string"
+    },
+    "RiskType": {
+      "enum": [
+        "normal_review",
+        "negative_review",
+        "after_sales_risk"
+      ],
+      "title": "RiskType",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "v2.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "risk_type": {
+      "$ref": "#/$defs/RiskType"
+    },
+    "risk_level": {
+      "$ref": "#/$defs/RiskLevel"
+    },
+    "text_evidence": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Text Evidence",
+      "type": "array"
+    },
+    "visual_evidence": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Visual Evidence",
+      "type": "array"
+    },
+    "retrieved_case_evidence": {
+      "items": {
+        "$ref": "#/$defs/RetrievedCaseEvidence"
+      },
+      "title": "Retrieved Case Evidence",
+      "type": "array"
+    },
+    "need_human_review": {
+      "title": "Need Human Review",
+      "type": "boolean"
+    },
+    "route_reason": {
+      "minLength": 1,
+      "title": "Route Reason",
+      "type": "string"
+    },
+    "missing_information": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Missing Information",
+      "type": "array"
+    },
+    "unsupported_claims": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Unsupported Claims",
+      "type": "array"
+    }
+  },
+  "required": [
+    "risk_type",
+    "risk_level",
+    "text_evidence",
+    "need_human_review",
+    "route_reason",
+    "missing_information",
+    "unsupported_claims"
+  ],
+  "title": "EReviewDecision",
+  "type": "object",
+  "$id": "e_review_decision:v2.0.0",
+  "x-schema-name": "e_review_decision",
+  "x-schema-version": "v2.0.0",
+  "x-canonical-field-order": [
+    "schema_version",
+    "risk_type",
+    "risk_level",
+    "text_evidence",
+    "visual_evidence",
+    "retrieved_case_evidence",
+    "need_human_review",
+    "route_reason",
+    "missing_information",
+    "unsupported_claims"
+  ]
+}

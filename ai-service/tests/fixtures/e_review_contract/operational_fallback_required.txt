@@ -1,0 +1,1 @@
+This synthetic fixture does not contain JSON and must use operational fallback.

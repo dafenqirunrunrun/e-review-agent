@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallAiCaseRetrievalLogMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallAiCaseRetrievalLog">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="run_id" jdbcType="INTEGER" property="runId" />
+    <result column="source_type" jdbcType="VARCHAR" property="sourceType" />
+    <result column="source_id" jdbcType="INTEGER" property="sourceId" />
+    <result column="query_text" jdbcType="LONGVARCHAR" property="queryText" />
+    <result column="retrieved_case_ids" jdbcType="VARCHAR" property="retrievedCaseIds" />
+    <result column="top_k" jdbcType="INTEGER" property="topK" />
+    <result column="retrieval_mode" jdbcType="VARCHAR" property="retrievalMode" />
+    <result column="duration_ms" jdbcType="BIGINT" property="durationMs" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="deleted" jdbcType="BIT" property="deleted" />
+  </resultMap>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAiCaseRetrievalLog" useGeneratedKeys="true" keyProperty="id">
+    insert into litemall_ai_case_retrieval_log
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="runId != null">run_id,</if>
+      <if test="sourceType != null">source_type,</if>
+      <if test="sourceId != null">source_id,</if>
+      <if test="queryText != null">query_text,</if>
+      <if test="retrievedCaseIds != null">retrieved_case_ids,</if>
+      <if test="topK != null">top_k,</if>
+      <if test="retrievalMode != null">retrieval_mode,</if>
+      <if test="durationMs != null">duration_ms,</if>
+      <if test="createdTime != null">created_time,</if>
+      <if test="deleted != null">deleted,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="runId != null">#{runId,jdbcType=INTEGER},</if>
+      <if test="sourceType != null">#{sourceType,jdbcType=VARCHAR},</if>
+      <if test="sourceId != null">#{sourceId,jdbcType=INTEGER},</if>
+      <if test="queryText != null">#{queryText,jdbcType=LONGVARCHAR},</if>
+      <if test="retrievedCaseIds != null">#{retrievedCaseIds,jdbcType=VARCHAR},</if>
+      <if test="topK != null">#{topK,jdbcType=INTEGER},</if>
+      <if test="retrievalMode != null">#{retrievalMode,jdbcType=VARCHAR},</if>
+      <if test="durationMs != null">#{durationMs,jdbcType=BIGINT},</if>
+      <if test="createdTime != null">#{createdTime,jdbcType=TIMESTAMP},</if>
+      <if test="deleted != null">#{deleted,jdbcType=BIT},</if>
+    </trim>
+  </insert>
+
+  <select id="queryRecent" resultMap="BaseResultMap">
+    select id, run_id, source_type, source_id, query_text, retrieved_case_ids, top_k,
+      retrieval_mode, duration_ms, created_time, deleted
+    from litemall_ai_case_retrieval_log
+    where deleted = 0
+    order by id desc
+    limit 100
+  </select>
+
+  <select id="statSummary" resultType="java.util.HashMap">
+    select
+      count(1) retrievalCount,
+      coalesce(round(avg(duration_ms)), 0) avgDurationMs,
+      sum(case when retrieved_case_ids is null or retrieved_case_ids = '' then 1 else 0 end) emptyRetrievalCount
+    from litemall_ai_case_retrieval_log
+    where deleted = 0
+  </select>
+</mapper>

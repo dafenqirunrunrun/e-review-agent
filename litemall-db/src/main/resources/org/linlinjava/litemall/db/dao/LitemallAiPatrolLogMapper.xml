@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallAiPatrolLogMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallAiPatrolLog">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="task_batch_no" jdbcType="VARCHAR" property="taskBatchNo" />
+    <result column="start_time" jdbcType="TIMESTAMP" property="startTime" />
+    <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+    <result column="scan_count" jdbcType="INTEGER" property="scanCount" />
+    <result column="success_count" jdbcType="INTEGER" property="successCount" />
+    <result column="failed_count" jdbcType="INTEGER" property="failedCount" />
+    <result column="high_risk_count" jdbcType="INTEGER" property="highRiskCount" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="error_message" jdbcType="VARCHAR" property="errorMessage" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, task_batch_no, start_time, end_time, scan_count, success_count, failed_count,
+    high_risk_count, status, error_message, created_time
+  </sql>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAiPatrolLog" useGeneratedKeys="true" keyProperty="id">
+    insert into litemall_ai_patrol_log
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="taskBatchNo != null">task_batch_no,</if>
+      <if test="startTime != null">start_time,</if>
+      <if test="endTime != null">end_time,</if>
+      <if test="scanCount != null">scan_count,</if>
+      <if test="successCount != null">success_count,</if>
+      <if test="failedCount != null">failed_count,</if>
+      <if test="highRiskCount != null">high_risk_count,</if>
+      <if test="status != null">status,</if>
+      <if test="errorMessage != null">error_message,</if>
+      <if test="createdTime != null">created_time,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="taskBatchNo != null">#{taskBatchNo,jdbcType=VARCHAR},</if>
+      <if test="startTime != null">#{startTime,jdbcType=TIMESTAMP},</if>
+      <if test="endTime != null">#{endTime,jdbcType=TIMESTAMP},</if>
+      <if test="scanCount != null">#{scanCount,jdbcType=INTEGER},</if>
+      <if test="successCount != null">#{successCount,jdbcType=INTEGER},</if>
+      <if test="failedCount != null">#{failedCount,jdbcType=INTEGER},</if>
+      <if test="highRiskCount != null">#{highRiskCount,jdbcType=INTEGER},</if>
+      <if test="status != null">#{status,jdbcType=VARCHAR},</if>
+      <if test="errorMessage != null">#{errorMessage,jdbcType=VARCHAR},</if>
+      <if test="createdTime != null">#{createdTime,jdbcType=TIMESTAMP},</if>
+    </trim>
+  </insert>
+
+  <select id="queryLatest" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from litemall_ai_patrol_log
+    order by created_time desc
+    limit 20
+  </select>
+</mapper>

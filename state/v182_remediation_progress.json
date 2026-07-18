@@ -1,0 +1,147 @@
+{
+  "status": "V182_RESUMABLE_REMEDIATION_PASS",
+  "branch": "experiment/v1.8.2-readiness-blocker-remediation",
+  "start_head": "e640dff5f6660c607e0a3bc12ba79bc37ddd2aaa",
+  "training_executed": false,
+  "closed_holdout_accessed": false,
+  "tag_created": false,
+  "pushed": false,
+  "phases": {
+    "0_baseline": {
+      "status": "PASS",
+      "started_at": "2026-07-17T10:00:00+08:00",
+      "finished_at": "2026-07-17T10:10:00+08:00",
+      "elapsed_seconds": 600,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 3,
+      "blocked_reason": null
+    },
+    "1_claim_freeze": {
+      "status": "PASS",
+      "started_at": "2026-07-17T10:10:00+08:00",
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "2_dense_path_remediation": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "3_benchmark_provenance": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "4_retrieval_rebenchmark": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "5_soak_instrumentation": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "6_active_90_minute_soak": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "7_java_test_enablement": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "8_docker_compose_repair": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "9_docker_runtime": {
+      "status": "UNAVAILABLE",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": "Docker Desktop daemon unavailable"
+    },
+    "10_regression": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "11_independent_gate": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    },
+    "12_closure": {
+      "status": "PASS",
+      "started_at": null,
+      "finished_at": "2026-07-18T03:20:00+08:00",
+      "elapsed_seconds": 0,
+      "command_hashes": [],
+      "artifact_hashes": [],
+      "real_execution_count": 0,
+      "blocked_reason": null
+    }
+  },
+  "final_gate": "V182_LOCAL_RUNTIME_READINESS_PASS",
+  "full_enterprise_gate": false,
+  "local_runtime_gate": true,
+  "pytest": "407 passed in 241.74s",
+  "isolation": "EXTERNAL_TEST_ISOLATION_AUDIT_PASS",
+  "security": "SECURITY_HYGIENE_CHECK_PASS"
+}

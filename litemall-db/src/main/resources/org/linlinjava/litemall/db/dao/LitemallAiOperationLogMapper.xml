@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallAiOperationLogMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallAiOperationLog">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="risk_task_id" jdbcType="INTEGER" property="riskTaskId" />
+    <result column="action_type" jdbcType="VARCHAR" property="actionType" />
+    <result column="old_status" jdbcType="VARCHAR" property="oldStatus" />
+    <result column="new_status" jdbcType="VARCHAR" property="newStatus" />
+    <result column="operator" jdbcType="VARCHAR" property="operator" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+  </resultMap>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAiOperationLog" useGeneratedKeys="true" keyProperty="id">
+    insert into litemall_ai_operation_log
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="riskTaskId != null">risk_task_id,</if>
+      <if test="actionType != null">action_type,</if>
+      <if test="oldStatus != null">old_status,</if>
+      <if test="newStatus != null">new_status,</if>
+      <if test="operator != null">operator,</if>
+      <if test="note != null">note,</if>
+      <if test="createdTime != null">created_time,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="riskTaskId != null">#{riskTaskId,jdbcType=INTEGER},</if>
+      <if test="actionType != null">#{actionType,jdbcType=VARCHAR},</if>
+      <if test="oldStatus != null">#{oldStatus,jdbcType=VARCHAR},</if>
+      <if test="newStatus != null">#{newStatus,jdbcType=VARCHAR},</if>
+      <if test="operator != null">#{operator,jdbcType=VARCHAR},</if>
+      <if test="note != null">#{note,jdbcType=VARCHAR},</if>
+      <if test="createdTime != null">#{createdTime,jdbcType=TIMESTAMP},</if>
+    </trim>
+  </insert>
+
+  <select id="queryByRiskTaskId" resultMap="BaseResultMap">
+    select id, risk_task_id, action_type, old_status, new_status, operator, note, created_time
+    from litemall_ai_operation_log
+    where risk_task_id = #{riskTaskId,jdbcType=INTEGER}
+    order by created_time desc
+  </select>
+
+  <select id="queryLatest" resultMap="BaseResultMap">
+    select id, risk_task_id, action_type, old_status, new_status, operator, note, created_time
+    from litemall_ai_operation_log
+    order by created_time desc
+    limit #{limit,jdbcType=INTEGER}
+  </select>
+
+  <select id="statByActionType" resultType="java.util.HashMap">
+    select action_type as name, count(*) as value
+    from litemall_ai_operation_log
+    group by action_type
+  </select>
+</mapper>

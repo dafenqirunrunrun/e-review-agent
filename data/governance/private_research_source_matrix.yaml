@@ -1,0 +1,57 @@
+synthetic_project_owned:
+  local_processing: true
+  local_inference: true
+  exploratory_evaluation: true
+  training: true
+  sft: true
+  dpo: false
+  formal_external_evaluation: false
+  redistribution: false
+  role: project_owned_synthetic_engineering_corpus
+
+amazon_reviews_2023:
+  local_processing: true
+  local_inference: true
+  exploratory_evaluation: true
+  prompt_development: true
+  training: false
+  sft: false
+  dpo: false
+  formal_external_evaluation: false
+  redistribution: false
+  role: ecommerce_compatibility_corpus
+
+asap_chinese_reviews:
+  local_processing: true
+  local_inference: true
+  exploratory_evaluation: true
+  prompt_development: true
+  training: false
+  sft: false
+  dpo: false
+  formal_external_evaluation: false
+  redistribution: false
+  role: chinese_expression_auxiliary_corpus
+
+jddc_2_multimodal:
+  local_processing: false
+  local_inference: false
+  exploratory_evaluation: false
+  training: false
+  formal_external_evaluation: false
+  redistribution: false
+  role: unavailable
+
+authorized_private_data:
+  role: authorization_manifest_controls_each_use
+
+unknown_or_untracked:
+  local_processing: false
+  local_inference: false
+  exploratory_evaluation: false
+  training: false
+  sft: false
+  dpo: false
+  formal_external_evaluation: false
+  redistribution: false
+  role: blocked_by_default

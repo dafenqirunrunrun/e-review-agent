@@ -1,0 +1,62 @@
+{
+  "version": "v1.7.0",
+  "base_commit": "213149e5",
+  "current_phase": "complete",
+  "completed_phases": [
+    "phase_0_baseline_gate",
+    "phase_1_v1612_freeze",
+    "phase_2_architecture_inventory",
+    "phase_3_runtime_adapter_shadow",
+    "phase_4_governed_rag",
+    "phase_5_agent_platform_api",
+    "phase_6_enterprise_eval",
+    "phase_7_final_regression"
+  ],
+  "failed_phase": null,
+  "hard_blocker": null,
+  "artifacts": {
+    "branch": "experiment/v1.7.0-enterprise-rag-agent-platform",
+    "v1612_freeze_json": "data/private_research/audit/v1612_final_result_freeze.json",
+    "v1612_freeze_doc": "docs/251_v170_v1612_result_freeze.md",
+    "architecture_inventory_json": "data/private_research/audit/v170_architecture_inventory.json",
+    "architecture_inventory_doc": "docs/252_v170_architecture_inventory.md",
+    "runtime_config": "ai-service/app/config/enterprise_runtime_config.py",
+    "adapter_provider": "ai-service/app/llm/enterprise_providers.py",
+    "shadow_queue": "ai-service/app/runtime/shadow_execution.py",
+    "rag_document_contract": "ai-service/app/rag/document_contract.py",
+    "rag_ingestion": "ai-service/app/rag/ingestion_pipeline.py",
+    "rag_hybrid": "ai-service/app/rag/hybrid_retriever.py",
+    "rag_evidence": "ai-service/app/rag/evidence_verifier.py",
+    "governed_agent": "ai-service/app/agent/governed_agent.py",
+    "tool_registry": "ai-service/app/agent/tool_registry.py",
+    "enterprise_api": "ai-service/app/api/enterprise_e_review.py",
+    "enterprise_eval_dataset": "data/private_research/audit/v170_enterprise_eval_dataset.json",
+    "enterprise_quality_gates": "data/private_research/audit/v170_enterprise_quality_gates.json",
+    "enterprise_docs": "docs/enterprise",
+    "portfolio_docs": "docs/portfolio"
+  },
+  "tests": {
+    "baseline_pytest": "215 passed",
+    "external_test_isolation": "EXTERNAL_TEST_ISOLATION_AUDIT_PASS",
+    "security_hygiene": "SECURITY_HYGIENE_CHECK_PASS",
+    "git_diff_check": "PASS",
+    "v170_runtime_adapter_shadow": "6 passed",
+    "v170_governed_rag": "7 passed",
+    "v170_agent_platform_api": "9 passed",
+    "v170_enterprise_eval_scripts": "1 passed",
+    "full_pytest": "238 passed",
+    "final_external_test_isolation": "EXTERNAL_TEST_ISOLATION_AUDIT_PASS",
+    "final_security_hygiene": "SECURITY_HYGIENE_CHECK_PASS"
+  },
+  "phase_status": {
+    "phase_0_baseline_gate": "PASS",
+    "phase_1_v1612_freeze": "PASS",
+    "phase_2_architecture_inventory": "PASS",
+    "phase_3_runtime_adapter_shadow": "PASS",
+    "phase_4_governed_rag": "PASS",
+    "phase_5_agent_platform_api": "PASS",
+    "phase_6_enterprise_eval": "PASS",
+    "phase_7_final_regression": "PASS"
+  },
+  "updated_at": "2026-07-17T00:00:00+08:00"
+}

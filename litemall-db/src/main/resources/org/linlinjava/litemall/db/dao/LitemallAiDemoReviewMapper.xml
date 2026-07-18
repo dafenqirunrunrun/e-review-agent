@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallAiDemoReviewMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallAiDemoReview">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="category_name" jdbcType="VARCHAR" property="categoryName" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="rating" jdbcType="INTEGER" property="rating" />
+    <result column="review_text" jdbcType="LONGVARCHAR" property="reviewText" />
+    <result column="image_url" jdbcType="VARCHAR" property="imageUrl" />
+    <result column="analysis_status" jdbcType="VARCHAR" property="analysisStatus" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+    <result column="deleted" jdbcType="BIT" property="deleted" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, product_id, product_name, category_name, nickname, rating, review_text, image_url,
+    analysis_status, created_time, updated_time, deleted
+  </sql>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAiDemoReview" useGeneratedKeys="true" keyProperty="id">
+    insert into litemall_ai_demo_review
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="productId != null">product_id,</if>
+      <if test="productName != null">product_name,</if>
+      <if test="categoryName != null">category_name,</if>
+      <if test="nickname != null">nickname,</if>
+      <if test="rating != null">rating,</if>
+      <if test="reviewText != null">review_text,</if>
+      <if test="imageUrl != null">image_url,</if>
+      <if test="analysisStatus != null">analysis_status,</if>
+      <if test="createdTime != null">created_time,</if>
+      <if test="updatedTime != null">updated_time,</if>
+      <if test="deleted != null">deleted,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="productId != null">#{productId,jdbcType=INTEGER},</if>
+      <if test="productName != null">#{productName,jdbcType=VARCHAR},</if>
+      <if test="categoryName != null">#{categoryName,jdbcType=VARCHAR},</if>
+      <if test="nickname != null">#{nickname,jdbcType=VARCHAR},</if>
+      <if test="rating != null">#{rating,jdbcType=INTEGER},</if>
+      <if test="reviewText != null">#{reviewText,jdbcType=LONGVARCHAR},</if>
+      <if test="imageUrl != null">#{imageUrl,jdbcType=VARCHAR},</if>
+      <if test="analysisStatus != null">#{analysisStatus,jdbcType=VARCHAR},</if>
+      <if test="createdTime != null">#{createdTime,jdbcType=TIMESTAMP},</if>
+      <if test="updatedTime != null">#{updatedTime,jdbcType=TIMESTAMP},</if>
+      <if test="deleted != null">#{deleted,jdbcType=BIT},</if>
+    </trim>
+  </insert>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from litemall_ai_demo_review
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+
+  <select id="querySelective" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from litemall_ai_demo_review
+    <where>
+      deleted = 0
+      <if test="productId != null">
+        and product_id = #{productId,jdbcType=INTEGER}
+      </if>
+      <if test="analysisStatus != null and analysisStatus != ''">
+        and analysis_status = #{analysisStatus,jdbcType=VARCHAR}
+      </if>
+    </where>
+    order by created_time desc
+  </select>
+
+  <select id="queryPending" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from litemall_ai_demo_review
+    where deleted = 0
+      and analysis_status = 'pending'
+    order by created_time asc
+    limit #{limit,jdbcType=INTEGER}
+  </select>
+
+  <update id="updateStatus">
+    update litemall_ai_demo_review
+    set analysis_status = #{analysisStatus,jdbcType=VARCHAR},
+        updated_time = now()
+    where id = #{id,jdbcType=INTEGER}
+      and deleted = 0
+  </update>
+
+  <select id="statByStatus" resultType="java.util.HashMap">
+    select analysis_status as name, count(*) as value
+    from litemall_ai_demo_review
+    where deleted = 0
+    group by analysis_status
+  </select>
+</mapper>

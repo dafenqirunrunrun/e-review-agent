@@ -1,0 +1,22 @@
+[
+  {
+    "case_id": "C001",
+    "review_text": "\u97f3\u8d28\u4e0d\u9519\uff0c\u4f46\u662f\u7eed\u822a\u504f\u77ed\uff0c\u6574\u4f53\u4f53\u9a8c\u4e00\u822c\u3002",
+    "sentiment_label": "neutral"
+  },
+  {
+    "case_id": "C002",
+    "review_text": "\u5305\u88c5\u5b8c\u597d\uff0c\u5546\u54c1\u5916\u89c2\u6f02\u4eae\uff0c\u4f7f\u7528\u4f53\u9a8c\u5f88\u597d\uff0c\u503c\u5f97\u63a8\u8350\u3002",
+    "sentiment_label": "positive"
+  },
+  {
+    "case_id": "C003",
+    "review_text": "\u5145\u7535\u76d2\u5f88\u5bb9\u6613\u7559\u4e0b\u6307\u7eb9\uff0c\u7eed\u822a\u8868\u73b0\u4e00\u822c\u3002",
+    "sentiment_label": "neutral"
+  },
+  {
+    "case_id": "C004",
+    "review_text": "\u6536\u5230\u540e\u53d1\u73b0\u5916\u58f3\u7834\u635f\uff0c\u5df2\u7ecf\u7533\u8bf7\u552e\u540e\u548c\u9000\u6b3e\u3002",
+    "sentiment_label": "negative"
+  }
+]

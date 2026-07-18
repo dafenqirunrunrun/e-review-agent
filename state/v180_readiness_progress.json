@@ -1,0 +1,230 @@
+{
+  "version": "v1.8.0",
+  "base_commit": "94ff37e3",
+  "current_phase": "phase_13_docker_ci_docs_final_gate",
+  "phase_status": {
+    "phase_0_baseline": "PASS",
+    "phase_1_v170_truth_audit": "PASS",
+    "phase_2_real_embedding": "PASS",
+    "phase_3_persistent_index": "PASS",
+    "phase_4_tenant_acl": "PASS",
+    "phase_5_difficult_benchmark": "PASS",
+    "phase_6_real_retrieval_evaluation": "PASS",
+    "phase_7_governed_agent_hardening": "PASS",
+    "phase_8_api_java_integration": "PASS",
+    "phase_9_security_privacy_hardening": "PASS",
+    "phase_10_observability_real_signals": "PASS",
+    "phase_11_performance_and_soak": "PASS",
+    "phase_12_failure_injection": "PASS",
+    "phase_13_docker_ci_docs_final_gate": "PASS"
+  },
+  "phase_started_at": {
+    "phase_0_baseline": "2026-07-17T00:00:00+08:00",
+    "phase_1_v170_truth_audit": "2026-07-17T00:00:00+08:00",
+    "phase_2_real_embedding": "2026-07-17T00:00:00+08:00",
+    "phase_3_persistent_index": "2026-07-17T00:00:00+08:00",
+    "phase_4_tenant_acl": "2026-07-17T00:00:00+08:00",
+    "phase_5_difficult_benchmark": "2026-07-17T00:00:00+08:00",
+    "phase_6_real_retrieval_evaluation": "2026-07-17T00:00:00+08:00",
+    "phase_7_governed_agent_hardening": "2026-07-17T00:00:00+08:00",
+    "phase_8_api_java_integration": "2026-07-17T00:00:00+08:00",
+    "phase_9_security_privacy_hardening": "2026-07-17T00:00:00+08:00",
+    "phase_10_observability_real_signals": "2026-07-17T00:00:00+08:00",
+    "phase_11_performance_and_soak": "2026-07-17T00:00:00+08:00",
+    "phase_12_failure_injection": "2026-07-17T00:00:00+08:00",
+    "phase_13_docker_ci_docs_final_gate": "2026-07-17T00:00:00+08:00"
+  },
+  "phase_finished_at": {
+    "phase_0_baseline": "2026-07-17T00:00:00+08:00",
+    "phase_1_v170_truth_audit": "2026-07-17T00:00:00+08:00",
+    "phase_2_real_embedding": "2026-07-17T00:00:00+08:00",
+    "phase_3_persistent_index": "2026-07-17T00:00:00+08:00",
+    "phase_4_tenant_acl": "2026-07-17T00:00:00+08:00",
+    "phase_5_difficult_benchmark": "2026-07-17T00:00:00+08:00",
+    "phase_6_real_retrieval_evaluation": "2026-07-17T00:00:00+08:00",
+    "phase_7_governed_agent_hardening": "2026-07-17T00:00:00+08:00",
+    "phase_8_api_java_integration": "2026-07-17T00:00:00+08:00",
+    "phase_9_security_privacy_hardening": "2026-07-17T00:00:00+08:00",
+    "phase_10_observability_real_signals": "2026-07-17T00:00:00+08:00",
+    "phase_11_performance_and_soak": "2026-07-17T00:00:00+08:00",
+    "phase_12_failure_injection": "2026-07-17T00:00:00+08:00",
+    "phase_13_docker_ci_docs_final_gate": "2026-07-17T00:00:00+08:00"
+  },
+  "elapsed_seconds": {
+    "phase_0_baseline": 0
+  },
+  "commands": {
+    "phase_0_baseline": [
+      "git branch --show-current",
+      "git rev-parse HEAD",
+      "git status --short --untracked-files=all",
+      "git log --oneline --decorate -15",
+      "git tag --points-at HEAD",
+      "git diff --check",
+      "git diff --cached --check",
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest",
+      "powershell -ExecutionPolicy Bypass -File .\\scripts\\e-review-external-test-isolation-audit.ps1",
+      "powershell -ExecutionPolicy Bypass -File .\\scripts\\e-review-security-hygiene-check.ps1"
+    ],
+    "phase_1_v170_truth_audit": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe ai-service\\scripts\\audit_v180_v170_implementation_truth.py"
+    ],
+    "phase_2_real_embedding": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe ai-service\\scripts\\audit_v180_local_embedding_inventory.py",
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_real_embedding_and_faiss.py"
+    ],
+    "phase_3_persistent_index": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_persistent_sparse_index.py ai-service\\tests\\test_v180_real_embedding_and_faiss.py"
+    ],
+    "phase_4_tenant_acl": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_tenant_acl.py"
+    ],
+    "phase_5_difficult_benchmark": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe ai-service\\scripts\\build_v180_difficult_rag_benchmark.py",
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_difficult_benchmark.py"
+    ],
+    "phase_6_real_retrieval_evaluation": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe ai-service\\scripts\\eval_v180_real_retrieval.py",
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_real_retrieval_eval.py"
+    ],
+    "phase_7_governed_agent_hardening": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_governed_agent_hardening.py ai-service\\tests\\test_v170_agent_platform_api.py ai-service\\tests\\test_v170_enterprise_eval_scripts.py"
+    ],
+    "phase_8_api_java_integration": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_enterprise_api_java_contract.py ai-service\\tests\\test_v170_agent_platform_api.py",
+      "mvn -pl litemall-admin-api -am -DskipTests package"
+    ],
+    "phase_9_security_privacy_hardening": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_security_privacy_hardening.py ai-service\\tests\\test_v180_enterprise_api_java_contract.py",
+      "powershell -ExecutionPolicy Bypass -File .\\scripts\\e-review-security-hygiene-check.ps1"
+    ],
+    "phase_10_observability_real_signals": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_observability_real_signals.py ai-service\\tests\\test_v180_enterprise_api_java_contract.py"
+    ],
+    "phase_11_performance_and_soak": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_performance_soak.py",
+      "D:\\anaconda\\envs\\torchtest\\python.exe ai-service\\scripts\\run_v180_performance_soak.py --duration-seconds 5400 --target-rps 2"
+    ],
+    "phase_12_failure_injection": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe ai-service\\scripts\\run_v180_failure_injection.py",
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_failure_injection.py"
+    ],
+    "phase_13_docker_ci_docs_final_gate": [
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest",
+      "mvn -pl litemall-admin-api -am -DskipTests package",
+      "powershell -ExecutionPolicy Bypass -File .\\scripts\\e-review-external-test-isolation-audit.ps1",
+      "powershell -ExecutionPolicy Bypass -File .\\scripts\\e-review-security-hygiene-check.ps1",
+      "docker compose -f docker\\docker-compose.yml config",
+      "D:\\anaconda\\envs\\torchtest\\python.exe -m compileall ai-service\\app ai-service\\scripts",
+      "temporary uvicorn real HTTP smoke on 127.0.0.1:18008"
+    ]
+  },
+  "artifact_hashes": {
+    "data/private_research/audit/v180_v170_truth_audit.json": "de338caef943e790449070564aa6e2df90b507721c0993a8b06746b06ad3daee",
+    "docs/enterprise/v180_v170_truth_audit.md": "fd43c15ac9f7b757314c9e8d885c70230004f2d37797615bc76b6cac944cd819",
+    "data/private_research/audit/v180_local_embedding_inventory.json": "d211e47ac5839f1c73563ec779e20b1d0015a9f82f32d6eca7ed32a51b34c62d",
+    "data/private_research/enterprise_rag_v180/difficult_corpus.jsonl": "c7ae047509e01006bc8337edb15271db20abc79a326f54000e7eb9d8a35eac31",
+    "data/private_research/enterprise_rag_v180/difficult_queries.jsonl": "a40d1d509f803ce2f74edada10bc138707629306c5c759708a767a4125e0878c",
+    "data/private_research/audit/v180_difficult_benchmark_audit.json": "5634f002c731db2db7ecc0bdabfc5dd5aa13be20b07bff48b0d39d00deb9ab88",
+    "docs/enterprise/v180_difficult_benchmark.md": "cc95b57cc0cfc94a1b04d2575909f1681c4f2bb4ec4ddb4fd8005ad9a106355",
+    "ai-service/scripts/eval_v180_real_retrieval.py": "df4b91df08379963d384fc2b198df900de405b507fedc676d8f8ece2735978f4",
+    "data/private_research/eval/v180_real_retrieval_eval.json": "bc4942dd1d7a3171aecc17162e08bb6a5f9512016cbfde732061d506dbb33f70",
+    "docs/enterprise/v180_real_retrieval_eval.md": "01fbbb408fd2a479dd4f4cf5f5f1c0468a6859c2af9c0aeca04b37e2df95740e",
+    "data/private_research/enterprise_rag_v180/faiss_index/ACTIVE": "1c7a4731900d8c97f3aa3ed807544053c9189f5ffd12e61081b9bf799d11a725",
+    "data/private_research/enterprise_rag_v180/faiss_index/versions/bge-m3-20260716T180438006727Z/manifest.json": "3f71e9feef3e5fa501705f0527cfc573468224453054e7ea9c22a3cf75081059",
+    "data/private_research/enterprise_rag_v180/faiss_index/versions/bge-m3-20260716T180438006727Z/metadata.jsonl": "e9df591a62f2dfd581affbff4c03bc49047ad9be765ea8242ea79e910e9d066a",
+    "ai-service/app/agent/governed_agent.py": "b5b7eef50bdb89210786f2109f3473aae1d6d76d840ead2188a3d1768b0ea0ae",
+    "ai-service/app/agent/tool_registry.py": "bd8f608d7ffe125a3b03302b835ff94e1dc0a7bd6aa72799fd9983230ececc25",
+    "ai-service/tests/test_v180_governed_agent_hardening.py": "2477133fbdf96537bbe0997c7d9af80f1089fe2e89a029c3100b22971b8988e8",
+    "data/private_research/audit/v180_governed_agent_hardening.json": "edf56847404993d582c1766f99a05c31b8accb80e003e21fe7d2adc11759a07c",
+    "docs/enterprise/v180_governed_agent_hardening.md": "9b136b6fec090aed3de97187ae670bc2908bd65a7945d7d17379f3fa5812351d",
+    "litemall-admin-api/src/main/java/org/linlinjava/litemall/admin/service/AiReviewService.java": "9aee01a81244b99c0d789d1d1bc9de6ce9108a993b3fac69801160b62e44e8b5",
+    "litemall-admin-api/src/main/java/org/linlinjava/litemall/admin/web/AdminAiEnterpriseController.java": "99c3fb3adf69fafaed124c2ded020963ddb2bcdddce098485275003919ae6527",
+    "ai-service/tests/test_v180_enterprise_api_java_contract.py": "7d426a494f898c717c065f87cfbce8db82f9fb272f974b4721bcd89792d9fc84",
+    "data/private_research/audit/v180_api_java_integration.json": "1ed3031dfd5a19f19fa619d06ea69b980af990d7a4a331543c557a47a7d8c542",
+    "docs/enterprise/v180_api_java_integration.md": "9a81d14ac39fcf45a07b41ab0cb8888faf4a7a8475805aee2734b3e2dd4f5d99",
+    "ai-service/app/platform/security.py": "5b49df5aded6839523eb6a13f9d8f5f81d7c17b0d987e5cb616634f8a13cfd9f",
+    "ai-service/tests/test_v180_security_privacy_hardening.py": "fc0b0b843d81f09107b17a73d3c7bed66c4ec56c7b33174d2c5bcf80e19de92d",
+    "data/private_research/audit/v180_security_privacy_hardening.json": "b73e1e4706630c7183f35f4138d04d799688a61f2a471c3488e579fd04d844d9",
+    "docs/enterprise/v180_security_privacy_hardening.md": "a19aaf44dfec3ceb239f64cddb4f0d5bda7ed9f25c6948f98749435b043e67e8",
+    "ai-service/app/observability/metrics.py": "03537ef0147e5c556fa662ae578aee3dc31b37613fcbdb6120f2da4b38d94f05",
+    "ai-service/app/api/enterprise_e_review.py": "5235454e72e1069d9eacb4ecac49661f1cd6246f9cc6211a694cfdc533620f0a",
+    "ai-service/tests/test_v180_observability_real_signals.py": "55b7d1451808d388bbd6746ed05b6b940a3874ecebb0dcd9904f14f87e3ba2ca",
+    "data/private_research/audit/v180_observability_real_signals.json": "033a59e2d3a37c02116da7266635932a6c1be45e8d902b98824fe3a8a77befa2",
+    "docs/enterprise/v180_observability_real_signals.md": "0d2542a346be593f044dec1b365cf099ef30e21cba9225bde5fa5d0c473595d0",
+    "ai-service/scripts/run_v180_performance_soak.py": "08b7173fa844c17c7ea418bc75042d93324578be63ddb46edb60e59eadbd2336",
+    "ai-service/tests/test_v180_performance_soak.py": "83d7c6a1153281f29923d27e14bd3ec5fe03b5406ef2ebcbead2b69599b3ad68",
+    "data/private_research/audit/v180_performance_soak.json": "abd518494f5b3019c55ea884b59c663a8abb4f3a8efe4a1d2dac3214db802ad4",
+    "docs/enterprise/v180_performance_soak.md": "daa9c3d380a55dfc7e54f1c31ef8129482d8969264f3447e3f5992311e37efb0",
+    "ai-service/app/rag/query_pipeline.py": "541a3061bb7b8fd284aaee7c9c64ba8cb3e7024b6a57bcf79d1f12d7c8f968c2",
+    "ai-service/scripts/run_v180_failure_injection.py": "b02fb479867c8902420253a146b7b4c3b9514785d0b9a14ea503e930211887fb",
+    "ai-service/tests/test_v180_failure_injection.py": "cd5c580ace7d6cebee3b48252ea49046e7f93e8542c613c086db713e70932b27",
+    "data/private_research/audit/v180_failure_injection.json": "2ab588d40258a9e5ad8d3e5212e0249b2be7ae70aeab3ce6062cd28f5877e3b0",
+    "docs/enterprise/v180_failure_injection.md": "082e58203a18020a279c33aa7d9e5c23676cbbc04a8b5e0a8e22898b43b8d931",
+    ".gitignore": "57c9bf22f9c433626bbaf61c91a00e5122cbff0cee6cee6816d8fb04379a97a9",
+    ".github/workflows/v180-static-readiness.yml": "aadb33bc9b4b4f18b01c1ec07d889eb0d9a53332e78feb882d20d78e63520110",
+    "data/private_research/audit/v180_final_gate.json": "6d7bd808c1b485440bd0c61733f000e5057e4f357afcb45f7602b6a890897e18",
+    "docs/enterprise/v180_final_gate.md": "1ef03ff0cb7ab00b904df325f96e5be554225ede1e7cd3080745753e321f64af"
+  },
+  "test_counts": {
+    "baseline_pytest": "238 passed",
+    "v180_real_embedding_and_faiss": "4 passed",
+    "v180_persistent_sparse_index": "2 passed",
+    "v180_tenant_acl": "18 passed",
+    "v180_difficult_benchmark": "4 passed",
+    "v180_real_retrieval_eval": "3 passed",
+    "v180_governed_agent_hardening": "20 passed",
+    "v180_enterprise_api_java_contract": "14 passed",
+    "maven_litemall_admin_api_package": "BUILD SUCCESS",
+    "v180_security_privacy_hardening": "13 passed",
+    "security_hygiene_check": "SECURITY_HYGIENE_CHECK_PASS",
+    "v180_observability_real_signals": "8 passed",
+    "v180_performance_soak": "2 passed; V180_90_MIN_SOAK_PASS",
+    "v180_failure_injection": "2 passed; V180_FAILURE_INJECTION_25_PASS",
+    "final_pytest": "299 passed",
+    "final_maven_admin_api": "BUILD SUCCESS",
+    "final_external_test_isolation": "EXTERNAL_TEST_ISOLATION_AUDIT_PASS",
+    "final_security_hygiene": "SECURITY_HYGIENE_CHECK_PASS",
+    "final_docker_compose_config": "PASS",
+    "final_real_http_smoke": "V180_REAL_HTTP_SMOKE_PASS"
+  },
+  "real_execution_counts": {
+    "baseline_pytest_runs": 1,
+    "external_isolation_runs": 1,
+    "security_hygiene_runs": 1,
+    "truth_audit_runs": 1,
+    "real_embedding_inventory_runs": 1,
+    "real_bge_m3_encode_probes": 1,
+    "versioned_faiss_tests": 2,
+    "persistent_sparse_restart_tests": 2,
+    "tenant_acl_attack_tests": 18,
+    "difficult_benchmark_builds": 1,
+    "difficult_benchmark_tests": 4,
+    "real_retrieval_eval_runs": 1,
+    "real_bge_m3_eval_encode_runs": 1,
+    "versioned_faiss_eval_publish_runs": 1,
+    "persistent_faiss_restart_eval_runs": 1,
+    "real_retrieval_eval_tests": 3,
+    "governed_agent_hardening_tests": 10,
+    "agent_platform_compatibility_tests": 10,
+    "enterprise_api_contract_tests": 5,
+    "java_admin_api_compile_runs": 1,
+    "security_privacy_hardening_tests": 8,
+    "security_hygiene_scanned_files": 1006,
+    "observability_real_signal_tests": 3,
+    "performance_smoke_tests": 2,
+    "short_soak_request_count": 4,
+    "soak_90_min_runs": 1,
+    "soak_90_min_request_count": 10579,
+    "failure_injection_cases": 25,
+    "failure_injection_tests": 2,
+    "final_pytest_runs": 1,
+    "final_pytest_passed": 299,
+    "final_security_hygiene_scanned_files": 1016,
+    "final_real_http_smoke_runs": 1,
+    "static_ci_workflow_files": 1
+  },
+  "mock_execution_counts": {},
+  "hard_blocker": null,
+  "next_phase": null
+}

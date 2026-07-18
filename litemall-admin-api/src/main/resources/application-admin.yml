@@ -1,0 +1,27 @@
+ai:
+  service:
+    base-url: http://127.0.0.1:8008
+    connect-timeout: 3000
+    read-timeout: ${E_REVIEW_AI_READ_TIMEOUT_MS:180000}
+  patrol:
+    enabled: true
+    fixed-delay: 30000
+    batch-size: 20
+    auto-analyze: true
+    scan-demo-review: true
+    scan-litemall-comment: true
+
+demo:
+  mode:
+    enabled: true
+  payment:
+    enabled: true
+  shipping:
+    enabled: true
+  product:
+    main: 1181000
+    backup: 1006007,1006013
+  agent-framework:
+    enabled: false
+    prefer-framework-trace: true
+    fallback-to-legacy: true

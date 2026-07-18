@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: db, core, wx
+  messages:
+    encoding: UTF-8
+
+server:
+  port: 8082
+
+demo:
+  mode:
+    enabled: true
+  payment:
+    enabled: true
+  shipping:
+    enabled: true
+  product:
+    main: 1181000
+    backup: 1006007,1006013
+
+logging:
+  level:
+    root:  ERROR
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    org.linlinjava.litemall.wx:  DEBUG
+    org.linlinjava.litemall:  ERROR
+
+swagger:
+  production: false

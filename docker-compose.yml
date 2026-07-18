@@ -1,0 +1,33 @@
+services:
+  ai-service:
+    profiles: ["ai-service"]
+    build:
+      context: .
+      dockerfile: ai-service/Dockerfile
+    image: e-review-agent-ai-service:v182
+    ports:
+      - "8008:8008"
+    environment:
+      E_REVIEW_MODEL_MODE: "base"
+      E_REVIEW_ADAPTER_ENABLED: "false"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8008/api/v1/health', timeout=3).read()"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    volumes:
+      - type: volume
+        source: ai-service-runtime
+        target: /app/runtime
+  redis:
+    profiles: ["optional-redis"]
+    image: redis:7-alpine
+    restart: unless-stopped
+  metrics:
+    profiles: ["optional-metrics"]
+    image: prom/prometheus:v2.55.1
+    restart: unless-stopped
+
+volumes:
+  ai-service-runtime:
