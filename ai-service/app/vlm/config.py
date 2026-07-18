@@ -20,7 +20,7 @@ def _env_int(name: str, default: int) -> int:
 @dataclass(frozen=True)
 class VlmConfig:
     provider: str = os.getenv("E_REVIEW_VLM_PROVIDER", "local_qwen3_vl_transformers")
-    model_dir: Path = Path(os.getenv("E_REVIEW_VLM_MODEL_DIR", "D:/EReviewAgent/models/Qwen3-VL-2B-Instruct"))
+    model_dir: Path = Path(os.getenv("E_REVIEW_VLM_MODEL_DIR", "./models/Qwen3-VL-2B-Instruct"))
     device: str = os.getenv("E_REVIEW_VLM_DEVICE", "cuda")
     dtype: str = os.getenv("E_REVIEW_VLM_DTYPE", "auto")
     load_in_4bit: bool = _env_bool("E_REVIEW_VLM_LOAD_IN_4BIT", False)

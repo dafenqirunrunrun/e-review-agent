@@ -31,7 +31,7 @@ def test_v170_runtime_config_defaults_are_enterprise_safe():
 
 def test_v170_runtime_config_rejects_absolute_adapter_path():
     with pytest.raises(ValueError):
-        EnterpriseRuntimeConfig(adapter_path="D:/EReviewAgent/data-private/adapter")
+        EnterpriseRuntimeConfig(adapter_path="Z:/private/adapter")
 
 
 def test_v170_runtime_config_loads_feature_flags_without_secret_paths():
