@@ -15,21 +15,31 @@ def _request_with_headers(method: str, url: str, request_id: str) -> tuple[int, 
         return response.status, dict(response.headers), json.loads(body) if body else {}
 
 
+def _header(headers: dict, name: str) -> str | None:
+    lower_name = name.lower()
+    for key, value in headers.items():
+        if str(key).lower() == lower_name:
+            return str(value)
+    return None
+
+
 def main() -> None:
     evidence: dict = {}
     request_id = "public-ops-observability-" + str(int(time.time()))
 
     backend_status, backend_headers, backend_ready = _request_with_headers("GET", backend_url() + "/public/runtime/ready", request_id)
-    if backend_status != 200 or backend_headers.get("X-Request-ID") != request_id:
+    backend_request_id = _header(backend_headers, "X-Request-ID")
+    if backend_status != 200 or backend_request_id != request_id:
         raise PublicRuntimeError(f"backend request-id correlation failed: {backend_status}, {backend_headers}")
     evidence["backendReady"] = backend_ready
-    evidence["backendRequestId"] = backend_headers.get("X-Request-ID")
+    evidence["backendRequestId"] = backend_request_id
 
     ai_status, ai_headers, ai_ready = _request_with_headers("GET", ai_url() + "/health/ready", request_id)
-    if ai_status != 200 or ai_headers.get("X-Request-ID") != request_id:
+    ai_request_id = _header(ai_headers, "X-Request-ID")
+    if ai_status != 200 or ai_request_id != request_id:
         raise PublicRuntimeError(f"AI request-id correlation failed: {ai_status}, {ai_headers}")
     evidence["aiReady"] = ai_ready
-    evidence["aiRequestId"] = ai_headers.get("X-Request-ID")
+    evidence["aiRequestId"] = ai_request_id
 
     admin_token = _admin_token()
     summary = assert_litemall_ok(request_json("GET", backend_url() + "/admin/ai/dashboard/summary", None, _admin_headers(admin_token)), "dashboard summary")
