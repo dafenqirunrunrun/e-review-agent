@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["workflow", "runId", "evidenceFiles"],
+  "properties": {
+    "workflow": { "type": "string" },
+    "runId": { "type": "string" },
+    "evidenceFiles": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
