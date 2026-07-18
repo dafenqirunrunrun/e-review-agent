@@ -10,6 +10,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
+import static org.junit.Assume.assumeNotNull;
+
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
@@ -22,6 +24,7 @@ public class CreateShareImageTest {
     @Test
     public void test() {
         LitemallGoods good = litemallGoodsService.findById(1181010);
+        assumeNotNull(good);
         qCodeService.createGoodShareImage(good.getId().toString(), good.getPicUrl(), good.getName());
     }
 }
