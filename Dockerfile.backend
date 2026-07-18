@@ -7,6 +7,7 @@ COPY litemall-db ./litemall-db
 COPY litemall-wx-api ./litemall-wx-api
 COPY litemall-admin-api ./litemall-admin-api
 COPY litemall-all ./litemall-all
+COPY litemall-all-war ./litemall-all-war
 RUN mkdir -p litemall-admin/dist litemall-vue/dist \
     && mvn -pl litemall-all -am -DskipTests package
 
