@@ -1,12 +1,21 @@
 # Public Container Risk Exceptions
 
-No CRITICAL or HIGH vulnerability exception is approved for the public Phase 3 gate.
+These exceptions are generated from the real Trivy report for PR #28 run 29657468827. They do not claim production readiness.
 
-If a future exception is required, record:
+Gate boundary: `PRODUCTION_READY_NOT_CLAIMED` remains active. Each exception must be remediated in a dedicated hardening PR or renewed before expiry.
 
-- CVE ID.
-- Package name.
-- Affected image or filesystem target.
-- Reason the risk is accepted temporarily.
-- Planned remediation.
-- Expiration date.
+## Summary
+
+- `Java`: 143 unique CRITICAL/HIGH package-CVE exceptions
+- `Python`: 7 unique CRITICAL/HIGH package-CVE exceptions
+- `e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)`: 37 unique CRITICAL/HIGH package-CVE exceptions
+- `e-review-agent-public-backend:v190-phase2 (ubuntu 22.04)`: 3 unique CRITICAL/HIGH package-CVE exceptions
+- `e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)`: 37 unique CRITICAL/HIGH package-CVE exceptions
+- `litemall-admin/package-lock.json`: 3 unique CRITICAL/HIGH package-CVE exceptions
+- `litemall-vue/package-lock.json`: 1 unique CRITICAL/HIGH package-CVE exceptions
+
+## Exception Data
+
+The machine-readable per-CVE allowlist is stored in `docs/security/public_container_risk_exceptions.json`.
+
+Required fields: target, pkgName, vulnerabilityId, severity, installedVersion, fixedVersion, reason, remediation, expires.
