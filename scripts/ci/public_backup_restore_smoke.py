@@ -1,8 +1,8 @@
 from __future__ import annotations
 
 import os
+import subprocess
 import time
-from pathlib import Path
 
 from public_runtime_common import PublicRuntimeError, ROOT, main_guard, run_command, write_evidence
 
@@ -34,20 +34,20 @@ def main() -> None:
 
     _mysql("create table if not exists public_backup_restore_probe (id int primary key, marker varchar(128));")
     _mysql(f"replace into public_backup_restore_probe (id, marker) values (1, '{marker}');")
-    with backup_file.open("w", encoding="utf-8") as handle:
-        proc = run_command([
-            "docker", "compose", "-p", _compose_project(), "-f", "compose.public.yml",
-            "exec", "-T", "mysql", "mysqldump", "-uroot", "-pchange_me_for_local_only", "litemall",
-            "public_backup_restore_probe"
-        ])
-        handle.write(proc.stdout)
+    dump_proc = subprocess.run([
+        "docker", "compose", "-p", _compose_project(), "-f", "compose.public.yml",
+        "exec", "-T", "mysql", "mysqldump", "-uroot", "-pchange_me_for_local_only", "litemall",
+        "public_backup_restore_probe"
+    ], cwd=str(ROOT), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if dump_proc.returncode != 0:
+        raise PublicRuntimeError("backup dump failed: " + dump_proc.stderr.decode("utf-8", errors="replace")[:500])
+    backup_file.write_bytes(dump_proc.stdout)
 
     _mysql("delete from public_backup_restore_probe where id = 1;")
     before_restore = _mysql("select count(*) from public_backup_restore_probe where id = 1;")
     if before_restore.splitlines()[-1].strip() != "0":
         raise PublicRuntimeError("backup restore probe delete did not take effect")
 
-    import subprocess
     with backup_file.open("rb") as handle:
         proc = subprocess.run([
             "docker", "compose", "-p", _compose_project(), "-f", "compose.public.yml",
