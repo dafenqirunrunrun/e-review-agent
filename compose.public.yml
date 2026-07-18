@@ -1,0 +1,135 @@
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-change_me_for_local_only}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-litemall}
+      MYSQL_USER: ${MYSQL_USER:-litemall}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-change_me_for_local_only}
+      TZ: Asia/Shanghai
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+    volumes:
+      - mysql-public-data:/var/lib/mysql
+      - ./litemall-db/sql/litemall_table.sql:/docker-entrypoint-initdb.d/01_litemall_table.sql:ro
+      - ./litemall-db/sql/litemall_review_ai_analysis.sql:/docker-entrypoint-initdb.d/10_litemall_review_ai_analysis.sql:ro
+      - ./litemall-db/sql/litemall_ai_demo_review.sql:/docker-entrypoint-initdb.d/11_litemall_ai_demo_review.sql:ro
+      - ./litemall-db/sql/litemall_ai_patrol_log.sql:/docker-entrypoint-initdb.d/12_litemall_ai_patrol_log.sql:ro
+      - ./litemall-db/sql/litemall_ai_review_risk_task.sql:/docker-entrypoint-initdb.d/13_litemall_ai_review_risk_task.sql:ro
+      - ./litemall-db/sql/litemall_ai_operation_log.sql:/docker-entrypoint-initdb.d/14_litemall_ai_operation_log.sql:ro
+      - ./litemall-db/sql/litemall_ai_case_rag.sql:/docker-entrypoint-initdb.d/15_litemall_ai_case_rag.sql:ro
+      - ./litemall-db/sql/litemall_ai_agent_platform.sql:/docker-entrypoint-initdb.d/16_litemall_ai_agent_platform.sql:ro
+      - ./litemall-db/sql/litemall_ai_agent_replay.sql:/docker-entrypoint-initdb.d/17_litemall_ai_agent_replay.sql:ro
+      - ./litemall-db/sql/litemall_ai_enterprise_agent_platform.sql:/docker-entrypoint-initdb.d/18_litemall_ai_enterprise_agent_platform.sql:ro
+      - ./litemall-db/sql/litemall_public_ci_seed.sql:/docker-entrypoint-initdb.d/90_litemall_public_ci_seed.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$${MYSQL_ROOT_PASSWORD} --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  ai-service:
+    build:
+      context: .
+      dockerfile: ai-service/Dockerfile
+    image: e-review-agent-public-ai-service:v190-phase2
+    ports:
+      - "${AI_SERVICE_PORT:-8008}:8008"
+    environment:
+      AI_RUNTIME_MODE: ${AI_RUNTIME_MODE:-public-rule}
+      AI_SCHEMA_VERSION: ${AI_SCHEMA_VERSION:-2.0.0}
+      E_REVIEW_LLM_PROVIDER: ${E_REVIEW_LLM_PROVIDER:-local_rule_fallback}
+      E_REVIEW_RAG_V2_ENABLED: ${E_REVIEW_RAG_V2_ENABLED:-false}
+      E_REVIEW_MODEL_MODE: base
+      E_REVIEW_ADAPTER_ENABLED: "false"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8008/health/ready', timeout=3).read()"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    image: e-review-agent-public-backend:v190-phase2
+    depends_on:
+      mysql:
+        condition: service_healthy
+      ai-service:
+        condition: service_healthy
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-db,core,admin,wx}
+      MYSQL_HOST: mysql
+      MYSQL_PORT: 3306
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-litemall}
+      MYSQL_USER: ${MYSQL_USER:-litemall}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-change_me_for_local_only}
+      AI_SERVICE_BASE_URL: http://ai-service:8008
+      E_REVIEW_AI_READ_TIMEOUT_MS: 30000
+    ports:
+      - "${BACKEND_PORT:-8080}:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8080/public/runtime/ready | tr -d ' ' | grep -q '\"status\":\"ready\"'"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile.admin
+    image: e-review-agent-public-admin:v190-phase2
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "${ADMIN_PORT:-8081}:8081"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:8081/ >/dev/null"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  customer:
+    build:
+      context: .
+      dockerfile: Dockerfile.customer
+    image: e-review-agent-public-customer:v190-phase2
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "${CUSTOMER_PORT:-8082}:8082"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:8082/ >/dev/null"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  mysql-public-data:

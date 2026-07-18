@@ -1,3 +1,5 @@
+import os
+
 from fastapi import FastAPI
 
 from app.api.agent_framework import router as agent_framework_router
@@ -28,3 +30,26 @@ app.include_router(system_router, prefix=settings.api_prefix)
 @app.get("/api/v1/health")
 def health():
     return {"status": "ok", "service": settings.service_name}
+
+
+def _public_runtime_status(status: str) -> dict:
+    runtime_mode = os.getenv("AI_RUNTIME_MODE", "public-rule")
+    return {
+        "status": status,
+        "service": settings.service_name,
+        "runtimeMode": runtime_mode,
+        "engineType": "rule" if runtime_mode == "public-rule" else runtime_mode,
+        "modelLoaded": False,
+        "privateAssetsRequired": False,
+        "schemaVersion": os.getenv("AI_SCHEMA_VERSION", "2.0.0"),
+    }
+
+
+@app.get("/health/live")
+def live():
+    return _public_runtime_status("live")
+
+
+@app.get("/health/ready")
+def ready():
+    return _public_runtime_status("ready")

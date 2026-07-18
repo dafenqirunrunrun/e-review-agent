@@ -29,7 +29,8 @@ def test_analyze_review():
     assert body["review_id"] == "R001"
     assert body["product_id"] == "P001"
     assert body["sentiment_label"] in ["positive", "neutral", "negative"]
-    assert len(body["workflow_trace"]) == 5
+    assert len(body["workflow_trace"]) >= 5
+    assert any(step.get("tool_name") == "PublicRuleRuntimeTool" for step in body["workflow_trace"])
 
 
 def test_analyze_review_accepts_java_camel_case_payload():
