@@ -1,0 +1,138 @@
+name: Public CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  repository-hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Whitespace and repository boundary checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+
+          forbidden_regex='(\.faiss$|\.safetensors$|\.ckpt$|\.pt$|\.pth$|pytorch_model|model\.bin|checkpoint|adapter_model|soak.*\.log|benchmark.*raw|(^|/)node_modules(/|$)|(^|/)dist(/|$)|(^|/)target(/|$))'
+          if git ls-files | grep -E "$forbidden_regex"; then
+            echo "Forbidden generated, model, index or raw-evidence files are tracked." >&2
+            exit 1
+          fi
+
+          large_files="$(git ls-files -z | xargs -0 -r du -b | awk '$1 > 10485760 {print $0}')"
+          if [ -n "$large_files" ]; then
+            echo "Tracked files larger than 10 MB detected:" >&2
+            echo "$large_files" >&2
+            exit 1
+          fi
+
+  java-test:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: litemall
+          MYSQL_USER: litemall
+          MYSQL_PASSWORD: change_me
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -uroot -proot"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "8"
+          cache: maven
+      - name: Initialize public MySQL schema
+        env:
+          MYSQL_PWD: root
+        run: |
+          mysql -h 127.0.0.1 -uroot < litemall-db/sql/litemall_schema.sql
+          mysql -h 127.0.0.1 -uroot litemall < litemall-db/sql/litemall_table.sql
+          mysql -h 127.0.0.1 -uroot litemall < litemall-db/sql/litemall_review_ai_analysis.sql
+          mysql -h 127.0.0.1 -uroot litemall < litemall-db/sql/litemall_ai_demo_review.sql
+          mysql -h 127.0.0.1 -uroot litemall < litemall-db/sql/litemall_ai_patrol_log.sql
+          mysql -h 127.0.0.1 -uroot litemall < litemall-db/sql/litemall_ai_review_risk_task.sql
+          mysql -h 127.0.0.1 -uroot litemall < litemall-db/sql/litemall_ai_operation_log.sql
+      - name: Run Java tests
+        run: mvn test
+        env:
+          MYSQL_USER: litemall
+          MYSQL_PASSWORD: change_me
+      - name: Package Java modules
+        run: mvn -DskipTests package
+        env:
+          MYSQL_USER: litemall
+          MYSQL_PASSWORD: change_me
+      - name: Upload Surefire reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surefire-reports
+          path: "**/target/surefire-reports/*"
+          if-no-files-found: ignore
+
+  python-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ai-service
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: ai-service/requirements.txt
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run public Python tests
+        run: python -m pytest -ra
+
+  admin-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: litemall-admin
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "16"
+          cache: npm
+          cache-dependency-path: litemall-admin/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Build admin frontend
+        run: npm run build:prod
+
+  customer-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: litemall-vue
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "16"
+          cache: npm
+          cache-dependency-path: litemall-vue/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Build customer H5 frontend
+        run: npm run build:prod
