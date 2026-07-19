@@ -18,6 +18,7 @@ jobs:
       PUBLIC_CI_ADMIN_PASSWORD: public_ci_admin_123
       PUBLIC_CI_USER_USERNAME: ci_public_user
       PUBLIC_CI_USER_PASSWORD: public_ci_user_123
+      TRIVY_VERSION: "0.72.0"
     steps:
       - uses: actions/checkout@v4
 
@@ -25,14 +26,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Trivy
+      - name: Install pinned Trivy
         run: |
-          sudo apt-get update
-          sudo apt-get install -y wget apt-transport-https gnupg lsb-release
-          wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo gpg --dearmor -o /usr/share/keyrings/trivy.gpg
-          echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.io/trivy-repo/deb generic main" | sudo tee /etc/apt/sources.list.d/trivy.list
-          sudo apt-get update
-          sudo apt-get install -y trivy
+          set -euo pipefail
+          wget -q "https://github.com/aquasecurity/trivy/releases/download/v${TRIVY_VERSION}/trivy_${TRIVY_VERSION}_Linux-64bit.deb"
+          sudo dpkg -i "trivy_${TRIVY_VERSION}_Linux-64bit.deb"
+          trivy --version
 
       - name: Compose build
         run: docker compose -f compose.public.yml build

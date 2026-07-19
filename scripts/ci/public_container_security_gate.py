@@ -107,6 +107,31 @@ def _load_scan_findings() -> tuple[list[Path], list[dict[str, Any]]]:
     return reports, findings
 
 
+def _report_metadata(reports: list[Path]) -> dict[str, Any]:
+    trivy_versions = set()
+    created_at = {}
+    database_updated_at = set()
+    database_next_update = set()
+    for report_path in reports:
+        report = _load_json(report_path)
+        trivy_version = (report.get("Trivy") or {}).get("Version")
+        if trivy_version:
+            trivy_versions.add(trivy_version)
+        if report.get("CreatedAt"):
+            created_at[str(report_path.relative_to(ROOT))] = report.get("CreatedAt")
+        db = ((report.get("Metadata") or {}).get("DB") or {})
+        if db.get("UpdatedAt"):
+            database_updated_at.add(db["UpdatedAt"])
+        if db.get("NextUpdate"):
+            database_next_update.add(db["NextUpdate"])
+    return {
+        "trivyVersions": sorted(trivy_versions),
+        "scanCreatedAt": created_at,
+        "databaseUpdatedAt": sorted(database_updated_at),
+        "databaseNextUpdate": sorted(database_next_update),
+    }
+
+
 def _validate_exception_schema(exceptions: list[dict[str, Any]], finding_keys: set[tuple[str, str, str, str, str]]) -> dict[str, Any]:
     today = _today()
     invalid: list[dict[str, Any]] = []
@@ -170,6 +195,7 @@ def _sha256(path: Path) -> str:
 
 def main() -> None:
     reports, findings = _load_scan_findings()
+    report_metadata = _report_metadata(reports)
     finding_keys = {_finding_key(finding) for finding in findings}
     payload = _load_json(EXCEPTIONS_FILE)
     exceptions = payload.get("exceptions")
@@ -190,7 +216,7 @@ def main() -> None:
     invalid_count = len(validation["invalid"])
     expired_count = len(validation["expired"])
     orphan_count = len(validation["orphan"])
-    release_security_blocked = bool(critical_count or unexceptioned_high or expired_count or invalid_count)
+    release_security_blocked = bool(critical_count or exceptioned_high or unexceptioned_high or expired_count or invalid_count)
 
     summary = {
         "schemaVersion": "public-container-security-gate-v2",
@@ -200,6 +226,10 @@ def main() -> None:
         "status": "BLOCKED" if release_security_blocked else "PASS",
         "scanCompleted": True,
         "scanReportCount": len(reports),
+        "trivyVersions": report_metadata["trivyVersions"],
+        "scanCreatedAt": report_metadata["scanCreatedAt"],
+        "databaseUpdatedAt": report_metadata["databaseUpdatedAt"],
+        "databaseNextUpdate": report_metadata["databaseNextUpdate"],
         "scanReportSha256": {str(path.relative_to(ROOT)): _sha256(path) for path in reports},
         "criticalFindingCount": critical_count,
         "highFindingCount": high_count,

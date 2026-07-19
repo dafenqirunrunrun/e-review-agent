@@ -1,15 +1,18 @@
-name: Public Security CI
+name: Public Critical Zero CI
 
 on:
   pull_request:
+    branches:
+      - experiment/v1.9.0-public-ops-phase3
   workflow_dispatch:
 
+env:
+  TRIVY_VERSION: "0.72.0"
+
 jobs:
-  public-container-security:
+  public-critical-zero-phase4a:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-    env:
-      TRIVY_VERSION: "0.72.0"
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
 
@@ -24,11 +27,12 @@ jobs:
           sudo dpkg -i "trivy_${TRIVY_VERSION}_Linux-64bit.deb"
           trivy --version
 
-      - name: Build public images
-        run: docker compose -f compose.public.yml build
+      - name: Build public images without cache
+        run: docker compose -f compose.public.yml build --no-cache
 
       - name: Scan filesystem and public images
         run: |
+          set -euo pipefail
           mkdir -p artifacts/operations/v1.9.0-phase3/security
           trivy fs --offline-scan --scanners vuln --ignore-unfixed --format json --output artifacts/operations/v1.9.0-phase3/security/filesystem.json .
           for image in \
@@ -41,16 +45,19 @@ jobs:
             trivy image --offline-scan --scanners vuln --ignore-unfixed --format json --output "artifacts/operations/v1.9.0-phase3/security/${safe_name}.json" "$image"
           done
 
-      - name: Container security gate
+      - name: Container risk semantics gate
         run: python scripts/ci/public_container_security_gate.py
+
+      - name: Critical zero gate
+        run: python scripts/ci/public_critical_zero_gate.py
 
       - name: Generate public SBOM
         run: python scripts/ci/generate_public_sbom.py
 
-      - name: Upload security evidence
+      - name: Upload critical zero evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: public-security-phase3-evidence
-          path: artifacts/operations/v1.9.0-phase3/
+          name: public-critical-zero-phase4a-evidence
+          path: artifacts/
           if-no-files-found: ignore

@@ -66,6 +66,7 @@ logs/
 soak-logs/
 artifacts/raw/
 test-results/raw/
+.phase4a-baseline/
 
 # IDE and OS
 .idea/

@@ -15,9 +15,9 @@ Public container security is checked with Trivy in GitHub Actions.
 
 The gate fails when unexceptioned CRITICAL or HIGH vulnerabilities are found.
 
-The public baseline contains documented temporary CRITICAL/HIGH exceptions. The exception list makes legacy risk visible and auditable; it does not make the runtime secure or production-ready.
+Phase 4A targets zero CRITICAL findings and zero CRITICAL exceptions. Temporary HIGH exceptions may remain visible and tracked; they do not make the runtime secure or production-ready.
 
-When CRITICAL/HIGH exceptions remain, the valid status tokens are:
+When HIGH exceptions remain, the valid status tokens include:
 
 - `PUBLIC_CONTAINER_RISK_BASELINE_AUDITED`
 - `PUBLIC_CONTAINER_EXCEPTIONS_VALIDATED`
