@@ -35,6 +35,19 @@ def _source_commit() -> str:
     return os.getenv("GITHUB_SHA") or subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=str(ROOT), text=True).strip()
 
 
+def _remote_checks_commit() -> str:
+    event_path = os.getenv("GITHUB_EVENT_PATH")
+    if event_path:
+        path = Path(event_path)
+        if path.exists():
+            event = json.loads(path.read_text(encoding="utf-8-sig"))
+            pull_request = event.get("pull_request") or {}
+            head_sha = (pull_request.get("head") or {}).get("sha")
+            if head_sha:
+                return str(head_sha)
+    return _source_commit()
+
+
 def _load(path: Path) -> dict[str, Any]:
     if not path.exists() or path.stat().st_size == 0:
         raise RuntimeError(f"missing or empty evidence file: {path}")
@@ -114,7 +127,7 @@ def _github_json(url: str, token: str) -> dict[str, Any]:
 def _wait_for_required_checks(timeout_seconds: int = 1800) -> dict[str, Any]:
     repository = os.getenv("GITHUB_REPOSITORY")
     token = os.getenv("GITHUB_TOKEN")
-    sha = _source_commit()
+    sha = _remote_checks_commit()
     if not repository or not token:
         raise RuntimeError("GITHUB_REPOSITORY and GITHUB_TOKEN are required for remote check verification")
 
