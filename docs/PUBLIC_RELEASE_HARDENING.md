@@ -46,7 +46,37 @@ The public Python test suite is a reproducible subset of the internal test suite
 | Public Docker runtime | PASS: GitHub Actions `public-runtime-ci` run `29656286535`, job `public-runtime-phase2` |
 | Customer-to-Agent E2E smoke | PASS: GitHub Actions `public-runtime-ci` run `29656286535` |
 | AI unavailable/recovery smoke | PASS: GitHub Actions `public-runtime-ci` run `29656286535` |
+| Public Preview Release Gate | Added for `v1.9.0-public-preview.1`; must pass on `main` before tag and pre-release creation |
+| CRITICAL findings | 0 after Phase 4A evidence |
+| CRITICAL exceptions | 0 after Phase 4A evidence |
+| HIGH exceptions | 55 documented temporary exceptions tracked in issue `#29` |
 | Production readiness | Not claimed |
+
+## Preview Release Boundary
+
+The `v1.9.0-public-preview.1` cut is allowed only as a public preview for local demonstration, source-code review and educational evaluation.
+
+Allowed claims:
+
+- `PUBLIC_PREVIEW_RELEASE_ALLOWED`
+- `PUBLIC_CRITICAL_VULNERABILITIES_ZERO`
+- `PUBLIC_CRITICAL_EXCEPTIONS_ZERO`
+- `PUBLIC_RUNTIME_VERIFIED`
+- `PUBLIC_BUSINESS_E2E_VERIFIED`
+- `PUBLIC_OPERATIONS_BASELINE_VERIFIED`
+- `PUBLIC_SECURITY_EXCEPTIONS_PRESENT`
+- `PUBLIC_PRODUCTION_RELEASE_BLOCKED`
+- `PRODUCTION_READY_NOT_CLAIMED`
+
+Forbidden claims:
+
+- `PRODUCTION_READY`
+- `ENTERPRISE_PRODUCTION_READY`
+- `PUBLIC_CONTAINER_SECURITY_FULL_PASS`
+- `ALL_HIGH_VULNERABILITIES_ZERO`
+- `FULL_DISASTER_RECOVERY_VERIFIED`
+- `PRIVATE_MODEL_RUNTIME_VERIFIED`
+- `ENTERPRISE_RAG_RUNTIME_VERIFIED`
 
 ## Latest Local Command Results
 

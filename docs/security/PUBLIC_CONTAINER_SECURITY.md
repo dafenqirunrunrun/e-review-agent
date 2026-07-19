@@ -1,0 +1,33 @@
+# Public Container Security
+
+Public container security is checked with Trivy in GitHub Actions.
+
+## Scans
+
+- Filesystem scan for the repository using offline dependency resolution to avoid external repository rate limits.
+- Image scan for backend, AI service, admin frontend and customer frontend images.
+- The blocking baseline scan currently uses Trivy with unfixed vulnerabilities excluded. This is a release gate for fixed/remediable CRITICAL/HIGH findings, not a complete vulnerability audit.
+- Phase 4A uses `docs/security/public_vex.openvex.json` for the documented `CVE-2016-1000027` Spring HTTP Invoker reachability assessment. The raw scan artifacts remain uploaded by CI; the VEX statement is scoped to `spring-web` and does not create a CRITICAL exception.
+- Informational scans without that boundary may expose additional unfixed upstream vulnerabilities and must be reviewed separately before any production claim.
+- SBOM generation in SPDX JSON format.
+- Secret scanning remains covered by the separate gitleaks workflow.
+
+## Gate
+
+The gate fails when unexceptioned CRITICAL or HIGH vulnerabilities are found.
+
+Phase 4A targets zero CRITICAL findings and zero CRITICAL exceptions. Temporary HIGH exceptions may remain visible and tracked; they do not make the runtime secure or production-ready.
+
+When HIGH exceptions remain, the valid status tokens include:
+
+- `PUBLIC_CONTAINER_RISK_BASELINE_AUDITED`
+- `PUBLIC_CONTAINER_EXCEPTIONS_VALIDATED`
+- `PUBLIC_PREVIEW_RELEASE_ALLOWED`
+- `PUBLIC_SECURITY_EXCEPTIONS_PRESENT`
+- `PUBLIC_RELEASE_SECURITY_BLOCKED`
+- `PUBLIC_PRODUCTION_RELEASE_BLOCKED`
+- `PRODUCTION_READY_NOT_CLAIMED`
+
+`PUBLIC_CONTAINER_SECURITY_PASS` is only valid for a future baseline with no CRITICAL findings, no CRITICAL exceptions, no unexceptioned HIGH findings, no expired exceptions and no invalid exception records.
+
+The public preview release can proceed with documented HIGH exceptions only after the preview release gate validates runtime, business E2E, operations, SBOM and security evidence. Production deployment remains blocked while any HIGH exception remains.

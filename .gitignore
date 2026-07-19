@@ -65,7 +65,13 @@ data/rag/
 logs/
 soak-logs/
 artifacts/raw/
+artifacts/runtime/
+artifacts/release/
+artifacts/operations/
 test-results/raw/
+.phase4a-baseline/
+/operations/
+/runtime/
 
 # IDE and OS
 .idea/

@@ -2,6 +2,8 @@ package org.linlinjava.litemall.admin.service;
 
 import org.linlinjava.litemall.admin.vo.AiReviewAnalyzeRequest;
 import org.linlinjava.litemall.admin.vo.AiReviewAnalyzeResponse;
+import org.linlinjava.litemall.admin.util.PublicRequestContext;
+import org.linlinjava.litemall.admin.util.PublicRuntimeMetrics;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -35,13 +37,16 @@ public class AiReviewService {
         RestTemplate restTemplate = createRestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.add(PublicRequestContext.REQUEST_ID_HEADER, PublicRequestContext.currentOrCreate());
         HttpEntity<AiReviewAnalyzeRequest> entity = new HttpEntity<AiReviewAnalyzeRequest>(request, headers);
 
         String url = trimTrailingSlash(baseUrl) + "/api/v1/review/analyze";
         try {
             ResponseEntity<AiReviewAnalyzeResponse> response = restTemplate.postForEntity(url, entity, AiReviewAnalyzeResponse.class);
+            PublicRuntimeMetrics.recordAiAnalysis(true);
             return response.getBody();
         } catch (RestClientException e) {
+            PublicRuntimeMetrics.recordAiAnalysis(false);
             throw new AiReviewServiceException("AI service request failed: " + e.getMessage(), e);
         }
     }
@@ -115,6 +120,7 @@ public class AiReviewService {
         RestTemplate restTemplate = createRestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.add(PublicRequestContext.REQUEST_ID_HEADER, PublicRequestContext.currentOrCreate());
         try {
             return restTemplate.postForObject(trimTrailingSlash(baseUrl) + path,
                     new HttpEntity<Map>(request, headers), Map.class);
