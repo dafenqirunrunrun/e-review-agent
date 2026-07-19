@@ -70,8 +70,8 @@ artifacts/release/
 artifacts/operations/
 test-results/raw/
 .phase4a-baseline/
-operations/
-runtime/
+/operations/
+/runtime/
 
 # IDE and OS
 .idea/
