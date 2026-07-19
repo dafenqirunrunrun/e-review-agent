@@ -11,7 +11,7 @@
 
 - P0: public runtime cannot start.
 - P1: review governance E2E fails.
-- P2: observability, backup, SBOM or rollback evidence is incomplete.
+- P2: observability, MySQL logical probe restore, SBOM or backend restart recovery evidence is incomplete.
 - P3: documentation mismatch or non-blocking workflow annotation.
 
 ## Data Handling

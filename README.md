@@ -179,6 +179,10 @@ The public snapshot includes a reproducible subset of the internal test suite. P
 | Public Docker runtime | PASS in GitHub Actions `public-runtime-ci` run `29656286535` |
 | Customer-to-Agent E2E smoke | PASS in GitHub Actions `public-runtime-ci` run `29656286535` |
 | AI unavailable/recovery smoke | PASS in GitHub Actions `public-runtime-ci` run `29656286535` |
+| Public observability smoke | Phase 3 evidence validates request correlation and metrics |
+| Public MySQL logical probe restore | Phase 3 verifies a single probe-table restore only |
+| Public backend restart recovery | Phase 3 verifies compose service restart recovery only |
+| Public container risk baseline | Audited with documented temporary CRITICAL/HIGH exceptions; release security remains blocked |
 | Production readiness | Not claimed |
 
 ## AI Capability Boundaries
@@ -211,12 +215,23 @@ Remote runtime implementation verification:
 - Secret Scan: PASS, run `29656286534`, job `gitleaks`.
 - Draft PR: [#27](https://github.com/dafenqirunrunrun/e-review-agent/pull/27).
 
+Public operations Phase 3 evidence is tracked in draft PR [#28](https://github.com/dafenqirunrunrun/e-review-agent/pull/28). The current Phase 3 status is intentionally partial: legacy CRITICAL/HIGH dependency exceptions are visible and tracked, so `PUBLIC_RELEASE_SECURITY_BLOCKED` and `PRODUCTION_READY_NOT_CLAIMED` remain active.
+
 Runtime docs:
 
 - [Public Runtime Audit](docs/runtime/PUBLIC_RUNTIME_AUDIT.md)
 - [Public Docker Runbook](docs/runtime/PUBLIC_DOCKER_RUNBOOK.md)
 - [Public Business E2E](docs/runtime/PUBLIC_BUSINESS_E2E.md)
 - [Public Runtime Limitations](docs/runtime/PUBLIC_RUNTIME_LIMITATIONS.md)
+
+Operations and security docs:
+
+- [Public Operations Phase 3 Audit](docs/operations/PUBLIC_PHASE3_AUDIT.md)
+- [Public Backup And Restore](docs/operations/PUBLIC_BACKUP_RESTORE.md)
+- [Public Release Rollback](docs/operations/PUBLIC_RELEASE_ROLLBACK.md)
+- [Public Observability](docs/observability/PUBLIC_OBSERVABILITY.md)
+- [Public Container Security](docs/security/PUBLIC_CONTAINER_SECURITY.md)
+- [Public Container Risk Exceptions](docs/security/PUBLIC_CONTAINER_RISK_EXCEPTIONS.md)
 
 ## Open Source Scope
 

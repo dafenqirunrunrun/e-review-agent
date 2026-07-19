@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import subprocess
 import time
+from datetime import datetime
 
 from public_runtime_common import PublicRuntimeError, ROOT, main_guard, run_command, write_evidence
 
@@ -12,6 +13,10 @@ def _compose_project() -> str:
     if not project:
         raise PublicRuntimeError("PUBLIC_COMPOSE_PROJECT is required for backup/restore smoke")
     return project
+
+
+def _source_commit() -> str:
+    return os.getenv("GITHUB_SHA") or subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=str(ROOT), text=True).strip()
 
 
 def _compose(args: list[str]) -> None:
@@ -60,9 +65,33 @@ def main() -> None:
     restored = _mysql("select marker from public_backup_restore_probe where id = 1;")
     if marker not in restored:
         raise PublicRuntimeError(f"restored marker mismatch: {restored}")
-    evidence = {"backupFile": str(backup_file.relative_to(ROOT)), "marker": marker, "restored": True}
+    evidence = {
+        "schemaVersion": "public-mysql-logical-probe-restore-v2",
+        "sourceCommit": _source_commit(),
+        "workflowRunId": os.getenv("GITHUB_RUN_ID", "local"),
+        "generatedAt": datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+        "status": "PASS",
+        "scope": "single-probe-table",
+        "cleanVolumeRestore": False,
+        "businessTablesVerified": False,
+        "disasterRecoveryVerified": False,
+        "backupFile": str(backup_file.relative_to(ROOT)),
+        "marker": marker,
+        "restored": True,
+        "checks": {
+            "restored": True,
+            "scope": "single-probe-table",
+        },
+        "boundaries": [
+            "FULL_DATABASE_BACKUP_NOT_VERIFIED",
+            "MYSQL_VOLUME_RESTORE_NOT_VERIFIED",
+            "BUSINESS_TABLE_RESTORE_NOT_VERIFIED",
+            "PRODUCTION_RPO_RTO_NOT_VERIFIED",
+            "PRODUCTION_READY_NOT_CLAIMED",
+        ],
+    }
     write_evidence("backup-restore-smoke-summary.json", evidence)
-    print("PUBLIC_BACKUP_RESTORE_PASS")
+    print("PUBLIC_MYSQL_LOGICAL_PROBE_RESTORE_PASS")
 
 
 if __name__ == "__main__":

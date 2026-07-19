@@ -1,4 +1,5 @@
 import os
+import re
 import time
 import uuid
 
@@ -30,9 +31,18 @@ app.include_router(vlm_router, prefix=settings.api_prefix)
 app.include_router(system_router, prefix=settings.api_prefix)
 
 
+SAFE_REQUEST_ID = re.compile(r"^[A-Za-z0-9._:-]{1,128}$")
+
+
+def sanitize_request_id(value: str | None) -> str:
+    if not value or not SAFE_REQUEST_ID.fullmatch(value):
+        return str(uuid.uuid4())
+    return value
+
+
 @app.middleware("http")
 async def public_request_id_middleware(request: Request, call_next):
-    request_id = request.headers.get(REQUEST_ID_HEADER) or str(uuid.uuid4())
+    request_id = sanitize_request_id(request.headers.get(REQUEST_ID_HEADER))
     request.state.request_id = request_id
     started_at = time.time()
     status_code = 500

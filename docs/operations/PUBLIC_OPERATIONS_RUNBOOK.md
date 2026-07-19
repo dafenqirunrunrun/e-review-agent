@@ -17,6 +17,8 @@ python scripts/ci/public_backup_restore_smoke.py
 python scripts/ci/public_rollback_smoke.py
 ```
 
+The backup smoke verifies only `PUBLIC_MYSQL_LOGICAL_PROBE_RESTORE_PASS` for one probe table. The rollback smoke verifies only `PUBLIC_BACKEND_RESTART_RECOVERY_PASS` for Docker Compose backend restart recovery.
+
 ## Gate
 
 ```bash
@@ -31,4 +33,4 @@ docker compose -p ereview-public-local -f compose.public.yml down -v --remove-or
 
 ## Boundaries
 
-This runbook verifies a public demo runtime only. Production deployment, private model runtime and Enterprise RAG runtime remain outside this public readiness claim.
+This runbook verifies a public demo runtime only. Production deployment, full database disaster recovery, application version rollback, private model runtime and Enterprise RAG runtime remain outside this public readiness claim.

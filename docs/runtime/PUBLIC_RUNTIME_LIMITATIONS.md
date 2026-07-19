@@ -23,7 +23,8 @@ Current gate:
 - Real payment
 - Real logistics
 - Real refund
-- Backup and restore verification
+- Full database backup and disaster recovery verification
+- Application version rollback verification
 - Kubernetes deployment
 - Production monitoring platform
 

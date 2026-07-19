@@ -1,10 +1,14 @@
 {
+  "schemaVersion": "public-operations-phase3-gate-v2",
+  "status": "PARTIAL",
   "checks": {
     "PUBLIC_OBSERVABILITY_PASS": true,
-    "PUBLIC_BACKUP_RESTORE_PASS": true,
-    "PUBLIC_CONTAINER_SECURITY_PASS": true,
+    "PUBLIC_MYSQL_LOGICAL_PROBE_RESTORE_PASS": true,
+    "PUBLIC_CONTAINER_RISK_BASELINE_AUDITED": true,
+    "PUBLIC_CONTAINER_EXCEPTIONS_VALIDATED": true,
+    "PUBLIC_RELEASE_SECURITY_BLOCKED": true,
     "PUBLIC_SBOM_PASS": true,
-    "PUBLIC_ROLLBACK_PASS": true
+    "PUBLIC_BACKEND_RESTART_RECOVERY_PASS": true
   },
   "boundaries": [
     "PRODUCTION_READY_NOT_CLAIMED",

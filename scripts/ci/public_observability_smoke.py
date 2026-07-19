@@ -1,11 +1,18 @@
 from __future__ import annotations
 
 import json
+import os
+import subprocess
 import time
 import urllib.request
+from datetime import datetime
 
 from public_business_smoke import _admin_headers, _admin_token
 from public_runtime_common import PublicRuntimeError, ai_url, assert_litemall_ok, backend_url, main_guard, request_json, write_evidence
+
+
+def _source_commit() -> str:
+    return os.getenv("GITHUB_SHA") or subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
 
 
 def _request_with_headers(method: str, url: str, request_id: str) -> tuple[int, dict, dict]:
@@ -24,7 +31,15 @@ def _header(headers: dict, name: str) -> str | None:
 
 
 def main() -> None:
-    evidence: dict = {}
+    evidence: dict = {
+        "schemaVersion": "public-observability-smoke-v2",
+        "sourceCommit": _source_commit(),
+        "workflowRunId": os.getenv("GITHUB_RUN_ID", "local"),
+        "generatedAt": datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+        "status": "PASS",
+        "checks": {},
+        "boundaries": ["PRODUCTION_READY_NOT_CLAIMED"],
+    }
     request_id = "public-ops-observability-" + str(int(time.time()))
 
     backend_status, backend_headers, backend_ready = _request_with_headers("GET", backend_url() + "/public/runtime/ready", request_id)
@@ -56,6 +71,12 @@ def main() -> None:
         raise PublicRuntimeError(f"AI metrics missing http_request_total: {ai_metrics}")
     evidence["backendMetrics"] = backend_metrics
     evidence["aiMetrics"] = ai_metrics
+    evidence["requestIdPropagation"] = True
+    evidence["metricsVerified"] = True
+    evidence["checks"] = {
+        "requestIdPropagation": True,
+        "metricsVerified": True,
+    }
 
     write_evidence("observability-smoke-summary.json", evidence)
     print("PUBLIC_OBSERVABILITY_PASS")

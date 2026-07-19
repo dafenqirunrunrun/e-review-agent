@@ -9,7 +9,12 @@
       "fixedVersion": "1.3.12, 1.4.12, 1.2.13",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -20,7 +25,12 @@
       "fixedVersion": "1.3.12, 1.4.12, 1.2.13",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -31,7 +41,12 @@
       "fixedVersion": "2.15.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -42,7 +57,12 @@
       "fixedVersion": "2.9.9, 2.8.11.4, 2.7.9.6, 2.6.7.3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -53,7 +73,13 @@
       "fixedVersion": "2.9.9.2, 2.8.11.4, 2.7.9.6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -64,7 +90,12 @@
       "fixedVersion": "2.9.9.2, 2.8.11.4, 2.7.9.6, 2.6.7.3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -75,7 +106,13 @@
       "fixedVersion": "2.9.10, 2.8.11.5, 2.6.7.3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -86,7 +123,12 @@
       "fixedVersion": "2.6.7.3, 2.8.11.5, 2.9.10",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -97,7 +139,12 @@
       "fixedVersion": "2.9.10",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -108,7 +155,13 @@
       "fixedVersion": "2.9.10, 2.8.11.5, 2.6.7.3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -119,7 +172,13 @@
       "fixedVersion": "2.9.10.1, 2.8.11.5, 2.6.7.3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -130,7 +189,13 @@
       "fixedVersion": "2.9.10.1, 2.8.11.5, 2.6.7.3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -141,7 +206,13 @@
       "fixedVersion": "2.9.10, 2.8.11.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -152,7 +223,13 @@
       "fixedVersion": "2.9.10.1, 2.8.11.5, 2.6.7.3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -163,7 +240,13 @@
       "fixedVersion": "2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -174,7 +257,12 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -185,7 +273,12 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -196,7 +289,12 @@
       "fixedVersion": "2.9.10.4, 2.6.7.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -207,7 +305,12 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -218,7 +321,12 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -229,7 +337,12 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -240,7 +353,12 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -251,7 +369,12 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -262,7 +385,12 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -273,7 +401,12 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -284,7 +417,12 @@
       "fixedVersion": "2.9.10.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -295,7 +433,12 @@
       "fixedVersion": "2.9.10.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -306,7 +449,12 @@
       "fixedVersion": "2.9.10.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -317,7 +465,12 @@
       "fixedVersion": "2.9.10.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -328,7 +481,12 @@
       "fixedVersion": "2.9.10.6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -339,7 +497,12 @@
       "fixedVersion": "2.6.7.5, 2.9.10.6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -350,7 +513,12 @@
       "fixedVersion": "2.6.7.4, 2.9.10.7, 2.10.5.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -361,7 +529,12 @@
       "fixedVersion": "2.9.10.8",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -372,7 +545,12 @@
       "fixedVersion": "2.9.10.8",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -383,7 +561,12 @@
       "fixedVersion": "2.9.10.8",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -394,7 +577,12 @@
       "fixedVersion": "2.9.10.8, 2.6.7.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -405,7 +593,12 @@
       "fixedVersion": "2.9.10.8, 2.6.7.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -416,7 +609,12 @@
       "fixedVersion": "2.9.10.8, 2.6.7.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -427,7 +625,12 @@
       "fixedVersion": "2.9.10.8, 2.6.7.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -438,7 +641,12 @@
       "fixedVersion": "2.9.10.8, 2.6.7.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -449,7 +657,12 @@
       "fixedVersion": "2.9.10.8",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -460,7 +673,12 @@
       "fixedVersion": "2.9.10.8",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -471,7 +689,12 @@
       "fixedVersion": "2.9.10.8",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -482,7 +705,12 @@
       "fixedVersion": "2.9.10.8",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -493,7 +721,12 @@
       "fixedVersion": "2.9.10.8, 2.6.7.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -504,7 +737,12 @@
       "fixedVersion": "2.9.10.8, 2.6.7.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -515,7 +753,12 @@
       "fixedVersion": "2.13.2.1, 2.12.6.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -526,7 +769,13 @@
       "fixedVersion": "2.6.7.4, 2.7.9.7, 2.8.11.5, 2.9.10.3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -537,7 +786,13 @@
       "fixedVersion": "2.9.10.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -548,7 +803,13 @@
       "fixedVersion": "2.9.10.4, 2.8.11.6, 2.7.9.7",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -559,7 +820,13 @@
       "fixedVersion": "2.9.10.4, 2.8.11.6, 2.7.9.7",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -570,7 +837,12 @@
       "fixedVersion": "2.9.10.7, 2.6.7.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -581,7 +853,12 @@
       "fixedVersion": "2.12.7.1, 2.13.4.2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -592,7 +869,12 @@
       "fixedVersion": "2.12.7.1, 2.13.4",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -603,7 +885,13 @@
       "fixedVersion": "5.3.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -614,7 +902,12 @@
       "fixedVersion": "2.8.9",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -625,7 +918,12 @@
       "fixedVersion": "3.16.1, 3.18.2, 3.19.2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -636,7 +934,12 @@
       "fixedVersion": "3.16.3, 3.19.6, 3.20.3, 3.21.7",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -647,7 +950,12 @@
       "fixedVersion": "3.16.3, 3.19.6, 3.20.3, 3.21.7",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -658,7 +966,12 @@
       "fixedVersion": "3.25.5, 4.27.5, 4.28.2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -669,7 +982,12 @@
       "fixedVersion": "4.9.2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -680,7 +998,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -691,7 +1014,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -702,7 +1030,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -713,7 +1046,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -724,7 +1062,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -735,7 +1078,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -746,7 +1094,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -757,7 +1110,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -768,7 +1126,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -779,7 +1142,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -790,7 +1158,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -801,7 +1174,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -812,7 +1190,12 @@
       "fixedVersion": "1.4.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -823,7 +1206,12 @@
       "fixedVersion": "1.4.19",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -834,7 +1222,12 @@
       "fixedVersion": "1.4.20",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -845,7 +1238,12 @@
       "fixedVersion": "1.4.20",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -856,7 +1254,12 @@
       "fixedVersion": "1.4.21",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -867,7 +1270,12 @@
       "fixedVersion": "1.11.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -878,7 +1286,12 @@
       "fixedVersion": "3.2.2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -889,7 +1302,13 @@
       "fixedVersion": "3.2.2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -900,7 +1319,12 @@
       "fixedVersion": "2.14.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -911,7 +1335,13 @@
       "fixedVersion": "1.8.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -922,7 +1352,13 @@
       "fixedVersion": "1.9.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -933,7 +1369,13 @@
       "fixedVersion": "1.10.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -944,7 +1386,12 @@
       "fixedVersion": "2.2.1, 3.0.0-alpha-2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -955,7 +1402,13 @@
       "fixedVersion": "1.7.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -966,7 +1419,13 @@
       "fixedVersion": "1.7.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -977,7 +1436,13 @@
       "fixedVersion": "1.7.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -988,7 +1453,13 @@
       "fixedVersion": "1.7.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -999,7 +1470,13 @@
       "fixedVersion": "1.12.0, 2.0.0-alpha-3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1010,7 +1487,12 @@
       "fixedVersion": "9.0.20, 8.5.41",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1021,7 +1503,12 @@
       "fixedVersion": "7.0.99, 8.5.49, 9.0.29",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1032,7 +1519,12 @@
       "fixedVersion": "7.0.99, 8.5.50, 9.0.30",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1043,7 +1535,12 @@
       "fixedVersion": "10.0.0-M5, 9.0.35, 8.5.55",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1054,7 +1551,13 @@
       "fixedVersion": "9.0.31, 8.5.51, 7.0.100",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1065,7 +1568,12 @@
       "fixedVersion": "10.0.0-M5, 9.0.35, 8.5.55, 7.0.104",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1076,7 +1584,12 @@
       "fixedVersion": "10.0.2, 9.0.43, 8.5.63",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1087,7 +1600,12 @@
       "fixedVersion": "10.0.2, 9.0.41, 8.5.61, 7.0.108",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1098,7 +1616,12 @@
       "fixedVersion": "8.5.83, 9.0.68, 10.0.27, 10.1.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1109,7 +1632,12 @@
       "fixedVersion": "10.1.5, 11.0.0-M5, 8.5.88, 9.0.71",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1120,7 +1648,12 @@
       "fixedVersion": "11.0.0-M11, 10.1.16, 9.0.83, 8.5.96",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1131,7 +1664,12 @@
       "fixedVersion": "11.0.0-M21, 10.1.25, 9.0.90",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1142,7 +1680,12 @@
       "fixedVersion": "11.0.0-M21, 10.1.25, 9.0.90",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1153,7 +1696,12 @@
       "fixedVersion": "11.0.2, 10.1.34, 9.0.98",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1164,7 +1712,12 @@
       "fixedVersion": "11.0.2, 10.1.34, 9.0.98",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1175,7 +1728,13 @@
       "fixedVersion": "11.0.3, 10.1.35, 9.0.99",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1186,7 +1745,12 @@
       "fixedVersion": "11.0.8, 10.1.42, 9.0.106",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1197,7 +1761,12 @@
       "fixedVersion": "11.0.10, 10.1.44, 9.0.108",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1208,7 +1777,12 @@
       "fixedVersion": "11.0.9, 10.1.43, 9.0.107",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1219,7 +1793,12 @@
       "fixedVersion": "9.0.107, 10.1.43, 11.0.9",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1230,7 +1809,12 @@
       "fixedVersion": "11.0.11, 10.1.45, 9.0.109",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1241,7 +1825,12 @@
       "fixedVersion": "9.0.116, 10.1.52, 11.0.20",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1252,7 +1841,12 @@
       "fixedVersion": "9.0.118, 10.1.55, 11.0.22",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1263,7 +1857,13 @@
       "fixedVersion": "9.0.118, 10.1.55, 11.0.22",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1274,7 +1874,12 @@
       "fixedVersion": "9.0.118, 10.1.55, 11.0.22",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1285,7 +1890,13 @@
       "fixedVersion": "9.0.118, 10.1.55, 11.0.22",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1296,7 +1907,12 @@
       "fixedVersion": "9.0.118, 10.1.55, 11.0.22",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1307,7 +1923,13 @@
       "fixedVersion": "9.0.118, 10.1.55, 11.0.22",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1318,7 +1940,12 @@
       "fixedVersion": "7.0.105, 8.5.57, 9.0.37, 10.0.0-M7",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1329,7 +1956,12 @@
       "fixedVersion": "6.2.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1340,7 +1972,12 @@
       "fixedVersion": "20230227",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1351,7 +1988,12 @@
       "fixedVersion": "20231013",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1362,7 +2004,12 @@
       "fixedVersion": "3.5.6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1373,7 +2020,12 @@
       "fixedVersion": "2.2.11.RELEASE",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1384,7 +2036,12 @@
       "fixedVersion": "3.3.11, 3.4.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1395,7 +2052,12 @@
       "fixedVersion": "4.0.6, 3.5.14",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1406,7 +2068,12 @@
       "fixedVersion": "3.0.7, 2.7.12, 2.6.15, 2.5.15",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1417,7 +2084,13 @@
       "fixedVersion": "2.5.12, 2.6.6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1428,7 +2101,13 @@
       "fixedVersion": "5.2.20.RELEASE, 5.3.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1439,7 +2118,12 @@
       "fixedVersion": "5.2.22.RELEASE, 5.3.20",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1450,7 +2134,12 @@
       "fixedVersion": "5.3.19, 5.2.21.RELEASE",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1461,7 +2150,12 @@
       "fixedVersion": "6.0.8, 5.3.27, 5.2.24.RELEASE",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1472,7 +2166,13 @@
       "fixedVersion": "6.0.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1483,7 +2183,12 @@
       "fixedVersion": "6.1.4, 6.0.17, 5.3.32",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1494,7 +2199,12 @@
       "fixedVersion": "6.1.5, 6.0.18, 5.3.33",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1505,7 +2215,12 @@
       "fixedVersion": "5.3.34, 6.0.19, 6.1.6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1516,7 +2231,12 @@
       "fixedVersion": "5.2.3.RELEASE, 5.1.13.RELEASE, 5.0.16.RELEASE",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1527,7 +2247,13 @@
       "fixedVersion": "5.2.20.RELEASE, 5.3.18",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "Java",
@@ -1538,7 +2264,12 @@
       "fixedVersion": "6.1.14",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1549,7 +2280,12 @@
       "fixedVersion": "1.26",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1560,7 +2296,12 @@
       "fixedVersion": "2.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Java",
@@ -1571,7 +2312,12 @@
       "fixedVersion": "1.31",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Python",
@@ -1582,7 +2328,12 @@
       "fixedVersion": "6.1.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Python",
@@ -1593,7 +2344,12 @@
       "fixedVersion": "1.2.22",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Python",
@@ -1604,7 +2360,12 @@
       "fixedVersion": "3.0.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Python",
@@ -1615,7 +2376,12 @@
       "fixedVersion": "0.40.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Python",
@@ -1626,7 +2392,12 @@
       "fixedVersion": "1.1.0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Python",
@@ -1637,7 +2408,12 @@
       "fixedVersion": "1.3.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "Python",
@@ -1648,7 +2424,12 @@
       "fixedVersion": "0.46.2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1659,7 +2440,12 @@
       "fixedVersion": "1.34.8-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1670,7 +2456,12 @@
       "fixedVersion": "3.3.6-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1681,7 +2472,12 @@
       "fixedVersion": "3.3.6-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1692,7 +2488,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1703,7 +2504,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1714,7 +2520,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1725,7 +2536,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1736,7 +2552,13 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1747,7 +2569,12 @@
       "fixedVersion": "2.7.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1758,7 +2585,12 @@
       "fixedVersion": "2.7.4-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1769,7 +2601,12 @@
       "fixedVersion": "2.8.1-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1780,7 +2617,12 @@
       "fixedVersion": "2.8.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1791,7 +2633,12 @@
       "fixedVersion": "2.8.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1802,7 +2649,12 @@
       "fixedVersion": "2.8.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1813,7 +2665,12 @@
       "fixedVersion": "1.6.53-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1824,7 +2681,12 @@
       "fixedVersion": "1.6.53-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1835,7 +2697,12 @@
       "fixedVersion": "1.6.53-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1846,7 +2713,12 @@
       "fixedVersion": "1.6.54-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1857,7 +2729,12 @@
       "fixedVersion": "1.6.54-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1868,7 +2745,12 @@
       "fixedVersion": "1.6.55-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1879,7 +2761,12 @@
       "fixedVersion": "3.3.6-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1890,7 +2777,12 @@
       "fixedVersion": "3.3.6-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1901,7 +2793,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1912,7 +2809,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1923,7 +2825,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1934,7 +2841,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1945,7 +2857,13 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1956,7 +2874,12 @@
       "fixedVersion": "2.13.4-r6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1967,7 +2890,12 @@
       "fixedVersion": "2.13.4-r6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1978,7 +2906,12 @@
       "fixedVersion": "2.13.9-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -1989,7 +2922,12 @@
       "fixedVersion": "2.13.9-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -2000,7 +2938,12 @@
       "fixedVersion": "2.13.9-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -2011,7 +2954,12 @@
       "fixedVersion": "2.13.9-r1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -2022,7 +2970,12 @@
       "fixedVersion": "1.2.5-r11",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -2033,7 +2986,12 @@
       "fixedVersion": "1.2.5-r11",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -2044,7 +3002,12 @@
       "fixedVersion": "1.68.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-admin:v190-phase2 (alpine 3.21.3)",
@@ -2055,7 +3018,12 @@
       "fixedVersion": "1.3.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-backend:v190-phase2 (ubuntu 22.04)",
@@ -2066,7 +3034,12 @@
       "fixedVersion": "2.2.27-3ubuntu2.5",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-backend:v190-phase2 (ubuntu 22.04)",
@@ -2077,7 +3050,12 @@
       "fixedVersion": "3.0.2-0ubuntu1.25",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-backend:v190-phase2 (ubuntu 22.04)",
@@ -2088,7 +3066,12 @@
       "fixedVersion": "3.0.2-0ubuntu1.25",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2099,7 +3082,12 @@
       "fixedVersion": "1.34.8-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2110,7 +3098,12 @@
       "fixedVersion": "3.3.6-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2121,7 +3114,12 @@
       "fixedVersion": "3.3.6-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2132,7 +3130,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2143,7 +3146,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2154,7 +3162,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2165,7 +3178,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2176,7 +3194,13 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2187,7 +3211,12 @@
       "fixedVersion": "2.7.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2198,7 +3227,12 @@
       "fixedVersion": "2.7.4-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2209,7 +3243,12 @@
       "fixedVersion": "2.8.1-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2220,7 +3259,12 @@
       "fixedVersion": "2.8.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2231,7 +3275,12 @@
       "fixedVersion": "2.8.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2242,7 +3291,12 @@
       "fixedVersion": "2.8.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2253,7 +3307,12 @@
       "fixedVersion": "1.6.53-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2264,7 +3323,12 @@
       "fixedVersion": "1.6.53-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2275,7 +3339,12 @@
       "fixedVersion": "1.6.53-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2286,7 +3355,12 @@
       "fixedVersion": "1.6.54-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2297,7 +3371,12 @@
       "fixedVersion": "1.6.54-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2308,7 +3387,12 @@
       "fixedVersion": "1.6.55-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2319,7 +3403,12 @@
       "fixedVersion": "3.3.6-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2330,7 +3419,12 @@
       "fixedVersion": "3.3.6-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2341,7 +3435,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2352,7 +3451,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2363,7 +3467,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2374,7 +3483,12 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2385,7 +3499,13 @@
       "fixedVersion": "3.3.7-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown",
+      "criticalRiskStatement": "CRITICAL finding remains a release blocker until remediated or downgraded by verified evidence; this exception only records the public demo baseline."
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2396,7 +3516,12 @@
       "fixedVersion": "2.13.4-r6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2407,7 +3532,12 @@
       "fixedVersion": "2.13.4-r6",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2418,7 +3548,12 @@
       "fixedVersion": "2.13.9-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2429,7 +3564,12 @@
       "fixedVersion": "2.13.9-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2440,7 +3580,12 @@
       "fixedVersion": "2.13.9-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2451,7 +3596,12 @@
       "fixedVersion": "2.13.9-r1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2462,7 +3612,12 @@
       "fixedVersion": "1.2.5-r11",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2473,7 +3628,12 @@
       "fixedVersion": "1.2.5-r11",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2484,7 +3644,12 @@
       "fixedVersion": "1.68.1",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "e-review-agent-public-customer:v190-phase2 (alpine 3.21.3)",
@@ -2495,7 +3660,12 @@
       "fixedVersion": "1.3.2-r0",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "litemall-admin/package-lock.json",
@@ -2506,7 +3676,12 @@
       "fixedVersion": "3.0.7",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "litemall-admin/package-lock.json",
@@ -2517,7 +3692,12 @@
       "fixedVersion": "0.19.3",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "litemall-admin/package-lock.json",
@@ -2528,7 +3708,12 @@
       "fixedVersion": "0.20.2",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     },
     {
       "target": "litemall-vue/package-lock.json",
@@ -2539,7 +3724,12 @@
       "fixedVersion": "3.0.7",
       "reason": "Public sanitized demo snapshot retains legacy dependencies; risk is documented and gated as non-production only.",
       "remediation": "Upgrade base image or dependency in a dedicated hardening PR without changing business logic.",
-      "expires": "2026-10-31"
+      "expires": "2026-10-17",
+      "owner": "repository-maintainer",
+      "trackingIssue": "https://github.com/dafenqirunrunrun/e-review-agent/issues/29",
+      "createdAt": "2026-07-19",
+      "disposition": "accepted-temporarily",
+      "reachability": "unknown"
     }
   ]
 }
