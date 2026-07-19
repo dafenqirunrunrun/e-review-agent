@@ -18,6 +18,7 @@ jobs:
       PUBLIC_CI_ADMIN_PASSWORD: public_ci_admin_123
       PUBLIC_CI_USER_USERNAME: ci_public_user
       PUBLIC_CI_USER_PASSWORD: public_ci_user_123
+      TRIVY_VERSION: "0.72.0"
     steps:
       - uses: actions/checkout@v4
 
@@ -25,14 +26,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Trivy
+      - name: Install pinned Trivy
         run: |
-          sudo apt-get update
-          sudo apt-get install -y wget apt-transport-https gnupg lsb-release
-          wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo gpg --dearmor -o /usr/share/keyrings/trivy.gpg
-          echo "deb [signed-by=/usr/share/keyrings/trivy.gpg] https://aquasecurity.github.io/trivy-repo/deb generic main" | sudo tee /etc/apt/sources.list.d/trivy.list
-          sudo apt-get update
-          sudo apt-get install -y trivy
+          set -euo pipefail
+          wget -q "https://github.com/aquasecurity/trivy/releases/download/v${TRIVY_VERSION}/trivy_${TRIVY_VERSION}_Linux-64bit.deb"
+          sudo dpkg -i "trivy_${TRIVY_VERSION}_Linux-64bit.deb"
+          trivy --version
 
       - name: Compose build
         run: docker compose -f compose.public.yml build
@@ -40,7 +39,7 @@ jobs:
       - name: Filesystem security scan
         run: |
           mkdir -p artifacts/operations/v1.9.0-phase3/security
-          trivy fs --offline-scan --scanners vuln --ignore-unfixed --format json --output artifacts/operations/v1.9.0-phase3/security/filesystem.json .
+          trivy fs --offline-scan --scanners vuln --ignore-unfixed --vex docs/security/public_vex.openvex.json --format json --output artifacts/operations/v1.9.0-phase3/security/filesystem.json .
 
       - name: Image security scans
         run: |
@@ -52,7 +51,7 @@ jobs:
             e-review-agent-public-customer:v190-phase2
           do
             safe_name="$(echo "$image" | tr '/:' '__')"
-            trivy image --offline-scan --scanners vuln --ignore-unfixed --format json --output "artifacts/operations/v1.9.0-phase3/security/${safe_name}.json" "$image"
+            trivy image --offline-scan --scanners vuln --ignore-unfixed --vex docs/security/public_vex.openvex.json --format json --output "artifacts/operations/v1.9.0-phase3/security/${safe_name}.json" "$image"
           done
 
       - name: Container security gate
