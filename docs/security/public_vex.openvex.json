@@ -1,0 +1,22 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://github.com/dafenqirunrunrun/e-review-agent/security/vex/public-phase4a-cve-2016-1000027",
+  "author": "E-Review Agent public repository maintainer",
+  "timestamp": "2026-07-19T00:00:00Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000027"
+      },
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-web@5.3.39"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "The public snapshot uses Spring MVC controllers but does not expose Spring HTTP Invoker remoting or RemoteInvocation deserialization endpoints. Source search evidence covers HttpInvokerServiceExporter, HttpInvokerProxyFactoryBean, RemoteInvocation, Hessian, Burlap and ObjectInputStream usage."
+    }
+  ]
+}

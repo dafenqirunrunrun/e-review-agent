@@ -30,7 +30,7 @@ jobs:
       - name: Scan filesystem and public images
         run: |
           mkdir -p artifacts/operations/v1.9.0-phase3/security
-          trivy fs --offline-scan --scanners vuln --ignore-unfixed --format json --output artifacts/operations/v1.9.0-phase3/security/filesystem.json .
+          trivy fs --offline-scan --scanners vuln --ignore-unfixed --vex docs/security/public_vex.openvex.json --format json --output artifacts/operations/v1.9.0-phase3/security/filesystem.json .
           for image in \
             e-review-agent-public-backend:v190-phase2 \
             e-review-agent-public-ai-service:v190-phase2 \
@@ -38,7 +38,7 @@ jobs:
             e-review-agent-public-customer:v190-phase2
           do
             safe_name="$(echo "$image" | tr '/:' '__')"
-            trivy image --offline-scan --scanners vuln --ignore-unfixed --format json --output "artifacts/operations/v1.9.0-phase3/security/${safe_name}.json" "$image"
+            trivy image --offline-scan --scanners vuln --ignore-unfixed --vex docs/security/public_vex.openvex.json --format json --output "artifacts/operations/v1.9.0-phase3/security/${safe_name}.json" "$image"
           done
 
       - name: Container security gate
