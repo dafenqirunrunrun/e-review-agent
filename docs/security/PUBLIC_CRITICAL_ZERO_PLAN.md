@@ -43,6 +43,8 @@ Baseline counts:
 
 ## Boundaries
 
+- Phase 4A verification run `29674237184` reported 0 CRITICAL findings and 0 CRITICAL exceptions after the targeted dependency/runtime remediation and the documented OpenVEX reachability statement for `CVE-2016-1000027`.
+- The remaining HIGH exception baseline was refreshed to 55 entries from the same run.
 - `PUBLIC_RELEASE_SECURITY_BLOCKED` remains active while HIGH exceptions remain.
 - `PRODUCTION_READY_NOT_CLAIMED` remains active.
 - No tag or Release is created.

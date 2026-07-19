@@ -7,6 +7,7 @@ Public container security is checked with Trivy in GitHub Actions.
 - Filesystem scan for the repository using offline dependency resolution to avoid external repository rate limits.
 - Image scan for backend, AI service, admin frontend and customer frontend images.
 - The blocking baseline scan currently uses Trivy with unfixed vulnerabilities excluded. This is a release gate for fixed/remediable CRITICAL/HIGH findings, not a complete vulnerability audit.
+- Phase 4A uses `docs/security/public_vex.openvex.json` for the documented `CVE-2016-1000027` Spring HTTP Invoker reachability assessment. The raw scan artifacts remain uploaded by CI; the VEX statement is scoped to `spring-web` and does not create a CRITICAL exception.
 - Informational scans without that boundary may expose additional unfixed upstream vulnerabilities and must be reviewed separately before any production claim.
 - SBOM generation in SPDX JSON format.
 - Secret scanning remains covered by the separate gitleaks workflow.

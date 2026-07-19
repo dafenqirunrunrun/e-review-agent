@@ -9,7 +9,7 @@ After Phase 4A, CRITICAL exceptions are not allowed. The remaining exception lis
 ## Summary
 
 - CRITICAL exceptions: 0
-- HIGH exceptions retained for Phase 4B: 196
+- HIGH exceptions retained for Phase 4B: 55
 - Tracking issue: [#29](https://github.com/dafenqirunrunrun/e-review-agent/issues/29)
 
 ## Exception Data
