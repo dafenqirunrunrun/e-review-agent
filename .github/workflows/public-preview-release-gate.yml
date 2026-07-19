@@ -1,18 +1,23 @@
-name: Public Operations CI
+name: Public Preview Release Gate
 
 on:
   pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
   workflow_dispatch:
 
+env:
+  TRIVY_VERSION: "0.72.0"
+
 jobs:
-  public-operations-phase3:
+  public-preview-release-gate:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     env:
-      PUBLIC_COMPOSE_PROJECT: ereview-public-ops-${{ github.run_id }}
+      PUBLIC_COMPOSE_PROJECT: ereview-public-preview-${{ github.run_id }}
       PUBLIC_BACKEND_URL: http://127.0.0.1:8080
       PUBLIC_AI_URL: http://127.0.0.1:8008
       PUBLIC_ADMIN_URL: http://127.0.0.1:8081
@@ -21,7 +26,7 @@ jobs:
       PUBLIC_CI_ADMIN_PASSWORD: public_ci_admin_123
       PUBLIC_CI_USER_USERNAME: ci_public_user
       PUBLIC_CI_USER_PASSWORD: public_ci_user_123
-      TRIVY_VERSION: "0.72.0"
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -36,17 +41,17 @@ jobs:
           sudo dpkg -i "trivy_${TRIVY_VERSION}_Linux-64bit.deb"
           trivy --version
 
-      - name: Compose build
-        run: docker compose -f compose.public.yml build
+      - name: Compose config
+        run: docker compose -f compose.public.yml config
 
-      - name: Filesystem security scan
+      - name: Compose build
+        run: docker compose -f compose.public.yml build --no-cache
+
+      - name: Scan filesystem and public images
         run: |
+          set -euo pipefail
           mkdir -p artifacts/operations/v1.9.0-phase3/security
           trivy fs --offline-scan --scanners vuln --ignore-unfixed --vex docs/security/public_vex.openvex.json --format json --output artifacts/operations/v1.9.0-phase3/security/filesystem.json .
-
-      - name: Image security scans
-        run: |
-          mkdir -p artifacts/operations/v1.9.0-phase3/security
           for image in \
             e-review-agent-public-backend:v190-phase2 \
             e-review-agent-public-ai-service:v190-phase2 \
@@ -60,6 +65,9 @@ jobs:
       - name: Container security gate
         run: python scripts/ci/public_container_security_gate.py
 
+      - name: Critical zero gate
+        run: python scripts/ci/public_critical_zero_gate.py
+
       - name: Generate public SBOM
         run: python scripts/ci/generate_public_sbom.py
 
@@ -72,6 +80,12 @@ jobs:
       - name: Business smoke E2E
         run: python scripts/ci/public_business_smoke.py
 
+      - name: AI unavailable behavior smoke
+        run: python scripts/ci/public_ai_unavailable_smoke.py
+
+      - name: Runtime phase 2 gate
+        run: python scripts/readiness/run_public_runtime_phase2_gate.py
+
       - name: Observability smoke
         run: python scripts/ci/public_observability_smoke.py
 
@@ -81,20 +95,17 @@ jobs:
       - name: Rollback smoke
         run: python scripts/ci/public_rollback_smoke.py
 
-      - name: Phase 3 operations gate
+      - name: Operations phase 3 gate
         run: python scripts/readiness/run_public_ops_phase3_gate.py
 
-      - name: Collect operations diagnostics
-        if: failure()
-        run: |
-          docker compose -p "$PUBLIC_COMPOSE_PROJECT" -f compose.public.yml ps || true
-          docker compose -p "$PUBLIC_COMPOSE_PROJECT" -f compose.public.yml logs --no-color || true
+      - name: Public preview release gate
+        run: python scripts/readiness/run_public_preview_release_gate.py --require-remote-checks
 
-      - name: Upload operations evidence
+      - name: Upload preview release evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: public-operations-phase3-evidence
+          name: public-preview-release-gate-evidence
           path: artifacts/
           if-no-files-found: ignore
 

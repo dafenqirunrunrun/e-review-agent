@@ -21,3 +21,5 @@ Required fields: `target`, `pkgName`, `vulnerabilityId`, `severity`, `installedV
 Each exception is scoped by at least target, package name, vulnerability ID, severity and installed version. A package upgrade, severity change or target change must create a new review instead of silently matching an old exception.
 
 Current disposition values are temporary HIGH risk acceptance records, tracked by [issue #29](https://github.com/dafenqirunrunrun/e-review-agent/issues/29). `reachability: unknown` is treated as visible residual risk, not as proof that the finding is safe.
+
+These HIGH exceptions do not block `v1.9.0-public-preview.1`, but they continue to block a production release.

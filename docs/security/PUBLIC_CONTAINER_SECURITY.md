@@ -22,6 +22,12 @@ When HIGH exceptions remain, the valid status tokens include:
 
 - `PUBLIC_CONTAINER_RISK_BASELINE_AUDITED`
 - `PUBLIC_CONTAINER_EXCEPTIONS_VALIDATED`
+- `PUBLIC_PREVIEW_RELEASE_ALLOWED`
+- `PUBLIC_SECURITY_EXCEPTIONS_PRESENT`
 - `PUBLIC_RELEASE_SECURITY_BLOCKED`
+- `PUBLIC_PRODUCTION_RELEASE_BLOCKED`
+- `PRODUCTION_READY_NOT_CLAIMED`
 
 `PUBLIC_CONTAINER_SECURITY_PASS` is only valid for a future baseline with no CRITICAL findings, no CRITICAL exceptions, no unexceptioned HIGH findings, no expired exceptions and no invalid exception records.
+
+The public preview release can proceed with documented HIGH exceptions only after the preview release gate validates runtime, business E2E, operations, SBOM and security evidence. Production deployment remains blocked while any HIGH exception remains.

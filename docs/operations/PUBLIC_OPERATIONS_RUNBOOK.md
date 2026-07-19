@@ -8,6 +8,8 @@ docker compose -p ereview-public-local -f compose.public.yml up -d
 python scripts/ci/wait_for_public_runtime.py
 ```
 
+The default public preview ports are bound to `127.0.0.1` for local review. Do not expose this Compose runtime directly to the public Internet.
+
 ## Smoke
 
 ```bash
@@ -34,3 +36,5 @@ docker compose -p ereview-public-local -f compose.public.yml down -v --remove-or
 ## Boundaries
 
 This runbook verifies a public demo runtime only. Production deployment, full database disaster recovery, application version rollback, private model runtime and Enterprise RAG runtime remain outside this public readiness claim.
+
+`v1.9.0-public-preview.1` may claim public preview verification after the preview release gate passes. It must continue to state `PUBLIC_PRODUCTION_RELEASE_BLOCKED` and `PRODUCTION_READY_NOT_CLAIMED` while HIGH security exceptions remain.

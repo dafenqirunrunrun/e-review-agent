@@ -7,13 +7,30 @@ Enterprise-oriented e-commerce review governance system with AI analysis, Agent 
 ![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688)
 ![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-engineering%20prototype-orange)
+![Status](https://img.shields.io/badge/Status-public%20preview-orange)
+
+## Public Preview Status
+
+| Gate | Status |
+|---|---|
+| Public Preview | Verified |
+| Public CI | PASS |
+| Docker Runtime | PASS |
+| Business E2E | PASS |
+| CRITICAL Findings | 0 |
+| Known HIGH Exceptions | 55 |
+| Production Deployment | Not recommended |
+| Production Readiness | Not claimed |
+| Private Model Runtime | Not included |
+| Enterprise RAG Runtime | Not included |
+
+Security notice: this public preview contains documented temporary HIGH-severity dependency exceptions. It is intended for local demonstration, source-code review and educational evaluation. Do not expose the default Docker Compose runtime directly to the public Internet.
 
 ## Overview
 
 E-Review Agent extends the open-source [linlinjava/litemall](https://github.com/linlinjava/litemall) project into a review-governance prototype for graduation-project, engineering-practice and portfolio demonstration.
 
-The core loop is:
+The public preview core loop is:
 
 1. A customer browses products in the H5 storefront.
 2. The customer submits an order through a demo payment and demo shipping flow.
@@ -182,7 +199,8 @@ The public snapshot includes a reproducible subset of the internal test suite. P
 | Public observability smoke | Phase 3 evidence validates request correlation and metrics |
 | Public MySQL logical probe restore | Phase 3 verifies a single probe-table restore only |
 | Public backend restart recovery | Phase 3 verifies compose service restart recovery only |
-| Public container risk baseline | Audited with documented temporary CRITICAL/HIGH exceptions; release security remains blocked |
+| Public container risk baseline | CRITICAL findings are zero; 55 documented temporary HIGH exceptions remain |
+| Public preview release gate | Validates runtime, business E2E, operations evidence, SBOM and security evidence |
 | Production readiness | Not claimed |
 
 ## AI Capability Boundaries
@@ -207,6 +225,8 @@ docker compose -p ereview-public-local -f compose.public.yml down -v --remove-or
 ```
 
 Public Docker verification uses a deterministic public rule engine so the business workflow can be reproduced without private model assets. This mode does not represent the private local-model or Enterprise RAG runtime.
+
+The public Compose file binds exposed preview ports to `127.0.0.1` by default. It is a local-preview runtime and must not be published directly to the public Internet.
 
 Remote runtime implementation verification:
 

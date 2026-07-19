@@ -3,7 +3,11 @@ name: Public Critical Zero CI
 on:
   pull_request:
     branches:
+      - main
       - experiment/v1.9.0-public-ops-phase3
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 env:
