@@ -4,7 +4,7 @@ pydantic==2.7.4
 pytest==8.2.2
 httpx==0.27.0
 numpy==1.26.4
-scikit-learn==1.5.2
+scikit-learn==1.9.0
 
 # Optional professional Agent orchestration provider.
 # The service keeps rule/mock fallback when this package is absent.
