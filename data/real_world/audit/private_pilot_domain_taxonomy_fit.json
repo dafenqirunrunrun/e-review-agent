@@ -1,0 +1,50 @@
+{
+  "marker": "PILOT_TAXONOMY_PRELIMINARY_ONLY",
+  "total_samples": 300,
+  "sources": {
+    "amazon_reviews_2023": {
+      "sample_count": 150,
+      "risk_candidate_count": 13,
+      "non_risk_opinion_count": 126,
+      "insufficient_evidence_count": 0,
+      "ambiguous_count": 11,
+      "multi_risk_count": 0,
+      "taxonomy_gap_count": 0,
+      "mapped_count": 13,
+      "adjusted_mappable_rate": 0.0867,
+      "status_distribution": {
+        "non_risk_opinion": 126,
+        "mapped": 13,
+        "ambiguous": 11
+      },
+      "product_review_count": 150
+    },
+    "asap_chinese_reviews": {
+      "sample_count": 150,
+      "risk_candidate_count": 0,
+      "non_risk_opinion_count": 0,
+      "insufficient_evidence_count": 0,
+      "ambiguous_count": 0,
+      "multi_risk_count": 0,
+      "taxonomy_gap_count": 0,
+      "mapped_count": 0,
+      "adjusted_mappable_rate": 0.0,
+      "status_distribution": {
+        "auxiliary_language_expression": 150
+      },
+      "restaurant_review_count": 150,
+      "auxiliary_language_expression_count": 150,
+      "ecommerce_denominator_excluded": true
+    }
+  },
+  "overall_adjusted_mappable_rate": 0.0433,
+  "ecommerce_source_adjusted_mappable_rate": 0.0867,
+  "auxiliary_language_source_adjusted_mappable_rate": null,
+  "non_risk_opinion_count": 126,
+  "insufficient_evidence_count": 0,
+  "taxonomy_gap_count": 0,
+  "multi_risk_count": 0,
+  "asap_enters_ecommerce_taxonomy_denominator": false,
+  "weak_labels_are_gold": false,
+  "created_at": "2026-07-14T09:39:00.278890+00:00"
+}

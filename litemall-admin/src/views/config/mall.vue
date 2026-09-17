@@ -2,10 +2,10 @@
   <div class="app-container">
     <el-form ref="dataForm" :rules="rules" :model="dataForm" status-icon label-width="300px">
       <el-form-item :label="$t('config_mall.form.mall_name')" prop="litemall_mall_name">
-        <el-input v-model="dataForm.litemall_mall_name" />
+        <el-input v-model="dataForm.litemall_mall_name"/>
       </el-form-item>
       <el-form-item :label="$t('config_mall.form.mall_address')" prop="litemall_mall_address">
-        <el-input v-model="dataForm.litemall_mall_address" />
+        <el-input v-model="dataForm.litemall_mall_address"/>
       </el-form-item>
       <el-form-item :label="$t('config_mall.form.mall_coordinates')">
         <el-col :span="11">
@@ -17,10 +17,10 @@
         </el-col>
       </el-form-item>
       <el-form-item :label="$t('config_mall.form.mall_phone')" prop="litemall_mall_phone">
-        <el-input v-model="dataForm.litemall_mall_phone" />
+        <el-input v-model="dataForm.litemall_mall_phone"/>
       </el-form-item>
       <el-form-item :label="$t('config_mall.form.mall_qq')" prop="litemall_mall_qq">
-        <el-input v-model="dataForm.litemall_mall_qq" />
+        <el-input v-model="dataForm.litemall_mall_qq"/>
       </el-form-item>
       <el-form-item>
         <el-button @click="cancel">{{ $t('app.button.cancel') }}</el-button>

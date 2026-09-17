@@ -1,0 +1,2 @@
+ERROR 1064 (42000) at line 4: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '鍒涘缓鏃堕棿',
+  `updated_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDA' at line 17

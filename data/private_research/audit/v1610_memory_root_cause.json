@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-07-16T07:35:41.537484+00:00",
+  "status": "V22_TRAINING_MEMORY_ROOT_CAUSE_CONFIRMED",
+  "root_causes": [
+    "ROOT_CAUSE_MEMORY_SENTINEL_FALSE_POSITIVE",
+    "ROOT_CAUSE_TRANSIENT_GLOBAL_FREE_MEMORY_DIP",
+    "ROOT_CAUSE_REAL_CAPACITY_LIMIT"
+  ],
+  "confirmed_pytorch_tensor_leak": false,
+  "confirmed_validation_retention": false,
+  "confirmed_checkpoint_retention": false,
+  "confirmed_wddm_external_pressure": false,
+  "confirmed_sentinel_false_positive": true,
+  "evidence": {
+    "single_sample_stop": true,
+    "reserved_growth_mb": 0.0,
+    "allocated_growth_mb": 14.91,
+    "minimum_logged_free_mb_before_stop": 241,
+    "step27_free_memory": "<200 single sample"
+  },
+  "limits": [
+    "v1.6.9 did not record validation/checkpoint phase cleanup snapshots.",
+    "v1.6.9 did not record external compute process count during training."
+  ]
+}

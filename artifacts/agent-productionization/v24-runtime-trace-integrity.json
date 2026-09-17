@@ -1,0 +1,11 @@
+{
+  "completeTraces": 20,
+  "footerMismatches": 0,
+  "hashFailures": 0,
+  "incompleteTraces": 0,
+  "integrityGate": "E_REVIEW_V24_RUNTIME_TRACE_INTEGRITY_PASS",
+  "normalTraces": 20,
+  "orphanSpans": 0,
+  "sequenceGaps": 0,
+  "sinkFailureIsolation": true
+}

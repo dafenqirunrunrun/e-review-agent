@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-07-15T08:54:57.360272+00:00",
+  "status": "CANONICAL_SCHEMA_SINGLE_SOURCE_PASS",
+  "consumer_count": 6,
+  "conflicting_consumer_count": 0,
+  "records": [
+    {
+      "consumer_id": "canonical_contract",
+      "file": "ai-service/app/contracts/e_review_decision.py",
+      "contract_source": "app.contracts.e_review_decision",
+      "schema_version": "v2.0.0",
+      "field_match": true,
+      "enum_match": true,
+      "nested_shape_match": true,
+      "migration_required": false,
+      "final_status": "aligned"
+    },
+    {
+      "consumer_id": "legacy_migration",
+      "file": "ai-service/app/contracts/e_review_decision_migration.py",
+      "contract_source": "app.contracts.e_review_decision",
+      "schema_version": "v2.0.0",
+      "field_match": true,
+      "enum_match": true,
+      "nested_shape_match": true,
+      "migration_required": true,
+      "final_status": "aligned"
+    },
+    {
+      "consumer_id": "schema_failure_analysis",
+      "file": "ai-service/app/evaluation/schema_failure_analysis.py",
+      "contract_source": "app.contracts.e_review_decision",
+      "schema_version": "v2.0.0",
+      "field_match": true,
+      "enum_match": true,
+      "nested_shape_match": true,
+      "migration_required": true,
+      "final_status": "aligned"
+    },
+    {
+      "consumer_id": "prompt_renderer",
+      "file": "ai-service/app/prompts/e_review_prompt_renderer.py",
+      "contract_source": "app.contracts.e_review_decision",
+      "schema_version": "v2.0.0",
+      "field_match": true,
+      "enum_match": true,
+      "nested_shape_match": true,
+      "migration_required": false,
+      "final_status": "aligned"
+    },
+    {
+      "consumer_id": "completion_only_encoder",
+      "file": "ai-service/app/training/completion_only.py",
+      "contract_source": "app.prompts + app.contracts",
+      "schema_version": "v2.0.0",
+      "field_match": true,
+      "enum_match": true,
+      "nested_shape_match": true,
+      "migration_required": false,
+      "final_status": "aligned"
+    },
+    {
+      "consumer_id": "task_evaluator",
+      "file": "ai-service/app/evaluation/e_review_task_evaluator.py",
+      "contract_source": "app.contracts.e_review_decision_migration",
+      "schema_version": "v2.0.0",
+      "field_match": true,
+      "enum_match": true,
+      "nested_shape_match": true,
+      "migration_required": false,
+      "final_status": "aligned"
+    }
+  ],
+  "evaluation_schema_definition_removed": true,
+  "evaluation_schema_definition_status": "EVALUATION_SCHEMA_DEFINITION_REMOVED"
+}

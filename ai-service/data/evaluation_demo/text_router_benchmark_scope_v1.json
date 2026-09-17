@@ -1,0 +1,96 @@
+{
+  "scopeVersion": "text-router-benchmark-scope-v1",
+  "scopePatchVersion": "step21.2.2b.1",
+  "risks": [
+    {
+      "riskCode": "after_sales_risk",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "退款、退货、破损和客服争议可由文本表达。"
+    },
+    {
+      "riskCode": "fake_review",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "虚构体验、未购买账号和组织化发布可由文本表达。"
+    },
+    {
+      "riskCode": "fake_review_suspected",
+      "inScope": false,
+      "benchmarkRole": "ABSTENTION_OR_EVIDENCE_STATE",
+      "reason": "属于证据强度不足的中间状态，不作为确定性 text Router 标签计分。"
+    },
+    {
+      "riskCode": "harassment_or_abuse",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "文本威胁、辱骂和骚扰属于 Router 范围；仅做定性 slice。"
+    },
+    {
+      "riskCode": "low_confidence",
+      "inScope": false,
+      "benchmarkRole": "ABSTENTION_SIGNAL",
+      "reason": "属于运行时置信状态，不是稳定业务风险类别。"
+    },
+    {
+      "riskCode": "modality_conflict",
+      "inScope": false,
+      "benchmarkRole": "OUT_OF_SCOPE_INPUT_REQUIREMENT",
+      "reason": "需要图片等多模态信息。"
+    },
+    {
+      "riskCode": "negative_review",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "纯文本可识别的一般负向体验。"
+    },
+    {
+      "riskCode": "normal_review",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "文本 Router 的低触达基线类别。"
+    },
+    {
+      "riskCode": "other",
+      "inScope": false,
+      "benchmarkRole": "FALLBACK_ONLY",
+      "reason": "迁移与未知风险 fallback，不要求独立类别覆盖。"
+    },
+    {
+      "riskCode": "paid_review",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "报酬、返利或赠品驱动评价可由文本表达。"
+    },
+    {
+      "riskCode": "privacy_risk",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "文本可直接包含泄露个人信息的陈述；仅做定性 slice。"
+    },
+    {
+      "riskCode": "rating_conflict",
+      "inScope": false,
+      "benchmarkRole": "OUT_OF_SCOPE_INPUT_REQUIREMENT",
+      "reason": "需要 rating 与文本联合输入，不属于 text-only benchmark。"
+    },
+    {
+      "riskCode": "rating_manipulation",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "指定星级或集中打分可由文本表达。"
+    },
+    {
+      "riskCode": "review_suppression",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "删除、隐藏或撤回负面评价可由文本表达。"
+    },
+    {
+      "riskCode": "safety_or_fraud_risk",
+      "inScope": true,
+      "benchmarkRole": "RISK_CLASSIFICATION",
+      "reason": "文本中的假货、安全或欺诈陈述属于 Router 范围。"
+    }
+  ]
+}

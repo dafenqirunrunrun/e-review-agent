@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "summaryDir": "artifacts\\agent-rag\\v2.0-java-runtime",
+  "checks": {
+    "database.pass": true,
+    "aiRuntime.pass": true,
+    "adminRuntime.pass": true,
+    "workflow.pass": true,
+    "tenantViolations.zero": true,
+    "duplicateRuns.zero": true,
+    "duplicateEvidence.zero": true,
+    "duplicateRiskTasks.zero": true,
+    "overridePreservedOriginal": true,
+    "replayCreatedNewRun": true,
+    "circuitBreakerOpened": true,
+    "circuitBreakerRecovered": true
+  },
+  "missing": []
+}

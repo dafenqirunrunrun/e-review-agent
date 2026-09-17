@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "calibrationOnly": true,
+    "decisionPass": true,
+    "maximumFinalKFive": true,
+    "postFusionCandidateKAtMost50": true,
+    "selectedConfigPresent": true,
+    "validDecision": true
+  },
+  "decision": "VALID_WEIGHTED_RRF_CONFIGURATION",
+  "schemaVersion": "agent-rag-v23-candidate-fusion-calibration-gate-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "generatedAt": "2026-07-21T06:04:26.353406+00:00",
+  "rcCommit": "ffd05f26",
+  "rootCause": "RAW_BYTE_CHECKSUM_WAS_PLATFORM_DEPENDENT; RC_AND_HEAD_SQL_BLOBS_MATCH",
+  "manifest": "scripts/database/agent-rag-migrations.json",
+  "migrations": [
+    {
+      "version": "20260720.01",
+      "script": "litemall-db/sql/litemall_agent_rag_workflow.sql",
+      "checksumAlgorithm": "sha256-canonical-lf-v1",
+      "canonicalChecksum": "a7a54f2a209cb73db1461fae9d7a4554dee904f3467456f203811100bdcc04fb",
+      "expectedCanonicalChecksum": "a7a54f2a209cb73db1461fae9d7a4554dee904f3467456f203811100bdcc04fb",
+      "rawBytesChecksum": "b612725cf81bf549132aeb2c5762e8c0c5069dc500230a61cfd265f52ee2c625",
+      "rcBlob": "73e9be32abb102dd27d58b447463bc4da2641b56",
+      "headBlob": "73e9be32abb102dd27d58b447463bc4da2641b56",
+      "rcCanonicalChecksum": "a7a54f2a209cb73db1461fae9d7a4554dee904f3467456f203811100bdcc04fb",
+      "approvedLegacyChecksumCount": 1
+    },
+    {
+      "version": "20260720.02",
+      "script": "litemall-db/sql/litemall_agent_rag_security_governance.sql",
+      "checksumAlgorithm": "sha256-canonical-lf-v1",
+      "canonicalChecksum": "b86b373237db5dc9567ea659abd473a4d5ee8d10c8ae795d089cc9e4358f3968",
+      "expectedCanonicalChecksum": "b86b373237db5dc9567ea659abd473a4d5ee8d10c8ae795d089cc9e4358f3968",
+      "rawBytesChecksum": "b7e35b43d2cc7a95fb0ffb481a284c7fe52a13da3138a71473745d8b95f991a9",
+      "rcBlob": "588501d57a8b254d94f6845ca27acc9bf5d20c6f",
+      "headBlob": "588501d57a8b254d94f6845ca27acc9bf5d20c6f",
+      "rcCanonicalChecksum": "b86b373237db5dc9567ea659abd473a4d5ee8d10c8ae795d089cc9e4358f3968",
+      "approvedLegacyChecksumCount": 1
+    }
+  ],
+  "errors": []
+}

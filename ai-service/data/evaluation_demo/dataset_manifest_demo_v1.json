@@ -1,0 +1,163 @@
+{
+  "datasetVersion": "evaluation-dataset-demo-v1",
+  "fixedSeed": "step21.2.2a-demo-v1-fixed-seed-2122",
+  "calibrationCount": 120,
+  "boundaryCount": 60,
+  "frozenCount": 120,
+  "frozenGoldSha256": "9B9D596D88E28EE93327CC95E6F4B18DB0B2A939B70BE8F5CBF10C1E226CAB54",
+  "calibration": {
+    "sourceDistribution": {
+      "asap_chinese_reviews": 50,
+      "e_review_expert_designed": 30,
+      "figshare_chinese_negative_reviews": 25,
+      "hf_fake_reviews_apache": 15
+    },
+    "riskDistribution": {
+      "negative_review": 25,
+      "normal_review": 40,
+      "rating_manipulation": 11,
+      "harassment_or_abuse": 2,
+      "paid_review": 9,
+      "after_sales_risk": 20,
+      "review_suppression": 8,
+      "fake_review": 10,
+      "safety_or_fraud_risk": 5
+    },
+    "severityDistribution": {
+      "medium": 43,
+      "low": 38,
+      "high": 31,
+      "critical": 8
+    },
+    "expressionDistribution": {
+      "implicit": 72,
+      "mixed": 10,
+      "explicit": 38
+    },
+    "difficultyDistribution": {
+      "medium": 56,
+      "easy": 38,
+      "hard": 26
+    },
+    "boundaryDistribution": {},
+    "multiRiskCount": 6,
+    "ambiguityCount": 0,
+    "nativeChineseCount": 105,
+    "translatedCount": 15,
+    "businessAdaptedCount": 0,
+    "templateFamilyCount": 120
+  },
+  "boundary": {
+    "sourceDistribution": {
+      "asap_chinese_reviews": 15,
+      "e_review_expert_designed": 25,
+      "figshare_chinese_negative_reviews": 10,
+      "hf_fake_reviews_apache": 10
+    },
+    "riskDistribution": {
+      "negative_review": 15,
+      "normal_review": 7,
+      "paid_review": 10,
+      "rating_manipulation": 14,
+      "review_suppression": 11,
+      "fake_review": 15,
+      "safety_or_fraud_risk": 6,
+      "harassment_or_abuse": 2,
+      "privacy_risk": 2
+    },
+    "severityDistribution": {
+      "medium": 15,
+      "low": 6,
+      "critical": 15,
+      "high": 24
+    },
+    "expressionDistribution": {
+      "implicit": 42,
+      "mixed": 13,
+      "explicit": 5
+    },
+    "difficultyDistribution": {
+      "hard": 60
+    },
+    "boundaryDistribution": {
+      "hard_negative": 15,
+      "ambiguous_context": 5,
+      "multi_risk_or_conflict": 10,
+      "implicit_or_paraphrase": 15,
+      "noisy_or_adversarial": 5,
+      "lexical_mismatch": 10
+    },
+    "multiRiskCount": 14,
+    "ambiguityCount": 5,
+    "nativeChineseCount": 50,
+    "translatedCount": 10,
+    "businessAdaptedCount": 0,
+    "templateFamilyCount": 60
+  },
+  "quality": {
+    "schemaValid": true,
+    "schemaErrors": [],
+    "riskTypeValid": true,
+    "riskTypeErrors": [],
+    "severityValid": true,
+    "severityErrors": [],
+    "sourcePresent": true,
+    "licenseApproved": true,
+    "exactDuplicateCount": 0,
+    "normalizedDuplicateCount": 0,
+    "nearDuplicateCount": 0,
+    "frozenExactOverlap": 0,
+    "frozenNearOverlap": 0,
+    "frozenTemplateOverlap": 0,
+    "chineseLanguageRatio": 1.0,
+    "textLength": {
+      "min": 8,
+      "max": 220
+    },
+    "boundaryExpected": {
+      "implicit_or_paraphrase": 15,
+      "lexical_mismatch": 10,
+      "hard_negative": 15,
+      "multi_risk_or_conflict": 10,
+      "ambiguous_context": 5,
+      "noisy_or_adversarial": 5
+    },
+    "boundaryActual": {
+      "hard_negative": 15,
+      "ambiguous_context": 5,
+      "multi_risk_or_conflict": 10,
+      "implicit_or_paraphrase": 15,
+      "noisy_or_adversarial": 5,
+      "lexical_mismatch": 10
+    },
+    "deterministicCompletenessScore": 70,
+    "scoreParts": {
+      "riskTypeCoverage": 15,
+      "severityCoverage": 10,
+      "explicitImplicit": 10,
+      "hardNegativeCoverage": 10,
+      "multiRiskCoverage": 5,
+      "sourceDiversity": 10,
+      "templateDiversity": 5,
+      "frozenIsolation": 5
+    },
+    "coverageGaps": [
+      "Paid-review coverage is below the suggested 15 because no public Chinese incentive-labelled source was approved."
+    ],
+    "securityViolations": [],
+    "gates": {
+      "SOURCE_LICENSE_GATE": "PASS",
+      "SCHEMA_GATE": "PASS",
+      "RISK_COVERAGE_GATE": "PASS",
+      "BOUNDARY_COVERAGE_GATE": "PASS",
+      "TEMPLATE_DIVERSITY_GATE": "PASS",
+      "FROZEN_ISOLATION_GATE": "PASS",
+      "SECURITY_GATE": "PASS"
+    }
+  },
+  "datasetHashes": {
+    "calibration": "844F848E385BA3E4DB0F04CAB82ACA5B38B8EA26E806E72C8CC756F76BF64BF7",
+    "boundary": "636C2E50D1A95C470EFFC7310729661ED42E010F50A40D8098869ABC8F2A1F45"
+  },
+  "gate": "PASS_WITH_COVERAGE_LIMITATION"
+}

@@ -1,0 +1,21 @@
+{
+  "activeTokenIdsHash": "09e346018dfbba0403ba912a4c6164e94260a6c3aea10a096ae0bbdd488872f3",
+  "averageNonZeroDimensions": 3.666667,
+  "crossRunDeterministic": true,
+  "cudaUsed": true,
+  "deterministicRepeat": true,
+  "encodeP50Ms": 57.71,
+  "encodeP95Ms": 1637.781,
+  "fallbackUsed": false,
+  "finiteWeights": true,
+  "loadDurationMs": 1848.981,
+  "nonEmptyWeights": true,
+  "peakCudaMemoryBytes": 1147444224,
+  "realSparseExecution": true,
+  "relevantGreaterThanIrrelevantSmoke": true,
+  "sampleWeightHash": "acdbd77bd25f4308d732601b796c5699b162c45bafcf6977553c73f548f95d50",
+  "schemaVersion": "agent-rag-v23-bge-m3-sparse-runtime-smoke-v1",
+  "scoreHash": "fddbbae86a39a52c10a9927fed682a991978453eb917fc2f336ddf86d639c9c1",
+  "scoreType": "BGE_M3_LEARNED_SPARSE_DOT_PRODUCT",
+  "weightVectorHash": "9f2d1725322bea8b0e1f0f7345902c955aec214d4b130740283d2b4791dd7a7b"
+}

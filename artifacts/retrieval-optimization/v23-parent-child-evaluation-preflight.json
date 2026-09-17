@@ -1,0 +1,14 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-evaluation-preflight-v1",
+  "challengeReadCount": 0,
+  "configurationLockPass": true,
+  "consumptionLockWritable": true,
+  "environmentPass": true,
+  "fallbackUsed": false,
+  "freshIndexPass": true,
+  "hashInstrumentationPass": true,
+  "heldoutEvaluationReadCount": 0,
+  "outputDirectoryWritable": true,
+  "preflightPass": true,
+  "splitIsolationPass": true
+}

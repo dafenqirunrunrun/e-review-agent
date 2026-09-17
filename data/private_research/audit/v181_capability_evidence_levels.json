@@ -1,0 +1,15 @@
+{
+  "levels": {
+    "Real Dense": "L3 INTEGRATION_TESTED",
+    "Tenant isolation": "L5 SOAK_OR_ADVERSARIAL_VERIFIED",
+    "Persistent restart": "L4 REAL_RUNTIME_VERIFIED",
+    "HTTP": "L4 REAL_RUNTIME_VERIFIED",
+    "Adapter runtime": "L3 INTEGRATION_TESTED",
+    "Soak": "L3 INTEGRATION_TESTED",
+    "Prompt injection": "L4 REAL_RUNTIME_VERIFIED",
+    "Failure recovery": "L4 REAL_RUNTIME_VERIFIED",
+    "Docker runtime": "L1 STATIC_CODE"
+  },
+  "l4_count": 4,
+  "l5_count": 1
+}

@@ -1,0 +1,35 @@
+{
+  "status": "CLASS_DISTRIBUTION_ANALYSIS_COMPLETE",
+  "base_distinct_class_count": 3,
+  "base_dominant_class_rate": 0.56,
+  "base_missing_class_count": 0,
+  "base_classification": "DISTRIBUTION_NON_COLLAPSED",
+  "base_prediction_distribution": {
+    "normal_review": 28,
+    "negative_review": 18,
+    "after_sales_risk": 4
+  },
+  "base_gold_distribution": {
+    "after_sales_risk": 18,
+    "normal_review": 18,
+    "negative_review": 18
+  },
+  "base_shannon_entropy": 1.29056443,
+  "base_js_divergence": 0.08151571,
+  "adapter_distinct_class_count": 3,
+  "adapter_dominant_class_rate": 0.65,
+  "adapter_missing_class_count": 0,
+  "adapter_classification": "DISTRIBUTION_NON_COLLAPSED",
+  "adapter_prediction_distribution": {
+    "normal_review": 26,
+    "negative_review": 9,
+    "after_sales_risk": 5
+  },
+  "adapter_gold_distribution": {
+    "after_sales_risk": 18,
+    "normal_review": 18,
+    "negative_review": 18
+  },
+  "adapter_shannon_entropy": 1.26316814,
+  "adapter_js_divergence": 0.08051428
+}

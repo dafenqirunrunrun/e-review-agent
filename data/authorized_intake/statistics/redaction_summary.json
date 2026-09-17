@@ -1,0 +1,15 @@
+{
+  "marker": "AUTHORIZED_TEXT_REDACTION_SUMMARY",
+  "records_processed": 1,
+  "replacement_counts": {
+    "PHONE": 1,
+    "EMAIL": 1,
+    "ORDER_ID": 0,
+    "TRACKING_ID": 0,
+    "ACCOUNT": 0,
+    "URL": 0,
+    "ADDRESS": 0
+  },
+  "raw_text_written_to_git": false,
+  "llm_rewrite_used": false
+}

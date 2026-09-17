@@ -1,0 +1,35 @@
+{
+  "answerableMetrics": {
+    "calibrationAnswerableCaseCount": 49,
+    "minimumRequired": 30
+  },
+  "benchmarkHash": "222802bed4ac363db5dbdfba5b362584ff05e2788f606781bfa2cfbb7e39a0b6",
+  "calibrationHash": "5b49e660cc2d2186abdbed642fcae70ba9e8e7c4cd56b1c7c1262887c4dd608b",
+  "candidatePoolHash": "",
+  "configurationHash": "2af3d2a0662441f97e96bcf04d09ab5308481b58ada93edfbe22c4ff679f0030",
+  "decision": "CALIBRATION_DATA_INSUFFICIENT",
+  "eligibilityMetrics": {
+    "expiredEvidenceAccepted": 0,
+    "inactiveEvidenceAccepted": 0,
+    "lowScoreBackfillCount": 0,
+    "status": "PASS",
+    "tenantViolations": 0
+  },
+  "featureNames": [
+    "rerankerTop1Score",
+    "rerankerTop1Top2Margin",
+    "top1OriginalRank",
+    "eligibleCandidateCount",
+    "rerankerCandidateCount"
+  ],
+  "noAnswerMetrics": {
+    "calibrationNoAnswerCaseCount": 3,
+    "minimumRequired": 30
+  },
+  "policyType": "none",
+  "policyVersion": "v22-answerability-policy-v1",
+  "rerankerFingerprint": "cf87d1dfe5081feb734ff8635b7781f3f77c4bab3939ffba3a6d16a653611e82",
+  "rerankerRevision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "schemaVersion": "agent-rag-v22-evidence-answerability-calibration-decision-v1",
+  "selectionReason": "No-answer calibration class is below the frozen minimum; classifier calibration is not reliable and no runtime policy is emitted."
+}

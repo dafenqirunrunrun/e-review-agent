@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "v2.1-reranker-qualification",
+  "generatedAt": "2026-07-21T01:43:00Z",
+  "rcBaseline": "ffd05f2611cf2c7996a681fa0343778da73f7e50",
+  "qualificationBranch": "experiment/v2.1-model-quality-scale",
+  "assetAudit": {
+    "assetType": "reranker",
+    "available": false,
+    "blockerCodes": [
+      "ENV_PATH_NOT_SET"
+    ],
+    "envName": "RAG_RERANKER_MODEL_PATH",
+    "assetFingerprint": null
+  },
+  "runtime": {
+    "attempted": false,
+    "reason": "Local reranker model asset was not configured. Runtime loading is prohibited until offline asset audit passes.",
+    "token": "AGENT_RAG_MODEL_RERANKER_BLOCKED"
+  },
+  "evaluation": {
+    "attempted": false,
+    "reason": "Quality evaluation requires a real finite score from a local reranker model.",
+    "qualityToken": "MODEL_RERANKER_NOT_VERIFIED"
+  },
+  "fallbackDecision": {
+    "defaultReranker": "deterministic",
+    "rcBaselineModified": false,
+    "decision": "Keep deterministic reranker as the default path."
+  },
+  "tests": [
+    {
+      "command": "python -m pytest -ra -m real_reranker",
+      "result": "1 skipped, 498 deselected",
+      "skipReason": "RERANKER_MODEL_ASSET_UNAVAILABLE_SKIP"
+    }
+  ],
+  "tokens": [
+    "AGENT_RAG_MODEL_RERANKER_BLOCKED",
+    "MODEL_RERANKER_NOT_VERIFIED",
+    "NO_PUSH",
+    "NO_TAG",
+    "NO_RELEASE"
+  ]
+}

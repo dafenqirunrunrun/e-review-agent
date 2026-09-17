@@ -1,0 +1,29 @@
+{
+  "status": "SCENARIO_DIVERSITY_ANALYSIS_COMPLETE",
+  "scenario_family_count": 9,
+  "template_family_count": 21,
+  "family_size_distribution": {
+    "after_sales_risk": 12,
+    "normal_review": 12,
+    "negative_review": 12,
+    "normal_positive_or_neutral_review": 3,
+    "negative_subjective_review_requiring_manual_review": 3,
+    "after-sales_defect_or_delivery_risk": 3,
+    "medium_after-sales_service_risk": 3,
+    "low_severity_complaint": 3,
+    "insufficient_evidence_needs_review": 3
+  },
+  "lexical_diversity": 0.36888889,
+  "char_ngram_diversity": 0.12062257,
+  "product_category_distribution": {
+    "数码": 24,
+    "日用": 12,
+    "synthetic_fixture": 18
+  },
+  "explicit_keyword_dependence": 0.11111111,
+  "boundary_sample_count": 0,
+  "negation_sample_count": 4,
+  "ambiguous_evidence_sample_count": 0,
+  "compound_issue_sample_count": 36,
+  "scenario_diversity_status": "SCENARIO_DIVERSITY_WEAK"
+}

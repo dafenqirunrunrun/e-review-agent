@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-07-16T08:06:25.445033+00:00",
+  "status": "PRIVATE_SYNTHETIC_SFT_V22_ADAPTER_VALUE_GATE",
+  "adapter_value_gate": "NO_GO",
+  "gate_reasons": [
+    "safety_or_collapse_constraint_failed"
+  ],
+  "default_candidate": false,
+  "adapter_final_role": "PRIVATE_SYNTHETIC_SFT_V22_ADAPTER_RETAINED_FOR_RESEARCH_ONLY",
+  "release_allowed": false,
+  "note": "24-sample synthetic engineering holdout only; no adapter or weights may be published."
+}

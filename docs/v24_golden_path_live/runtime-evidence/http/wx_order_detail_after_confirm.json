@@ -1,0 +1,56 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "expressInfo":  [
+
+                                 ],
+                 "orderInfo":  {
+                                   "consignee":  "GoldenPath??",
+                                   "address":  "????????? E-Review Agent v2.4 Golden Path ????",
+                                   "addTime":  "2026-07-28 14:31:46",
+                                   "orderSn":  "20260728061030",
+                                   "actualPrice":  899.00,
+                                   "mobile":  "13800138000",
+                                   "message":  "Golden Path live verification order",
+                                   "expCode":  "AI-DEMO",
+                                   "orderStatusText":  "已收货",
+                                   "aftersaleStatus":  0,
+                                   "goodsPrice":  899.00,
+                                   "expNo":  "AI-DEMO-SHIP-20260728061030",
+                                   "couponPrice":  0.00,
+                                   "id":  1,
+                                   "freightPrice":  0.00,
+                                   "handleOption":  {
+                                                        "cancel":  false,
+                                                        "delete":  true,
+                                                        "pay":  false,
+                                                        "comment":  true,
+                                                        "confirm":  false,
+                                                        "refund":  false,
+                                                        "rebuy":  true,
+                                                        "aftersale":  true
+                                                    }
+                               },
+                 "orderGoods":  [
+                                    {
+                                        "id":  1,
+                                        "orderId":  1,
+                                        "goodsId":  1006002,
+                                        "goodsName":  "轻奢纯棉刺绣水洗四件套",
+                                        "goodsSn":  "1006002",
+                                        "productId":  7,
+                                        "number":  1,
+                                        "price":  899.00,
+                                        "specifications":  [
+                                                               "标准"
+                                                           ],
+                                        "picUrl":  "http://yanxuan.nosdn.127.net/8ab2d3287af0cefa2cc539e40600621d.png",
+                                        "comment":  0,
+                                        "addTime":  "2026-07-28 14:31:46",
+                                        "updateTime":  "2026-07-28 14:31:46",
+                                        "deleted":  false
+                                    }
+                                ]
+             },
+    "errmsg":  "成功"
+}

@@ -1,0 +1,50 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "total":  2,
+                 "pages":  1,
+                 "limit":  10,
+                 "page":  1,
+                 "list":  [
+                              {
+                                  "id":  2,
+                                  "analysisId":  1,
+                                  "sourceType":  "litemall_comment",
+                                  "sourceId":  1015,
+                                  "reviewId":  "comment-1015",
+                                  "productId":  1006002,
+                                  "productName":  "轻奢纯棉刺绣水洗四件套",
+                                  "reviewText":  "Golden Path 真实图文评价：外包装看起来完好，但开箱后主商品屏幕碎裂且无法开机，图片证据与商品宣传不一致。我要求售后退款或换货，请客服尽快处理。",
+                                  "imageUrl":  "[\"https://example.com/e-review-agent/golden-path-broken-screen.jpg\"]",
+                                  "riskType":  "after_sales_risk",
+                                  "riskLevel":  "high",
+                                  "sentimentLabel":  "negative",
+                                  "confidence":  0.8300,
+                                  "status":  "pending",
+                                  "createdTime":  "2026-07-28 14:33:28",
+                                  "updatedTime":  "2026-07-28 14:33:28",
+                                  "deleted":  false
+                              },
+                              {
+                                  "id":  1,
+                                  "analysisId":  1,
+                                  "sourceType":  "litemall_comment",
+                                  "sourceId":  1015,
+                                  "reviewId":  "comment-1015",
+                                  "productId":  1006002,
+                                  "productName":  "轻奢纯棉刺绣水洗四件套",
+                                  "reviewText":  "Golden Path 真实图文评价：外包装看起来完好，但开箱后主商品屏幕碎裂且无法开机，图片证据与商品宣传不一致。我要求售后退款或换货，请客服尽快处理。",
+                                  "imageUrl":  "[\"https://example.com/e-review-agent/golden-path-broken-screen.jpg\"]",
+                                  "riskType":  "negative_review",
+                                  "riskLevel":  "high",
+                                  "sentimentLabel":  "negative",
+                                  "confidence":  0.8300,
+                                  "status":  "pending",
+                                  "createdTime":  "2026-07-28 14:33:28",
+                                  "updatedTime":  "2026-07-28 14:33:28",
+                                  "deleted":  false
+                              }
+                          ]
+             },
+    "errmsg":  "成功"
+}

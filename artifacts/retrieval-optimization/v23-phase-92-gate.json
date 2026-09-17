@@ -1,0 +1,22 @@
+{
+  "blockedReason": "candidate fusion calibration did not qualify on frozen evaluation split; runtime integration intentionally skipped",
+  "checks": {
+    "calibrationPass": true,
+    "challengePass": false,
+    "correctedBaselineComplete": true,
+    "evaluationPass": false,
+    "metricContractPass": true,
+    "minimalE2ePass": false,
+    "pythonRegressionPass": false,
+    "resourcePass": false,
+    "runtimeIntegrationPass": false,
+    "sensitiveScanPass": true
+  },
+  "decision": "E_REVIEW_V23_PHASE_92_BLOCKED",
+  "noPush": true,
+  "noRelease": true,
+  "noTag": true,
+  "productionClaimed": false,
+  "schemaVersion": "agent-rag-v23-phase-92-gate-v1",
+  "status": "BLOCKED"
+}

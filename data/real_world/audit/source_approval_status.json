@@ -1,0 +1,21 @@
+{
+  "marker": "DELEGATED_SOURCE_APPROVAL_COMPLETE",
+  "stage": "v1.6.1.8-delegated-source-approval-and-private-pilot",
+  "approved_by_user": true,
+  "approval_method": "delegated_conservative_evidence_review",
+  "legal_certification": false,
+  "candidate_source_count": 3,
+  "conditionally_approved_sources": [
+    "amazon_reviews_2023",
+    "asap_chinese_reviews"
+  ],
+  "unavailable_sources": [
+    "jddc_2_multimodal"
+  ],
+  "text_pilot_status": "REAL_TEXT_PILOT_ACQUISITION_ALLOWED",
+  "multimodal_pilot_status": "REAL_MULTIMODAL_PILOT_ACQUISITION_ALLOWED",
+  "formal_external_test_status": "NOT_APPROVED",
+  "model_training_status": "NOT_APPROVED",
+  "redistribution_status": "NOT_APPROVED",
+  "manual_approval_file": "data/real_world/source_manifest/manual_source_approval.yaml"
+}

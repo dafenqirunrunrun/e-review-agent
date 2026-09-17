@@ -1,0 +1,39 @@
+{
+  "status": "V181_INDEPENDENT_BENCHMARK_EXECUTED",
+  "document_count": 200,
+  "query_count": 300,
+  "tenant_count": 4,
+  "metrics": {
+    "sparse": {
+      "hit_at_1": 0.92,
+      "hit_at_3": 0.92,
+      "hit_at_5": 0.92,
+      "recall_at_10": 0.92,
+      "mrr": 0.92,
+      "tenant_leakage": 0,
+      "empty_rate": 0.08
+    },
+    "dense_hash_negative_control": {
+      "hit_at_1": 0.88,
+      "hit_at_3": 0.92,
+      "hit_at_5": 0.92,
+      "recall_at_10": 0.92,
+      "mrr": 0.9,
+      "tenant_leakage": 0,
+      "empty_rate": 0.08
+    },
+    "hybrid": {
+      "hit_at_1": 0.92,
+      "hit_at_3": 0.92,
+      "hit_at_5": 0.92,
+      "recall_at_10": 0.92,
+      "mrr": 0.92,
+      "tenant_leakage": 0,
+      "empty_rate": 0.08
+    },
+    "reranker": {
+      "status": "UNAVAILABLE_REAL_RERANKER_NOT_CONFIGURED"
+    }
+  },
+  "perfect_score_suspicious": false
+}

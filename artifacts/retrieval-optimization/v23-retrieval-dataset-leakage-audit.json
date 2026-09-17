@@ -1,0 +1,9 @@
+{
+  "caseFamilyCrossSplitCount": 0,
+  "documentFamilyCrossSplitCount": 0,
+  "oldDiagnosticCaseOverlap": 0,
+  "oldQueryHashOverlap": 0,
+  "queryExactHashDuplicates": 37,
+  "status": "PASS",
+  "templateCrossSplitCount": 30
+}

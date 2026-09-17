@@ -1,0 +1,24 @@
+{
+  "version": "confidence-calibrator-v1",
+  "method": "isotonic",
+  "thresholds": [
+    0.68,
+    0.84,
+    0.88
+  ],
+  "values": [
+    0.6,
+    1.0,
+    1.0
+  ],
+  "metadata": {
+    "datasetVersion": "router-calibration-v1",
+    "datasetSha256": "91712F0F156EAACC9FC1AFE9D2D0ABB3B082541FA4BBE0E22CD6A5BEFCF5D1B9",
+    "fitCaseCount": 170,
+    "validationCaseCount": 70,
+    "frozenGoldExcluded": true,
+    "frozenGoldSha256": "9B9D596D88E28EE93327CC95E6F4B18DB0B2A939B70BE8F5CBF10C1E226CAB54"
+  },
+  "approvalStatus": "NOT_APPROVED_FOR_ROUTING",
+  "approvalReason": "Frozen holdout ECE and Brier regression; retained for reproducibility only."
+}

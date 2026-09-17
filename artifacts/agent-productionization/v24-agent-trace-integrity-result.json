@@ -1,0 +1,15 @@
+{
+  "completeTraceCount": 30,
+  "duplicateEventIdCount": 0,
+  "duplicateSpanIdCount": 0,
+  "eventCount": 663,
+  "executionCount": 30,
+  "hashChainFailureCount": 0,
+  "illegalTransitionCount": 0,
+  "incompleteTraceCount": 0,
+  "integrityGate": "E_REVIEW_V24_AGENT_TRACE_INTEGRITY_PASS",
+  "orphanSpanCount": 0,
+  "sequenceGapCount": 0,
+  "traceFooterMismatchCount": 0,
+  "unpairedSpanCount": 0
+}

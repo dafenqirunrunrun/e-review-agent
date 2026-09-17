@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-21T06:04:27.173067+00:00",
+  "head": "c962304c489e23f95802767846e78981ef8903a7",
+  "v20RcBaseline": "ffd05f2611cf2c7996a681fa0343778da73f7e50",
+  "v21InfrastructureBaseline": "2d160578c381cd701f90cbcf57b4a682959a2988",
+  "status": "BLOCKED",
+  "candidateDecision": "RETAIN_FFD05F26_RC_BASELINE",
+  "checks": {
+    "baselinePreserved": true,
+    "qualificationInfrastructureKnown": true,
+    "externalAssetContract": true,
+    "migrationImmutable": true,
+    "reproducibilityInfrastructure": true,
+    "vulnerabilityScanClosed": false,
+    "licenseAuditClosed": false,
+    "defaultPathNoRegressionRecorded": true
+  },
+  "blockers": [
+    "MODEL_RERANKER_NOT_VERIFIED",
+    "REAL_LLM_QUALITY_NOT_VERIFIED",
+    "VULNERABILITY_DATABASE_UNAVAILABLE",
+    "LICENSE_REVIEW_REQUIRED"
+  ]
+}

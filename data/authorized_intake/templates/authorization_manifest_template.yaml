@@ -1,0 +1,60 @@
+authorization_version: "1.0"
+
+source:
+  source_id: ""
+  source_name: ""
+  data_owner: ""
+  data_controller: ""
+  provider_contact_reference: ""
+  authorization_basis: ""
+
+authorization:
+  authorized_by: ""
+  authorized_at: ""
+  authorization_document_reference: ""
+  authorization_expiry: null
+
+allowed_uses:
+  internal_development: false
+  internal_evaluation: false
+  formal_external_evaluation: false
+  model_training: false
+  llm_sft: false
+  vlm_sft: false
+  dpo: false
+  case_corpus: false
+  rag_index: false
+  derived_statistics: false
+  publication_of_aggregate_results: false
+  redistribution_of_text: false
+  redistribution_of_images: false
+  publication_of_redacted_examples: false
+
+data_scope:
+  review_text: false
+  ratings: false
+  product_categories: false
+  user_review_images: false
+  order_metadata: false
+  customer_service_dialogue: false
+  labels: false
+
+privacy:
+  contains_personal_data: null
+  deidentification_required: true
+  image_redaction_required: true
+  retention_period_days: null
+  deletion_required_after_expiry: true
+  cross_border_transfer_allowed: false
+
+annotation:
+  existing_labels_available: false
+  label_owner: ""
+  annotation_usage_allowed: false
+  reannotation_allowed: false
+
+approval:
+  project_approval_status: pending
+  approved_by_project_owner: false
+  reviewed_at: null
+  note: ""

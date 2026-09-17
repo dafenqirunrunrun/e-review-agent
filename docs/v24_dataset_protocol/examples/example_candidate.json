@@ -1,0 +1,35 @@
+{
+  "_notice": "EXAMPLE_ONLY / NOT_DATASET / NOT_HELD_OUT / NOT_FOR_METRICS",
+  "sampleId": "ER-CAND-EXAMPLE-0001",
+  "protocolVersion": "dataset-protocol-v0.1",
+  "sourceType": "SCENARIO_AUTHORED",
+  "sourceRecordId": "EXAMPLE-0001",
+  "sourceRecordHash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "sourceEventId": "EVENT-EXAMPLE-1",
+  "generationParentId": null,
+  "scenarioGroupId": "SCENARIO-EXAMPLE-1",
+  "duplicateGroupId": null,
+  "templateFamilyId": null,
+  "collectionDate": "2026-07-28T00:00:00Z",
+  "licenseOrPermission": "Project-authored example only",
+  "allowedUse": "INTERNAL_EVALUATION_ONLY",
+  "rawTextLocation": null,
+  "redactedText": "页面承诺永不损坏，但收到时外壳已经开裂，客服拒绝退款。",
+  "normalizedText": "页面承诺永不损坏 但收到时外壳已经开裂 客服拒绝退款",
+  "normalizerVersion": "zh-review-normalizer-v0.1",
+  "piiStatus": "NONE",
+  "screeningStatus": "ACCEPTED",
+  "screeningReasons": [
+    "EXAMPLE_ONLY"
+  ],
+  "seenDuringDevelopment": true,
+  "developmentUseReason": "Protocol example",
+  "splitEligibility": [
+    "DEVELOPMENT"
+  ],
+  "generatorModel": null,
+  "generatorPromptVersion": null,
+  "generationSeed": null,
+  "humanReviewed": true,
+  "humanAccepted": true
+}

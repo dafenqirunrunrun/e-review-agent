@@ -1,0 +1,46 @@
+{
+  "status": "V182_HASH_DENSE_CALL_GRAPH_AUDITED",
+  "enterprise_hash_dense_reachable": false,
+  "allowed_hash_locations": [
+    "ai-service/app/rag/dense_retriever.py",
+    "tests/fakes",
+    "benchmark negative control"
+  ],
+  "call_points": [
+    {
+      "module": "ai-service/app/rag/hybrid_retriever.py",
+      "contains_hash_dense": false,
+      "production_reachable": false,
+      "test_only": false,
+      "negative_control_only": false
+    },
+    {
+      "module": "ai-service/app/rag/dense_provider_factory.py",
+      "contains_hash_dense": true,
+      "production_reachable": false,
+      "test_only": false,
+      "negative_control_only": true
+    },
+    {
+      "module": "ai-service/scripts/eval_v180_real_retrieval.py",
+      "contains_hash_dense": true,
+      "production_reachable": false,
+      "test_only": false,
+      "negative_control_only": true
+    },
+    {
+      "module": "ai-service/scripts/audit_v181_independent_readiness.py",
+      "contains_hash_dense": true,
+      "production_reachable": false,
+      "test_only": false,
+      "negative_control_only": true
+    },
+    {
+      "module": "ai-service/tests/test_v180_tenant_acl.py",
+      "contains_hash_dense": true,
+      "production_reachable": false,
+      "test_only": true,
+      "negative_control_only": false
+    }
+  ]
+}

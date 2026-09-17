@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "chunkLabelMouthAudited": true,
+    "deterministicFeatureAuditPresent": true,
+    "diagnosticCaseCount74": true,
+    "limitedAblationComplete": true,
+    "modelNotVerifiedPreserved": true,
+    "queryPassageAudited": true,
+    "rootCauseDecisionPresent": true,
+    "severeCasesClassified": true,
+    "truncationAudited": true
+  },
+  "decision": "ROOT_CAUSE_UNRESOLVED",
+  "forbiddenClaim": "MODEL_RERANKER_VERIFIED",
+  "schemaVersion": "agent-rag-v22-reranker-error-analysis-gate-v1",
+  "status": "PASS"
+}

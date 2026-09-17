@@ -1,0 +1,15 @@
+{
+    "size":  389246,
+    "pip_check_exit_code":  1,
+    "wheel_path":  "D:\\EReviewAgent\\litemall\\.runtime\\wheelhouse\\accelerate-1.14.0-py3-none-any.whl",
+    "install_output":  "Processing .\\.runtime\\wheelhouse\\accelerate-1.14.0-py3-none-any.whl\r\naccelerate is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.",
+    "url":  "https://files.pythonhosted.org/packages/a8/db/253133d7e7cb40d3af384bb2f5c0b4a2b7fdcffbc95c688cc67a20a3c103/accelerate-1.14.0-py3-none-any.whl",
+    "filename":  "accelerate-1.14.0-py3-none-any.whl",
+    "sha256_verified":  true,
+    "package_version":  "1.14.0",
+    "sha256_digest":  "e94390c2863b873be18f623f9df48a0d8fe5eff13ea7f1a00092b0a7904888c6",
+    "pip_check_output":  "pytest 8.3.5 requires tomli, which is not installed.",
+    "python":  "D:\\anaconda\\envs\\torchtest\\python.exe",
+    "marker":  "ACCELERATE_LOCAL_WHEEL_INSTALL_PASS",
+    "accelerate_version":  "1.14.0"
+}

@@ -1,0 +1,476 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-21T01:50:23+00:00",
+    "component": {
+      "type": "application",
+      "name": "e-review-agent-java"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-core",
+      "version": "${project.version}"
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-db",
+      "version": "${project.version}"
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-wx-api",
+      "version": "${project.version}"
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-admin-api",
+      "version": "${project.version}"
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-all",
+      "version": "${project.version}"
+    },
+    {
+      "type": "library",
+      "group": "org.mybatis.spring.boot",
+      "name": "mybatis-spring-boot-starter",
+      "version": "1.3.2"
+    },
+    {
+      "type": "library",
+      "group": "com.github.pagehelper",
+      "name": "pagehelper-spring-boot-starter",
+      "version": "1.2.5"
+    },
+    {
+      "type": "library",
+      "group": "org.apache.shiro",
+      "name": "shiro-spring-boot-web-starter",
+      "version": "1.6.0"
+    },
+    {
+      "type": "library",
+      "group": "org.hibernate.validator",
+      "name": "hibernate-validator",
+      "version": "6.2.0.Final"
+    },
+    {
+      "type": "library",
+      "group": "mysql",
+      "name": "mysql-connector-java",
+      "version": "8.0.28"
+    },
+    {
+      "type": "library",
+      "group": "com.alibaba",
+      "name": "druid-spring-boot-starter",
+      "version": "1.2.1"
+    },
+    {
+      "type": "library",
+      "group": "com.github.binarywang",
+      "name": "weixin-java-pay",
+      "version": "4.1.0"
+    },
+    {
+      "type": "library",
+      "group": "com.github.binarywang",
+      "name": "weixin-java-miniapp",
+      "version": "4.1.0"
+    },
+    {
+      "type": "library",
+      "group": "com.github.qcloudsms",
+      "name": "qcloudsms",
+      "version": "1.0.5"
+    },
+    {
+      "type": "library",
+      "group": "com.qcloud",
+      "name": "cos_api",
+      "version": "5.6.24"
+    },
+    {
+      "type": "library",
+      "group": "com.aliyun.oss",
+      "name": "aliyun-sdk-oss",
+      "version": "2.5.0"
+    },
+    {
+      "type": "library",
+      "group": "com.qiniu",
+      "name": "qiniu-java-sdk",
+      "version": "[7.2.0, 7.2.99]"
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-json",
+      "version": "2.1.5.RELEASE"
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-mail",
+      "version": "2.1.5.RELEASE"
+    },
+    {
+      "type": "library",
+      "group": "io.springfox",
+      "name": "springfox-swagger2",
+      "version": "2.9.2"
+    },
+    {
+      "type": "library",
+      "group": "io.springfox",
+      "name": "springfox-swagger-ui",
+      "version": "2.10.0"
+    },
+    {
+      "type": "library",
+      "group": "com.github.penggle",
+      "name": "kaptcha",
+      "version": "2.3.2"
+    },
+    {
+      "type": "library",
+      "group": "com.github.xiaoymin",
+      "name": "swagger-bootstrap-ui",
+      "version": "1.9.6"
+    },
+    {
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "32.0.0-jre"
+    },
+    {
+      "type": "library",
+      "group": "com.auth0",
+      "name": "java-jwt",
+      "version": "3.4.1"
+    },
+    {
+      "type": "library",
+      "group": "com.aliyun",
+      "name": "aliyun-java-sdk-core",
+      "version": "4.0.3"
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-devtools",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-test",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.powermock",
+      "name": "powermock-api-mockito",
+      "version": "1.6.6"
+    },
+    {
+      "type": "library",
+      "group": "org.powermock",
+      "name": "powermock-module-junit4",
+      "version": "1.6.6"
+    },
+    {
+      "type": "library",
+      "group": "org.mockito",
+      "name": "mockito-core",
+      "version": "1.10.19"
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-core",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-db",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.binarywang",
+      "name": "weixin-java-miniapp",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "io.springfox",
+      "name": "springfox-swagger-ui",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "io.springfox",
+      "name": "springfox-swagger2",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.apache.shiro",
+      "name": "shiro-spring-boot-web-starter",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.penggle",
+      "name": "kaptcha",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.xiaoymin",
+      "name": "swagger-bootstrap-ui",
+      "version": "1.9.6"
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-core",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-db",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-wx-api",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-admin-api",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-core",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-db",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-wx-api",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-admin-api",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-tomcat",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.hibernate.validator",
+      "name": "hibernate-validator",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.aliyun",
+      "name": "aliyun-java-sdk-core",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-web",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-mail",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-json",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.qcloudsms",
+      "name": "qcloudsms",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.qcloud",
+      "name": "cos_api",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.aliyun.oss",
+      "name": "aliyun-sdk-oss",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.qiniu",
+      "name": "qiniu-java-sdk",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.binarywang",
+      "name": "weixin-java-miniapp",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.binarywang",
+      "name": "weixin-java-pay",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-db",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-json",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.mybatis.spring.boot",
+      "name": "mybatis-spring-boot-starter",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.pagehelper",
+      "name": "pagehelper-spring-boot-starter",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "mysql",
+      "name": "mysql-connector-java",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.alibaba",
+      "name": "druid-spring-boot-starter",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "mysql",
+      "name": "mysql-connector-java",
+      "version": "8.0.28"
+    },
+    {
+      "type": "library",
+      "group": "com.itfsw",
+      "name": "mybatis-generator-plugin",
+      "version": "1.3.2"
+    },
+    {
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-mail",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-core",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "org.linlinjava",
+      "name": "litemall-db",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.binarywang",
+      "name": "weixin-java-pay",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.binarywang",
+      "name": "weixin-java-miniapp",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "io.springfox",
+      "name": "springfox-swagger2",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "io.springfox",
+      "name": "springfox-swagger-ui",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.github.xiaoymin",
+      "name": "swagger-bootstrap-ui",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": ""
+    },
+    {
+      "type": "library",
+      "group": "com.auth0",
+      "name": "java-jwt",
+      "version": ""
+    }
+  ]
+}

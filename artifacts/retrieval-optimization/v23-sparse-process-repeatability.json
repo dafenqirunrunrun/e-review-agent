@@ -1,0 +1,78 @@
+{
+  "conclusion": "SPARSE_PROCESS_REPEATABILITY_BLOCKED",
+  "rows": [
+    {
+      "batchSize": 1,
+      "invocationPath": "DQA_CONTROL_PATH",
+      "precision": "FP16",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 8,
+      "invocationPath": "DQA_CONTROL_PATH",
+      "precision": "FP16",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 1,
+      "invocationPath": "DQA_CONTROL_PATH",
+      "precision": "FP32",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 8,
+      "invocationPath": "DQA_CONTROL_PATH",
+      "precision": "FP32",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 1,
+      "invocationPath": "ORIGINAL_INDEX_BUILDER_PATH",
+      "precision": "FP16",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 8,
+      "invocationPath": "ORIGINAL_INDEX_BUILDER_PATH",
+      "precision": "FP16",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 1,
+      "invocationPath": "ORIGINAL_INDEX_BUILDER_PATH",
+      "precision": "FP32",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 8,
+      "invocationPath": "ORIGINAL_INDEX_BUILDER_PATH",
+      "precision": "FP32",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 1,
+      "invocationPath": "RCA_OFFICIAL_DIRECT_PATH",
+      "precision": "FP16",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 8,
+      "invocationPath": "RCA_OFFICIAL_DIRECT_PATH",
+      "precision": "FP16",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 1,
+      "invocationPath": "RCA_OFFICIAL_DIRECT_PATH",
+      "precision": "FP32",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    },
+    {
+      "batchSize": 8,
+      "invocationPath": "RCA_OFFICIAL_DIRECT_PATH",
+      "precision": "FP32",
+      "status": "SPARSE_OUTPUT_PROCESS_NONDETERMINISM_CONFIRMED"
+    }
+  ],
+  "schemaVersion": "agent-rag-v23-sparse-process-repeatability-v1"
+}

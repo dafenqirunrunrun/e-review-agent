@@ -1,0 +1,10 @@
+﻿id	request_id	replay_of_run_id	status	risk_level	action	confidence	runtime_mode	effective_retrieval_mode	fallback_used	evidence_id	audit_integrity_status	duration_ms
+4	goldenpath-live-faiss-20260728145605	NULL	REVIEW_REQUIRED	high	create-risk-task	0.900000	grounded-local-llm-rag	hybrid-real	0	06109824d6541a3ef51df684	VALID	13484
+5	replay-acfc74ec32bb4b059e63da63258c6dde	4	RULE_FALLBACK	low	none	0.780000	rule-fallback	hybrid-real	1	8d19f035663421ea3e1870f9	VALID	8190
+6	replay-2e94a593f1cc472faf5e328d27282761	4	REVIEW_REQUIRED	medium	manual-review	0.750000	grounded-local-llm-rag	hybrid-real	0	fd57b67b2206e060883aedeb	VALID	14505
+id	run_id	previous_risk_level	new_risk_level	previous_action	new_action	operator_id	override_hash	effective_decision_hash
+1	4	high	medium	create-risk-task	manual_review	1	51bab9d5b18e70be1da07eb7da5268e87861524466fa6bc6ecaae43de90e0d15	030bc8f3667877ec47317d749c3892a6574cd6b96dec8151cddd1d4e88d56cd5
+id	evidence_id	run_id	citation_count	payload_size_bytes	pii_redacted	evidence_expired	citation_set_hash
+2	06109824d6541a3ef51df684	4	3	4011	1	0	df2392ac4bddd989addbd9b70b998dcddab71ae068e876f16b05234174c767ec
+3	8d19f035663421ea3e1870f9	5	3	3770	1	0	09fa91209fd0b6bf1522ea8f64e39c382913ebd8a25fafecf83eff77d6029ca1
+4	fd57b67b2206e060883aedeb	6	3	4088	1	0	09fa91209fd0b6bf1522ea8f64e39c382913ebd8a25fafecf83eff77d6029ca1

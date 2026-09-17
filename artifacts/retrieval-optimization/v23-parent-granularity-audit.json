@@ -1,0 +1,147 @@
+{
+  "accurateHierarchyLabel": "Document/Section Parent-Chunk Retrieval",
+  "artifactVersion": "agent-rag-v23-parent-granularity-audit-v1",
+  "averageParentsPerDocument": 1.0,
+  "childCount": 153,
+  "distinctSectionPathCount": 18,
+  "documentCount": 18,
+  "documentRootParentCount": 0,
+  "documentWithSectionCount": 18,
+  "documentWithoutSectionCount": 0,
+  "documentsWithMultipleParents": 0,
+  "documentsWithSingleParent": 18,
+  "fallbackRootParentCount": 0,
+  "maximumParentsPerDocument": 1,
+  "parentCount": 18,
+  "parentTypes": [
+    {
+      "childCount": 9,
+      "documentIdHash": "aee3ecd099cfcddc7e477a275e71e7e7e1e0ec5485dd752a95f75e70d1503737",
+      "parentId": "parent-88976258b787440f3c4158c4",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "fe1fee9d44a77fa393e021a1fa38b7f89197f5bc966954c996efd17d721d15b2"
+    },
+    {
+      "childCount": 9,
+      "documentIdHash": "a38a7b9fc318ed0e87f7184e690a908b3e964713bf18d35c7201fd7e0cc8a9c9",
+      "parentId": "parent-db006d5d7109b87824142741",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "aea6a18ccfde2da1d238b3b5a21e567f663bca233141e7a70d17d23a77237645"
+    },
+    {
+      "childCount": 9,
+      "documentIdHash": "2ec314881b0310b79db15355bba49025943add76e3ae54f9c6628468cf8aed76",
+      "parentId": "parent-b31ef08db0ad75c4439d763a",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "a52082438faedb8ef62d9081e5a00fd5814fad7eb24642ad01aed90cbe48e1c3"
+    },
+    {
+      "childCount": 9,
+      "documentIdHash": "7a31025f207a9607467a8954851d6808687dcf7f27a6ddb0cb63607c3273a598",
+      "parentId": "parent-f5c33aad249892a75f2bc8b5",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "722d1b6ccee3c2927dff269d7a532125f0e4df42b5264de2fdb357a422d4e3fb"
+    },
+    {
+      "childCount": 9,
+      "documentIdHash": "e128566fd227ac44eefabe083bb720f387871beec512ddbaa98673fbeffb4751",
+      "parentId": "parent-616c2e5ab22bfb1588509479",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "e4f4c99bfc87eed07747e41b93c79490c0cbffe88424e7bf47c22f6ec472b679"
+    },
+    {
+      "childCount": 9,
+      "documentIdHash": "1a7e9fb5dab38a78423c4e06df07394d2e27fc531ccd03196e0c93120f8c6560",
+      "parentId": "parent-c460a5a985f82effe5624b85",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "bd242811b47a7289f0fe5461716b0541ceee3da7fcf1067fb43fce6ddb65044d"
+    },
+    {
+      "childCount": 7,
+      "documentIdHash": "d437baafb3f5a3b96c50e835a26eeb2bbfa69f91a35a4dda90e65bf99a7715f5",
+      "parentId": "parent-73ea07e6eca2c432619cd816",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "acd99217381234acf446337da1a59e45670b9e855dc2f88e8f9a97b27704ab8f"
+    },
+    {
+      "childCount": 7,
+      "documentIdHash": "81d4199b59e125679a20dfebbc4cfe3ee347aaaae8cb46257d957120eda4fa95",
+      "parentId": "parent-bf166a5f86f69dc5970be733",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "c3f851c48aeba9c1469803620c6d9f126e4d4a3c439a9fd8666b08e868902b58"
+    },
+    {
+      "childCount": 7,
+      "documentIdHash": "1e3942df561d58ba4f20f9cdb2d482813f272111f007debe28021d49c92fadcb",
+      "parentId": "parent-87eadc24095e1b0bd2202550",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "bbfc54c2d0873d55614e3cf47fbbf8c940474c7f20b06059fe33eacbcbcecc6c"
+    },
+    {
+      "childCount": 10,
+      "documentIdHash": "6c7f9c59bc4b2eb8115b14f22d6cd3fae0b2e25c6d25922ca4cfca5cf554ab3a",
+      "parentId": "parent-914f50ce6ed8fd1e37084d0c",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "c1e44804b50d9f268b6b472a89ee06a757b6c38b11b4dc25221dba9c2efb7043"
+    },
+    {
+      "childCount": 10,
+      "documentIdHash": "ebaea63c9073049fde05542f774f34f99adc75b47b6b3868f34e4776beb7a8ce",
+      "parentId": "parent-86403f9e2b7420b5e291e363",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "07a62603c34f11abc54b3ccf28666a94e0c88afcdae4844028f693eacf49531d"
+    },
+    {
+      "childCount": 10,
+      "documentIdHash": "39e10c276479310f042b2b757b9150ec3d68e0d9ef2a9163033d1632c5399b52",
+      "parentId": "parent-1ab907e00aa46920383f4550",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "3bb971b1d982d0fd91766e227e43905035ccef1cb4148965792c04c3528df3a9"
+    },
+    {
+      "childCount": 9,
+      "documentIdHash": "d794182d421f820fd66a4bdd3b2aef0a765fce1f040cbd704e03fb060476f69a",
+      "parentId": "parent-dc0f46e3810a305cfd77479a",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "57d776502247f286541d8310592ea8c1525f1a045a2c16a231bfb5eb64d82d94"
+    },
+    {
+      "childCount": 9,
+      "documentIdHash": "0d203b5662967f1c9757ba81fe6b4356d3e1a7124b607f5cb43e10963076d764",
+      "parentId": "parent-9417918d3ac840d563522145",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "f496704a15676679f39d602b34dabcc43b51f4df33e718874c81ab84feb9fa2b"
+    },
+    {
+      "childCount": 9,
+      "documentIdHash": "0ecb8b9dc7b3918b44e59c3823e23c160afd5795606575d4a922ecb8e129cae2",
+      "parentId": "parent-7d278a10f99358fb757a9452",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "9907063f8891e0a83e11a8be9df8c6ea1c29cb9dcc5731a932412df46e13604b"
+    },
+    {
+      "childCount": 7,
+      "documentIdHash": "c88090bd90a3643620174bfc9b4c3b1e5aa326302953eff29f466422dbf032e3",
+      "parentId": "parent-bd8fd1fb8d1b73b0fb1c5ad4",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "b0d4b830b3e19686f62d1f8a8112c905762d0f0994e6a675b75dc050509c4d3a"
+    },
+    {
+      "childCount": 7,
+      "documentIdHash": "8e1ffb7032351129691e8877c2fdf66151f9cad75e0d72fe1e14ec7e2cc63326",
+      "parentId": "parent-c0095ff8169378fb57aec990",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "495ba6be1df9ff42c0c5f38295d2f09ecbb325078b79f14bb5bccbda3fab6211"
+    },
+    {
+      "childCount": 7,
+      "documentIdHash": "a0d49105f6159b8a5d1c90d7eb3bcc65b8a426b4e0a0dfa4376b943d59702f2b",
+      "parentId": "parent-6a5e4cf0df290e5ad5b686ec",
+      "parentType": "SECTION_PARENT",
+      "sectionPathHash": "9204586c5f5242dded47cb2bbb33cd277a56106743c030d1f0582a56e95800bf"
+    }
+  ],
+  "sectionParentCount": 18,
+  "semanticCorrectionRequired": true,
+  "threeLevelHierarchyClaimAllowed": false
+}

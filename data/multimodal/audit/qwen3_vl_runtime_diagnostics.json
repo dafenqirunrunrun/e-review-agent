@@ -1,0 +1,83 @@
+{
+  "marker": "QWEN3_VL_RUNTIME_DIAGNOSTICS_BLOCKED",
+  "stage": "v1.6.1.1-qwen3-vl-real-inference-unblock",
+  "python_environment": {
+    "kind": "torchtest",
+    "torch": "2.5.1+cu121",
+    "cuda_version": "12.1",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "bf16": true,
+    "transformers": "5.3.0",
+    "qwen3_vl_import": "QWEN3_VL_IMPORT_OK",
+    "accelerate": false,
+    "fastapi": true,
+    "pytest": true,
+    "pillow": true,
+    "safetensors": true,
+    "huggingface_hub": true
+  },
+  "dependency_attempts": [
+    {
+      "command": "python -m pip install --upgrade accelerate",
+      "status": "BLOCKED",
+      "error_type": "SSLError",
+      "error_message": "TLS/SSL connection has been closed (EOF) (_ssl.c:997)",
+      "source": "pypi.org"
+    },
+    {
+      "command": "python -m pip install --upgrade accelerate -i https://pypi.tuna.tsinghua.edu.cn/simple",
+      "status": "BLOCKED",
+      "error_type": "SSLError",
+      "error_message": "TLS/SSL connection has been closed (EOF) (_ssl.c:997)",
+      "source": "pypi.tuna.tsinghua.edu.cn"
+    }
+  ],
+  "model_download": {
+    "repo_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "status": "BLOCKED",
+    "marker": "VLM_MODEL_DOWNLOAD_BLOCKED_NETWORK",
+    "source": "official Hugging Face repository",
+    "error_type": "ConnectError",
+    "error_message": "TLS/SSL connection has been closed (EOF) (_ssl.c:997)",
+    "model_dir_in_git_tree": false,
+    "file_count": 0,
+    "total_size_mb": 0.0,
+    "has_config": false,
+    "has_processor_or_tokenizer": false,
+    "has_weight_file": false
+  },
+  "direct_inference": {
+    "marker": "VLM_DIRECT_INFERENCE_BLOCKED_MODEL_NOT_READY",
+    "real_inference": false,
+    "cuda_used": false,
+    "fallback_used": false
+  },
+  "local_vlm_smoke": {
+    "marker": "VLM_PROVIDER_SMOKE_BLOCKED",
+    "total_samples": 12,
+    "real_vlm_inference_count": 0,
+    "vlm_success_rate": 0.0,
+    "fallback_rate": 1.0,
+    "oom_count": 0,
+    "blocking_reasons": [
+      "VLM_MODEL_WEIGHTS_NOT_AVAILABLE",
+      "ACCELERATE_NOT_INSTALLED_FOR_TRANSFORMERS_DEVICE_MAP",
+      "NO_REAL_TRANSFORMERS_VLM_INFERENCE_RECORDED"
+    ]
+  },
+  "observability": {
+    "marker": "VLM_OBSERVABILITY_BLOCKED",
+    "reason": "No real image Agent run/tool log can be produced before local VLM inference succeeds."
+  },
+  "release_gate": {
+    "marker": "V161_FINAL_GATE_BLOCKED",
+    "release_allowed": false
+  },
+  "next_retry": [
+    "Restore a working HTTPS route for PyPI and official Hugging Face, or use an official ModelScope source.",
+    "Install only accelerate first; do not reinstall torch.",
+    "Download Qwen/Qwen3-VL-2B-Instruct outside Git.",
+    "Rerun qwen3_vl_direct_smoke.py and e-review-local-vlm-smoke.ps1 with the torchtest Python."
+  ]
+}

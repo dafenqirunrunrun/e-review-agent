@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "allChunksHaveTrace": true,
+    "allReproducedEmptyChunksHavePrimaryCause": true,
+    "fullChunkLeaksZero": true,
+    "fullQueryLeaksZero": true,
+    "originalEmptyDiagnosticSetLocked": true,
+    "postProcessingAuditComplete": true,
+    "rawModelOutputAuditComplete": true,
+    "rootCauseResolved": true,
+    "serializationAuditComplete": true,
+    "singleVsBatchComplete": true,
+    "tokenizerAuditComplete": true,
+    "wrapperVsOfficialComplete": true
+  },
+  "decision": "E_REVIEW_V23_SPARSE_EMPTY_VECTOR_RCA_COMPLETE",
+  "phase94cThreeWayFusionAllowed": false,
+  "schemaVersion": "agent-rag-v23-sparse-empty-vector-rca-gate-v1",
+  "sparseRetrievalCalibrationAllowed": false,
+  "status": "PASS"
+}

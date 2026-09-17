@@ -1,0 +1,26 @@
+{
+  "status": "SYNTHETIC_V23_DESIGN_COMPLETE",
+  "total_target": 720,
+  "train_target": 576,
+  "validation_target": 72,
+  "holdout_target": 72,
+  "holdout_requirements": {
+    "new_generation_roots_only": true,
+    "risk_type_min_each": 24,
+    "risk_level_min_each": 18,
+    "human_review_true_false_present": true,
+    "exclude_v22_holdout": true,
+    "exclude_v164_holdout": true,
+    "sealed_immediately": true,
+    "single_final_evaluation": true
+  },
+  "composition": {
+    "clear_samples": 0.3,
+    "normal_negative_boundary_pairs": 0.2,
+    "negative_after_sales_boundary_pairs": 0.25,
+    "risk_level_contrasts": 0.15,
+    "evidence_conflict_human_review_contrasts": 0.1
+  },
+  "amazon_asap_included": false,
+  "external_test_included": false
+}

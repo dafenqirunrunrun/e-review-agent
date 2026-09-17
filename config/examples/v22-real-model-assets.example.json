@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "2.0.0",
+  "sourceCommit": "efe7187621a3d1214e13824bf1c8c1288736f2ed",
+  "embedding": {
+    "modelId": "BAAI/bge-m3",
+    "provider": "flagembedding",
+    "modelPath": "<repo-external>/models/v2.2/bge-m3",
+    "revision": "<pinned-huggingface-revision>",
+    "assetFingerprint": "0123456789abcdef0123456789abcdef",
+    "dimension": 1024,
+    "license": "MIT"
+  },
+  "reranker": {
+    "modelId": "BAAI/bge-reranker-v2-m3",
+    "provider": "flagembedding",
+    "modelPath": "<repo-external>/models/v2.2/bge-reranker-v2-m3",
+    "revision": "<pinned-huggingface-revision>",
+    "assetFingerprint": "0123456789abcdef0123456789abcdef",
+    "license": "Apache-2.0",
+    "architecture": "XLMRobertaForSequenceClassification"
+  },
+  "llm": {
+    "modelId": "Qwen/Qwen3-1.7B",
+    "provider": "local_qwen3_transformers",
+    "modelPath": "<repo-external>/models/v2.2/qwen3-1.7b",
+    "revision": "<pinned-huggingface-revision>",
+    "assetFingerprint": "0123456789abcdef0123456789abcdef",
+    "license": "Apache-2.0",
+    "architecture": "Qwen3ForCausalLM"
+  }
+}

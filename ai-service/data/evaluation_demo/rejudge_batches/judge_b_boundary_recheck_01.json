@@ -1,0 +1,268 @@
+{
+  "batchType": "judge_b_boundary_recheck",
+  "items": [
+    {
+      "caseId": "boundary-e_review_expert_designed-38df96d7c55bdf",
+      "textZh": "评 价 弄 成 满 格，再给你 bu 偿。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "paid_review",
+        "rating_manipulation"
+      ],
+      "severity": "critical",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": "noisy_or_adversarial"
+    },
+    {
+      "caseId": "boundary-e_review_expert_designed-72fe7685712ae2",
+      "textZh": "评价那边处理妥当后把页面截一下，这边会给你安排一点心意。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "paid_review",
+        "rating_manipulation"
+      ],
+      "severity": "critical",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": "implicit_or_paraphrase"
+    },
+    {
+      "caseId": "boundary-figshare_chinese_negative_reviews-023a144527caeb",
+      "textZh": "收到了，外包装破损，里面也都破损了，一直对京东的包装物流感觉不错，这是怎么个情况？我还能说什么。。。。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    },
+    {
+      "caseId": "boundary-figshare_chinese_negative_reviews-6b71a869facee4",
+      "textZh": "上次买的还不错，这次买的还没问我写什么就发货了，到手的这个样子…求婚用的呀～差评～",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    },
+    {
+      "caseId": "boundary-figshare_chinese_negative_reviews-7d7ee0bf2deb60",
+      "textZh": "我要了两件衣服，只给我来了一件，服务很差。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-0216a8a0814d9c",
+      "textZh": "客服说‘评价处理好以后再联系’，不清楚是指问题处理还是修改评价。",
+      "evaluationTarget": "ABSTENTION",
+      "expectedDisposition": "ESCALATE_OR_ABSTAIN",
+      "benchmarkRiskTypes": [],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": true,
+      "boundaryType": "ambiguous_context"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-0e4c27ce7d4783",
+      "textZh": "页面写着评价后抽奖，但所有评价都能参加，不要求好评或固定分数。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "paid_review"
+      ],
+      "severity": "high",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-0e53c02fa5f5f5",
+      "textZh": "对方只说把结果做得好看一点，再把页面发给他核对奖励。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "paid_review",
+        "rating_manipulation"
+      ],
+      "severity": "critical",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": "implicit_or_paraphrase"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-0f29b0dce5b4fc",
+      "textZh": "先让那段影响店铺形象的内容消失，退货申请才继续往下走。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "after_sales_risk",
+        "review_suppression"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": "implicit_or_paraphrase"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-1388a989d12d1d",
+      "textZh": "公开反馈每完成一条就记一笔劳务费，内容由品牌方统一提供。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "fake_review",
+        "paid_review"
+      ],
+      "severity": "critical",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": "lexical_mismatch"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-15a37d875db165",
+      "textZh": "我自己删掉旧评价重新补充细节，过程中商家没有联系或施压。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "low",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-1631b76ea7545e",
+      "textZh": "订单里的赠品下单时就已注明，与是否评价、打几星都无关。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "high",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-1c3f881dd4e0ae",
+      "textZh": "群里说需要几个人帮店铺，但没有说明是正常试用还是虚构体验。",
+      "evaluationTarget": "ABSTENTION",
+      "expectedDisposition": "ESCALATE_OR_ABSTAIN",
+      "benchmarkRiskTypes": [],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": true,
+      "boundaryType": "ambiguous_context"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-2200cc802f804c",
+      "textZh": "朋友推荐我购买，但评论是我实际使用一个月后独立写的。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "low",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-22724b6deb63a4",
+      "textZh": "客服让我把页面截图发过去，现有上下文无法判断截图是订单还是评价。",
+      "evaluationTarget": "ABSTENTION",
+      "expectedDisposition": "ESCALATE_OR_ABSTAIN",
+      "benchmarkRiskTypes": [],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": true,
+      "boundaryType": "ambiguous_context"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-279c34136964c2",
+      "textZh": "群管理员让没用过商品的人按统一说法分享体验，完成后逐条登记。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "fake_review"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": "implicit_or_paraphrase"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-29f3443b4bf2e0",
+      "textZh": "把最后一格也点亮，之前谈的补偿才能提交。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "rating_manipulation"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": "lexical_mismatch"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-2c898c97d01a9b",
+      "textZh": "评jia到顶→截tu→领h包；旧差P先撤，售hou才走。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "after_sales_risk",
+        "paid_review",
+        "rating_manipulation",
+        "review_suppression"
+      ],
+      "severity": "critical",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": "noisy_or_adversarial"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-2cfd496a0a8a80",
+      "textZh": "返现指银行卡重复扣款后的原路退回，与发布评价没有关系。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "high",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    },
+    {
+      "caseId": "boundary-v2-e_review_candidate-2ef6b69770ecf4",
+      "textZh": "补贴是否发放不看问题是否解决，只看最终展示出来的评价等级。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "paid_review",
+        "rating_manipulation"
+      ],
+      "severity": "critical",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": "implicit_or_paraphrase"
+    }
+  ]
+}

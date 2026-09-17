@@ -1,0 +1,143 @@
+﻿{
+    "schemaVersion":  "v24-golden-path-live-v1",
+    "baselineCommit":  "dc8326e6f7722ef4976ba2659ba85911d6854630",
+    "worktree":  "D:\\EReviewAgent\\litemall-v24-goldenpath",
+    "branch":  "verify/v24-golden-path-live",
+    "classification":  "PASS_WITH_WARNINGS",
+    "database":  {
+                     "name":  "litemall_v24_verify",
+                     "isolated":  true,
+                     "originalDatabaseTouched":  false,
+                     "schemaStatus":  "PASS_WITH_MYSQL8_COMMENT_COMPAT_COPIES",
+                     "tableCount":  55
+                 },
+    "services":  {
+                     "mysql":  {
+                                   "status":  "PASS",
+                                   "port":  3306
+                               },
+                     "fastapi":  {
+                                     "port":  8008,
+                                     "status":  "PASS",
+                                     "pid":  35704
+                                 },
+                     "wxApi":  {
+                                   "status":  "PASS",
+                                   "port":  8080
+                               },
+                     "adminApi":  {
+                                      "status":  "PASS",
+                                      "port":  8083
+                                  },
+                     "adminFrontend":  {
+                                           "status":  "HTTP_SMOKE_PASS",
+                                           "port":  9527
+                                       },
+                     "h5Frontend":  {
+                                        "status":  "HTTP_SMOKE_PASS",
+                                        "port":  6255
+                                    }
+                 },
+    "testIdentity":  {
+                         "prefix":  "Golden Path live",
+                         "userId":  1,
+                         "goodsId":  1006002,
+                         "orderId":  1,
+                         "commentId":  1015
+                     },
+    "agentExecution":  {
+                           "requestId":  "goldenpath-live-faiss-20260728145605",
+                           "traceId":  "agentPath/evidence audit nodes",
+                           "executionId":  "06109824d6541a3ef51df684",
+                           "runId":  4,
+                           "analysisId":  1,
+                           "evidenceId":  "06109824d6541a3ef51df684",
+                           "riskTaskId":  "1,2",
+                           "overrideId":  1
+                       },
+    "realModelChain":  {
+                           "realBgeM3Used":  true,
+                           "realFaissUsed":  true,
+                           "realRerankerUsed":  true,
+                           "realQwenUsed":  true,
+                           "ruleFallbackUsed":  false,
+                           "hashProviderUsed":  false,
+                           "mockProviderUsed":  false,
+                           "embeddingDimension":  1024,
+                           "indexVersion":  "v24-golden-live-20260728T064951Z",
+                           "indexVectorCount":  9,
+                           "rerankerProvider":  "local-model",
+                           "llmModelClass":  "Qwen3ForCausalLM",
+                           "qwenModel":  "Qwen/Qwen3-1.7B",
+                           "llmDurationMs":  10989,
+                           "rerankerDurationMs":  2156,
+                           "embeddingDurationMs":  51,
+                           "faissSearchDurationMs":  13,
+                           "cudaUsed":  true,
+                           "fallbackUsedInMainRun":  false
+                       },
+    "citation":  {
+                     "status":  "PASS",
+                     "count":  3,
+                     "allIdsResolvable":  true,
+                     "tenantViolations":  0,
+                     "citationSetHash":  "df2392ac4bddd989addbd9b70b998dcddab71ae068e876f16b05234174c767ec"
+                 },
+    "businessPersistence":  {
+                                "commentPersisted":  true,
+                                "analysisPersisted":  true,
+                                "riskTaskPersisted":  true,
+                                "operationPersisted":  true,
+                                "dashboardChanged":  true
+                            },
+    "traceReplay":  {
+                        "traceIntegrity":  "VALID",
+                        "hmac":  "VALID_BY_AUDIT_HASH_CHAIN",
+                        "hashChain":  "VALID",
+                        "replay":  "PASS_ON_RETRY_MAX_OUTPUT_256",
+                        "replayRunId":  6,
+                        "replayFallbackUsed":  false,
+                        "sideEffectGuard":  "PASS_DUPLICATE_IDEMPOTENCY_AND_NO_COMMENT_RISK_DUPLICATION",
+                        "tamperDetection":  "NOT_RUN"
+                    },
+    "ui":  {
+               "h5HttpSmoke":  true,
+               "adminHttpSmoke":  true,
+               "fullInteraction":  "BLOCKED_BROWSER_RUNTIME"
+           },
+    "concurrency":  {
+                        "requested":  5,
+                        "succeeded":  5,
+                        "failed":  0,
+                        "allFallbackFalse":  true,
+                        "allAuditValid":  true
+                    },
+    "fixes":  [
+                  "Built live FAISS index for isolated verification runtime",
+                  "Set RAG_INDEX_ROOT in Golden Path FastAPI startup config",
+                  "Raised AGENT_LLM_MAX_OUTPUT_TOKENS from 128 to 256 for replay JSON validity"
+              ],
+    "commits":  [
+                    "test: add isolated v2.4 golden path live validation"
+                ],
+    "blockers":  [
+                     "Browser plugin runtime failed due node_repl ESM/require issue; UI full interaction not automated",
+                     "Patrol still uses review/analyze rule path; real Agent-RAG was verified via admin Agent-RAG endpoint",
+                     "Agent-RAG response indexVersion display remains phase1-fixture-index-v1 although dense health ACTIVE index is live FAISS"
+                 ],
+    "resumeSafeFacts":  [
+                            "Live H5 comment persisted to isolated litemall_comment and triggered patrol risk tasks",
+                            "Live Java admin-api called FastAPI Agent-RAG with BGE-M3, FAISS, FlagEmbedding reranker and Qwen3-1.7B fallback=false",
+                            "Human override and replay verified with audit hash/evidence persistence"
+                        ],
+    "historicalOnlyFacts":  [
+                                "300条Held-out质量评测未在本阶段执行"
+                            ],
+    "forbiddenClaims":  [
+                            "production ready",
+                            "real payment",
+                            "real logistics",
+                            "multi-node HA",
+                            "million-scale index"
+                        ]
+}

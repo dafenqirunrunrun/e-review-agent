@@ -1,0 +1,3 @@
+# Install only in ai-service/.venv-docling.
+docling==2.126.0
+pypdf==6.18.1

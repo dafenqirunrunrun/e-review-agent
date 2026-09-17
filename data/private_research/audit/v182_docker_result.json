@@ -1,0 +1,34 @@
+{
+  "compose_status": "V182_DOCKER_COMPOSE_STATIC_PASS",
+  "compose_returncode": 0,
+  "runtime_status": "V182_DOCKER_RUNTIME_UNAVAILABLE",
+  "stderr_tail": [],
+  "stdout_tail": [
+    "      retries: 3",
+    "    image: e-review-agent-ai-service:v182",
+    "    networks:",
+    "      default: null",
+    "    ports:",
+    "      - mode: ingress",
+    "        target: 8008",
+    "        published: \"8008\"",
+    "        protocol: tcp",
+    "    restart: unless-stopped",
+    "    volumes:",
+    "      - type: volume",
+    "        source: ai-service-runtime",
+    "        target: /app/runtime",
+    "networks:",
+    "  default:",
+    "    name: litemall_default",
+    "volumes:",
+    "  ai-service-runtime:",
+    "    name: litemall_ai-service-runtime"
+  ],
+  "build_status": "V182_DOCKER_BUILD_FAIL",
+  "build_returncode": 1,
+  "build_stderr_tail": [
+    "error during connect: Head \"http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping\": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.",
+    ""
+  ]
+}

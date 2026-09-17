@@ -1,0 +1,22 @@
+{
+  "marker": "AUTHORIZED_DATA_MANIFEST_BLOCKED",
+  "intended_use": "internal_evaluation",
+  "data_type": "text",
+  "decision": {
+    "decision": "incomplete",
+    "reason_codes": [
+      "required_authorization_fields_missing"
+    ],
+    "missing_fields": [
+      "source.source_id",
+      "source.data_owner",
+      "source.authorization_basis",
+      "authorization.authorized_by",
+      "authorization.authorized_at",
+      "authorization.authorization_document_reference"
+    ],
+    "conflicting_fields": [],
+    "authorization_reference": "",
+    "evaluated_at": "2026-07-14T19:12:00Z"
+  }
+}

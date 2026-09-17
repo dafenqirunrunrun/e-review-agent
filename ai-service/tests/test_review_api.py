@@ -29,8 +29,8 @@ def test_analyze_review():
     assert body["review_id"] == "R001"
     assert body["product_id"] == "P001"
     assert body["sentiment_label"] in ["positive", "neutral", "negative"]
-    assert len(body["workflow_trace"]) >= 5
-    assert any(step.get("tool_name") == "PublicRuleRuntimeTool" for step in body["workflow_trace"])
+    trace_nodes = [item["node"] for item in body["workflow_trace"]]
+    assert {"intent_router", "light_execution", "perception", "retrieval", "judge", "audit", "report"} <= set(trace_nodes)
 
 
 def test_analyze_review_accepts_java_camel_case_payload():
@@ -55,6 +55,64 @@ def test_analyze_review_accepts_java_camel_case_payload():
     assert body["workflow_trace"][0]["agent"]
 
 
+def test_analyze_review_accepts_java_null_rating_source():
+    response = client.post(
+        "/api/v1/review/analyze",
+        json={
+            "reviewId": "java-null-rating-source",
+            "productId": 1006002,
+            "productName": "Java Admin Payload",
+            "reviewText": "Five-star screenshot cashback offer.",
+            "imageUrls": [],
+            "rating": 5,
+            "ratingSource": None,
+        },
+    )
+
+    assert response.status_code == 200
+    assert response.json()["review_id"] == "java-null-rating-source"
+
+
+def test_review_analyze_returns_business_governance_contract(monkeypatch):
+    monkeypatch.setenv("E_REVIEW_AGENTIC_WORKFLOW_ENABLED", "true")
+    response = client.post(
+        "/api/v1/review/analyze",
+        json={
+            "reviewId": "governance-contract",
+            "productId": 1006003,
+            "productName": "Governance Product",
+            "reviewText": "cashback for five star review, paid review incentive",
+            "imageUrls": [],
+            "rating": 5,
+        },
+    )
+
+    assert response.status_code == 200
+    contract = response.json()["review_governance"]
+    assert contract["schemaVersion"] == "review-governance-v2"
+    assert contract["governanceSchemaVersion"] == "review-governance-v2"
+    assert contract["reviewId"] == "governance-contract"
+    assert contract["decision"]["code"] in ["suggest_action", "manual_review", "auto_pass"]
+    assert contract["summary"]["title"]
+    assert contract["evidenceStatus"] in ["supported", "insufficient", "mismatch"]
+    assert "requiresHumanReview" in contract
+    assert "reflectionReason" in contract
+    assert "reflectionReasonCode" in contract
+    assert "failureReasons" in contract
+    assert contract["riskCoverage"]
+    assert contract["riskSignals"]
+    assert "evidenceStatus" in contract["riskSignals"][0]
+    assert contract["process"][0]["name"] == "识别是否需要严格审核"
+    assert len(contract["evidenceCitations"]) <= 3
+    if contract["evidenceCitations"]:
+        citation = contract["evidenceCitations"][0]
+        assert citation["sourceUrl"].startswith("https://")
+        assert citation["contentHash"]
+        assert citation["retrieval"]["mode"] in ["hybrid", "dense", "bm25_fallback"]
+    if contract["decision"]["code"] != "auto_pass":
+        assert contract["recommendedActions"]
+
+
 def test_empty_review_text_rejected():
     response = client.post(
         "/api/v1/review/analyze",
@@ -77,6 +135,79 @@ def test_agent_framework_status():
     assert body["provider"] == "langgraph"
     assert "fallback_enabled" in body
     assert "api_key_available" in body
+
+
+def test_system_readiness_exposes_safe_policy_rag_status(monkeypatch):
+    from app.api import system as system_api
+
+    class RetrieverWithPrivatePath:
+        def readiness(self):
+            return {
+                "status": "ready",
+                "retrievalMode": "hybrid",
+                "dense": {
+                    "status": "ready",
+                    "providerMetrics": {
+                        "modelPath": "D:/secret/local/qwen",
+                        "dimension": 1024,
+                    },
+                },
+            }
+
+    class RerankerStatus:
+        def readiness(self):
+            return {"status": "ready", "loaded": True}
+
+    monkeypatch.setattr(
+        system_api,
+        "_runtime_policy_components",
+        lambda: (RetrieverWithPrivatePath(), RerankerStatus()),
+    )
+    response = client.get("/api/v1/system/readiness")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["status"] in ["ready", "degraded"]
+    assert body["policyRag"]["config"]["embeddingModelPath"] in ["configured", "missing", "not_configured"]
+    assert body["policyRag"]["dense"]["providerMetrics"]["modelPath"] == "configured"
+    assert "D:/secret/local/qwen" not in response.text
+    assert "retrievalMode" in body["policyRag"]
+
+
+def test_system_readiness_observes_active_review_workflow_instances():
+    from app.api import review as review_api
+    from app.api import system as system_api
+
+    retriever, reranker = system_api._runtime_policy_components()
+
+    assert retriever is review_api.agentic_workflow.policy_retriever
+    assert reranker is review_api.agentic_workflow.policy_reranker
+
+
+def test_policy_index_runtime_exposes_desired_and_loaded_versions(monkeypatch):
+    from app.api import system as system_api
+
+    class RuntimeRetriever:
+        def readiness(self):
+            return {
+                "status": "ready",
+                "retrievalMode": "hybrid",
+                "managed": True,
+                "runtimeIndex": {
+                    "desiredIndexVersion": "policy-20260917T120000-aaaaaaaa",
+                    "loadedIndexVersion": "policy-20260917T120000-aaaaaaaa",
+                    "reloadStatus": "ready",
+                    "lastReloadError": "",
+                    "loadedChunkCount": 951,
+                },
+            }
+
+    monkeypatch.setattr(system_api, "_runtime_policy_components", lambda: (RuntimeRetriever(), object()))
+    response = client.get("/api/v1/system/policy-index-runtime")
+
+    assert response.status_code == 200
+    assert response.json()["desiredIndexVersion"] == response.json()["loadedIndexVersion"]
+    assert response.json()["loadedChunkCount"] == 951
 
 
 def test_agent_framework_analyze_has_modality_outputs():

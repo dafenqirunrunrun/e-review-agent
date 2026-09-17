@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "rag-quality-dataset-manifest-v2",
+  "datasetVersion": "rag-quality-v2-candidate-1",
+  "status": "ANNOTATION_PENDING",
+  "promotionEligible": false,
+  "language": "zh",
+  "frozenWorkflowGold": {
+    "path": "data/benchmarks/review_governance_gold_v1.jsonl",
+    "sha256": "9B9D596D88E28EE93327CC95E6F4B18DB0B2A939B70BE8F5CBF10C1E226CAB54",
+    "unchanged": true
+  },
+  "corpus": {
+    "path": "data/policy_rag_real/index/policy_chunks.jsonl",
+    "chunkCount": 71,
+    "contentRootHash": "c06aea7bd687b848fdf9c9e0dd2bba0b58e74e4624bb233a3cc440346fc81118"
+  },
+  "files": {
+    "metricContract": {
+      "path": "metric_contract_v1.json",
+      "sha256": "FDE8AB60EF6F989F8B015E0327DD23B1A9153082158A852844E0BE164D64998F"
+    },
+    "dataset": {
+      "path": "dataset_candidate.jsonl",
+      "sha256": "682967082DF4AAB078778BE1D074402D3AB54CBDC297839712EE8735922E0A86"
+    },
+    "dev": {
+      "path": "dev_candidate.jsonl",
+      "sha256": "BE52F06AF5D344E0DFDE79C357D692DE50A1D4847BE970428C939AC853017D0E"
+    },
+    "holdout": {
+      "path": "holdout_annotation_candidate.jsonl",
+      "sha256": "04576D5D206FC94C6189371883867488842D4A77BC11A658CAA6080992E068DF"
+    },
+    "smoke": {
+      "path": "smoke_candidate.jsonl",
+      "sha256": "3369AED355F020F42BE8D98D68F6D48964FE8E2F3845BB4AB277FA686F2B2CD2"
+    },
+    "qrelsCandidate": {
+      "path": "qrels_candidate.tsv",
+      "sha256": "CC106A8805D3B118FE4200C553CA2F9DA31FBB7528714D56350AD53136CA933D"
+    },
+    "humanAnnotationQueue": {
+      "path": "human_annotation_queue.jsonl",
+      "sha256": "11DEDB94482B86D1F0F1ED5753E76DA87780B9E1A378C3686E2A1A4C2DC6CD48"
+    }
+  },
+  "validation": {
+    "caseCount": 120,
+    "devCount": 80,
+    "holdoutCount": 40,
+    "smokeCount": 24,
+    "riskCaseCount": 100,
+    "noAnswerCaseCount": 20,
+    "queryStyleCounts": {
+      "boundary_ambiguous": 7,
+      "implicit_colloquial": 15,
+      "implicit_paraphrase": 15,
+      "long_noisy": 13,
+      "multi_risk_precedence": 20,
+      "near_neighbor_clause": 5,
+      "no_answer_hard_negative": 5,
+      "normal_easy": 5,
+      "normal_hard_negative": 10,
+      "risk_distractor": 15,
+      "table_or_record_lookup": 5,
+      "vague_risk_description": 5
+    },
+    "riskTypeCounts": {
+      "after_sales_risk": 17,
+      "fake_review": 35,
+      "harassment_or_abuse": 13,
+      "privacy_risk": 10,
+      "rating_manipulation": 32,
+      "review_suppression": 22,
+      "safety_or_fraud_risk": 10
+    },
+    "checks": {
+      "caseCount": true,
+      "devCount": true,
+      "holdoutCount": true,
+      "smokeCount": true,
+      "allQueriesChinese": true,
+      "caseIdsUnique": true,
+      "reviewTextsUnique": true,
+      "holdoutDoesNotReuseLegacyText": true,
+      "allAnnotationsPending": true,
+      "holdoutNotCandidateExposed": true,
+      "allQrelChunksExist": true
+    }
+  },
+  "annotation": {
+    "status": "PENDING",
+    "humanVerifiedCaseCount": 0,
+    "pendingCaseCount": 120,
+    "requiredBeforePromotion": true,
+    "holdoutExecutionAllowed": false,
+    "rules": [
+      "Synthetic or Codex-authored drafts are never gold without human approval.",
+      "High-risk and no-answer cases require a second independent review pass.",
+      "Holdout must not be executed before annotation freeze.",
+      "Any qrel repair creates a new dataset version."
+    ]
+  },
+  "promotionBlockers": [
+    "HUMAN_ADJUDICATION_PENDING",
+    "HOLDOUT_NOT_FROZEN",
+    "DEV_QRELS_INHERIT_PARTIAL_DIAGNOSTIC_POOL",
+    "QUALITY_THRESHOLDS_PENDING_TRUSTWORTHY_BASELINE"
+  ],
+  "legacyAudit": {
+    "path": "artifacts/step242a/legacy_challenge_qrels_audit.json",
+    "sha256": "09D51D7445799ED0728A4091ABA475886BA80AE1B3E336EFD20ED91CD570F4EF",
+    "status": "DIAGNOSTIC_VALID_PROMOTION_BLOCKED"
+  }
+}

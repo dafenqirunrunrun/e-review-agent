@@ -3,10 +3,11 @@ import json
 import os
 import threading
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any, Dict, Optional
 
+from app.agent_rag.observability import model_residency
 from app.llm.config import ProviderConfig
 from app.llm.providers import ProviderResult
 
@@ -19,8 +20,12 @@ class LocalQwenUnavailableError(RuntimeError):
 class LocalQwenSettings:
     model_name: str
     model_dir: str
+    model_id: str
+    model_revision: str
+    model_fingerprint: str
     device: str
     torch_dtype: str
+    max_input_tokens: int
     max_new_tokens: int
     enable_thinking: bool
     timeout_seconds: int
@@ -31,14 +36,27 @@ class LocalQwenSettings:
 
 
 def local_qwen_settings() -> LocalQwenSettings:
+    asset = _load_v22_llm_asset()
+    model_id = (
+        os.getenv("AGENT_LLM_MODEL_ID")
+        or os.getenv("E_REVIEW_LOCAL_QWEN_MODEL")
+        or asset.get("model_id")
+        or "Qwen/Qwen3-1.7B"
+    )
+    model_dir = (os.getenv("AGENT_LLM_MODEL_PATH") or os.getenv("E_REVIEW_LOCAL_QWEN_MODEL_DIR") or asset.get("model_path") or "").strip()
+    timeout_ms = _env_int("AGENT_LLM_TIMEOUT_MS", 0)
     return LocalQwenSettings(
-        model_name=os.getenv("E_REVIEW_LOCAL_QWEN_MODEL", "Qwen/Qwen3-1.7B"),
-        model_dir=os.getenv("E_REVIEW_LOCAL_QWEN_MODEL_DIR", "").strip(),
-        device=os.getenv("E_REVIEW_LOCAL_QWEN_DEVICE", "auto").strip().lower(),
-        torch_dtype=os.getenv("E_REVIEW_LOCAL_QWEN_TORCH_DTYPE", "auto").strip().lower(),
-        max_new_tokens=_env_int("E_REVIEW_LOCAL_QWEN_MAX_NEW_TOKENS", 512),
-        enable_thinking=_env_bool("E_REVIEW_LOCAL_QWEN_ENABLE_THINKING", False),
-        timeout_seconds=_env_int("E_REVIEW_LOCAL_QWEN_TIMEOUT_SECONDS", 120),
+        model_name=model_id,
+        model_dir=model_dir,
+        model_id=model_id,
+        model_revision=asset.get("revision", ""),
+        model_fingerprint=asset.get("fingerprint", ""),
+        device=os.getenv("AGENT_LLM_DEVICE", os.getenv("E_REVIEW_LOCAL_QWEN_DEVICE", "auto")).strip().lower(),
+        torch_dtype=os.getenv("AGENT_LLM_DTYPE", os.getenv("E_REVIEW_LOCAL_QWEN_TORCH_DTYPE", "auto")).strip().lower(),
+        max_input_tokens=_env_int("AGENT_LLM_MAX_INPUT_TOKENS", _env_int("E_REVIEW_LOCAL_QWEN_MAX_INPUT_TOKENS", 2048)),
+        max_new_tokens=_env_int("AGENT_LLM_MAX_OUTPUT_TOKENS", _env_int("E_REVIEW_LOCAL_QWEN_MAX_NEW_TOKENS", 512)),
+        enable_thinking=_env_bool("AGENT_LLM_ENABLE_THINKING", _env_bool("E_REVIEW_LOCAL_QWEN_ENABLE_THINKING", False)),
+        timeout_seconds=max(1, timeout_ms // 1000) if timeout_ms else _env_int("E_REVIEW_LOCAL_QWEN_TIMEOUT_SECONDS", 120),
     )
 
 
@@ -56,6 +74,9 @@ def local_qwen_status(config: Optional[ProviderConfig] = None) -> Dict[str, Any]
         "local_model_available": dependency_available and model_available,
         "local_model_name": settings.model_name,
         "local_model_dir": _safe_path(settings.model_dir),
+        "local_model_id": settings.model_id,
+        "local_model_revision": settings.model_revision,
+        "local_model_fingerprint": settings.model_fingerprint,
         "local_model_loaded": bool(state.get("loaded")),
         "local_model_device": state.get("device") or settings.device,
         "local_model_dtype": state.get("dtype") or settings.torch_dtype,
@@ -130,45 +151,87 @@ class LocalQwenRuntime:
             "load_error_summary": cls._load_error_summary,
         }
 
+    @classmethod
+    def unload(cls) -> None:
+        with cls._lock:
+            model = cls._model
+            cls._tokenizer = None
+            cls._model = None
+            cls._source = None
+            cls._device = None
+            cls._dtype = None
+        try:
+            import gc
+            import torch
+
+            if model is not None and hasattr(model, "to"):
+                model.to("cpu")
+            del model
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+                torch.cuda.synchronize()
+        except Exception:
+            return None
+
 
 class LocalQwenTransformersProvider:
     def __init__(self, config: ProviderConfig):
         self.config = config
         self.settings = local_qwen_settings()
+        if config.model_name and config.model_name != self.settings.model_name:
+            self.settings = replace(
+                self.settings,
+                model_name=config.model_name,
+                model_id=config.model_name,
+                model_dir=os.getenv("E_REVIEW_AGENTIC_INTENT_ROUTER_MODEL_DIR", self.settings.model_dir).strip(),
+            )
 
     def complete_json(self, prompt: str) -> ProviderResult:
         started = time.perf_counter()
-        tokenizer, model = LocalQwenRuntime.load(self.settings)
-        messages = [
-            {"role": "system", "content": "你是电商评论治理助手。只输出合法 JSON，不输出 Markdown、解释或 <think>。"},
-            {"role": "user", "content": prompt},
-        ]
-        try:
-            rendered = tokenizer.apply_chat_template(
-                messages,
-                tokenize=False,
-                add_generation_prompt=True,
-                enable_thinking=self.settings.enable_thinking,
-            )
-        except TypeError:
-            messages[-1]["content"] = prompt + "\n/no_think"
-            rendered = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-
-        inputs = tokenizer([rendered], return_tensors="pt")
-        device = next(model.parameters()).device
-        inputs = {key: value.to(device) for key, value in inputs.items()}
-        input_tokens = int(inputs["input_ids"].shape[-1])
-        try:
-            import torch
-            with torch.inference_mode():
-                generated = model.generate(
-                    **inputs,
-                    max_new_tokens=self.settings.max_new_tokens,
-                    do_sample=False,
-                    pad_token_id=tokenizer.eos_token_id,
+        residency_device = "cuda" if self.settings.device in {"auto", "cuda"} else self.settings.device
+        with model_residency.acquire("llm:qwen3-1.7b", unload_callback=LocalQwenRuntime.unload, device=residency_device):
+            tokenizer, model = LocalQwenRuntime.load(self.settings)
+            messages = [
+                {
+                    "role": "system",
+                    "content": (
+                        "You are an e-commerce review governance assistant. "
+                        "Return one valid JSON object only. Do not output Markdown, explanations, or thinking text."
+                    ),
+                },
+                {"role": "user", "content": prompt},
+            ]
+            try:
+                rendered = tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=False,
+                    add_generation_prompt=True,
+                    enable_thinking=self.settings.enable_thinking,
                 )
-        except Exception as exc:
-            raise LocalQwenUnavailableError(_classify_load_error(exc)) from exc
+            except TypeError:
+                messages[-1]["content"] = prompt + "\n/no_think"
+                rendered = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+
+            inputs = tokenizer([rendered], return_tensors="pt", truncation=True, max_length=self.settings.max_input_tokens)
+            device = next(model.parameters()).device
+            inputs = {key: value.to(device) for key, value in inputs.items()}
+            input_tokens = int(inputs["input_ids"].shape[-1])
+            try:
+                import torch
+
+                with torch.inference_mode():
+                    generated = model.generate(
+                        **inputs,
+                        max_new_tokens=self.settings.max_new_tokens,
+                        do_sample=False,
+                        temperature=None,
+                        top_p=None,
+                        top_k=None,
+                        pad_token_id=tokenizer.eos_token_id,
+                    )
+            except Exception as exc:
+                raise LocalQwenUnavailableError(_classify_load_error(exc)) from exc
         output_ids = generated[0][input_tokens:]
         content = tokenizer.decode(output_ids, skip_special_tokens=True).strip()
         return ProviderResult(
@@ -202,9 +265,32 @@ def _model_source_available(settings: LocalQwenSettings) -> bool:
             return False
     try:
         from huggingface_hub import try_to_load_from_cache
+
         return try_to_load_from_cache(settings.model_name, "config.json") not in (None, "_CACHED_NO_EXIST")
     except Exception:
         return False
+
+
+def _load_v22_llm_asset() -> Dict[str, str]:
+    manifest_path = os.getenv("AGENT_RAG_V22_ASSET_MANIFEST", "").strip()
+    if not manifest_path:
+        return {}
+    path = Path(manifest_path)
+    if not path.is_file():
+        return {}
+    try:
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    item = manifest.get("llm") or {}
+    if not isinstance(item, dict):
+        return {}
+    return {
+        "model_id": str(item.get("modelId") or ""),
+        "model_path": str(item.get("modelPath") or ""),
+        "revision": str(item.get("revision") or ""),
+        "fingerprint": str(item.get("assetFingerprint") or ""),
+    }
 
 
 def _resolve_dtype(torch, value: str, device: str):

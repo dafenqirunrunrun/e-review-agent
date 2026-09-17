@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-07-15T15:06:06.752955+00:00",
+  "status": "V22_ENGINEERING_HOLDOUT_SEALED",
+  "holdout_count": 24,
+  "source_sample_identity_hash": "055bd6729cfa08a940108244f86696875e2af519f5c9de4fcd81338cfc9e42e7",
+  "transformed_manifest_hash": "3d77f02a24f378cf10324c89a33fd65238f6ee64ab374bbe0bf9b1e39b34e515",
+  "lineage_hash": "296d6e9289730b05f65ed58a7a7ef6ab2a15877eaff8098035b1afcab4f86256",
+  "contract_version": "v2.0.0",
+  "prompt_version": "v2.1.0",
+  "completion_encoding_version": "completion_only_v2.2.0",
+  "transformation_version": "synthetic_sft_v2.2_compact_representation",
+  "sealed_at": "2026-07-15T15:06:06.752955+00:00",
+  "allowed_use": "single_final_evaluation_after_training",
+  "training_access_allowed": false,
+  "prompt_tuning_allowed": false,
+  "model_selection_allowed": false,
+  "repeated_evaluation_allowed": false
+}

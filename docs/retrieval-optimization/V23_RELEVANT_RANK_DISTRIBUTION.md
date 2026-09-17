@@ -1,0 +1,128 @@
+# V2.3 Relevant Rank Distribution
+
+```json
+{
+  "calibration": {
+    "bm25": {
+      "1-5": 16,
+      "11-20": 30,
+      "21-30": 11,
+      "31-50": 3,
+      "51-75": 11,
+      "6-10": 22,
+      "76-100": 3,
+      ">100/miss": 4
+    },
+    "dense": {
+      "1-5": 18,
+      "11-20": 24,
+      "21-30": 16,
+      "31-50": 11,
+      "51-75": 9,
+      "6-10": 16,
+      "76-100": 3,
+      ">100/miss": 3
+    },
+    "rawUnion": {
+      "1-5": 16,
+      "11-20": 30,
+      "21-30": 11,
+      "31-50": 3,
+      "51-75": 11,
+      "6-10": 22,
+      "76-100": 3,
+      ">100/miss": 4
+    }
+  },
+  "challengeStatic": {
+    "bm25": {
+      "1-5": 9,
+      "11-20": 10,
+      "21-30": 3,
+      "31-50": 6,
+      "51-75": 2,
+      "6-10": 4,
+      "76-100": 4,
+      ">100/miss": 2
+    },
+    "dense": {
+      "1-5": 4,
+      "11-20": 10,
+      "21-30": 6,
+      "31-50": 5,
+      "51-75": 2,
+      "6-10": 3,
+      "76-100": 8,
+      ">100/miss": 2
+    },
+    "rawUnion": {
+      "1-5": 9,
+      "11-20": 10,
+      "21-30": 3,
+      "31-50": 6,
+      "51-75": 2,
+      "6-10": 4,
+      "76-100": 4,
+      ">100/miss": 2
+    }
+  },
+  "evaluationStatic": {
+    "bm25": {
+      "1-5": 20,
+      "11-20": 26,
+      "21-30": 6,
+      "31-50": 12,
+      "51-75": 7,
+      "6-10": 9,
+      "76-100": 2,
+      ">100/miss": 18
+    },
+    "dense": {
+      "1-5": 16,
+      "11-20": 23,
+      "21-30": 17,
+      "31-50": 12,
+      "51-75": 11,
+      "6-10": 10,
+      "76-100": 5,
+      ">100/miss": 6
+    },
+    "rawUnion": {
+      "1-5": 20,
+      "11-20": 26,
+      "21-30": 6,
+      "31-50": 12,
+      "51-75": 7,
+      "6-10": 9,
+      "76-100": 2,
+      ">100/miss": 18
+    }
+  },
+  "oldDiagnostic": {
+    "bm25Top100Hits": 39,
+    "bothTop100Hits": 39,
+    "candidateKCounts": {
+      "CANDIDATE_K_100_RECOVERABLE": 5,
+      "CANDIDATE_K_10_RECOVERABLE": 38,
+      "CANDIDATE_K_20_RECOVERABLE": 21,
+      "CANDIDATE_K_50_RECOVERABLE": 26
+    },
+    "candidateKRecoverable": 90,
+    "consumed": true,
+    "denseTop100Hits": 90,
+    "diagnosticCases": 90,
+    "neitherTop100Hits": 0,
+    "primaryMissTypeCounts": {
+      "CANDIDATE_K_TOO_SMALL": 90
+    },
+    "schemaVersion": "agent-rag-v23-retrieval-miss-taxonomy-summary-v1",
+    "sensitivePayloadPolicy": "hashes, ranks, counts, classifications only",
+    "source": "CONSUMED_RETRIEVAL_MISS_DIAGNOSTIC_SET",
+    "summaryHash": "13a5b38bb3b42a1e8107ffe6d1d5da173bcb0278d7f0d5930a868699e3aeb4a2",
+    "unionTop100Coverage": 1.0,
+    "unionTop100Hits": 90
+  },
+  "schemaVersion": "agent-rag-v23-relevant-rank-distribution-v1",
+  "selectionUse": "calibration-only"
+}
+```

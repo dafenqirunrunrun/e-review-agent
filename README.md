@@ -1,277 +1,97 @@
-# E-Review Agent
+# E-Review Agent Project Readme
 
-Enterprise-oriented e-commerce review governance system with AI analysis, Agent inspection, risk workflows and auditable readiness boundaries.
+## Current Accepted Demo
 
-![Java](https://img.shields.io/badge/Java-Spring%20Boot-blue)
-![Vue 2](https://img.shields.io/badge/Vue-2.x-42b883)
-![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688)
-![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-public%20preview-orange)
-
-## Public Preview Status
-
-| Gate | Status |
-|---|---|
-| Public Preview | Verified |
-| Public CI | PASS |
-| Docker Runtime | PASS |
-| Business E2E | PASS |
-| CRITICAL Findings | 0 |
-| Known HIGH Exceptions | 55 |
-| Production Deployment | Not recommended |
-| Production Readiness | Not claimed |
-| Private Model Runtime | Not included |
-| Enterprise RAG Runtime | Not included |
-
-Security notice: this public preview contains documented temporary HIGH-severity dependency exceptions. It is intended for local demonstration, source-code review and educational evaluation. Do not expose the default Docker Compose runtime directly to the public Internet.
-
-## Overview
-
-E-Review Agent extends the open-source [linlinjava/litemall](https://github.com/linlinjava/litemall) project into a review-governance prototype for graduation-project, engineering-practice and portfolio demonstration.
-
-The public preview core loop is:
-
-1. A customer browses products in the H5 storefront.
-2. The customer submits an order through a demo payment and demo shipping flow.
-3. The customer confirms receipt and publishes a text/image review.
-4. The backend stores the review in the original litemall comment table.
-5. The inspection Agent scans unprocessed comments.
-6. The AI service returns structured review analysis.
-7. High-risk results generate risk tasks.
-8. Operators handle tasks in the admin console.
-9. Dashboard metrics update from persisted records.
-
-Payment, logistics and refund integrations are demo-mode implementations. This repository does not claim production readiness.
-
-## Highlights
-
-| Area | What it demonstrates |
-|---|---|
-| Customer-to-Agent loop | End-to-end review governance from H5 customer review to admin operation workflow |
-| Agent inspection | Manual or scheduled scanning of unprocessed comments |
-| Structured AI analysis | JSON-contract based sentiment, risk level, risk type and operation suggestion output |
-| Risk workflow | Risk task creation, detail view, status transition and operation log |
-| Public audit boundary | Sanitized source snapshot without model weights, private data, raw benchmark assets or internal Git history |
-
-## Business Flow
-
-```mermaid
-flowchart LR
-    A["Customer browses product"] --> B["Submit demo order"]
-    B --> C["Demo payment and shipping"]
-    C --> D["Confirm receipt"]
-    D --> E["Publish text/image review"]
-    E --> F["Agent inspection"]
-    F --> G["Structured AI analysis"]
-    G --> H{"High risk?"}
-    H -- "No" --> I["Persist analysis"]
-    H -- "Yes" --> J["Create risk task"]
-    J --> K["Operator handles task"]
-    K --> L["Dashboard updates"]
-```
-
-## Architecture
-
-```mermaid
-flowchart TB
-    U["Customer H5<br/>Vue 2 + Vant"]
-    A["Admin Console<br/>Vue 2 + Element UI"]
-    B["Spring Boot Backend"]
-    AI["FastAPI AI Service"]
-    DB[("MySQL")]
-    AG["Review Inspection Agent"]
-    RAG["Optional RAG / local model experiments"]
-
-    U --> B
-    A --> B
-    B --> DB
-    AG --> B
-    B --> AI
-    AI --> RAG
-    AI --> B
-```
-
-## Tech Stack
-
-| Layer | Stack |
-|---|---|
-| Backend | Java, Spring Boot, Maven, MyBatis |
-| Admin frontend | Vue 2, Element UI, Axios |
-| Customer H5 | Vue 2, Vant 2, Vuex, Vue Router |
-| AI service | Python, FastAPI, Pydantic, pytest |
-| Data | MySQL |
-| Optional experiments | Local model adapters, VLM provider wiring, BGE-M3/FAISS retrieval code paths |
-
-## Repository Structure
+The current delivery is a local-first, evidence-backed review-governance demo. The reviewer-facing admin navigation is intentionally limited to three business entries: 审核工作台、人工复核、判定依据库. The main path is:
 
 ```text
-e-review-agent/
-|-- ai-service/          # FastAPI AI service and public tests
-|-- data/                # Public schemas and governance metadata
-|-- litemall-admin/      # Vue 2 admin console
-|-- litemall-vue/        # Vue 2 + Vant customer H5 frontend
-|-- litemall-admin-api/  # Spring Boot admin API
-|-- litemall-wx-api/     # Spring Boot customer API
-|-- litemall-db/         # Database schema, mappers and AI SQL migrations
-|-- litemall-core/       # Shared Java configuration and infrastructure
-|-- litemall-all/        # Combined Spring Boot entry
-|-- docs/                # Public project documentation
-`-- compose.public.yml   # Public Docker Compose runtime used by CI
+真实评论 -> 风险识别 -> Policy Evidence -> Reflection -> 人工复核 -> 审计记录
 ```
+
+The implementation uses a governed Planner -> Execution -> Reflection loop, local Qwen3 Embedding, FAISS, BM25, RRF, optional BGE reranking, structure-aware document ingestion, and a BM25 fallback. Evidence mismatch or insufficiency triggers one bounded replan; unresolved and high-risk cases enter human review. AI output is an operational recommendation rather than an automatically executed punishment.
+
+The knowledge module accepts common text, table, Office, digital PDF, and scanned PDF inputs through format-aware parsers. Upload jobs are processed by bounded workers, build an isolated candidate index, and require quality checks before an atomic release. The playground can query either the current or candidate index without changing production state.
+
+See `docs/LOCAL_RUNBOOK.md` for startup commands, `docs/STEP22_FINAL_ACCEPTANCE_REPORT.md` for the frozen governance baseline, and `docs/agent-rag/V25_AGENTIC_POLICY_RAG.md` for the Agentic Policy RAG contract.
 
 ## Quick Start
 
-### Requirements
-
-- JDK 8+
-- Maven 3.6+
-- MySQL 5.7 or 8.x
-- Node.js compatible with Vue CLI 3/4 projects
-- Python 3.10+
-
-### Database
-
-```bash
-mysql -u root -p
-CREATE DATABASE litemall DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```powershell
+Copy-Item ai-service/.env.example ai-service/.env
+./scripts/local/e-review-start.ps1 -NoMigration
+./scripts/local/e-review-status.ps1
+./scripts/local/e-review-step25-acceptance.ps1
 ```
 
-Import schema and AI migration SQL files from `litemall-db/sql/` as needed. This public snapshot does not include production database backups.
+Open `http://127.0.0.1:9527` after all services report ready. Local model weights, credentials, downloaded source documents, generated indexes, checkpoints, and runtime logs are intentionally excluded from Git.
 
-### Java Backend
+## v1.4 AI Product UX Refinement
 
-```bash
-mvn test
-mvn -DskipTests package
-```
+v1.4-ai-product-ux-refinement was the earlier five-entry information architecture. The accepted Step 22 reviewer UI supersedes that layout with three business-facing entries while retaining advanced diagnostics outside the primary reviewer workflow.
 
-Typical local service ports:
+Existing backend APIs, database tables, legacy routes, and implemented modules are retained. Advanced Agent capabilities are folded into platform governance and knowledge-quality pages, while delivery checks, database backup, and final acceptance remain in scripts, docs, and delivery/final_defense instead of becoming admin business menus.
 
-- wx-api: `http://localhost:8080`
-- admin-api: `http://localhost:8083`
+## Purpose
 
-### AI Service
+This file was normalized during v1.0.3-agent-product-polish to remove historical Chinese mojibake and keep the delivery package readable. It preserves the current project position: E-Review Agent is a graduation-defense oriented AI Agent review governance prototype built on top of existing e-commerce flows.
 
-```bash
-cd ai-service
-python -m venv .venv
-.venv/Scripts/activate
-pip install -r requirements.txt
-python -m pytest -ra
-uvicorn app.main:app --host 0.0.0.0 --port 8008
-```
+## Current System Scope
 
-### Admin Console
+- H5 customer frontend supports product browsing, order submission, demo payment, demo shipping, receipt confirmation, and review submission.
+- Admin frontend supports dashboard, product comments, AI analysis, Agent patrol, risk center, operation center, Agent Trace, Agent Eval, case knowledge, diagnostics, and quality evaluation.
+- AI service runs locally with rule/mock/fallback capabilities and does not require a real external API key for defense demo.
+- Database stores AI analyses, risk tasks, operation logs, Agent runs, Agent steps, feedback, and case knowledge records.
+- Automation covers service health, smoke tests, customer loop, full menu API matrix, doc link checks, encoding checks, quality checks, full UI flow, and final acceptance.
 
-```bash
-cd litemall-admin
-npm ci
-npm run build:prod
-npm run dev
-```
+## Boundaries
 
-### Customer H5
+- No real payment integration.
+- No real logistics integration.
+- No real refund integration.
+- No claim of production-grade SaaS availability.
+- No fake claim of vector database or real multimodal large-model deployment.
+- AI suggestions are for operation assistance only; final action requires human confirmation.
 
-```bash
-cd litemall-vue
-npm ci
-npm run build:prod
-npm run dev
-```
+## Local Demo URLs
 
-## Public Test Scope
+- Optional customer API: http://localhost:8082
+- Admin frontend: http://localhost:9527
+- admin-api: http://localhost:8083
+- AI service: http://127.0.0.1:8008
 
-The public snapshot includes a reproducible subset of the internal test suite. Private-data, model-asset and internal benchmark dependent tests are excluded from this repository.
+## One Command Acceptance
 
-| Evidence | Current public status |
-|---|---|
-| Public Python test suite | PASS in GitHub Actions `public-ci` run `29650925931` |
-| Java unit tests | PASS in GitHub Actions `public-ci` run `29650925931` |
-| Java packaging | PASS in GitHub Actions `public-ci` run `29650925931` |
-| Admin production build | PASS in GitHub Actions `public-ci` run `29650925931` |
-| Customer production build | PASS in GitHub Actions `public-ci` run `29650925931` |
-| Local gitleaks scan | PASS locally with gitleaks `8.24.3` during publication hardening |
-| GitHub gitleaks workflow | PASS in GitHub Actions `secret-scan` run `29650925951` |
-| Public Docker runtime | PASS in GitHub Actions `public-runtime-ci` run `29656286535` |
-| Customer-to-Agent E2E smoke | PASS in GitHub Actions `public-runtime-ci` run `29656286535` |
-| AI unavailable/recovery smoke | PASS in GitHub Actions `public-runtime-ci` run `29656286535` |
-| Public observability smoke | Phase 3 evidence validates request correlation and metrics |
-| Public MySQL logical probe restore | Phase 3 verifies a single probe-table restore only |
-| Public backend restart recovery | Phase 3 verifies compose service restart recovery only |
-| Public container risk baseline | CRITICAL findings are zero; 55 documented temporary HIGH exceptions remain |
-| Public preview release gate | Validates runtime, business E2E, operations evidence, SBOM and security evidence |
-| Production readiness | Not claimed |
+Follow `docs/LOCAL_RUNBOOK.md`, then use `docs/STEP22_FINAL_ACCEPTANCE_REPORT.md` and `ai-service/artifacts/step22/final_acceptance_gate.json` as the current acceptance record. Historical acceptance scripts remain for their original release lines and are not the Step 22 source of truth.
 
-## AI Capability Boundaries
+## v1.0.3 Encoding Note
 
-- Rule/mock mode is sufficient for the core business demo and does not require model weights.
-- Local text-model, VLM and RAG paths are experimental and optional.
-- Model weights, adapters, checkpoints, FAISS indexes and private datasets are intentionally excluded.
-- AI output is decision support. Important operational decisions should still keep human review.
+Historical mojibake content was removed or rewritten in UTF-8-safe text. This document should remain free of BOM, private local paths, external links, leaked keys, and unreadable characters.
 
-## Docker Compose
+## v1.0.4 Agentic RAG Product Plus
 
-Public Docker runtime verification is implemented in `compose.public.yml` and `.github/workflows/public-runtime-ci.yml`.
+v1.0.4 adds the final product-plus layer for Agentic RAG demonstration:
 
-```bash
-docker compose -f compose.public.yml config
-docker compose -f compose.public.yml build
-docker compose -p ereview-public-local -f compose.public.yml up -d
-PUBLIC_COMPOSE_PROJECT=ereview-public-local python scripts/ci/wait_for_public_runtime.py
-python scripts/ci/public_business_smoke.py
-PUBLIC_COMPOSE_PROJECT=ereview-public-local python scripts/ci/public_ai_unavailable_smoke.py
-docker compose -p ereview-public-local -f compose.public.yml down -v --remove-orphans
-```
+- Agent Trace includes state snapshots, lightweight multi-role steps, replay, and run comparison.
+- Agent Eval includes service health, failure groups, quality cards, RAG metrics, and human feedback distribution.
+- Case Knowledge exposes local retrieval stats and evidence-rich similar-case results.
+- Quality evaluation uses 30 golden samples and writes `docs/58_agent_rag_quality_eval_report.md`.
+- The system still does not require Qdrant, external LLM keys, real payment, real logistics, or real refund integration.
 
-Public Docker verification uses a deterministic public rule engine so the business workflow can be reproduced without private model assets. This mode does not represent the private local-model or Enterprise RAG runtime.
+## v1.1 Experimental Enterprise Agent Platform
 
-The public Compose file binds exposed preview ports to `127.0.0.1` by default. It is a local-preview runtime and must not be published directly to the public Internet.
+`v1.1-agent-platform-enterprise-gap` is an experimental enhancement line. It adds local Tool Registry, Tool Approval, Memory Center, Guardrails, AgentOps, Agent Registry, and RAG quality evaluation for product comparison and thesis outlook.
 
-Remote runtime implementation verification:
+The v1.1 line does not replace the v1.0.4 defense baseline. It does not add real payment, real logistics, real refund, external MCP servers, Qdrant, or mandatory external API keys. AI suggestions remain operation assistance and require human confirmation for final handling.
 
-- Public Runtime CI: PASS, run `29656286535`, job `public-runtime-phase2`.
-- Public CI: PASS, run `29656286537`, jobs `repository-hygiene`, `java-test`, `python-test`, `admin-build`, `customer-build`.
-- Secret Scan: PASS, run `29656286534`, job `gitleaks`.
-- Draft PR: [#27](https://github.com/dafenqirunrunrun/e-review-agent/pull/27).
+## v1.2 智能体协议与检索质量实验增强
 
-Public operations Phase 3 evidence is tracked in draft PR [#28](https://github.com/dafenqirunrunrun/e-review-agent/pull/28). The current Phase 3 status is intentionally partial: legacy CRITICAL/HIGH dependency exceptions are visible and tracked, so `PUBLIC_RELEASE_SECURITY_BLOCKED` and `PRODUCTION_READY_NOT_CLAIMED` remain active.
+`v1.2-agent-protocol-and-rag-quality` 是本地实验增强线，重点补齐工具协议清单、OpenAPI 风格描述、本地 MCP 风格描述、工具结构校验、工具契约测试、RAG 多策略检索、RAG 质量失败样本分析、智能体运维趋势和审批状态流。
 
-Runtime docs:
+v1.2 不替代 v1.0.4 稳定答辩主线，也不覆盖 v1.1.1 中文化成果。系统仍然不接真实支付、真实物流、真实退款、外部 MCP 服务、Qdrant 或外部向量数据库。所有新增能力均以本地可运行、中文可展示、脚本可验收为边界。
 
-- [Public Runtime Audit](docs/runtime/PUBLIC_RUNTIME_AUDIT.md)
-- [Public Docker Runbook](docs/runtime/PUBLIC_DOCKER_RUNBOOK.md)
-- [Public Business E2E](docs/runtime/PUBLIC_BUSINESS_E2E.md)
-- [Public Runtime Limitations](docs/runtime/PUBLIC_RUNTIME_LIMITATIONS.md)
+v1.2 验收入口：
 
-Operations and security docs:
-
-- [Public Operations Phase 3 Audit](docs/operations/PUBLIC_PHASE3_AUDIT.md)
-- [Public Backup And Restore](docs/operations/PUBLIC_BACKUP_RESTORE.md)
-- [Public Release Rollback](docs/operations/PUBLIC_RELEASE_ROLLBACK.md)
-- [Public Observability](docs/observability/PUBLIC_OBSERVABILITY.md)
-- [Public Container Security](docs/security/PUBLIC_CONTAINER_SECURITY.md)
-- [Public Container Risk Exceptions](docs/security/PUBLIC_CONTAINER_RISK_EXCEPTIONS.md)
-
-## Open Source Scope
-
-This is a sanitized public snapshot. It excludes:
-
-- internal Git history;
-- model weights, adapters and checkpoints;
-- private datasets and raw training data;
-- full benchmark corpora;
-- real user data and database backups;
-- FAISS or other large index binaries;
-- detailed soak raw logs;
-- screenshots containing personal information, secrets or local paths.
-
-See [docs/OPEN_SOURCE_SCOPE.md](docs/OPEN_SOURCE_SCOPE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-## Security
-
-Do not publish passwords, tokens, cookies, database dumps, private keys, real user data or screenshots containing sensitive information. See [SECURITY.md](SECURITY.md).
-
-## License
-
-This snapshot retains the upstream litemall MIT license boundary and adds E-Review Agent project files under the repository license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+- `scripts/e-review-tool-protocol-check.ps1`
+- `scripts/e-review-tool-schema-check.ps1`
+- `scripts/e-review-agentops-trend-check.ps1`
+- `scripts/e-review-v12-acceptance.ps1`

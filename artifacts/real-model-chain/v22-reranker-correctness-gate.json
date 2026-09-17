@@ -1,0 +1,29 @@
+{
+  "acceptedEvidenceCount": 1,
+  "checks": {
+    "disabledEvidenceAccepted": true,
+    "inactiveEvidenceAccepted": true,
+    "noBackfill": true,
+    "notYetEffectiveAccepted": true,
+    "postRerankerExpiredAcceptedCount": true,
+    "preRerankerExpiredCount": true,
+    "tenantViolations": true,
+    "variableK": true
+  },
+  "eligibilityVersion": "agent-rag-v22-canonical-evidence-eligibility-v1",
+  "eligibleCandidateCount": 1,
+  "evaluationTimeUtc": "2026-07-22T00:00:00Z",
+  "expiredBackfillCount": 0,
+  "ineligibleBackfillCount": 0,
+  "lowScoreBackfillCount": 0,
+  "preRerankerCandidateCount": 5,
+  "reasonCounts": {
+    "ELIGIBLE": 1,
+    "EXPIRED": 1,
+    "INACTIVE": 1,
+    "NOT_YET_EFFECTIVE": 1,
+    "TENANT_MISMATCH": 1
+  },
+  "schemaVersion": "agent-rag-v22-reranker-correctness-gate-v1",
+  "status": "PASS"
+}

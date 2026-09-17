@@ -1,0 +1,285 @@
+{
+  "batchType": "judge_a_recheck",
+  "items": [
+    {
+      "caseId": "cal-e_review_expert_designed-f2b85f2a7d3282",
+      "datasetType": "calibration",
+      "textZh": "赠品随订单直接附送，与是否评价以及评价星级都无关。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "high",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-1f735153f91fc3",
+      "datasetType": "calibration",
+      "textZh": "我在网上购买多年，从没有遇到过这样的无良商家，在京东长见识了遇到了，有图有真相，大家自己看，希望引以为戒再不要上当了，而且穿了几天就起毛球，特严重，等我女子回来了就在拍几张照片以供大家参考，差评！",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-3a4eec82d348b8",
+      "datasetType": "calibration",
+      "textZh": "绝对的差评，周四下的单要到下个周二才到，物流慢也算了还发错货，我要黑色的，到货是蓝色的。幸好我去文具店买了先给小孩上课用了，不然等网上的到货，黄花菜都凉了。我要黑色，给我一堆蓝色我有啥用啊？",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-5eb36198a0480d",
+      "datasetType": "calibration",
+      "textZh": "以后再也不来京东、服务特别差、问问题没发回答就说客服忙、这个电话差差差，就是不好、刚用几天就卡、发微信红包都卡，售后一点都没有",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "after_sales_risk"
+      ],
+      "severity": "high",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-6b003b3dc9d6f1",
+      "datasetType": "calibration",
+      "textZh": "质量还行，就是快递太慢，说的好好的两到三天，硬是耗了五天",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-6db7e1284bcbfc",
+      "datasetType": "calibration",
+      "textZh": "差的不能再差了，简直骗人，滤芯说了几次了还是不给发货，一点信誉也没有",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-7cc8b7cb071600",
+      "datasetType": "calibration",
+      "textZh": "黑色墨水试了2种…送的墨水试了一下…基本就是不下水…写出来的字很淡很淡…这种笔也就值两三块钱",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-8711664b04f398",
+      "datasetType": "calibration",
+      "textZh": "处女差评，居然不是一手，有黑色污点，而且包装和以前不一样，在这里买了很多次东西，居然也会碰上这种事",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-87392fac7d8eb2",
+      "datasetType": "calibration",
+      "textZh": "骗子，再买之前说得那么好绝对正品行货，结果呢打苹果公司电话一查，找不到ME号，网友们你们觉得是真的吗？我以后再也不会在京东上买任何东西了。打京东客服电话还说要查，让我听通知，网友们以后再也不要再京东商城网购了，也许下一个就是你，",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "after_sales_risk"
+      ],
+      "severity": "medium",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-8e6642d0b30b71",
+      "datasetType": "calibration",
+      "textZh": "不好 一次性的 邮费还的10元 有点忽悠人",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-b675be04c8b05b",
+      "datasetType": "calibration",
+      "textZh": "衣服不是很好，而且卖家态度很差。衣服一到有个返现单。连续叫了几天卖家，连回复都不回复。差劲要死。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "after_sales_risk"
+      ],
+      "severity": "high",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-d8ea8d298c0054",
+      "datasetType": "calibration",
+      "textZh": "垃圾派克，不容分说，上次买了一只同款。用了一段时间笔还可以，就是摔了一下，想发回去维修，结果被售后拒绝，电话打了16次不接。你这样叼，你家里人知道吗？迟早关门。借这次打折优惠，我买一只顺便来吐槽一下。别以为中国消费者都是傻子。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "after_sales_risk"
+      ],
+      "severity": "medium",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-figshare_chinese_negative_reviews-f708c0f49c8dfa",
+      "datasetType": "calibration",
+      "textZh": "根本没有送的鼠标垫。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-hf_fake_reviews_apache-4975117a3464a7",
+      "datasetType": "calibration",
+      "textZh": "这个系列令人印象深刻，让我一直关注其中的历史内容，整体完成得很好。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "fake_review"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-hf_fake_reviews_apache-68ea6312ebff19",
+      "datasetType": "calibration",
+      "textZh": "这是一部令人愉快的小说，我还会读这位作者的作品。故事和角色都很好，人物塑造也不错。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "fake_review"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-hf_fake_reviews_apache-d5317bcfe9d01f",
+      "datasetType": "calibration",
+      "textZh": "我读过这位作者的所有书。角色很真实，但发生了太多糟糕的事情，结局也很悲伤。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "fake_review"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-v2-moved-0e55d059034919",
+      "datasetType": "calibration",
+      "textZh": "星巴克（Starbucks）是美国一家连锁咖啡公司的名称，1971年成立，为全球最大的咖啡连锁店，其总部坐落美国华盛顿州西雅图市。星巴克旗下零售产品包括30多款全球顶级的咖啡豆、手工制作的浓缩咖啡和多款咖啡冷热饮料、新鲜美味的各式糕点食品以及丰富多样的咖啡机、咖啡杯等商品。\\\\r\\\\n呢间嘢就系公司楼下，3点下午茶时间都会帮衬下，人唔算多，服务一般。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "low",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-v2-moved-39864fec5b2820",
+      "datasetType": "calibration",
+      "textZh": "披萨还行，店里环境一般。营业员态度非常不好！我是团购的怎么了？难道我没花钱？团购不是你们店里推出的？到吧台前，我说我是团购的，帮我登记一下，我去，直接给我一个白眼。然后不理我去接待其他不是团购的！我在那等了半个小时！上完餐，没上可乐，我就随口问了一下，我少上一杯可乐，竟然对我哼～然后冷笑了一下！我说你什么意思啊！然后给我说一会给我上，我披萨都快吃完了，（当时已吃2/3）还没上！我去吧台又问一遍才给我！（当时吧台前没有一个顾客）",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-v2-moved-58c7a4e10173ff",
+      "datasetType": "calibration",
+      "textZh": "最深刻的印象就是东西太少了，这次去连蟹棒都没有，没有勺子，没有冰淇淋的脆皮，不太方便，冰淇淋太假了，只有冰。寿司只有一种，不好吃，点心很快就没了，也没看到有人去添。服务员的态度挺好的，但是烤牛排的地方服务态度给人感觉不太好。个人觉得没有欢乐牧场好，不过价钱相对来说也比较便宜（也没便宜多少），换纸要自己换的，油烟特重，这点不太好，等待休息的地方有电视和瓜子爆米花（店家的阴谋），环境不错哦，还是有需要改进的地方",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-v2-moved-5dca055855af77",
+      "datasetType": "calibration",
+      "textZh": "菜品真心一般，这个价钱也就算了，关键服务极差！铁板茄子喝玉米烙催了半天也没上，好不容易上了吧，端菜的小哥和上菜的小妹说12号桌我们的，结果这个女服务员不知道在想什么，直接上到隔壁桌去了！从头到尾都混乱无比，而且还不禁烟！估计这家餐厅服务员上岗之前都没有培训过，太渣了，不会再去吃了，我觉得整顿饭只有素鲍鱼片还凑活，可惜这个几乎全上海市都差不多，好吃的也有，所以全无特色，还如此令人不爽！绝对不会再去了！",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    }
+  ]
+}

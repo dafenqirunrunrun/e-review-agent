@@ -1,0 +1,72 @@
++---------------------+
+| active_database     |
++---------------------+
+| litemall_v24_verify |
++---------------------+
++---------------------+----------------------------+------------------------+
+| SCHEMA_NAME         | DEFAULT_CHARACTER_SET_NAME | DEFAULT_COLLATION_NAME |
++---------------------+----------------------------+------------------------+
+| litemall_v24_verify | utf8mb4                    | utf8mb4_unicode_ci     |
++---------------------+----------------------------+------------------------+
++-------------+
+| table_count |
++-------------+
+|          55 |
++-------------+
++----------------------------------+------------+
+| TABLE_NAME                       | TABLE_ROWS |
++----------------------------------+------------+
+| litemall_agent_rag_evidence      |          0 |
+| litemall_agent_rag_override      |          0 |
+| litemall_agent_rag_run           |          0 |
+| litemall_ai_agent_replay_compare |          0 |
+| litemall_ai_agent_run            |          0 |
+| litemall_ai_agent_step           |          0 |
+| litemall_ai_demo_review          |          0 |
+| litemall_ai_operation_log        |          0 |
+| litemall_ai_patrol_log           |          0 |
+| litemall_ai_review_risk_task     |          0 |
+| litemall_comment                 |       1004 |
+| litemall_goods                   |        204 |
+| litemall_order                   |          0 |
+| litemall_order_goods             |          0 |
+| litemall_review_ai_analysis      |          0 |
++----------------------------------+------------+
++------------------------------+-----------+
+| table_name                   | row_count |
++------------------------------+-----------+
+| litemall_comment             |      1004 |
+| litemall_goods               |       239 |
+| litemall_order               |         0 |
+| litemall_review_ai_analysis  |         0 |
+| litemall_ai_review_risk_task |         0 |
+| litemall_ai_operation_log    |         0 |
+| litemall_ai_patrol_log       |         0 |
+| litemall_ai_agent_run        |         0 |
+| litemall_agent_rag_run       |         0 |
++------------------------------+-----------+
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| source_type | varchar(32) | YES  | MUL | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
++-----------+------+------+-----+---------+-------+
+| Field     | Type | Null | Key | Default | Extra |
++-----------+------+------+-----+---------+-------+
+| source_id | int  | YES  |     | NULL    |       |
++-----------+------+------+-----+---------+-------+
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| source_type | varchar(32) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
++-----------+------+------+-----+---------+-------+
+| Field     | Type | Null | Key | Default | Extra |
++-----------+------+------+-----+---------+-------+
+| source_id | int  | YES  |     | NULL    |       |
++-----------+------+------+-----+---------+-------+
++--------------------+------+------+-----+---------+-------+
+| Field              | Type | Null | Key | Default | Extra |
++--------------------+------+------+-----+---------+-------+
+| replay_from_run_id | int  | YES  |     | NULL    |       |
++--------------------+------+------+-----+---------+-------+

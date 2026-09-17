@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-07-15T08:20:10.554071+00:00",
+  "status": "V164_EXPERIMENT_FROZEN",
+  "source_branch": "experiment/v1.6.4-synthetic-qlora-controlled-train",
+  "source_head": "20594937",
+  "split_counts": {
+    "train": 336,
+    "validation": 36,
+    "engineering_holdout": 48
+  },
+  "split_manifest_hash": "8884aff2496c32cb361c97e9ca4c67cb586f40272776726fea959cf2413b8cd1",
+  "split_manifest_hash_unchanged": true,
+  "epoch": 1,
+  "optimizer_steps": 42,
+  "best_checkpoint_step": 42,
+  "raw_schema_valid": {
+    "base": 0.0,
+    "adapter": 0.0
+  },
+  "deterministic_repair": {
+    "base": 1.0,
+    "adapter": 1.0
+  },
+  "risk_type_macro_f1": {
+    "base": 0.0,
+    "adapter": 0.0
+  },
+  "adapter_value_gate": "NEUTRAL",
+  "adapter_role": "PRIVATE_SYNTHETIC_ADAPTER_RETAINED_FOR_RESEARCH_ONLY",
+  "holdout_unsealed_and_evaluated_once": true,
+  "v164_holdout_reuse_for_tuning": false,
+  "v164_holdout_rerun_allowed": false,
+  "v164_adapter_default_allowed": false,
+  "v164_adapter_publication_allowed": false
+}

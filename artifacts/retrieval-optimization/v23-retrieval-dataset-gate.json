@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "allRelevantEvidenceValid": true,
+    "answerableLabelAuditComplete": true,
+    "calibrationAnswerableAtLeast100": true,
+    "calibrationNoAnswerAtLeast25": true,
+    "caseFamilyNoCrossSplit": true,
+    "challengeAnswerableAtLeast40": true,
+    "challengeNoAnswerAtLeast10": true,
+    "datasetHashFixed": true,
+    "documentFamilyNoCrossSplit": true,
+    "evaluationAnswerableAtLeast100": true,
+    "evaluationNoAnswerAtLeast25": true,
+    "fullQueryNotStored": true,
+    "manifestPresent": true,
+    "noAnswerCorpusAuditComplete": true,
+    "oldDiagnosticNoOverlap": true
+  },
+  "datasetHash": "d3835de362f936a3f5000395b57c447d1518e63a879e50a08e5198b920761c2d",
+  "datasetVersion": "v23-retrieval-qualification-v1",
+  "forbiddenClaims": [
+    "RETRIEVAL_QUALITY_VERIFIED",
+    "PRODUCTION_RETRIEVAL_PASS"
+  ],
+  "schemaVersion": "agent-rag-v23-retrieval-dataset-gate-v1",
+  "status": "PASS"
+}

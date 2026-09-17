@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "batchParityComplete": true,
+    "configurationDecisionComplete": true,
+    "defaultRegressionPass": true,
+    "freshProcessRepeatComplete": true,
+    "inputManifestPass": true,
+    "invocationPathAuditComplete": true,
+    "matrixComplete": true,
+    "precisionStabilityComplete": true,
+    "resourceQualificationComplete": true,
+    "sensitiveScanPass": true
+  },
+  "decision": "E_REVIEW_V23_PHASE_94B_PSQ_PASS",
+  "phase94cThreeWayFusionAllowed": false,
+  "schemaVersion": "agent-rag-v23-phase-94b-psq-gate-v1",
+  "sparseIndexPass": false,
+  "sparseIndexRebuildAllowed": false,
+  "sparseRetrievalCalibrationAllowed": false,
+  "sparseRetrievalPass": false,
+  "status": "PASS"
+}

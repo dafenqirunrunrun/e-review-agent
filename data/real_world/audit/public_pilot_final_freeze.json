@@ -1,0 +1,27 @@
+{
+  "marker": "PUBLIC_REALWORLD_PILOT_FROZEN",
+  "public_pilot_status": "frozen",
+  "amazon_text_pilot_count": 150,
+  "asap_text_pilot_count": 150,
+  "multimodal_record_count": 11,
+  "valid_image_count": 9,
+  "image_download_success_rate": 0.5,
+  "unrecoverable_locator_count": 9,
+  "mandatory_privacy_detector_capability": "PRIVACY_DETECTOR_CAPABILITY_BLOCKED",
+  "amazon_adjusted_mappable_rate": 0.0867,
+  "asap_adjusted_mappable_rate": 0.0,
+  "overall_adjusted_mappable_rate": 0.0433,
+  "private_real_image_vlm_compatibility": "PRIVATE_REAL_IMAGE_VLM_COMPATIBILITY_BLOCKED",
+  "FORMAL_REALWORLD_DATA_RIGHTS_READY": false,
+  "SFT_DATA_READY": false,
+  "further_acquisition_allowed": false,
+  "further_prompt_tuning_allowed": false,
+  "formal_evaluation_allowed": false,
+  "training_allowed": false,
+  "prohibited_sources_without_new_authorization": [
+    "Amazon Reviews 2023",
+    "ASAP",
+    "JDDC"
+  ],
+  "frozen_at": "2026-07-14T19:16:42.132779+00:00"
+}

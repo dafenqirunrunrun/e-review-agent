@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "step23.3c-challenge-manifest-v1",
+  "datasetVersion": "step23.3c-cn-ranking-challenge-v1",
+  "status": "FROZEN",
+  "datasetPath": "step233c_cn_ranking_challenge_v1.jsonl",
+  "sha256": "2FD39E01A77783113879634E7A69F45CA77133C3164AF1416564C02BA80BA7C2",
+  "language": "zh",
+  "construction": {
+    "method": "project-authored controlled Chinese challenge cases",
+    "labelsAssignedBeforeCandidateExecution": true,
+    "candidateOutputsUsedForLabels": false,
+    "productionTraffic": false
+  },
+  "validation": {
+    "caseCount": 120,
+    "rankingCaseCount": 105,
+    "normalCaseCount": 15,
+    "sliceCounts": {
+      "multi_risk_precedence": 35,
+      "implicit_colloquial": 30,
+      "hard_negative": 20,
+      "normal_easy": 15,
+      "long_noisy": 10,
+      "boundary_ambiguous": 10
+    },
+    "uniquePolicyChunkCount": 20,
+    "oldGoldExactOverlapCount": 0,
+    "allChinese": true,
+    "contentRootHash": "cf7dc1e5f46048ba62a5273f44e9a8b4d1e56e80713ea10f0be5ae7fe75024e8"
+  },
+  "comparedVariants": {
+    "v1": "active Qwen legacy embedding plus current hybrid RRF",
+    "B0": "Qwen official retrieval v2 plus current hybrid RRF",
+    "B2": "B0 candidates plus local BGE reranker over Top-5"
+  },
+  "metricDefinitions": {
+    "primaryPolicyAccuracyAt1": "Top-1 chunk has graded relevance 3 for the primary risk.",
+    "ndcgAt3": "Graded policy relevance 0-3 over the three citations consumed by workflow.",
+    "multiRiskCoverageAt3": "For multi-risk cases, Top-3 qrels jointly support every annotated risk type.",
+    "candidateRecallAt5": "At least one relevance-3 primary-policy chunk appears in Top-5.",
+    "reflectionAccuracy": "Deterministic Reflection output equals expectedEvidenceStatus using annotated risks and Top-3 citations.",
+    "decisionAccuracy": "Governance decision derived from annotated risk severity and Reflection equals expectedDecision.",
+    "highRiskPrimaryOmissionCount": "High-risk cases without a relevance-3 primary-policy chunk in Top-3."
+  },
+  "promotionGate": {
+    "candidate": "B2",
+    "rules": [
+      "B2 primaryPolicyAccuracyAt1 >= v1",
+      "B2 ndcgAt3 >= v1",
+      "B2 multiRiskCoverageAt3 >= v1",
+      "B2 candidateRecallAt5 >= v1",
+      "B2 reflectionAccuracy >= v1",
+      "B2 decisionAccuracy >= v1",
+      "B2 highRiskPrimaryOmissionCount = 0",
+      "B2 citationValidity = 1.0",
+      "B2 multi_risk_precedence primaryPolicyAccuracyAt1 >= v1"
+    ]
+  }
+}

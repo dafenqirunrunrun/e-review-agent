@@ -3,10 +3,10 @@
 
     <el-form ref="topic" :rules="rules" :model="topic" status-icon label-position="left" label-width="100px" style="width: 800px; margin-left:50px;">
       <el-form-item :label="$t('promotion_topic_edit.form.title')" prop="title">
-        <el-input v-model="topic.title" />
+        <el-input v-model="topic.title"/>
       </el-form-item>
       <el-form-item :label="$t('promotion_topic_edit.form.subtitle')" prop="subtitle">
-        <el-input v-model="topic.subtitle" />
+        <el-input v-model="topic.subtitle"/>
       </el-form-item>
       <el-form-item :label="$t('promotion_topic_edit.form.pic_url')" prop="picUrl">
         <el-upload
@@ -15,20 +15,19 @@
           :show-file-list="false"
           :on-success="uploadPicUrl"
           class="avatar-uploader"
-          accept=".jpg,.jpeg,.png,.gif"
-        >
+          accept=".jpg,.jpeg,.png,.gif">
           <img v-if="topic.picUrl" :src="topic.picUrl" class="avatar">
-          <i v-else class="el-icon-plus avatar-uploader-icon" />
+          <i v-else class="el-icon-plus avatar-uploader-icon"/>
         </el-upload>
       </el-form-item>
       <el-form-item :label="$t('promotion_topic_edit.form.content')" prop="content">
-        <editor v-model="topic.content" :init="editorInit" />
+        <editor :init="editorInit" v-model="topic.content"/>
       </el-form-item>
       <el-form-item :label="$t('promotion_topic_edit.form.price')" prop="price">
-        <el-input v-model="topic.price" />
+        <el-input v-model="topic.price"/>
       </el-form-item>
       <el-form-item :label="$t('promotion_topic_edit.form.read_count')" prop="readCount">
-        <el-input v-model="topic.readCount" />
+        <el-input v-model="topic.readCount"/>
       </el-form-item>
       <el-form-item :label="$t('promotion_topic_edit.form.goods')" prop="goods">
         <el-button style="float:right;" size="mini" type="primary" @click="handleCreate()">{{ $t('promotion_topic_edit.button.goods_create') }}</el-button>
@@ -60,11 +59,11 @@
 
     <el-dialog :visible.sync="addVisiable" :title="$t('promotion_topic_edit.dialog.add_goods')">
       <div class="search">
-        <el-input v-model="listQuery.goodsSn" clearable class="filter-item" style="width: 200px;" :placeholder="$t('promotion_topic_edit.placeholder.search_goods_sn')" />
-        <el-input v-model="listQuery.name" clearable class="filter-item" style="width: 200px;" :placeholder="$t('promotion_topic_edit.placeholder.search_name')" />
+        <el-input v-model="listQuery.goodsSn" clearable class="filter-item" style="width: 200px;" :placeholder="$t('promotion_topic_edit.placeholder.search_goods_sn')"/>
+        <el-input v-model="listQuery.name" clearable class="filter-item" style="width: 200px;" :placeholder="$t('promotion_topic_edit.placeholder.search_name')"/>
         <el-button class="filter-item" type="primary" icon="el-icon-search" @click="handleFilter">{{ $t('app.button.search') }}</el-button>
         <el-table v-loading="listLoading" :data="list" :element-loading-text="$t('app.message.list_loading')" border fit highlight-current-row @selection-change="handleSelectionChange">
-          <el-table-column type="selection" width="55" />
+          <el-table-column type="selection" width="55"/>
           <el-table-column align="center" :label="$t('promotion_topic_edit.table.search_goods_id')" prop="id" />
           <el-table-column align="center" property="picUrl" :label="$t('promotion_topic_edit.table.search_goods_pic_url')">
             <template slot-scope="scope">
@@ -118,13 +117,14 @@
 import { createTopic } from '@/api/topic'
 import { listGoods } from '@/api/goods'
 import { createStorage, uploadPath } from '@/api/storage'
+import BackToTop from '@/components/BackToTop'
 import Editor from '@tinymce/tinymce-vue'
 import Pagination from '@/components/Pagination' // Secondary package based on el-pagination
 import { getToken } from '@/utils/auth'
 
 export default {
   name: 'TopicEdit',
-  components: { Editor, Pagination },
+  components: { BackToTop, Editor, Pagination },
   data() {
     return {
       uploadPath,

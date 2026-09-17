@@ -1,0 +1,201 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "specificationList":  [
+                                           {
+                                               "name":  "规格",
+                                               "valueList":  [
+                                                                 {
+                                                                     "id":  6,
+                                                                     "goodsId":  1006002,
+                                                                     "specification":  "规格",
+                                                                     "value":  "标准",
+                                                                     "picUrl":  "",
+                                                                     "addTime":  "2018-02-01 08:00:00",
+                                                                     "updateTime":  "2018-02-01 08:00:00",
+                                                                     "deleted":  false
+                                                                 }
+                                                             ]
+                                           }
+                                       ],
+                 "groupon":  [
+
+                             ],
+                 "issue":  [
+                               {
+                                   "id":  1,
+                                   "question":  "购买运费如何收取？",
+                                   "answer":  "单笔订单金额（不含运费）满88元免邮费；不满88元，每单收取10元运费。\n(港澳台地区需满",
+                                   "addTime":  "2018-02-01 08:00:00",
+                                   "updateTime":  "2018-02-01 08:00:00",
+                                   "deleted":  false
+                               },
+                               {
+                                   "id":  2,
+                                   "question":  "使用什么快递发货？",
+                                   "answer":  "严选默认使用顺丰快递发货（个别商品使用其他快递），配送范围覆盖全国大部分地区（港澳台地区除",
+                                   "addTime":  "2018-02-01 08:00:00",
+                                   "updateTime":  "2018-02-01 08:00:00",
+                                   "deleted":  false
+                               },
+                               {
+                                   "id":  3,
+                                   "question":  "如何申请退货？",
+                                   "answer":  "1.自收到商品之日起30日内，顾客可申请无忧退货，退款将原路返还，不同的银行处理时间不同，",
+                                   "addTime":  "2018-02-01 08:00:00",
+                                   "updateTime":  "2018-02-01 08:00:00",
+                                   "deleted":  false
+                               },
+                               {
+                                   "id":  4,
+                                   "question":  "如何开具发票？",
+                                   "answer":  "1.如需开具普通发票，请在下单时选择“我要开发票”并填写相关信息（APP仅限2.4.0及以",
+                                   "addTime":  "2018-02-01 08:00:00",
+                                   "updateTime":  "2018-02-01 08:00:00",
+                                   "deleted":  false
+                               }
+                           ],
+                 "userHasCollect":  0,
+                 "shareImage":  "",
+                 "comment":  {
+                                 "data":  [
+                                              {
+                                                  "addTime":  "2018-02-01 08:00:00",
+                                                  "picList":  [
+                                                                  "https://yanxuan.nosdn.127.net/7215309e93c48cca08ca6910194eb3b0.jpg"
+                                                              ],
+                                                  "adminContent":  "",
+                                                  "nickname":  "user123",
+                                                  "id":  4,
+                                                  "avatar":  "",
+                                                  "content":  "3899床，2399白鹅绒被，899四件套。网易严选我要疯了！"
+                                              },
+                                              {
+                                                  "addTime":  "2018-02-01 08:00:00",
+                                                  "picList":  [
+                                                                  "http://yanxuan.nosdn.127.net/d85a556893919038b56a95b71c9a1228.jpg"
+                                                              ],
+                                                  "adminContent":  "",
+                                                  "nickname":  "user123",
+                                                  "id":  5,
+                                                  "avatar":  "",
+                                                  "content":  "漂亮"
+                                              }
+                                          ],
+                                 "count":  27
+                             },
+                 "share":  false,
+                 "attribute":  [
+                                   {
+                                       "id":  1,
+                                       "goodsId":  1006002,
+                                       "attribute":  "材质",
+                                       "value":  "100%棉",
+                                       "addTime":  "2018-02-01 08:00:00",
+                                       "updateTime":  "2018-02-01 08:00:00",
+                                       "deleted":  false
+                                   },
+                                   {
+                                       "id":  2,
+                                       "goodsId":  1006002,
+                                       "attribute":  "适用床尺寸",
+                                       "value":  "1.5米+1.8米通用",
+                                       "addTime":  "2018-02-01 08:00:00",
+                                       "updateTime":  "2018-02-01 08:00:00",
+                                       "deleted":  false
+                                   },
+                                   {
+                                       "id":  3,
+                                       "goodsId":  1006002,
+                                       "attribute":  "件数",
+                                       "value":  "4件",
+                                       "addTime":  "2018-02-01 08:00:00",
+                                       "updateTime":  "2018-02-01 08:00:00",
+                                       "deleted":  false
+                                   },
+                                   {
+                                       "id":  4,
+                                       "goodsId":  1006002,
+                                       "attribute":  "工艺",
+                                       "value":  "刺绣",
+                                       "addTime":  "2018-02-01 08:00:00",
+                                       "updateTime":  "2018-02-01 08:00:00",
+                                       "deleted":  false
+                                   },
+                                   {
+                                       "id":  5,
+                                       "goodsId":  1006002,
+                                       "attribute":  "执行标准",
+                                       "value":  "GB18401-2010 B类",
+                                       "addTime":  "2018-02-01 08:00:00",
+                                       "updateTime":  "2018-02-01 08:00:00",
+                                       "deleted":  false
+                                   },
+                                   {
+                                       "id":  6,
+                                       "goodsId":  1006002,
+                                       "attribute":  "产地",
+                                       "value":  "中国",
+                                       "addTime":  "2018-02-01 08:00:00",
+                                       "updateTime":  "2018-02-01 08:00:00",
+                                       "deleted":  false
+                                   },
+                                   {
+                                       "id":  7,
+                                       "goodsId":  1006002,
+                                       "attribute":  "温馨提示",
+                                       "value":  "纺织品经历印染、织造等多道环节，产品初次拿到可能有些许味道，清水漂洗、晾干后味道即可散去。\n严选面料全部经过国标检测认证，选用环保活性染料，请放心使用。",
+                                       "addTime":  "2018-02-01 08:00:00",
+                                       "updateTime":  "2018-02-01 08:00:00",
+                                       "deleted":  false
+                                   }
+                               ],
+                 "brand":  {
+
+                           },
+                 "productList":  [
+                                     {
+                                         "id":  7,
+                                         "goodsId":  1006002,
+                                         "specifications":  [
+                                                                "标准"
+                                                            ],
+                                         "price":  899.00,
+                                         "number":  100,
+                                         "url":  "http://yanxuan.nosdn.127.net/8ab2d3287af0cefa2cc539e40600621d.png",
+                                         "addTime":  "2018-02-01 08:00:00",
+                                         "updateTime":  "2018-02-01 08:00:00",
+                                         "deleted":  false
+                                     }
+                                 ],
+                 "info":  {
+                              "id":  1006002,
+                              "goodsSn":  "1006002",
+                              "name":  "轻奢纯棉刺绣水洗四件套",
+                              "categoryId":  1008009,
+                              "brandId":  0,
+                              "gallery":  [
+                                              "http://yanxuan.nosdn.127.net/4eb09e08ac9de543d2291d27a6be0b54.jpg",
+                                              "http://yanxuan.nosdn.127.net/0c9eb81c7594dbe42802ff1ebbece51a.jpg",
+                                              "http://yanxuan.nosdn.127.net/8cfc7b6bfd28687ab3399da08e5ba61b.jpg",
+                                              "http://yanxuan.nosdn.127.net/b98cfd7f197b62abd1679321eae253a6.jpg"
+                                          ],
+                              "keywords":  "",
+                              "brief":  "设计师原款，精致绣花",
+                              "isOnSale":  true,
+                              "sortOrder":  23,
+                              "picUrl":  "http://yanxuan.nosdn.127.net/8ab2d3287af0cefa2cc539e40600621d.png",
+                              "shareUrl":  "",
+                              "isNew":  false,
+                              "isHot":  false,
+                              "unit":  "件",
+                              "counterPrice":  919.00,
+                              "retailPrice":  899.00,
+                              "addTime":  "2018-02-01 08:00:00",
+                              "updateTime":  "2018-02-01 08:00:00",
+                              "deleted":  false,
+                              "detail":  "\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/2597f9e2e41093f50761837eb4c2e6be.jpg\" _src=\"http://yanxuan.nosdn.127.net/2597f9e2e41093f50761837eb4c2e6be.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/4377adc892bf9d16f9d0fd78f88a6986.jpg\" _src=\"http://yanxuan.nosdn.127.net/4377adc892bf9d16f9d0fd78f88a6986.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/986bd3a7517a356265049443cbb747d9.jpg\" _src=\"http://yanxuan.nosdn.127.net/986bd3a7517a356265049443cbb747d9.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/5cdf3958b3a8d9982b879e3fea1fd616.jpg\" _src=\"http://yanxuan.nosdn.127.net/5cdf3958b3a8d9982b879e3fea1fd616.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/47e5be34ef476258f44f307982c705d4.jpg\" _src=\"http://yanxuan.nosdn.127.net/47e5be34ef476258f44f307982c705d4.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/a2220e4cbb5ebc49e9cecb64176983d9.jpg\" _src=\"http://yanxuan.nosdn.127.net/a2220e4cbb5ebc49e9cecb64176983d9.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/dee62e466465b370c349e37fccd3b596.jpg\" _src=\"http://yanxuan.nosdn.127.net/dee62e466465b370c349e37fccd3b596.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/c021b91f965ac022182eb03b2780e5de.jpg\" _src=\"http://yanxuan.nosdn.127.net/c021b91f965ac022182eb03b2780e5de.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/b9f7afd9441928d7f670fd7879ba869d.jpg\" _src=\"http://yanxuan.nosdn.127.net/b9f7afd9441928d7f670fd7879ba869d.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/8a73b69a2fefbd154a2a6ad45102b565.jpg\" _src=\"http://yanxuan.nosdn.127.net/8a73b69a2fefbd154a2a6ad45102b565.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/5836d918faa9b11eb8d9f97f9787cda9.jpg\" _src=\"http://yanxuan.nosdn.127.net/5836d918faa9b11eb8d9f97f9787cda9.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/8216a8addae2f02a5a570ef45d5ecffc.jpg\" _src=\"http://yanxuan.nosdn.127.net/8216a8addae2f02a5a570ef45d5ecffc.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/da382973dcb0e524a36519baab880204.jpg\" _src=\"http://yanxuan.nosdn.127.net/da382973dcb0e524a36519baab880204.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/f1c6e84d49f74e228bc57934ec7b7500.jpg\" _src=\"http://yanxuan.nosdn.127.net/f1c6e84d49f74e228bc57934ec7b7500.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/2f1d0a20e54d3e2e59a44ffe44ebe405.jpg\" _src=\"http://yanxuan.nosdn.127.net/2f1d0a20e54d3e2e59a44ffe44ebe405.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/a39f2c7580ce5cadc62e8b39d58aca71.jpg\" _src=\"http://yanxuan.nosdn.127.net/a39f2c7580ce5cadc62e8b39d58aca71.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/c71dc416f04615b634d2b6cd0c4215ee.jpg\" _src=\"http://yanxuan.nosdn.127.net/c71dc416f04615b634d2b6cd0c4215ee.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/06ac26ed7d870c5c6f0ce3e07c629471.jpg\" _src=\"http://yanxuan.nosdn.127.net/06ac26ed7d870c5c6f0ce3e07c629471.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/99b180d02726e0213e54dddf4b9b32fd.jpg\" _src=\"http://yanxuan.nosdn.127.net/99b180d02726e0213e54dddf4b9b32fd.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/97de8d2687052976e51fff40d04af2ce.jpg\" _src=\"http://yanxuan.nosdn.127.net/97de8d2687052976e51fff40d04af2ce.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/3f527003599be237095995c98039ef87.jpg\" _src=\"http://yanxuan.nosdn.127.net/3f527003599be237095995c98039ef87.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/ec30289dc1b2beb4b84a08c02a97ef6e.jpg\" _src=\"http://yanxuan.nosdn.127.net/ec30289dc1b2beb4b84a08c02a97ef6e.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/685da1eaddcd26e8e2a1ff4d5d83f29f.jpg\" _src=\"http://yanxuan.nosdn.127.net/685da1eaddcd26e8e2a1ff4d5d83f29f.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/2610f487a733a88973d101dcd1766ee1.jpg\" _src=\"http://yanxuan.nosdn.127.net/2610f487a733a88973d101dcd1766ee1.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/eab3633e648ab2e8412c6801feb6231e.jpg\" _src=\"http://yanxuan.nosdn.127.net/eab3633e648ab2e8412c6801feb6231e.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/7b6c4f220592ea7d5af0072a816fe946.jpg\" _src=\"http://yanxuan.nosdn.127.net/7b6c4f220592ea7d5af0072a816fe946.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/310a777685204ece08592a6e2716c6c9.jpg\" _src=\"http://yanxuan.nosdn.127.net/310a777685204ece08592a6e2716c6c9.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/198239985c74597717e639089ffae25f.jpg\" _src=\"http://yanxuan.nosdn.127.net/198239985c74597717e639089ffae25f.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/dec6b498c899351fe94d99a6dde0ee79.jpg\" _src=\"http://yanxuan.nosdn.127.net/dec6b498c899351fe94d99a6dde0ee79.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/516a17ca73846bc871902b298ce38a97.jpg\" _src=\"http://yanxuan.nosdn.127.net/516a17ca73846bc871902b298ce38a97.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/d8231b81b5ba0e1c244074598c19f003.jpg\" _src=\"http://yanxuan.nosdn.127.net/d8231b81b5ba0e1c244074598c19f003.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/92c704dcf169e9a177a3c762a6a54a46.jpg\" _src=\"http://yanxuan.nosdn.127.net/92c704dcf169e9a177a3c762a6a54a46.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/5b9294ad5f78d890453d4a225feed518.jpg\" _src=\"http://yanxuan.nosdn.127.net/5b9294ad5f78d890453d4a225feed518.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/9bb1b8fdfaa7f895bdd7d5c65c42a59b.jpg\" _src=\"http://yanxuan.nosdn.127.net/9bb1b8fdfaa7f895bdd7d5c65c42a59b.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/f342e6d6b75dc1f80972feb415fd4e75.jpg\" _src=\"http://yanxuan.nosdn.127.net/f342e6d6b75dc1f80972feb415fd4e75.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/6c9597cf206066861b3244f634c98e32.jpg\" _src=\"http://yanxuan.nosdn.127.net/6c9597cf206066861b3244f634c98e32.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/970d4dad7d958293fd41ec1f444684f1.jpg\" _src=\"http://yanxuan.nosdn.127.net/970d4dad7d958293fd41ec1f444684f1.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/6f93819b03de07abef8b2d94f1d5c84b.jpg\" _src=\"http://yanxuan.nosdn.127.net/6f93819b03de07abef8b2d94f1d5c84b.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/58c8c56aac61da4ee9fcf34930b76e4e.jpg\" _src=\"http://yanxuan.nosdn.127.net/58c8c56aac61da4ee9fcf34930b76e4e.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/fb6435ec714189d6ad5053bf12d41db7.jpg\" _src=\"http://yanxuan.nosdn.127.net/fb6435ec714189d6ad5053bf12d41db7.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/19cc85ae097247d5d868df993de64e7b.jpg\" _src=\"http://yanxuan.nosdn.127.net/19cc85ae097247d5d868df993de64e7b.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/0ab8e27757cabd39fccdb5fd8ef7b013.jpg\" _src=\"http://yanxuan.nosdn.127.net/0ab8e27757cabd39fccdb5fd8ef7b013.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://yanxuan.nosdn.127.net/03e6f02f8f77b71a82a05dd1a9705057.jpg\" _src=\"http://yanxuan.nosdn.127.net/03e6f02f8f77b71a82a05dd1a9705057.jpg\" style=\"\"/\u003e\u003c/p\u003e\u003cp\u003e\u003cbr/\u003e\u003c/p\u003e"
+                          }
+             },
+    "errmsg":  "成功"
+}

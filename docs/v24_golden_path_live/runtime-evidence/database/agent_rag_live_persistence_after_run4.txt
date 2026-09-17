@@ -1,0 +1,12 @@
+﻿active_db
+litemall_v24_verify
+id	request_id	tenant_id	subject_type	subject_id	status	risk_level	action	confidence	runtime_mode	requested_retrieval_mode	effective_retrieval_mode	fallback_used	evidence_id	audit_integrity_status	duration_ms
+3	golden-comment-1015-hybrid-real-20260728144538	__local__	review	litemall_comment:1015	FAILED	NULL	NULL	NULL	local-model	hybrid-real	NULL	0	NULL	NULL	294
+4	goldenpath-live-faiss-20260728145605	__local__	review	litemall_comment:1015:live-faiss:20260728145605	REVIEW_REQUIRED	high	create-risk-task	0.900000	grounded-local-llm-rag	hybrid-real	hybrid-real	0	06109824d6541a3ef51df684	VALID	13484
+id	evidence_id	run_id	citation_count	payload_size_bytes	pii_redacted	evidence_expired	citation_set_hash
+2	06109824d6541a3ef51df684	4	3	4011	1	0	df2392ac4bddd989addbd9b70b998dcddab71ae068e876f16b05234174c767ec
+id	source_type	source_id	sentiment_label	confidence
+1	litemall_comment	1015	negative	0.8300
+id	source_type	source_id	risk_type	risk_level	status
+2	litemall_comment	1015	after_sales_risk	high	pending
+1	litemall_comment	1015	negative_review	high	pending

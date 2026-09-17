@@ -1,0 +1,11 @@
+{
+  "status": "V182_ABSTRACT_FACT_GRAPH_PASS",
+  "fact_count": 720,
+  "document_count": 960,
+  "chunk_count": 2880,
+  "main_query_count": 420,
+  "security_query_count": 80,
+  "corpus_generation_root": "fact_graph_to_corpus_v182_seed_928100",
+  "query_generation_root": "fact_graph_to_query_v182_seed_441820",
+  "git_excludes_full_text": true
+}

@@ -1,0 +1,187 @@
+{
+  "marker": "HYBRID_RAG_EVAL_PASS",
+  "status": {
+    "corpus_size": 240,
+    "index_available": true,
+    "embedding_provider": "bge_m3",
+    "embedding_model": "BAAI/bge-m3",
+    "embedding_model_available": true,
+    "reranker_provider": "neural",
+    "reranker_model": "BAAI/bge-reranker-base",
+    "reranker_model_available": true,
+    "device": "cuda",
+    "strategy": "hybrid_rerank",
+    "top_k": 5,
+    "index_version": "bge-m3-20260711T033027Z",
+    "load_error_summary": null,
+    "evaluation_metrics": {},
+    "downstream_comparison": {},
+    "failure_queries": []
+  },
+  "metrics": {
+    "tfidf": {
+      "strategy": "tfidf",
+      "query_count": 80,
+      "hit_at_1": 0.9875,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.99375,
+      "ndcg_at_5": 0.9504411073727446,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7166666666666667,
+      "avg_latency_ms": 0.893125,
+      "p95_latency_ms": 1.15,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      },
+      "failures": []
+    },
+    "dense": {
+      "strategy": "dense",
+      "query_count": 80,
+      "hit_at_1": 0.8125,
+      "hit_at_3": 0.9625,
+      "hit_at_5": 0.975,
+      "mrr": 0.890625,
+      "ndcg_at_5": 0.8846671681240093,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7208333333333333,
+      "avg_latency_ms": 128.11024999999998,
+      "p95_latency_ms": 14.08,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 0.8333333333333334
+      },
+      "failures": [
+        {
+          "query_id": "QUERY-NEUTRAL-04",
+          "strategy": "dense",
+          "returned_case_ids": [
+            "CASE-POSITIVE-01",
+            "CASE-POSITIVE-05",
+            "CASE-POSITIVE-02",
+            "CASE-POSITIVE-10",
+            "CASE-POSITIVE-11"
+          ],
+          "relevant_case_ids": [
+            "CASE-NEUTRAL-02",
+            "CASE-NEUTRAL-05",
+            "CASE-NEUTRAL-08"
+          ]
+        },
+        {
+          "query_id": "QUERY-INSUFFICIENT_EVIDENCE-03",
+          "strategy": "dense",
+          "returned_case_ids": [
+            "CASE-NEUTRAL-02",
+            "CASE-NEUTRAL-01",
+            "CASE-NEUTRAL-08",
+            "CASE-NEUTRAL-05",
+            "CASE-NEUTRAL-11"
+          ],
+          "relevant_case_ids": [
+            "CASE-INSUFFICIENT_EVIDENCE-01",
+            "CASE-INSUFFICIENT_EVIDENCE-04",
+            "CASE-INSUFFICIENT_EVIDENCE-07"
+          ]
+        }
+      ]
+    },
+    "hybrid": {
+      "strategy": "hybrid",
+      "query_count": 80,
+      "hit_at_1": 0.9,
+      "hit_at_3": 0.9875,
+      "hit_at_5": 0.9875,
+      "mrr": 0.94375,
+      "ndcg_at_5": 0.9296040390397322,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7541666666666667,
+      "avg_latency_ms": 12.226625,
+      "p95_latency_ms": 14.12,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 0.9166666666666666
+      },
+      "failures": [
+        {
+          "query_id": "QUERY-INSUFFICIENT_EVIDENCE-03",
+          "strategy": "hybrid",
+          "returned_case_ids": [
+            "CASE-INSUFFICIENT_EVIDENCE-02",
+            "CASE-COUNTERFEIT-12",
+            "CASE-COUNTERFEIT-06",
+            "CASE-COUNTERFEIT-03",
+            "CASE-NEUTRAL-02"
+          ],
+          "relevant_case_ids": [
+            "CASE-INSUFFICIENT_EVIDENCE-01",
+            "CASE-INSUFFICIENT_EVIDENCE-04",
+            "CASE-INSUFFICIENT_EVIDENCE-07"
+          ]
+        }
+      ]
+    },
+    "hybrid_rule": {
+      "strategy": "hybrid_rule",
+      "query_count": 80,
+      "hit_at_1": 0.9125,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.95625,
+      "ndcg_at_5": 0.9424654206827779,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.8041666666666667,
+      "avg_latency_ms": 12.207,
+      "p95_latency_ms": 15.06,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      },
+      "failures": []
+    },
+    "hybrid_neural": {
+      "strategy": "hybrid_neural",
+      "query_count": 80,
+      "hit_at_1": 0.925,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.9625,
+      "ndcg_at_5": 0.946211713133191,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7541666666666667,
+      "avg_latency_ms": 107.061875,
+      "p95_latency_ms": 92.17,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      },
+      "failures": []
+    },
+    "hybrid_rerank": {
+      "strategy": "hybrid_rerank",
+      "query_count": 80,
+      "hit_at_1": 0.925,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.9625,
+      "ndcg_at_5": 0.946211713133191,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7541666666666667,
+      "avg_latency_ms": 107.061875,
+      "p95_latency_ms": 92.17,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      },
+      "failures": []
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "artifactVersion": "agent-rag-v23-retrieval-challenge-preservation-v1",
+  "challengeCaseCount": 75,
+  "challengeCaseIdsHash": "184fd2e76c23d4732214d38d98c3fba3eac26c30249cdc1c78ca29f91b281e37",
+  "challengeLabelsRead": false,
+  "challengeMetricsGenerated": false,
+  "challengeQueryHashesRead": false,
+  "challengeRetrievalExecuted": false,
+  "datasetHash": "d638d44c69e1e678c2f990fd193af23d2ac18962b6e2be5eaf1ffd19e4575e47",
+  "datasetVersion": "v23-retrieval-qualification-v2",
+  "preservedForFutureIndependentResearch": true
+}

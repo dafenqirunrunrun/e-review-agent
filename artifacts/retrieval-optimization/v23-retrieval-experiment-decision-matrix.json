@@ -1,0 +1,187 @@
+{
+  "artifactVersion": "agent-rag-v23-retrieval-experiment-decision-matrix-v1",
+  "qualifiedNewRuntimeCandidateCount": 0,
+  "routeCount": 10,
+  "rows": [
+    {
+      "calibrationStatus": "not_applicable",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "not_applicable",
+      "evidenceHashes": {
+        "decisionHash": "fc280ab3d1ffa973cc7206d7922e248ef48c3697166de0d5004f51a9a5227511"
+      },
+      "experimentId": "baseline-bm25",
+      "finalDecision": "REFERENCE_BASELINE",
+      "hypothesis": "Child BM25 lexical baseline",
+      "qualityConclusion": "REFERENCE_BASELINE",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "not_promoted",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    },
+    {
+      "calibrationStatus": "not_applicable",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "not_applicable",
+      "evidenceHashes": {
+        "decisionHash": "4ede8ab400c59aef65bdbdc13c6798ad00a10f0e82f4bd959e54f6b24495c154"
+      },
+      "experimentId": "bge-m3-dense",
+      "finalDecision": "REFERENCE_BASELINE",
+      "hypothesis": "BGE-M3 dense reference route",
+      "qualityConclusion": "REFERENCE_BASELINE",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "runtime_verified_reference",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    },
+    {
+      "calibrationStatus": "not_applicable",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "not_applicable",
+      "evidenceHashes": {
+        "decisionHash": "290faafe3ce8686352bf089e002bf862e260ff45fbd90da8178b55184c4eea25"
+      },
+      "experimentId": "bm25-dense-raw-union",
+      "finalDecision": "CALIBRATION_ONLY_SIGNAL",
+      "hypothesis": "Raw union can improve candidate pool",
+      "qualityConclusion": "CALIBRATION_ONLY_SIGNAL",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "not_promoted",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    },
+    {
+      "calibrationStatus": "not_applicable",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "not_applicable",
+      "evidenceHashes": {
+        "decisionHash": "62a591d0546793b81fdf32e5d91133a3e5a7cebac76d856dd2aafcd20215c998"
+      },
+      "experimentId": "bm25-dense-rrf",
+      "finalDecision": "REFERENCE_BASELINE",
+      "hypothesis": "Rank-only RRF is stable reference fusion",
+      "qualityConclusion": "REFERENCE_BASELINE",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "not_promoted",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    },
+    {
+      "calibrationStatus": "not_applicable",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "not_applicable",
+      "evidenceHashes": {
+        "decisionHash": "93c35972744c89d817f2a0e61769315e6da097f1c59c417103d1207b69deff2b"
+      },
+      "experimentId": "candidate-k-expansion",
+      "finalDecision": "CALIBRATION_ONLY_SIGNAL",
+      "hypothesis": "Increase candidate budget to improve recall",
+      "qualityConclusion": "CALIBRATION_ONLY_SIGNAL",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "not_promoted",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    },
+    {
+      "calibrationStatus": "calibration_signal",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "heldout_blocked",
+      "evidenceHashes": {
+        "decisionHash": "9d2be2d0f97aaafe5bf38ca529ff212721ce6abacdc98aa544ef5d83bc9252dc"
+      },
+      "experimentId": "global-rrf-weight-calibration",
+      "finalDecision": "HELDOUT_BLOCKED",
+      "hypothesis": "Global RRF windows generalize",
+      "qualityConclusion": "HELDOUT_BLOCKED",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "not_promoted",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    },
+    {
+      "calibrationStatus": "not_applicable",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "not_applicable",
+      "evidenceHashes": {
+        "decisionHash": "110be8ab2749789ac6dcc9a19572e0f648f8c31b3168102eaf5eadfc2143a414"
+      },
+      "experimentId": "structured-dense-representation",
+      "finalDecision": "ROUTE_CLOSED",
+      "hypothesis": "section_content dense representation improves retrieval",
+      "qualityConclusion": "ROUTE_CLOSED",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "not_promoted",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    },
+    {
+      "calibrationStatus": "not_applicable",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "not_applicable",
+      "evidenceHashes": {
+        "decisionHash": "68c96f8657452074e122c515d1601c8ecda6c73e885f03ba5505f94b5c0de223"
+      },
+      "experimentId": "real-bge-reranker",
+      "finalDecision": "EXPERIMENTAL_ONLY",
+      "hypothesis": "Real reranker improves ranking quality",
+      "qualityConclusion": "EXPERIMENTAL_ONLY",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "runtime_verified_experimental_only",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    },
+    {
+      "calibrationStatus": "not_applicable",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "not_applicable",
+      "evidenceHashes": {
+        "decisionHash": "8efc791bc7c1e85b5ebed6d9307adade2b28d9227254c45a44b8c2ec29d4a84c"
+      },
+      "experimentId": "bge-m3-sparse",
+      "finalDecision": "ROUTE_CLOSED",
+      "hypothesis": "BGE-M3 sparse route is stable enough for retrieval",
+      "qualityConclusion": "ROUTE_CLOSED",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "runtime_verified_not_reproducible",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    },
+    {
+      "calibrationStatus": "calibration_pass",
+      "challengeStatus": "not_consumed",
+      "datasetVersion": "v23-retrieval-qualification-v2",
+      "evaluationStatus": "heldout_blocked",
+      "evidenceHashes": {
+        "decisionHash": "69d6eddb41bef33f295c9c4d94a452d7053561db4686bf94212b467c09eaf5ee"
+      },
+      "experimentId": "parent-aware-candidate-fusion",
+      "finalDecision": "ROUTE_CLOSED",
+      "hypothesis": "Parent-aware fusion generalizes from calibration",
+      "qualityConclusion": "ROUTE_CLOSED",
+      "reproducibilityConclusion": "pass",
+      "resourceConclusion": "no_blocking_runtime_resource_issue",
+      "runtimeStatus": "not_promoted",
+      "safetyConclusion": "pass",
+      "sourceCommit": "v2.3-history"
+    }
+  ]
+}

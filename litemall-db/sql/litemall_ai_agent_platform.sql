@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `litemall_ai_agent_run` (
   `token_usage_output` int DEFAULT NULL,
   `latency_ms` bigint DEFAULT NULL,
   `rag_enabled` tinyint(1) DEFAULT 0,
-  `rag_strategy` varchar(32) DEFAULT NULL,
+  `rag_strategy` varchar(64) DEFAULT NULL,
   `retrieval_hit_count` int DEFAULT 0,
   `retrieval_top_score` decimal(10,6) DEFAULT NULL,
   `embedding_provider` varchar(64) DEFAULT NULL,

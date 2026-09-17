@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-07-16T14:18:22.725194+00:00",
+  "status": "PRIVATE_SYNTHETIC_SFT_V23_DATASET_PASS",
+  "total_count": 720,
+  "train_count": 576,
+  "validation_count": 72,
+  "holdout_count": 72,
+  "scenario_group_count": 120,
+  "group_size_distribution": {
+    "6": 120
+  },
+  "canonical_schema_valid_rate": 1.0,
+  "evidence_support_rate": 1.0,
+  "pii_count": 0,
+  "prohibited_action_count": 0,
+  "cross_split_exact_duplicate": {
+    "train_validation": 0,
+    "train_holdout": 0,
+    "validation_holdout": 0
+  },
+  "cross_split_normalized_duplicate": {
+    "train_validation": 0,
+    "train_holdout": 0,
+    "validation_holdout": 0
+  },
+  "cross_split_lineage_overlap": {
+    "generation_root_id": {
+      "train_validation": 0,
+      "train_holdout": 0,
+      "validation_holdout": 0
+    },
+    "scenario_group_id": {
+      "train_validation": 0,
+      "train_holdout": 0,
+      "validation_holdout": 0
+    },
+    "contrast_pair_group_id": {
+      "train_validation": 0,
+      "train_holdout": 0,
+      "validation_holdout": 0
+    },
+    "template_instance_id": {
+      "train_validation": 0,
+      "train_holdout": 0,
+      "validation_holdout": 0
+    }
+  },
+  "validation_risk_type_distribution": {
+    "normal_review": 24,
+    "negative_review": 24,
+    "after_sales_risk": 24
+  },
+  "holdout_risk_type_distribution": {
+    "normal_review": 24,
+    "negative_review": 24,
+    "after_sales_risk": 24
+  },
+  "validation_risk_level_distribution": {
+    "low": 24,
+    "medium": 24,
+    "high": 24
+  },
+  "holdout_risk_level_distribution": {
+    "low": 24,
+    "medium": 24,
+    "high": 24
+  },
+  "validation_human_review_distribution": {
+    "False": 24,
+    "True": 48
+  },
+  "holdout_human_review_distribution": {
+    "False": 24,
+    "True": 48
+  },
+  "target_template_duplicate_rate": 0.0,
+  "route_reason_top1_share": 0.00138889,
+  "route_reason_top5_share": 0.00694444,
+  "token_objective": {
+    "completion_token_count": 57912,
+    "structural_token_ratio": 0.4944053,
+    "semantic_label_token_ratio": 0.23622047,
+    "evidence_token_ratio": 0.09117281,
+    "explanation_token_ratio": 0.17820141,
+    "target_truncation_rate": 0.0,
+    "eos_trainable_rate": 1.0,
+    "max_tokens": 304,
+    "prompt_mask_rate": 1.0,
+    "completion_trainable_rate": 1.0,
+    "status": "V23_SEMANTIC_TOKEN_SIGNAL_PASS"
+  },
+  "v22_holdout_overlap": 0,
+  "v164_holdout_overlap": 0,
+  "amazon_overlap": 0,
+  "asap_overlap": 0,
+  "external_test_overlap": 0,
+  "public_pilot_overlap": 0
+}

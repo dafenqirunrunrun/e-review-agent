@@ -1,0 +1,106 @@
+{
+  "boundaries": [],
+  "checks": {
+    "realDensePassed": true,
+    "realDenseSelected": true,
+    "realLlmPassed": true,
+    "realLlmSelected": true,
+    "realRerankerPassed": true,
+    "realRerankerSelected": true
+  },
+  "createdAtUtc": "2026-07-22T13:30:14Z",
+  "markers": {
+    "real_dense": {
+      "command": "<python> -m pytest -ra -m real_dense ai-service/tests --junitxml=<repo>\\artifacts\\real-model-chain\\pytest-real_dense.xml",
+      "errors": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "junitArtifact": "artifacts/real-model-chain/pytest-real_dense.xml",
+      "pass": true,
+      "passed": 1,
+      "selected": 8,
+      "skipped": 7,
+      "stderrTail": [],
+      "stdoutTail": [
+        "platform win32 -- Python 3.10.0, pytest-8.3.5, pluggy-1.5.0",
+        "rootdir: <repo>",
+        "configfile: pytest.ini",
+        "plugins: anyio-4.12.1",
+        "collected 511 items / 503 deselected / 8 selected",
+        "",
+        "ai-service\\tests\\test_v200_agent_rag_phase3a.py ssss.                    [ 62%]",
+        "ai-service\\tests\\test_v200_agent_rag_phase3a1_metrics.py s               [ 75%]",
+        "ai-service\\tests\\test_v200_agent_rag_phase3a2.py ss                      [100%]",
+        "",
+        "- generated xml file: <repo>\\artifacts\\real-model-chain\\pytest-real_dense.xml -",
+        "=========================== short test summary info ===========================",
+        "SKIPPED [1] ai-service\\tests\\test_v200_agent_rag_phase3a.py:145: MODEL_ASSET_UNAVAILABLE_SKIP",
+        "SKIPPED [1] ai-service\\tests\\test_v200_agent_rag_phase3a.py:166: MODEL_ASSET_UNAVAILABLE_SKIP",
+        "SKIPPED [1] ai-service\\tests\\test_v200_agent_rag_phase3a.py:186: MODEL_ASSET_UNAVAILABLE_SKIP",
+        "SKIPPED [1] ai-service\\tests\\test_v200_agent_rag_phase3a.py:209: MODEL_ASSET_UNAVAILABLE_SKIP",
+        "SKIPPED [1] ai-service\\tests\\test_v200_agent_rag_phase3a1_metrics.py:85: MODEL_ASSET_UNAVAILABLE_SKIP",
+        "SKIPPED [1] ai-service\\tests\\test_v200_agent_rag_phase3a2.py:122: MODEL_ASSET_UNAVAILABLE_SKIP",
+        "SKIPPED [1] ai-service\\tests\\test_v200_agent_rag_phase3a2.py:131: MODEL_ASSET_UNAVAILABLE_SKIP",
+        "================ 1 passed, 7 skipped, 503 deselected in 2.48s ================="
+      ]
+    },
+    "real_llm": {
+      "command": "<python> -m pytest -ra -m real_llm ai-service/tests/test_v200_agent_rag_phase4_local_llm.py --junitxml=<repo>\\artifacts\\real-model-chain\\pytest-real_llm.xml",
+      "errors": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "junitArtifact": "artifacts/real-model-chain/pytest-real_llm.xml",
+      "pass": true,
+      "passed": 1,
+      "selected": 1,
+      "skipped": 0,
+      "stderrTail": [],
+      "stdoutTail": [
+        "============================= test session starts =============================",
+        "platform win32 -- Python 3.10.0, pytest-8.3.5, pluggy-1.5.0",
+        "rootdir: <repo>",
+        "configfile: pytest.ini",
+        "plugins: anyio-4.12.1",
+        "collected 8 items / 7 deselected / 1 selected",
+        "",
+        "ai-service\\tests\\test_v200_agent_rag_phase4_local_llm.py .               [100%]",
+        "",
+        "- generated xml file: <repo>\\artifacts\\real-model-chain\\pytest-real_llm.xml -",
+        "====================== 1 passed, 7 deselected in 18.06s ======================="
+      ]
+    },
+    "real_reranker": {
+      "command": "<python> -m pytest -ra -m real_reranker ai-service/tests --junitxml=<repo>\\artifacts\\real-model-chain\\pytest-real_reranker.xml",
+      "errors": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "junitArtifact": "artifacts/real-model-chain/pytest-real_reranker.xml",
+      "pass": true,
+      "passed": 2,
+      "selected": 3,
+      "skipped": 1,
+      "stderrTail": [],
+      "stdoutTail": [
+        "============================= test session starts =============================",
+        "platform win32 -- Python 3.10.0, pytest-8.3.5, pluggy-1.5.0",
+        "rootdir: <repo>",
+        "configfile: pytest.ini",
+        "plugins: anyio-4.12.1",
+        "collected 511 items / 508 deselected / 3 selected",
+        "",
+        "ai-service\\tests\\test_v200_agent_rag_phase3b_reranker.py s               [ 33%]",
+        "ai-service\\tests\\test_v22_real_reranker_quality_diagnostics.py ..        [100%]",
+        "",
+        "- generated xml file: <repo>\\artifacts\\real-model-chain\\pytest-real_reranker.xml -",
+        "=========================== short test summary info ===========================",
+        "SKIPPED [1] ai-service\\tests\\test_v200_agent_rag_phase3b_reranker.py:155: RERANKER_MODEL_ASSET_UNAVAILABLE_SKIP",
+        "================ 2 passed, 1 skipped, 508 deselected in 17.38s ================"
+      ]
+    }
+  },
+  "schemaVersion": "agent-rag-v22-real-marker-regression-gate-v1",
+  "status": "PASS",
+  "tokens": [
+    "AGENT_RAG_V22_REAL_MARKER_REGRESSION_PASS"
+  ]
+}

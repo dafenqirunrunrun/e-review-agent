@@ -1,0 +1,10 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "orderStatusText":  "已付款",
+                 "orderId":  1,
+                 "orderSn":  "20260728061030",
+                 "orderStatus":  201
+             },
+    "errmsg":  "成功"
+}

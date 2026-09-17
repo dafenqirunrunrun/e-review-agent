@@ -1,0 +1,8 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-qualified-full-regression-v1",
+  "currentCandidateFullPytest": "566 passed, 5 skipped, 0 failed",
+  "environmentId": "agent-rag-v22-real-models",
+  "qualifiedFullRegressionPass": true,
+  "realDense": "8 passed, 563 deselected, 0 failed",
+  "realLlm": "1 skipped, 570 deselected, 0 failed; real LLM asset manifest unavailable"
+}

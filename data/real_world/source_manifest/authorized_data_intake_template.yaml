@@ -1,0 +1,36 @@
+# Authorized real-world data intake template.
+# This template is intentionally blank; Codex must not invent authorization.
+source_name:
+data_owner:
+authorization_basis:
+authorization_document_reference:
+allowed_internal_evaluation:
+allowed_external_evaluation:
+allowed_model_training:
+allowed_redistribution:
+allowed_image_use:
+allowed_retention_period:
+privacy_responsibility:
+deletion_requirements:
+approved_by:
+approved_at:
+notes:
+intake_path:
+  user_owned_data:
+    data_owner_confirmation:
+    internal_evaluation_allowed:
+    model_training_allowed:
+    privacy_responsibility:
+  enterprise_authorized_data:
+    authorization_document_id:
+    use_scope:
+    retention_period:
+    image_use_allowed:
+    model_training_allowed:
+  explicit_license_public_data:
+    license_name:
+    official_license_url:
+    text_use_allowed:
+    image_use_allowed:
+    training_allowed:
+    redistribution_allowed:

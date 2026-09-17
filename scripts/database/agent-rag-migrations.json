@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0.0",
+  "historyTable": "litemall_agent_rag_schema_history",
+  "migrations": [
+    {
+      "version": "20260720.01",
+      "description": "Agent-RAG durable workflow tables",
+      "script": "litemall-db/sql/litemall_agent_rag_workflow.sql",
+      "checksumAlgorithm": "sha256-canonical-lf-v1",
+      "canonicalChecksum": "a7a54f2a209cb73db1461fae9d7a4554dee904f3467456f203811100bdcc04fb",
+      "approvedLegacyChecksums": [
+        {
+          "algorithm": "sha256-raw-bytes",
+          "checksum": "b612725cf81bf549132aeb2c5762e8c0c5069dc500230a61cfd265f52ee2c625",
+          "reason": "Windows CRLF worktree checksum from legacy raw-byte migration runner"
+        }
+      ],
+      "requiredTables": [
+        "litemall_agent_rag_run",
+        "litemall_agent_rag_evidence",
+        "litemall_agent_rag_override"
+      ]
+    },
+    {
+      "version": "20260720.02",
+      "description": "Agent-RAG security governance and audit chain",
+      "script": "litemall-db/sql/litemall_agent_rag_security_governance.sql",
+      "checksumAlgorithm": "sha256-canonical-lf-v1",
+      "canonicalChecksum": "b86b373237db5dc9567ea659abd473a4d5ee8d10c8ae795d089cc9e4358f3968",
+      "approvedLegacyChecksums": [
+        {
+          "algorithm": "sha256-raw-bytes",
+          "checksum": "b7e35b43d2cc7a95fb0ffb481a284c7fe52a13da3138a71473745d8b95f991a9",
+          "reason": "Windows CRLF worktree checksum from legacy raw-byte migration runner"
+        }
+      ],
+      "requiredTables": [
+        "litemall_agent_rag_audit_chain"
+      ],
+      "requiredColumns": {
+        "litemall_agent_rag_run": [
+          "security_policy_version",
+          "pii_detected",
+          "prompt_injection_detected",
+          "audit_hash",
+          "evidence_expires_at"
+        ],
+        "litemall_agent_rag_evidence": [
+          "pii_redacted",
+          "evidence_expired",
+          "citation_set_hash"
+        ],
+        "litemall_agent_rag_override": [
+          "previous_override_hash",
+          "override_hash",
+          "effective_decision_hash"
+        ]
+      }
+    }
+  ]
+}
+

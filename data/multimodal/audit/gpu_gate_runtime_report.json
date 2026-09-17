@@ -1,0 +1,13 @@
+{
+  "marker": "GPU_GATE_RUNTIME_BLOCKED_BUSY",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "min_free_memory_mb": 6000,
+  "waited": true,
+  "wait_duration_seconds": 60,
+  "lock_acquired": false,
+  "lock_released": false,
+  "killed_processes": false,
+  "direct_smoke_marker": "VLM_DIRECT_INFERENCE_BLOCKED_GPU_WAIT_TIMEOUT",
+  "final_status": "GPU_WAIT_TIMEOUT_BLOCKED",
+  "reason": "free memory remained around 5637-5652 MB and foreign GPU process entries were reported by nvidia-smi; no process was terminated."
+}

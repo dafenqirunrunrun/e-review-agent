@@ -1,0 +1,5 @@
+{
+  "status": "V182_JAVA_TEST_SKIP_AUDITED",
+  "root_pom_maven_test_skip": false,
+  "finding": "Root POM maven.test.skip is false after v1.8.2 remediation; v1.8.1 evidence showed Java tests were effectively skipped."
+}

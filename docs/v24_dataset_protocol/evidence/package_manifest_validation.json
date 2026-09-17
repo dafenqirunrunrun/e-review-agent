@@ -1,0 +1,187 @@
+﻿{
+    "packageRoot":  "D:\\EReviewAgent\\_staging\\dataset-protocol-v01-20260728_163616\\extracted",
+    "manifestPath":  "D:\\EReviewAgent\\_staging\\dataset-protocol-v01-20260728_163616\\extracted\\PACKAGE_MANIFEST.json",
+    "manifestFilesExpected":  35,
+    "manifestFilesValidated":  35,
+    "failures":  [
+
+                 ],
+    "status":  "PASS",
+    "validatedFiles":  [
+                           {
+                               "path":  "CODEX_AUDIT_AND_ADAPT_PROMPT.md",
+                               "size":  3930,
+                               "sha256":  "b8ed677a47ff6c872fc88aba30cc69d04fbec5d574576cff7d72b36352600483"
+                           },
+                           {
+                               "path":  "README_部署与使用说明.md",
+                               "size":  2876,
+                               "sha256":  "19a0a36e56f84e85097c1f6d3d1539330231b1f976dfc71ce66198217be75706"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/00_RESEARCH_SYNTHESIS.md",
+                               "size":  5804,
+                               "sha256":  "ff4d079c55cb7e7364a7f1275d27a2de4274110b48866b5058be87d2bc4d7b5e"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/01_DATASET_OBJECTIVES.md",
+                               "size":  2699,
+                               "sha256":  "597e0fd16d561f3062214757013aa98a6506f196c6095f0b13260e00820feaea"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/02_CURRENT_PROJECT_DATA_INVENTORY.md",
+                               "size":  1596,
+                               "sha256":  "dae15e82372acbc6c335fbf98899259b6f8abdcb0abdab26ff75cc2430a94192"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/03_RISK_ONTOLOGY.md",
+                               "size":  2981,
+                               "sha256":  "34aed9c71fbc1cfa3a5ff78d093eaa95f69f5d6ab0a1facfe913a5901aca16a4"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/04_SOURCE_AND_COMPLIANCE_POLICY.md",
+                               "size":  2284,
+                               "sha256":  "f2660967c164f727b4d257f1002920c0b72f75f8ff446a8f083c344b5a483a57"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/05_SCREENING_PROTOCOL.md",
+                               "size":  2020,
+                               "sha256":  "e8545ddc2b6a9e7d9c028b872d6ff11c181c7c3faf863d0c284a31eac87ca24e"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/06_DEDUPLICATION_PROTOCOL.md",
+                               "size":  2608,
+                               "sha256":  "bd2ea99d9d9ae48f9164e47249f5da362ffc6e6df112cd3f34729c906c68d7e2"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/07_ANNOTATION_GUIDELINES.md",
+                               "size":  2158,
+                               "sha256":  "2c9ed1f91357b0bd194bda615c90671dbf74e318dc825aca4a1e745f273ce89c"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/08_EVIDENCE_AND_CITATION_LABELING.md",
+                               "size":  1781,
+                               "sha256":  "32a1c0d8c85bf60a5b55b158d04473708284afb010898e1469e07ac1f7acc4b8"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/09_SPLIT_AND_LEAKAGE_POLICY.md",
+                               "size":  1963,
+                               "sha256":  "6c0510e67ca7b391e1ef14f4e0615b5ed750c7b98da0b3edab5df89f26feaf07"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/10_QUALITY_ASSURANCE_AND_ADJUDICATION.md",
+                               "size":  1751,
+                               "sha256":  "8a595f294cd0d2e3b66ccedc6778b818df7fe25752a7fa7b8b7e25dc7fa94614"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/11_PILOT_60_DESIGN.md",
+                               "size":  1773,
+                               "sha256":  "567eeb3607446a080c373a74592188babd27fe1ba4a7a20cbf968eabe3f5895a"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/12_DATASET_VERSIONING_AND_MANIFEST.md",
+                               "size":  1449,
+                               "sha256":  "aaa3c21ee9979e22f1a921d188ad1c78e7f10d6a5ea32ec702933edf5a447f3a"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/13_DATASET_COLLECTION_RUNBOOK.md",
+                               "size":  2333,
+                               "sha256":  "d722e70b56079669d73beab1b1ab770cc8bdb7c8fbf1cb0bfed8db739adedf83"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/14_PROTOCOL_DECISION_LOG.md",
+                               "size":  1951,
+                               "sha256":  "4109267831e1235d0b7928b4068b0443c34d34c3f6d7a159c0d907d4fa01e0cb"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/15_PROTOCOL_REVIEW_REPORT.md",
+                               "size":  1978,
+                               "sha256":  "fd810db48db17eff8e4c39671f47a36e6ba5f5da13b75f5bcb5efc69006c8016"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/16_PILOT_READINESS.md",
+                               "size":  1540,
+                               "sha256":  "d15de51f00f4750e604f72f7ae6203fe6cc5d026dc55b06597f3a434f9bd04c9"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/17_EXECUTIVE_SUMMARY.md",
+                               "size":  1240,
+                               "sha256":  "ebfd045d43d96bb51064e22992b0f58497731b9eea20f3f85670ac5d0e735013"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/dataset_protocol_validation.json",
+                               "size":  2284,
+                               "sha256":  "46b13a629a64e261940c1646b344b694f4662614e9dcbf37ebc6b5d871c1295c"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/examples/example_annotation.json",
+                               "size":  1100,
+                               "sha256":  "ced46f717b236ed651fb82568e86a46a41503ef4f6ce45fc414b49793c8157ae"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/examples/example_candidate.json",
+                               "size":  1285,
+                               "sha256":  "00ae53b18b6b4cc7962e9f3410c50c0fda34425300295a2b284dd8a8494a5ac4"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/requirements-protocol-tools.txt",
+                               "size":  20,
+                               "sha256":  "9984fa6ad6d35d2468011c4c278583e9bb4983d83be6bb3f5aabcef9c99b19b7"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/schema/adjudication_record.schema.json",
+                               "size":  1404,
+                               "sha256":  "1f97943bb2aa10ffcbdc7d114b3643928ded4480e03e186af7fc355da355c5a6"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/schema/dataset_annotation.schema.json",
+                               "size":  4021,
+                               "sha256":  "4515c09f3cb597854747d01f2fbdd6a8ae42ef5183f99315b660ac072c5b5cd3"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/schema/dataset_candidate.schema.json",
+                               "size":  3951,
+                               "sha256":  "c7c8a738416e3de4e60de446a69760dd20f7ac4525c61658215420e47c4f6732"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/schema/dataset_gold.schema.json",
+                               "size":  2186,
+                               "sha256":  "495cfb5da094012e891fda37f266a1c94a66498c4fd8195ee2756dc2eb3e7f65"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/schema/dataset_manifest.schema.json",
+                               "size":  2030,
+                               "sha256":  "d6ad7f93226891cd393f588d7503198f5a3a0370545e28a4253505046b3bfda8"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/schema/dedup_report.schema.json",
+                               "size":  1634,
+                               "sha256":  "dad5e90c93ae0a86dd0a78045af0f4091435818c9e380a4bc34bf8204ebeeeec"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/schema/risk_ontology_v0.1.json",
+                               "size":  2697,
+                               "sha256":  "594ada24520f2d94286d855c95d07da50810adab21af8c6f8824e9e7a233310d"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/schema/source_manifest.schema.json",
+                               "size":  1423,
+                               "sha256":  "1c4e19c615f09e20c27816d1512908c75011262b6b2ebde0197e156b6b27ab2e"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/scripts/check_protocol_consistency.py",
+                               "size":  2324,
+                               "sha256":  "0be43cd48d5a340ae9102bb0e2a737b2e6a57a3e411820c687f3b5958980d082"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/scripts/check_required_terms.py",
+                               "size":  1081,
+                               "sha256":  "fb801e69182eeb2eba99449abeefcd7ece635cc6dd946883e72926768ef43115"
+                           },
+                           {
+                               "path":  "docs/v24_dataset_protocol/scripts/validate_protocol_schemas.py",
+                               "size":  1923,
+                               "sha256":  "cced2d76f932fdb9f963bb541035e600c760a75785c78e0736ef53c4b9bc9c98"
+                           }
+                       ]
+}

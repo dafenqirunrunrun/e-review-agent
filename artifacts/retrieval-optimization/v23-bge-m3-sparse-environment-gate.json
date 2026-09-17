@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "cudaAvailable": true,
+    "deterministicRepeat": true,
+    "fallbackUsedFalse": true,
+    "finiteWeights": true,
+    "flagEmbeddingImportPass": true,
+    "isolatedEnvironment": true,
+    "modelIdentityMatch": true,
+    "nonEmptyWeights": true,
+    "pipCheckPass": true,
+    "primaryEnvironmentUnchanged": true,
+    "realSparseExecution": true,
+    "relevantGreaterThanIrrelevantSmoke": true,
+    "sentenceTransformersImportPass": true,
+    "systemSitePackagesFalse": true,
+    "tokenizerParityPass": true,
+    "transformersMajorVersionLt5": true
+  },
+  "decision": "E_REVIEW_V23_BGE_M3_SPARSE_ISOLATED_ENVIRONMENT_PASS",
+  "noPush": true,
+  "noRelease": true,
+  "noTag": true,
+  "phase94bSparseIndexAllowed": true,
+  "schemaVersion": "agent-rag-v23-bge-m3-sparse-isolated-environment-gate-v1",
+  "status": "PASS"
+}

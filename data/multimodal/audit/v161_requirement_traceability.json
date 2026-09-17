@@ -1,0 +1,133 @@
+{
+  "marker": "V161_REQUIREMENT_TRACEABILITY_COMPLETE",
+  "release_allowed": false,
+  "rows": [
+    {
+      "id": 1,
+      "requirement": "Data leakage audit",
+      "status": "COMPLETE",
+      "evidence": [
+        "ai-service/scripts/audit_rag_dataset_leakage.py",
+        "scripts/e-review-rag-leakage-audit.ps1",
+        "data/rag/audit/leakage_audit_summary.json",
+        "docs/108_v161_synthetic_data_leakage_audit.md"
+      ],
+      "summary": "exact=0, normalized=0, near=0, metadata_shortcut=109"
+    },
+    {
+      "id": 2,
+      "requirement": "Real text data and external test set",
+      "status": "BLOCKED",
+      "evidence": [
+        "data/real_world/source_manifest/source_manifest.jsonl",
+        "scripts/e-review-realworld-ingest.ps1",
+        "data/rag/audit/validity_external_eval_results.json",
+        "data/rag/audit/qwen_realworld_external_eval_results.json",
+        "docs/109_v161_real_data_source_and_license_report.md",
+        "docs/112_v161_rag_validity_external_eval_report.md",
+        "docs/114_v161_qwen_realworld_external_eval_report.md"
+      ],
+      "summary": "real_external=0, rag_marker=REALWORLD_EXTERNAL_EVAL_BLOCKED, qwen_marker=REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED"
+    },
+    {
+      "id": 3,
+      "requirement": "VLM Provider smoke test",
+      "status": "BLOCKED",
+      "evidence": [
+        "ai-service/app/vlm/",
+        "ai-service/app/api/vlm.py",
+        "scripts/e-review-vlm-provider-smoke.ps1",
+        "data/multimodal/eval/vlm_provider_smoke_results.json",
+        "docs/116_v161_vlm_provider_design.md",
+        "docs/127_v161_vlm_provider_smoke_report.md"
+      ],
+      "summary": "marker=VLM_PROVIDER_SMOKE_BLOCKED, model_available=False, schema_valid=True"
+    },
+    {
+      "id": 4,
+      "requirement": "Image-text data and annotation standards",
+      "status": "COMPLETE_FOR_GUIDELINES_BLOCKED_FOR_REAL_DATA",
+      "evidence": [
+        "docs/110_v161_real_review_annotation_guideline.md",
+        "docs/111_v161_multimodal_annotation_guideline.md",
+        "data/real_world/source_manifest/source_manifest.jsonl"
+      ],
+      "summary": "Annotation guidelines exist; compliant real multimodal samples remain blocked with external_multimodal_count=0."
+    },
+    {
+      "id": 5,
+      "requirement": "VLM structured visual evidence",
+      "status": "COMPLETE_FOR_SCHEMA_BLOCKED_FOR_REAL_INFERENCE",
+      "evidence": [
+        "ai-service/app/vlm/schemas.py",
+        "ai-service/app/vlm/service.py",
+        "scripts/e-review-vlm-visual-eval.ps1",
+        "data/multimodal/eval/vlm_visual_eval_results.json",
+        "docs/117_v161_visual_schema_and_evidence_boundary.md",
+        "docs/128_v161_vlm_visual_evidence_eval_report.md",
+        "ai-service/tests/test_vlm_provider.py"
+      ],
+      "summary": "schema and evaluator exist; real VLM marker=MULTIMODAL_VLM_EVAL_BLOCKED"
+    },
+    {
+      "id": 6,
+      "requirement": "Multimodal Agent integration",
+      "status": "COMPLETE_FOR_REGISTRY_BLOCKED_FOR_REAL_VLM_EXECUTION",
+      "evidence": [
+        "litemall-admin-api/src/main/java/org/linlinjava/litemall/admin/service/EnterpriseAgentPlatformService.java",
+        "docs/118_v161_multimodal_agent_integration_report.md",
+        "docs/121_v161_final_gate_report.md"
+      ],
+      "summary": "Visual tools are represented in the agent evidence boundary; real execution waits for model and data."
+    },
+    {
+      "id": 7,
+      "requirement": "Four-way multimodal ablation evaluation",
+      "status": "BLOCKED",
+      "evidence": [
+        "scripts/e-review-multimodal-ablation-eval.ps1",
+        "data/multimodal/eval/multimodal_ablation_results.json",
+        "docs/113_v161_multimodal_ablation_eval_report.md"
+      ],
+      "summary": "all four modes are reported with null metrics while marker=MULTIMODAL_ABLATION_EVAL_BLOCKED"
+    },
+    {
+      "id": 8,
+      "requirement": "Human review routing calibration",
+      "status": "BLOCKED",
+      "evidence": [
+        "ai-service/app/metrics/human_review.py",
+        "scripts/e-review-multimodal-route-calibration.ps1",
+        "data/multimodal/eval/route_calibration_results.json",
+        "docs/119_v161_multimodal_route_calibration_report.md"
+      ],
+      "summary": "synthetic unsafe_auto_pass=0.0; marker=REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED"
+    },
+    {
+      "id": 9,
+      "requirement": "SFT data readiness audit",
+      "status": "BLOCKED",
+      "evidence": [
+        "ai-service/scripts/audit_sft_data_readiness.py",
+        "data/multimodal/audit/sft_data_readiness.json",
+        "docs/115_v161_sft_data_readiness_report.md"
+      ],
+      "summary": "text=SFT_DATA_NOT_READY, vlm=VLM_SFT_DATA_NOT_READY"
+    },
+    {
+      "id": 10,
+      "requirement": "Full regression and release gate",
+      "status": "COMPLETE_WITH_BLOCKED_RELEASE_GATES",
+      "evidence": [
+        "scripts/e-review-v161-full-regression.ps1",
+        "scripts/e-review-v161-final-gate.ps1",
+        "data/multimodal/audit/v161_full_regression_results.json",
+        "data/multimodal/audit/v161_final_gate_results.json",
+        "docs/121_v161_final_gate_report.md",
+        "docs/122_v161_full_regression_report.md",
+        "docs/123_v161_build_regression_report.md"
+      ],
+      "summary": "final_gate=V161_FINAL_GATE_BLOCKED, release_allowed=False, last_regression_result=FAIL"
+    }
+  ]
+}

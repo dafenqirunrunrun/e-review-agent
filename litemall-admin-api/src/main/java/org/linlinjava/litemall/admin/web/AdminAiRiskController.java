@@ -4,6 +4,9 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.linlinjava.litemall.admin.annotation.RequiresPermissionsDesc;
 import org.linlinjava.litemall.admin.service.AiRiskTaskService;
+import org.linlinjava.litemall.admin.service.GovernanceQualityService;
+import org.linlinjava.litemall.admin.vo.AiRiskHumanReviewRequest;
+import org.linlinjava.litemall.admin.vo.AiRiskHumanReviewResult;
 import org.linlinjava.litemall.admin.vo.AiRiskStatusRequest;
 import org.linlinjava.litemall.core.util.ResponseUtil;
 import org.linlinjava.litemall.db.domain.LitemallAiReviewRiskTask;
@@ -18,6 +21,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/admin/ai/risk")
@@ -25,6 +29,9 @@ import java.util.List;
 public class AdminAiRiskController {
     @Autowired
     private AiRiskTaskService riskTaskService;
+
+    @Autowired
+    private GovernanceQualityService governanceQualityService;
 
     @RequiresPermissions("admin:ai:review:list")
     @RequiresPermissionsDesc(menu = {"AI工作台", "风险评论中心"}, button = "查询")
@@ -64,9 +71,45 @@ public class AdminAiRiskController {
         return ResponseUtil.ok();
     }
 
+    @RequiresPermissions("admin:ai:review:analyze")
+    @PostMapping("/human-review")
+    public Object humanReview(@RequestBody AiRiskHumanReviewRequest request) {
+        if (request == null || request.getId() == null || StringUtils.isBlank(request.getHumanDecision())) {
+            return ResponseUtil.badArgumentValue();
+        }
+        AiRiskHumanReviewResult result = riskTaskService.humanReview(request);
+        if (result == null) {
+            return ResponseUtil.badArgumentValue();
+        }
+        return ResponseUtil.ok(result);
+    }
+
     @RequiresPermissions("admin:ai:review:list")
     @GetMapping("/summary")
     public Object summary() {
         return ResponseUtil.ok(riskTaskService.summary());
+    }
+
+    @RequiresPermissions("admin:ai:review:list")
+    @GetMapping("/quality-metrics")
+    public Object qualityMetrics(@RequestParam(value = "hours", required = false) Integer hours) {
+        return ResponseUtil.ok(governanceQualityService.metrics(hours));
+    }
+
+    @RequiresPermissions("admin:ai:review:analyze")
+    @PostMapping("/qa-sample")
+    public Object qaSample(@RequestParam(value = "limit", required = false) Integer limit) {
+        return ResponseUtil.ok(governanceQualityService.sampleAutoPass(limit));
+    }
+
+    @RequiresPermissions("admin:ai:review:analyze")
+    @PostMapping("/qa-result")
+    public Object qaResult(@RequestBody Map<String, Object> request) {
+        if (request == null || request.get("id") == null || request.get("auditResult") == null) {
+            return ResponseUtil.badArgumentValue();
+        }
+        Long id;
+        try { id = Long.valueOf(String.valueOf(request.get("id"))); } catch (Exception e) { return ResponseUtil.badArgumentValue(); }
+        return governanceQualityService.recordQaResult(id, String.valueOf(request.get("auditResult"))) ? ResponseUtil.ok() : ResponseUtil.badArgumentValue();
     }
 }

@@ -1,0 +1,11 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-detached-verify-v1",
+  "blockingReason": "detached verification must run after QC candidate commit exists",
+  "cachedArtifactDependency": "NOT_VERIFIED",
+  "candidateCommit": "pending-qc-head",
+  "detachedGate": "E_REVIEW_V23_PARENT_CHILD_DETACHED_VERIFY_BLOCKED",
+  "detachedWorktreeExecuted": false,
+  "hardCodedPathDetected": false,
+  "uncommittedFileDependency": "NOT_VERIFIED",
+  "workingTreeClean": null
+}

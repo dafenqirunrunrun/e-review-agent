@@ -1,0 +1,10 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "orderStatusText":  "已发货",
+                 "orderId":  1,
+                 "orderSn":  "20260728061030",
+                 "orderStatus":  301
+             },
+    "errmsg":  "成功"
+}

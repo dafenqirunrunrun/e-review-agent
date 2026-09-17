@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-15T08:20:10.575467+00:00",
+  "splits": {
+    "train": {
+      "risk_type_distribution": {
+        "after_sales_risk": 160,
+        "negative_review": 92,
+        "normal_review": 84
+      },
+      "risk_level_distribution": {
+        "high": 156,
+        "medium": 96,
+        "low": 84
+      },
+      "need_human_review_distribution": {
+        "True": 252,
+        "False": 84
+      },
+      "route_reason_distribution": {
+        "synthetic engineering SFT target for review governance routing": 336
+      },
+      "missing_information_distribution": {
+        "[]": 336
+      },
+      "unsupported_claims_distribution": {
+        "[]": 336
+      }
+    },
+    "validation": {
+      "risk_type_distribution": {
+        "normal_review": 24,
+        "negative_review": 8,
+        "after_sales_risk": 4
+      },
+      "risk_level_distribution": {
+        "low": 24,
+        "medium": 8,
+        "high": 4
+      },
+      "need_human_review_distribution": {
+        "False": 24,
+        "True": 12
+      },
+      "route_reason_distribution": {
+        "synthetic engineering SFT target for review governance routing": 36
+      },
+      "missing_information_distribution": {
+        "[]": 36
+      },
+      "unsupported_claims_distribution": {
+        "[]": 36
+      }
+    },
+    "engineering_holdout": {
+      "risk_type_distribution": {
+        "after_sales_risk": 48
+      },
+      "risk_level_distribution": {
+        "high": 36,
+        "medium": 12
+      },
+      "need_human_review_distribution": {
+        "True": 48
+      },
+      "route_reason_distribution": {
+        "synthetic engineering SFT target for review governance routing": 48
+      },
+      "missing_information_distribution": {
+        "[]": 48
+      },
+      "unsupported_claims_distribution": {
+        "[]": 48
+      }
+    }
+  },
+  "status": "SYNTHETIC_LABEL_MAPPING_AUDIT_COMPLETE",
+  "canonical_mapping": {
+    "risk_type": {
+      "normal_review": "normal_review",
+      "negative_review": "negative_review",
+      "after_sales_risk": "after_sales_risk"
+    },
+    "risk_level": {
+      "low": "low",
+      "medium": "medium",
+      "high": "high"
+    },
+    "need_human_review": {
+      "true": true,
+      "false": false
+    }
+  },
+  "label_enum_mismatch": false,
+  "validation_unseen_risk_type_count": 0,
+  "holdout_only_risk_type_count": 0
+}

@@ -8,7 +8,7 @@ axios.defaults.withCredentials = true
 // create an axios instance
 const service = axios.create({
   baseURL: process.env.VUE_APP_BASE_API, // api 的 base_url
-  timeout: 5000 // request timeout
+  timeout: 30000 // 本地 AI 分析链路首次加载模型和检索索引会超过普通后台请求
 })
 
 function cleanParams(params) {

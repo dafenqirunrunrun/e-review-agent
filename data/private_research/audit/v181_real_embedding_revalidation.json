@@ -1,0 +1,22 @@
+{
+  "model_dir": "D:\\EReviewAgent\\models\\bge-m3",
+  "model_exists": true,
+  "model_hash": "dfb1897399b5033f6cf3a6c0f14395a9de4c5629de470c8b17db52464c768602",
+  "status": "VERIFIED_PARTIAL",
+  "pairs_executed": 30,
+  "dense_production_path_contains_hash": true,
+  "health": {
+    "available": true,
+    "provider": "bge_m3",
+    "model_id": "BAAI/bge-m3",
+    "model_path_label": "<repo-external>/models/bge-m3",
+    "model_hash_present": true
+  },
+  "dimension": 1024,
+  "finite": true,
+  "norm_min": 1.0,
+  "norm_max": 1.0000001192092896,
+  "same_text_consistent": true,
+  "batch_single_consistent": true,
+  "semantic_margin_positive_count": 30
+}

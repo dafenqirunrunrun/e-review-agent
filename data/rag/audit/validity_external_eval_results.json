@@ -1,0 +1,462 @@
+{
+  "marker": "REALWORLD_EXTERNAL_EVAL_BLOCKED",
+  "counts": {
+    "original_synthetic": 80,
+    "strict_synthetic": 80,
+    "real_external": 0
+  },
+  "blocking_reasons": [
+    "real_reviews_external_test_200.jsonl 缺失或不足 200 条"
+  ],
+  "original_oracle": {
+    "tfidf": {
+      "strategy": "tfidf",
+      "query_count": 80,
+      "hit_at_1": 0.9875,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.99375,
+      "ndcg_at_5": 0.9504411073727446,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7166666666666667,
+      "avg_latency_ms": 0.893625,
+      "p95_latency_ms": 1.08,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      }
+    },
+    "dense": {
+      "strategy": "dense",
+      "query_count": 80,
+      "hit_at_1": 0.8125,
+      "hit_at_3": 0.9625,
+      "hit_at_5": 0.975,
+      "mrr": 0.890625,
+      "ndcg_at_5": 0.8846671681240093,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7208333333333333,
+      "avg_latency_ms": 277.73525,
+      "p95_latency_ms": 42.34,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 0.8333333333333334
+      }
+    },
+    "hybrid": {
+      "strategy": "hybrid",
+      "query_count": 80,
+      "hit_at_1": 0.9,
+      "hit_at_3": 0.9875,
+      "hit_at_5": 0.9875,
+      "mrr": 0.94375,
+      "ndcg_at_5": 0.9296040390397322,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7541666666666667,
+      "avg_latency_ms": 30.81575,
+      "p95_latency_ms": 36.83,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 0.9166666666666666
+      }
+    },
+    "hybrid_rule": {
+      "strategy": "hybrid_rule",
+      "query_count": 80,
+      "hit_at_1": 0.9125,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.95625,
+      "ndcg_at_5": 0.9424654206827779,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.8041666666666667,
+      "avg_latency_ms": 31.49775,
+      "p95_latency_ms": 37.98,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      }
+    },
+    "hybrid_neural": {
+      "strategy": "hybrid_neural",
+      "query_count": 80,
+      "hit_at_1": 0.925,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.9625,
+      "ndcg_at_5": 0.946211713133191,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7541666666666667,
+      "avg_latency_ms": 189.564875,
+      "p95_latency_ms": 152.63,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      }
+    },
+    "hybrid_rerank": {
+      "strategy": "hybrid_neural",
+      "query_count": 80,
+      "hit_at_1": 0.925,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.9625,
+      "ndcg_at_5": 0.946211713133191,
+      "empty_retrieval_rate": 0.0,
+      "evidence_keyword_coverage": 0.7541666666666667,
+      "avg_latency_ms": 189.564875,
+      "p95_latency_ms": 152.63,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      }
+    }
+  },
+  "original_no_oracle": {
+    "tfidf": {
+      "strategy": "tfidf",
+      "query_count": 80,
+      "hit_at_1": 0.9875,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.99375,
+      "ndcg_at_5": 0.9504411073727446,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 2.0601249999999998,
+      "p95_latency_ms": 2.55,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      },
+      "product_category_hit_at_5": {
+        "个护": 1.0,
+        "家居": 1.0,
+        "家电": 1.0,
+        "数码": 1.0,
+        "日用": 1.0,
+        "服饰": 1.0,
+        "美妆": 1.0,
+        "食品": 1.0
+      }
+    },
+    "dense": {
+      "strategy": "dense",
+      "query_count": 80,
+      "hit_at_1": 0.8125,
+      "hit_at_3": 0.9625,
+      "hit_at_5": 0.975,
+      "mrr": 0.890625,
+      "ndcg_at_5": 0.8846671681240093,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 33.166625,
+      "p95_latency_ms": 40.02,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 0.8333333333333334
+      },
+      "product_category_hit_at_5": {
+        "个护": 1.0,
+        "家居": 1.0,
+        "家电": 1.0,
+        "数码": 0.9375,
+        "日用": 0.9166666666666666,
+        "服饰": 1.0,
+        "美妆": 1.0,
+        "食品": 1.0
+      }
+    },
+    "hybrid": {
+      "strategy": "hybrid",
+      "query_count": 80,
+      "hit_at_1": 0.9,
+      "hit_at_3": 0.9875,
+      "hit_at_5": 0.9875,
+      "mrr": 0.94375,
+      "ndcg_at_5": 0.9296040390397322,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 31.49925,
+      "p95_latency_ms": 36.67,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 0.9166666666666666
+      },
+      "product_category_hit_at_5": {
+        "个护": 1.0,
+        "家居": 1.0,
+        "家电": 1.0,
+        "数码": 0.9375,
+        "日用": 1.0,
+        "服饰": 1.0,
+        "美妆": 1.0,
+        "食品": 1.0
+      }
+    },
+    "hybrid_rule": {
+      "strategy": "hybrid_rule",
+      "query_count": 80,
+      "hit_at_1": 0.9,
+      "hit_at_3": 0.9875,
+      "hit_at_5": 1.0,
+      "mrr": 0.94625,
+      "ndcg_at_5": 0.9318733114464491,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 32.75225,
+      "p95_latency_ms": 38.02,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      },
+      "product_category_hit_at_5": {
+        "个护": 1.0,
+        "家居": 1.0,
+        "家电": 1.0,
+        "数码": 1.0,
+        "日用": 1.0,
+        "服饰": 1.0,
+        "美妆": 1.0,
+        "食品": 1.0
+      }
+    },
+    "hybrid_neural": {
+      "strategy": "hybrid_neural",
+      "query_count": 80,
+      "hit_at_1": 0.9125,
+      "hit_at_3": 0.9875,
+      "hit_at_5": 1.0,
+      "mrr": 0.953125,
+      "ndcg_at_5": 0.9385073273711647,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 119.18125,
+      "p95_latency_ms": 148.58,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      },
+      "product_category_hit_at_5": {
+        "个护": 1.0,
+        "家居": 1.0,
+        "家电": 1.0,
+        "数码": 1.0,
+        "日用": 1.0,
+        "服饰": 1.0,
+        "美妆": 1.0,
+        "食品": 1.0
+      }
+    },
+    "hybrid_rerank": {
+      "strategy": "hybrid_rerank",
+      "query_count": 80,
+      "hit_at_1": 0.9125,
+      "hit_at_3": 0.9875,
+      "hit_at_5": 1.0,
+      "mrr": 0.953125,
+      "ndcg_at_5": 0.9385073273711647,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 119.18125,
+      "p95_latency_ms": 148.58,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 1.0,
+        "negative_review": 1.0,
+        "normal_review": 1.0
+      },
+      "product_category_hit_at_5": {
+        "个护": 1.0,
+        "家居": 1.0,
+        "家电": 1.0,
+        "数码": 1.0,
+        "日用": 1.0,
+        "服饰": 1.0,
+        "美妆": 1.0,
+        "食品": 1.0
+      }
+    }
+  },
+  "strict_no_oracle": {
+    "tfidf": {
+      "strategy": "tfidf",
+      "query_count": 80,
+      "hit_at_1": 0.05,
+      "hit_at_3": 0.1,
+      "hit_at_5": 0.175,
+      "mrr": 0.09,
+      "ndcg_at_5": 0.09790770135255807,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 2.195,
+      "p95_latency_ms": 2.8,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 0.08333333333333333,
+        "negative_review": 0.3,
+        "normal_review": 0.3333333333333333
+      },
+      "product_category_hit_at_5": {
+        "个护": 0.0,
+        "家居": 0.125,
+        "家电": 0.0,
+        "数码": 0.0625,
+        "日用": 0.5,
+        "服饰": 0.125,
+        "美妆": 0.5,
+        "食品": 0.25
+      }
+    },
+    "dense": {
+      "strategy": "dense",
+      "query_count": 80,
+      "hit_at_1": 0.1625,
+      "hit_at_3": 0.25,
+      "hit_at_5": 0.425,
+      "mrr": 0.23833333333333334,
+      "ndcg_at_5": 0.20871145028351487,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 31.496125,
+      "p95_latency_ms": 40.62,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 0.3541666666666667,
+        "negative_review": 0.55,
+        "normal_review": 0.5
+      },
+      "product_category_hit_at_5": {
+        "个护": 0.5,
+        "家居": 0.5,
+        "家电": 0.375,
+        "数码": 0.3125,
+        "日用": 0.5833333333333334,
+        "服饰": 0.4375,
+        "美妆": 0.5,
+        "食品": 0.0
+      }
+    },
+    "hybrid": {
+      "strategy": "hybrid",
+      "query_count": 80,
+      "hit_at_1": 0.1125,
+      "hit_at_3": 0.2,
+      "hit_at_5": 0.325,
+      "mrr": 0.17979166666666666,
+      "ndcg_at_5": 0.16550882604225123,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 32.723875,
+      "p95_latency_ms": 37.05,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 0.2708333333333333,
+        "negative_review": 0.3,
+        "normal_review": 0.5833333333333334
+      },
+      "product_category_hit_at_5": {
+        "个护": 0.5,
+        "家居": 0.3125,
+        "家电": 0.25,
+        "数码": 0.25,
+        "日用": 0.75,
+        "服饰": 0.0625,
+        "美妆": 0.5,
+        "食品": 0.25
+      }
+    },
+    "hybrid_rule": {
+      "strategy": "hybrid_rule",
+      "query_count": 80,
+      "hit_at_1": 0.125,
+      "hit_at_3": 0.225,
+      "hit_at_5": 0.325,
+      "mrr": 0.19145833333333334,
+      "ndcg_at_5": 0.1821165001357099,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 33.018625,
+      "p95_latency_ms": 40.48,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 0.2708333333333333,
+        "negative_review": 0.3,
+        "normal_review": 0.5833333333333334
+      },
+      "product_category_hit_at_5": {
+        "个护": 0.5,
+        "家居": 0.3125,
+        "家电": 0.25,
+        "数码": 0.1875,
+        "日用": 0.75,
+        "服饰": 0.0625,
+        "美妆": 0.5,
+        "食品": 0.5
+      }
+    },
+    "hybrid_neural": {
+      "strategy": "hybrid_neural",
+      "query_count": 80,
+      "hit_at_1": 0.1125,
+      "hit_at_3": 0.2125,
+      "hit_at_5": 0.325,
+      "mrr": 0.18208333333333335,
+      "ndcg_at_5": 0.17775175661771128,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 133.469875,
+      "p95_latency_ms": 156.65,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 0.25,
+        "negative_review": 0.3,
+        "normal_review": 0.6666666666666666
+      },
+      "product_category_hit_at_5": {
+        "个护": 0.25,
+        "家居": 0.3125,
+        "家电": 0.375,
+        "数码": 0.25,
+        "日用": 0.75,
+        "服饰": 0.0625,
+        "美妆": 0.5,
+        "食品": 0.25
+      }
+    },
+    "hybrid_rerank": {
+      "strategy": "hybrid_rerank",
+      "query_count": 80,
+      "hit_at_1": 0.1125,
+      "hit_at_3": 0.2125,
+      "hit_at_5": 0.325,
+      "mrr": 0.18208333333333335,
+      "ndcg_at_5": 0.17775175661771128,
+      "empty_retrieval_rate": 0.0,
+      "hard_negative_error_rate": 0.0,
+      "avg_latency_ms": 133.469875,
+      "p95_latency_ms": 156.65,
+      "risk_type_hit_at_5": {
+        "after_sales_risk": 0.25,
+        "negative_review": 0.3,
+        "normal_review": 0.6666666666666666
+      },
+      "product_category_hit_at_5": {
+        "个护": 0.25,
+        "家居": 0.3125,
+        "家电": 0.375,
+        "数码": 0.25,
+        "日用": 0.75,
+        "服饰": 0.0625,
+        "美妆": 0.5,
+        "食品": 0.25
+      }
+    }
+  },
+  "oracle_no_oracle_note": "No-Oracle removes expected risk type, expected risk level, evidence keywords, relevant case ids and hard negatives from the retriever/model request."
+}

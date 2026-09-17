@@ -1,0 +1,71 @@
+{
+  "marker": "V161_UNBLOCK_PREREQUISITES_BLOCKED",
+  "inputs": {
+    "real_json": "D:\\EReviewAgent\\data-private\\banglishrev\\reviews v1.json",
+    "vlm_candidates": [
+      "D:\\EReviewAgent\\models\\Qwen3-VL-2B-Instruct",
+      "D:\\EReviewAgent\\models\\Qwen2.5-VL-3B-Instruct"
+    ],
+    "text_model_dirs": [
+      "D:\\EReviewAgent\\models\\bge-m3",
+      "D:\\EReviewAgent\\models\\rag-reranker",
+      "D:\\EReviewAgent\\models\\Qwen3-1.7B"
+    ],
+    "torch_python": "D:\\anaconda\\envs\\torchtest\\python.exe"
+  },
+  "checks": [
+    {
+      "name": "real_text_source_file",
+      "status": "BLOCKED",
+      "evidence": "D:\\EReviewAgent\\data-private\\banglishrev\\reviews v1.json",
+      "action": "Provide official BanglishRev JSON outside Git."
+    },
+    {
+      "name": "local_vlm_model",
+      "status": "BLOCKED",
+      "evidence": "D:\\EReviewAgent\\models\\Qwen3-VL-2B-Instruct, D:\\EReviewAgent\\models\\Qwen2.5-VL-3B-Instruct",
+      "action": "Place complete Qwen3-VL/Qwen2.5-VL config, processor/tokenizer, and weights outside Git."
+    },
+    {
+      "name": "existing_text_models",
+      "status": "READY",
+      "evidence": "D:\\EReviewAgent\\models\\bge-m3, D:\\EReviewAgent\\models\\rag-reranker, D:\\EReviewAgent\\models\\Qwen3-1.7B",
+      "action": "Keep model weights outside Git."
+    },
+    {
+      "name": "torch_cuda_environment",
+      "status": "READY",
+      "evidence": "{\"torch_available\": true, \"cuda_available\": true, \"device_count\": 1, \"python\": \"D:\\\\anaconda\\\\envs\\\\torchtest\\\\python.exe\", \"return_code\": 0}",
+      "action": "Use torchtest Python for BGE/reranker/VLM checks."
+    },
+    {
+      "name": "private_data_not_tracked",
+      "status": "READY",
+      "evidence": "tracked_matches=0",
+      "action": "Remove private data/model paths from Git if any are tracked."
+    },
+    {
+      "name": "model_weights_not_tracked",
+      "status": "READY",
+      "evidence": "tracked_matches=0",
+      "action": "Remove model weights/index binaries from Git if any are tracked."
+    }
+  ],
+  "blockers": [
+    "real_text_source_file: Provide official BanglishRev JSON outside Git.",
+    "local_vlm_model: Place complete Qwen3-VL/Qwen2.5-VL config, processor/tokenizer, and weights outside Git."
+  ],
+  "torch_default": {
+    "torch_available": false,
+    "error": "No module named 'torch'",
+    "python": "D:\\anaconda\\python.exe",
+    "return_code": 0
+  },
+  "torch_torchtest": {
+    "torch_available": true,
+    "cuda_available": true,
+    "device_count": 1,
+    "python": "D:\\anaconda\\envs\\torchtest\\python.exe",
+    "return_code": 0
+  }
+}

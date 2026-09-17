@@ -1,0 +1,3364 @@
+{
+  "rows": [
+    {
+      "sample_hash": "0ae7aa0e41706b6d7a95a4ea540dde26f42c04d4cc003de006ef597bebbca2cd",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ca66702604c3195f6710eb85a66aacc4ead843d9704c7ad6ed94973229b04679",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "b31a54ac0b74a7fb2d82f189ce3e853b2713379cf50616151306a3f659232670",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "bc7243ad5d43596cf834c233e5e81ae5ee4b8eefcb79cf1b626ba10b4b9b596c",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "52d38c6f8e9629dc9e9bc3904bd845de2ffcb7b1a8dc198cce453cdbfcfef6c4",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3851d9e118bcfc6a52d177eeb6b819b7a1e1b2f8eb129efa356e812d8bd04ef8",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "baffc07129350295ca9b8e6547ab2a551bfaf00d0fbb1ce5650395bc0080fb7a",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "160f02c4594caea1473191a0ed02c11a10c02a48c4573d99f066d185704089c9",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a3469db1b47d7f2c718dbb984e5eacdea5c03c05a2098e7c7834eee992b45bcb",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6ee376535e8a74baa5be7cfc1fa50be739a85045e093f53c2cb2db4d04986801",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "b9e8cb197b941b1e05ad48a57bcf37aae19eeff2def504d2e1997a404fbcb9c2",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6fafdd3cda0f6dc673f86d4bc5d282e7393841e75ff71f977649a722843adeaa",
+      "group_hash": "d11108559ce81ab6816bd550c09992eeaf1cb3b2e7c20d9d39c413a8eb8e407a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "7e3e91af04503063bb6938a4f5d5b67ceedd65089a20b901658bf6fa913c5a90",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a93a523abbf63fb81226ce39fda80de34de527ce82a6103efb6aa2e63613bfc7",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "c2c0656b997c072e33f7972fe182935471828cf7f29cf196cb70af8481f607f5",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "5186c7811e57b442ed9ea48d5f8583f1e866220786aab45239c54201d3610a02",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6b986b48e00133762c27a093cdc5934153e6db9dcdb9eb421abbe70b30897415",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "d0cbfab4d1a10ba6d11bd9e82c986367f4d56c54c362e09988aac0f2d9ae68a1",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "65b6888aca6f6ad3c3b98a2530929ea33ee0869be4ce8353e4614ebeb7f23228",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6bfaebb07ac47f0b767a73300f71d2871068fdfec1c6dc14333269ba80799a3d",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4b9ec4dd84c4d7489aa29b33cede6cd4eadac7ffe2bcf9941cff955c17f602cc",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2f5c34ec8e7ecb46a1745105b504d3f8140ff3dfbd982fb6b70109bb04fe14e1",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "0b6a500f9f40252e3d89a6cf2031bc913d34433faa0fe4fc42afcdd12648cc7e",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "b5cccfabcaed50b355f9d3ea70f8f443a1727884c48530cdbb5991b35ff7bfbb",
+      "group_hash": "5ce379a1efc9d71d256220cd11fd7336d0e24e6899453ed73e96f910aba570b0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "633480e5b9784f9d6b242a65f1424cba26682b11107161a7e50671f8469013e9",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "fd28102377d078296c36d812793bf36f1dfc7526604bcf8ff0d72279c2933167",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "9879fa731511a8335b987a1df14b459a33d683e8239d412ac46970986bae2792",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "9ec4fea9651814e56eb787f656e837be69e5417571ff72b13b4ba59962aa8376",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a0c953e0f629949c2b90069813b94f08cb55b4fbd408bfa642da2ce9c7d74c35",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6ca5c489506d1c1fcf07d574b761e42e74b7e05f7ee0513badc1c81f5941466b",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "022a4e0754fc46321466a9748ea63e6556bf06aec40a57120904c9e318ed90d4",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "c5d607fd4754ae452c6b0d85f7a3173d17137a5bd20b6a70e4101e59a369c585",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6febd3e87d7b5ab1c0d7dea86cff439c4d7f8d33ff1e0656e8989a7c52cd7599",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6bb6fb41f9c43a49e3104c2697e507fa5c20cf8b29612a49409c30d0a42ae04a",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "f79c61e29e96978972ad55c34de3dd30f61c651599b61303965d159be9f5e6ed",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "723895260cc5a5b458c46c915cdb41a384016fdbbedf8dd4e3a02ee531289bbe",
+      "group_hash": "2f8b2260aec62277553fd1338dc5d45916e5ffa05a528d8233f77459560dcf1e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "fca2b9806ed0aeac8a2a73e08059145e945fd542b8f0c9e94cf1dd86e551f8fb",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "5b2f614dbb163165d44703eb2cdf8ce9c986943d42fd08f992fc0d19b6a94d7c",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "b037c0f03ee816cc15fb1b19c162451b57067343ee429532e1afe34e205c309e",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "1e2b3e703b71e5ebb933b133b2fc1bd2a2481143387aea5a0b60b86916188c75",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e7d7f3a771dcd516387a7c5bdd8fd0a59baf5f1e6bd2abebbe53ebe3326b0368",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "25de3eead23dd9f8a7399ee02f65f79e21494c907810a1c85a0ad1ed10717590",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6a4415641a16c75feff29f98fd1385ba8e919f624e74aad5cf41c6cb85cb0fe3",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "bee0bb98254b08d3e78f4e04675df9b621ffed5bfd64188bbe27c4867acc20e6",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "788325fb3bc8ffd0f6a33ec8e17ebe8be5a94ca2367144a23f794b7099371d87",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ffd2b5aeaa0423c7e8ccbf8604767ab43a71b13469769783e554051da3cb59ad",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "1dffea0ea90d8fe5d12e8be499c240e6ae1e4b103b4f560b599296223bedaf72",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "050de47e59d24ccf1d3ed2bf20571a1c21a1027458a30134aa9a0106eb12ac07",
+      "group_hash": "cb504a8fd90d980056bd8dd5358c08cdb7c66cab821a5cd9a6c2cfc64c611cc4",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4730baf86b5c6cecfd80bfa0812ac931b2749145481fd307f9d9b52bff7793c8",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "93252cbd6f93ad18f14391ffdb325cb57b303e0d36d32fd5807cc75108b34539",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ca33ac70fcb75cd7bc0fbe8111476058af8e24ecd54e76ee31b81708a575209e",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "08dd1538c6304c15ce7be38a2655edb5a506aae31fd9b0b17ee2265fdcb6e60e",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "1988d9b9aa0b213e55b24182eb4a7f8cac3dba758e36c8f1cd61aad2f1236136",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "305354124d8694cfd7363ae14f2edcfaa16ebdd542d6c7217287d05e4df06a71",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "49838480ce4ed23de74da0f8c1c369cde2d7198c598c80ecb3530180b5197f5a",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "d7a17ce0696a8660d1a44c27f9b88056364d112f5aab651ac969a189d332a1ca",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ebf6ab2a3a86898fe9af3b08bde25505a38a0d88993a494c1899235a251d0268",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4fe58d9b01ce06c128d0df4519bee76bf243acc5215d41472f0e641843e824b6",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "fb2493b3d0e5b90d4c3ba0250957b3b20ead36383ba4d6a617708920521f8349",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "12a662e420a3aa783e1ef45cd3eac14fa8d81284b8631905e473c276d7612468",
+      "group_hash": "cccb32d8543ccf0f6911a7ccdf83106d45a17687615394e7c0397d97961ef836",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3ee69d280b561fd3c31bdb0985cf9674fdb8b1b654ade934d3d4fe148135a54c",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3e3ebfa12d35bfdb315ef3cb1bc47019a33c03627b808ab2e0a439338f18eaf9",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "08a0954c3203fc0ad561b8d9f90279b1c921b8861c1aa43a7ca35e58cc6d92a0",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "226b1b138d3449b574be29f0c659973b620ed21b4f1418009dfcb74f56c5ebd7",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "1491a1f4bb252fa64dfc018c22a62934dbe0400785912dc5df9e99a5ec72988b",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4302a57d07dc3d3ba421b955b71325d0fadfcd98febe891719af8ca5344af027",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "73ce96a1281830700f278da0228000cb5b945118b107129dddada4224db79d04",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "41b785fe526fdde6f5142d6c28bfaf1e9fdc77e8f559f5cd0cd40249e893691e",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "cf886a8d1fc5e20422874c3b6225b3bd8b7cd1e5fc68d4ab2866eaf86072f5c6",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "5ab9629bf7d6e0db4326404619f2ad274a40abcdb44271e8994bb60ac8faa98e",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4cf559c9c8466c2093ef80381145c3a4dfc94081e22dc85ca8f808b4fc49967d",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3c386685229a00838f2552a2a3c0303dcb72c4c3c6781543d9d320956d6a6a1c",
+      "group_hash": "cfdd49e14d913d2142f65428177cfd251fff2ef74dbc8dd758fe622735efa87a",
+      "split": "engineering_holdout",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "8d23ac49fd996d55a03eb3a5bf920d30690178c7164f390068d7ecea57e83d8e",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3aca7f2f0a59b261ae267109b38c1f963ee708c5f0330e4f3b62c25282ed20a8",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2d802607ec77ec8db11a894aee645a869f93dff8a5489af5e4b89701efd0f497",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "324b9a73fdbbf298838c775cc69c1da905e844cd791387ac9e65c0989687cd64",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e21b67deee224f6ed69c24289f897adc9f9dce105697640e505148d2d2e106cb",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "119c0d4c956cf933c675baf91e73507011fe86f375bee6e36e1d4aa549b2db77",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a6a8f2766e62f6fbe27e90dfbf71f3e45ff840e68436f312b8ea9f17b21d85df",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ccbdd1b335df94748d86350bddc1d4deeef2822e9ba5f40b94ed2ebbac9d4247",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "15d24a9abbf95daec939fa174823649aaf811f7132ad35a010f81ecda5eb3478",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "eb37a46ce13ccd67f0148124a48b9c10e7960cc659c100c8e29be61212e1efd9",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "655f331efb0a743865855f9446f5304e50a0eb23a407acb7aa4d672548f30193",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2f77b86b904d18cceebda0f0ba71b2c0773801994365ab92786e2a13f36ffd7a",
+      "group_hash": "5cd114347a6a8663bd30e2577182d4cc5b975b5b77243e178499f655beb6e5c9",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "5c9b78884e9e8b41ec8fe5dfc295e6aca4c89ae39dbb13ff15d57435e550e683",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "26f12c0885e318085e8db43993835a01621a2d39263913201040558b80f1c1d8",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a4e0c58a4c7d24887b91b0bd8c22ef0e7e84a8a5147906b9a8a0ff941f536926",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a10f2c06dd9530abcb93a00da171dda218c2aaaa2aa836c52f96533cd4f8573c",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3ef206ae77ee74dd632614e6cde54ef52bb4aff2df232fde8941bfcec12ea477",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a01768b126b0192b55d2e9f8b42353ab463ec4ac49b4891bed3e36cc9160c0ff",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "71ac1855799152909e07a147713c360e70cd0fd16d78a77195827a18df60a3af",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ba88ce7f8c1ed5c3bcf90f88f57a4a553b0132aec2da92add92609219df9ca77",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "523f5499fd8f44e1e40b46206be233437d8062fb3789c95b742e8cba9292ec1f",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e3aaecdad2dbdb9266d7af593cbeb46e738b73b4f1bffae883e385c3f740f4fe",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "8930a2952579b09c65a628bf6d0ee6c73364bee1876f706d89efca45ba167132",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e760fd119faf5ff85da8f80abff24972a74bfa44a0b69c2a7654da712fa35e8a",
+      "group_hash": "aa70047902dac8b812470a6e8628eaa22c2646dc8c02096f7486641590c19c0e",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "984367e7a8326d57805bdfb8dfbb2eb9d148a5349bed77b1b0e32400fdafa0c3",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "8c3eb3de9ff71e2e0bae6dd4c240e9ed0be157bfd827b90d8f4b01c578613bc1",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "7dc007e4d6129036600efe5399c815c46d2668551fe7f65aa00f6edb4c06cdf3",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4c16b709aa61879230eebcfd02a88b0957cdac37ef57503bd24c1171906e820c",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ebb65cfd439a1ca1c74f407a7300735d50d3935dedbfe43dc162bec9f426a372",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "f191bd2adbefea4755327fc527320843aa805b68568705be5c02e8dc35ccb1fd",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "1907e4ddb77675fe13e379fbb21b138c57dca6aeff71a45e6047397710869771",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "5d9736b70983ea3a71581d061776f7567430e202e5b2804ce8bb8dadf8092224",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "334a94292c57dfdfa2970e1af156356edca250f0570018f21170bac1a1463fe3",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "74fa7efe87f1778a7eac4dfaede9b8c3fc4c85e13440d99d0ac5c649b6417968",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "53f1f21c6c36a1e8de13b3df517c83a40cf99d25841f7e96bf1d68bd1fd771f3",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "72d25bbe0f983a21396ea23f578fca02b882c82b05cda106a1f7da5c21f28023",
+      "group_hash": "3e77d146e86fc7af53df76d2f24712400af72680958e5dc30bb8e584643cf291",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2ec357f34b676a4a51bf1abc09cfd4ace959a569be5cc7a268d7815c3d17c611",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "803ab2a4af47b23e91feed6f6c2541c6edf108387de2f583a1b1b9303fbc093d",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a487ecae8b5ae1b3c86d037d9b4d3d066e67ca99b4450232ad1762f553b1956e",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e4abffad006431883710f46833a8916292143974630999099bd60999849395e4",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "5b175c87b3602883b82389747b245f63a16b3044e7a5f044d5892c092840838e",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4a470559f3d6f37a4ff4e04cf6f5a00eca52c59620e5c9741e167f505177609f",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "92bab7db1f87665743cd02fc68f751fcfec1834cb0489ac907bf8acd22b13723",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e435f71ae5b7efb01dae772a6f3ecfc4e0c5c4ece9480a26e8ecd8a092c57a7c",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "fe6c93d541b4a934b05a6618a6f5225fef52a6702aa19860a9352ebb747a4a19",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "dc9fdac060ca095755d3ea00bed1773efda3043d4033f3b04d5fe9c8af099c6d",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2f907c3317ab3311adef55d061ab447cc0cba09d3be7ff58effd9716704917fe",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ac5a7938ef66b52300b8c5b0aa2fbb405ff45aeb0c7a76ac39d989e628fd68f7",
+      "group_hash": "2c94211d5847faf24fd82b87ee8bf119952b815e5d47aebd3b1a9a1c846b3249",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "495bce1a78105e5d3e7f2784257760be91830fb78018dc0a549d8cf92a752543",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "17588d23b97fe87f1e5ae4c82a491d91082e51dce93eb3a2a9baae7402a2d49b",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "1e4218e7daef1e53e29c2ad49461b8f0b2357f5cdc648cab501a05fd8a783a3c",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3b69a306452f4a58d58d5577a2a12d1b98680867b0a2cacfe8e59c01fda1fa3f",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "1535215071962c25596a3a67ca03cd9a5b9f7b2392644dcb918b845e18f66f8b",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "1aad5e08436c472677aa81eb011b2107a4d1fbf61d2343886f802e914e96fe8b",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "de5755696c98b493217b0ac6350efda0a2bc148babc3e8d9094325e393f93d82",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "893e65f289908d9fab8514863ca71f120674d89aaf9e25450d9343e05d4eb0b8",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "999c8f0b97cf19d4867cfcd85b93a49960978c8b0bd3186c37c1f2f74975c927",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "eb9c26eeaa9b4394f6437bb6e58d405ca7cf0d0755b474b4efe32d288474350e",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6fe867a94fefca606fe9759ad506d07609b743e6c562eaa9c23eeabb21ee19e1",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "5c6a77c1d8d5af036df847a8d14315e3f20fe20f7234b52273f2b677ea84fc31",
+      "group_hash": "97efb1b0b44f9c1f34fb3f25e6f69bdda3960fe1592f618fff1946ac8ca234b1",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "d5cf117c1d3f97f807e48407ad4beb438cecb80557aa93850d0502c45e4eec26",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6decf910437304cf051addd07c2cdc54a0c4701f4554fa17dbc8ca56e51b249c",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e49a2105b9f3ad63b3674346e38b15e3c8c419fa46bbc803983332786f35f1c4",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3c2f4b462ac6a2f3a81a348bb62483df5251c3c827d1c60babc5d53d51e0771c",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ddd77a5fd4759a806e9d0b044c351d5dde81d9c3caa5ddb826f93fe5f93e7d89",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "f9398b0a0cbd269f568c0439485466f013bd564a583635283e107619b1a69c60",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "03c69b1ff19f45f80679b85c58dc4997c423c49aa6aba797fef852f12a895a0a",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "da1b2a2507d7d5ab36d4b34f29fc9bdb48f4768b097e419b0775a68d196d6126",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2627eab911865c5d389ea6389712aa9728fd86f2e65f2dce00e1975956734939",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "fa4614c7791f343f51b2434ab647dee020eedefb0269282ea7e485b556664025",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "9150177239d3f9c0a76e86b31ab814288436e388fa88a8fdffbfca97ff218109",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "703229bff23510907c1e1f02c6dc0cbc6483ed47dab47424010a85187168400c",
+      "group_hash": "594878895b2e846943d8251907e56b9089d6ced22e560e4b7a909baaf9bdd012",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "67b0ef4a282f604755c94374ffbe7b3735c12b717bd1b9c8a65558c86d12e548",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a7e7592d5bcdb0bbe9ea3c99ea3c07c628f99b4b38001820b0a42d55729f1973",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "89ccd222f38377641d15b2aca5214d9096cf24d7c98a6c8915cf48c8904f58b3",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "8fbbdf176fc3f74dd93061e2820a14e15c176574ddaff884d14eb793a5728641",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2382bc74a71fee61a2c84822cf3b821673c1237015a89fa5c9be65c40c9c7c3a",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a28a472f08c546562ebe4db761eae230bff44a7b6cfcefc9dab54b721cbeca00",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "321b85069ed7461ba536e9a83eb8f9d9aab1842cfd343764bb11725d3ac9336f",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "40b6c36302ebd438b2008f3e37e1ccc1a4dd0ed55477f8e63edbd00c9d67e8f3",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2181241e57ecf169e24356c04c118b1483d919137170ff83ba53f49f46619e52",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "89971634b29f2c9ef9dd598d7a67b84f20424861e256e7342dd405126a90883f",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2d765a03cd98608f97f4a3b44b7cb4fbbf63a070af1c2953e52c8ea42d874454",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6c1a216876eabf71c1da16a3436b92fa4bfccb6ed9be0ae3f264b6e992a9c393",
+      "group_hash": "24e6da5a871b6857c878857be830efd68e73a2b280266ab1525fa9b559d347eb",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3022a57ac4dd566f8033b22a7318d57913a7062f15cb648812f7a093289a539a",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "d11cbfe0ce1be0ab8cdd7b1cd2b29d23756fce1479c32f5c7696df0d4e26528d",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "5fe7a4ef46b00db472e5eb69f88b6bcebbd5bb25d29b4ea11e2b7a4a1734e066",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "abb5b151a86b0c289d2ce260794b983d8f744ee00486ebeed9f188f7c3f03ca6",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e3aad1a53ed4b3c501ff2023517d225899356b7445f33791e07214136af8f316",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "f3a630350165b865d45a4f946e855c1d537fddc84b533422bd0136dd1e1f337e",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "b98c7d1a71e451ada667bf535058833df7ef04424e34ac504dcbdf44de643a3e",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "37bd3a2330076da9c8ef2d1cde4703d3c5741640b2bcfe7ac815035ade20f111",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "47b8866579697320be6e8223d444ab404bc46be3960213bd47bd1de8ff42031d",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "87414295f5be810b1216f6ab085237d84324f3a6c11af1d8c169bcba7708ca27",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "b13cbedccbcb5d016b4b95567009309bb6c5c71b8955f446313f1cd770769e74",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "44a0f2fd79ce064de8dda80257fac62f202afa4937d57276eb8209fdb4a855c4",
+      "group_hash": "547edf729b542a1b8a016c94842288efe3876ff0b3ce5ed2ff49e8e037d99927",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "31bf390d3eb7ea8333cb8012685652ce020d665073fc9591f591cc48a9bd1bb7",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "60adc3c3452bce48acf637cf0f5ca40202142c3ee50ee8e6a5e37770cb0a3512",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "c15942999f2e6948ad94af781a4244b289daf097d24cd710c435a373c7b3b001",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a645cb706ec2c5aa177fde8314dd65ace190d44c6938f7c35d9aa49f99b5d4fd",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "2eff633d6eb317ef87b39e5305c7982a7ce9df44a05e0d337ee22f6940de5192",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4d88653299ff8d5a629e3d520ecbfca1dea3ffa6964fadea83039af797060e8e",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e9779cca89e74784299d7ef2045682f49a0cffc359fc9a95fa49440d43bb0b10",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "72ac63251af0a4b856b3a653c8f987061371860c2c0ddbad2db3d1295761e33a",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "f8b22eda19d6e1973b4380a0f0843d9cf9b72943fc3dc1b88c8c77088e070a33",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "651b98fc33892d390e798bc9e6a456b61093b3ed952e4cfb68e8ea6dba227bb3",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "1d1edb92ce91d04a8fb116a7225eeba7ab382b8a33836e1e45717519663d5154",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "7da711060a18ace4c672552aa5c1bf86bd774d4593e89717625c500fc5661520",
+      "group_hash": "b2ffdc5508291b2786db08b1ec5326819fccf31b64f2475931bb5a280be3d9d6",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "84794e24acfc14247b9a841a0d719322a3242d74267b73d928e648652d13f76f",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "eea1c8ae75a4f0d2f3ac7414bf28d2ba14138f195b6b8f2d2d0a1377ace5bb0a",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ddd055a917c3efdc8fb751a8dafd0401d74034c01e642b0756ff06ae247df4de",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "b93f7c8020e71b3a660c8499231973dfebccc85a086a7941c153bf47cb496113",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "9a5f1fd966e56d66c38a957db631bf8c1cfd839999a4d01cbfa54ed558ee4660",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ffb79a7b3a750a6c8a9af179761a1f98b4101ed9b0ad545dcf698f7f0f9e5d0a",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "b4ddb6d146a96de72f3c77ed9565bbe437a9e3d028b16e8d3196451f5d284d49",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "396f38617d423d277b51269f7301d5e69312c21f96e2533e4973c091bd2425ce",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4051649ac79ba4be9e4629945d67854e787ef8abb2a1d1d53fae196162abd0fc",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6147c22aff52877b6c03fef2d350756e27b0ae0812367ebce40c57ba690aaf87",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "c92763eb9b25649621aeef22f08a96d92eb889bee409bf588ebc9ae5db5d315e",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e8ef23caa065a65a2f14f87bffed8a541d6b7c8191316be75fb183e8259172a7",
+      "group_hash": "75d85d77ab00c82cc6e47bdde2bba350eeb1363493369d036d22ef9e8ac0a63d",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "955d103a2bb0bf5755d8cd60ab1ad450b6fc712a994011e4cfc0e62af3fc93e9",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3d0ea69c958306140e2dcc8516a597e799f4034e7392a9952abd251eb3504552",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "5de512cd0d8262ad5967effb9b640e85c1b26453716e8e8384528ce69eb193e0",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "a4bd9878d48ecffae963ca6937f7e48aeb07fc70f71970bcb5bf702bb7234661",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3d532c787c78d8659a0ec56be7b7b6ca97ab0bc8380ffd8de6763f79aaa49735",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e2954242f27dd38c9a59e0b77dc96c40e09208fdd21b767403a0b807f8e5e36d",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "7d0138c64aa55dbdc765d7f04f5c0709621958f852ba78d2068b98196c022eb3",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "d5cbff05e9f4c2bcb727a477c88e53fbbbfb0f4de9ddf0d9ba971c2df46413a6",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "bea50b3e293d7ee348f8724ee028d031ce0c52ce7ae422adaa7da0b4b51d10dd",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "c0c83bcceb98c72c77022d90cb3eda2e0f613d2c73f4572ad6ab301f0d3d4449",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e4672a63761730a54822c115d1ae8decb7561a9f5bf584c238fa424af98ee054",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "be73b1f4503ded0a5c18fe74c9fdff9a147df1661547d2969487e5f547296496",
+      "group_hash": "3dbb29acb254516211aeeade54b1a254ac87f3b859256088f36adf598108d550",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "91c3a081a471b8a8b45abcb23bda1e8709a6e3061613b7ff0ff0aab1388461e6",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "34782fae7087c328f0e298000197cee548d08c67936224bf51fa735dad380b73",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "29a9b3df3157a4f9cd8e9096219d8b22aa7ed0e5d281ef0952545367de026bfd",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "c7f38d336f9817e52c8b1f64cc1c45c2a97121fde2955a603466861418379eb2",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "16d5ae61b53a2bfa9107b191f4a4f2d75ef0b183a4dc0336d3078a40457c93f4",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "bb45a2478915bc9072c591f3177fe9613f02442e9225c6f408bb27b4baed71ee",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "8e71af3b6c19772736909343bf597515c9745cd54823166ca41943578f98f047",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "8eac943794ba5e98feb6bae520c3121df782efbe4a44705abfd56c4a8623a401",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4b43fc0fdb7c0d0886a3f0cc5b5c353d676009309f9010649cb32db719c75b33",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "3c0b0034a27bc6d9112e885c61b856d492f08e73de032f00ff34a7303e0b5859",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ef1b03f7b6e4837c0bb8035876661d365578093c67face72546fa803a1eec0b5",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e5e1a9ed16aab47031df08f3eea4b3d616a93bed1f9f0f0208addeff40e4864b",
+      "group_hash": "129a1381d68cbb63b69ebb8a9c17058593ed9c5775ff90ffd645862d0ed867e4",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "fa8a0d6386c898f384bd97c2fdbd63092645c38fe8b683cd300c6b907ec9b551",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "156fe5668462fac06fba8ebe4958d0b42a4f50f2d332c7bbe0c9aae8bf226236",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "4ee883adc15cea82ab09590ff449de4ca528eb7ea44d1cfed519fd77d4118a53",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "393dc1fb113892b7c8a2322d5e6bed441195c24e22ab38b5bcbe116b7d138c04",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "d9bafe977f93bbe590aa525898e19a7eaf0c7875d1bc4c478f4886fd4af56060",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "6d86f3a7c39c181adbdd0c4f4e4a0d56982e0cdf25452d8aabb40deda19fdc8d",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "62f32f3912e5b5e0d0e820c042242e52a363757e91e6b12dbfd3d80ac8328f36",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ccb956dec90f6dcd13a28f8e9d2c2f910924692016e736afbce922f9bfb1eb8b",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "7e2a1afc29988319fbd4ecbc2baf57f37daefc59c6616899345bdee6f5ce487f",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "ec1baf739e8528701265c495f03aad274c85c33a18b6de8edb0f099e44e1ef89",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "58d595772f0407e2f01e5a057283067ee9cf576c63b7a165e6087bb36df7b8b6",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "653a7d2a2c2eae1fed45ab51d21826332901beb082289bda5ce678c088e02eb3",
+      "group_hash": "659e9b93f1c8ad74c48b67eaef193876777112907d3844984a213247b9e933cb",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "bf8d18f03d46a64989479e4523acee319ed54ffc893f93969a02251d8bd97583",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e101308d9bbded812ca14f8a8ebda221b0393ab30313f3036847c95d6a240cac",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "944c575826215927224e777ff561d71f9837ac1bafac849d1c56ed628031e1fe",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "f8e5532ca263030b282b4ac9305e0b3e3c4eb0e347cb2f24ebb918fc80a50e0a",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "987ecef99de3b40b2db2ad93ef196eae02514f316df8caedd5f4b6394b6310ad",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "147375b2c5c2f621822c5e8efcea23866e3bda0c5c2f520a4dbf8cecbf65d16f",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "e2cbbbb0f14d3015ec659ddafa8b7338dde15ea57d183c07a4f11aee4b8e3b82",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "754162dd9abddfc66036d4f97083025ec46447d6dd6c9f514eaa4a7409a52aec",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "95cff2bdbaeca4c3cbdd690a7bfff2f50c01f3f992087cf0e2f60c7b4264645e",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "d9b77e5125f53fd3d9d205dee0b21153189a3b0c24cc1853e217da5b8b0a5cb1",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "fd0f52a4b7d44519609861f5bfdcad7e7592145cba82334af482766e511e9b9a",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "7e360bbd17855c66a7d192db7e8e13f86c13c0689fc2a0625d4c9b6d40057466",
+      "group_hash": "5d76064630d495f392693c278346f7362b951b856b933992e411b9a84867e5e6",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/rag/cases/risk_cases_240.jsonl"
+    },
+    {
+      "sample_hash": "9a3bb73687899f19c9bdd954be311354c883e018650ec35b222ed0fe2a4ab4c3",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "3d92c3d659e50b2dc74767234f3b9c2c91a83e57e557f345e936ca320f9e7a81",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "62c964a7786218901b0f0b4ed584d52210888fe172777fca5cf7aee3b8ff9b5d",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "b4672bcb1c00cd846f9751243ad826554efc55ee0ed748b133017eb4b0733e79",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "2d63935762149d96ccdee6bdd35eceac9c0fd3e2b4a962ccc5eac5950d68c74d",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "157eac883aa4df2a654e9daf375365b72ef5c8bc7a9884be3c57e2c52d9f61d6",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "5775e9336925f7e9977c99610c1559871569ce880c48d9e41f850f3c77f290fd",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "b0da34dc463b3c72fa6b2c95712a59c2483471427e009b7e8524beb00f81e5c4",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "efae9c8a4d8cfca25eb1b989a7ee05c4f11b6dbfd3f64b85ea3cf154f19aee81",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "f23874e0b591db2065fab94374785f76ba8e5aacf5c8088b3e868e8b20188a3e",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "2a3f60475f84a4de9fe904da882ea1bb17396c1a91f587f664bd5e2f69b449d1",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "124f8803952e0617589221b08323c6541765a751d3ba1e5408e1aa88ab2e9f55",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "e3228aaa4b8c707594a2d926dc5c0db706d68c318685be3e4b2fbd84dc708535",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "2410157b48af344f636ecb3b5f9665fc205ab36ff309d8256ae91254c452b057",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "1994a39ffc57033afd2934403eac40a3c611982d7a7d15b42e57adf32104bec8",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "900934277915c6f177657c31df6de2bed97a42d8c96db690789eb5e9a39f2027",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "0942b6d1bbe4ab5fdb9f2048881cf941096aab0b2d257f225c33940f2e9ac298",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "92ec9586a031f4501ab82647d0fe3ff85361d59c255a2cced410a9cc322fabf7",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "5009e03d576a6a9baa2f0bc00bb49d1dfad6827d5c6cb17fd6b5d39b27dc8b3d",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "80f425d5d4b2cb8c3e4b47e0d86ed036e7f7e7c612de7258d08f5a1c05b472db",
+      "group_hash": "1f0e7867ba38be0fdbf227eea091b30c7154e3b6a109ad3266b21f2daa2d0533",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "486fb0dceb3487696b2cb317db679f6efd0319ab48ff55a9afac7951296b0e1c",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "4b02ec8ff08b6bc3bd80f3ab52755c4681c265c4ae24c6f355110f34e911243c",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "efc9b7a67bf96c41cffd7a753cd77952613b4260b26bf1a31eaac6ed5da7d73d",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "5f0ce27ca46855f5c3b4d993b35dc270f54221c6c720b729f6bf912bbc0f6fa2",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "c95e83177d89676c35e0f0ad9eaf1bd7c36dbbaa8b63095e960607f40c97bb2a",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "74f76240c3849e04d2d445b60781688d8c861c4309ad44d5038083b6a0321738",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "b6ece087186ee35f324ea6b4c2c4fbefa15c0cc0e1097b9d6462b963b58b22ca",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "ece6cfbfc43f3e57561914b5e01cb55d2db266d6f4346eaf050c8b160c9d6532",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "4e5fac7d5cef2785a4fd971da1ca7a3b6210b0c58bd83ea4aa529ece81d748d4",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "77f3af80a40fe63d82d12efdecd5d5c437877cee71e5bf41317c7c6e2f29630b",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "0cd38f10fbfdf170fde6fd54b0fded93bdd1f6e5de52c42c2550741a7806eea4",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "5d430d41124c84326eb5cdc21a970916cf83b004d21863e2fc7d6016ca031a07",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "aae3b3025351f49211adfbd700e6a38d3d937f2358a1292659b9589967b1aff2",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "f75a869e02e8f4481b90af126f6e6947d377f44af803291fe58bc0172e98d47e",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "bf1bd2abadbbea4a493946dd20c1b2c7e68704bbd4f57355d978dcba19ffc68d",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "edcd4b023d36da58ac8bc269b47ff82e5beb8373500b7d2c0188acc5104e2252",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "0daa115b6c8b63883e606b7c7013735b67682dfdbbb76792056a0b027da91c07",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "3c4783bcd60f95db962e0ec2e0f2a68d74f96ad74b80063d27af2d68283c02df",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "66dbfae1a7ecfda064b87655a4ac1a372cac831d2448af547c6ebf5a923eb28a",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "97f804a65f9b2516980f59a14f8e94a844359eebbf2702c3172883dc7f662100",
+      "group_hash": "15d36d0d3e72dc9cb316e808ee4b99c9590f414a16fb5ec8496802401d5e0d85",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "cd2ddf8d07e0b57b8e829ca5b27eb9a457d93886caa54aceb4c25d3ba07242c5",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "ff60aef59dfd42b104c47062a267139410e61f5d69e22839fed20b07a300d0b4",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "6cf76e9ebfca4b9d4031bda3f88fc1c6095f99058c8130a548d6982c7c3043a4",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "e7f13c8c7cb0dc2ab8cf1fe6170f3caad5088f7db5d0284a1983928c21cde460",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "f59cc62a7a68190b3a48aac02e87922d9ef20c38d27b67d6c2703573a0eeb9b9",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "38b049cc15c3c32ba2c28825a950e360b25100f09f1a6397756c3f73970914a6",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "43591a9d918f5b85bff57ede275cc4a96d8cce8443e4234f9491203858fb0751",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "51aa39f64456305552629190f8fc65085c1f8bb268e76d8d9cad93c643d057e9",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "017ef05f5c89c851ad8d69f0a592008fbc47fbaa0a19cfa9f4696c936e28d82b",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "b24ad9d17557ffd666c735c952cd659cd4f5e3c5443b1862cf1772c02fbb7fd8",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "ace69e9a3aa147d3a471482b4ed1aa96da4d5b41906341cde47de45b5c69f67c",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "eaadbda027df9c143660774920989031f2b90d2b9c33b7f81cec8d82e7c43894",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "51d8fd16e074221625e5c1c32b0a967af58ca6d117a8e9acb540d14d032998ea",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "d1c6bc048e71226aadb4d2747ef1cc5bd8017058f7301474f3ed55559e1d40c3",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "3189bcf8072c2f8fbc75d0c420d570171440092dfe3da0f401b001a3dfdce119",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "4e7f31c1f9605fe2d1379cf9685705bf9b08e038ad5e1133f4aab9de18e08509",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "9585878fcc9a29e817328fae541e7f411708c407ee41bc861bc1f15f71a87a47",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "edafd327f58caff0c2ed2ab7f93ea13ac7ba73f500ce7a1829e5c35151f61bd6",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "e2c545a363dba6c7f5209b510892ee568681c755e1ee9866f5a75301eea24a52",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "85d228033e73c1001e488e69425317a0b7a92d4f48c2582fb20fcb7ee1f95920",
+      "group_hash": "96f2669bfbc5873fcc118c37ee095b64c6fbc5fa4b0f3d0c134bda6af1d3cd97",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "674c25d0cd2d35f4d37340f1a07d40c4b5526fbc1f3fa0a44b589bb25907d3c7",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "b8cc24e14fea71186281515c9ad21923cf637162c10cb741c30a4d10ac7267e7",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "d3fd965ee9f47099e2906cf2b5eb41a7b9287c579b434522a4a5cc307f1418b6",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "342faa80291b6f2e98da5f721069c88dbdc37ef9378639594ec18fc8077f3e3c",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "c89a02367a14ec9882449021dd0b8ca6c22c6748a360670ca7060e1196c7336f",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "173944bce1f3c292b1fd84d14022f6b8e986e516f255ad075c90cb3371df2c45",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "4dd877cf1875862c99ec4d40dc60d1ad1e55923e7b89a79e2af0d340739d405d",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "f29af3397bb0884bacd3a8904764a6fd49b3e994fa373b3dd4d8d33b06e899f8",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "28f660b25135e4f2caba9f0f6e1a663eca99d68991fe752265650d56e1cdaee3",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "3f0218247062569bc62ab23dda0a1ebeb3f61e635448dd16c3f51cb53f7e966c",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "daa7719f7057a249e860701ebc62611fc419c31871da44521fda4ffe5b7e0d2c",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "30ecffa5b2953b0cdd4cd17c71af82cfebbf47331420fec4f86ce5151dbfb977",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "d297adf7df316ce5ca1d533d0437d6221f2f35252515c43d5ea693f78e764514",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "536991c4a0f306b5a0b547a3404e13147a955b5bde2904a125cb60dad9b49a37",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "bc37a6c2415cd01aa2cc3a99ec3790e57f3e03341d885afff49212f93851ad9f",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "a219efa5acfd06a0550880468260f50610a2304cc3a82292a2be4c8146314c6e",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "b413d45789ef7cece5616612f800af1786035162ed8171834d9fb92e6e25fca8",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "ae31ba52d8778ea57f7f454a74beb1f2940d243d67f96c41f43e9d4e1afbbd44",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "731b0f3cf1d30b40d4bc1f2b193aef01b14a087f27970be231b127e22b9d735e",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "c766a4b887477bce851aff5a214be0db43f2f61254f0434d2bdb5f7be1b96ba4",
+      "group_hash": "63f409f36c945ee13df1da074a03007c2829022aa7c78d1e881e64b85db1b138",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "0fdf9870af18f180bf56c84025ecfb808473140a0303508c3785cc53409ee5cf",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "e8603e1ca5712ad1fe9803e89540a574f048114d38fcdca96baa9709fb8feeb6",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "0841da04ea15f6343ddda8f1dd10be44e88910f7926eeb2b1641348ae8d53d66",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "345b15957a6f986514af926104b8744e309b31f11cb0937d9761395239a17db7",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "97dc1dd529f50ad7ffef9f752e8b0a0632182d000b5add5fc5bf1dfaeb218b10",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "83af8624bbdea200a2c80eb5fb61f303876e02717cfc3dcb7cfea9345020156a",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "39a5a251899239327777e10515a68abdaa9f901b6679ed4742af8beb09d9d403",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "6a492f118ca18d275fda8f48d7108177c4ff66e34e4db0e92212a2f4a03a2225",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "66b01cc1786719dd30b59634ffcabcb334e6e575ef82f36f5234ffd12a5e5af6",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "a3748da36ef7259d80c329784c98be7600d2d3675cdb1b9324552547762794c1",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "5aff41410dc8da73c9579cd8ea9909dfc9c38c8743161be288676120c1a42f95",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "084ae3419539e3f67b8e5ead3615736bc15de3f820b61383b52858f46f7465c1",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "9b3f8c99e80a2c43683a993db59baa9f50b25f369d446a7cbb63c1987000100c",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "9770a99b35aecd230dfe592af9bb90d54cc67b98d30e7a4598af6eee81e25cbe",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "7eb5821e12ecc077af779b0bc1664fe5639423567795c96055b99f4d0245a7cb",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "61009b786896ac2b3aaa50842da38128e50e87092f4c1599173f2fed0babdacd",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "7ba6d69cdd2e83ae1eb4de6f57d6ada38af48a2f498d8b15487fb374dc588db1",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "967ad4fcd5685d65d0863dd5e676aad2e20d36393850c4df45bd6b81f86e2bc1",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "2a128ce5aa2857979f77b9a9b6234f499608c546474860019cf17ab22e53911c",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "8e1d828393b3ed49a5ad9f1a0ec0c630dda303a3cb2792d017c2de535e6cab39",
+      "group_hash": "ac3803719e911a789aed5bc9af74c499ecf9dc20a54988ce87f21be5d8f7a5c9",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/eval/review_schema_eval.jsonl"
+    },
+    {
+      "sample_hash": "efbfa4698841004d7bf35312a24b6e84231532f17c099e0607e424711c90a557",
+      "group_hash": "37b765b59ca9dd3824e2944d0a49183a62f0223e59580e3f06f4705c162a2fac",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "14a1fda632784a525d9a8e8142c0871b4fe9ca34f512b036ed3d3d1731ec9e67",
+      "group_hash": "37b765b59ca9dd3824e2944d0a49183a62f0223e59580e3f06f4705c162a2fac",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "cacadaeba9794f744d2009519a06fcba35830207eee09fc67ff3060651e82492",
+      "group_hash": "449696ee8f53cb427dad8ba34e409bf33904ee058c6338f25a64c64336d125e5",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "1ddfd8c87431833854b38abd918695d7b0ba62e02d6c8a9920d2bfb580ecc8a6",
+      "group_hash": "4aedfaf4d7db0749d248abf41b4b19655bec5a3f012d953dd338133739a7db4d",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "59762f5a63ef855cc74852c8cb82ac10268774c3454ecaa1449f5005a8f71d55",
+      "group_hash": "b64bdfdba49839252a885be3b24c6e0c66f18f2e271390ae44fcffa716f685ea",
+      "split": "validation",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "d127cf0e7aea619799623ef368c84ef162fcea51bb5800ff3214ff2073b2a4b6",
+      "group_hash": "37b765b59ca9dd3824e2944d0a49183a62f0223e59580e3f06f4705c162a2fac",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "198277653ff80c71e0e82c805ab4159018501bca80715510f229830a2a5d3544",
+      "group_hash": "dcbef26021d788be7dff17229bcece78635721a979341a14051f6ba42edcb9ea",
+      "split": "validation",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "c5ce30dadb0d99a6498230c2e0c161f3061cc69828ef199ce26695f13a58437f",
+      "group_hash": "46eae91734356eb54bacc290bf510014eb7e9acbb19bc8cb854433011f480cf1",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "0782bddfcff39d19b070fb0594ec83a97ea0c6b65d60c5644dc3291c59758e7b",
+      "group_hash": "89df261248ae6013f0113aa383548f67e2b6a0ae8f43c78e3e7849dd52750cd0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "5030aff934622c9af9ab7a2dac842309bb151c6558b255f279aceb49ac9c65f7",
+      "group_hash": "4aedfaf4d7db0749d248abf41b4b19655bec5a3f012d953dd338133739a7db4d",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "e86d8f697520ac7381d2ca3f0cd640b4b051b828c98b7f9c18de6eb792db3eb6",
+      "group_hash": "1cc2b1a1b2b07700bedf6b348fbc0fd308fd1ae72adb8f69a3db7b7fa3030539",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "381b71559ad3dfb665e187f3a8c2b363f400172f50ef4815477ca190f456273f",
+      "group_hash": "89df261248ae6013f0113aa383548f67e2b6a0ae8f43c78e3e7849dd52750cd0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "e6e0c6555439186172329574fb448f0cfee69b3307065d55e3af097015ce1597",
+      "group_hash": "c00d4e8352ad5ce14231bd2e6bc455ce6413f52dedbab5f272fedb3b88978402",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "b2ae9562adb4250c9e8d0d9aae59faa295db84122b1f2b2470427525dba62237",
+      "group_hash": "89df261248ae6013f0113aa383548f67e2b6a0ae8f43c78e3e7849dd52750cd0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "110ec15af9dcdd98f1190d8beff1d8192d84ad0b215c8a936ae933a20b07e6a6",
+      "group_hash": "36f8fe09461b17644b80a6a97750aecc483afe29de212d73b39c000b4cf885b7",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "fa50ef4ef737c19fa8364e01785c036e9460435b59e6b9efa209f79e93c7715b",
+      "group_hash": "49f18342436989c140d14b4076d25cf194d5fea5556ae5b0e14f768410306e40",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "ac61e52bb2e8070c4e7678318669c2061368d550957a8bb20cc96b6b10ad0c50",
+      "group_hash": "46eae91734356eb54bacc290bf510014eb7e9acbb19bc8cb854433011f480cf1",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "de3b7d9742f29712600fe9b01dc35521438dd60039896011ea9acd830bdccf63",
+      "group_hash": "548e7767d2b3c2939c41ec42d343e2d6fcb7b7caa0a90e91145b545051b4c296",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "86091049135fecc955ee6ab9fd7e40a2facb40729a90cb6388a92f9460bad09c",
+      "group_hash": "449696ee8f53cb427dad8ba34e409bf33904ee058c6338f25a64c64336d125e5",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "630e3c782816003c550fa3a6f060b6621e7c37e881ee182e7175d570f578b14c",
+      "group_hash": "9a7b21fe9559679113642080ecd987567605d58affc9832d9aedeac630ed252c",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "eaa48601241e8bc47ef7dc467fe2f62a5387b8796eb01217218c3b0f3f600d52",
+      "group_hash": "36f8fe09461b17644b80a6a97750aecc483afe29de212d73b39c000b4cf885b7",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "2e894137eeacee62490ae99aa2c9af9e49a9fe040127c411ed6381641e199f4f",
+      "group_hash": "37b765b59ca9dd3824e2944d0a49183a62f0223e59580e3f06f4705c162a2fac",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "b5385134c32dc93ab16128569db76e44cbe22ecf8694571ba08420d6c57fb3f7",
+      "group_hash": "1141930ca775d7a9643db879c12d90bc076fca60865fce30ab4351bee72ca930",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "11f83d8444255296e14249e7f1ef3d5e71d89fef45550d2054d4775818921c98",
+      "group_hash": "c88861bf7ab543a03c5a94b161b8b11c799eee94f121410ee9a3eb1c4266950c",
+      "split": "validation",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "f7ea7006647338ded3de32201e135b68e7471f30b48b2e1c95619da7d0ff8110",
+      "group_hash": "c00d4e8352ad5ce14231bd2e6bc455ce6413f52dedbab5f272fedb3b88978402",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "507fd5b34ca2112d3c40635c3aa35c98e76bdc9ae40c37b2b83c4b1adddf0c5f",
+      "group_hash": "4aedfaf4d7db0749d248abf41b4b19655bec5a3f012d953dd338133739a7db4d",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "a007244b44d68c7567b1a566d48ea467be70fc33d56a6565054fdd1a661e4f48",
+      "group_hash": "2feb615018dde748ae13ab65a576073aa36114ee9b528dfc9ae6d92a7debfe15",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "7aec24fa3d79861d6cc7d65fdf9f2cae879605a2badc9dad004cc7eea2f77cbd",
+      "group_hash": "b64bdfdba49839252a885be3b24c6e0c66f18f2e271390ae44fcffa716f685ea",
+      "split": "validation",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "8ef4db951c05498483ec71c537f0c337e925b9ff7a84f39f9ef7297e207b7a5f",
+      "group_hash": "2feb615018dde748ae13ab65a576073aa36114ee9b528dfc9ae6d92a7debfe15",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "f3f632481a36615c42f77e00d4b76f231cd2ab484dadc9d64bb76e48fb347f79",
+      "group_hash": "36f8fe09461b17644b80a6a97750aecc483afe29de212d73b39c000b4cf885b7",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "147b032c733fead4f1988fe7e1355835e84bde44bd373b433812797699b277e9",
+      "group_hash": "4dfc52298ad6117140565e2866d1b899078238eb6cfc6bfbbbafdff901fc76ae",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "4f4a3d93a6c38e13bc44fe5e22d86d4eb4576f29a4668f38ad2f8eec9aaf541a",
+      "group_hash": "c88861bf7ab543a03c5a94b161b8b11c799eee94f121410ee9a3eb1c4266950c",
+      "split": "validation",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "97efe3480d6b82fb6fca574934231aca2693a3e8336466ed471dec3632bfb31c",
+      "group_hash": "b64bdfdba49839252a885be3b24c6e0c66f18f2e271390ae44fcffa716f685ea",
+      "split": "validation",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "624f6f20be76618defdd186bd417c17fa4335c0bcc64110e073ea4a737ab07ec",
+      "group_hash": "1141930ca775d7a9643db879c12d90bc076fca60865fce30ab4351bee72ca930",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "4678850ea5143eea6842e72cb0d3c9fef984fa8481e6e909652e37e7be04abfc",
+      "group_hash": "1141930ca775d7a9643db879c12d90bc076fca60865fce30ab4351bee72ca930",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "2c30491972522c0ccda12c9c82d67b67c47e0b6d6ec2a32d307ae72d39d47e10",
+      "group_hash": "c88861bf7ab543a03c5a94b161b8b11c799eee94f121410ee9a3eb1c4266950c",
+      "split": "validation",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "54bcbdd246f0fa0727977dca949a2f09a89fb19860590f5f468b1f8ead026a9b",
+      "group_hash": "1141930ca775d7a9643db879c12d90bc076fca60865fce30ab4351bee72ca930",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "bee56d53f11707160fe79256140be0f879744823cc4ef000bdfe6921867371a6",
+      "group_hash": "1cc2b1a1b2b07700bedf6b348fbc0fd308fd1ae72adb8f69a3db7b7fa3030539",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "4a24f49c1a1039529333fb42056e701af1fc0b4a125f3b23d4b521693398b071",
+      "group_hash": "b64bdfdba49839252a885be3b24c6e0c66f18f2e271390ae44fcffa716f685ea",
+      "split": "validation",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "b955b1c0e96c042826f5c97340bd0a266793f8f1c96ca1915949759adc5d16a6",
+      "group_hash": "c00d4e8352ad5ce14231bd2e6bc455ce6413f52dedbab5f272fedb3b88978402",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "cbd9c4578988070a660a87f004662a15369986f55472318945eff19e27e593fa",
+      "group_hash": "dcbef26021d788be7dff17229bcece78635721a979341a14051f6ba42edcb9ea",
+      "split": "validation",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "861e3515abbd2c452884395dccd448377b412fee745b2382b96f523cc7a49397",
+      "group_hash": "9c90d1780c5778399517571a5abed551539ece0ed8c9a26f94a7b03f53d29376",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "514842a9d89c2ae47603c4b615146a5470834d88f40fedc49d9b1f959d0c2282",
+      "group_hash": "4ac676326760b8484f20688381e029987a823863fad3a3ecd88dd792cd2fc8b3",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "3361e94cc98b529cc9da842060c7efcfa4e17a730c2e5f3f7add67c67ce47379",
+      "group_hash": "548e7767d2b3c2939c41ec42d343e2d6fcb7b7caa0a90e91145b545051b4c296",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "b2a6d85d34414869d816ad3bb42867b721a224a9f5dbd373bcbd9ffba1040626",
+      "group_hash": "49f18342436989c140d14b4076d25cf194d5fea5556ae5b0e14f768410306e40",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "05a007194ac74129d65abb228abbec646112ea51a9416cf0c3b8952b74ed3007",
+      "group_hash": "9c90d1780c5778399517571a5abed551539ece0ed8c9a26f94a7b03f53d29376",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "652d12d256825597dc75f73c94c6fadc6b6223a9b351df6eeaec6ad28885410c",
+      "group_hash": "9a7b21fe9559679113642080ecd987567605d58affc9832d9aedeac630ed252c",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "53d224108236acb7ccc51ae44eac1f0720640342cca4f157ee6bbf447cddefdf",
+      "group_hash": "58ed8fa56d206978ce8e825b26763360bfe5d837f7e6f2691bd4e788eb50b60f",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "46105b0a55054b1e066df9ca91b1508c907027cef186793a904f91b9906d0e3c",
+      "group_hash": "2feb615018dde748ae13ab65a576073aa36114ee9b528dfc9ae6d92a7debfe15",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "74c183f0bbef097b8ba7fc524a24b18c417565b228aa963418481079c67224c3",
+      "group_hash": "4ac676326760b8484f20688381e029987a823863fad3a3ecd88dd792cd2fc8b3",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "c4a649b87f19ae637a3b98c7d38d06cd4946f5b69a5bbe2df0ecacf3cc32e9eb",
+      "group_hash": "548e7767d2b3c2939c41ec42d343e2d6fcb7b7caa0a90e91145b545051b4c296",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "17bda439c6833fb8f6d60d9e9574d095dbceebe56621acccb0e377800244b1d7",
+      "group_hash": "58ed8fa56d206978ce8e825b26763360bfe5d837f7e6f2691bd4e788eb50b60f",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "342b3b12b0b38a632f53566e62d6e2590f1b9602fd235e3bbc4120a3bbbce49c",
+      "group_hash": "c88861bf7ab543a03c5a94b161b8b11c799eee94f121410ee9a3eb1c4266950c",
+      "split": "validation",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "ebca56b0f81ae53e60a64d31e2a2b7f7035e8844324a0542537229586f230923",
+      "group_hash": "36f8fe09461b17644b80a6a97750aecc483afe29de212d73b39c000b4cf885b7",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "21038483ac0ff9bcdb6f97251af72095b163873320a8e943f7f3fd2ffbcbc536",
+      "group_hash": "49f18342436989c140d14b4076d25cf194d5fea5556ae5b0e14f768410306e40",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "b74a79580fae8d3939cb344395f5ab0fabb5238eee46bcb91f1e3811e76176d4",
+      "group_hash": "4aedfaf4d7db0749d248abf41b4b19655bec5a3f012d953dd338133739a7db4d",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "670b79cd5bd057306a82630b4a2a9d2a4aa93f92a788a7f0a923082bac6e7a34",
+      "group_hash": "4dfc52298ad6117140565e2866d1b899078238eb6cfc6bfbbbafdff901fc76ae",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "8d5b0a219d98d21cbe717549b2f513a98da558e2c1702afc20fed90cf8b61fda",
+      "group_hash": "4dfc52298ad6117140565e2866d1b899078238eb6cfc6bfbbbafdff901fc76ae",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "ba97c65f0b6e7ea516d1adbd962f9b5e2ba0adb8d7f0e140d04702b270715308",
+      "group_hash": "1cc2b1a1b2b07700bedf6b348fbc0fd308fd1ae72adb8f69a3db7b7fa3030539",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "ef28759c84da3ec0e9c364915c7c36c7225a7f0febe7fe30edce5a5220f159a2",
+      "group_hash": "4ac676326760b8484f20688381e029987a823863fad3a3ecd88dd792cd2fc8b3",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "aeb633be829e3bfbaf9ba347b7e7ff9ed8e926e9671885ed4a4ed182f5782676",
+      "group_hash": "9a7b21fe9559679113642080ecd987567605d58affc9832d9aedeac630ed252c",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "9d3e17c0dbccbd67542d63a379a344039be665512d81c777c778822830c086f1",
+      "group_hash": "46eae91734356eb54bacc290bf510014eb7e9acbb19bc8cb854433011f480cf1",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "3a915faf6b3212bc1042c2785412b7197faa826354d2edce79993e150b0c1a11",
+      "group_hash": "4dfc52298ad6117140565e2866d1b899078238eb6cfc6bfbbbafdff901fc76ae",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "1a86f719c16c04aace5b9218ee91d003d995515b7bad5ccf12de284968e92814",
+      "group_hash": "9c90d1780c5778399517571a5abed551539ece0ed8c9a26f94a7b03f53d29376",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "cb39058072c94d23215088466b8f711240af0a0647901b93721b800c25542ffc",
+      "group_hash": "9a7b21fe9559679113642080ecd987567605d58affc9832d9aedeac630ed252c",
+      "split": "train",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "c546fb6fab2346badbbb556124b2598f84988d4472fefaddc7c2974b0de8b659",
+      "group_hash": "548e7767d2b3c2939c41ec42d343e2d6fcb7b7caa0a90e91145b545051b4c296",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "b14f4f1e193e9e85ee2193dd3687e198687102a23652df3003f7684d8c9d1b09",
+      "group_hash": "dcbef26021d788be7dff17229bcece78635721a979341a14051f6ba42edcb9ea",
+      "split": "validation",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "aedaad51f8e8ea51a91f4283120e4c56f628bedc38dbfc577f1648eef0579c46",
+      "group_hash": "46eae91734356eb54bacc290bf510014eb7e9acbb19bc8cb854433011f480cf1",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "5d1797528ca8b328afd83f26cb6ee0a9a8ba8346e4073c1b75444c4ecd533616",
+      "group_hash": "58ed8fa56d206978ce8e825b26763360bfe5d837f7e6f2691bd4e788eb50b60f",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "5aed2aaf174640d8827bc39173239a09c84e298d4d33e838fb6a18a9265cbeca",
+      "group_hash": "449696ee8f53cb427dad8ba34e409bf33904ee058c6338f25a64c64336d125e5",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "3496a0b8b7bd8cd9ea264e2cbf343879f14a5e3f63dc96172400054c46197987",
+      "group_hash": "c00d4e8352ad5ce14231bd2e6bc455ce6413f52dedbab5f272fedb3b88978402",
+      "split": "validation",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "5ab100ec801aec0a3e8ab84bb8d22495cc3f41c124f828d0fb7bb367289892ea",
+      "group_hash": "4ac676326760b8484f20688381e029987a823863fad3a3ecd88dd792cd2fc8b3",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "3289f69feb542f674276ea10c4bb66c2ea822393b11d8ba928fc2f9602ac4959",
+      "group_hash": "1cc2b1a1b2b07700bedf6b348fbc0fd308fd1ae72adb8f69a3db7b7fa3030539",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "b0c0e6baec8f436488acf74e59fe4e72cd149301ca8a9d8bd4637da244a5cf3c",
+      "group_hash": "58ed8fa56d206978ce8e825b26763360bfe5d837f7e6f2691bd4e788eb50b60f",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "bded118833dc5db5ef9a3f3fb9a1536ff3b748a29e0ad746edbdaad2f60b2783",
+      "group_hash": "449696ee8f53cb427dad8ba34e409bf33904ee058c6338f25a64c64336d125e5",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "6c45c8e12ecc5d233ba4181c1d4fd359fc0ab8164b457683b17059d3a3802936",
+      "group_hash": "dcbef26021d788be7dff17229bcece78635721a979341a14051f6ba42edcb9ea",
+      "split": "validation",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "1e1041d0245da3169b7d95a25f3ff1196ce5a3c70085c99c3fdcf84a2e1947ff",
+      "group_hash": "2feb615018dde748ae13ab65a576073aa36114ee9b528dfc9ae6d92a7debfe15",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "283966d263b1002c35b939c1be9ba487f32e1a600978e31f231153acfae96e2f",
+      "group_hash": "89df261248ae6013f0113aa383548f67e2b6a0ae8f43c78e3e7849dd52750cd0",
+      "split": "train",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "60e72b187ff1ac7d58f053257da77691815cba2b0f4d7c4e3ca42e1efe3bc941",
+      "group_hash": "49f18342436989c140d14b4076d25cf194d5fea5556ae5b0e14f768410306e40",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    },
+    {
+      "sample_hash": "5870e5bda4b8fed3996e92193f13014c98feb91e630e481976abd1efc37a5466",
+      "group_hash": "9c90d1780c5778399517571a5abed551539ece0ed8c9a26f94a7b03f53d29376",
+      "split": "train",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "source_name": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "modelId": "BAAI/bge-reranker-v2-m3",
+  "pathLabel": "bge-reranker-v2-m3",
+  "effectiveRerankerType": "local-model",
+  "fallbackUsed": false,
+  "inputCount": 2,
+  "outputCount": 2,
+  "scoresFinite": true,
+  "normalized": true,
+  "cudaUsed": true,
+  "cudaPeakMb": 547.91,
+  "status": "PASS",
+  "cudaBeforeMb": 0.0,
+  "modelFactory": "FlagReranker",
+  "modelClass": "BaseReranker",
+  "modelModule": "FlagEmbedding.inference.reranker.encoder_only.base",
+  "scores": [
+    0.001817283116449832,
+    3.734356896287336e-05
+  ],
+  "relevantScoreHigher": true,
+  "cudaAfterMb": 8.12,
+  "durationMs": 11148,
+  "tokens": [
+    "AGENT_RAG_V22_REAL_RERANKER_RUNTIME_PASS"
+  ]
+}

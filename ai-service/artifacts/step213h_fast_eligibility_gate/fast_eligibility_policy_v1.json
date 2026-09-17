@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "fast-eligibility-policy-v1",
+  "policyVersion": "step21.3h-fast-eligibility-v1",
+  "defaultRoute": "LONG_ANALYSIS_CHAIN",
+  "fastEligibilityRules": [
+    "STANDARD_LOW_COMPLEXITY_ISSUE",
+    "CLEAR_ORDINARY_REVIEW"
+  ],
+  "hardLongRules": [
+    "EXISTING_SAFETY_GATE",
+    "HARD_LONG_TEXT_SIGNAL",
+    "GOVERNANCE_RISK_SIGNAL"
+  ],
+  "runtimeInputFields": [
+    "reviewText",
+    "intentType",
+    "matchedRiskSignals",
+    "reasonCodes",
+    "routeCandidate",
+    "safetyGateTriggered"
+  ],
+  "prohibitedRuntimeFields": [
+    "benchmarkRiskTypes",
+    "boundaryType",
+    "caseCorrect",
+    "difficulty",
+    "evaluationTarget",
+    "expectedRiskTypes",
+    "goldSeverity",
+    "judgeVerdict",
+    "riskTypes",
+    "severity",
+    "sourceDataset"
+  ],
+  "patterns": {
+    "positiveOrOrdinary": "满意|很好|不错|推荐|喜欢|很赞|大赞|很棒|超级棒|实惠|新鲜|方便|周到|好吃|回购|再来|值得|合适|划算|正宗|热情|干净|放心",
+    "negativeDisqualifier": "差评|不好|失望|垃圾|投诉|不满|拒绝|问题|坏了|破损|少件|发错|没发票|没有发票|不回复|无法|不能|欺骗|误导|生的|没熟|变质|过期|退款|退货|售后|客服|差价|窝火|不愉快|恶劣|难吃",
+    "standardIssue": "尺寸.{0,4}(偏大|偏小|不合适)|色差|物流.{0,4}(慢|一般)|包装.{0,4}(破损|不好|开口)|少件|发错|质量.{0,4}(差|不好)|服务.{0,4}(差|不好)|没有发票|没发票|客服.{0,5}(不回复|态度差)|用了.{0,8}坏了",
+    "hardLong": "刷单|刷评|刷出来|五星|好评|评价|评论|截图|返现|红包|佣金|删评|删除|撤掉|修改|改评|公开内容|诈骗|欺诈|骗取|冒充|生的|没熟|变质|过期|食物中毒|身体不适|拉肚子|腹泻|过敏|受伤|危险|漏电|起火|爆炸|假货|必须|否则|威胁|不清楚|没有说明|未说明|无法判断|无法确认|信息不足|记录缺失|条件关系|优惠券|赠品|霸王餐|抽到|免费|影片|小说|作者|故事|角色|系列",
+    "complexIssue": "多次|一直|反复|拒绝|不给|不予|投诉|协商|举证|责任|拖到|十句|半天|严重"
+  },
+  "modelUsed": false,
+  "externalApiUsed": false,
+  "policyHash": "3F39478C3E834A27BC83BDE6D27FF57C5846FBC62CD8B6B4BDC572A0A5D6CD79",
+  "frozen": true
+}

@@ -1,0 +1,22 @@
+{
+  "marker": "VLM_OBSERVABILITY_BLOCKED",
+  "tool_registry_presence": {
+    "ImageEvidenceExtractTool": true,
+    "TextImageConsistencyTool": true,
+    "VisualEvidenceQualityTool": true,
+    "PrivacyVisualRiskTool": true
+  },
+  "provider": "local_qwen3_vl_transformers",
+  "model_name": "Qwen3-VL-2B-Instruct",
+  "smoke_marker": "VLM_PROVIDER_SMOKE_BLOCKED",
+  "real_vlm_inference_count": 0,
+  "agent_run_with_image_recorded": false,
+  "agent_steps_recorded": false,
+  "tool_logs_recorded": false,
+  "raw_image_binary_persisted": false,
+  "full_privacy_ocr_persisted": false,
+  "blocking_reasons": [
+    "NO_REAL_IMAGE_AGENT_RUN_RECORDED",
+    "VLM_PROVIDER_SMOKE_NOT_PASSED"
+  ]
+}

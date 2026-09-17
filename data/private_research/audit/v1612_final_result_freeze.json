@@ -1,0 +1,25 @@
+{
+  "status": "V1612_RESULT_PERMANENTLY_FROZEN",
+  "experiment": "v1.6.12",
+  "source_branch": "experiment/v1.6.12-data-first-synthetic-v23-experiment-a",
+  "source_head": "213149e5",
+  "training": "PASS",
+  "value_gate": "GO",
+  "adapter_role": "local_private_default_candidate",
+  "holdout": "evaluated_and_closed",
+  "holdout_access_allowed": false,
+  "holdout_reinference_allowed": false,
+  "holdout_metric_recompute_allowed": false,
+  "adapter_retraining_allowed": false,
+  "adapter_publication_allowed": false,
+  "formal_realworld_claim_allowed": false,
+  "default_runtime_model_mode_after_freeze": "base",
+  "adapter_enablement": "feature_flag_only",
+  "private_weight_publication": "forbidden",
+  "notes": [
+    "The v2.3 engineering holdout is closed and must not be used by v1.7.0 scripts.",
+    "The adapter may be used only as a local private runtime candidate behind explicit configuration.",
+    "The result supports engineering demonstration only, not production or formal real-world claims."
+  ],
+  "generated_at": "2026-07-17T00:00:00+08:00"
+}

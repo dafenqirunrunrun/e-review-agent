@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-16T11:18:32.960001+00:00",
+  "status": "V1610_RESULT_PERMANENTLY_FROZEN",
+  "source_closure_status": "PRIVATE_SYNTHETIC_SFT_V22_QLORA_TRAIN_PASS",
+  "adapter_value_gate": "NO_GO",
+  "adapter_role": "PRIVATE_SYNTHETIC_SFT_V22_ADAPTER_RETAINED_FOR_RESEARCH_ONLY",
+  "holdout_reuse_allowed": false,
+  "holdout_reinference_allowed": false,
+  "holdout_raw_prediction_access_allowed": false,
+  "holdout_metric_recompute_allowed": false,
+  "holdout_driven_prompt_tuning_allowed": false,
+  "holdout_driven_retraining_allowed": false,
+  "adapter_value_gate_override_allowed": false
+}

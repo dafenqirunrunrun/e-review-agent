@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-07-16T14:20:13.406949+00:00",
+  "status": "V23_EXPERIMENT_A_QLORA_BUDGET_PASS",
+  "gpu_lock_release_success": true,
+  "oom": 0,
+  "nan": 0,
+  "inf": 0,
+  "total_tokens": 304,
+  "prompt_tokens": 218,
+  "completion_tokens": 86,
+  "trainable_tokens": 86,
+  "loss": 3.1429436206817627,
+  "gradient_present": true,
+  "quantized_module_count": 196,
+  "model_load_ms": 5927.79,
+  "peak_memory_mb": 3862.53,
+  "free_memory_at_peak_mb": 2086,
+  "gpu_utilization_after_backward": 1,
+  "prompt_labels_masked": true,
+  "completion_labels_trainable": true,
+  "eos_trainable": true
+}

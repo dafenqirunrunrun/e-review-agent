@@ -1,0 +1,27 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "running":  false,
+                 "scanDemoReview":  false,
+                 "pendingCount":  994,
+                 "fixedDelay":  600000,
+                 "batchSize":  1,
+                 "logs":  [
+                              {
+                                  "id":  1,
+                                  "taskBatchNo":  "PATROL-ae0ea05f92cf48e9",
+                                  "startTime":  "2026-07-28 14:33:28",
+                                  "endTime":  "2026-07-28 14:33:28",
+                                  "scanCount":  1,
+                                  "successCount":  1,
+                                  "failedCount":  0,
+                                  "highRiskCount":  1,
+                                  "status":  "success",
+                                  "createdTime":  "2026-07-28 14:33:28"
+                              }
+                          ],
+                 "enabled":  false,
+                 "scanLitemallComment":  true
+             },
+    "errmsg":  "成功"
+}

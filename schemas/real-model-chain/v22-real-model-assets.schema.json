@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://e-review-agent.local/schemas/real-model-chain/v22-real-model-assets.schema.json",
+  "title": "E-Review Agent v2.2 Real Model Assets",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "sourceCommit", "embedding", "reranker", "llm"],
+  "properties": {
+    "schemaVersion": {
+      "const": "2.0.0"
+    },
+    "sourceCommit": {
+      "type": "string",
+      "minLength": 7
+    },
+    "embedding": {
+      "$ref": "#/$defs/embeddingAsset"
+    },
+    "reranker": {
+      "$ref": "#/$defs/modelAsset"
+    },
+    "llm": {
+      "$ref": "#/$defs/modelAsset"
+    }
+  },
+  "$defs": {
+    "embeddingAsset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["modelId", "provider", "modelPath", "assetFingerprint", "dimension"],
+      "properties": {
+        "modelId": {
+          "const": "BAAI/bge-m3"
+        },
+        "provider": {
+          "const": "flagembedding"
+        },
+        "modelPath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision": {
+          "type": "string"
+        },
+        "assetFingerprint": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{16,64}$"
+        },
+        "dimension": {
+          "const": 1024
+        },
+        "license": {
+          "type": "string"
+        }
+      }
+    },
+    "modelAsset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["modelId", "provider", "modelPath", "revision", "assetFingerprint", "license"],
+      "properties": {
+        "modelId": {
+          "type": "string",
+          "minLength": 3
+        },
+        "provider": {
+          "type": "string",
+          "minLength": 3
+        },
+        "modelPath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision": {
+          "type": "string",
+          "minLength": 7
+        },
+        "assetFingerprint": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{16,64}$"
+        },
+        "license": {
+          "const": "Apache-2.0"
+        },
+        "architecture": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

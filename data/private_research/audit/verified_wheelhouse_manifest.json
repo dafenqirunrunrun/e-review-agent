@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-07-15T06:43:41.324657+00:00",
+  "status": "VERIFIED_OFFLINE_WHEELHOUSE_PASS",
+  "wheelhouse_label": "<runtime-wheelhouse>",
+  "wheels": [
+    {
+      "package": "bitsandbytes",
+      "version": "0.49.2",
+      "filename": "bitsandbytes-0.49.2-py3-none-win_amd64.whl",
+      "sha256": "2e0ddd09cd778155388023cbe81f00afbb7c000c214caef3ce83386e7144df7d",
+      "sha256_verified": true,
+      "json_domain": "pypi.org",
+      "official_domain": "files.pythonhosted.org"
+    },
+    {
+      "package": "peft",
+      "version": "0.19.1",
+      "filename": "peft-0.19.1-py3-none-any.whl",
+      "sha256": "2113f72a81621b5913ef28f9022204c742df111890c5f49d812716a4a301e356",
+      "sha256_verified": true,
+      "json_domain": "pypi.org",
+      "official_domain": "files.pythonhosted.org"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "marker": "PILOT_DATASET_ROLES_FROZEN",
+  "sources": [
+    {
+      "source_id": "amazon_reviews_2023",
+      "approved_role": "ecommerce compatibility corpus; risk candidate discovery only",
+      "prohibited_role": "not a labeled risk benchmark; not formal external test; not training data; not redistributable",
+      "taxonomy_fit": "ecommerce product-review source with unverified preliminary mapping",
+      "label_reliability": "heuristic_candidate_status; unverified",
+      "external_evaluation_allowed": false,
+      "training_allowed": false,
+      "redistribution_allowed": false
+    },
+    {
+      "source_id": "asap_chinese_reviews",
+      "approved_role": "Chinese expression and sentiment auxiliary corpus",
+      "prohibited_role": "excluded from ecommerce risk taxonomy denominator; not multimodal; not formal risk benchmark",
+      "taxonomy_fit": "auxiliary language source only",
+      "label_reliability": "unverified",
+      "external_evaluation_allowed": false,
+      "training_allowed": false,
+      "redistribution_allowed": false
+    }
+  ],
+  "AUTHORIZED_REAL_DATA_REQUIRED_FOR_FORMAL_EVALUATION": true,
+  "FORMAL_REALWORLD_DATA_RIGHTS_READY": false,
+  "FORMAL_ANNOTATION_RELIABILITY_READY": false,
+  "SFT_DATA_READY": false,
+  "VLM_SFT_DATA_READY": false,
+  "created_at": "2026-07-14T18:59:55.786938+00:00"
+}

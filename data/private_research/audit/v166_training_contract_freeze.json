@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-15T08:58:26.422168+00:00",
+  "status": "SYNTHETIC_SFT_V2_CONTRACT_FREEZE_BLOCKED",
+  "sft_v2_rebuild_status": "SYNTHETIC_SFT_V2_REBUILD_BLOCKED",
+  "contract_version": "v2.0.0",
+  "prompt_version": "v2.0.0",
+  "evaluator_version": "v2.0.0",
+  "completion_encoding_version": "completion_only_v2.0.0",
+  "split_manifest_hash": "a90f53fabd111874c692e5d1f124fa1f48a7d1124ef10ecdeb76d3349df8c080",
+  "validation_manifest_hash": null,
+  "holdout_manifest_hash": null,
+  "changes_require_new_experiment_version": true,
+  "blocked_reason": "dataset/canary gates blocked"
+}

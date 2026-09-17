@@ -1,0 +1,21 @@
+{
+  "baselineMetricsHash": "bf7fc058647c30449b3dde46e4b3b7b61b1f9d807b1dd75df8212b3cf986d429",
+  "checks": {
+    "baselinePresent": true,
+    "bm25ExecutionsPositive": true,
+    "bm25MetricsComplete": true,
+    "configurationHashPresent": true,
+    "datasetHashPresent": true,
+    "denseExecutionsPositive": true,
+    "denseMetricsComplete": true,
+    "knowledgeHashPresent": true,
+    "metricsHashPresent": true,
+    "rrfExecutionsPositive": true,
+    "rrfMetricsComplete": true,
+    "unionOracleMetricsComplete": true
+  },
+  "datasetHash": "d3835de362f936a3f5000395b57c447d1518e63a879e50a08e5198b920761c2d",
+  "qualityClaim": "BASELINE_COMPLETE_NOT_QUALITY_PASS",
+  "schemaVersion": "agent-rag-v23-retrieval-baseline-gate-v1",
+  "status": "PASS"
+}

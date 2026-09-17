@@ -1,0 +1,124 @@
+{
+  "baselineMetricsHash": "bf7fc058647c30449b3dde46e4b3b7b61b1f9d807b1dd75df8212b3cf986d429",
+  "bm25Executions": 240,
+  "bm25Metrics": {
+    "caseCount": 240,
+    "hitRateAt10": 0.333333,
+    "hitRateAt20": 0.608333,
+    "hitRateAt5": 0.1875,
+    "hitRateAt50": 0.779167,
+    "mrr": 0.141386,
+    "ndcgAt5": 0.118933,
+    "recallAt10": 0.333333,
+    "recallAt100": 0.9,
+    "recallAt20": 0.608333,
+    "recallAt5": 0.1875,
+    "recallAt50": 0.779167
+  },
+  "candidateCoverage": {
+    "coverageAt10": 0.304167,
+    "coverageAt100": 0.891667,
+    "coverageAt20": 0.525,
+    "coverageAt5": 0.145833,
+    "coverageAt50": 0.745833
+  },
+  "configurationHash": "b10def5fad62d13ace86fef1a208473d58bae940d647eb7e3484e21027a52b9f",
+  "createdAtUtc": "2026-07-23T03:25:31Z",
+  "datasetHash": "d3835de362f936a3f5000395b57c447d1518e63a879e50a08e5198b920761c2d",
+  "denseExecutions": 240,
+  "denseMetrics": {
+    "caseCount": 240,
+    "hitRateAt10": 0.279167,
+    "hitRateAt20": 0.516667,
+    "hitRateAt5": 0.158333,
+    "hitRateAt50": 0.795833,
+    "mrr": 0.127197,
+    "ndcgAt5": 0.101291,
+    "recallAt10": 0.279167,
+    "recallAt100": 0.954167,
+    "recallAt20": 0.516667,
+    "recallAt5": 0.158333,
+    "recallAt50": 0.795833
+  },
+  "indexSize": 474,
+  "knowledgeSnapshotHash": "6a47565e19594a6c527df10e34c63af004a6080f80f1817d697d28e828746a94",
+  "latencyP50": 121.526,
+  "latencyP95": 137.438,
+  "latencyP99": 148.251,
+  "memoryObservation": "not measured in this diagnostic baseline",
+  "rowsArtifactPolicy": "case-level rows are kept in hash/light form only; no full query or chunk text is persisted",
+  "rowsLightHash": "5774fe060d00ff28a896b28ba3a6c9ffdf639a72454c79c3c9d860edce507f24",
+  "rrfExecutions": 240,
+  "rrfMetrics": {
+    "caseCount": 240,
+    "hitRateAt10": 0.304167,
+    "hitRateAt20": 0.525,
+    "hitRateAt5": 0.145833,
+    "hitRateAt50": 0.745833,
+    "mrr": 0.127639,
+    "ndcgAt5": 0.096966,
+    "recallAt10": 0.304167,
+    "recallAt100": 0.891667,
+    "recallAt20": 0.525,
+    "recallAt5": 0.145833,
+    "recallAt50": 0.745833
+  },
+  "schemaVersion": "agent-rag-v23-current-retrieval-baseline-v1",
+  "status": "COMPLETE",
+  "traceSamples": [
+    {
+      "denseFallbackUsed": false,
+      "denseProvider": "bge-m3-legacy-cls",
+      "embeddingDimension": 1024,
+      "faissIndexType": "IndexFlatIP",
+      "faissMetric": "inner-product",
+      "rrfEffectiveRetrievalMode": "hybrid-real"
+    },
+    {
+      "denseFallbackUsed": false,
+      "denseProvider": "bge-m3-legacy-cls",
+      "embeddingDimension": 1024,
+      "faissIndexType": "IndexFlatIP",
+      "faissMetric": "inner-product",
+      "rrfEffectiveRetrievalMode": "hybrid-real"
+    },
+    {
+      "denseFallbackUsed": false,
+      "denseProvider": "bge-m3-legacy-cls",
+      "embeddingDimension": 1024,
+      "faissIndexType": "IndexFlatIP",
+      "faissMetric": "inner-product",
+      "rrfEffectiveRetrievalMode": "hybrid-real"
+    },
+    {
+      "denseFallbackUsed": false,
+      "denseProvider": "bge-m3-legacy-cls",
+      "embeddingDimension": 1024,
+      "faissIndexType": "IndexFlatIP",
+      "faissMetric": "inner-product",
+      "rrfEffectiveRetrievalMode": "hybrid-real"
+    },
+    {
+      "denseFallbackUsed": false,
+      "denseProvider": "bge-m3-legacy-cls",
+      "embeddingDimension": 1024,
+      "faissIndexType": "IndexFlatIP",
+      "faissMetric": "inner-product",
+      "rrfEffectiveRetrievalMode": "hybrid-real"
+    }
+  ],
+  "unionOracleMetrics": {
+    "caseCount": 240,
+    "hitRateAt10": 0.320833,
+    "hitRateAt20": 0.579167,
+    "hitRateAt5": 0.170833,
+    "hitRateAt50": 0.804167,
+    "mrr": 0.137152,
+    "ndcgAt5": 0.110111,
+    "recallAt10": 0.320833,
+    "recallAt100": 0.933333,
+    "recallAt20": 0.579167,
+    "recallAt5": 0.170833,
+    "recallAt50": 0.804167
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ontologyVersion": "risk-ontology-v0.1",
+  "status": "AUDITED_AGAINST_REPOSITORY_2026_07_28",
+  "repositoryBaseline": "d8a3ebbc2447631f953d0ea385ccfb54639daab4",
+  "canonicalRuntimeRiskTypes": [
+    "normal_review",
+    "negative_review",
+    "after_sales_risk"
+  ],
+  "canonicalRuntimeRiskLevels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "frontendDisplayExtensions": [
+    "critical",
+    "none"
+  ],
+  "codes": [
+    {
+      "code": "NORMAL_REVIEW",
+      "runtimeRiskType": "normal_review",
+      "defaultRuntimeRiskLevel": "low",
+      "nameZh": "????",
+      "definition": "???????????????????"
+    },
+    {
+      "code": "NEGATIVE_REVIEW",
+      "runtimeRiskType": "negative_review",
+      "defaultRuntimeRiskLevel": "medium",
+      "nameZh": "????",
+      "definition": "???????????????????????????"
+    },
+    {
+      "code": "AFTER_SALES_RISK",
+      "runtimeRiskType": "after_sales_risk",
+      "defaultRuntimeRiskLevel": "high",
+      "nameZh": "????",
+      "definition": "???????????????????????????????????"
+    },
+    {
+      "code": "IMAGE_TEXT_CONFLICT",
+      "runtimeRiskType": "after_sales_risk",
+      "defaultRuntimeRiskLevel": "medium",
+      "nameZh": "????",
+      "definition": "????????????????????????????????"
+    },
+    {
+      "code": "INSUFFICIENT_INFORMATION",
+      "runtimeRiskType": "negative_review",
+      "defaultRuntimeRiskLevel": "low",
+      "nameZh": "????",
+      "definition": "?????????????????????????????"
+    },
+    {
+      "code": "OUT_OF_SCOPE",
+      "runtimeRiskType": "normal_review",
+      "defaultRuntimeRiskLevel": "low",
+      "nameZh": "???",
+      "definition": "??????????????????????"
+    }
+  ],
+  "routingRules": {
+    "NORMAL_REVIEW": {
+      "risk_level": "low",
+      "need_human_review": false
+    },
+    "NEGATIVE_REVIEW": {
+      "risk_level": "medium",
+      "need_human_review": "depends_on_evidence"
+    },
+    "AFTER_SALES_RISK": {
+      "risk_level": "high",
+      "need_human_review": true
+    },
+    "IMAGE_TEXT_CONFLICT": {
+      "risk_level": "medium",
+      "need_human_review": true
+    },
+    "INSUFFICIENT_INFORMATION": {
+      "risk_level": "low",
+      "need_human_review": true
+    },
+    "OUT_OF_SCOPE": {
+      "risk_level": "low",
+      "need_human_review": false
+    }
+  },
+  "notes": [
+    "Python canonical contract e_review_decision.py exposes three runtime risk_type values only.",
+    "Dataset protocol keeps finer annotation codes, but every code must map to one canonical runtime risk_type before online inference.",
+    "No new dataset samples are created by this protocol package."
+  ]
+}

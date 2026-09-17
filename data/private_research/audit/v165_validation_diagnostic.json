@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-07-15T08:18:17.460109+00:00",
+  "status": "V165_VALIDATION_DIAGNOSTIC_COMPLETE",
+  "holdout_read": false,
+  "holdout_rerun_performed": false,
+  "sample_count": 6,
+  "sample_hashes": [
+    "5ccab28782b16c73ff30cfaa",
+    "1ec26cf0c9e81464802b2ecf",
+    "539e3153d58ddb5e219d8d54",
+    "54d7823bc951bcc769be45e5",
+    "54ec5630f9b1ef58e755aff5",
+    "6048728a4f0943c723bb4728"
+  ],
+  "target_distribution": {
+    "risk_type": {
+      "after_sales_risk": 1,
+      "negative_review": 4,
+      "normal_review": 1
+    },
+    "risk_level": {
+      "high": 1,
+      "medium": 4,
+      "low": 1
+    }
+  },
+  "base_metrics": {
+    "real_inference_count": 6,
+    "raw_json_parse_success_rate": 1.0,
+    "raw_schema_valid_rate": 0.0,
+    "repair_rate": 1.0,
+    "final_schema_valid_rate": 1.0,
+    "risk_type_accuracy": 0.16666667,
+    "risk_type_macro_f1": 0.0952381,
+    "risk_level_accuracy": 0.16666667,
+    "risk_level_macro_f1": 0.0952381,
+    "need_human_review_f1": 0.45454545,
+    "field_match_rate": {
+      "risk_type": 0.16666667,
+      "risk_level": 0.16666667,
+      "need_human_review": 0.83333333
+    },
+    "field_failure_distribution": {
+      "extra_text_after_json": 6,
+      "extra_text_before_json": 6,
+      "markdown_wrapper_present": 6,
+      "missing_required_field": 6,
+      "unknown_field": 6
+    },
+    "missing_field_distribution": {
+      "missing_information": 6,
+      "need_human_review": 6,
+      "retrieved_case_evidence": 6,
+      "risk_level": 6,
+      "risk_type": 6,
+      "route_reason": 6,
+      "text_evidence": 6,
+      "unsupported_claims": 6
+    },
+    "invalid_enum_distribution": {},
+    "wrong_type_distribution": {},
+    "unknown_field_distribution": {
+      "synthetic_product_category": 6,
+      "synthetic_rating": 6,
+      "synthetic_review_text": 6
+    },
+    "repair_overwritten_field_distribution": {
+      "risk_type": 6,
+      "risk_level": 6,
+      "text_evidence": 6,
+      "retrieved_case_evidence": 6,
+      "need_human_review": 6,
+      "route_reason": 6,
+      "missing_information": 6,
+      "unsupported_claims": 6
+    },
+    "risk_type_confusion_matrix": {
+      "after_sales_risk": {
+        "normal_review": 1
+      },
+      "negative_review": {
+        "normal_review": 4
+      },
+      "normal_review": {
+        "normal_review": 1
+      }
+    },
+    "risk_level_confusion_matrix": {
+      "high": {
+        "low": 1
+      },
+      "medium": {
+        "low": 4
+      },
+      "low": {
+        "low": 1
+      }
+    },
+    "need_human_review_confusion_matrix": {
+      "True": {
+        "True": 5
+      },
+      "False": {
+        "True": 1
+      }
+    },
+    "avg_generate_ms": 3816.19,
+    "p95_generate_ms": 4340.47,
+    "output_risk_type_distribution": {
+      "normal_review": 6
+    },
+    "output_risk_level_distribution": {
+      "low": 6
+    }
+  },
+  "base_output_hashes": [
+    "f45c8adb679d18af86de4dab",
+    "3aa3a119123e3d828b85e90d",
+    "d2fc0edadd9e6bb39cfa3e05",
+    "94f276af5713617b26713aa7",
+    "3de9d6eb4dd96b9691024604",
+    "9cfdd1d2e37846597a6a828e"
+  ],
+  "adapter_metrics": {
+    "real_inference_count": 6,
+    "raw_json_parse_success_rate": 1.0,
+    "raw_schema_valid_rate": 0.0,
+    "repair_rate": 1.0,
+    "final_schema_valid_rate": 1.0,
+    "risk_type_accuracy": 0.16666667,
+    "risk_type_macro_f1": 0.0952381,
+    "risk_level_accuracy": 0.33333333,
+    "risk_level_macro_f1": 0.33333333,
+    "need_human_review_f1": 0.45454545,
+    "field_match_rate": {
+      "risk_type": 0.16666667,
+      "risk_level": 0.33333333,
+      "need_human_review": 0.83333333
+    },
+    "field_failure_distribution": {
+      "enum_value_invalid": 2,
+      "missing_required_field": 6,
+      "unknown_field": 6,
+      "extra_text_after_json": 2,
+      "extra_text_before_json": 2,
+      "markdown_wrapper_present": 2
+    },
+    "missing_field_distribution": {
+      "missing_information": 6,
+      "need_human_review": 6,
+      "retrieved_case_evidence": 6,
+      "text_evidence": 6,
+      "unsupported_claims": 6,
+      "risk_level": 3,
+      "risk_type": 4,
+      "route_reason": 3
+    },
+    "invalid_enum_distribution": {
+      "risk_type:product_review_risk": 1,
+      "risk_type:review_conflict": 1
+    },
+    "wrong_type_distribution": {},
+    "unknown_field_distribution": {
+      "evidence_insufficient": 3,
+      "synthetic_category": 2,
+      "synthetic_rating": 3,
+      "synthetic_review_text": 3,
+      "synthetic_product_category": 1
+    },
+    "repair_overwritten_field_distribution": {
+      "risk_type": 6,
+      "text_evidence": 6,
+      "retrieved_case_evidence": 6,
+      "need_human_review": 6,
+      "missing_information": 6,
+      "unsupported_claims": 6,
+      "risk_level": 3,
+      "route_reason": 3
+    },
+    "risk_type_confusion_matrix": {
+      "after_sales_risk": {
+        "normal_review": 1
+      },
+      "negative_review": {
+        "normal_review": 4
+      },
+      "normal_review": {
+        "normal_review": 1
+      }
+    },
+    "risk_level_confusion_matrix": {
+      "high": {
+        "high": 1
+      },
+      "medium": {
+        "low": 2,
+        "high": 2
+      },
+      "low": {
+        "low": 1
+      }
+    },
+    "need_human_review_confusion_matrix": {
+      "True": {
+        "True": 5
+      },
+      "False": {
+        "True": 1
+      }
+    },
+    "avg_generate_ms": 3900.14,
+    "p95_generate_ms": 4874.59,
+    "output_risk_type_distribution": {
+      "normal_review": 6
+    },
+    "output_risk_level_distribution": {
+      "high": 3,
+      "low": 3
+    }
+  },
+  "adapter_output_hashes": [
+    "bdab88a5b1893ffc701d4c96",
+    "d5e66b8d7f2200ebee0f0936",
+    "d5316d52c6bbf3dfcbb68371",
+    "ee75c839eae1af302be04637",
+    "3de9d6eb4dd96b9691024604",
+    "6cee5b0a1b1a6af398838935"
+  ],
+  "peak_memory_mb": 5666.19
+}

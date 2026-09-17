@@ -1,0 +1,28 @@
+{
+  "caseCount": 250,
+  "categoryCounts": {
+    "after_sales": 25,
+    "citation": 25,
+    "conflict": 25,
+    "low_confidence": 25,
+    "negative": 25,
+    "no_evidence": 25,
+    "normal": 25,
+    "pii": 25,
+    "prompt_injection": 25,
+    "safety": 25
+  },
+  "createdAtUtc": "2026-07-22T06:20:06Z",
+  "datasetHash": "af1a32796ca7107b44846095f2b561835e02d5441f017fd74cfdb878fddb5508",
+  "datasetPath": "data/qualification/v22-real-llm-quality-dataset.jsonl",
+  "datasetVersion": "v22-real-llm-qualification-v1",
+  "groundedRateThreshold": 0.95,
+  "realPiiIncluded": false,
+  "schemaVersion": "agent-rag-v22-llm-quality-dataset-manifest-v1",
+  "syntheticOnly": true,
+  "syntheticPiiValues": [
+    "13800000000",
+    "test@example.invalid",
+    "110101199001010000"
+  ]
+}

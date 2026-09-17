@@ -1,0 +1,24 @@
+{
+  "name": "operation_advisor",
+  "role": "Operation Advisor Agent",
+  "description": "Generate operation-assistance suggestions and hand off the final decision to a human operator.",
+  "capabilities": ["operation_suggestion", "human_in_the_loop", "feedback_handoff"],
+  "tools": ["operation_suggestion_generator", "feedback_writer"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "risk_task": { "type": "object" },
+      "similar_cases": { "type": "array" },
+      "policy_decision": { "type": "object" }
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "suggestion": { "type": "string" },
+      "human_confirmation_required": { "type": "boolean" }
+    }
+  },
+  "risk_level": "high",
+  "requires_human_approval": true
+}

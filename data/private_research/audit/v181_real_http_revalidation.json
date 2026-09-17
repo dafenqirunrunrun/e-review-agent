@@ -1,0 +1,12 @@
+{
+  "status": "V180_REAL_HTTP_REVALIDATED",
+  "process_id": 26816,
+  "port": 14002,
+  "request_count": 100,
+  "status_codes": {
+    "200": 80,
+    "422": 20
+  },
+  "independent_process": true,
+  "process_exited": true
+}

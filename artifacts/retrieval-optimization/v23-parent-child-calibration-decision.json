@@ -1,0 +1,97 @@
+{
+  "answerableCount": 120,
+  "artifactVersion": "agent-rag-v23-parent-child-calibration-decision-v1",
+  "configCount": 48,
+  "coverageAt20Lift": 0.066667,
+  "datasetHash": "d638d44c69e1e678c2f990fd193af23d2ac18962b6e2be5eaf1ffd19e4575e47",
+  "datasetVersion": "v23-retrieval-qualification-v2",
+  "decision": "NO_VALID_PARENT_CHILD_CONFIGURATION",
+  "deterministicMrrRegression": -0.008412,
+  "deterministicNdcgAt5Regression": -0.013902,
+  "failureReasons": [
+    "REAL_DENSE_RUNTIME_NOT_AVAILABLE_IN_DEFAULT_ENVIRONMENT"
+  ],
+  "flatBaseline": {
+    "caseCount": 120,
+    "coverageAt10": 0.5,
+    "coverageAt20": 0.7,
+    "coverageAt30": 0.808333,
+    "coverageAt5": 0.316667,
+    "coverageAt50": 0.891667,
+    "medianRelevantRank": 9,
+    "missCount": 5,
+    "mrr": 0.196237,
+    "ndcgAt5": 0.190482,
+    "p95RelevantRank": 80,
+    "recallAt10": 0.5,
+    "recallAt20": 0.7,
+    "recallAt30": 0.808333,
+    "recallAt5": 0.316667,
+    "recallAt50": 0.891667
+  },
+  "noAnswerCount": 30,
+  "parentHitRateAt10": 0.875,
+  "phase95bParentChildEvaluationAllowed": false,
+  "qualityPass": false,
+  "selected": {
+    "averageEligibleChildren": 100.0,
+    "configuration": {
+      "allowBackfill": false,
+      "maximumFinalK": 5,
+      "parentPriorConstant": 60,
+      "parentPriorEnabled": true,
+      "parentRepresentation": "P2",
+      "parentTopN": 20,
+      "postFusionCandidateK": 30,
+      "strategy": "H2"
+    },
+    "configurationHash": "2d80dfa3605886d236c390be9ca5e3851ddfd78fba47d319c9031a577cbf976a",
+    "deepRank": {
+      "deepRankCaseCount": 31,
+      "deepRankRecoveredAt20": 11,
+      "deepRankRecoveredAt30": 13,
+      "deepRankRecoveryRate": 0.354839,
+      "medianRelevantRankAfter": 999,
+      "medianRelevantRankBefore": 36,
+      "p95RelevantRankAfter": 999,
+      "p95RelevantRankBefore": 94
+    },
+    "hierarchicalOnlyHitCount": 11,
+    "hierarchicalOnlyHitRate": 0.091667,
+    "hitBreakdown": {
+      "BOTH_HIT": 81,
+      "FLAT_ONLY_HIT": 3,
+      "HIERARCHICAL_ONLY_HIT": 11,
+      "NEITHER_HIT": 25
+    },
+    "maximumEligibleChildren": 100,
+    "metrics": {
+      "caseCount": 120,
+      "coverageAt10": 0.508333,
+      "coverageAt20": 0.766667,
+      "coverageAt30": 0.808333,
+      "coverageAt5": 0.333333,
+      "coverageAt50": 0.808333,
+      "medianRelevantRank": 7,
+      "missCount": 23,
+      "mrr": 0.204649,
+      "ndcgAt5": 0.204384,
+      "p95RelevantRank": 21,
+      "recallAt10": 0.508333,
+      "recallAt20": 0.766667,
+      "recallAt30": 0.808333,
+      "recallAt5": 0.333333,
+      "recallAt50": 0.808333
+    },
+    "safety": {
+      "disabledEvidenceAccepted": 0,
+      "expiredEvidenceAccepted": 0,
+      "inactiveEvidenceAccepted": 0,
+      "lowScoreBackfillCount": 0,
+      "maximumFinalK": 5,
+      "tenantViolations": 0,
+      "tombstonedEvidenceAccepted": 0
+    }
+  },
+  "splitUsed": "calibration"
+}

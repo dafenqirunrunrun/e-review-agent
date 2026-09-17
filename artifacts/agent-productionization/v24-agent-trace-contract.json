@@ -1,0 +1,80 @@
+{
+  "canonicalSerialization": {
+    "allowNaN": false,
+    "ensureAscii": false,
+    "separators": [
+      ",",
+      ":"
+    ],
+    "sortKeys": true
+  },
+  "eventTypes": [
+    "EXECUTION_STARTED",
+    "REQUEST_VALIDATED",
+    "STATE_TRANSITION",
+    "NODE_STARTED",
+    "NODE_COMPLETED",
+    "NODE_FAILED",
+    "RETRIEVAL_STARTED",
+    "RETRIEVAL_COMPLETED",
+    "RETRIEVAL_FAILED",
+    "MODEL_CALL_STARTED",
+    "MODEL_CALL_COMPLETED",
+    "MODEL_CALL_FAILED",
+    "TOOL_CALL_STARTED",
+    "TOOL_CALL_COMPLETED",
+    "TOOL_CALL_FAILED",
+    "FALLBACK_TRIGGERED",
+    "RETRY_SCHEDULED",
+    "HUMAN_REVIEW_REQUESTED",
+    "EXECUTION_COMPLETED",
+    "EXECUTION_FAILED",
+    "EXECUTION_CANCELLED"
+  ],
+  "idContract": {
+    "executionId": "uuid4 per attempt",
+    "idsDerivedFromPayload": false,
+    "replayId": "uuid4 per replay",
+    "requestId": "caller supplied or uuid4",
+    "spanId": "uuid4 or recorder allocated",
+    "traceId": "uuid4 per trace"
+  },
+  "nodeTypes": [
+    "REQUEST_VALIDATION",
+    "QUERY_CLASSIFICATION",
+    "RETRIEVAL_PLANNING",
+    "EVIDENCE_RETRIEVAL",
+    "EVIDENCE_VALIDATION",
+    "TASK_REASONING",
+    "ANSWER_GENERATION",
+    "OUTPUT_VALIDATION",
+    "FALLBACK",
+    "HUMAN_REVIEW",
+    "FINALIZATION",
+    "EXTERNAL_MODEL",
+    "EXTERNAL_TOOL",
+    "INTERNAL_DETERMINISTIC"
+  ],
+  "requiredNodes": [
+    "REQUEST_VALIDATION",
+    "RETRIEVAL_PLANNING",
+    "EVIDENCE_RETRIEVAL",
+    "EVIDENCE_VALIDATION",
+    "TASK_REASONING",
+    "ANSWER_GENERATION",
+    "OUTPUT_VALIDATION",
+    "FINALIZATION"
+  ],
+  "schemaVersion": "agent-trace.v1",
+  "statusTypes": [
+    "PENDING",
+    "RUNNING",
+    "SUCCEEDED",
+    "FAILED",
+    "CANCELLED",
+    "TIMED_OUT",
+    "FALLBACK_SUCCEEDED",
+    "HUMAN_REVIEW_REQUIRED",
+    "INCOMPLETE"
+  ]
+}

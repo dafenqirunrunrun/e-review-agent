@@ -1,0 +1,1510 @@
+[
+  {
+    "path": "ai-service/tests/fixtures/agent-replay/synthetic_replay_case_001.json",
+    "length": 358
+  },
+  {
+    "path": "ai-service/tests/fixtures/agent-trace/synthetic_trace_case_001.json",
+    "length": 589
+  },
+  {
+    "path": "ai-service/tests/fixtures/v23_sparse_dqa_control_manifest.json",
+    "length": 1497
+  },
+  {
+    "path": "ai-service/tests/test_realworld_v1619_pilot_gate.py",
+    "length": 3733
+  },
+  {
+    "path": "ai-service/tests/test_v1612_synthetic_v23_experiment_a.py",
+    "length": 5935
+  },
+  {
+    "path": "ai-service/tests/test_v166_contract_unification.py",
+    "length": 5877
+  },
+  {
+    "path": "ai-service/tests/test_v167_synthetic_lineage.py",
+    "length": 2928
+  },
+  {
+    "path": "ai-service/tests/test_v180_difficult_benchmark.py",
+    "length": 2675
+  },
+  {
+    "path": "ai-service/tests/test_v22_canonical_evidence_eligibility.py",
+    "length": 4180
+  },
+  {
+    "path": "ai-service/tests/test_v22_real_reranker_quality_diagnostics.py",
+    "length": 10216
+  },
+  {
+    "path": "ai-service/tests/test_v23_candidate_fusion_metrics.py",
+    "length": 1433
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_aware_route_closure.py",
+    "length": 1204
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_detached_contract.py",
+    "length": 918
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_evaluation_consumption.py",
+    "length": 1239
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_evaluation_gate.py",
+    "length": 595
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_evaluation_lock.py",
+    "length": 1891
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_heldout_metrics.py",
+    "length": 2781
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_hierarchy.py",
+    "length": 2041
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_metrics.py",
+    "length": 935
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_ranking_hash.py",
+    "length": 1485
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_regression_delta.py",
+    "length": 724
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_reproducibility.py",
+    "length": 1452
+  },
+  {
+    "path": "ai-service/tests/test_v23_parent_child_retrieval.py",
+    "length": 1044
+  },
+  {
+    "path": "ai-service/tests/test_v23_retrieval_optimization.py",
+    "length": 3224
+  },
+  {
+    "path": "ai-service/tests/test_v23_retrieval_program_closure.py",
+    "length": 1540
+  },
+  {
+    "path": "ai-service/tests/test_v23_retrieval_runtime_contamination.py",
+    "length": 1272
+  },
+  {
+    "path": "ai-service/tests/test_v23_sparse_corpus_quality_audit.py",
+    "length": 3441
+  },
+  {
+    "path": "ai-service/tests/test_v23_sparse_empty_vector_rca.py",
+    "length": 2333
+  },
+  {
+    "path": "ai-service/tests/test_v23_sparse_index_contract.py",
+    "length": 1236
+  },
+  {
+    "path": "ai-service/tests/test_v23_sparse_invocation_path_contract.py",
+    "length": 1121
+  },
+  {
+    "path": "ai-service/tests/test_v23_sparse_isolated_environment_contract.py",
+    "length": 2507
+  },
+  {
+    "path": "ai-service/tests/test_v23_sparse_precision_contract.py",
+    "length": 1064
+  },
+  {
+    "path": "ai-service/tests/test_v23_sparse_precision_stability.py",
+    "length": 3227
+  },
+  {
+    "path": "ai-service/tests/test_v23_sparse_representation_diagnostic.py",
+    "length": 1176
+  },
+  {
+    "path": "ai-service/tests/test_v23_sparse_resource_qualification.py",
+    "length": 981
+  },
+  {
+    "path": "ai-service/tests/test_v24_agent_replay_deterministic.py",
+    "length": 831
+  },
+  {
+    "path": "ai-service/tests/test_v24_agent_replay_side_effect_guard.py",
+    "length": 831
+  },
+  {
+    "path": "ai-service/tests/test_v24_agent_replay_structural.py",
+    "length": 470
+  },
+  {
+    "path": "ai-service/tests/test_v24_agent_trace_behavior_parity.py",
+    "length": 896
+  },
+  {
+    "path": "ai-service/tests/test_v24_agent_trace_contract.py",
+    "length": 1590
+  },
+  {
+    "path": "ai-service/tests/test_v24_agent_trace_hash_chain.py",
+    "length": 1886
+  },
+  {
+    "path": "ai-service/tests/test_v24_agent_trace_redaction.py",
+    "length": 1280
+  },
+  {
+    "path": "ai-service/tests/test_v24_agent_trace_resource.py",
+    "length": 474
+  },
+  {
+    "path": "ai-service/tests/test_v24_agent_trace_runtime_boundary.py",
+    "length": 581
+  },
+  {
+    "path": "ai-service/tests/test_v24_phase_10b_gate.py",
+    "length": 686
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_replay_boundary.py",
+    "length": 576
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_behavior_parity.py",
+    "length": 467
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_context_isolation.py",
+    "length": 363
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_context_signature.py",
+    "length": 2200
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_e2e.py",
+    "length": 580
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_integrity.py",
+    "length": 385
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_middleware.py",
+    "length": 1097
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_real_llm.py",
+    "length": 708
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_real_retrieval.py",
+    "length": 687
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_resource.py",
+    "length": 364
+  },
+  {
+    "path": "ai-service/tests/test_v24_runtime_trace_security.py",
+    "length": 499
+  },
+  {
+    "path": "data/authorized_intake/audit/authorized_dataset_leakage_audit.json",
+    "length": 714
+  },
+  {
+    "path": "data/authorized_intake/split_manifest/authorized_dataset_splits.json",
+    "length": 399
+  },
+  {
+    "path": "data/private_research/audit/evaluation_pipeline_audit.json",
+    "length": 894
+  },
+  {
+    "path": "data/private_research/audit/synthetic_label_mapping_audit.json",
+    "length": 2446
+  },
+  {
+    "path": "data/private_research/audit/synthetic_qlora_budget.json",
+    "length": 2140
+  },
+  {
+    "path": "data/private_research/audit/synthetic_sft_dataset_audit.json",
+    "length": 990
+  },
+  {
+    "path": "data/private_research/audit/synthetic_sft_readiness.json",
+    "length": 1061
+  },
+  {
+    "path": "data/private_research/audit/synthetic_sft_split_manifest.json",
+    "length": 148635
+  },
+  {
+    "path": "data/private_research/audit/synthetic_sft_split_statistics.json",
+    "length": 564
+  },
+  {
+    "path": "data/private_research/audit/synthetic_target_schema_audit.json",
+    "length": 1807
+  },
+  {
+    "path": "data/private_research/audit/torchtest_environment_after_v164.json",
+    "length": 343
+  },
+  {
+    "path": "data/private_research/audit/v1610_v22_adapter_value_gate.json",
+    "length": 475
+  },
+  {
+    "path": "data/private_research/audit/v1611_dataset_access_guard.json",
+    "length": 203
+  },
+  {
+    "path": "data/private_research/audit/v1611_synthetic_v23_design.json",
+    "length": 780
+  },
+  {
+    "path": "data/private_research/audit/v1611_v23_build_gate.json",
+    "length": 366
+  },
+  {
+    "path": "data/private_research/audit/v1612_synthetic_v23_dataset_audit.json",
+    "length": 2583
+  },
+  {
+    "path": "data/private_research/audit/v1612_synthetic_v23_generation_summary.json",
+    "length": 933
+  },
+  {
+    "path": "data/private_research/audit/v1612_synthetic_v23_split_manifest.json",
+    "length": 2603
+  },
+  {
+    "path": "data/private_research/audit/v1612_v23_qlora_budget.json",
+    "length": 618
+  },
+  {
+    "path": "data/private_research/audit/v164_adapter_invalidation.json",
+    "length": 690
+  },
+  {
+    "path": "data/private_research/audit/v164_experiment_freeze.json",
+    "length": 1054
+  },
+  {
+    "path": "data/private_research/audit/v164_raw_schema_failure_analysis.json",
+    "length": 846
+  },
+  {
+    "path": "data/private_research/audit/v164_synthetic_split_freeze.json",
+    "length": 1073
+  },
+  {
+    "path": "data/private_research/audit/v166_base_prompt_canary.json",
+    "length": 801
+  },
+  {
+    "path": "data/private_research/audit/v166_canonical_contract.json",
+    "length": 1494
+  },
+  {
+    "path": "data/private_research/audit/v166_completion_only_mask.json",
+    "length": 1525
+  },
+  {
+    "path": "data/private_research/audit/v166_contract_unification_summary.json",
+    "length": 529
+  },
+  {
+    "path": "data/private_research/audit/v166_prompt_alignment.json",
+    "length": 1005
+  },
+  {
+    "path": "data/private_research/audit/v166_schema_consumer_inventory.json",
+    "length": 2623
+  },
+  {
+    "path": "data/private_research/audit/v166_split_block_freeze.json",
+    "length": 549
+  },
+  {
+    "path": "data/private_research/audit/v166_synthetic_sft_v2_split.json",
+    "length": 1331
+  },
+  {
+    "path": "data/private_research/audit/v166_synthetic_sft_v2_summary.json",
+    "length": 1764
+  },
+  {
+    "path": "data/private_research/audit/v166_training_contract_freeze.json",
+    "length": 608
+  },
+  {
+    "path": "data/private_research/audit/v167_synthetic_lineage_audit.json",
+    "length": 5391
+  },
+  {
+    "path": "data/private_research/audit/v167_synthetic_sft_v21_split.json",
+    "length": 2367
+  },
+  {
+    "path": "data/private_research/audit/v167_synthetic_sft_v21_summary.json",
+    "length": 2443
+  },
+  {
+    "path": "data/private_research/audit/v168_holdout_provenance.json",
+    "length": 560
+  },
+  {
+    "path": "data/private_research/audit/v169_sft_v22_build_summary.json",
+    "length": 1879
+  },
+  {
+    "path": "data/private_research/audit/v169_sft_v22_dataset_audit.json",
+    "length": 1825
+  },
+  {
+    "path": "data/private_research/audit/v169_sft_v22_token_audit.json",
+    "length": 1235
+  },
+  {
+    "path": "data/private_research/audit/v169_v22_adapter_value_gate.json",
+    "length": 344
+  },
+  {
+    "path": "data/private_research/audit/v169_v22_qlora_budget.json",
+    "length": 846
+  },
+  {
+    "path": "data/private_research/audit/v169_v22_training_contract_freeze.json",
+    "length": 1585
+  },
+  {
+    "path": "data/private_research/audit/v170_enterprise_eval_dataset.json",
+    "length": 651
+  },
+  {
+    "path": "data/private_research/audit/v180_difficult_benchmark_audit.json",
+    "length": 1398
+  },
+  {
+    "path": "data/private_research/audit/v181_benchmark_provenance_audit.json",
+    "length": 279
+  },
+  {
+    "path": "data/private_research/audit/v181_independent_benchmark_eval.json",
+    "length": 903
+  },
+  {
+    "path": "data/private_research/audit/v182_benchmark_manifest.json",
+    "length": 355
+  },
+  {
+    "path": "data/private_research/audit/v182_benchmark_provenance.json",
+    "length": 440
+  },
+  {
+    "path": "data/private_research/audit/v182_retrieval_evaluation.json",
+    "length": 29202
+  },
+  {
+    "path": "data/private_research/audit/v21_holdout_seal.json",
+    "length": 431
+  },
+  {
+    "path": "data/private_research/audit/v22_holdout_seal.json",
+    "length": 880
+  },
+  {
+    "path": "data/private_research/audit/v23_holdout_seal.json",
+    "length": 1005
+  },
+  {
+    "path": "data/private_research/eval/v1610_v22_holdout_evaluation.json",
+    "length": 2439
+  },
+  {
+    "path": "data/private_research/eval/v1610_v22_real_text_robustness.json",
+    "length": 1274
+  },
+  {
+    "path": "data/private_research/eval/v1612_v23_real_text_robustness.json",
+    "length": 1231
+  },
+  {
+    "path": "data/private_research/eval/v168_v21_holdout_evaluation.json",
+    "length": 289
+  },
+  {
+    "path": "data/private_research/eval/v169_v22_holdout_evaluation.json",
+    "length": 350
+  },
+  {
+    "path": "data/private_research/eval/v169_v22_real_text_robustness.json",
+    "length": 336
+  },
+  {
+    "path": "data/private_research/training/synthetic_qlora_smoke_config.json",
+    "length": 455
+  },
+  {
+    "path": "data/private_research/training/synthetic_qlora_smoke_summary.json",
+    "length": 1113
+  },
+  {
+    "path": "data/private_research/training/v1610_v22_resumed_training_summary.json",
+    "length": 34190
+  },
+  {
+    "path": "data/private_research/training/v1610_v22_training_config.json",
+    "length": 705
+  },
+  {
+    "path": "data/private_research/training/v164_controlled_training_config.json",
+    "length": 679
+  },
+  {
+    "path": "data/private_research/training/v164_controlled_training_summary.json",
+    "length": 16157
+  },
+  {
+    "path": "data/private_research/training/v164_holdout_eval_summary.json",
+    "length": 4368
+  },
+  {
+    "path": "data/private_research/training/v164_memory_summary.json",
+    "length": 25446
+  },
+  {
+    "path": "data/private_research/training/v164_private_real_text_robustness.json",
+    "length": 1639
+  },
+  {
+    "path": "data/private_research/training/v169_v22_training_config.json",
+    "length": 595
+  },
+  {
+    "path": "data/private_research/training/v169_v22_training_summary.json",
+    "length": 11771
+  },
+  {
+    "path": "data/qualification/v22-real-llm-quality-dataset.jsonl",
+    "length": 289325
+  },
+  {
+    "path": "data/rag/dataset_stats.json",
+    "length": 583
+  },
+  {
+    "path": "data/rag/golden_queries/golden_queries_80.jsonl",
+    "length": 36570
+  },
+  {
+    "path": "data/real_world/audit/pilot_baseline_snapshot.json",
+    "length": 10597
+  },
+  {
+    "path": "data/real_world/audit/pilot_dataset_role_freeze.json",
+    "length": 1371
+  },
+  {
+    "path": "data/real_world/audit/pilot_duplicate_audit.json",
+    "length": 347
+  },
+  {
+    "path": "data/real_world/audit/pilot_image_download_retry.json",
+    "length": 510
+  },
+  {
+    "path": "data/real_world/audit/pilot_image_privacy_audit.json",
+    "length": 364
+  },
+  {
+    "path": "data/real_world/audit/pilot_image_redaction.json",
+    "length": 151
+  },
+  {
+    "path": "data/real_world/audit/pilot_scale_readiness.json",
+    "length": 1036
+  },
+  {
+    "path": "data/real_world/audit/pilot_source_locator_recovery.json",
+    "length": 699
+  },
+  {
+    "path": "data/real_world/audit/pilot_taxonomy_coverage.json",
+    "length": 570
+  },
+  {
+    "path": "data/real_world/audit/pilot_taxonomy_mapping_quality.json",
+    "length": 1087
+  },
+  {
+    "path": "data/real_world/audit/pilot_unrecoverable_locator_closure.json",
+    "length": 827
+  },
+  {
+    "path": "data/real_world/audit/pilot_vlm_eligibility.json",
+    "length": 358
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_domain_taxonomy_fit.json",
+    "length": 1583
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_image_privacy_v3.json",
+    "length": 776
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_status.json",
+    "length": 1273
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v1_freeze_manifest.json",
+    "length": 2537
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v2_image_acquisition.json",
+    "length": 533
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v2_image_privacy.json",
+    "length": 693
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v2_sampling_report.json",
+    "length": 2501
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v2_scale_readiness.json",
+    "length": 902
+  },
+  {
+    "path": "data/real_world/audit/public_pilot_final_freeze.json",
+    "length": 987
+  },
+  {
+    "path": "data/real_world/audit/realworld_vlm_private_pilot.json",
+    "length": 611
+  },
+  {
+    "path": "data/real_world/pilot_manifest/private_pilot_aggregate_manifest.jsonl",
+    "length": 54016
+  },
+  {
+    "path": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl",
+    "length": 51519
+  },
+  {
+    "path": "docs/102_v16_rag_dataset_design.md",
+    "length": 2347
+  },
+  {
+    "path": "docs/108_v161_synthetic_data_leakage_audit.md",
+    "length": 1989
+  },
+  {
+    "path": "docs/156_v1617_dataset_permission_inquiry_templates.md",
+    "length": 2959
+  },
+  {
+    "path": "docs/157_v1617_realworld_pilot_taxonomy_report.md",
+    "length": 682
+  },
+  {
+    "path": "docs/158_v1619_pilot_image_download_report.md",
+    "length": 476
+  },
+  {
+    "path": "docs/159_v1618_private_realworld_pilot_report.md",
+    "length": 750
+  },
+  {
+    "path": "docs/159_v1619_pilot_image_privacy_audit.md",
+    "length": 445
+  },
+  {
+    "path": "docs/159_v1619_realworld_vlm_private_pilot.md",
+    "length": 331
+  },
+  {
+    "path": "docs/160_v1619_pilot_taxonomy_mapping_quality.md",
+    "length": 620
+  },
+  {
+    "path": "docs/161_v1619_pilot_scale_readiness.md",
+    "length": 483
+  },
+  {
+    "path": "docs/162_v16110_private_pilot_domain_taxonomy_fit.md",
+    "length": 756
+  },
+  {
+    "path": "docs/165_v16111_private_pilot_image_privacy_v3.md",
+    "length": 450
+  },
+  {
+    "path": "docs/166_v16111_pilot_dataset_role_freeze.md",
+    "length": 530
+  },
+  {
+    "path": "docs/167_v16112_public_pilot_final_freeze.md",
+    "length": 336
+  },
+  {
+    "path": "docs/173_v162_synthetic_sft_readiness.md",
+    "length": 267
+  },
+  {
+    "path": "docs/182_v1632_synthetic_sft_split.md",
+    "length": 319
+  },
+  {
+    "path": "docs/187_v1633_synthetic_sft_dataset_audit.md",
+    "length": 282
+  },
+  {
+    "path": "docs/187_v164_synthetic_split_freeze.md",
+    "length": 259
+  },
+  {
+    "path": "docs/188_v1633_synthetic_qlora_budget.md",
+    "length": 430
+  },
+  {
+    "path": "docs/188_v164_controlled_synthetic_qlora_training.md",
+    "length": 408
+  },
+  {
+    "path": "docs/189_v1633_synthetic_qlora_smoke.md",
+    "length": 422
+  },
+  {
+    "path": "docs/189_v164_synthetic_holdout_evaluation.md",
+    "length": 459
+  },
+  {
+    "path": "docs/190_v164_private_real_text_robustness.md",
+    "length": 420
+  },
+  {
+    "path": "docs/191_v165_v164_experiment_freeze.md",
+    "length": 384
+  },
+  {
+    "path": "docs/194_v165_v164_raw_schema_failure_analysis.md",
+    "length": 400
+  },
+  {
+    "path": "docs/196_v165_synthetic_label_mapping_audit.md",
+    "length": 403
+  },
+  {
+    "path": "docs/199_v165_synthetic_target_schema_audit.md",
+    "length": 220
+  },
+  {
+    "path": "docs/201_v165_evaluation_pipeline_audit.md",
+    "length": 180
+  },
+  {
+    "path": "docs/204_v166_v164_adapter_invalidation.md",
+    "length": 254
+  },
+  {
+    "path": "docs/205_v166_schema_consumer_alignment.md",
+    "length": 647
+  },
+  {
+    "path": "docs/206_v166_training_contract_freeze.md",
+    "length": 260
+  },
+  {
+    "path": "docs/207_v166_completion_only_sft_contract.md",
+    "length": 218
+  },
+  {
+    "path": "docs/208_v166_synthetic_sft_v2_dataset.md",
+    "length": 335
+  },
+  {
+    "path": "docs/209_v166_evaluation_contract.md",
+    "length": 297
+  },
+  {
+    "path": "docs/210_v166_base_prompt_contract_canary.md",
+    "length": 373
+  },
+  {
+    "path": "docs/211_v167_v166_split_block_freeze.md",
+    "length": 263
+  },
+  {
+    "path": "docs/212_v167_synthetic_lineage_audit.md",
+    "length": 323
+  },
+  {
+    "path": "docs/213_v167_synthetic_sft_v21_dataset.md",
+    "length": 378
+  },
+  {
+    "path": "docs/219_v168_holdout_provenance.md",
+    "length": 512
+  },
+  {
+    "path": "docs/222_v168_v21_holdout_evaluation.md",
+    "length": 397
+  },
+  {
+    "path": "docs/228_v169_sft_v22_token_contract.md",
+    "length": 313
+  },
+  {
+    "path": "docs/229_v169_sft_v22_dataset.md",
+    "length": 329
+  },
+  {
+    "path": "docs/231_v169_v22_training_contract_freeze.md",
+    "length": 512
+  },
+  {
+    "path": "docs/232_v169_v22_qlora_budget.md",
+    "length": 273
+  },
+  {
+    "path": "docs/233_v169_v22_training.md",
+    "length": 342
+  },
+  {
+    "path": "docs/234_v169_v22_holdout_evaluation.md",
+    "length": 422
+  },
+  {
+    "path": "docs/235_v169_v22_adapter_decision.md",
+    "length": 593
+  },
+  {
+    "path": "docs/240_v1610_v22_training_completion.md",
+    "length": 533
+  },
+  {
+    "path": "docs/241_v1610_v22_holdout_evaluation.md",
+    "length": 394
+  },
+  {
+    "path": "docs/242_v1610_v22_adapter_decision.md",
+    "length": 414
+  },
+  {
+    "path": "docs/247_v1611_synthetic_v23_design.md",
+    "length": 1610
+  },
+  {
+    "path": "docs/249_v1612_synthetic_v23_generation.md",
+    "length": 192
+  },
+  {
+    "path": "docs/250_v1612_synthetic_v23_split.md",
+    "length": 176
+  },
+  {
+    "path": "docs/251_v1612_synthetic_v23_dataset_audit.md",
+    "length": 240
+  },
+  {
+    "path": "docs/254_v1612_v23_qlora_budget.md",
+    "length": 193
+  },
+  {
+    "path": "docs/257_v1612_v23_real_text_robustness.md",
+    "length": 216
+  },
+  {
+    "path": "docs/57_agentic_rag_product_benchmark.md",
+    "length": 2884
+  },
+  {
+    "path": "docs/agent-productionization/V24_AGENT_REPLAY_ARCHITECTURE.md",
+    "length": 361
+  },
+  {
+    "path": "docs/agent-productionization/V24_AGENT_TRACE_BEHAVIOR_PARITY.md",
+    "length": 190
+  },
+  {
+    "path": "docs/agent-productionization/V24_AGENT_TRACE_CONTRACT.md",
+    "length": 457
+  },
+  {
+    "path": "docs/agent-productionization/V24_AGENT_TRACE_HASH_CHAIN.md",
+    "length": 301
+  },
+  {
+    "path": "docs/agent-productionization/V24_AGENT_TRACE_RESOURCE_QUALIFICATION.md",
+    "length": 250
+  },
+  {
+    "path": "docs/agent-productionization/V24_AGENT_TRACE_SECURITY_AND_REDACTION.md",
+    "length": 351
+  },
+  {
+    "path": "docs/agent-productionization/V24_PHASE_10A_EXECUTION_STATUS.md",
+    "length": 259
+  },
+  {
+    "path": "docs/agent-productionization/V24_PHASE_10B_EXECUTION_STATUS.md",
+    "length": 364
+  },
+  {
+    "path": "docs/agent-productionization/V24_PHASE_10B_INPUT_LOCK.md",
+    "length": 283
+  },
+  {
+    "path": "docs/agent-productionization/V24_REAL_RETRIEVAL_AND_LLM_TRACE.md",
+    "length": 366
+  },
+  {
+    "path": "docs/agent-productionization/V24_RUNTIME_REPLAY_BOUNDARY.md",
+    "length": 361
+  },
+  {
+    "path": "docs/agent-productionization/V24_RUNTIME_TRACE_BEHAVIOR_PARITY.md",
+    "length": 367
+  },
+  {
+    "path": "docs/agent-productionization/V24_RUNTIME_TRACE_CONTEXT_ISOLATION.md",
+    "length": 369
+  },
+  {
+    "path": "docs/agent-productionization/V24_RUNTIME_TRACE_CONTEXT_PROPAGATION.md",
+    "length": 371
+  },
+  {
+    "path": "docs/agent-productionization/V24_RUNTIME_TRACE_CONTEXT_SECURITY.md",
+    "length": 368
+  },
+  {
+    "path": "docs/agent-productionization/V24_RUNTIME_TRACE_E2E.md",
+    "length": 355
+  },
+  {
+    "path": "docs/agent-productionization/V24_RUNTIME_TRACE_RESOURCE_QUALIFICATION.md",
+    "length": 374
+  },
+  {
+    "path": "docs/agent-rag/V2_ADMIN_OPERATIONS_EVALUATION.md",
+    "length": 2814
+  },
+  {
+    "path": "docs/agent-rag/V2_JAVA_INTEGRATION_EVALUATION.md",
+    "length": 2060
+  },
+  {
+    "path": "docs/agent-rag/V2_LOCAL_LOAD_EVALUATION.md",
+    "length": 719
+  },
+  {
+    "path": "docs/agent-rag/V2_LOCAL_SOAK_EVALUATION.md",
+    "length": 757
+  },
+  {
+    "path": "docs/agent-rag/V2_PHASE1_EVALUATION.md",
+    "length": 1011
+  },
+  {
+    "path": "docs/agent-rag/V2_PHASE2_RETRIEVAL_EVALUATION.md",
+    "length": 889
+  },
+  {
+    "path": "docs/agent-rag/V2_PHASE3A_EVALUATION.md",
+    "length": 2771
+  },
+  {
+    "path": "docs/agent-rag/V2_PHASE3A1_EVALUATION_AUDIT.md",
+    "length": 1825
+  },
+  {
+    "path": "docs/agent-rag/V2_PHASE3A1_EVALUATION_INTEGRITY.md",
+    "length": 2310
+  },
+  {
+    "path": "docs/agent-rag/V2_PHASE3A2_BENCHMARK_DESIGN.md",
+    "length": 2645
+  },
+  {
+    "path": "docs/agent-rag/V2_PHASE3A3_PROVIDER_EVALUATION.md",
+    "length": 3795
+  },
+  {
+    "path": "docs/agent-rag/V2_RERANKER_EVALUATION.md",
+    "length": 988
+  },
+  {
+    "path": "docs/career-evidence/V23_RETRIEVAL_ENGINEERING_EVIDENCE.md",
+    "length": 1064
+  },
+  {
+    "path": "docs/career-evidence/V24_AGENT_TRACE_REPLAY_ENGINEERING_EVIDENCE.md",
+    "length": 412
+  },
+  {
+    "path": "docs/career-evidence/V24_RUNTIME_TRACE_INTEGRATION_EVIDENCE.md",
+    "length": 584
+  },
+  {
+    "path": "docs/enterprise/evaluation_report.md",
+    "length": 736
+  },
+  {
+    "path": "docs/enterprise/v180_difficult_benchmark.md",
+    "length": 1227
+  },
+  {
+    "path": "docs/enterprise/v182_benchmark_provenance.md",
+    "length": 75
+  },
+  {
+    "path": "docs/eval/golden_rag_queries.jsonl",
+    "length": 5345
+  },
+  {
+    "path": "docs/eval/golden_reviews.jsonl",
+    "length": 12697
+  },
+  {
+    "path": "docs/ppt_assets/diagrams/benchmark_matrix.png",
+    "length": 74814
+  },
+  {
+    "path": "docs/qualification/V2_1_REAL_LLM_FINAL_EVALUATION.md",
+    "length": 402
+  },
+  {
+    "path": "docs/qualification/V2_1_REAL_RERANKER_FINAL_EVALUATION.md",
+    "length": 371
+  },
+  {
+    "path": "docs/real-model-chain/V22_BASELINE_AUDIT.md",
+    "length": 2748
+  },
+  {
+    "path": "docs/real-model-chain/V22_DETERMINISTIC_RERANKER_FEATURE_AUDIT.md",
+    "length": 1454
+  },
+  {
+    "path": "docs/real-model-chain/V22_EXECUTION_STATUS.md",
+    "length": 6815
+  },
+  {
+    "path": "docs/real-model-chain/V22_GPU_8GB_RESIDENCY.md",
+    "length": 2003
+  },
+  {
+    "path": "docs/real-model-chain/V22_LLM_AND_SOAK_EVIDENCE_LOCK.md",
+    "length": 2871
+  },
+  {
+    "path": "docs/real-model-chain/V22_MODEL_ASSET_PROVENANCE.md",
+    "length": 2058
+  },
+  {
+    "path": "docs/real-model-chain/V22_OFFLINE_ASSET_RECOVERY.md",
+    "length": 3863
+  },
+  {
+    "path": "docs/real-model-chain/V22_PHASE_85_EVIDENCE_BASELINE_LOCK.md",
+    "length": 1611
+  },
+  {
+    "path": "docs/real-model-chain/V22_PHASE_85_REJECTION_CALIBRATION_REPORT.md",
+    "length": 783
+  },
+  {
+    "path": "docs/real-model-chain/V22_PHASE_86_ANSWERABILITY_CALIBRATION_REPORT.md",
+    "length": 471
+  },
+  {
+    "path": "docs/real-model-chain/V22_PHASE_86_CORRECTNESS_BASELINE_LOCK.md",
+    "length": 1632
+  },
+  {
+    "path": "docs/real-model-chain/V22_PHASE_87_ANSWERABLE_RANKING_REPORT.md",
+    "length": 1160
+  },
+  {
+    "path": "docs/real-model-chain/V22_PHASE_87_CORRECTNESS_BASELINE_LOCK.md",
+    "length": 1529
+  },
+  {
+    "path": "docs/real-model-chain/V22_PHASE_88_DIAGNOSTIC_DATA_BOUNDARY.md",
+    "length": 590
+  },
+  {
+    "path": "docs/real-model-chain/V22_PHASE_88_RERANKER_REGRESSION_BASELINE_LOCK.md",
+    "length": 1586
+  },
+  {
+    "path": "docs/real-model-chain/V22_PHASE_88_RERANKER_ROOT_CAUSE_DECISION.md",
+    "length": 965
+  },
+  {
+    "path": "docs/real-model-chain/V22_PROMPT_AND_GROUNDING.md",
+    "length": 1879
+  },
+  {
+    "path": "docs/real-model-chain/V22_PYTHON_ENVIRONMENT.md",
+    "length": 1699
+  },
+  {
+    "path": "docs/real-model-chain/V22_REAL_LLM.md",
+    "length": 2008
+  },
+  {
+    "path": "docs/real-model-chain/V22_REAL_MODEL_LIMITATIONS.md",
+    "length": 586
+  },
+  {
+    "path": "docs/real-model-chain/V22_REAL_RERANKER.md",
+    "length": 1565
+  },
+  {
+    "path": "docs/real-model-chain/V22_RERANKER_RECOVERY_DECISION.md",
+    "length": 2656
+  },
+  {
+    "path": "docs/real-model-chain/V22_RERANKER_REGRESSION_DIAGNOSIS.md",
+    "length": 1272
+  },
+  {
+    "path": "docs/real-model-chain/V22_RUNTIME_WIRING_AUDIT.md",
+    "length": 4939
+  },
+  {
+    "path": "docs/release/V2_RELEASE_CANDIDATE_EVALUATION.md",
+    "length": 717
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_BGE_M3_SPARSE_ENVIRONMENT.md",
+    "length": 3337
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_BGE_M3_SPARSE_ENVIRONMENT_BOUNDARY.md",
+    "length": 2061
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_BGE_M3_SPARSE_INDEX_DESIGN.md",
+    "length": 510
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_BGE_M3_SPARSE_INDEX_QUALIFICATION.md",
+    "length": 4492
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_BGE_M3_SPARSE_ISOLATED_ENVIRONMENT.md",
+    "length": 1107
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_BGE_M3_SPARSE_ROUTE_CLOSURE.md",
+    "length": 1853
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_BGE_M3_SPARSE_RUNTIME_QUALIFICATION.md",
+    "length": 458
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_BGE_M3_SPARSE_TOKENIZER_PARITY.md",
+    "length": 1021
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_CANDIDATE_FUSION_CALIBRATION.md",
+    "length": 3848
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_CANDIDATE_FUSION_CHALLENGE.md",
+    "length": 266
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_CANDIDATE_FUSION_EVALUATION.md",
+    "length": 9941
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_CANDIDATE_FUSION_GENERALIZATION_ANALYSIS.md",
+    "length": 18384
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_CURRENT_RETRIEVAL_BASELINE.md",
+    "length": 856
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_FAISS_AND_REAL_DENSE_QUALIFICATION.md",
+    "length": 297
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_AWARE_HELDOUT_BAD_CASE_ANALYSIS.md",
+    "length": 319
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_AWARE_ROUTE_CLOSURE.md",
+    "length": 503
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_CALIBRATION_REPRODUCIBILITY.md",
+    "length": 651
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_DEEP_RANK_ANALYSIS.md",
+    "length": 444
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_DETACHED_VERIFICATION.md",
+    "length": 211
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_ENVIRONMENT_CONTRACT.md",
+    "length": 279
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_EVALUATION_CONSUMPTION_BOUNDARY.md",
+    "length": 351
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_EVALUATION_DEEP_RANK_ANALYSIS.md",
+    "length": 166
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_EVALUATION_NO_ANSWER_ANALYSIS.md",
+    "length": 189
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_EVALUATION_RESOURCE_ANALYSIS.md",
+    "length": 171
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_HELDOUT_EVALUATION.md",
+    "length": 590
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_HIERARCHY_DESIGN.md",
+    "length": 1413
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_INDEX_REBUILD_PARITY.md",
+    "length": 233
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_QC2_DETACHED_VERIFICATION.md",
+    "length": 504
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_RANKING_HASH_CONTRACT.md",
+    "length": 374
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_REGRESSION_BASELINE_ANALYSIS.md",
+    "length": 269
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_RETRIEVAL_CALIBRATION.md",
+    "length": 800
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_CHILD_THREE_LAYER_REGRESSION_ANALYSIS.md",
+    "length": 492
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_GRANULARITY_AUDIT.md",
+    "length": 267
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PARENT_INDEX_QUALIFICATION.md",
+    "length": 761
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_90_91_EXECUTION_STATUS.md",
+    "length": 5468
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_90_BASELINE_LOCK.md",
+    "length": 1555
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_91_RETRIEVAL_MISS_DIAGNOSTIC_BOUNDARY.md",
+    "length": 555
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_92_EXECUTION_STATUS.md",
+    "length": 2707
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_92_INPUT_BASELINE_LOCK.md",
+    "length": 1296
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_93_DATA_CONSUMPTION_BOUNDARY.md",
+    "length": 565
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_94_EXECUTION_STATUS.md",
+    "length": 2276
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_94A_EXECUTION_STATUS.md",
+    "length": 1771
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_94B_DQA_EXECUTION_STATUS.md",
+    "length": 590
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_94B_DQA_INPUT_LOCK.md",
+    "length": 1871
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_94B_EXECUTION_STATUS.md",
+    "length": 1893
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_94B_INPUT_BASELINE_LOCK.md",
+    "length": 1810
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_94B_PSQ_EXECUTION_STATUS.md",
+    "length": 555
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_94B_PSQ_INPUT_LOCK.md",
+    "length": 1363
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_94B_RCA_EXECUTION_STATUS.md",
+    "length": 1157
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_95A_EXECUTION_STATUS.md",
+    "length": 1622
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_95A_QC_EXECUTION_STATUS.md",
+    "length": 607
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_95A_QC_INPUT_LOCK.md",
+    "length": 235
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_95A_QC2_EXECUTION_STATUS.md",
+    "length": 763
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_95A_QC2_INPUT_LOCK.md",
+    "length": 708
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_95B_EXECUTION_STATUS.md",
+    "length": 894
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_95B_INPUT_LOCK.md",
+    "length": 599
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_PHASE_96A_EXECUTION_STATUS.md",
+    "length": 342
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RELEVANT_RANK_DISTRIBUTION.md",
+    "length": 2731
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RETRIEVAL_EXPERIMENT_DECISION_MATRIX.md",
+    "length": 115
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RETRIEVAL_METRIC_CONTRACT.md",
+    "length": 809
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RETRIEVAL_MISS_ERROR_ANALYSIS.md",
+    "length": 799
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RETRIEVAL_OPTIMIZATION_PRIORITY.md",
+    "length": 718
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RETRIEVAL_OPTIMIZATION_PROGRAM_CLOSURE.md",
+    "length": 780
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RETRIEVAL_QUALIFICATION_DATASET.md",
+    "length": 1422
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RETRIEVAL_QUALIFICATION_V2.md",
+    "length": 5381
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RETRIEVAL_REFERENCE_BASELINE.md",
+    "length": 348
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_RETRIEVAL_RUNTIME_CONTAMINATION_AUDIT.md",
+    "length": 256
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_BATCH_AND_WRAPPER_PARITY.md",
+    "length": 771
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_CORPUS_QUALITY_AUDIT.md",
+    "length": 709
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_EMPTY_VECTOR_ROOT_CAUSE_ANALYSIS.md",
+    "length": 1149
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_ENCODING_CONFIGURATION_DECISION.md",
+    "length": 525
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_FP16_FP32_ANALYSIS.md",
+    "length": 851
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_FULL_CORPUS_PRECISION_MATRIX.md",
+    "length": 28747
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_HISTORICAL_INDEX_RECONCILIATION.md",
+    "length": 673
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_INDEX_CORRECTIVE_ACTION.md",
+    "length": 333
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_INVOCATION_PATH_ANALYSIS.md",
+    "length": 21756
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_MODEL_INPUT_FIELD_AUDIT.md",
+    "length": 223
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_PRECISION_RESOURCE_QUALIFICATION.md",
+    "length": 260
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_PROCESS_AND_BATCH_STABILITY.md",
+    "length": 3738
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_SPARSE_REPRESENTATION_DIAGNOSTIC.md",
+    "length": 3096
+  },
+  {
+    "path": "docs/retrieval-optimization/V23_STRUCTURED_RETRIEVAL_CONTENT_QUALIFICATION.md",
+    "length": 12925
+  },
+  {
+    "path": "docs/v24_dataset_protocol/01_DATASET_OBJECTIVES.md",
+    "length": 2699
+  },
+  {
+    "path": "docs/v24_dataset_protocol/11_PILOT_60_DESIGN.md",
+    "length": 1773
+  },
+  {
+    "path": "docs/v24_dataset_protocol/12_DATASET_VERSIONING_AND_MANIFEST.md",
+    "length": 1449
+  },
+  {
+    "path": "docs/v24_dataset_protocol/13_DATASET_COLLECTION_RUNBOOK.md",
+    "length": 2333
+  },
+  {
+    "path": "docs/v24_dataset_protocol/16_PILOT_READINESS.md",
+    "length": 1540
+  },
+  {
+    "path": "docs/v24_dataset_protocol/dataset_protocol_validation.json",
+    "length": 2284
+  },
+  {
+    "path": "docs/v24_dataset_protocol/inventory/rg_dataset_assets.txt",
+    "length": 805056
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/dataset_annotation.schema.json",
+    "length": 4021
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/dataset_candidate.schema.json",
+    "length": 3951
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/dataset_gold.schema.json",
+    "length": 2186
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/dataset_manifest.schema.json",
+    "length": 2030
+  },
+  {
+    "path": "docs/v24_golden_path_live/05_GOLDEN_PATH_EXECUTION.md",
+    "length": 62
+  },
+  {
+    "path": "docs/v24_golden_path_live/config/start-admin-api-goldenpath.ps1",
+    "length": 1400
+  },
+  {
+    "path": "docs/v24_golden_path_live/config/start-fastapi-goldenpath.ps1",
+    "length": 1991
+  },
+  {
+    "path": "docs/v24_golden_path_live/config/start-wx-api-goldenpath.ps1",
+    "length": 907
+  },
+  {
+    "path": "docs/v24_golden_path_live/golden_path_live_validation.json",
+    "length": 7154
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/database/golden_path_after_patrol_persistence.txt",
+    "length": 7308
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/database/golden_path_comment_persistence_before_patrol.txt",
+    "length": 2460
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/golden_path_user_flow_summary.json",
+    "length": 224
+  },
+  {
+    "path": "docs/v24_reranker_compat/install_run/v24-trace-replay.xml",
+    "length": 4999
+  },
+  {
+    "path": "docs/v24_reranker_compat/install_run/v24-trace-replay-exit.txt",
+    "length": 25
+  }
+]

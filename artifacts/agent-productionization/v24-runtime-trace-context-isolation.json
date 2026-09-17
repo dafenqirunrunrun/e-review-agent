@@ -1,0 +1,12 @@
+{
+  "concurrencyLevels": [
+    8
+  ],
+  "contextIsolationGate": "E_REVIEW_V24_RUNTIME_TRACE_CONTEXT_ISOLATION_PASS",
+  "executionContamination": 0,
+  "orphanEvents": 0,
+  "requestContamination": 0,
+  "requests": 32,
+  "traceContamination": 0,
+  "wrongParentSpans": 0
+}

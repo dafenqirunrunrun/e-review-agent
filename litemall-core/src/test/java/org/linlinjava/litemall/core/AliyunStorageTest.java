@@ -14,8 +14,8 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-
-import static org.junit.Assume.assumeTrue;
+import java.net.URL;
+import java.util.Objects;
 
 @WebAppConfiguration
 @RunWith(SpringRunner.class)
@@ -28,9 +28,14 @@ public class AliyunStorageTest {
 
     @Test
     public void test() throws IOException {
-        assumeTrue("External storage integration tests require LITEMALL_RUN_EXTERNAL_STORAGE_TESTS=true",
-                "true".equalsIgnoreCase(System.getenv("LITEMALL_RUN_EXTERNAL_STORAGE_TESTS")));
-        String test = getClass().getClassLoader().getResource("litemall.png").getFile();
+        ExternalStorageTestSupport.assumeProviderReady(
+                "Aliyun",
+                "LITEMALL_STORAGE_ALIYUN_ENDPOINT",
+                "LITEMALL_STORAGE_ALIYUN_ACCESS_KEY_ID",
+                "LITEMALL_STORAGE_ALIYUN_ACCESS_KEY_SECRET",
+                "LITEMALL_STORAGE_ALIYUN_BUCKET_NAME");
+        URL testResource = Objects.requireNonNull(getClass().getClassLoader().getResource("litemall.png"));
+        String test = testResource.getFile();
         File testFile = new File(test);
         aliyunStorage.store(new FileInputStream(test), testFile.length(), "image/png", "litemall.png");
         Resource resource = aliyunStorage.loadAsResource("litemall.png");

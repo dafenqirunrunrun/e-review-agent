@@ -1,0 +1,8 @@
+{
+  "defaultBoundaryGate": "E_REVIEW_V24_RUNTIME_TRACE_DEFAULT_BOUNDARY_PASS",
+  "payloadCaptureEnabledByDefault": false,
+  "replayEnabledByDefault": false,
+  "sampleRateDefault": 0.0,
+  "traceEnabledByDefault": false,
+  "traceSinkDefault": "none"
+}

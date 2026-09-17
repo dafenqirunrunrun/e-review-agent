@@ -1,0 +1,12 @@
+{
+  "blockedReason": "structured retrieval and/or real BGE-M3 sparse runtime did not qualify",
+  "checks": {
+    "datasetV2Present": true,
+    "runtimeIntegrationNotAllowedInPhase93": true,
+    "sparseRuntimePass": false,
+    "structuredQualified": false
+  },
+  "decision": "RETRIEVAL_REPRESENTATION_QUALIFICATION_BLOCKED",
+  "schemaVersion": "agent-rag-v23-retrieval-representation-gate-v1",
+  "status": "BLOCKED"
+}

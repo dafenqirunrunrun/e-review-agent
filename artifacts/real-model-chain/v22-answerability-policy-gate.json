@@ -1,0 +1,7 @@
+{
+  "decision": "CALIBRATION_DATA_INSUFFICIENT",
+  "policyType": "none",
+  "runtimeIntegrationAllowed": false,
+  "schemaVersion": "agent-rag-v22-answerability-policy-gate-v1",
+  "status": "BLOCKED"
+}

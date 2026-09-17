@@ -1,0 +1,37 @@
+{
+  "marker": "MULTIMODAL_VLM_EVAL_BLOCKED",
+  "external_multimodal_count": 0,
+  "required_external_multimodal_count": 40,
+  "model_available": false,
+  "model_dir_kind": "repo_external_configured_path",
+  "metrics": {
+    "visual_schema_valid_rate": null,
+    "visual_field_complete_rate": null,
+    "image_quality_accuracy": null,
+    "ocr_exact_match": null,
+    "ocr_character_f1": null,
+    "package_damage_f1": null,
+    "product_damage_f1": null,
+    "leakage_f1": null,
+    "missing_part_f1": null,
+    "product_mismatch_f1": null,
+    "irrelevant_image_f1": null,
+    "text_image_consistency_macro_f1": null,
+    "visual_evidence_support_rate": null,
+    "visual_unsupported_claim_rate": null,
+    "privacy_risk_recall": null,
+    "fallback_rate": null,
+    "avg_latency_ms": null,
+    "p95_latency_ms": null,
+    "gpu_peak_memory_mb": null
+  },
+  "blocking_reasons": [
+    "real multimodal external test set requires at least 40 samples; current=0",
+    "local Qwen3-VL/Qwen2.5-VL config, processor/tokenizer, and weights are not available outside Git"
+  ],
+  "notes": [
+    "Metric values remain null until real image inference is executed on an isolated external multimodal test set.",
+    "The script does not use image filenames, paths, or manual labels as visual understanding.",
+    "Original real images must remain outside Git."
+  ]
+}

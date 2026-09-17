@@ -5,6 +5,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.linlinjava.litemall.core.util.ResponseUtil;
 import org.linlinjava.litemall.db.domain.LitemallComment;
+import org.linlinjava.litemall.db.domain.ReviewRatingSource;
 import org.linlinjava.litemall.db.service.LitemallCommentService;
 import org.linlinjava.litemall.db.service.LitemallGoodsService;
 import org.linlinjava.litemall.db.service.LitemallTopicService;
@@ -52,7 +53,7 @@ public class WxCommentController {
         if (star == null) {
             return ResponseUtil.badArgument();
         }
-        if (star < 0 || star > 5) {
+        if (star < 1 || star > 5) {
             return ResponseUtil.badArgumentValue();
         }
 
@@ -97,6 +98,7 @@ public class WxCommentController {
         }
 
         comment.setUserId(userId);
+        comment.setRatingSource(ReviewRatingSource.USER_PROVIDED.name());
         commentService.save(comment);
         return ResponseUtil.ok(comment);
     }

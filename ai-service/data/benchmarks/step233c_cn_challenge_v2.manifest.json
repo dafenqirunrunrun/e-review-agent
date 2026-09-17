@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "step23.3c-cn-challenge-manifest-v2",
+  "datasetVersion": "step23.3c-cn-challenge-v2",
+  "status": "FROZEN_DIAGNOSTIC",
+  "promotionEligible": false,
+  "promotionIneligibleReasons": [
+    "The set reuses candidate-exposed v1 texts.",
+    "Policy judgments require independent human adjudication.",
+    "Qrels are pooled partial judgments; unjudged chunks are not irrelevant."
+  ],
+  "dataset": {
+    "path": "step233c_cn_challenge_v2.jsonl",
+    "sha256": "B667E49C6D39994BDA6E0685BD888DE70DA5F7E51282864A728EB84F72066A50"
+  },
+  "reflectionScenarios": {
+    "path": "step233c_reflection_scenarios_v2.jsonl",
+    "sha256": "9249E50873C597083D9E694A56B3E948320CA0FDCB791AD22CE5EE27EF0C8BB4"
+  },
+  "language": "zh",
+  "policyScope": {
+    "jurisdiction": "unspecified",
+    "sourceRole": "indexed public policy reference; not a legal applicability determination",
+    "precedence": [
+      "direct primary-risk clause",
+      "direct secondary-risk clause",
+      "general supporting context"
+    ]
+  },
+  "qualityRepairs": [
+    "Preserved v1 unchanged and versioned the repaired contract.",
+    "Separated semantic relevance from source authority and applicability.",
+    "Added per-judgment rationale and explicit alternative primary policies.",
+    "Removed the incomplete FTC 465.7 lead-in chunk from qrels.",
+    "Added 15 genuine normal hard negatives.",
+    "Renamed risk-bearing lexical distractors to risk_distractor.",
+    "Added ambiguity confidence and acceptable primary labels.",
+    "Separated text-only and rating-aware route evaluation modes.",
+    "Added deterministic Reflection three-state and citation-failure scenarios."
+  ],
+  "evaluationRules": {
+    "componentRanking": "May use annotated riskTypes, but must be reported as conditional retrieval.",
+    "endToEnd": "Must use predicted riskTypes and report Router misses separately.",
+    "unjudgedChunks": "Must be reported as unjudged, never silently converted to relevance zero.",
+    "decision": "Decision accuracy is diagnostic; high-risk human-review invariance must not inflate quality claims.",
+    "route": "Report text_only and rating_aware results separately."
+  },
+  "validation": {
+    "caseCount": 120,
+    "rankingCaseCount": 95,
+    "normalCaseCount": 25,
+    "trueNormalHardNegativeCount": 15,
+    "sliceCounts": {
+      "multi_risk_precedence": 30,
+      "implicit_colloquial": 25,
+      "risk_distractor": 20,
+      "normal_hard_negative": 15,
+      "normal_easy": 10,
+      "long_noisy": 10,
+      "boundary_ambiguous": 10
+    },
+    "primaryRiskCounts": {
+      "fake_review": 19,
+      "rating_manipulation": 18,
+      "harassment_or_abuse": 9,
+      "review_suppression": 16,
+      "privacy_risk": 13,
+      "safety_or_fraud_risk": 11,
+      "after_sales_risk": 9,
+      "normal_review": 25
+    },
+    "annotationConfidenceCounts": {
+      "high": 110,
+      "low": 9,
+      "medium": 1
+    },
+    "reflectionScenarioCount": 28,
+    "reflectionStatusCounts": {
+      "supported": 7,
+      "insufficient": 14,
+      "mismatch": 7
+    },
+    "uniquePolicyChunkCount": 25,
+    "judgedCorpusCoverage": 0.3521,
+    "v1ExactTextReuseCount": 105,
+    "allChinese": true,
+    "contentRootHash": "cf7dc1e5f46048ba62a5273f44e9a8b4d1e56e80713ea10f0be5ae7fe75024e8"
+  },
+  "humanAdjudication": {
+    "status": "PENDING",
+    "requiredBeforePromotionUse": true,
+    "requiredChecks": [
+      "primary risk precedence",
+      "alternative acceptable labels",
+      "policy relevance and applicability",
+      "pooled unjudged policy chunks"
+    ]
+  }
+}

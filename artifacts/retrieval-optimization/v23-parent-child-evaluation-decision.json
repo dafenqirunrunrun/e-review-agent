@@ -1,0 +1,112 @@
+{
+  "blockingReasons": [
+    "coverageOrDeepRankPass",
+    "independentIncrementPass",
+    "rankingQualityPass"
+  ],
+  "checks": {
+    "coverageOrDeepRankPass": false,
+    "independentIncrementPass": false,
+    "noAnswerPass": true,
+    "parentHitRatePass": true,
+    "rankingQualityPass": false,
+    "resourcePass": true,
+    "safetyPass": true
+  },
+  "decision": "PARENT_AWARE_QUALITY_BLOCKED",
+  "quality": {
+    "corpusHashes": {
+      "evaluationFlatCandidateCorpusHash": "628396d36cc864072fc55678ff99abe36979c270879dd1386cf118cef30ee212",
+      "evaluationFlatFinalEvidenceCorpusHash": "af829d54bcac0e8a58138d3a7d0af849dd446b232f17a94d46840972267a1cb4",
+      "evaluationFlatRankingCorpusHash": "43e31c5c2428d6c3a434ba9eb765f3ff0c0a744ce8cfaf51c6d7845ec1d26c5c",
+      "evaluationHierarchicalCandidateCorpusHash": "c61106a205b4dca22e59efcb8cdc84901e64d01d625f5c11da349c44fcb0d19c",
+      "evaluationParentAwareFinalEvidenceCorpusHash": "5e2daecf1eff859b8bb57ce7180d1d807d7340ad1dd3d0c8c9ba1e4897fc97cd",
+      "evaluationParentAwareRankingCorpusHash": "c400e27dec5470fa3be9889a4aebce20a1ce5a51bb806b205799046f42deca0e",
+      "evaluationParentCandidateCorpusHash": "43e7be57146dffab5eba71b80775d0c174eb6ccc5823c4c4dd4b878f215d9c6a",
+      "evaluationUnionCandidateCorpusHash": "8cc2587354e6abdc776600cdb106269c51c1957cfd7dd97ac632d931ee677e1f"
+    },
+    "coverageAt20Lift": -0.016667,
+    "deepRank": {
+      "deepRankCaseCount": 12,
+      "deepRankRecoveredAt20": 3,
+      "deepRankRecoveredAt30": 12,
+      "deepRankRecoveryRateAt20": 0.25,
+      "deepRankRecoveryRateAt30": 1.0,
+      "medianRelevantRankAfter": 24,
+      "medianRelevantRankBefore": 26,
+      "p95RelevantRankAfter": 30,
+      "p95RelevantRankBefore": 28
+    },
+    "flat": {
+      "caseCount": 120,
+      "coverageAt10": 0.5,
+      "coverageAt20": 0.65,
+      "coverageAt30": 0.75,
+      "coverageAt5": 0.3,
+      "mrr": 0.17893,
+      "ndcgAt5": 0.177197,
+      "recallAt10": 0.5,
+      "recallAt20": 0.65,
+      "recallAt30": 0.75,
+      "recallAt5": 0.3
+    },
+    "flatOnlyHitCount": 5,
+    "hitBreakdown": {
+      "BOTH_HIT": 73,
+      "FLAT_ONLY_HIT": 5,
+      "NEITHER_HIT": 39,
+      "PARENT_AWARE_ONLY_HIT": 3
+    },
+    "netRecoveredCaseCount": -2,
+    "noAnswer": {
+      "flatFalseEvidenceRate": 0.0,
+      "flatNoAnswerPreservationRate": 1.0,
+      "lowScoreBackfillCount": 0,
+      "noAnswerCaseCount": 30,
+      "parentAwareFalseEvidenceRate": 0.0,
+      "parentAwareNoAnswerPreservationRate": 1.0
+    },
+    "parentAware": {
+      "caseCount": 120,
+      "coverageAt10": 0.5,
+      "coverageAt20": 0.633333,
+      "coverageAt30": 0.75,
+      "coverageAt5": 0.275,
+      "mrr": 0.170905,
+      "ndcgAt5": 0.163507,
+      "recallAt10": 0.5,
+      "recallAt20": 0.633333,
+      "recallAt30": 0.75,
+      "recallAt5": 0.275
+    },
+    "parentAwareOnlyHitCount": 3,
+    "parentAwareOnlyHitRate": 0.025,
+    "parentHitRateAt10": 0.916667,
+    "parentHitRateAt18": 1.0,
+    "parentHitRateAt5": 0.858333,
+    "relevantParentMedianRank": 2,
+    "relevantParentP95Rank": 17,
+    "resource": {
+      "flatRetrievalP50Ms": 0.579,
+      "flatRetrievalP95Ms": 0.8241,
+      "flatRetrievalP99Ms": 0.8847,
+      "indexSizeRatio": 1.06,
+      "latencyRatioP95": 0.417789,
+      "parentAwareRetrievalP50Ms": 0.2626,
+      "parentAwareRetrievalP95Ms": 0.3443,
+      "parentAwareRetrievalP99Ms": 0.4159
+    },
+    "safety": {
+      "contentHashMismatch": 0,
+      "crossParentTenantViolation": 0,
+      "disabledEvidenceAccepted": 0,
+      "expiredEvidenceAccepted": 0,
+      "fallbackUsedCount": 0,
+      "inactiveEvidenceAccepted": 0,
+      "lowScoreBackfillCount": 0,
+      "nonFiniteScoreCount": 0,
+      "tenantViolations": 0,
+      "tombstonedEvidenceAccepted": 0
+    }
+  }
+}

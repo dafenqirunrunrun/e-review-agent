@@ -1,0 +1,15 @@
+{
+  "status": "V182_BENCHMARK_PROVENANCE_PASS",
+  "corpus_query_root_overlap": 0,
+  "template_family_overlap": 0,
+  "seed_overlap": 0,
+  "exact_query_document_overlap": 0,
+  "gold_id_exposure": 0,
+  "answer_literal_exposure": 0,
+  "hidden_unique_key_exposure": 0,
+  "fixed_rank_leakage": 0,
+  "document_order_leakage": 0,
+  "query_label_leakage": 0,
+  "excessive_jaccard_ratio": 0.0,
+  "excessive_ngram_overlap_ratio": 0.0
+}

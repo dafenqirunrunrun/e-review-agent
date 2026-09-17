@@ -1,0 +1,150 @@
+{
+  "marker": "VLM_PROVIDER_SMOKE_BLOCKED",
+  "provider": "local_qwen3_vl_transformers",
+  "model_name": "Qwen3-VL-2B-Instruct",
+  "model_dir": "D:\\EReviewAgent\\models\\Qwen3-VL-2B-Instruct",
+  "model_source": "Hugging Face official repository: Qwen/Qwen3-VL-2B-Instruct",
+  "model_files": {
+    "exists": true,
+    "file_count": 0,
+    "total_size_mb": 0.0,
+    "has_config": false,
+    "has_processor_or_tokenizer": false,
+    "has_weight_file": false
+  },
+  "config": {
+    "device": "cuda",
+    "dtype": "auto",
+    "max_new_tokens": 384,
+    "max_images": 4,
+    "max_pixels": 1048576,
+    "min_pixels": 65536,
+    "timeout_seconds": 180,
+    "enable_thinking": false,
+    "lazy_load": true,
+    "unload_after_request": true
+  },
+  "dependencies": {
+    "torch": true,
+    "transformers": true,
+    "accelerate": false,
+    "PIL": true,
+    "huggingface_hub": true
+  },
+  "gpu": {
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_memory_total_mb": 8187.5,
+    "gpu_memory_allocated_mb": 0.0,
+    "gpu_memory_reserved_mb": 0.0
+  },
+  "metrics": {
+    "total_samples": 12,
+    "real_vlm_inference_count": 0,
+    "vlm_success_rate": 0.0,
+    "visual_schema_valid_rate": 0,
+    "visual_field_complete_rate": 0,
+    "fallback_rate": 1,
+    "invalid_json_count": 0,
+    "repair_used_rate": 0,
+    "avg_latency_ms": 3.87,
+    "p95_latency_ms": 5.01,
+    "gpu_peak_memory_mb": 0.0,
+    "oom_count": 0,
+    "unload_success_rate": 0,
+    "privacy_smoke_detection_rate": 0
+  },
+  "attempts": [
+    {
+      "sample_id": "vlm-smoke-01-intact-box",
+      "status_code": 503,
+      "latency_ms": 5.6,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-02-dented-box",
+      "status_code": 503,
+      "latency_ms": 3.65,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-03-package-damage-text",
+      "status_code": 503,
+      "latency_ms": 3.44,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-04-blurred",
+      "status_code": 503,
+      "latency_ms": 3.66,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-05-occluded",
+      "status_code": 503,
+      "latency_ms": 3.93,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-06-unrelated-landscape",
+      "status_code": 503,
+      "latency_ms": 3.73,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-07-color-mismatch",
+      "status_code": 503,
+      "latency_ms": 3.53,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-08-leakage",
+      "status_code": 503,
+      "latency_ms": 3.01,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-09-missing-part",
+      "status_code": 503,
+      "latency_ms": 5.01,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-10-privacy-phone",
+      "status_code": 503,
+      "latency_ms": 3.09,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-11-blank",
+      "status_code": 503,
+      "latency_ms": 4.51,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    },
+    {
+      "sample_id": "vlm-smoke-12-multi-panel",
+      "status_code": 503,
+      "latency_ms": 3.29,
+      "real_vlm_inference": false,
+      "error": "{\"detail\":\"VLM_MODEL_NOT_AVAILABLE\"}"
+    }
+  ],
+  "manifest": "D:\\EReviewAgent\\litemall\\.runtime\\vlm-smoke\\vlm_smoke_manifest.jsonl",
+  "blocking_reasons": [
+    "VLM_MODEL_WEIGHTS_NOT_AVAILABLE",
+    "ACCELERATE_NOT_INSTALLED_FOR_TRANSFORMERS_DEVICE_MAP",
+    "NO_REAL_TRANSFORMERS_VLM_INFERENCE_RECORDED"
+  ],
+  "forbidden_success_markers_emitted": false
+}

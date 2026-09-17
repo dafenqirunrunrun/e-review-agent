@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://e-review-agent.local/schemas/offline/v22-offline-bundle.schema.json",
+  "title": "E-Review Agent v2.2 Offline Bundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "bundleId",
+    "createdAtUtc",
+    "targetPlatform",
+    "targetPython",
+    "sourceModelRevisions",
+    "wheelhouseManifestHash",
+    "portableAssetManifestHash",
+    "allFileCount",
+    "allFileBytes",
+    "files"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "bundleId": {
+      "type": "string",
+      "minLength": 8
+    },
+    "createdAtUtc": {
+      "type": "string"
+    },
+    "targetPlatform": {
+      "type": "string",
+      "minLength": 3
+    },
+    "targetPython": {
+      "type": "string",
+      "minLength": 3
+    },
+    "sourceModelRevisions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 7
+      }
+    },
+    "wheelhouseManifestHash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "portableAssetManifestHash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "allFileCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "allFileBytes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["relativePath", "sizeBytes", "sha256"],
+        "properties": {
+          "relativePath": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sizeBytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          }
+        }
+      }
+    }
+  }
+}

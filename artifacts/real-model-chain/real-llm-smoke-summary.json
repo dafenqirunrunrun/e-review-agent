@@ -1,0 +1,38 @@
+{
+  "modelId": "Qwen/Qwen3-1.7B",
+  "pathLabel": "qwen3-1.7b",
+  "provider": "local_qwen3_transformers",
+  "fallbackUsed": false,
+  "realGenerate": true,
+  "cudaUsed": true,
+  "enableThinking": false,
+  "status": "PASS",
+  "cudaBeforeMb": 0.0,
+  "modelClass": "Qwen3ForCausalLM",
+  "inputTokens": 197,
+  "outputTokens": 104,
+  "rawOutputHash": "a487a573204b87d01d635de4",
+  "jsonParsed": true,
+  "schemaValid": true,
+  "validationReasons": [],
+  "payloadKeys": [
+    "abstain",
+    "action",
+    "citationIds",
+    "confidence",
+    "requiresHumanReview",
+    "riskLevel",
+    "riskTypes",
+    "summary",
+    "uncertaintyReason"
+  ],
+  "citationValid": true,
+  "grounded": true,
+  "cudaPeakMb": 3326.15,
+  "tokensPerSecond": 5.418,
+  "cudaAfterMb": 8.13,
+  "durationMs": 19370,
+  "tokens": [
+    "AGENT_RAG_V22_REAL_LLM_RUNTIME_PASS"
+  ]
+}

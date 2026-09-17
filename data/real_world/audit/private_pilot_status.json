@@ -1,0 +1,56 @@
+{
+  "marker": "REALWORLD_PRIVATE_PILOT_COMPLETE",
+  "pilot_root": "D:\\EReviewAgent\\data-private\\realworld-pilot",
+  "git_excluded_raw_data": true,
+  "sources": [
+    "asap_chinese_reviews",
+    "amazon_reviews_2023"
+  ],
+  "acquisition": [
+    {
+      "source_id": "asap_chinese_reviews",
+      "raw_bytes": 36475033,
+      "selected": 150
+    },
+    {
+      "source_id": "amazon_reviews_2023",
+      "raw_bytes": null,
+      "selected": 150,
+      "image_jobs": 18,
+      "cached": true
+    }
+  ],
+  "text_pilot_count": 300,
+  "multimodal_pilot_count": 11,
+  "image_download_attempted": 18,
+  "image_download_success": 9,
+  "image_download_failed": 0,
+  "image_download_skipped": 9,
+  "image_download_success_rate": 0.5,
+  "privacy_counts": {
+    "cleared": 284,
+    "redacted": 16
+  },
+  "category_counts": {
+    "restaurant_o2o": 150,
+    "All_Beauty": 150
+  },
+  "rating_counts": {
+    "5": 79,
+    "4": 47,
+    "1": 8,
+    "3": 11,
+    "2": 5
+  },
+  "language_counts": {
+    "zh": 150,
+    "en": 150
+  },
+  "taxonomy_mapped_ratio": 1.0,
+  "vlm_pilot_status": "REALWORLD_VLM_PILOT_BLOCKED",
+  "real_vlm_inference_count": 0,
+  "fallback_rate": null,
+  "oom_count": 0,
+  "external_test": false,
+  "sft": false
+}

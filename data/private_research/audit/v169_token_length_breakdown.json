@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-07-15T14:38:57.525766+00:00",
+  "status": "V169_TOKEN_LENGTH_BREAKDOWN_COMPLETE",
+  "sample_count": 390,
+  "max_length": 384,
+  "total_tokens": {
+    "p50": 356,
+    "p75": 367,
+    "p90": 385,
+    "p95": 390,
+    "p99": 396,
+    "max": 400,
+    "mean": 359.6897
+  },
+  "system_tokens": {
+    "p50": 214,
+    "p75": 214,
+    "p90": 214,
+    "p95": 214,
+    "p99": 214,
+    "max": 214,
+    "mean": 214.0
+  },
+  "user_tokens": {
+    "p50": 66,
+    "p75": 69,
+    "p90": 74,
+    "p95": 81,
+    "p99": 85,
+    "max": 85,
+    "mean": 64.741
+  },
+  "completion_tokens": {
+    "p50": 77,
+    "p75": 79,
+    "p90": 99,
+    "p95": 102,
+    "p99": 105,
+    "max": 105,
+    "mean": 80.9487
+  },
+  "field_tokens": {
+    "schema_version_tokens": {
+      "p50": 11,
+      "p75": 11,
+      "p90": 11,
+      "p95": 11,
+      "p99": 11,
+      "max": 11,
+      "mean": 11.0
+    },
+    "risk_type_tokens": {
+      "p50": 7,
+      "p75": 9,
+      "p90": 9,
+      "p95": 9,
+      "p99": 9,
+      "max": 9,
+      "mean": 7.8718
+    },
+    "risk_level_tokens": {
+      "p50": 6,
+      "p75": 6,
+      "p90": 6,
+      "p95": 6,
+      "p99": 6,
+      "max": 6,
+      "mean": 6.0
+    },
+    "text_evidence_tokens": {
+      "p50": 12,
+      "p75": 13,
+      "p90": 35,
+      "p95": 38,
+      "p99": 41,
+      "max": 41,
+      "mean": 16.0769
+    },
+    "visual_evidence_tokens": {
+      "p50": 6,
+      "p75": 6,
+      "p90": 6,
+      "p95": 6,
+      "p99": 6,
+      "max": 6,
+      "mean": 6.0
+    },
+    "retrieved_case_evidence_tokens": {
+      "p50": 9,
+      "p75": 9,
+      "p90": 9,
+      "p95": 9,
+      "p99": 9,
+      "max": 9,
+      "mean": 9.0
+    },
+    "need_human_review_tokens": {
+      "p50": 7,
+      "p75": 7,
+      "p90": 7,
+      "p95": 7,
+      "p99": 7,
+      "max": 7,
+      "mean": 7.0
+    },
+    "route_reason_tokens": {
+      "p50": 15,
+      "p75": 15,
+      "p90": 15,
+      "p95": 15,
+      "p99": 15,
+      "max": 15,
+      "mean": 15.0
+    },
+    "missing_information_tokens": {
+      "p50": 5,
+      "p75": 5,
+      "p90": 5,
+      "p95": 5,
+      "p99": 5,
+      "max": 5,
+      "mean": 5.0
+    },
+    "unsupported_claims_tokens": {
+      "p50": 6,
+      "p75": 6,
+      "p90": 6,
+      "p95": 6,
+      "p99": 6,
+      "max": 6,
+      "mean": 6.0
+    }
+  },
+  "truncated_sample_count": 44,
+  "truncation_rate": 0.11282051282051282,
+  "first_truncated_component_distribution": {
+    "assistant_json": 44
+  },
+  "longest_field_distribution": {
+    "route_reason_tokens": 306,
+    "text_evidence_tokens": 84
+  },
+  "eos_truncated_count": 44,
+  "primary_root_cause": "TARGET_EVIDENCE_TOO_VERBOSE"
+}

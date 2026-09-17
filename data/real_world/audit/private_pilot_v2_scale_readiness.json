@@ -1,0 +1,24 @@
+{
+  "marker": "PRIVATE_PILOT_V2_NOT_READY_FOR_SCALE",
+  "PRIVATE_MULTIMODAL_PILOT_TECHNICALLY_READY": false,
+  "FORMAL_REALWORLD_DATA_RIGHTS_READY": false,
+  "PRIVATE_PILOT_READY_FOR_LARGER_INTERNAL_SCALE": false,
+  "EXTERNAL_TEST_ISOLATION_AUDIT_PASS": true,
+  "technical_checks": {
+    "valid_multimodal_records_at_least_20": false,
+    "valid_images_at_least_20": false,
+    "download_success_rate_at_least_0_80": false,
+    "safe_images_at_least_5": false,
+    "REALWORLD_VLM_PILOT_PASS": false,
+    "final_schema_valid_rate_at_least_0_95": false,
+    "fallback_rate_at_most_0_10": true,
+    "oom_count_zero": true,
+    "privacy_text_leak_count_zero": true,
+    "duplicate_audit_complete": true
+  },
+  "formal_external_test_allowed": false,
+  "sft_allowed": false,
+  "dpo_allowed": false,
+  "release_tag_allowed": false,
+  "created_at": "2026-07-14T09:39:00.794532+00:00"
+}

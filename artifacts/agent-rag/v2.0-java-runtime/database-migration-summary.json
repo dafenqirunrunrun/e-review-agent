@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "database": "litemall",
+  "tables": [
+    "litemall_agent_rag_evidence",
+    "litemall_agent_rag_override",
+    "litemall_agent_rag_run"
+  ],
+  "uniqueConstraints": [
+    "PRIMARY",
+    "uk_agent_rag_evidence_run",
+    "uk_agent_rag_evidence_tenant_id",
+    "uk_agent_rag_run_idem",
+    "uk_agent_rag_run_tenant_request"
+  ],
+  "indexes": [
+    "PRIMARY",
+    "idx_agent_rag_evidence_request",
+    "idx_agent_rag_override_run_time",
+    "idx_agent_rag_override_tenant_time",
+    "idx_agent_rag_run_evidence",
+    "idx_agent_rag_run_risk_time",
+    "idx_agent_rag_run_status_time",
+    "idx_agent_rag_run_subject",
+    "uk_agent_rag_evidence_run",
+    "uk_agent_rag_evidence_tenant_id",
+    "uk_agent_rag_run_idem",
+    "uk_agent_rag_run_tenant_request"
+  ],
+  "missing": [],
+  "migrationApplied": true
+}

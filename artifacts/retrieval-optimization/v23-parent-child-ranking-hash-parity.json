@@ -1,0 +1,57 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-ranking-hash-parity-v1",
+  "caseOrderCanonicalizedByCaseId": true,
+  "comparisonSummary": {
+    "allHashesMatch": true,
+    "coverageAt20TargetPass": true,
+    "deepRankRecoveryTargetPass": true,
+    "hashMatches": {
+      "childBm25Fingerprint": true,
+      "childFaissProbeHash": true,
+      "childIndexCanonicalFingerprint": true,
+      "deterministicRankingCorpusHash": true,
+      "finalEvidenceCorpusHash": true,
+      "flatCandidateCorpusHash": true,
+      "hierarchicalCandidateCorpusHash": true,
+      "parentBm25Fingerprint": true,
+      "parentCandidateCorpusHash": true,
+      "parentFaissProbeHash": true,
+      "parentIndexCanonicalFingerprint": true,
+      "unionCandidateCorpusHash": true
+    },
+    "hierarchicalOnlyHitTargetPass": true,
+    "metricsMatch": true,
+    "mrrMatchWithinTolerance": true,
+    "ndcgAt5MatchWithinTolerance": true,
+    "safetyPass": true
+  },
+  "comparisons": {
+    "deterministicRankingCorpusHash": true,
+    "finalEvidenceCorpusHash": true,
+    "flatCandidateCorpusHash": true,
+    "hierarchicalCandidateCorpusHash": true,
+    "parentCandidateCorpusHash": true,
+    "unionCandidateCorpusHash": true
+  },
+  "hashContract": "canonical-json-sha256-sort-keys-compact",
+  "rankedHashPreservesOrder": true,
+  "rankingHashParityPass": true,
+  "run1": {
+    "deterministicRankingCorpusHash": "4f527dfc1cf4d05641e5c70e7bd0be04c61155b89cb77e10648f17be42935839",
+    "finalEvidenceCorpusHash": "7d7a3717f1164712dba372808488e26043781c7076465a0abac52ff6953a69bd",
+    "flatCandidateCorpusHash": "c1c211b204c3a7b080ac528610eeaa49903307890265d31371b0b2920233ca0c",
+    "hierarchicalCandidateCorpusHash": "4117788785404e8330eceaedbaf36eac83ceb644b45c249bf8d41eb7ef7e6829",
+    "parentCandidateCorpusHash": "a5b50b77a59c40c61044876a8a34aaef991bd2ff4105d54b2199ed621601823c",
+    "unionCandidateCorpusHash": "c522c323570026cfe06dfabf9fed7a1440a27fe17a231c122688d351ed75b24f"
+  },
+  "run2": {
+    "deterministicRankingCorpusHash": "4f527dfc1cf4d05641e5c70e7bd0be04c61155b89cb77e10648f17be42935839",
+    "finalEvidenceCorpusHash": "7d7a3717f1164712dba372808488e26043781c7076465a0abac52ff6953a69bd",
+    "flatCandidateCorpusHash": "c1c211b204c3a7b080ac528610eeaa49903307890265d31371b0b2920233ca0c",
+    "hierarchicalCandidateCorpusHash": "4117788785404e8330eceaedbaf36eac83ceb644b45c249bf8d41eb7ef7e6829",
+    "parentCandidateCorpusHash": "a5b50b77a59c40c61044876a8a34aaef991bd2ff4105d54b2199ed621601823c",
+    "unionCandidateCorpusHash": "c522c323570026cfe06dfabf9fed7a1440a27fe17a231c122688d351ed75b24f"
+  },
+  "scoresExcludedFromIdsHashes": true,
+  "setHashSortsIds": true
+}

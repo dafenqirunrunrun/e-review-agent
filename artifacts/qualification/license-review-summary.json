@@ -1,0 +1,1454 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-21T05:54:11.098491+00:00",
+  "sourceInventory": "artifacts/qualification/dependency-license-inventory.json",
+  "policy": "compliance/license-policy.yml",
+  "totalPackages": 180,
+  "allowed": 0,
+  "reviewRequired": 180,
+  "denied": 0,
+  "unknown": 180,
+  "status": "LICENSE_REVIEW_REQUIRED",
+  "components": [
+    {
+      "ecosystem": "java",
+      "name": "litemall-core",
+      "version": "${project.version}",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-db",
+      "version": "${project.version}",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-wx-api",
+      "version": "${project.version}",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-admin-api",
+      "version": "${project.version}",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-all",
+      "version": "${project.version}",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "mybatis-spring-boot-starter",
+      "version": "1.3.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "pagehelper-spring-boot-starter",
+      "version": "1.2.5",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "shiro-spring-boot-web-starter",
+      "version": "1.6.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "hibernate-validator",
+      "version": "6.2.0.Final",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "mysql-connector-java",
+      "version": "8.0.28",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "druid-spring-boot-starter",
+      "version": "1.2.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "weixin-java-pay",
+      "version": "4.1.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "weixin-java-miniapp",
+      "version": "4.1.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "qcloudsms",
+      "version": "1.0.5",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "cos_api",
+      "version": "5.6.24",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "aliyun-sdk-oss",
+      "version": "2.5.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "qiniu-java-sdk",
+      "version": "[7.2.0, 7.2.99]",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-starter-json",
+      "version": "2.1.5.RELEASE",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-starter-mail",
+      "version": "2.1.5.RELEASE",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "springfox-swagger2",
+      "version": "2.9.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "springfox-swagger-ui",
+      "version": "2.10.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "kaptcha",
+      "version": "2.3.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "swagger-bootstrap-ui",
+      "version": "1.9.6",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "guava",
+      "version": "32.0.0-jre",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "java-jwt",
+      "version": "3.4.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "aliyun-java-sdk-core",
+      "version": "4.0.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-devtools",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-starter-test",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "powermock-api-mockito",
+      "version": "1.6.6",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "powermock-module-junit4",
+      "version": "1.6.6",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "mockito-core",
+      "version": "1.10.19",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-core",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-db",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "weixin-java-miniapp",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "springfox-swagger-ui",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "springfox-swagger2",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "shiro-spring-boot-web-starter",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "kaptcha",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "swagger-bootstrap-ui",
+      "version": "1.9.6",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-core",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-db",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-wx-api",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-admin-api",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-core",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-db",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-wx-api",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-admin-api",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-starter-tomcat",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "hibernate-validator",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "aliyun-java-sdk-core",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-starter-web",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-starter-mail",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-starter-json",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "qcloudsms",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "cos_api",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "aliyun-sdk-oss",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "qiniu-java-sdk",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "weixin-java-miniapp",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "weixin-java-pay",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-db",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-starter-json",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "mybatis-spring-boot-starter",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "pagehelper-spring-boot-starter",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "mysql-connector-java",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "druid-spring-boot-starter",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "mysql-connector-java",
+      "version": "8.0.28",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "mybatis-generator-plugin",
+      "version": "1.3.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "spring-boot-starter-mail",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-core",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "litemall-db",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "weixin-java-pay",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "weixin-java-miniapp",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "springfox-swagger2",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "springfox-swagger-ui",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "swagger-bootstrap-ui",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "guava",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "java",
+      "name": "java-jwt",
+      "version": "",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "accelerate",
+      "version": "1.14.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "annotated-doc",
+      "version": "0.0.4",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "annotated-types",
+      "version": "0.7.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "anyio",
+      "version": "4.12.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "asttokens",
+      "version": "3.0.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "certifi",
+      "version": "2026.2.25",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "charset-normalizer",
+      "version": "3.4.9",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "click",
+      "version": "8.3.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "colorama",
+      "version": "0.4.6",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "comm",
+      "version": "0.2.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "datasets",
+      "version": "5.0.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "debugpy",
+      "version": "1.8.20",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "decorator",
+      "version": "5.2.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "dill",
+      "version": "0.4.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "exceptiongroup",
+      "version": "1.3.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "executing",
+      "version": "2.2.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "faiss-cpu",
+      "version": "1.8.0.post1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "fastapi",
+      "version": "0.135.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "filelock",
+      "version": "3.20.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "FlagEmbedding",
+      "version": "1.3.5",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "fsspec",
+      "version": "2025.12.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "h11",
+      "version": "0.16.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "hf-xet",
+      "version": "1.4.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "httpcore",
+      "version": "1.0.9",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "httpx",
+      "version": "0.28.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "huggingface-hub",
+      "version": "0.36.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "idna",
+      "version": "3.11",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "iniconfig",
+      "version": "2.0.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "ipykernel",
+      "version": "7.2.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "ipython",
+      "version": "8.38.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "ir_datasets",
+      "version": "0.6.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "jedi",
+      "version": "0.19.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "joblib",
+      "version": "1.5.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "jupyter_client",
+      "version": "8.8.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "jupyter_core",
+      "version": "5.9.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "lxml",
+      "version": "6.1.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "lz4",
+      "version": "4.4.5",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "markdown-it-py",
+      "version": "4.0.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "MarkupSafe",
+      "version": "3.0.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "matplotlib-inline",
+      "version": "0.2.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "mpmath",
+      "version": "1.3.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "multiprocess",
+      "version": "0.70.11",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "nest-asyncio",
+      "version": "1.6.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "networkx",
+      "version": "3.4.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "numpy",
+      "version": "1.26.4",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "packaging",
+      "version": "26.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pandas",
+      "version": "2.3.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "parso",
+      "version": "0.8.6",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "peft",
+      "version": "0.19.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pillow",
+      "version": "12.0.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pip",
+      "version": "26.0.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "platformdirs",
+      "version": "4.9.4",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pluggy",
+      "version": "1.5.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "prompt_toolkit",
+      "version": "3.0.52",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "protobuf",
+      "version": "7.35.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "psutil",
+      "version": "7.2.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pure_eval",
+      "version": "0.2.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pyarrow",
+      "version": "25.0.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pydantic",
+      "version": "2.12.5",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pydantic_core",
+      "version": "2.41.5",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "Pygments",
+      "version": "2.19.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pytest",
+      "version": "8.3.5",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "python-multipart",
+      "version": "0.0.22",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pytz",
+      "version": "2026.1.post1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pyzmq",
+      "version": "27.1.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "regex",
+      "version": "2026.2.28",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "requests",
+      "version": "2.34.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "rich",
+      "version": "14.3.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "safetensors",
+      "version": "0.7.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "scikit-learn",
+      "version": "1.7.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "scipy",
+      "version": "1.15.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "sentence-transformers",
+      "version": "3.0.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "sentencepiece",
+      "version": "0.2.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "setuptools",
+      "version": "82.0.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "shellingham",
+      "version": "1.5.4",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "six",
+      "version": "1.17.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "stack-data",
+      "version": "0.6.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "starlette",
+      "version": "0.52.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "sympy",
+      "version": "1.13.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "timm",
+      "version": "1.0.25",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "tokenizers",
+      "version": "0.19.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "tomli",
+      "version": "2.4.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "torch",
+      "version": "2.5.1+cu121",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "torchaudio",
+      "version": "2.5.1+cu121",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "torchvision",
+      "version": "0.20.1+cu121",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "tornado",
+      "version": "6.5.5",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "tqdm",
+      "version": "4.67.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "traitlets",
+      "version": "5.14.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "transformers",
+      "version": "4.44.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "typer",
+      "version": "0.24.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "typing_extensions",
+      "version": "4.15.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "typing-inspection",
+      "version": "0.4.2",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "tzdata",
+      "version": "2025.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "urllib3",
+      "version": "2.7.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "uvicorn",
+      "version": "0.42.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "wcwidth",
+      "version": "0.6.0",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "wheel",
+      "version": "0.46.3",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    },
+    {
+      "ecosystem": "python",
+      "name": "xxhash",
+      "version": "3.8.1",
+      "detectedLicense": "UNKNOWN",
+      "evidenceSource": "existing-inventory",
+      "policyDecision": "REVIEW_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "noAnswerExcludedFromAnswerableRecall": true,
+    "oldMetricContradictionDetected": true,
+    "rawBudgetedRrfSeparated": true,
+    "rawUnionCoverageGteBm25Coverage": true,
+    "rawUnionCoverageGteDenseCoverage": true,
+    "rawUnionRecallGteBm25Recall": true,
+    "rawUnionRecallGteDenseRecall": true,
+    "recallCoverageSeparated": true
+  },
+  "correctedBm25CoverageAt100": 0.9,
+  "correctedBm25RecallAt100": 0.9,
+  "correctedDenseCoverageAt100": 0.954167,
+  "correctedDenseRecallAt100": 0.954167,
+  "correctedRawUnionCoverageAt100": 0.975,
+  "correctedRawUnionRecallAt100": 0.975,
+  "correctedRrfCoverageAt100": 0.7125,
+  "correctedRrfRecallAt100": 0.7125,
+  "oldDenseRecallAt100": 0.954167,
+  "oldReportedUnionOracleAt100": 0.933333,
+  "rootCause": "old Union Oracle was budgeted/ranked and truncated, not raw BM25 TopK union Dense TopK",
+  "schemaVersion": "agent-rag-v23-retrieval-metric-contract-audit-v1",
+  "status": "PASS"
+}

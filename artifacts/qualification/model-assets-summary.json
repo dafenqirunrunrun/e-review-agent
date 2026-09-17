@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "v2.1-model-assets-audit",
+  "generatedAt": "2026-07-21T01:40:08+00:00",
+  "offlineOnly": true,
+  "absolutePathsRedacted": true,
+  "assets": [
+    {
+      "assetType": "reranker",
+      "envName": "RAG_RERANKER_MODEL_PATH",
+      "available": false,
+      "fileCount": 0,
+      "sizeBytes": 0,
+      "architecture": [],
+      "modelType": null,
+      "weightFormat": [],
+      "assetFingerprint": null,
+      "blockerCodes": [
+        "ENV_PATH_NOT_SET"
+      ]
+    },
+    {
+      "assetType": "llm",
+      "envName": "AGENT_LLM_MODEL_PATH",
+      "available": false,
+      "fileCount": 0,
+      "sizeBytes": 0,
+      "architecture": [],
+      "modelType": null,
+      "weightFormat": [],
+      "assetFingerprint": null,
+      "blockerCodes": [
+        "ENV_PATH_NOT_SET"
+      ]
+    }
+  ]
+}

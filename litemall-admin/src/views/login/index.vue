@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div class="login-container">
     <div class="locale-changer">
       <locale-changer />
@@ -6,7 +6,7 @@
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
       <div class="title-container">
         <h3 class="title">{{ $t('login.page.title') }}</h3>
-        <p class="subtitle">鐢靛晢鍥炬枃璇勮鏅鸿兘娌荤悊绯荤粺</p>
+        <p class="subtitle">电商图文评论智能治理系统</p>
       </div>
 
       <el-form-item prop="username">
@@ -27,17 +27,17 @@
 
       <div class="tips-panel">
         <div class="tips">
-          <span>Use your local demo admin account.</span>
-          <span>Do not commit real passwords.</span>
+          <span>管理员账号：admin123</span>
+          <span>密码：admin123</span>
         </div>
         <div class="tips">
-          <span>婕旂ず閲嶇偣锛欰gent 宸℃銆侀闄╂不鐞嗐€佽繍钀ラ棴鐜€丄gent Trace銆丄gent Eval</span>
+          <span>演示重点：Agent 巡检、风险治理、运营闭环、Agent Trace、Agent Eval</span>
         </div>
       </div>
     </el-form>
 
     <div class="copyright">
-      E-Review Agent 姣曚笟璁捐婕旂ず绯荤粺 路 鍩轰簬寮€婧愮數鍟嗙郴缁熶簩娆″紑鍙?
+      E-Review Agent 毕业设计演示系统 · 基于开源电商系统二次开发
     </div>
   </div>
 </template>
@@ -52,22 +52,22 @@ export default {
   data() {
     const validatePassword = (rule, value, callback) => {
       if (value.length < 6) {
-        callback(new Error('Password length should be greater than 6'))
+        callback(new Error('管理员密码长度应大于 6'))
       } else {
         callback()
       }
     }
     return {
       loginForm: {
-        username: '',
-        password: '',
+        username: 'admin123',
+        password: 'admin123',
         code: ''
       },
       codeImg: '',
       loginRules: {
-        username: [{ required: true, message: 'Username is required', trigger: 'blur' }],
+        username: [{ required: true, message: '管理员账号不能为空', trigger: 'blur' }],
         password: [
-          { required: true, message: 'Password is required', trigger: 'blur' },
+          { required: true, message: '管理员密码不能为空', trigger: 'blur' },
           { validator: validatePassword, trigger: 'blur' }
         ]
       },
@@ -104,7 +104,7 @@ export default {
               this.codeImg = response.data.data
             }
             this.$notify.error({
-              title: '澶辫触',
+              title: '失败',
               message: response.data.errmsg
             })
             this.loading = false
@@ -244,4 +244,3 @@ $light_gray:#eee;
   }
 }
 </style>
-

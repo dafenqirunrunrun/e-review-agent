@@ -1,0 +1,85 @@
+{
+  "caseLevelPrecisionDifference": true,
+  "conclusion": "FP16_FP32_SPARSE_STABILITY_PARITY",
+  "rows": [
+    {
+      "activeTokenSetJaccardMean": 0.124183,
+      "batchSize": 1,
+      "bothEmpty": 19,
+      "bothNonEmpty": 32,
+      "fp16NonEmptyCount": 33,
+      "fp16OnlyNonEmpty": 1,
+      "fp32NonEmptyCount": 133,
+      "fp32OnlyNonEmpty": 101,
+      "invocationPath": "ORIGINAL_INDEX_BUILDER_PATH",
+      "topTokenRankAgreement": "HASH_LEVEL_ONLY",
+      "weightRankCorrelation": "HASH_LEVEL_ONLY"
+    },
+    {
+      "activeTokenSetJaccardMean": 0.006536,
+      "batchSize": 8,
+      "bothEmpty": 0,
+      "bothNonEmpty": 128,
+      "fp16NonEmptyCount": 128,
+      "fp16OnlyNonEmpty": 0,
+      "fp32NonEmptyCount": 153,
+      "fp32OnlyNonEmpty": 25,
+      "invocationPath": "ORIGINAL_INDEX_BUILDER_PATH",
+      "topTokenRankAgreement": "HASH_LEVEL_ONLY",
+      "weightRankCorrelation": "HASH_LEVEL_ONLY"
+    },
+    {
+      "activeTokenSetJaccardMean": 0.137255,
+      "batchSize": 1,
+      "bothEmpty": 0,
+      "bothNonEmpty": 147,
+      "fp16NonEmptyCount": 147,
+      "fp16OnlyNonEmpty": 0,
+      "fp32NonEmptyCount": 153,
+      "fp32OnlyNonEmpty": 6,
+      "invocationPath": "RCA_OFFICIAL_DIRECT_PATH",
+      "topTokenRankAgreement": "HASH_LEVEL_ONLY",
+      "weightRankCorrelation": "HASH_LEVEL_ONLY"
+    },
+    {
+      "activeTokenSetJaccardMean": 0.20915,
+      "batchSize": 8,
+      "bothEmpty": 0,
+      "bothNonEmpty": 153,
+      "fp16NonEmptyCount": 153,
+      "fp16OnlyNonEmpty": 0,
+      "fp32NonEmptyCount": 153,
+      "fp32OnlyNonEmpty": 0,
+      "invocationPath": "RCA_OFFICIAL_DIRECT_PATH",
+      "topTokenRankAgreement": "HASH_LEVEL_ONLY",
+      "weightRankCorrelation": "HASH_LEVEL_ONLY"
+    },
+    {
+      "activeTokenSetJaccardMean": 0.0,
+      "batchSize": 1,
+      "bothEmpty": 0,
+      "bothNonEmpty": 150,
+      "fp16NonEmptyCount": 150,
+      "fp16OnlyNonEmpty": 0,
+      "fp32NonEmptyCount": 153,
+      "fp32OnlyNonEmpty": 3,
+      "invocationPath": "DQA_CONTROL_PATH",
+      "topTokenRankAgreement": "HASH_LEVEL_ONLY",
+      "weightRankCorrelation": "HASH_LEVEL_ONLY"
+    },
+    {
+      "activeTokenSetJaccardMean": 0.0,
+      "batchSize": 8,
+      "bothEmpty": 0,
+      "bothNonEmpty": 115,
+      "fp16NonEmptyCount": 153,
+      "fp16OnlyNonEmpty": 38,
+      "fp32NonEmptyCount": 115,
+      "fp32OnlyNonEmpty": 0,
+      "invocationPath": "DQA_CONTROL_PATH",
+      "topTokenRankAgreement": "HASH_LEVEL_ONLY",
+      "weightRankCorrelation": "HASH_LEVEL_ONLY"
+    }
+  ],
+  "schemaVersion": "agent-rag-v23-sparse-precision-comparison-v1"
+}

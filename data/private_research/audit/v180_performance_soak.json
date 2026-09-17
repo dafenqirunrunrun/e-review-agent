@@ -1,0 +1,53 @@
+{
+  "closed_holdout_accessed": false,
+  "duration_seconds": 5400,
+  "error_count": 0,
+  "latency_ms": {
+    "avg": 8.0375,
+    "max": 93.9991,
+    "min": 3.5495,
+    "p95": 11.8924
+  },
+  "metrics_snapshot": {
+    "counters": {
+      "human_review_total": 7052,
+      "requests_total": 10579,
+      "success_total": 10579
+    },
+    "gauges": {},
+    "histograms": {
+      "model_latency_ms": {
+        "avg": 0.0019,
+        "count": 10579,
+        "max": 1,
+        "min": 0,
+        "p50": 0,
+        "p95": 0
+      },
+      "pii_redaction_count": {
+        "avg": 0,
+        "count": 10579,
+        "max": 0,
+        "min": 0,
+        "p50": 0,
+        "p95": 0
+      },
+      "request_latency_ms": {
+        "avg": 0.186,
+        "count": 10579,
+        "max": 2.4738,
+        "min": 0.1264,
+        "p50": 0.1514,
+        "p95": 0.2987
+      }
+    }
+  },
+  "request_count": 10579,
+  "soak_90_min_completed": true,
+  "soak_90_min_required": true,
+  "status": "V180_90_MIN_SOAK_PASS",
+  "success_count": 10579,
+  "success_rate": 1.0,
+  "target_rps": 2.0,
+  "training_executed": false
+}

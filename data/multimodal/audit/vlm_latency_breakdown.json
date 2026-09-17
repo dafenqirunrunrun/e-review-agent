@@ -1,0 +1,62 @@
+{
+  "marker": "VLM_PROVIDER_LATENCY_TARGET_NOT_MET",
+  "stage": "v1.6.1.4-vlm-runtime-latency-and-session-reuse",
+  "root_cause": "Previous provider smoke acquired the GPU lock, loaded AutoProcessor, loaded Qwen3-VL, generated, and unloaded once per image. The session path acquired one GPU lock and loaded the processor/model once, then ran 12 serial real generate calls.",
+  "metrics": {
+    "total_samples": 12,
+    "real_vlm_inference_count": 12,
+    "visual_schema_valid_rate": 1.0,
+    "fallback_rate": 0.0,
+    "oom_count": 0,
+    "avg_generate_ms": 2216.29,
+    "p95_generate_ms": 2573.45,
+    "avg_end_to_end_ms": 2246.56,
+    "p95_end_to_end_ms": 2589.69,
+    "total_wall_clock_ms": 496805.52,
+    "gpu_peak_memory_mb": 4142.0,
+    "cpu_peak_memory_mb": null,
+    "raw_schema_valid_count": 0,
+    "repair_used_count": 12,
+    "repair_success_count": 12,
+    "repair_used_rate": 1.0,
+    "second_generate_count": 0,
+    "runtime_instance_count": 1,
+    "processor_load_count": 1,
+    "model_load_count": 1,
+    "generate_call_count": 12,
+    "unload_count": 1,
+    "gpu_lock_acquire_count": 1
+  },
+  "latency_breakdown_fields": [
+    "gpu_wait_ms",
+    "gpu_lock_acquire_ms",
+    "processor_load_ms",
+    "model_load_ms",
+    "image_decode_ms",
+    "image_resize_ms",
+    "prompt_build_ms",
+    "processor_encode_ms",
+    "input_transfer_ms",
+    "generate_ms",
+    "decode_ms",
+    "raw_json_parse_ms",
+    "schema_repair_ms",
+    "provider_mapping_ms",
+    "tool_log_persist_ms",
+    "model_unload_ms",
+    "gpu_release_wait_ms",
+    "total_request_ms"
+  ],
+  "representative_load_ms": {
+    "processor_load_ms": 1358.82,
+    "model_load_ms": 5555.86,
+    "gpu_wait_ms": 453085.97
+  },
+  "performance_target": {
+    "avg_generate_ms_le_15000": true,
+    "p95_generate_ms_le_30000": true,
+    "avg_end_to_end_ms_le_20000": true,
+    "p95_end_to_end_ms_le_40000": true,
+    "total_wall_clock_ms_le_300000": false
+  }
+}

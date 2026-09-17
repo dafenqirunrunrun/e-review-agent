@@ -1,0 +1,19 @@
+{
+  "candidateCount": 592,
+  "irrelevantCandidatesTruncated": 0,
+  "passageTruncationCases": 0,
+  "queryTruncationCases": 0,
+  "relevantCandidatesTotal": 370,
+  "relevantCandidatesTruncated": 0,
+  "relevantMeaningLikelyLost": 0,
+  "rootCauseIfHigh": "TRUNCATION_NOT_PRIMARY",
+  "schemaVersion": "agent-rag-v22-reranker-token-truncation-audit-v1",
+  "selected": {
+    "batchSize": 8,
+    "candidateK": 8,
+    "maxLength": 384,
+    "maximumFinalK": 5
+  },
+  "sourceCommit": "7c592a6f",
+  "tokenizerAvailable": true
+}

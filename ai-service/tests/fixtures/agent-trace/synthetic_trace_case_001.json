@@ -1,0 +1,22 @@
+{
+  "fixtureId": "synthetic-trace-case-001",
+  "fixtureVersion": "v1",
+  "synthetic": true,
+  "containsRealUserData": false,
+  "input": {
+    "query": "synthetic review says box arrived damaged and support did not respond",
+    "risk": "after_sales",
+    "tenant": "synthetic-tenant"
+  },
+  "expectedNodeSequence": [
+    "REQUEST_VALIDATION",
+    "RETRIEVAL_PLANNING",
+    "EVIDENCE_RETRIEVAL",
+    "EVIDENCE_VALIDATION",
+    "TASK_REASONING",
+    "ANSWER_GENERATION",
+    "OUTPUT_VALIDATION",
+    "FINALIZATION"
+  ],
+  "expectedOutcomeHash": "computed-by-harness"
+}

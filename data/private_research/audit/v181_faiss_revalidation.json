@@ -1,0 +1,21 @@
+{
+  "status": "V180_VERSIONED_FAISS_REVALIDATED",
+  "faiss_add_calls": 3,
+  "faiss_search_calls": 2,
+  "index_type": "IndexFlatIP",
+  "vector_count": 4,
+  "dimension": 4,
+  "metadata_mapping": [
+    {
+      "active": true,
+      "chunk_id": "c1",
+      "document_id": "d1",
+      "tenant_id": "tenant-a"
+    }
+  ],
+  "active_version_after_rollback": "bge-m3-20260717T015020278447Z",
+  "active_before_corrupt": "bge-m3-20260717T015020278447Z",
+  "corruption_detected": true,
+  "search_top_id": 0,
+  "restart_load_status": "PASS"
+}

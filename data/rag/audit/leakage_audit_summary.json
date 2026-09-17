@@ -1,0 +1,25 @@
+{
+  "comment_count": 1200,
+  "case_count": 240,
+  "query_count": 80,
+  "exact_duplicate_count": 0,
+  "normalized_duplicate_count": 0,
+  "near_duplicate_count": 0,
+  "suspected_template_family_count": 60,
+  "query_case_overlap_mean": 0.152107,
+  "query_case_overlap_p95": 0.290266,
+  "high_overlap_query_count": 1,
+  "high_overlap_query_rate": 0.0125,
+  "bge_m3_cosine_checked": true,
+  "bge_m3_overlap_mean": 0.707488,
+  "bge_m3_overlap_p95": 0.759562,
+  "high_bge_overlap_query_count": 0,
+  "high_bge_overlap_query_rate": 0.0,
+  "bge_m3_audit_device": "cuda",
+  "bge_m3_audit_reason": null,
+  "metadata_shortcut_count": 109,
+  "answer_field_leakage_count": 104,
+  "notes": [
+    "Oracle metadata shortcut is present because evaluator request fields include risk_type/risk_level derived from expected labels and retriever scoring uses them."
+  ]
+}

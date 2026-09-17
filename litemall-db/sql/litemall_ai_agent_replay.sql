@@ -6,7 +6,7 @@ SET @schema_name = DATABASE();
 SET @sql = (
   SELECT IF(
     COUNT(*) = 0,
-    'ALTER TABLE litemall_ai_agent_run ADD COLUMN replay_from_run_id int DEFAULT NULL COMMENT ''Replay source Run ID''',
+    'ALTER TABLE litemall_ai_agent_run ADD COLUMN replay_from_run_id int DEFAULT NULL COMMENT ''Replay 鏉ユ簮 Run ID''',
     'SELECT 1'
   )
   FROM information_schema.columns
@@ -21,7 +21,7 @@ DEALLOCATE PREPARE stmt;
 SET @sql = (
   SELECT IF(
     COUNT(*) = 0,
-    'ALTER TABLE litemall_ai_agent_run ADD COLUMN replay_count int DEFAULT 0 COMMENT ''Replay count''',
+    'ALTER TABLE litemall_ai_agent_run ADD COLUMN replay_count int DEFAULT 0 COMMENT ''琚噸鏀炬鏁?'',
     'SELECT 1'
   )
   FROM information_schema.columns
@@ -36,7 +36,7 @@ DEALLOCATE PREPARE stmt;
 SET @sql = (
   SELECT IF(
     COUNT(*) = 0,
-    'ALTER TABLE litemall_ai_agent_run ADD COLUMN is_replay tinyint(1) DEFAULT 0 COMMENT ''Is replay run''',
+    'ALTER TABLE litemall_ai_agent_run ADD COLUMN is_replay tinyint(1) DEFAULT 0 COMMENT ''鏄惁 Replay Run''',
     'SELECT 1'
   )
   FROM information_schema.columns
@@ -63,4 +63,4 @@ CREATE TABLE IF NOT EXISTS `litemall_ai_agent_replay_compare` (
   UNIQUE KEY `uk_replay_compare` (`original_run_id`, `replay_run_id`),
   KEY `idx_replay_original` (`original_run_id`),
   KEY `idx_replay_run` (`replay_run_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='Agent Run replay comparison';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='Agent Run Replay 瀵规瘮';

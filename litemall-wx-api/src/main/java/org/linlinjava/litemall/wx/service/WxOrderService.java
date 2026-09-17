@@ -1018,7 +1018,7 @@ public class WxOrderService {
 
         String content = JacksonUtil.parseString(body, "content");
         Integer star = JacksonUtil.parseInteger(body, "star");
-        if (star == null || star < 0 || star > 5) {
+        if (star == null || star < 1 || star > 5) {
             return ResponseUtil.badArgumentValue();
         }
         Boolean hasPicture = JacksonUtil.parseBoolean(body, "hasPicture");
@@ -1033,6 +1033,7 @@ public class WxOrderService {
         comment.setType((byte) 0);
         comment.setValueId(orderGoods.getGoodsId());
         comment.setStar(star.shortValue());
+        comment.setRatingSource(ReviewRatingSource.USER_PROVIDED.name());
         comment.setContent(content);
         comment.setHasPicture(hasPicture);
         comment.setPicUrls(picUrls.toArray(new String[]{}));

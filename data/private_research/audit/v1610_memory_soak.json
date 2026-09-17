@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-07-16T07:46:24.129441+00:00",
+  "status": "V22_TRAINING_MEMORY_SOAK_PASS",
+  "memory_soak_range": "step 22-30",
+  "minimum_free_memory_mb": 1761,
+  "reserved_growth_mb": 8.0,
+  "hard_low_sample_count": 0,
+  "external_compute_sample_count": 0,
+  "transient_low_warning_count": 1,
+  "sustained_low_memory_count": 0
+}

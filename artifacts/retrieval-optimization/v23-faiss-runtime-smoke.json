@@ -1,0 +1,19 @@
+{
+  "addDurationMs": 0.072,
+  "afterReloadTopKHash": "e1185b210282dba08d037cd69e933161c40a89245052962f1a0d8531a7f1dca5",
+  "artifactVersion": "agent-rag-v23-faiss-runtime-smoke-v1",
+  "beforeReloadTopKHash": "e1185b210282dba08d037cd69e933161c40a89245052962f1a0d8531a7f1dca5",
+  "dimension": 4,
+  "expectedTop1Pass": true,
+  "faissImportPass": true,
+  "faissVersion": "1.8.0",
+  "finiteScores": true,
+  "fullVectorsStored": false,
+  "indexBuildPass": true,
+  "indexReloadPass": true,
+  "indexSearchPass": true,
+  "indexType": "IndexFlatIP",
+  "rankingStable": true,
+  "searchDurationMs": 33.764,
+  "vectorCount": 4
+}

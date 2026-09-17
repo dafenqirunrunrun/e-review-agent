@@ -1,0 +1,53 @@
+{
+  "baselineCommit": "d91358ae6f42830c49af706356cb501b283113ae",
+  "fixBranch": "fix/v24-reranker-compat",
+  "fixWorktree": "D:\\EReviewAgent\\litemall-v24-reranker-fix",
+  "pythonEnvironment": "D:\\anaconda\\envs\\ereview-v24-reranker-fix\\python.exe",
+  "before": {
+    "FlagEmbedding": "1.3.5",
+    "transformers": "5.3.0",
+    "torch": "2.5.1+cu121",
+    "sentence-transformers": "3.0.1",
+    "accelerate": "1.14.0",
+    "peft": "0.19.1",
+    "tokenizers": "0.22.2",
+    "safetensors": "0.7.0",
+    "huggingface-hub": "1.7.1"
+  },
+  "after": {
+    "FlagEmbedding": "1.3.5",
+    "transformers": "5.3.0",
+    "torch": "2.5.1+cu121",
+    "sentence-transformers": "3.0.1",
+    "accelerate": "1.14.0",
+    "peft": "0.19.1",
+    "tokenizers": "0.22.2",
+    "safetensors": "0.7.0",
+    "huggingface-hub": "1.7.1"
+  },
+  "dependencyDiff": [],
+  "installAttempt": "BLOCKED_TLS_SSL_EOF",
+  "importSmoke": "FAIL_IS_TORCH_FX_AVAILABLE_IMPORTERROR",
+  "formalRerankerTest": "BASELINE_FAIL_NOT_RERUN_AFTER_BLOCKED_INSTALL",
+  "phase3bGate": "NOT_RUN_DEPENDENCY_FIX_BLOCKED",
+  "fallbackUsed": null,
+  "qwenRegression": "NOT_RUN_ENV_UNCHANGED_AFTER_BLOCKED_INSTALL",
+  "traceReplayRegression": "NOT_RUN_ENV_UNCHANGED_AFTER_BLOCKED_INSTALL",
+  "pythonFullTests": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "status": "NOT_RUN_AFTER_BLOCKED_INSTALL"
+  },
+  "pipCheck": "FAIL_PREEXISTING_SENTENCE_TRANSFORMERS_TRANSFORMERS_DECLARED_CONFLICT",
+  "realModelChain": "BLOCKED_RERANKER_RUNTIME_NOT_REPAIRED",
+  "codeChanges": [],
+  "dependencyChanges": [],
+  "blockers": [
+    "PyPI TLS/SSL EOF prevented downloading FlagEmbedding==1.4.0",
+    "No local offline FlagEmbedding==1.4.0 wheel found",
+    "FlagEmbedding remains 1.3.5 and import error remains",
+    "Pre-existing pip check conflict: sentence-transformers 3.0.1 requires transformers<5 but environment has transformers 5.3.0"
+  ],
+  "classification": "BLOCKED"
+}

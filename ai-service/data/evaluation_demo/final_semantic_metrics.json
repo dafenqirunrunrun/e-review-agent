@@ -1,0 +1,70 @@
+{
+  "datasetRevision": "v2.2-final",
+  "parentRevision": "v2.1",
+  "semanticJudgeType": "CODEX_SINGLE_JUDGE",
+  "changedCaseCount": 23,
+  "calibrationRepairedCount": 12,
+  "boundaryRepairedCount": 11,
+  "multiRiskRepairedCount": 13,
+  "calibration": {
+    "total": 120,
+    "pass": 108,
+    "fail": 11,
+    "uncertain": 1,
+    "passRate": 0.9
+  },
+  "boundary": {
+    "total": 60,
+    "pass": 60,
+    "fail": 0,
+    "uncertain": 0,
+    "passRate": 1.0,
+    "highChallengeCount": 40,
+    "mediumChallengeCount": 13,
+    "lowChallengeCount": 7,
+    "highMediumRatio": 0.883333,
+    "keywordShortcutCount": 15,
+    "keywordShortcutRatio": 0.25
+  },
+  "semantic": {
+    "naturalChineseCount": 180,
+    "naturalChineseRatio": 1.0,
+    "missedMultiRiskCount": 0,
+    "riskTypeMismatchCount": 11,
+    "severityMismatchCount": 11
+  },
+  "abstention": {
+    "caseCount": 5,
+    "correctCount": 5,
+    "incorrectCount": 0,
+    "uncertainCount": 0,
+    "abstentionAccuracy": 1.0
+  },
+  "quality": {
+    "exactDuplicateCount": 0,
+    "normalizedDuplicateCount": 0,
+    "nearDuplicateCount": 0,
+    "frozenExactOverlap": 0,
+    "frozenNearOverlap": 0,
+    "frozenTemplateOverlap": 0,
+    "securityViolations": []
+  },
+  "before": {
+    "keywordShortcutCount": 22,
+    "keywordShortcutRatio": 0.366667,
+    "missedMultiRiskCount": 13,
+    "naturalChineseCount": 177
+  },
+  "thresholds": {
+    "calibrationSemanticPass": true,
+    "boundaryValidityPass": true,
+    "boundaryChallengePass": true,
+    "keywordShortcutPass": true,
+    "naturalChinesePass": true,
+    "multiRiskSystematicErrorPass": true,
+    "abstentionPass": true,
+    "changedCaseBudgetPass": true,
+    "frozenIsolationPass": true
+  },
+  "gate": "PASS_WITH_SINGLE_JUDGE_LIMITATION"
+}

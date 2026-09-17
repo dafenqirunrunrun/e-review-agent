@@ -1,0 +1,20 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "analysesToday":  1,
+                 "totalAnalyses":  1,
+                 "highRiskReviews":  1,
+                 "pendingRiskReviews":  0,
+                 "pendingRiskTasks":  2,
+                 "agentStatus":  "standby",
+                 "avgConfidence":  0.83000000,
+                 "handledOperationLogs":  0,
+                 "lastPatrolTime":  "2026-07-28 14:33:28",
+                 "negativeReviews":  1,
+                 "lastAnalysisTime":  "2026-07-28 14:33:28",
+                 "openRiskTasks":  2,
+                 "patrolEnabled":  false,
+                 "pendingDemoReviews":  0
+             },
+    "errmsg":  "成功"
+}

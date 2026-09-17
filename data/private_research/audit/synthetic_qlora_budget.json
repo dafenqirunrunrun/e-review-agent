@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-07-15T06:35:53.800259+00:00",
+  "status": "PRIVATE_SYNTHETIC_QLORA_BUDGET_PASS",
+  "quantization_backend": "bitsandbytes",
+  "quantization_bits": 4,
+  "quantized_module_count": 196,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "trainable_parameter_count": 1605632,
+  "total_parameter_count": 1328702464,
+  "trainable_parameter_ratio": 0.00120842,
+  "memory_before_load_mb": 0.0,
+  "memory_after_load_mb": 1881.96,
+  "memory_after_forward_mb": 3336.34,
+  "memory_after_backward_mb": 3207.01,
+  "peak_memory_mb": 3794.91,
+  "free_memory_at_peak_mb": 305.44,
+  "forward_ms": 406.4,
+  "backward_ms": 310.08,
+  "loss": 4.149168014526367,
+  "nan_loss": false,
+  "inf_loss": false,
+  "gradient_present": true,
+  "optimizer_step_success": true,
+  "oom_count": 0,
+  "unload_success": true,
+  "gpu_lock_release_success": true,
+  "config": {
+    "batch_size": 1,
+    "max_length": 384,
+    "gradient_accumulation_steps": 8,
+    "gradient_checkpointing": true,
+    "use_cache": false,
+    "bf16": true,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "target_scope": "q/v"
+  },
+  "model_load_ms": 3665.62,
+  "profile_name": "fallback_target_qv",
+  "child_returncode": 0,
+  "fallback_attempts": [
+    {
+      "profile_name": "initial",
+      "status": "PRIVATE_SYNTHETIC_QLORA_BUDGET_BLOCKED",
+      "max_length": 512,
+      "target_scope": "q/k/v/o",
+      "lora_r": 8,
+      "peak_memory_mb": 3794.91,
+      "free_memory_at_peak_mb": 298.07,
+      "oom_count": 0
+    },
+    {
+      "profile_name": "fallback_max_length_384",
+      "status": "PRIVATE_SYNTHETIC_QLORA_BUDGET_BLOCKED",
+      "max_length": 384,
+      "target_scope": "q/k/v/o",
+      "lora_r": 8,
+      "peak_memory_mb": 3777.1,
+      "free_memory_at_peak_mb": 71.89,
+      "oom_count": 0
+    },
+    {
+      "profile_name": "fallback_target_qv",
+      "status": "PRIVATE_SYNTHETIC_QLORA_BUDGET_PASS",
+      "max_length": 384,
+      "target_scope": "q/v",
+      "lora_r": 8,
+      "peak_memory_mb": 3794.91,
+      "free_memory_at_peak_mb": 305.44,
+      "oom_count": 0
+    }
+  ]
+}

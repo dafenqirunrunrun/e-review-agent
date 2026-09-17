@@ -1,0 +1,14 @@
+{
+  "allowedHistoricalEvaluationMetadataOnly": true,
+  "artifactVersion": "agent-rag-v23-parent-child-evaluation-consumption-audit-v1",
+  "auditedPhases": [
+    "9.3",
+    "9.4",
+    "9.5A",
+    "9.5A-QC",
+    "9.5A-QC2"
+  ],
+  "challengeReadCount": 0,
+  "consumedArtifacts": [],
+  "evaluationConsumptionStatus": "EVALUATION_SPLIT_UNCONSUMED"
+}

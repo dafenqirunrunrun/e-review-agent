@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "tokens": [
+    "E_REVIEW_V22_EMBEDDING_ASSET_PASS",
+    "E_REVIEW_V22_RERANKER_ASSET_PASS",
+    "E_REVIEW_V22_LLM_ASSET_PASS",
+    "E_REVIEW_V22_REAL_MODEL_ASSETS_PASS"
+  ],
+  "blockedReasons": [],
+  "sourceCommit": "dfabcbc3ab6ff1832d731c77ce31ed743a3a4431",
+  "assets": {
+    "embedding": {
+      "section": "embedding",
+      "modelId": "BAAI/bge-m3",
+      "provider": "flagembedding",
+      "pathLabel": "bge-m3",
+      "revision": "external-existing",
+      "assetFingerprint": "a36441812a43bc60e2464af3cc3ffc4d466fc2dc9a52d921264b0109c39094a2",
+      "license": "MIT",
+      "fileCount": 10,
+      "totalBytes": 4564380154,
+      "status": "PASS",
+      "blockedReasons": []
+    },
+    "reranker": {
+      "section": "reranker",
+      "modelId": "BAAI/bge-reranker-v2-m3",
+      "provider": "flagembedding",
+      "pathLabel": "bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "assetFingerprint": "cf87d1dfe5081feb734ff8635b7781f3f77c4bab3939ffba3a6d16a653611e82",
+      "license": "Apache-2.0",
+      "fileCount": 14,
+      "totalBytes": 1134700145,
+      "status": "PASS",
+      "blockedReasons": []
+    },
+    "llm": {
+      "section": "llm",
+      "modelId": "Qwen/Qwen3-1.7B",
+      "provider": "local_qwen3_transformers",
+      "pathLabel": "qwen3-1.7b",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "assetFingerprint": "315d7ccccc6acdbb0d5ee535a292936c3d2306aa7a06817f51b40b734af10628",
+      "license": "Apache-2.0",
+      "fileCount": 14,
+      "totalBytes": 4079451553,
+      "status": "PASS",
+      "blockedReasons": []
+    }
+  }
+}

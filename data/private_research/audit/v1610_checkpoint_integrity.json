@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-07-16T07:35:41.583009+00:00",
+  "status": "V22_FRESH_RESTART_REQUIRED",
+  "nearest_complete_checkpoint_step": null,
+  "fresh_restart_allowed_once": true,
+  "candidate_reports": [
+    {
+      "optimizer_step": 21,
+      "micro_step": 168,
+      "path_label": "<data-private>/training-runs/qwen3-1.7b-synthetic-sft-v22-v169/checkpoints/checkpoint-21",
+      "checks": {
+        "checkpoint_dir_exists": true,
+        "adapter_config_exists": true,
+        "adapter_weights_exists": true,
+        "optimizer_state_exists": false,
+        "scheduler_state_exists": false,
+        "rng_state_exists": false,
+        "sample_cursor_exists": false,
+        "optimizer_step_matches": true,
+        "micro_step_matches": true,
+        "accumulation_boundary": true,
+        "contract_hash_consistent": true,
+        "prompt_hash_consistent": true,
+        "evaluator_hash_consistent": true,
+        "completion_encoder_hash_consistent": true,
+        "train_manifest_hash_consistent": true,
+        "validation_manifest_hash_consistent": true,
+        "holdout_manifest_hash_consistent": true,
+        "seed_consistent": true,
+        "lora_config_consistent": true,
+        "max_length_consistent": true,
+        "learning_rate_plan_consistent": true,
+        "checkpoint_file_hash_readable": true
+      },
+      "complete": false,
+      "adapter_weights_sha256": "4e207529e1315ebf2c385f98b6c3e2f95c7e19b7205e0d62622c5160894efe7a"
+    },
+    {
+      "optimizer_step": 14,
+      "micro_step": 112,
+      "path_label": "<data-private>/training-runs/qwen3-1.7b-synthetic-sft-v22-v169/checkpoints/checkpoint-14",
+      "checks": {
+        "checkpoint_dir_exists": true,
+        "adapter_config_exists": true,
+        "adapter_weights_exists": true,
+        "optimizer_state_exists": false,
+        "scheduler_state_exists": false,
+        "rng_state_exists": false,
+        "sample_cursor_exists": false,
+        "optimizer_step_matches": true,
+        "micro_step_matches": true,
+        "accumulation_boundary": true,
+        "contract_hash_consistent": true,
+        "prompt_hash_consistent": true,
+        "evaluator_hash_consistent": true,
+        "completion_encoder_hash_consistent": true,
+        "train_manifest_hash_consistent": true,
+        "validation_manifest_hash_consistent": true,
+        "holdout_manifest_hash_consistent": true,
+        "seed_consistent": true,
+        "lora_config_consistent": true,
+        "max_length_consistent": true,
+        "learning_rate_plan_consistent": true,
+        "checkpoint_file_hash_readable": true
+      },
+      "complete": false,
+      "adapter_weights_sha256": "84c6bd7be97d3152f56f69a1b64ad41d654340e3919a9219e1ea3e2b4e05a78d"
+    }
+  ],
+  "reason": "v1.6.9 checkpoints only persisted adapter files; optimizer/scheduler/RNG/cursor state is missing."
+}

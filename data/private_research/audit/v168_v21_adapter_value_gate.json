@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-07-15T14:00:19.913882+00:00",
+  "status": "PRIVATE_SYNTHETIC_SFT_V21_ADAPTER_VALUE_GATE_NOT_RUN",
+  "adapter_final_role": "PRIVATE_SYNTHETIC_SFT_V21_ADAPTER_RETAINED_FOR_RESEARCH_ONLY_NO_ADAPTER_TRAINED",
+  "default_candidate": false,
+  "blocked_reason": "training did not run"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "generatedAt": "2026-07-21T06:04:26.473728+00:00",
+  "branch": "experiment/v2.1-qualification-blocker-closure",
+  "head": "c962304c489e23f95802767846e78981ef8903a7",
+  "candidateDecision": "V2_1_QUALIFICATION_INFRASTRUCTURE_READY",
+  "checks": {
+    "defaultPythonReproducibility": "PASS",
+    "externalAssetContract": "PASS",
+    "migrationImmutability": "PASS",
+    "migrationCrossPlatform": "PASS",
+    "licenseAudit": "LICENSE_REVIEW_REQUIRED",
+    "vulnerabilityScan": "VULNERABILITY_DATABASE_UNAVAILABLE",
+    "publicRepoChanges": "NONE",
+    "push": "NONE",
+    "tag": "NONE",
+    "release": "NONE"
+  },
+  "remainingBlockers": [
+    "MODEL_RERANKER_NOT_VERIFIED",
+    "REAL_LLM_QUALITY_NOT_VERIFIED",
+    "VULNERABILITY_DATABASE_UNAVAILABLE",
+    "LICENSE_REVIEW_REQUIRED"
+  ]
+}

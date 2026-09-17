@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-07-15T08:54:57.362809+00:00",
+  "status": "PROMPT_CONTRACT_ALIGNMENT_PASS",
+  "prompt_metadata": {
+    "prompt_id": "e_review_decision",
+    "prompt_version": "v2.0.0",
+    "schema_version": "v2.0.0",
+    "renderer": "app.prompts.e_review_prompt_renderer"
+  },
+  "training_renderer": "render_training_messages(sample)",
+  "inference_renderer": "render_inference_messages(input_record)",
+  "training_signature": "(sample: 'dict[str, Any]') -> 'list[dict[str, str]]'",
+  "inference_signature": "(input_record: 'dict[str, Any]') -> 'list[dict[str, str]]'",
+  "shared_system_prompt": true,
+  "schema_fields_generated_from_contract": true,
+  "legacy_fields_used": false,
+  "markdown_requested": false,
+  "chain_of_thought_requested": false,
+  "thinking_mode_handling": "apply_chat_template(enable_thinking=False) when supported; raw_json_extraction removes complete think blocks otherwise",
+  "status_marker": "TRAIN_INFERENCE_PROMPT_BYTE_LEVEL_METADATA_MATCH"
+}

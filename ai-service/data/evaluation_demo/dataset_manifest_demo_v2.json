@@ -1,0 +1,262 @@
+{
+  "datasetVersion": "evaluation-dataset-demo-v2",
+  "datasetRevision": "v2.1",
+  "scopePatchVersion": "step21.2.2b.1",
+  "parentVersion": "evaluation-dataset-demo-v1",
+  "repairSource": "multi_prompt_judge",
+  "fixedSeed": "step21.2.2b-demo-v2-fixed-seed-2122",
+  "frozenGoldSha256": "9B9D596D88E28EE93327CC95E6F4B18DB0B2A939B70BE8F5CBF10C1E226CAB54",
+  "calibrationCount": 120,
+  "boundaryCount": 60,
+  "frozenCount": 120,
+  "judgeSummary": {
+    "judgeA": {
+      "FAIL": 60,
+      "PASS": 114,
+      "UNCERTAIN": 6
+    },
+    "judgeB": {
+      "FAIL": 36,
+      "PASS": 24
+    },
+    "consensus": {
+      "FAIL": 57,
+      "DISAGREEMENT": 17,
+      "PASS": 100,
+      "UNCERTAIN": 6
+    }
+  },
+  "repairSummary": {
+    "keptCount": 99,
+    "relabelCandidateCount": 34,
+    "movedCount": 5,
+    "replacedCount": 41,
+    "retranslatedCount": 0,
+    "newCaseCount": 36
+  },
+  "calibration": {
+    "sourceDistribution": {
+      "asap_chinese_reviews": 55,
+      "e_review_expert_designed": 30,
+      "figshare_chinese_negative_reviews": 25,
+      "hf_fake_reviews_apache": 10
+    },
+    "riskDistribution": {
+      "negative_review": 28,
+      "normal_review": 42,
+      "paid_review": 12,
+      "rating_manipulation": 11,
+      "harassment_or_abuse": 2,
+      "review_suppression": 9,
+      "after_sales_risk": 20,
+      "fake_review": 5,
+      "privacy_risk": 1,
+      "safety_or_fraud_risk": 5
+    },
+    "severityDistribution": {
+      "medium": 46,
+      "low": 40,
+      "high": 23,
+      "critical": 11
+    },
+    "expressionDistribution": {
+      "implicit": 72,
+      "mixed": 10,
+      "explicit": 38
+    },
+    "difficultyDistribution": {
+      "medium": 56,
+      "easy": 38,
+      "hard": 26
+    },
+    "boundaryDistribution": {},
+    "labelStatusDistribution": {
+      "NEEDS_ADJUDICATION": 30,
+      "ORIGINAL_ACCEPTED": 85,
+      "PROPOSED_REPAIRED": 5
+    },
+    "judgeConsensusDistribution": {
+      "FAIL": 32,
+      "PASS": 85,
+      "UNCERTAIN": 3
+    },
+    "multiRiskCount": 9,
+    "ambiguityCount": 0,
+    "nativeChineseCount": 110,
+    "translatedCount": 10,
+    "businessAdaptedCount": 0,
+    "templateFamilyCount": 120
+  },
+  "boundary": {
+    "sourceDistribution": {
+      "e_review_expert_designed": 21,
+      "figshare_chinese_negative_reviews": 3,
+      "e_review_v2_replacement": 36
+    },
+    "riskDistribution": {
+      "paid_review": 20,
+      "rating_manipulation": 19,
+      "review_suppression": 16,
+      "fake_review": 13,
+      "safety_or_fraud_risk": 1,
+      "harassment_or_abuse": 2,
+      "privacy_risk": 2,
+      "negative_review": 3,
+      "after_sales_risk": 8,
+      "normal_review": 8
+    },
+    "severityDistribution": {
+      "critical": 23,
+      "high": 21,
+      "medium": 11,
+      "low": 5
+    },
+    "expressionDistribution": {
+      "mixed": 24,
+      "implicit": 33,
+      "explicit": 3
+    },
+    "difficultyDistribution": {
+      "hard": 60
+    },
+    "boundaryDistribution": {
+      "multi_risk_or_conflict": 10,
+      "noisy_or_adversarial": 5,
+      "lexical_mismatch": 10,
+      "implicit_or_paraphrase": 15,
+      "hard_negative": 15,
+      "ambiguous_context": 5
+    },
+    "labelStatusDistribution": {
+      "ORIGINAL_ACCEPTED": 19,
+      "PROPOSED_REPAIRED": 1,
+      "NEEDS_ADJUDICATION": 40
+    },
+    "judgeConsensusDistribution": {
+      "PASS": 20,
+      "DISAGREEMENT": 3,
+      "UNCERTAIN": 37
+    },
+    "multiRiskCount": 27,
+    "ambiguityCount": 5,
+    "nativeChineseCount": 60,
+    "translatedCount": 0,
+    "businessAdaptedCount": 0,
+    "templateFamilyCount": 60
+  },
+  "frozenAggregateAudit": {
+    "caseCount": 120,
+    "riskDistribution": {
+      "normal_review": 20,
+      "fake_review": 50,
+      "rating_manipulation": 40,
+      "review_suppression": 20,
+      "after_sales_risk": 20,
+      "privacy_risk": 10,
+      "harassment_or_abuse": 10
+    },
+    "routeDistribution": {
+      "low_touch": 20,
+      "governance_required": 90,
+      "human_review_direct": 10
+    },
+    "decisionDistribution": {
+      "auto_pass": 20,
+      "suggest_action": 40,
+      "manual_review": 60
+    },
+    "languageDistribution": {
+      "zh": 85,
+      "en": 31,
+      "cross_language": 4
+    },
+    "multiRiskCount": 40,
+    "auditMode": "read_only_aggregate"
+  },
+  "quality": {
+    "schemaValid": true,
+    "schemaErrors": [],
+    "riskTypeValid": true,
+    "riskTypeErrors": [],
+    "severityRegistryValid": true,
+    "severityErrors": [],
+    "exactDuplicateCount": 0,
+    "normalizedDuplicateCount": 0,
+    "nearDuplicateCount": 0,
+    "templateFamilyCount": 180,
+    "frozenExactOverlap": 0,
+    "frozenNearOverlap": 0,
+    "frozenTemplateOverlap": 0,
+    "chineseNaturalnessHeuristicFailures": [],
+    "boundaryExpected": {
+      "implicit_or_paraphrase": 15,
+      "lexical_mismatch": 10,
+      "hard_negative": 15,
+      "multi_risk_or_conflict": 10,
+      "ambiguous_context": 5,
+      "noisy_or_adversarial": 5
+    },
+    "boundaryActual": {
+      "multi_risk_or_conflict": 10,
+      "noisy_or_adversarial": 5,
+      "lexical_mismatch": 10,
+      "implicit_or_paraphrase": 15,
+      "hard_negative": 15,
+      "ambiguous_context": 5
+    },
+    "keywordShortcutEstimate": {
+      "estimatedShortcutVulnerableCount": 0,
+      "keywordCounterSignalCount": 4,
+      "method": "deterministic lexical estimate; not a model score"
+    },
+    "securityViolations": []
+  },
+  "rejudge": {
+    "queueCount": 81,
+    "batches": {
+      "judge_a_recheck": {
+        "itemCount": 81,
+        "batchCount": 5
+      },
+      "judge_b_boundary_recheck": {
+        "itemCount": 41,
+        "batchCount": 3
+      }
+    }
+  },
+  "benchmarkScopeSummary": {
+    "riskClassificationCaseCount": 175,
+    "abstentionCaseCount": 5,
+    "outOfScopeRiskCodeAsClassificationGoldCount": 0,
+    "abstentionCaseIds": [
+      "boundary-v2-e_review_candidate-0216a8a0814d9c",
+      "boundary-v2-e_review_candidate-1c3f881dd4e0ae",
+      "boundary-v2-e_review_candidate-22724b6deb63a4",
+      "boundary-v2-e_review_candidate-54c9976022f0ec",
+      "boundary-v2-e_review_candidate-cf2da54eb0ee5b"
+    ]
+  },
+  "gates": {
+    "JUDGE_AGGREGATION_GATE": "PASS",
+    "CALIBRATION_REPAIR_GATE": "PASS",
+    "BOUNDARY_REPAIR_GATE": "PASS",
+    "TEXT_ROUTER_SCOPE_GATE": "PASS",
+    "FROZEN_ISOLATION_GATE": "PASS",
+    "REJUDGE_BATCH_GATE": "PASS",
+    "TEXT_ROUTER_SCOPE_CONSISTENCY_GATE": "PASS",
+    "ABSTENTION_EVALUATION_GATE": "PASS",
+    "BOUNDARY_COUNT_GATE": "PASS",
+    "REJUDGE_BATCH_SCOPE_GATE": "PASS",
+    "SECURITY_GATE": "PASS"
+  },
+  "deterministicValidationGate": "PASS",
+  "datasetHashes": {
+    "calibration": "ACA742F60498B16C2757F4AF5CD91DAEC6522C0B4954D0CF9ADDC682FDC75CEC",
+    "boundary": "37AB16979D8B93CF40939F718D3ACD2EF527DBBBBD55AE6DF0AC9088E9B8D0DD",
+    "aggregation": "A1B3F361693849FAFD97431F16179CC3AB04F1C0F00F164A6F64DF99523E6D8E",
+    "repairLog": "B1C4FD3549805B5914E0AF8577F076FF14B68037C402E28AD782DA54B64F53B6",
+    "rejudgeQueue": "5BD54AA25DB7E03D1032770795BA68D583FC03ED89554BB0C8239BA4C7E7D5F2"
+  },
+  "datasetSemanticGate": "PENDING_INDEPENDENT_REJUDGE",
+  "gate": "PASS"
+}

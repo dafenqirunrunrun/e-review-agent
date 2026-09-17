@@ -1,0 +1,11 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "adminInfo":  {
+                                   "nickName":  "admin123",
+                                   "avatar":  "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif"
+                               },
+                 "token":  "***REDACTED***"
+             },
+    "errmsg":  "成功"
+}

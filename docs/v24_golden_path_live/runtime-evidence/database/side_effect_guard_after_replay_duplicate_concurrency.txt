@@ -1,0 +1,11 @@
+﻿table_name	row_count
+litemall_comment	1005
+litemall_review_ai_analysis	1
+litemall_ai_review_risk_task	2
+litemall_agent_rag_run	11
+litemall_agent_rag_evidence	9
+litemall_agent_rag_override	1
+replay_of_run_id	replay_runs	real_replay_runs	fallback_replay_runs
+4	2	1	1
+duplicated_run4_records
+1

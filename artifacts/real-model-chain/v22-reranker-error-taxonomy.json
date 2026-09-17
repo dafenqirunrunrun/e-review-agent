@@ -1,0 +1,1901 @@
+{
+  "caseCount": 74,
+  "cases": [
+    {
+      "caseId": "p3a2-000",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 2,
+        "bestRelevantScore": 0.98080255,
+        "bestWrongScore": 0.98295468,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00215213,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-001",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 6,
+        "bestRelevantOriginalRank": 6,
+        "bestRelevantRealRank": 6,
+        "bestRelevantScore": 0.83628733,
+        "bestWrongScore": 0.99190671,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.15561938,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-002",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 6,
+        "bestRelevantOriginalRank": 6,
+        "bestRelevantRealRank": 6,
+        "bestRelevantScore": 0.76541805,
+        "bestWrongScore": 0.98469365,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.2192756,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-003",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.2562732,
+        "bestWrongScore": 0.27212125,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.01584805,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-006",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.91833389,
+        "bestWrongScore": 0.95405179,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.0357179,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-007",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 7,
+        "bestRelevantOriginalRank": 7,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.78382304,
+        "bestWrongScore": 0.97911578,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.19529274,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-008",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 7,
+        "bestRelevantOriginalRank": 7,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.71502619,
+        "bestWrongScore": 0.97842593,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.26339974,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-009",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 4,
+        "bestRelevantScore": 0.06359858,
+        "bestWrongScore": 0.13262685,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.06902827,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-012",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 2,
+        "bestRelevantOriginalRank": 2,
+        "bestRelevantRealRank": 6,
+        "bestRelevantScore": 0.00221701,
+        "bestWrongScore": 0.0057974,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00358039,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-015",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 3,
+        "bestRelevantOriginalRank": 3,
+        "bestRelevantRealRank": 2,
+        "bestRelevantScore": 0.02503542,
+        "bestWrongScore": 0.04256273,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.01752731,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-020",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 6,
+        "bestRelevantOriginalRank": 6,
+        "bestRelevantRealRank": 1,
+        "bestRelevantScore": 0.84012786,
+        "bestWrongScore": 0.19452078,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": 0.64560708,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-022",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 1,
+        "bestRelevantScore": 0.24981309,
+        "bestWrongScore": 0.23440665,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": 0.01540644,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-023",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.20497774,
+        "bestWrongScore": 0.75455344,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.5495757,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-024",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 6,
+        "bestRelevantScore": 0.93403506,
+        "bestWrongScore": 0.96189338,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.02785832,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-025",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.78596644,
+        "bestWrongScore": 0.94208191,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.15611547,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-026",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.67405048,
+        "bestWrongScore": 0.96182173,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.28777125,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-027",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 5,
+        "bestRelevantOriginalRank": 5,
+        "bestRelevantRealRank": 7,
+        "bestRelevantScore": 0.90192068,
+        "bestWrongScore": 0.99115264,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.08923196,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-030",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 5,
+        "bestRelevantScore": 0.24238491,
+        "bestWrongScore": 0.43608162,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.19369671,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-033",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 5,
+        "bestRelevantOriginalRank": 5,
+        "bestRelevantRealRank": 2,
+        "bestRelevantScore": 0.04076927,
+        "bestWrongScore": 0.06406543,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.02329616,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-036",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 6,
+        "bestRelevantOriginalRank": 6,
+        "bestRelevantRealRank": 6,
+        "bestRelevantScore": 3.734e-05,
+        "bestWrongScore": 3.734e-05,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": 0.0,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-042",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 5,
+        "bestRelevantOriginalRank": 5,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.03173859,
+        "bestWrongScore": 0.05749328,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.02575469,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-044",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 2,
+        "bestRelevantScore": 0.00341628,
+        "bestWrongScore": 0.00353809,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00012181,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-046",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 5,
+        "bestRelevantOriginalRank": 5,
+        "bestRelevantRealRank": 7,
+        "bestRelevantScore": 0.79613401,
+        "bestWrongScore": 0.9929336,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.19679959,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-048",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 5,
+        "bestRelevantScore": 0.97962871,
+        "bestWrongScore": 0.98717879,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00755008,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-049",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.87789613,
+        "bestWrongScore": 0.98967185,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.11177572,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-050",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.80455952,
+        "bestWrongScore": 0.99259699,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.18803747,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-051",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 5,
+        "bestRelevantScore": 0.94046251,
+        "bestWrongScore": 0.97903576,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.03857325,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-052",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.89929839,
+        "bestWrongScore": 0.99312289,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.0938245,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-053",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.85232194,
+        "bestWrongScore": 0.99309616,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.14077422,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-054",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.97283077,
+        "bestWrongScore": 0.98288911,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.01005834,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-066",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 4,
+        "bestRelevantScore": 0.67694033,
+        "bestWrongScore": 0.74945414,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.07251381,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-068",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 5,
+        "bestRelevantScore": 0.1720327,
+        "bestWrongScore": 0.27057658,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.09854388,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-070",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 6,
+        "bestRelevantOriginalRank": 6,
+        "bestRelevantRealRank": 2,
+        "bestRelevantScore": 0.0930168,
+        "bestWrongScore": 0.16277891,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.06976211,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-072",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 4,
+        "bestRelevantScore": 0.96808085,
+        "bestWrongScore": 0.98409361,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.01601276,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-073",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 6,
+        "bestRelevantScore": 0.94844181,
+        "bestWrongScore": 0.99029152,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.04184971,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-074",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 7,
+        "bestRelevantScore": 0.93698053,
+        "bestWrongScore": 0.98963184,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.05265131,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-075",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 5,
+        "bestRelevantScore": 0.96377994,
+        "bestWrongScore": 0.98504291,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.02126297,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-076",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.92590274,
+        "bestWrongScore": 0.99375874,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.067856,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-077",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.91595939,
+        "bestWrongScore": 0.99499833,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.07903894,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-078",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.30912798,
+        "bestWrongScore": 0.42149229,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.11236431,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-081",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 2,
+        "bestRelevantOriginalRank": 2,
+        "bestRelevantRealRank": 6,
+        "bestRelevantScore": 0.00182438,
+        "bestWrongScore": 0.00426463,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00244025,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-084",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 5,
+        "bestRelevantScore": 0.00524045,
+        "bestWrongScore": 0.01124456,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00600411,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-087",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.01659318,
+        "bestWrongScore": 0.01685008,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.0002569,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-090",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 2,
+        "bestRelevantScore": 0.84208554,
+        "bestWrongScore": 0.84312165,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00103611,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-092",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 2,
+        "bestRelevantScore": 0.50968049,
+        "bestWrongScore": 0.5571828,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.04750231,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-094",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 4,
+        "bestRelevantScore": 0.90465054,
+        "bestWrongScore": 0.9436599,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.03900936,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-096",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 2,
+        "bestRelevantScore": 0.90565659,
+        "bestWrongScore": 0.9352283,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.02957171,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-097",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.37782758,
+        "bestWrongScore": 0.93195958,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.554132,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-098",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.33306922,
+        "bestWrongScore": 0.94313845,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.61006923,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-099",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.59513965,
+        "bestWrongScore": 0.78842032,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.19328067,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-100",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.21157968,
+        "bestWrongScore": 0.90515476,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.69357508,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-101",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.17539679,
+        "bestWrongScore": 0.9069832,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.73158641,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-102",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.88303441,
+        "bestWrongScore": 0.93709576,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.05406135,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-103",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.25036254,
+        "bestWrongScore": 0.95430797,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.70394543,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-104",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.19728976,
+        "bestWrongScore": 0.94570106,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.7484113,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-114",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 4,
+        "bestRelevantScore": 0.7411123,
+        "bestWrongScore": 0.87407724,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.13296494,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-115",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.36534346,
+        "bestWrongScore": 0.93935945,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.57401599,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-116",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.42632159,
+        "bestWrongScore": 0.56178587,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.13546428,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-117",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.11736965,
+        "bestWrongScore": 0.90582334,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.78845369,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-118",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.7498207,
+        "bestWrongScore": 0.88323599,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.13341529,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-119",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 8,
+        "bestRelevantOriginalRank": 8,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.3348069,
+        "bestWrongScore": 0.94620036,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.61139346,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-144",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.00221701,
+        "bestWrongScore": 0.00288958,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 1,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00067257,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-145",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 5,
+        "bestRelevantOriginalRank": 5,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.02556521,
+        "bestWrongScore": 0.0349467,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00938149,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-146",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 7,
+        "bestRelevantOriginalRank": 7,
+        "bestRelevantRealRank": 8,
+        "bestRelevantScore": 0.00051126,
+        "bestWrongScore": 0.00532254,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00481128,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-147",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 5,
+        "bestRelevantOriginalRank": 5,
+        "bestRelevantRealRank": 2,
+        "bestRelevantScore": 0.00690384,
+        "bestWrongScore": 0.00831578,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.00141194,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-148",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 4,
+        "bestRelevantScore": 0.19042275,
+        "bestWrongScore": 0.3310116,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.14058885,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-149",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 1,
+        "bestRelevantScore": 0.02288984,
+        "bestWrongScore": 0.01495709,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": 0.00793275,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-151",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.35745537,
+        "bestWrongScore": 0.48629341,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.12883804,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-152",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.18520921,
+        "bestWrongScore": 0.42459092,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.23938171,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-154",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 5,
+        "bestRelevantScore": 0.96891505,
+        "bestWrongScore": 0.98249044,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.01357539,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": true
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-155",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 1,
+        "bestRelevantScore": 0.90598982,
+        "bestWrongScore": 0.86246753,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": 0.04352229,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE"
+      ]
+    },
+    {
+      "caseId": "p3a2-156",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 5,
+        "bestRelevantScore": 0.94550013,
+        "bestWrongScore": 0.97423944,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.02873931,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-157",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 4,
+        "bestRelevantScore": 0.96955565,
+        "bestWrongScore": 0.98840264,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 3,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.01884699,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    },
+    {
+      "caseId": "p3a2-158",
+      "evidenceSignals": {
+        "bestRelevantDeterministicRank": 1,
+        "bestRelevantOriginalRank": 1,
+        "bestRelevantRealRank": 3,
+        "bestRelevantScore": 0.94208191,
+        "bestWrongScore": 0.95506836,
+        "deterministicPreservedOriginalRank": true,
+        "metadataAvailableButMissing": true,
+        "nearDuplicateCandidateCount": 2,
+        "relevantMeaningLikelyLost": false,
+        "relevantTruncated": false,
+        "scoreGap": -0.01298645,
+        "sectionAvailableButMissing": false,
+        "titleAvailableButMissing": true,
+        "topWrongSameDocument": false
+      },
+      "primaryErrorType": "PASSAGE_REPRESENTATION_INCOMPLETE",
+      "reviewConfidence": "high",
+      "secondaryErrorTypes": [
+        "METADATA_REQUIRED_BUT_MISSING",
+        "SEMANTIC_NEAR_DUPLICATE",
+        "DESTRUCTIVE_REORDERING"
+      ]
+    }
+  ],
+  "schemaVersion": "agent-rag-v22-reranker-error-taxonomy-v1",
+  "sourceCommit": "7c592a6f",
+  "typeCounts": {
+    "PASSAGE_REPRESENTATION_INCOMPLETE": 74
+  }
+}

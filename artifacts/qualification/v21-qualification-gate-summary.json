@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "v2.1-qualification-gate",
+  "branch": "experiment/v2.1-model-quality-scale",
+  "head": "8f63bd9ba18a9d0c74bb2e442fbb6b9d8da13115",
+  "rcCommit": "ffd05f2611cf2c7996a681fa0343778da73f7e50",
+  "requiredPass": {
+    "rcBaselinePreserved": true,
+    "scale10k": true,
+    "scale100k": true,
+    "multiProcess": true,
+    "capacityObserved": true,
+    "soak30": true,
+    "sbom": true,
+    "buildProvenance": true,
+    "sourceCommitTracked": true
+  },
+  "blockers": {
+    "reranker": true,
+    "llm": true,
+    "vulnerabilityDatabase": true,
+    "licenseReview": true
+  },
+  "decision": "RETAIN_FFD05F26_RC_BASELINE",
+  "tokens": [
+    "E_REVIEW_V21_RC_BASELINE_PRESERVED_PASS",
+    "MODEL_RERANKER_NOT_VERIFIED",
+    "REAL_LLM_QUALITY_NOT_VERIFIED",
+    "E_REVIEW_V21_SCALE_10K_PASS",
+    "E_REVIEW_V21_SCALE_100K_PASS",
+    "E_REVIEW_V21_MULTI_PROCESS_INDEX_PASS",
+    "E_REVIEW_V21_LOCAL_CAPACITY_PASS",
+    "E_REVIEW_V21_SBOM_PASS",
+    "LICENSE_REVIEW_REQUIRED",
+    "E_REVIEW_V21_BUILD_PROVENANCE_PASS",
+    "E_REVIEW_V21_QUALIFICATION_CAMPAIGN_BLOCKED",
+    "RETAIN_FFD05F26_RC_BASELINE",
+    "NO_PUBLIC_REPO_CHANGES",
+    "NO_PUSH",
+    "NO_TAG",
+    "NO_RELEASE"
+  ]
+}

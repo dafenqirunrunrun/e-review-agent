@@ -1,0 +1,24 @@
+{
+  "name": "review_analyst",
+  "role": "Review Analyst Agent",
+  "description": "Analyze review text, rating, sentiment, and image URL signals for local review-governance workflows.",
+  "capabilities": ["sentiment_analysis", "review_signal_extraction", "traceable_step_output"],
+  "tools": ["review_text_analyzer", "image_url_signal_extractor"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "review_text": { "type": "string" },
+      "rating": { "type": "number" },
+      "image_urls": { "type": "array" }
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "sentiment_label": { "type": "string" },
+      "evidence": { "type": "array" }
+    }
+  },
+  "risk_level": "low",
+  "requires_human_approval": false
+}

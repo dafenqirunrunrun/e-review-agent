@@ -1,0 +1,41 @@
+{
+  "sourceAuditSha256": "2D05AC933BA97E032E8287D4B842627053B25E5A8919B7A11E1CAE6AA9C504F9",
+  "sourceOverallVerdict": "FAIL",
+  "findings": [
+    {
+      "finding": "Boundary quality",
+      "status": "PARTIAL",
+      "resolution": "36 Judge-B-failed rows replaced; all new rows remain pending independent rejudge."
+    },
+    {
+      "finding": "Semantic label quality",
+      "status": "PARTIAL",
+      "resolution": "Judge aggregation and proposed repair provenance added; no proposal is human gold."
+    },
+    {
+      "finding": "Text Router scope",
+      "status": "RESOLVED",
+      "resolution": "All 15 registry codes explicitly classified in or out of text-only benchmark scope."
+    },
+    {
+      "finding": "Frozen aggregate audit",
+      "status": "RESOLVED",
+      "resolution": "Read-only aggregate distribution recorded without case-driven repair."
+    },
+    {
+      "finding": "Frozen isolation",
+      "status": "RESOLVED",
+      "resolution": "Exact, near, and template overlap gates rerun against unchanged SHA."
+    },
+    {
+      "finding": "Multi-risk labeling",
+      "status": "PARTIAL",
+      "resolution": "Clear project-authored missed labels proposed and queued for rejudge."
+    },
+    {
+      "finding": "Translation drift",
+      "status": "PARTIAL",
+      "resolution": "Calibration drift rows replaced with native Chinese; retained translated candidates still require rejudge when modified."
+    }
+  ]
+}

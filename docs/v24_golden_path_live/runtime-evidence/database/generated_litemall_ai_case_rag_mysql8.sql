@@ -1,0 +1,43 @@
+CREATE TABLE IF NOT EXISTS `litemall_ai_case_knowledge` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `case_title` varchar(128) NOT NULL,
+  `source_type` varchar(32) DEFAULT NULL,
+  `source_id` int(11) DEFAULT NULL,
+  `product_id` int(11) DEFAULT NULL,
+  `product_name` varchar(128) DEFAULT NULL,
+  `comment_text` text,
+  `image_signal` varchar(512) DEFAULT NULL,
+  `sentiment_label` varchar(32) DEFAULT NULL,
+  `risk_types` varchar(256) DEFAULT NULL,
+  `risk_level` varchar(32) DEFAULT NULL,
+  `evidence` text,
+  `operation_result` text,
+  `feedback_type` varchar(32) DEFAULT NULL,
+  `tags` varchar(256) DEFAULT NULL,
+  `created_time` datetime DEFAULT CURRENT_TIMESTAMP,
+  `updated_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `deleted` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_ai_case_source` (`source_type`, `source_id`),
+  KEY `idx_ai_case_product` (`product_id`),
+  KEY `idx_ai_case_risk` (`risk_level`, `sentiment_label`),
+  KEY `idx_ai_case_deleted` (`deleted`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS `litemall_ai_case_retrieval_log` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `run_id` int(11) DEFAULT NULL,
+  `source_type` varchar(32) DEFAULT NULL,
+  `source_id` int(11) DEFAULT NULL,
+  `query_text` text,
+  `retrieved_case_ids` varchar(512) DEFAULT NULL,
+  `top_k` int(11) DEFAULT '3',
+  `retrieval_mode` varchar(32) DEFAULT 'local_keyword',
+  `duration_ms` bigint(20) DEFAULT NULL,
+  `created_time` datetime DEFAULT CURRENT_TIMESTAMP,
+  `deleted` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `idx_ai_case_log_run` (`run_id`),
+  KEY `idx_ai_case_log_source` (`source_type`, `source_id`),
+  KEY `idx_ai_case_log_deleted` (`deleted`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -1,0 +1,48 @@
+{
+  "active_corpus_count": 144,
+  "active_gold_missing_count": 0,
+  "benchmark_version": "v1.8.0",
+  "blockers": [],
+  "closed_holdout_accessed": false,
+  "corpus_count": 192,
+  "corpus_path": "data/private_research/enterprise_rag_v180/difficult_corpus.jsonl",
+  "cross_tenant_gold_count": 0,
+  "difficulty_tag_distribution": {
+    "empty_retrieval_expected": 4,
+    "near_miss_distractor": 48,
+    "negative_control": 4,
+    "paraphrase": 48,
+    "tenant_acl": 48
+  },
+  "duplicate_chunk_ids": [],
+  "duplicate_query_ids": [],
+  "external_test_accessed": false,
+  "forbidden_gold_overlap_count": 0,
+  "hash_dense_used": false,
+  "queries_path": "data/private_research/enterprise_rag_v180/difficult_queries.jsonl",
+  "query_count": 52,
+  "query_gold_overlap": {
+    "max": 0.017857,
+    "mean": 0.001488,
+    "threshold": 0.72
+  },
+  "real_user_text_used": false,
+  "status": "V180_DIFFICULT_BENCHMARK_PASS",
+  "tenant_count": 4,
+  "topic_count": 13,
+  "topic_distribution": {
+    "abusive_language": 4,
+    "batch_complaint": 4,
+    "counterfeit_claim": 4,
+    "delayed_delivery": 4,
+    "false_advertising": 4,
+    "image_text_conflict": 4,
+    "low_confidence_ambiguous": 4,
+    "missing_parts": 4,
+    "no_policy_match": 4,
+    "package_damage": 4,
+    "policy_version_conflict": 4,
+    "prompt_injection_review": 4,
+    "safety_hazard": 4
+  }
+}

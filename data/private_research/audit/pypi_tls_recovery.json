@@ -1,0 +1,103 @@
+﻿{
+    "generated_at":  "2026-07-15T06:19:24.4966852Z",
+    "current_time":  "2026-07-15T14:19:24.5046551+08:00",
+    "time_sync_status":  "�������д���: ������δ����� (0x80070426)",
+    "proxy_cert_env":  {
+                           "NO_PROXY":  {
+                                            "sanitized":  null,
+                                            "exists":  false
+                                        },
+                           "SSL_CERT_FILE":  {
+                                                 "sanitized":  null,
+                                                 "exists":  false
+                                             },
+                           "REQUESTS_CA_BUNDLE":  {
+                                                      "sanitized":  null,
+                                                      "exists":  false
+                                                  },
+                           "HTTPS_PROXY":  {
+                                               "sanitized":  null,
+                                               "exists":  false
+                                           },
+                           "HTTP_PROXY":  {
+                                              "sanitized":  null,
+                                              "exists":  false
+                                          },
+                           "CURL_CA_BUNDLE":  {
+                                                  "sanitized":  null,
+                                                  "exists":  false
+                                              },
+                           "ALL_PROXY":  {
+                                             "sanitized":  null,
+                                             "exists":  false
+                                         },
+                           "PIP_CERT":  {
+                                            "sanitized":  null,
+                                            "exists":  false
+                                        }
+                       },
+    "pip_torchtest":  {
+                          "exit_code":  0,
+                          "output":  "pip 26.0.1 from D:\\anaconda\\envs\\torchtest\\lib\\site-packages\\pip (python 3.10)"
+                      },
+    "pip_ereview_sft":  {
+                            "exit_code":  0,
+                            "output":  "pip 26.0.1 from D:\\anaconda\\envs\\ereview_sft\\lib\\site-packages\\pip (python 3.10)"
+                        },
+    "env_torchtest":  {
+                          "exit_code":  0,
+                          "output":  "python= 3.10.0 | packaged by conda-forge | (default, Nov 20 2021, 02:18:13) [MSC v.1916 64 bit (AMD64)]\r\nopenssl= OpenSSL 3.6.1 27 Jan 2026\r\ntorch= 2.5.1+cu121\r\ncuda= 12.1\r\ntransformers= 5.3.0\r\naccelerate= 1.14.0"
+                      },
+    "env_ereview_sft":  {
+                            "exit_code":  0,
+                            "output":  "python= 3.10.0 | packaged by conda-forge | (default, Nov 20 2021, 02:18:13) [MSC v.1916 64 bit (AMD64)]\r\nopenssl= OpenSSL 3.6.1 27 Jan 2026\r\ntorch= 2.5.1+cu121\r\ncuda= 12.1\r\ntransformers= 5.3.0\r\naccelerate= 1.14.0"
+                        },
+    "pip_config_debug":  {
+                             "exit_code":  0,
+                             "output":  "env_var:\r\nenv:\r\nglobal:\r\n  C:\\ProgramData\\pip\\pip.ini, exists: False\r\nsite:\r\n  D:\\anaconda\\envs\\ereview_sft\\pip.ini, exists: False\r\nuser:\r\n  C:\\Users\\\u003cuser\u003e\\pip\\pip.ini, exists: False\r\n  C:\\Users\\\u003cuser\u003e\\AppData\\Roaming\\pip\\pip.ini, exists: False"
+                         },
+    "pip_debug_verbose":  {
+                              "exit_code":  0,
+                              "output":  "pip version: pip 26.0.1 from D:\\anaconda\\envs\\ereview_sft\\lib\\site-packages\\pip (python 3.10)\r\nsys.version: 3.10.0 | packaged by conda-forge | (default, Nov 20 2021, 02:18:13) [MSC v.1916 64 bit (AMD64)]\r\nsys.executable: D:\\anaconda\\envs\\ereview_sft\\python.exe\r\nsys.getdefaultencoding: utf-8\r\nsys.getfilesystemencoding: utf-8\r\nlocale.getpreferredencoding: cp936\r\nsys.platform: win32\r\nsys.implementation:\r\n  name: cpython\r\n\u0027cert\u0027 config value: global\r\nREQUESTS_CA_BUNDLE: None\r\nCURL_CA_BUNDLE: None\r\npip._vendor.certifi.where(): D:\\anaconda\\envs\\ereview_sft\\lib\\site-packages\\pip\\_vendor\\certifi\\cacert.pem\r\npip._vendor.DEBUNDLED: False\r\nvendored library versions:\r\n  CacheControl==0.14.4 (Unable to locate actual module version, using vendor.txt specified version)\r\n  distlib==0.4.0\r\n  distro==1.9.0\r\n  msgpack==1.1.2\r\n  packaging==26.0\r\n  platformdirs==4.5.1\r\n  pyproject-hooks==1.2.0\r\n  requests==2.32.5\r\n  certifi==2026.01.04\r\n  idna==3.11\r\n  urllib3==1.26.20\r\n  rich==14.2.0 (Unable to locate actual module version, using vendor.txt specified version)\r\n  pygments==2.19.2\r\n  resolvelib==1.2.1\r\n  setuptools==70.3.0 (Unable to locate actual module version, using vendor.txt specified version)\r\n  tomli==2.3.0\r\n  tomli-w==1.2.0\r\n  truststore==0.10.4\r\n  dependency-groups==1.3.1 (Unable to locate actual module version, using vendor.txt specified version)\r\nCompatible tags: 36\r\n  cp310-cp310-win_amd64\r\n  cp310-abi3-win_amd64\r\n  cp310-none-win_amd64\r\n  cp39-abi3-win_amd64\r\n  cp38-abi3-win_amd64\r\n  cp37-abi3-win_amd64\r\n  cp36-abi3-win_amd64\r\n  cp35-abi3-win_amd64\r\n  cp34-abi3-win_amd64\r\n  cp33-abi3-win_amd64\r\n  cp32-abi3-win_amd64\r\n  py310-none-win_amd64\r\n  py3-none-win_amd64\r\n  py39-none-win_amd64\r\n  py38-none-win_amd64\r\n  py37-none-win_amd64\r\n  py36-none-win_amd64\r\n  py35-none-win_amd64\r\n  py34-none-win_amd64\r\n  py33-none-win_amd64\r\n  py32-none-win_amd64\r\n  py31-none-win_amd64\r\n  py30-none-win_amd64\r\n  cp310-none-any\r\n  py310-none-any\r\n  py3-none-any\r\n  py39-none-any\r\n  py38-none-any\r\n  py37-none-any\r\n  py36-none-any\r\n  py35-none-any\r\n  py34-none-any\r\n  py33-none-any\r\n  py32-none-any\r\n  py31-none-any\r\n  py30-none-any"
+                          },
+    "tcp_pypi":  {
+                     "exit_code":  0,
+                     "output":  "{\"ComputerName\":\"pypi.org\",\"RemotePort\":443,\"TcpTestSucceeded\":true}"
+                 },
+    "tcp_files":  {
+                      "exit_code":  0,
+                      "output":  "{\"ComputerName\":\"files.pythonhosted.org\",\"RemotePort\":443,\"TcpTestSucceeded\":true}"
+                  },
+    "curl_pypi_json":  {
+                           "exit_code":  0,
+                           "output":  "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Length: 14251\r\naccess-control-allow-origin: *\r\naccess-control-allow-methods: GET\r\nx-pypi-last-serial: 34367104\r\ncontent-type: application/json\r\ncontent-security-policy: base-uri \u0027self\u0027; connect-src \u0027self\u0027 https://api.github.com/repos/ https://api.github.com/search/issues https://gitlab.com/api/ https://analytics.python.org *.ethicalads.io https://api.pwnedpasswords.com https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/sre/mathmaps/ https://2p66nmmycsj3.statuspage.io; default-src \u0027none\u0027; font-src \u0027self\u0027; form-action \u0027self\u0027 https://checkout.stripe.com https://billing.stripe.com; frame-ancestors \u0027none\u0027; frame-src \u0027none\u0027; img-src \u0027self\u0027 https://pypi-camo.freetls.fastly.net/ *.ethicalads.io ethicalads.blob.core.windows.net; script-src \u0027self\u0027 https://analytics.python.org *.ethicalads.io \u0027sha256-U3hKDidudIaxBDEzwGJApJgPEf2mWk6cfMWghrAa6i0=\u0027 https://cdn.jsdelivr.net/npm/mathjax@3.2.2/ \u0027sha256-1CldwzdEg2k1wTmf7s5RWVd7NMXI/7nxxjJM2C4DqII=\u0027; style-src \u0027self\u0027 *.ethicalads.io \u0027sha256-2YHqZokjiizkHi1Zt+6ar0XJ0OeEy/egBnlm+MDMtrM=\u0027 \u0027sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\u0027 \u0027sha256-JLEjeN9e5dGsz5475WyRaoA4eQOdNPxDIeUhclnJDCE=\u0027 \u0027sha256-mQyxHEuwZJqpxCw3SLmc4YOySNKXunyu2Oiz1r3/wAE=\u0027 \u0027sha256-OCf+kv5Asiwp++8PIevKBYSgnNLNUZvxAp4a7wMLuKA=\u0027 \u0027sha256-h5LOiLhk6wiJrGsG5ItM0KimwzWQH/yAcmoJDJL//bY=\u0027\r\naccess-control-allow-headers: Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since\r\nreferrer-policy: origin-when-cross-origin\r\ncache-control: max-age=900, public\r\nserver: gunicorn\r\naccess-control-max-age: 86400\r\naccess-control-expose-headers: X-PyPI-Last-Serial\r\netag: \"ECPq/rIOOJO1H61d6yvFzA\"\r\nAccept-Ranges: bytes\r\nDate: Wed, 15 Jul 2026 06:19:50 GMT\r\nX-Served-By: cache-iad-kiad7000086-IAD, cache-iad-kiad7000086-IAD, cache-iad-kiad7000043-IAD, cache-nrt-rjtf7700070-NRT\r\nX-Cache: MISS, HIT, HIT\r\nX-Cache-Hits: 0, 40, 0\r\nX-Timer: S1784096390.107828,VS0,VE166\r\nVary: Accept-Encoding\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Permitted-Cross-Domain-Policies: none\r\nPermissions-Policy: publickey-credentials-create=(self),publickey-credentials-get=(self),accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),gamepad=(),geolocation=(),gyroscope=(),hid=(),identity-credentials-get=(),idle-detection=(),local-fonts=(),magnetometer=(),microphone=(),midi=(),otp-credentials=(),payment=(),picture-in-picture=(),screen-wake-lock=(),serial=(),speaker-selection=(),storage-access=(),usb=(),web-share=(),xr-spatial-tracking=()"
+                       },
+    "curl_files":  {
+                       "exit_code":  0,
+                       "output":  "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Length: 1853\r\nContent-Type: text/html\r\nServer: Python/3.12 aiohttp/3.14.1\r\nAccept-Ranges: bytes\r\nDate: Wed, 15 Jul 2026 06:19:50 GMT\r\nAge: 36\r\nX-Served-By: cache-iad-kiad7000058-IAD, cache-nrt-rjaa8190065-NRT\r\nX-Cache: HIT, HIT\r\nX-Cache-Hits: 81, 1\r\nX-Timer: S1784096391.709687,VS0,VE1\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Permitted-Cross-Domain-Policies: none\r\nX-Robots-Header: noindex"
+                   },
+    "iwr_pypi_json":  {
+                          "exit_code":  0,
+                          "output":  "{\"StatusCode\":200,\"StatusDescription\":\"OK\"}"
+                      },
+    "pip_configuration_safe":  true,
+    "status":  "PYPI_TLS_DIAGNOSTICS_COMPLETE",
+    "pip_truststore_dry_run_attempts":  [
+                                            {
+                                                "attempt":  1,
+                                                "exit_code":  1,
+                                                "output":  "D:\\anaconda\\envs\\ereview_sft\\python.exe : WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, sta\r\ntus=None)) after connection broken by \u0027SSLError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c\r\n:997)\u0027))\u0027: /simple/bitsandbytes/\r\nAt line:5 char:10\r\n+   $out = D:\\anaconda\\envs\\ereview_sft\\python.exe -m pip install --dry ...\r\n+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (WARNING: Retryi...e/bitsandbytes/:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\nWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nWARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nWARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nCould not fetch URL https://pypi.org/simple/bitsandbytes/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=\u0027pypi.org\u0027, port=443): Max retries exceeded with url: /simple/bitsandbytes/ (Caused by SSLError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))) - skipping\r\nERROR: Could not find a version that satisfies the requirement bitsandbytes==0.49.2 (from versions: none)\r\nCould not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=\u0027pypi.org\u0027, port=443): Max retries exceeded with url: /simple/pip/ (Caused by SSLError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))) - skipping\r\nERROR: No matching distribution found for bitsandbytes==0.49.2"
+                                            },
+                                            {
+                                                "attempt":  2,
+                                                "exit_code":  1,
+                                                "output":  "D:\\anaconda\\envs\\ereview_sft\\python.exe : WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, sta\r\ntus=None)) after connection broken by \u0027SSLError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c\r\n:997)\u0027))\u0027: /simple/bitsandbytes/\r\nAt line:5 char:10\r\n+   $out = D:\\anaconda\\envs\\ereview_sft\\python.exe -m pip install --dry ...\r\n+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (WARNING: Retryi...e/bitsandbytes/:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\nWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nWARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nWARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nCould not fetch URL https://pypi.org/simple/bitsandbytes/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=\u0027pypi.org\u0027, port=443): Max retries exceeded with url: /simple/bitsandbytes/ (Caused by SSLError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))) - skipping\r\nERROR: Could not find a version that satisfies the requirement bitsandbytes==0.49.2 (from versions: none)\r\nCould not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=\u0027pypi.org\u0027, port=443): Max retries exceeded with url: /simple/pip/ (Caused by SSLError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))) - skipping\r\nERROR: No matching distribution found for bitsandbytes==0.49.2"
+                                            },
+                                            {
+                                                "attempt":  3,
+                                                "exit_code":  1,
+                                                "output":  "D:\\anaconda\\envs\\ereview_sft\\python.exe : WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, sta\r\ntus=None)) after connection broken by \u0027SSLError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c\r\n:997)\u0027))\u0027: /simple/bitsandbytes/\r\nAt line:5 char:10\r\n+   $out = D:\\anaconda\\envs\\ereview_sft\\python.exe -m pip install --dry ...\r\n+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (WARNING: Retryi...e/bitsandbytes/:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\nWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nWARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nWARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by \u0027SSL\r\nError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))\u0027: /simple/bitsandbytes/\r\nCould not fetch URL https://pypi.org/simple/bitsandbytes/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=\u0027pypi.org\u0027, port=443): Max retries exceeded with url: /simple/bitsandbytes/ (Caused by SSLError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))) - skipping\r\nERROR: Could not find a version that satisfies the requirement bitsandbytes==0.49.2 (from versions: none)\r\nCould not fetch URL https://pypi.org/simple/pip/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=\u0027pypi.org\u0027, port=443): Max retries exceeded with url: /simple/pip/ (Caused by SSLError(SSLZeroReturnError(6, \u0027TLS/SSL connection has been closed (EOF) (_ssl.c:997)\u0027))) - skipping\r\nERROR: No matching distribution found for bitsandbytes==0.49.2"
+                                            }
+                                        ],
+    "pip_truststore_result":  "FAILED"
+}

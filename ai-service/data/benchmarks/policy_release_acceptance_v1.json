@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "policy-release-acceptance-v1",
+  "name": "中文政策证据日常发布验收集",
+  "topK": 5,
+  "minimumCoverage": 0.9,
+  "cases": [
+    {"caseId": "release-001", "query": "商家要求五星评价截图后才能领取返现", "expectedRiskTypes": ["rating_manipulation"], "critical": true},
+    {"caseId": "release-002", "query": "没买过商品的人按照统一话术批量发布好评", "expectedRiskTypes": ["fake_review"], "critical": true},
+    {"caseId": "release-003", "query": "客服要求先删除差评才同意退款", "expectedRiskTypes": ["review_suppression"], "critical": true},
+    {"caseId": "release-004", "query": "购买的电池已经鼓包，商家拒绝退货退款", "expectedRiskTypes": ["after_sales_risk"], "critical": true},
+    {"caseId": "release-005", "query": "店员让亲友使用多个账号集中发布满分体验", "expectedRiskTypes": ["fake_review", "rating_manipulation"], "critical": true},
+    {"caseId": "release-006", "query": "赠送礼品券的条件是评价必须写五星", "expectedRiskTypes": ["rating_manipulation"], "critical": false},
+    {"caseId": "release-007", "query": "商家威胁投诉用户并要求撤下负面评价", "expectedRiskTypes": ["review_suppression"], "critical": false},
+    {"caseId": "release-008", "query": "商品到货破损但平台拖延处理退款申请", "expectedRiskTypes": ["after_sales_risk"], "critical": false},
+    {"caseId": "release-009", "query": "每发布一条指定内容的好评就支付十元报酬", "expectedRiskTypes": ["rating_manipulation"], "critical": false},
+    {"caseId": "release-010", "query": "工作室控制大量账号给同一家店铺刷五星", "expectedRiskTypes": ["fake_review", "rating_manipulation"], "critical": false},
+    {"caseId": "release-011", "query": "页面隐藏所有一星评价，只展示商家挑选的好评", "expectedRiskTypes": ["review_suppression"], "critical": false},
+    {"caseId": "release-012", "query": "消费者申请退货后一直得不到售后处理", "expectedRiskTypes": ["after_sales_risk"], "critical": false}
+  ]
+}

@@ -1,0 +1,3694 @@
+{
+  "baseline": {
+    "acceptedEvidenceCountDistribution": {
+      "5": 52
+    },
+    "answerableAcceptanceRate": 1.0,
+    "answerableRecallAt5": 0.109184,
+    "averageEvidenceCount": 5,
+    "caseCount": 52,
+    "expiredEvidenceLeaks": 1,
+    "falseEvidenceCount": 15,
+    "falseNegativeCount": 0,
+    "inactiveEvidenceLeaks": 0,
+    "latency": {
+      "p50": 148.904,
+      "p95": 174.138
+    },
+    "noAnswerCorrectRejection": 0.0,
+    "rejectedEvidenceCount": 156,
+    "subsets": {
+      "lexical": {
+        "caseCount": 16,
+        "hitRateAt5": 0.1875,
+        "mrr": 0.06458333333333333,
+        "ndcgAt5": 0.06284980447403433,
+        "recallAt5": 0.084375
+      },
+      "mixed": {
+        "caseCount": 11,
+        "hitRateAt5": 0.36363636363636365,
+        "mrr": 0.24545454545454548,
+        "ndcgAt5": 0.20334869234208697,
+        "recallAt5": 0.2196969696969697
+      },
+      "no-answer": {
+        "caseCount": 3,
+        "hitRateAt5": 0.0,
+        "mrr": 0.0,
+        "ndcgAt5": 0.0,
+        "recallAt5": 0.0
+      },
+      "overall": {
+        "caseCount": 52,
+        "hitRateAt5": 0.21153846153846154,
+        "mrr": 0.1060897435897436,
+        "ndcgAt5": 0.08647728933928943,
+        "recallAt5": 0.10288461538461538
+      },
+      "semantic": {
+        "caseCount": 16,
+        "hitRateAt5": 0.0625,
+        "mrr": 0.020833333333333332,
+        "ndcgAt5": 0.022707347579198022,
+        "recallAt5": 0.03125
+      },
+      "temporal": {
+        "caseCount": 3,
+        "hitRateAt5": 0.3333333333333333,
+        "mrr": 0.08333333333333333,
+        "ndcgAt5": 0.10638238483297424,
+        "recallAt5": 0.16666666666666666
+      },
+      "tenant-isolation": {
+        "caseCount": 3,
+        "hitRateAt5": 0.6666666666666666,
+        "mrr": 0.39999999999999997,
+        "ndcgAt5": 0.19064061417648479,
+        "recallAt5": 0.19444444444444442
+      }
+    },
+    "tenantViolations": 0
+  },
+  "benchmarkHash": "222802bed4ac363db5dbdfba5b362584ff05e2788f606781bfa2cfbb7e39a0b6",
+  "blockedReasons": [
+    "NO_VALID_REJECTION_POLICY",
+    "MODEL_RERANKER_NOT_VERIFIED"
+  ],
+  "calibrationHash": "5b49e660cc2d2186abdbed642fcae70ba9e8e7c4cd56b1c7c1262887c4dd608b",
+  "candidateCount": 427,
+  "candidatesLight": [
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 6,
+      "noAnswerCorrectRejection": 0.3333,
+      "overallMrr": 0.1060897435897436,
+      "overallNdcgAt5": 0.08647728933928943,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.001711,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 3,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.080339844060464,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.002746,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9796,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.07710662220909636,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.003331,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.005344,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.009197,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9388,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.014047,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9184,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.025283,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.04774,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.05,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8776,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.072008,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.1,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.110767,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8367,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.141174,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.15,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.06149648189162626,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.161443,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.192637,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.2,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7755,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.227634,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.25,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.260195,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.288241,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.3,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7143,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.330952,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.6939,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.356223,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.6735,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.361122,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.6531,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.3986,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.6531,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.4,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.6327,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.460576,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.6122,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.495661,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.6122,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.5,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.5918,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.045055372136588945,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.583057,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.5918,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.045055372136588945,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.6,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.5714,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.03936148923339923,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.683586,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.5714,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.03936148923339923,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.7,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.03936148923339923,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.72457,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.5306,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.03936148923339923,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.764917,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.5102,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.03936148923339923,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.785056,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.4898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.03936148923339923,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.798633,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.4898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.03936148923339923,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.8,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.4694,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.03936148923339923,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.825303,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.449,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.04294871794871795,
+      "overallNdcgAt5": 0.027813723780801193,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.872641,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.449,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.04294871794871795,
+      "overallNdcgAt5": 0.02500471705305684,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.9,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.4286,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.04294871794871795,
+      "overallNdcgAt5": 0.02500471705305684,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.905489,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.4082,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.03333333333333333,
+      "overallNdcgAt5": 0.020889596577392845,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.905907,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.3878,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.014102564102564105,
+      "overallNdcgAt5": 0.013382287923698583,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.912888,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.3469,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.014102564102564105,
+      "overallNdcgAt5": 0.013382287923698583,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.921827,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.3265,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.014102564102564105,
+      "overallNdcgAt5": 0.013382287923698583,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.927914,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.3061,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.014102564102564105,
+      "overallNdcgAt5": 0.013382287923698583,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.933594,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.2653,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.014102564102564105,
+      "overallNdcgAt5": 0.013382287923698583,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.938655,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.2449,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.010256410256410256,
+      "overallNdcgAt5": 0.010478064496240789,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.944141,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.2245,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.010256410256410256,
+      "overallNdcgAt5": 0.010478064496240789,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.951938,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.2041,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.010256410256410256,
+      "overallNdcgAt5": 0.007244842644873144,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.958832,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.1837,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.010256410256410256,
+      "overallNdcgAt5": 0.007244842644873144,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.960905,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.1633,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.00641025641025641,
+      "overallNdcgAt5": 0.0037536543268471318,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.970429,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.1429,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.0,
+      "overallNdcgAt5": 0.0,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.979827,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.1224,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.0,
+      "overallNdcgAt5": 0.0,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.981554,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.102,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.0,
+      "overallNdcgAt5": 0.0,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.98269,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.0816,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.0,
+      "overallNdcgAt5": 0.0,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.98659,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.0612,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.0,
+      "overallNdcgAt5": 0.0,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.991004,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.0408,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.0,
+      "overallNdcgAt5": 0.0,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.991812,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.0204,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.0,
+      "overallNdcgAt5": 0.0,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.993453,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": null,
+        "maximumFinalK": 5,
+        "minimumMargin": null,
+        "policyType": "absolute-threshold"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 6,
+      "noAnswerCorrectRejection": 0.3333,
+      "overallMrr": 0.1060897435897436,
+      "overallNdcgAt5": 0.08647728933928943,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.001711,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.001711,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 6,
+      "noAnswerCorrectRejection": 0.3333,
+      "overallMrr": 0.1060897435897436,
+      "overallNdcgAt5": 0.08647728933928943,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.001711,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.001711,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 6,
+      "noAnswerCorrectRejection": 0.3333,
+      "overallMrr": 0.1060897435897436,
+      "overallNdcgAt5": 0.08647728933928943,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.001711,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.001711,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 6,
+      "noAnswerCorrectRejection": 0.3333,
+      "overallMrr": 0.1060897435897436,
+      "overallNdcgAt5": 0.08647728933928943,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.001711,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.001711,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 6,
+      "noAnswerCorrectRejection": 0.3333,
+      "overallMrr": 0.1060897435897436,
+      "overallNdcgAt5": 0.08647728933928943,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.001711,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.001711,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 6,
+      "noAnswerCorrectRejection": 0.3333,
+      "overallMrr": 0.1060897435897436,
+      "overallNdcgAt5": 0.08647728933928943,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.001711,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.001711,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 3,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.080339844060464,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.002746,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.002746,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 3,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.080339844060464,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.002746,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.002746,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 3,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.080339844060464,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.002746,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.002746,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 3,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.080339844060464,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.002746,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.002746,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 3,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.080339844060464,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.002746,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.002746,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 1.0,
+      "falseEvidenceCount": 3,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.080339844060464,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.002746,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.002746,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9796,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.07710662220909636,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.003331,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.003331,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9796,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.07710662220909636,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.003331,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.003331,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9796,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.07710662220909636,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.003331,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.003331,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9796,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.07710662220909636,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.003331,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.003331,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9796,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.07710662220909636,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.003331,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.003331,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9796,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.1012820512820513,
+      "overallNdcgAt5": 0.07710662220909636,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.003331,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.003331,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.005344,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.005344,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.005344,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.005344,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.005344,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.005344,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.005344,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.005344,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.005344,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.005344,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 2,
+      "noAnswerCorrectRejection": 0.6667,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.005344,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.005344,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.009197,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.009197,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.009197,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.009197,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.009197,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.009197,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.009197,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.009197,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.009197,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.009197,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9592,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.009197,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.009197,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9388,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.014047,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.014047,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9388,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.014047,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.014047,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9388,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.014047,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.014047,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9388,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.014047,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.014047,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9388,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.014047,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.014047,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9388,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.09166666666666669,
+      "overallNdcgAt5": 0.07237003781023618,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.014047,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.014047,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.020833333333333332,
+      "semanticNdcgAt5": 0.022707347579198022
+    },
+    {
+      "answerableAcceptanceRate": 0.9184,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.025283,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.025283,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.9184,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.025283,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.025283,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.9184,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.025283,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.025283,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.9184,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.025283,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.025283,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.9184,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.025283,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.025283,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.9184,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.025283,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.025283,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.04774,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.04774,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.04774,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.04774,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.04774,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.04774,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.04774,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.04774,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.04774,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.04774,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.04774,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.04774,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.05,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.05,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.05,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.05,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.05,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.05,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.05,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.05,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.05,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.05,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.898,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.05,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.05,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8776,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.072008,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.072008,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8776,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.072008,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.072008,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8776,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.072008,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.072008,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8776,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.072008,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.072008,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8776,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.072008,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.072008,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8776,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.072008,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.072008,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.1,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.1,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.1,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.1,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.1,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.1,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.1,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.1,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.1,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.1,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.1,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.1,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.110767,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.110767,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.110767,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.110767,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.110767,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.110767,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.110767,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.110767,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.110767,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.110767,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8571,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.110767,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.110767,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8367,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.141174,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.141174,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8367,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.141174,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.141174,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8367,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.141174,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.141174,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8367,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.141174,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.141174,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8367,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.141174,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.141174,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8367,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.141174,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.141174,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.15,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.15,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.15,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.15,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.15,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.15,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.15,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.15,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.15,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.15,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.0653831616320214,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.15,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.15,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.06149648189162626,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.161443,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.161443,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.06149648189162626,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.161443,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.161443,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.06149648189162626,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.161443,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.161443,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.06149648189162626,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.161443,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.161443,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.06149648189162626,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.161443,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.161443,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.8163,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08525641025641026,
+      "overallNdcgAt5": 0.06149648189162626,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.161443,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.161443,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.192637,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.192637,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.192637,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.192637,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.192637,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.192637,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.192637,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.192637,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.192637,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.192637,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.192637,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.192637,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.2,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.2,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.2,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.2,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.2,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.2,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.2,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.2,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.2,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.2,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7959,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.2,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.2,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7755,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.227634,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.227634,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7755,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.227634,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.227634,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7755,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.227634,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.227634,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7755,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.227634,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.227634,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7755,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.227634,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.227634,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7755,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.08141025641025643,
+      "overallNdcgAt5": 0.05859225846416846,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.227634,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.227634,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.25,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.25,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.25,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.25,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.25,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.25,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.25,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.25,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.25,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.25,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.25,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.25,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.260195,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.260195,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.260195,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.260195,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.260195,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.260195,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.260195,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.260195,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.260195,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.260195,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7551,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.260195,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.260195,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.288241,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.288241,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.288241,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.288241,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.288241,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.288241,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.288241,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.288241,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.288241,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.288241,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.288241,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.288241,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.3,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.3,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.3,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.3,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.3,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.3,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.3,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.3,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.3,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.3,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7347,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.3,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.3,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7143,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.330952,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.330952,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7143,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.330952,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.330952,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.02,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7143,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.330952,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.330952,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.05,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7143,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.330952,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.330952,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.1,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7143,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.330952,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.330952,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.15,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.7143,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.330952,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.330952,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.2,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    },
+    {
+      "answerableAcceptanceRate": 0.6939,
+      "falseEvidenceCount": 0,
+      "noAnswerCorrectRejection": 1.0,
+      "overallMrr": 0.06217948717948718,
+      "overallNdcgAt5": 0.04956766757911546,
+      "pass": false,
+      "policy": {
+        "absoluteThreshold": 0.356223,
+        "allowBackfillBelowThreshold": false,
+        "highConfidenceThreshold": 0.356223,
+        "maximumFinalK": 5,
+        "minimumMargin": 0.0,
+        "policyType": "absolute-threshold-plus-ambiguity-margin"
+      },
+      "semanticMrr": 0.0,
+      "semanticNdcgAt5": 0.0
+    }
+  ],
+  "configurationHash": "2dbcd3eff5bd53f6d82d3541444a36d7b068a1558c5ec3f888de5f795f08e19d",
+  "createdAtUtc": "2026-07-22T14:58:42Z",
+  "evaluationHash": "16e55999a3305e0c9123ce73f3e940846e678ea45b6aaf93947acc29096e778c",
+  "modelId": "BAAI/bge-reranker-v2-m3",
+  "passingCandidateCount": 0,
+  "policyVersion": "v22-reranker-rejection-v1",
+  "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "schemaVersion": "agent-rag-v22-reranker-rejection-calibration-decision-v1",
+  "scoreType": "normalized-relevance",
+  "selectedMetrics": null,
+  "selectedPolicy": null,
+  "status": "BLOCKED"
+}

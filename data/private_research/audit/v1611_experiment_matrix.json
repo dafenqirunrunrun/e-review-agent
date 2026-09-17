@@ -1,0 +1,26 @@
+{
+  "status": "V1611_EXPERIMENT_MATRIX_DESIGNED",
+  "experiments": [
+    {
+      "name": "Experiment A",
+      "single_major_factor_change": "Synthetic v2.3 data",
+      "kept_fixed": [
+        "q/v",
+        "r=8",
+        "epoch=1",
+        "max_length=384"
+      ]
+    },
+    {
+      "name": "Experiment B",
+      "single_major_factor_change": "Epoch 1 to 2",
+      "allowed_only_if": "Experiment A curve proves underfit",
+      "early_stopping_required": true
+    },
+    {
+      "name": "Experiment C",
+      "single_major_factor_change": "target modules q/v to q/k/v/o",
+      "allowed_only_if": "A has sufficient data and token objective alignment but still no task gain"
+    }
+  ]
+}

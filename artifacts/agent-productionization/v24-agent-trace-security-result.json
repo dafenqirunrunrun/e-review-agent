@@ -1,0 +1,10 @@
+{
+  "absolutePathLeakCount": 0,
+  "payloadCaptureDisabledByDefault": true,
+  "rawEvidenceLeakCount": 0,
+  "rawPromptLeakCount": 0,
+  "rawQueryLeakCount": 0,
+  "rawToolArgumentLeakCount": 0,
+  "secretLeakCount": 0,
+  "securityGate": "E_REVIEW_V24_AGENT_TRACE_SECURITY_PASS"
+}

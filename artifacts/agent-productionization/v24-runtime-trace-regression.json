@@ -1,0 +1,8 @@
+{
+  "baseCommit": "f65ffde8",
+  "javaFailureTestIds": [],
+  "newJavaFailureCount": 0,
+  "newPythonFailureCount": 0,
+  "pythonFailureNodeIds": [],
+  "regressionGate": "E_REVIEW_V24_RUNTIME_TRACE_REGRESSION_PASS"
+}

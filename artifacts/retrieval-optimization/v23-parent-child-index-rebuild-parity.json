@@ -1,0 +1,31 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-index-rebuild-parity-v1",
+  "build1": {
+    "childBm25Fingerprint": "25c6ed52a0ab72bec0db85d721cf5337dbd21e4b4dc36522c40c95403af266d6",
+    "childFaissProbeHash": "869ece14b5c10ab2dba8bd99bfe2dc010d5227b3412079d3c620593a1fcb7b6b",
+    "childIndexCanonicalFingerprint": "3208c5b4821192375ab6e1daaee7aeac928d6a3986699b9b3f621f84f0561f33",
+    "parentBm25Fingerprint": "a02639326a7af4167c89737313f0dcd1716f738b11edafdbb650de778cabe8bb",
+    "parentFaissProbeHash": "61b875f90c1220bc4493ad11c34c6bde2a1c126ceb6975a3511db552a631d267",
+    "parentIndexCanonicalFingerprint": "4ea05065a8342f2ff96614bf5695fb9d7c3824f86241617969eca3ef56643546"
+  },
+  "build2": {
+    "childBm25Fingerprint": "25c6ed52a0ab72bec0db85d721cf5337dbd21e4b4dc36522c40c95403af266d6",
+    "childFaissProbeHash": "869ece14b5c10ab2dba8bd99bfe2dc010d5227b3412079d3c620593a1fcb7b6b",
+    "childIndexCanonicalFingerprint": "3208c5b4821192375ab6e1daaee7aeac928d6a3986699b9b3f621f84f0561f33",
+    "parentBm25Fingerprint": "a02639326a7af4167c89737313f0dcd1716f738b11edafdbb650de778cabe8bb",
+    "parentFaissProbeHash": "61b875f90c1220bc4493ad11c34c6bde2a1c126ceb6975a3511db552a631d267",
+    "parentIndexCanonicalFingerprint": "4ea05065a8342f2ff96614bf5695fb9d7c3824f86241617969eca3ef56643546"
+  },
+  "canonicalFingerprintMode": true,
+  "comparisons": {
+    "childBm25Fingerprint": true,
+    "childFaissProbeHash": true,
+    "childIndexCanonicalFingerprint": true,
+    "parentBm25Fingerprint": true,
+    "parentFaissProbeHash": true,
+    "parentIndexCanonicalFingerprint": true
+  },
+  "faissBinaryHashCompared": false,
+  "independentRebuilds": 2,
+  "indexRebuildParityPass": true
+}

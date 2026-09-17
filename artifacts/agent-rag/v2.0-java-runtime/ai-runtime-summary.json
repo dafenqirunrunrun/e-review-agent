@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "baseUrl": "http://127.0.0.1:8008",
+  "health": {
+    "status": "ready",
+    "targetMode": "enterprise-maturity-local-single-node",
+    "defaultRetrievalMode": "bm25-first-semantic-hybrid",
+    "requestedProvider": "bge-m3",
+    "requestedProviderImpl": "flagembedding",
+    "effectiveProvider": "bge-m3",
+    "effectiveProviderImpl": "flagembedding",
+    "providerConformance": "official-library",
+    "library": "FlagEmbedding",
+    "libraryVersion": "1.3.5",
+    "modelLoaded": true,
+    "device": "cuda",
+    "embeddingDimension": 1024,
+    "activeIndexVersion": "phase3a3-flagembedding-v1",
+    "indexCompatible": true,
+    "fallbackUsed": false
+  },
+  "analyze": {
+    "requestIdMatches": true,
+    "tenantId": "__local__",
+    "subjectId": "ai-runtime-gate-subject",
+    "riskLevel": "high",
+    "schemaVersion": "2.0.0",
+    "targetMode": "enterprise-maturity-local-single-node",
+    "citationCount": 3,
+    "fallbackUsed": false
+  },
+  "missing": []
+}

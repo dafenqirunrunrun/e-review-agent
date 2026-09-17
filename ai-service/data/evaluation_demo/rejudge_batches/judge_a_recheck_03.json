@@ -1,0 +1,293 @@
+{
+  "batchType": "judge_a_recheck",
+  "items": [
+    {
+      "caseId": "boundary-v2-e_review_candidate-eff6339c93c2bf",
+      "datasetType": "boundary",
+      "textZh": "客服同意正常退货，没有提删除差评，也没有要求发送截图。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "after_sales_risk"
+      ],
+      "severity": "medium",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-05a721545ecd36",
+      "datasetType": "calibration",
+      "textZh": "体验还可以哈。这里比较适合办酒席吧，因为吃酒和自家吃饭要求不一样哈。大堂设在一楼，吃饭在二楼。菜的味道还行吧。鸭掌粉丝煲不错，鸭掌很耙，是粤菜感觉。虾煲里面豌豆和糯米丸子没有来得及煮熟就端上来了都是生的。厨师小哥你是想多早下班啊……辣子鸡丁最特别；几乎都是干辣椒啊亲。有几个小鸡米，就是孜然的味道。服务员也不爱理人（非高峰期），木有餐巾纸，木有茶水，菜式也不甚多，很多菜没有材料了。总之，给你一种非常非常特别的感觉……",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-4196d918f2ba6d",
+      "datasetType": "calibration",
+      "textZh": "吃个饭还有服务员在旁边骂骂咧咧也是醉了。当时中午高峰还没到，我跟朋友坐在最角落谈事情。扫地阿姨一直在旁边晃悠，偷看我们【对到眼很多次】也不知道我们有什么好看的，是有多八卦。当时周围餐桌都没人，干净的很，每次被我抓到就装作擦桌子。于是我们就说，阿姨我们在谈事情您能不能先擦别桌，就一下下。天地良心我真的是用词很礼貌的请求他【桌子地板都很干净根本没必要擦】她居然破口大骂说我们屁事多。呵呵你们牛逼。老娘舅再见。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-4f46a48ba2f396",
+      "datasetType": "calibration",
+      "textZh": "周日慕名而去。人很多。可惜菜真心没什么好吃的。鸡爪红通通的，比不上祥鑫和平江路的。素鲍鱼还可以，但那都是现成外面进的吧。热菜糟熘黑鱼片是我吃过最难吃最可疑的，没味道，鱼片的鱼皮还和橡皮一样怎么都咬不断。鸡汤里的血是发臭的，整锅汤都散发着鸡窝味。叫服务员端下去给厨师尝，然后就说要么重做要么退，没听到一句解释。之后买单又说闪惠周末不可以用的。没注明，凭什么不可以呢？说反正就是不可以的。以后再不会去任何一家分店。店家，做生意还是要凭良心啊！",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-50a0cc058fe24a",
+      "datasetType": "calibration",
+      "textZh": "今天，本人很幸运，成为了大红灯笼霸王餐的一员，认识了好几个很好很好的人，也吃到了很好吃很好吃的美食。。。今天，吃了好饱，吃了好多菜，有盐水鸭，萝卜皮，蒜香鸡，海蜇，元宝虾，招牌沸腾鱼，迷踪蟹，川香掌中宝，一品毛血旺，酸汤肥牛，小炒牛肉，煎豆腐烩猪肚。。。店家人很好，还送了甜羹和手擀拉面呢。店面环境很好，服务很周到，菜色偏辣，不过很好吃。。。不管怎么说，自己还是很幸运的，感谢店家和大众点评做的这个活动。。。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "low",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-5b95d280a264af",
+      "datasetType": "calibration",
+      "textZh": "昨天正好我和我朋友路过这 ，听说别人这的菜很好吃 我们就进去了 去了才知道啊 环境差的很 我点了宫爆鸡丁，酸菜鱼 北京味考肉 京味炒盒菜 鱼头泡饼 先说说宫爆鸡丁吧 上的到时很快 鸡丁老大小的老小 只能说还行吧 这酸菜鱼也不酸 没味 难吃 做家做野做不出这效果啊 考肉 下面的香菜是坏的 都烂了 这鱼头\\\\r\\\\n泡饼那 也不好吃 就是汤还行吧 去了这次 我在也不去了 真难吃啊 真心不想去 在这个位 也别去了",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-5e5c743a015ff8",
+      "datasetType": "calibration",
+      "textZh": "daozao是我吃过逼格最高的一家自助餐，提前打电话预定的，给留的沙发，由于是周一的原因，大厅里人不是很多，不是很吵，上菜也很快，每道菜都是那么的精致，二选一的鹅肝不是很爱，鳗鱼味道很好，最喜欢的是鳕鱼，非常的香嫩，味道也调制的不错，用茶壶装的松茸汤味道也是极好的，蛋挞超赞，哈根达斯更是我的最爱，百果香一口醋、芝士焗虾、抹茶慕斯、日式小火锅味道也很好，所用食材很新鲜，算下来一共上了30多道菜，还是很实惠的，服务也超赞，最后还送的优惠券。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "high",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-90b303a74db7b5",
+      "datasetType": "calibration",
+      "textZh": "交通非常便利，新天地地铁站出来一楼就是。点了两人份套餐B，青木瓜色拉爽口开胃很不错，三巴酱四季豆酱料不错 配的熏肉够香口感也不错 就是四季豆没有入味，椰汁鸡汤虽然鸡肉处理的不好明显一股不新鲜的味道 但是汤汁倒是味道适中也挺香浓的，辣味牛肉的量比较足 但是 除了几片辣椒 真的一点都不辣啊。总体环境以及服务态度都很好 味道的话，可能是前期期待太大，觉得有所失望。PS:甜品摆盘和菜单上的也差太多了吧，不功不过。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "low",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-a1336c6de4926f",
+      "datasetType": "calibration",
+      "textZh": "刚刚进去问店员大众优惠可以使用？说ok。等我买单了换个女的说都不行，牛！服务态度比较差，有个蛮年轻的小姑娘直接让我们放包的椅子挪走，一点儿都不客气的态度，何况旁边还有其他空位，比较叼。菜品梅干菜烧肉口味还好，有点点咸，老鸭馄饨煲里面居然就5个小小的馄饨，坑嗲。还有，我们同时点了排骨玉米汤，居然里面有鸭子肉，煲里面有排骨，彻底醉了！水晶包没有汤汁，皮厚，哎。吃完4个人有2个拉肚子状态，商家需要自省。这样下去，回头客0",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-aa2604a6a0f342",
+      "datasetType": "calibration",
+      "textZh": "汗巴味德位于水游城B座4楼，麦当劳上面，位置明显，非常好找，交通便利，通公交车，地铁1号线，自驾配有大型露天或地下停车场，非常方便。\\\\n大年初七去的汗巴味德吃自助餐，下午4点左右就已经排了好多人了，门口等位叫号服务员，服务非常差劲，态度差，一直在对顾客喊叫，感觉非常无理没素质。希望商家做好顾客多的应对准备。\\\\n食物没有特别心意，感觉和比尔烤肉差不多，但是比比尔贵，感觉69不是太值。东西种类没有特别突出的，棉花糖比较不错，挺童真的。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "low",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-c2e161f567c75b",
+      "datasetType": "calibration",
+      "textZh": "特地在点评上找得这家五星，本有点怀疑农家菜怎么能得五星，吃了才发现，原来是自家人刷的，东西不但难吃，在湖边的店家，白鱼和昂刺鱼竟然有很大的腥味，量还少，唯一保底的就是银鱼抄蛋，汗颜。第二天对这里的农家菜产生阴影，但堵车正好堵在这家旁边的太湖阁，就想着随便吃点，没想到几个菜还都不错，白鱼鲜嫩，抄螺丝太赞，有个油炸小鱼很不错，连炒蔬菜四叶菜都很鲜嫩，可能因为有对比才会如此激动吧。吃完找到点评，尽然没人评，看来农家乐不能完全信点评啊。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-cd52c325c5f219",
+      "datasetType": "calibration",
+      "textZh": "今天有幸又抽到霸王餐了，还是vip专享，真的很幸运！店很好找，就在中山西路的桥下来，君特酒店边上，装修风格就像过去农村的公社食堂，挺有味道的，挺怀旧的，我们八个人，菜挺多，挺丰盛的，套肠很费工，味道很不错，鸡很嫩，肉一点都不柴，最赞的是鱼，很喜欢！很有特色，不像别的店里烤鱼，都是红油，口味重，他们家的烤鱼味道很好，不辣，而且烤的火候刚刚好！鱼皮很好吃！其他菜也都有各自的特点！很不错！下次可以再来光顾！",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "low",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-d045b988d2a4d0",
+      "datasetType": "calibration",
+      "textZh": "那些刷评论的好意思么！价钱贵的要命，一个有牛肉的汉堡套餐就要30多起，比麦当劳，肯德基贵好多。隔壁就有好吃健康又新鲜的赛百味，每天特价只要15就够了！敢说你不坑！汉堡王！你敢叫王！一个小的得不到四英寸，一道中国就特么缩水了！一个黑椒肉堡里面居然偷换名字！不是牛肉，全是不知道什么毛线的肉加一些玉米凑数！所谓的鸡柳，都是淀粉，你有吃过kfc的鸡米花全部都是淀粉！豆奶千万不要买！全部都是超市粉冲的！还有二楼的水龙头简直就是个喷射器！射你一脸！",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-d659b58c573b05",
+      "datasetType": "calibration",
+      "textZh": "这家还能再差一点吗？真是我吃过最难吃的东北菜，没有之一，难吃的不能形容啊。等了半小时一个凉菜没看到，一堆理由，说什么弄好了没人上，水饺上错说都一起煮的都是绿色她也没办法，卧槽，这管我屁事啊。最恶心的是水饺上错了她把我已经吃过的水饺和人家打包外卖的水饺换了，我去，我说那人家怎么愿意，她说没办法啊。喜欢外卖的亲们你们可注意了，你们的外卖有可能就是被人吃过的。简直不能形容这家店有多差。坑爹的店啊，快倒闭吧！",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "negative_review"
+      ],
+      "severity": "medium",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-asap_chinese_reviews-fa5e0dbf6c1732",
+      "datasetType": "calibration",
+      "textZh": "过桥米线是云南滇南地区特有的小吃，属滇菜系。过桥米线起源于蒙自地区。过桥米线的来历，有两种说法。一种起源于蒙自。蒙自城南有一个南湖，湖光潋艳，四周苍松翠竹，风景旖旎，有一座石砌桥延入湖心小岛。岛上茂林修竹，掩映着几间房屋，环境幽静，是读书的好地方。清代当地有一位秀才为了赶考整天在岛上八角亭内苦读诗书，他的妻子每顿送饭给...好吃不贵，美味实惠",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "normal_review"
+      ],
+      "severity": "low",
+      "expressionType": "implicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-e_review_expert_designed-1cfbecd1a57221",
+      "datasetType": "calibration",
+      "textZh": "只有评分达到五分的买家才能参加返利活动。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "paid_review",
+        "rating_manipulation"
+      ],
+      "severity": "critical",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-e_review_expert_designed-1ebfb2e5f98d9e",
+      "datasetType": "calibration",
+      "textZh": "给好评就发红包，给差评则威胁停止售后。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "harassment_or_abuse",
+        "paid_review",
+        "rating_manipulation",
+        "review_suppression"
+      ],
+      "severity": "critical",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-e_review_expert_designed-335b30345d08f3",
+      "datasetType": "calibration",
+      "textZh": "客服说必须给五颗星并发送截图，才能领取优惠券。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "paid_review",
+        "rating_manipulation"
+      ],
+      "severity": "critical",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-e_review_expert_designed-4bc550cf77777e",
+      "datasetType": "calibration",
+      "textZh": "补偿金额与最终星级挂钩，分数越高返得越多。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "paid_review",
+        "rating_manipulation"
+      ],
+      "severity": "critical",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": null
+    },
+    {
+      "caseId": "cal-e_review_expert_designed-df95f06c612830",
+      "datasetType": "calibration",
+      "textZh": "对方威胁说不删评论就公开我的投诉记录。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "harassment_or_abuse",
+        "privacy_risk",
+        "review_suppression"
+      ],
+      "severity": "critical",
+      "expressionType": "explicit",
+      "ambiguity": false,
+      "boundaryType": null
+    }
+  ]
+}

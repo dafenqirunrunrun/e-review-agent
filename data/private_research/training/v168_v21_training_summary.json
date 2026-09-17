@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-07-15T14:00:19.911353+00:00",
+  "status": "PRIVATE_SYNTHETIC_SFT_V21_QLORA_TRAIN_NOT_RUN_PRETRAIN_DATA_BLOCKED",
+  "epochs_completed": 0,
+  "optimizer_step_count": 0,
+  "validation_run_count": 0,
+  "adapter_parameters_updated": false,
+  "best_adapter_saved": false,
+  "final_adapter_saved": false,
+  "holdout_read_during_training": false,
+  "blocked_reason": "V21_TRAIN_VALIDATION_DATA_BLOCKED"
+}

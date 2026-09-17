@@ -1,0 +1,18 @@
+{
+  "batchType": "judge_b_boundary_recheck",
+  "items": [
+    {
+      "caseId": "boundary-v2-e_review_candidate-eff6339c93c2bf",
+      "textZh": "客服同意正常退货，没有提删除差评，也没有要求发送截图。",
+      "evaluationTarget": "RISK_CLASSIFICATION",
+      "expectedDisposition": "CLASSIFY_RISK",
+      "benchmarkRiskTypes": [
+        "after_sales_risk"
+      ],
+      "severity": "medium",
+      "expressionType": "mixed",
+      "ambiguity": false,
+      "boundaryType": "hard_negative"
+    }
+  ]
+}

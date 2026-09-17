@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-07-15T15:06:06.748940+00:00",
+  "status": "PRIVATE_SYNTHETIC_SFT_V22_DATASET_PASS",
+  "total_count": 414,
+  "train_count": 336,
+  "validation_count": 54,
+  "holdout_count": 24,
+  "identity_change_count": 0,
+  "split_identity_change_count": 0,
+  "lineage_change_count": 0,
+  "core_label_change_count": 0,
+  "target_parse_rate": 1.0,
+  "canonical_schema_valid_rate": 1.0,
+  "field_complete_rate": 1.0,
+  "evidence_support_rate": 1.0,
+  "completion_mask_pass_rate": 1.0,
+  "eos_pass_rate": 1.0,
+  "truncation_rate": 0.0,
+  "cross_split_exact_duplicate": {
+    "train_validation": 0,
+    "train_holdout": 0,
+    "validation_holdout": 0
+  },
+  "cross_split_normalized_duplicate": {
+    "train_validation": 0,
+    "train_holdout": 0,
+    "validation_holdout": 0
+  },
+  "cross_split_lineage_overlap": {
+    "train_validation": 0,
+    "train_holdout": 0,
+    "validation_holdout": 0
+  },
+  "amazon_overlap": 0,
+  "asap_overlap": 0,
+  "public_pilot_overlap": 0,
+  "external_test_overlap": 0,
+  "v164_holdout_overlap": 0,
+  "pii_count": 0,
+  "prohibited_action_count": 0,
+  "risk_type_distribution": {
+    "train": {
+      "after_sales_risk": 152,
+      "negative_review": 88,
+      "normal_review": 96
+    },
+    "validation": {
+      "after_sales_risk": 18,
+      "normal_review": 18,
+      "negative_review": 18
+    },
+    "engineering_holdout_v21": {
+      "normal_review": 8,
+      "negative_review": 8,
+      "after_sales_risk": 8
+    }
+  },
+  "risk_level_distribution": {
+    "train": {
+      "high": 148,
+      "medium": 92,
+      "low": 96
+    },
+    "validation": {
+      "high": 15,
+      "low": 18,
+      "medium": 21
+    },
+    "engineering_holdout_v21": {
+      "low": 8,
+      "medium": 12,
+      "high": 4
+    }
+  }
+}

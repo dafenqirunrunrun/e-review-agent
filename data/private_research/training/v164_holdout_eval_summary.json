@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-07-15T07:13:57.199375+00:00",
+  "status": "V164_HOLDOUT_EVAL_COMPLETE",
+  "holdout_unsealed_once": true,
+  "holdout_count": 48,
+  "base_metrics": {
+    "real_inference_count": 48,
+    "raw_json_parse_success_rate": 1.0,
+    "raw_schema_valid_rate": 0.0,
+    "deterministic_repair_rate": 1.0,
+    "final_schema_valid_rate": 1.0,
+    "field_complete_rate": 1.0,
+    "fallback_rate": 0.0,
+    "empty_output_rate": 0.0,
+    "avg_generate_ms": 4641.53,
+    "p95_generate_ms": 5803.3,
+    "structured_exact_match_rate": 0.0,
+    "risk_type_accuracy": 0.0,
+    "risk_type_macro_f1": 0.0,
+    "risk_level_accuracy": 0.0,
+    "risk_level_macro_f1": 0.0,
+    "need_human_review_accuracy": 1.0,
+    "need_human_review_f1": 1.0,
+    "route_reason_match_rate": 0.0,
+    "missing_information_match_rate": 0.0,
+    "unsupported_claims_match_rate": 1.0,
+    "evidence_nonempty_rate": 1.0,
+    "evidence_support_rate": 1.0,
+    "prohibited_auto_action_count": 0,
+    "unsupported_business_action_count": 0,
+    "evidence_not_in_input_count": 0,
+    "unsafe_auto_pass_count": 0,
+    "schema_safety_violation_count": 0,
+    "output_risk_type_distribution": {
+      "normal_review": 48
+    },
+    "output_risk_level_distribution": {
+      "low": 48
+    }
+  },
+  "adapter_metrics": {
+    "real_inference_count": 48,
+    "raw_json_parse_success_rate": 1.0,
+    "raw_schema_valid_rate": 0.0,
+    "deterministic_repair_rate": 1.0,
+    "final_schema_valid_rate": 1.0,
+    "field_complete_rate": 1.0,
+    "fallback_rate": 0.0,
+    "empty_output_rate": 0.0,
+    "avg_generate_ms": 10633.45,
+    "p95_generate_ms": 15388.68,
+    "structured_exact_match_rate": 0.0,
+    "risk_type_accuracy": 0.0,
+    "risk_type_macro_f1": 0.0,
+    "risk_level_accuracy": 0.0,
+    "risk_level_macro_f1": 0.0,
+    "need_human_review_accuracy": 1.0,
+    "need_human_review_f1": 1.0,
+    "route_reason_match_rate": 0.0,
+    "missing_information_match_rate": 0.0,
+    "unsupported_claims_match_rate": 1.0,
+    "evidence_nonempty_rate": 1.0,
+    "evidence_support_rate": 1.0,
+    "prohibited_auto_action_count": 0,
+    "unsupported_business_action_count": 0,
+    "evidence_not_in_input_count": 0,
+    "unsafe_auto_pass_count": 0,
+    "schema_safety_violation_count": 0,
+    "output_risk_type_distribution": {
+      "normal_review": 48
+    },
+    "output_risk_level_distribution": {
+      "low": 48
+    }
+  },
+  "PRIVATE_SYNTHETIC_ADAPTER_VALUE_GATE": "NEUTRAL",
+  "adapter_final_role": "PRIVATE_SYNTHETIC_ADAPTER_RETAINED_FOR_RESEARCH_ONLY",
+  "real_text_robustness": {
+    "status": "PRIVATE_REAL_TEXT_ADAPTER_ROBUSTNESS_PASS",
+    "amazon_sample_count": 10,
+    "asap_sample_count": 10,
+    "base_metrics": {
+      "real_inference_count": 20,
+      "parse_success_rate": 0.15,
+      "raw_schema_valid_rate": 0.0,
+      "repair_rate": 1.0,
+      "final_schema_valid_rate": 1.0,
+      "fallback_rate": 0.0,
+      "empty_output_rate": 0.0,
+      "text_evidence_nonempty_rate": 1.0,
+      "need_human_review_rate": 1.0,
+      "output_risk_type_distribution": {
+        "normal_review": 20
+      },
+      "output_risk_level_distribution": {
+        "low": 20
+      },
+      "prohibited_auto_action_count": 0,
+      "unsupported_business_action_count": 0,
+      "avg_latency_ms": 10215.51,
+      "p95_latency_ms": 11387.53,
+      "oom_count": 0
+    },
+    "adapter_metrics": {
+      "real_inference_count": 20,
+      "parse_success_rate": 0.15,
+      "raw_schema_valid_rate": 0.0,
+      "repair_rate": 1.0,
+      "final_schema_valid_rate": 1.0,
+      "fallback_rate": 0.0,
+      "empty_output_rate": 0.0,
+      "text_evidence_nonempty_rate": 1.0,
+      "need_human_review_rate": 1.0,
+      "output_risk_type_distribution": {
+        "normal_review": 20
+      },
+      "output_risk_level_distribution": {
+        "low": 20
+      },
+      "prohibited_auto_action_count": 0,
+      "unsupported_business_action_count": 0,
+      "avg_latency_ms": 6733.77,
+      "p95_latency_ms": 12981.83,
+      "oom_count": 0
+    },
+    "distribution_shift_between_base_and_adapter": {
+      "risk_type_distribution_changed": false,
+      "risk_level_distribution_changed": false
+    },
+    "note": "Unlabeled private robustness check only; no accuracy or Macro-F1 is computed."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "flatFalseEvidenceRate": 0.0,
+  "flatNoAnswerPreservationRate": 1.0,
+  "lowScoreBackfillCount": 0,
+  "noAnswerCaseCount": 30,
+  "parentAwareFalseEvidenceRate": 0.0,
+  "parentAwareNoAnswerPreservationRate": 1.0
+}

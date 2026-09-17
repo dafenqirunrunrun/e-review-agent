@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-07-15T07:06:04.513282+00:00",
+  "status": "CONTROLLED_SYNTHETIC_SPLIT_FREEZE_PASS",
+  "hashes": {
+    "manifest": "8884aff2496c32cb361c97e9ca4c67cb586f40272776726fea959cf2413b8cd1",
+    "statistics": "bdaceb227c14c29804eebb3c2af7425316f0fc0a2ba30ae5608f1feaffb338c8",
+    "train": "38f2f2c92a4c77c2f529efc2d883f5f02d3944393a71049abb0ac53c8103b52c",
+    "validation": "7d0646ddfbb85b428441a611cd487ff879d5078bce62ee9e8b2153475e30410b",
+    "engineering_holdout": "988ffc0e47b632d6b4ffc69a085b3f0e0d0278c59a4c367b3aeaed2817b2494c"
+  },
+  "counts": {
+    "train": 336,
+    "validation": 36,
+    "engineering_holdout": 48
+  },
+  "split_manifest_hash_unchanged_for_run": true,
+  "cross_split_exact_duplicate": 0,
+  "cross_split_normalized_duplicate": 0,
+  "template_family_overlap": 0,
+  "paraphrase_family_overlap": 0,
+  "amazon_overlap": 0,
+  "asap_overlap": 0,
+  "public_pilot_overlap": 0,
+  "external_test_overlap": 0,
+  "holdout_sealed_before_training": true,
+  "smoke_adapter_excluded_from_controlled_training": true
+}

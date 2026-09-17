@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-07-15T15:06:06.754463+00:00",
+  "status": "PROMPT_V21_TOKEN_COMPACT_PASS",
+  "prompt_version": "v2.1.0",
+  "renderer_version": "v2.1.0",
+  "contract_version": "v2.0.0",
+  "safety_boundaries_retained": true,
+  "core_fields_unchanged": true,
+  "prompt_average_token_reduction": 74.8333,
+  "target_average_token_reduction": 4.6449,
+  "text_evidence_average_token_reduction": 3.3478,
+  "route_reason_average_token_reduction": 2.6304
+}

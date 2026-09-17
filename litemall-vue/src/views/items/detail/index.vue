@@ -218,12 +218,16 @@ export default {
         });
         return;
       } else if (_.has(data.selectedSkuComb, 's2')) {
-        params.productId = this.getProductId(
-          data.selectedSkuComb.s1,
-          data.selectedSkuComb.s2
-        );
+        params.productId =
+          data.selectedSkuComb.id ||
+          this.getProductId(
+            data.selectedSkuComb.s1,
+            data.selectedSkuComb.s2
+          );
       } else {
-        params.productId = this.getProductIdByOne(data.selectedSkuComb.s1);
+        params.productId =
+          data.selectedSkuComb.id ||
+          this.getProductIdByOne(data.selectedSkuComb.s1);
       }
       cartAdd(params).then(() => {
         this.cartInfo = this.cartInfo + data.selectedNum;
@@ -248,12 +252,16 @@ export default {
         });
         return;
       } else if (_.has(data.selectedSkuComb, 's2')) {
-        params.productId = this.getProductId(
-          data.selectedSkuComb.s1,
-          data.selectedSkuComb.s2
-        );
+        params.productId =
+          data.selectedSkuComb.id ||
+          this.getProductId(
+            data.selectedSkuComb.s1,
+            data.selectedSkuComb.s2
+          );
       } else {
-        params.productId = this.getProductIdByOne(data.selectedSkuComb.s1);
+        params.productId =
+          data.selectedSkuComb.id ||
+          this.getProductIdByOne(data.selectedSkuComb.s1);
       }
       cartFastAdd(params).then(res => {
         let cartId = res.data.data;
@@ -286,6 +294,7 @@ export default {
       var sku_list = [];
       _.each(this.goods.productList, v => {
         var sku_list_obj = {};
+        sku_list_obj.id = v.id;
         _.each(v.specifications, (specificationName, index) => {
           sku_list_obj['s' + (~~index + 1)] = this.findSpecValueIdByName(
             specificationName

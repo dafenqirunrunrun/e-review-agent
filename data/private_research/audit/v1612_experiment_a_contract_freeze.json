@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-07-16T14:18:23.621534+00:00",
+  "status": "V23_EXPERIMENT_A_CONTRACT_FROZEN",
+  "contract_version": "v2.0.0",
+  "prompt_version": "v2.1.0",
+  "evaluator_version": "v2.1.0",
+  "data_version": "v2.3",
+  "train_hash": "68ab06f3a427f5f5349551ea05e997ba36a51370fdf8b71e4908811e98fac8ad",
+  "validation_hash": "c8215a84a72a8c4eaa3f8eb95eee4a644f775a3699827a1bca47c0ea6500164e",
+  "holdout_hash": "5e72d83703d8623f6362049adc05aba20fcf2e28fd2ba9d13281847f67442e2f",
+  "lineage_version": "synthetic_v23_lineage_v1.0.0",
+  "generator_version": "b2f5a1661aabba95cf697e4e6e3ff0deaf771e28fab30c2301dc1133881e153c",
+  "max_length": 384,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "lora_r": 8,
+  "epoch": 1,
+  "old_adapter_warm_start": false,
+  "holdout_training_access": false
+}

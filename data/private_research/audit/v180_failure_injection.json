@@ -1,0 +1,188 @@
+{
+  "case_count": 25,
+  "cases": [
+    {
+      "case": "prompt_injection_english",
+      "evidence": {
+        "blocked": true
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "prompt_injection_chinese",
+      "evidence": {
+        "blocked": true
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "pii_phone_redaction",
+      "evidence": {
+        "redaction_count": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "pii_bearer_redaction",
+      "evidence": {
+        "redaction_count": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "safe_logger_drops_raw",
+      "evidence": {
+        "input_hash": "h",
+        "trace_id": "t"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "tenant_empty_rejected",
+      "evidence": {
+        "raised": "ValueError"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "tenant_path_traversal_rejected",
+      "evidence": {
+        "raised": "ValueError"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "tenant_zero_width_rejected",
+      "evidence": {
+        "raised": "ValueError"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "acl_cross_tenant_filtered",
+      "evidence": {
+        "visible": [
+          "a"
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "acl_deleted_filtered",
+      "evidence": {
+        "visible_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "bm25_empty_query_safe",
+      "evidence": {
+        "hits": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "faiss_no_active_version_blocked",
+      "evidence": {
+        "raised": "RuntimeError"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "tool_forbidden_business_action",
+      "evidence": {
+        "raised": "ValueError"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "tool_unregistered_blocked",
+      "evidence": {
+        "raised": "KeyError"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "tool_non_idempotent_blocked",
+      "evidence": {
+        "raised": "ValueError"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "tool_timeout_policy_blocked",
+      "evidence": {
+        "tool_calls": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "agent_prompt_injection_skips_tools",
+      "evidence": {
+        "tool_calls": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "agent_max_tool_calls_enforced",
+      "evidence": {
+        "tool_calls": 1
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "cache_injection_not_stored",
+      "evidence": {
+        "stored": false
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "cache_key_no_raw_query",
+      "evidence": {
+        "key_length": 64
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "memory_idempotency_expiry",
+      "evidence": {
+        "expired": true
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "sqlite_idempotency_restart",
+      "evidence": {
+        "restart_ok": true
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "runtime_config_rejects_absolute_adapter_path",
+      "evidence": {
+        "raised": "ValidationError"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "runtime_config_rejects_bad_adapter_hash",
+      "evidence": {
+        "raised": "ValidationError"
+      },
+      "status": "PASS"
+    },
+    {
+      "case": "human_review_on_high_risk",
+      "evidence": {
+        "review_required": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "closed_holdout_accessed": false,
+  "fail_count": 0,
+  "pass_count": 25,
+  "status": "V180_FAILURE_INJECTION_25_PASS",
+  "training_executed": false
+}

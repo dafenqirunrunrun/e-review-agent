@@ -1,86 +1,111 @@
-# Secrets
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-*.p12
-*.pfx
+### gradle ###
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
 
-# Java
-**/target/
-*.class
-*.jar
-*.war
+### STS ###
+.settings/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
 
-# Python
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.venv/
-venv/
-env/
-*.egg-info/
-.coverage
-htmlcov/
 
-# Node
-**/node_modules/
-**/dist/
-**/.npm/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Models and indexes
-*.safetensors
-*.ckpt
-*.pt
-*.pth
-*.onnx
-*.faiss
-checkpoints/
-adapters/
-models/
-model-cache/
-
-# Data and databases
-*.db
-*.sqlite
-*.sqlite3
-*.dump
-*.sql.gz
-backups/
-uploads/
-private-data/
-benchmark/raw/
-datasets/private/
-data/private_research/
-data/real_world/
-data/multimodal/
-data/rag/
-
-# Logs and evidence detail
-*.log
-logs/
-soak-logs/
-artifacts/raw/
-artifacts/runtime/
-artifacts/release/
-artifacts/operations/
-test-results/raw/
-.phase4a-baseline/
-/operations/
-/runtime/
-
-# IDE and OS
-.idea/
-.vscode/
+### IntelliJ IDEA ###
+/.idea/
+/private/
+/storage/
+/litemall.iml
+.checkstyle
+.idea
+*.iws
 *.iml
-.DS_Store
-Thumbs.db
+*.ipr
+rebel.xml
+### maven ###
+target/
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
 
-# Local configuration
-application-local.yml
-application-local.yaml
-application-local.properties
+### logs ####
+/logs/
+*.log
+backup/
+
+### temp ignore ###
+*.cache
+*.diff
+*.patch
+*.tmp
+*.java~
+*.properties~
+*.xml~
+
+### system ignore ###
+.DS_Store
+artifacts/agent-rag/
+data/agent-rag/indexes/
+ai-service/data/agent-rag/indexes/
+*.faiss
+Thumbs.db
+Servers
+.metadata
+upload
+gen_code
+
+### E-Review Agent delivery extras ###
+ai-service/.venv/
+ai-service/.venv-qwen-gpu/
+ai-service/.venv-docling/
+ai-service/.venv-mineru/
+ai-service/venv/
+ai-service/.pytest_cache/
+ai-service/**/__pycache__/
+ai-service/**/*.pyc
+ai-service/**/*.pyo
+ai-service/logs/
+ai-service/data/workflow_checkpoints/
+ai-service/data/external_raw/
+ai-service/artifacts/langfuse/
+ai-service/artifacts/step213a1_gpu/cache/
+ai-service/artifacts/step213a2_discriminative/embedding_cache/
+ai-service/artifacts/*
+ai-service/.env
+ai-service/.env.local
+models/
+ai-service/models/
+.cache/huggingface/
+.runtime/vlm-smoke/
+ai-service/runtime/document-workers/
+storage/document-library/
+.runtime/document-library/
+*.safetensors
+pytorch_model*.bin
+*.gguf
+data/rag/index/*.faiss
+data/rag/index/*.npy
+data/private_research/enterprise_rag_v180/faiss_index/**/*.faiss
+data/private_research/audit/v181_faiss_runtime_index/
+data/workflow_checkpoints/
+ai-service/output/
+ai-service/data/policy_rag_real/raw/
+ai-service/data/policy_rag_real/index_no_dense/
+ai-service/data/policy_rag_real/index_relevant_no_dense/
+ai-service/data/policy_rag_real/index_step*_candidate/
+ai-service/data/policy_rag_qwen_step7/
+ai-service/data/policy_rag_step6_smoke/
+litemall-db/test.sql
+litemall-admin/dist/
+litemall-vue/dist/
+node_modules/
+
+# Local Golden Path verification secrets and generated runtime config.
+.env.goldenpath.local
+docs/v24_golden_path_live/config/.env.*.local
+docs/v24_golden_path_live/config/application-*-goldenpath.yml
+docs/v24_golden_path_live/artifacts/startup_rg_ports.txt

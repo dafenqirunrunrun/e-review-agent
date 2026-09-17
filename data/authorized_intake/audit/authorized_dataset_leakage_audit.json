@@ -1,0 +1,18 @@
+{
+  "marker": "AUTHORIZED_DATA_ISOLATION_PASS",
+  "authorized_record_count": 0,
+  "exact_text_duplicate_cross_split": 0,
+  "normalized_duplicate_cross_split": 0,
+  "source_record_duplicate_cross_split": 0,
+  "product_id_overlap_with_external_test": 0,
+  "user_id_overlap_with_external_test": 0,
+  "order_id_overlap_with_external_test": 0,
+  "image_sha256_duplicate_cross_split": 0,
+  "perceptual_image_duplicate_cross_split": 0,
+  "external_test_in_rag_index": false,
+  "external_test_in_prompt_examples": false,
+  "external_test_in_calibration": false,
+  "external_test_in_sft": false,
+  "public_pilot_excluded_from_authorized_data": true,
+  "PUBLIC_PILOT_EXCLUDED_FROM_AUTHORIZED_DATA": true
+}

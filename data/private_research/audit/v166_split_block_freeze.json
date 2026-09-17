@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-15T10:42:24.780979+00:00",
+  "status": "V166_SPLIT_BLOCK_FROZEN",
+  "reusable_candidate_count": 372,
+  "excluded_v164_holdout_count": 48,
+  "paraphrase_family_unique_values": [
+    "p0"
+  ],
+  "v166_dataset_status": "PRIVATE_SYNTHETIC_SFT_V2_DATASET_BLOCKED",
+  "v166_canary_status": "V166_BASE_PROMPT_CONTRACT_CANARY_BLOCKED",
+  "v166_rebuild_status": "SYNTHETIC_SFT_V2_REBUILD_BLOCKED",
+  "block_reason": "global paraphrase_family=p0 was treated as a hard group",
+  "v164_holdout_reuse_allowed": false
+}

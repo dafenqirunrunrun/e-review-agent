@@ -1,0 +1,75 @@
+{
+  "registryVersion": "source-registry-demo-v1",
+  "sources": [
+    {
+      "sourceId": "asap_chinese_reviews",
+      "datasetName": "ASAP Chinese Review Dataset",
+      "sourceUrl": "https://github.com/Meituan-Dianping/ASAP",
+      "publisher": "Meituan-Dianping dataset authors",
+      "language": "zh",
+      "license": "Apache-2.0",
+      "citation": "Bu et al., NAACL 2021, doi:10.18653/v1/2021.naacl-main.167",
+      "downloadMethod": "pinned GitHub archive",
+      "selectedCount": 65,
+      "contentHash": "30912F5E2A866A4C0F654EC3461215F008B8B90D208F2C410F03369F43655DE9",
+      "status": "APPROVED",
+      "notes": "Used only for genuine normal/negative expression and hard negatives; not mapped to product-governance risk."
+    },
+    {
+      "sourceId": "figshare_chinese_negative_reviews",
+      "datasetName": "More than one million negative reviews from a Chinese e-commerce platform",
+      "sourceUrl": "https://figshare.com/articles/dataset/11944947",
+      "publisher": "Jichang Zhao",
+      "language": "zh",
+      "license": "CC BY 4.0",
+      "citation": "Zhao, J. (2020), Figshare dataset 11944947",
+      "downloadMethod": "Figshare file 24701156 with size and MD5 verification",
+      "selectedCount": 35,
+      "contentHash": "916B102E5B8D6C89D1B431559A3BE080B8A12D1474580CDB55EEBCCB699859C4",
+      "status": "APPROVED",
+      "notes": "Original anonymous userID is discarded; only review id/hash and selected text are retained."
+    },
+    {
+      "sourceId": "hf_fake_reviews_apache",
+      "datasetName": "Fake-Reviews-Dataset",
+      "sourceUrl": "https://huggingface.co/datasets/theArijitDas/Fake-Reviews-Dataset",
+      "publisher": "theArijitDas via Hugging Face",
+      "language": "en",
+      "license": "Apache-2.0",
+      "citation": "Hugging Face dataset revision cffa887a877db747e540f15eb891f0d18070b994",
+      "downloadMethod": "pinned revision parquet",
+      "selectedCount": 25,
+      "contentHash": "3384E50F7BBC34B4458BAA3D103DB39313BED83000F31D15858C930CF0F62BA9",
+      "status": "APPROVED",
+      "notes": "Label 1 is computer-generated/deceptive; mapped only to fake_review candidate, never rating manipulation or paid review."
+    },
+    {
+      "sourceId": "e_review_expert_designed",
+      "datasetName": "E-Review business boundary supplement",
+      "sourceUrl": "project://step21.2.2a",
+      "publisher": "E-Review project",
+      "language": "zh",
+      "license": "project-owned",
+      "citation": "Step 21.2.2A construction report",
+      "downloadMethod": "version-controlled expert design",
+      "selectedCount": 55,
+      "contentHash": "52bbda8ffd90d772603e27a6183003ade60f20fd90178dd5308035718615ecf7",
+      "status": "APPROVED",
+      "notes": "Candidate-only business boundaries; not human gold."
+    },
+    {
+      "sourceId": "amazon_reviews_2023",
+      "datasetName": "Amazon Reviews 2023",
+      "sourceUrl": "https://amazon-reviews-2023.github.io/",
+      "publisher": "McAuley Lab / UCSD",
+      "language": "en",
+      "license": "unclear",
+      "citation": "Hou et al. 2024",
+      "downloadMethod": "not downloaded",
+      "selectedCount": 0,
+      "contentHash": null,
+      "status": "SKIPPED_LICENSE_UNCLEAR",
+      "notes": "No review body used."
+    }
+  ]
+}

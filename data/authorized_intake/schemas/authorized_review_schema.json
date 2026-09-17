@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Authorized Review Record",
+  "type": "object",
+  "required": ["sample_id", "source_id", "source_record_id_hash", "review_text", "language", "privacy_status", "authorization_status", "split", "annotation_status"],
+  "properties": {
+    "sample_id": {"type": "string", "minLength": 1},
+    "source_id": {"type": "string", "minLength": 1},
+    "source_record_id_hash": {"type": "string", "minLength": 16},
+    "review_text": {"type": "string", "minLength": 1},
+    "language": {"enum": ["zh", "en", "other"]},
+    "rating": {"type": ["integer", "number", "null"], "minimum": 1, "maximum": 5},
+    "product_category": {"type": ["string", "null"]},
+    "product_id_hash": {"type": ["string", "null"]},
+    "image_ids": {"type": "array", "items": {"type": "string"}},
+    "privacy_status": {"enum": ["pending", "cleared", "redacted", "rejected"]},
+    "authorization_status": {"enum": ["pending", "approved", "rejected", "expired"]},
+    "split": {"enum": ["unassigned", "development", "validation", "external_test"]},
+    "annotation_status": {"enum": ["unlabeled", "single_labeled", "double_labeled", "adjudicated"]}
+  },
+  "additionalProperties": false
+}

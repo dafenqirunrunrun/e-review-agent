@@ -9,7 +9,7 @@
           </div>
           <div class="card-panel-description">
             <div class="card-panel-text">{{ $t('dashboard.section.user_total') }}</div>
-            <count-to :start-val="0" :end-val="userTotal" :duration="2600" class="card-panel-num" />
+            <count-to :start-val="0" :end-val="userTotal" :duration="2600" class="card-panel-num"/>
           </div>
         </div>
       </el-col>
@@ -20,7 +20,7 @@
           </div>
           <div class="card-panel-description">
             <div class="card-panel-text">{{ $t('dashboard.section.goods_total') }}</div>
-            <count-to :start-val="0" :end-val="goodsTotal" :duration="3000" class="card-panel-num" />
+            <count-to :start-val="0" :end-val="goodsTotal" :duration="3000" class="card-panel-num"/>
           </div>
         </div>
       </el-col>
@@ -31,7 +31,7 @@
           </div>
           <div class="card-panel-description">
             <div class="card-panel-text">{{ $t('dashboard.section.product_total') }}</div>
-            <count-to :start-val="0" :end-val="productTotal" :duration="3200" class="card-panel-num" />
+            <count-to :start-val="0" :end-val="productTotal" :duration="3200" class="card-panel-num"/>
           </div>
         </div>
       </el-col>
@@ -42,7 +42,7 @@
           </div>
           <div class="card-panel-description">
             <div class="card-panel-text">{{ $t('dashboard.section.order_total') }}</div>
-            <count-to :start-val="0" :end-val="orderTotal" :duration="3600" class="card-panel-num" />
+            <count-to :start-val="0" :end-val="orderTotal" :duration="3600" class="card-panel-num"/>
           </div>
         </div>
       </el-col>

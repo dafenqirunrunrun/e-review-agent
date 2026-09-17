@@ -1,0 +1,44 @@
+{
+  "admin": {
+    "adminFullLintClean": false,
+    "adminLegacyLintDebt": 40,
+    "adminNoNewLintPass": true,
+    "adminUnitPassInheritedFromV22FullRegression": true,
+    "adminBuildPassInheritedFromV22FullRegression": true
+  },
+  "boundaries": [
+    "MODEL_RERANKER_NOT_VERIFIED",
+    "REAL_LLM_QUALITY_VERIFIED",
+    "ADMIN_LEGACY_LINT_DEBT_40",
+    "ADMIN_FULL_LINT_NOT_CLEAN",
+    "NO_PUSH",
+    "NO_TAG",
+    "NO_RELEASE"
+  ],
+  "createdAtUtc": "2026-07-22T13:28:00Z",
+  "finalGate": {
+    "status": "BLOCKED",
+    "runtimeCorrectnessPass": true,
+    "modelQualityBlockedBy": "MODEL_RERANKER_NOT_VERIFIED"
+  },
+  "markerRegression": {
+    "status": "PASS",
+    "realDenseSelectedGreaterThanZero": true,
+    "realRerankerSelectedGreaterThanZero": true,
+    "realLlmSelectedGreaterThanZero": true
+  },
+  "python": {
+    "defaultPytest": "495 passed, 16 skipped",
+    "defaultPytestPass": true,
+    "realMarkerGatePass": true
+  },
+  "reranker": {
+    "flagEmbeddingTransformersParityPass": true,
+    "qualityDecision": "AGENT_RAG_V22_REAL_RERANKER_QUALITY_REGRESSION",
+    "recoveryDecision": "BLOCKED",
+    "scoreDirectionPass": true
+  },
+  "schemaVersion": "agent-rag-v22-phase84-regression-summary-v1",
+  "status": "BLOCKED",
+  "summary": "Phase 8.4 closed marker discovery and admin no-new-lint gates, preserved LLM and soak evidence, and recorded the real reranker quality regression as the remaining model-chain blocker."
+}

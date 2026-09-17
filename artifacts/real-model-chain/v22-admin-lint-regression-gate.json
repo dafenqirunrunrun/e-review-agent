@@ -1,0 +1,31 @@
+{
+  "adminTreeChangedSinceBaseline": false,
+  "baselineCommit": "9205de0b",
+  "baselineErrorCount": 40,
+  "boundaries": [
+    "ADMIN_LEGACY_LINT_DEBT_40",
+    "ADMIN_FULL_LINT_NOT_CLEAN"
+  ],
+  "changedAdminFiles": [],
+  "createdAtUtc": "2026-07-22T13:20:48Z",
+  "currentErrorCount": 40,
+  "currentWarningCount": 91,
+  "fullLintClean": false,
+  "fullLintExitCode": 1,
+  "legacyLintDebt": 40,
+  "messageFingerprint": "cbd304395ac56b7e2136279502ffd343b2a541d30ef0cad84aeaec77821dcae4",
+  "newErrorCount": 0,
+  "notes": [
+    "The admin tree has no changed files since baseline commit 9205de0b; therefore current lint errors are historical for this model-chain phase.",
+    "Full npm lint is still not claimed clean unless currentErrorCount is zero."
+  ],
+  "resolvedErrorCount": 0,
+  "schemaVersion": "e-review-admin-lint-regression-gate-v1",
+  "status": "PASS",
+  "tokens": [
+    "E_REVIEW_ADMIN_TOUCHED_FILES_LINT_PASS",
+    "E_REVIEW_ADMIN_NO_NEW_LINT_ERRORS_PASS"
+  ],
+  "touchedFileErrorCount": 0,
+  "touchedFileWarningCount": 0
+}

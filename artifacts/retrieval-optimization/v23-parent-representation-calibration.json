@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "averageRetrievedParents": 20,
+      "maxParentTokens": 256,
+      "parentHitRateAt10": 0.875,
+      "parentHitRateAt20": 1.0,
+      "parentHitRateAt5": 0.8,
+      "parentRecall": 1.0,
+      "parentRepresentation": "P1",
+      "relevantParentBestRankMedian": 2
+    },
+    {
+      "averageRetrievedParents": 20,
+      "maxParentTokens": 256,
+      "parentHitRateAt10": 0.875,
+      "parentHitRateAt20": 1.0,
+      "parentHitRateAt5": 0.8,
+      "parentRecall": 1.0,
+      "parentRepresentation": "P2",
+      "relevantParentBestRankMedian": 2
+    }
+  ],
+  "selected": {
+    "averageRetrievedParents": 20,
+    "maxParentTokens": 256,
+    "parentHitRateAt10": 0.875,
+    "parentHitRateAt20": 1.0,
+    "parentHitRateAt5": 0.8,
+    "parentRecall": 1.0,
+    "parentRepresentation": "P1",
+    "relevantParentBestRankMedian": 2
+  }
+}

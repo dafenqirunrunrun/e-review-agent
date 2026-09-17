@@ -1,0 +1,9 @@
+{
+  "translationCalls": 25,
+  "boundaryGenerationCalls": 25,
+  "calibrationBusinessDesignCalls": 30,
+  "cacheHits": 25,
+  "inputTokens": null,
+  "outputTokens": null,
+  "notes": "Translations and project-specific cases were curated once into a deterministic cache; token counts were not available. No runtime API or LLM judge was invoked."
+}

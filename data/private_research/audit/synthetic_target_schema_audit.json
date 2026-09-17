@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-07-15T08:20:10.582381+00:00",
+  "status": "SYNTHETIC_TARGET_SCHEMA_PASS",
+  "canonical_schema_version": "v1.6.5-canonical",
+  "target_equals_gold": true,
+  "gold_post_processed": false,
+  "split_stats": {
+    "train": {
+      "target_count": 336,
+      "target_json_parse_rate": 1.0,
+      "target_canonical_schema_valid_rate": 1.0,
+      "target_field_completeness": 1.0,
+      "target_enum_validity": 1.0,
+      "target_type_validity": 1.0,
+      "target_schema_version": "v1.6.5-canonical",
+      "target_canonical_serialization_rate": 1.0,
+      "target_extra_field_count": {},
+      "target_alias_usage": {},
+      "target_nullability_violations": {},
+      "evidence_item_shape_validity": 1.0
+    },
+    "validation": {
+      "target_count": 36,
+      "target_json_parse_rate": 1.0,
+      "target_canonical_schema_valid_rate": 1.0,
+      "target_field_completeness": 1.0,
+      "target_enum_validity": 1.0,
+      "target_type_validity": 1.0,
+      "target_schema_version": "v1.6.5-canonical",
+      "target_canonical_serialization_rate": 1.0,
+      "target_extra_field_count": {},
+      "target_alias_usage": {},
+      "target_nullability_violations": {},
+      "evidence_item_shape_validity": 1.0
+    },
+    "engineering_holdout": {
+      "target_count": 48,
+      "target_json_parse_rate": 1.0,
+      "target_canonical_schema_valid_rate": 1.0,
+      "target_field_completeness": 1.0,
+      "target_enum_validity": 1.0,
+      "target_type_validity": 1.0,
+      "target_schema_version": "v1.6.5-canonical",
+      "target_canonical_serialization_rate": 1.0,
+      "target_extra_field_count": {},
+      "target_alias_usage": {},
+      "target_nullability_violations": {},
+      "evidence_item_shape_validity": 1.0
+    }
+  }
+}

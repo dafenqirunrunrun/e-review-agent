@@ -12,9 +12,10 @@ module.exports = {
   //   'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
   //   'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   // },
+  parser: 'vue-eslint-parser',
   parserOptions: {
     parser: 'babel-eslint',
-    ecmaVersion:"latest",//最新版，或者你需要的 ECMAScript 版本
-    sourceType:"module" // 允许使用 import/export 语句
+    ecmaVersion: 2020,
+    sourceType: 'module'
   }
 };

@@ -1,0 +1,31 @@
+{
+  "marker": "PRIVATE_SYNTHETIC_SFT_ENGINEERING_READY",
+  "source_type": "synthetic_project_owned",
+  "total_candidate_count": 420,
+  "candidate_counts": {
+    "data/rag/cases/risk_cases_240.jsonl": 240,
+    "data/eval/review_schema_eval.jsonl": 100,
+    "data/synthetic/golden_queries/golden_queries_strict_80.jsonl": 80
+  },
+  "provenance_traceable": true,
+  "contains_amazon_text": false,
+  "contains_asap_text": false,
+  "contains_public_pilot_images": false,
+  "contains_authorized_external_test": false,
+  "contains_pii_counts": {
+    "phone": 0,
+    "email": 0,
+    "address": 0,
+    "order_id": 0
+  },
+  "contains_model_output_cache_annotations": false,
+  "contains_prompt_final_test_set": false,
+  "contains_golden_final_evaluation": false,
+  "input_output_separated": true,
+  "unsafe_action_label_count": 0,
+  "train_validation_test_duplicate_count": 0,
+  "template_family_auditable": true,
+  "engineering_smoke_ready_only": true,
+  "weight_publication_allowed": false,
+  "realworld_performance_claim_allowed": false
+}

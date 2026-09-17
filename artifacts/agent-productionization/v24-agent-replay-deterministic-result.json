@@ -1,0 +1,5 @@
+{
+  "deterministicReplayPass": true,
+  "outcomeHashMatches": 30,
+  "providerStubReplayPass": true
+}

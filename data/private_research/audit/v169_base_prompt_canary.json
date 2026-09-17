@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-07-15T14:44:21.617294+00:00",
+  "status": "V169_BASE_PROMPT_V21_CANARY_PASS",
+  "holdout_read": false,
+  "old_adapter_used": false,
+  "real_inference_count": 12,
+  "sample_count": 12,
+  "sample_hashes": [
+    "00cc16036c40f30dd5f566df",
+    "107e2d784733a042e6c8fd38",
+    "107f8f8094a84b88be7c8305",
+    "140575d06259a65e67cb9866",
+    "07aed475c67832609781712d",
+    "0b8257a499102fb3e2bf34d3",
+    "0f2bd6c0ac1c1f7e4c169bfb",
+    "1d936ab8f909ddfc62ce6a82",
+    "047106d8bd43e5dbbb6150bc",
+    "0efa096343493e3b457d1ad6",
+    "0fd735d7dd04d818d7807a81",
+    "1d8911960a755bbf6fa0227e"
+  ],
+  "raw_json_object_extract_rate": 1.0,
+  "raw_json_parse_success_rate": 1.0,
+  "raw_canonical_schema_valid_rate": 0.8333333333333334,
+  "required_field_presence_rate": 0.8333333333333334,
+  "task_coverage_rate": 0.8333333333333334,
+  "operational_fallback_rate": 0.16666666666666666,
+  "semantic_field_change_count": 0,
+  "input_echo_rate": 0.0,
+  "prohibited_auto_action_count": 0,
+  "oom_count": 0,
+  "avg_generate_ms": 21908.77,
+  "p95_generate_ms": 25511.92,
+  "output_source_distribution": {
+    "raw_or_normalized": 10,
+    "operational_safety_fallback": 2
+  }
+}

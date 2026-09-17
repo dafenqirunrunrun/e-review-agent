@@ -1,0 +1,14 @@
+{
+  "marker": "PILOT_IMAGE_PRIVACY_AUDIT_COMPLETE",
+  "image_count": 18,
+  "automated_cleared": 0,
+  "automated_redacted": 0,
+  "automated_uncertain": 18,
+  "automated_rejected": 0,
+  "detector_failures": [
+    "ocr_engine",
+    "face_detector",
+    "qr_barcode_detector"
+  ],
+  "policy": "detector failure or uncertainty blocks automated_cleared"
+}

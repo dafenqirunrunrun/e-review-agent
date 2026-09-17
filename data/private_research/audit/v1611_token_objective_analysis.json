@@ -1,0 +1,8 @@
+{
+  "status": "SFT_TOKEN_OBJECTIVE_ALIGNMENT_WEAK",
+  "completion_token_count": 3818,
+  "structural_token_ratio": 0.77789419,
+  "semantic_label_token_ratio": 0.06600314,
+  "evidence_token_ratio": 0.0547407,
+  "explanation_token_ratio": 0.10136197
+}

@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import org.linlinjava.litemall.db.dao.LitemallCommentMapper;
 import org.linlinjava.litemall.db.domain.LitemallComment;
 import org.linlinjava.litemall.db.domain.LitemallCommentExample;
+import org.linlinjava.litemall.db.domain.ReviewRatingSource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
@@ -51,9 +52,21 @@ public class LitemallCommentService {
     }
 
     public int save(LitemallComment comment) {
+        normalizeRating(comment);
         comment.setAddTime(LocalDateTime.now());
         comment.setUpdateTime(LocalDateTime.now());
         return commentMapper.insertSelective(comment);
+    }
+
+    private void normalizeRating(LitemallComment comment) {
+        if (!ReviewRatingSource.isUserProvided(comment.getRatingSource())) {
+            comment.setStar(null);
+            comment.setRatingSource(ReviewRatingSource.UNKNOWN.name());
+            return;
+        }
+        if (comment.getStar() == null || comment.getStar() < 1 || comment.getStar() > 5) {
+            throw new IllegalArgumentException("USER_PROVIDED rating must be between 1 and 5");
+        }
     }
 
     public List<LitemallComment> querySelective(String userId, String valueId, Integer page, Integer size, String sort, String order) {

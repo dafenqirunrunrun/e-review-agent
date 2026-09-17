@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "rag-quality-after-sales-delta-manifest-v1",
+  "status": "FROZEN_LLM_ADJUDICATED_AWAITING_DEV_BASELINE",
+  "datasetVersion": "rag-quality-after-sales-delta-v1",
+  "purpose": "Corpus-bound delta evaluation for the two after-sales PDF sources added after the 71-chunk frozen corpus.",
+  "limitation": "Single Codex semantic adjudication for a personal demo; not human gold and not a global workflow promotion result.",
+  "corpus": {
+    "chunkCount": 123,
+    "contentRootHash": "9fd2022e98e54992542bf489620a13844eb70576ef2451f3119360f23da3f704",
+    "documents": [
+      "cn_consumer_rights_protection_law",
+      "cn_ecommerce_law_review_credit",
+      "cn_online_return_without_reason",
+      "cn_online_transaction_supervision",
+      "ftc_16_cfr_part_465",
+      "google_maps_ugc_policy"
+    ],
+    "newDocuments": [
+      "cn_consumer_rights_protection_law",
+      "cn_online_return_without_reason"
+    ]
+  },
+  "files": {
+    "dataset_llm_adjudicated_v1.jsonl": {
+      "path": "dataset_llm_adjudicated_v1.jsonl",
+      "sha256": "57D6B1535A502DE35B4C4F7F8732AADC7C7CE33288883A4E9EFF829E43537F06"
+    },
+    "dev_llm_adjudicated_v1.jsonl": {
+      "path": "dev_llm_adjudicated_v1.jsonl",
+      "sha256": "B16AA4C82B4A5C9811081D4FBE736EBF43107FAB8D6FA68F3D6BBCC57120BBEC"
+    },
+    "holdout_llm_adjudicated_v1.jsonl": {
+      "path": "holdout_llm_adjudicated_v1.jsonl",
+      "sha256": "BB1C71D4B275CE2C074716CEFC05779D6C7789FA2E3336C522F713D8179EA94F"
+    },
+    "qrels_llm_adjudicated_v1.tsv": {
+      "path": "qrels_llm_adjudicated_v1.tsv",
+      "sha256": "6EF6B41C2D4AC249F4742E1661EA7D869849665C52482367BE5CD8D38A311B5C"
+    }
+  },
+  "annotation": {
+    "status": "llm_adjudicated",
+    "source": "codex_semantic_adjudication_after_sales_delta_v1",
+    "humanVerifiedCaseCount": 0,
+    "llmAdjudicatedCaseCount": 24,
+    "qrelCompleteness": "complete",
+    "candidateExposure": {
+      "dev": true,
+      "holdout": false
+    },
+    "holdoutExecuted": false,
+    "thresholdsFrozen": false
+  },
+  "validation": {
+    "caseCount": 24,
+    "devCount": 16,
+    "holdoutCount": 8,
+    "riskCaseCount": 21,
+    "noAnswerCaseCount": 3,
+    "queryStyleCounts": {
+      "blanket_no_return": 1,
+      "confirmed_exception": 1,
+      "contractual_after_sales_refusal": 1,
+      "delayed_after_sales": 1,
+      "exception_confirmation": 1,
+      "normal_negative": 1,
+      "normal_praise": 1,
+      "normal_product_question": 1,
+      "promotion_refund_amount": 1,
+      "quality_refund_reference": 1,
+      "quality_repair": 1,
+      "quality_requirement": 1,
+      "quality_return": 1,
+      "quality_return_cost": 1,
+      "quality_transport_cost": 1,
+      "refund_amount": 1,
+      "refund_method": 1,
+      "refund_to_coupon": 1,
+      "return_address": 1,
+      "return_exception": 1,
+      "return_method_restriction": 1,
+      "return_notice_window": 1,
+      "seven_day_return": 1,
+      "unqualified_goods": 1
+    },
+    "checks": {
+      "currentCorpusHas123Chunks": true,
+      "caseCountIs24": true,
+      "devCountIs16": true,
+      "holdoutCountIs8": true,
+      "allQueriesChinese": true,
+      "caseIdsUnique": true,
+      "reviewTextsUnique": true,
+      "completeQrels": true,
+      "allReleaseAnnotatedWithLimitation": true,
+      "holdoutNotCandidateExposed": true,
+      "normalCasesHaveNoPositiveQrels": true,
+      "riskCasesHaveDirectEvidence": true,
+      "riskSupportMatchesContract": true
+    }
+  }
+}

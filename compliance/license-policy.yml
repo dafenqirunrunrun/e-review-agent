@@ -1,0 +1,21 @@
+allowed:
+  - Apache-2.0
+  - MIT
+  - BSD-2-Clause
+  - BSD-3-Clause
+  - ISC
+  - Python-2.0
+
+review_required:
+  - MPL-2.0
+  - LGPL-2.1-only
+  - LGPL-3.0-only
+  - LicenseRef-Custom
+  - UNKNOWN
+
+denied:
+  - AGPL-3.0-only
+  - SSPL-1.0
+  - BUSL-1.1
+
+unknown_action: review

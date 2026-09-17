@@ -150,8 +150,8 @@ export default {
       contentDetail: '',
       contentDialogVisible: false,
       downloadLoading: false,
-      aftersaleDialogVisible: false,
-      aftersaleDetail: {}
+      aftersaleDialogVisible:false,
+      aftersaleDetail:{}
     }
   },
   created() {
@@ -311,10 +311,10 @@ export default {
       })
     },
     handleRead(row) {
-      this.aftersaleDetail = row
-      console.log(this.aftersaleDetail)
+      this.aftersaleDetail = row;
+      console.log(this.aftersaleDetail);
       this.aftersaleDialogVisible = true
-    }
+    },
   }
 }
 </script>

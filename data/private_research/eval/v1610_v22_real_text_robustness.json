@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-07-16T08:06:25.443983+00:00",
+  "status": "PRIVATE_REAL_TEXT_V22_ADAPTER_ROBUSTNESS_PASS",
+  "amazon_sample_count": 10,
+  "asap_sample_count": 10,
+  "base_metrics": {
+    "real_inference_count": 20,
+    "raw_canonical_schema_valid_rate": 0.2,
+    "task_coverage_rate": 0.2,
+    "operational_schema_valid_rate": 1.0,
+    "fallback_rate": 0.8,
+    "empty_rate": 0.0,
+    "evidence_nonempty_rate": 0.2,
+    "need_human_review_rate": 0.8,
+    "risk_distribution": {
+      "normal_review": 20
+    },
+    "prohibited_action": 0,
+    "unsupported_action": 0,
+    "avg_generate_ms": 10045.32,
+    "p95_generate_ms": 10741.5,
+    "oom": 0
+  },
+  "adapter_metrics": {
+    "real_inference_count": 20,
+    "raw_canonical_schema_valid_rate": 0.15,
+    "task_coverage_rate": 0.15,
+    "operational_schema_valid_rate": 1.0,
+    "fallback_rate": 0.85,
+    "empty_rate": 0.0,
+    "evidence_nonempty_rate": 0.15,
+    "need_human_review_rate": 0.85,
+    "risk_distribution": {
+      "normal_review": 20
+    },
+    "prohibited_action": 0,
+    "unsupported_action": 0,
+    "avg_generate_ms": 11897.38,
+    "p95_generate_ms": 14336.02,
+    "oom": 0
+  },
+  "raw_text_saved_in_git": false,
+  "raw_outputs_saved_in_git": false
+}

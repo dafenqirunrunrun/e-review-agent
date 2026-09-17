@@ -1,0 +1,82 @@
+{
+  "marker": "REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED",
+  "real_external_count": 0,
+  "required_real_external_count": 200,
+  "input_dataset": "data/real_world/external_test/real_reviews_external_test_200.jsonl",
+  "evaluated_modes": [
+    "qwen3_prompt_only",
+    "qwen3_synthetic_rag",
+    "qwen3_real_rag",
+    "qwen3_synthetic_plus_real_hybrid_rag"
+  ],
+  "metrics": {
+    "qwen3_prompt_only": {
+      "risk_type_accuracy": null,
+      "risk_type_macro_f1": null,
+      "risk_level_accuracy": null,
+      "risk_level_macro_f1": null,
+      "schema_valid_rate": null,
+      "evidence_support_rate": null,
+      "unsupported_claim_rate": null,
+      "human_review_precision": null,
+      "human_review_recall": null,
+      "high_risk_review_recall": null,
+      "unsafe_auto_pass_rate": null,
+      "fallback_rate": null,
+      "avg_latency_ms": null
+    },
+    "qwen3_synthetic_rag": {
+      "risk_type_accuracy": null,
+      "risk_type_macro_f1": null,
+      "risk_level_accuracy": null,
+      "risk_level_macro_f1": null,
+      "schema_valid_rate": null,
+      "evidence_support_rate": null,
+      "unsupported_claim_rate": null,
+      "human_review_precision": null,
+      "human_review_recall": null,
+      "high_risk_review_recall": null,
+      "unsafe_auto_pass_rate": null,
+      "fallback_rate": null,
+      "avg_latency_ms": null
+    },
+    "qwen3_real_rag": {
+      "risk_type_accuracy": null,
+      "risk_type_macro_f1": null,
+      "risk_level_accuracy": null,
+      "risk_level_macro_f1": null,
+      "schema_valid_rate": null,
+      "evidence_support_rate": null,
+      "unsupported_claim_rate": null,
+      "human_review_precision": null,
+      "human_review_recall": null,
+      "high_risk_review_recall": null,
+      "unsafe_auto_pass_rate": null,
+      "fallback_rate": null,
+      "avg_latency_ms": null
+    },
+    "qwen3_synthetic_plus_real_hybrid_rag": {
+      "risk_type_accuracy": null,
+      "risk_type_macro_f1": null,
+      "risk_level_accuracy": null,
+      "risk_level_macro_f1": null,
+      "schema_valid_rate": null,
+      "evidence_support_rate": null,
+      "unsupported_claim_rate": null,
+      "human_review_precision": null,
+      "human_review_recall": null,
+      "high_risk_review_recall": null,
+      "unsafe_auto_pass_rate": null,
+      "fallback_rate": null,
+      "avg_latency_ms": null
+    }
+  },
+  "blocking_reasons": [
+    "real external text test set requires at least 200 samples; current=0"
+  ],
+  "notes": [
+    "No real-world Qwen downstream metric is reported unless the isolated external test set is available.",
+    "The external test set must not be used for indexing, prompt selection, fusion-weight tuning, or threshold calibration.",
+    "Null metric values mean the model comparison was not executed; they are not zero scores."
+  ]
+}

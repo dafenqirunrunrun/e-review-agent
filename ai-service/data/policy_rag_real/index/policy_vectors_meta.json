@@ -1,0 +1,2487 @@
+{
+  "schemaVersion": "policy-rag-faiss-v1",
+  "status": "ready",
+  "builtAt": "2026-09-13T08:40:24Z",
+  "indexPath": "data\\policy_rag_real\\index\\policy_vectors.faiss",
+  "metaPath": "data\\policy_rag_real\\index\\policy_vectors_meta.json",
+  "vectorCount": 123,
+  "chunkCount": 123,
+  "dimension": 1024,
+  "indexType": "IndexFlatIP",
+  "metric": "inner-product",
+  "provider": {
+    "providerType": "qwen3-embedding-transformers",
+    "modelName": "Qwen/Qwen3-Embedding-0.6B",
+    "modelPath": "D:\\EReviewAgent\\models\\Qwen3-Embedding-0.6B",
+    "dimension": 1024,
+    "device": "cuda",
+    "normalize": true,
+    "loaded": true,
+    "library": "transformers",
+    "libraryVersion": "5.16.1",
+    "pooling": "attention-mask-mean",
+    "maxLength": 96,
+    "allowRemote": false,
+    "modelFingerprint": "74eaf6b96a6aa50a43403465fd445855",
+    "coldStartLatencyMs": 13726,
+    "lastEmbeddingLatencyMs": 16748,
+    "modelLoadCount": 1,
+    "queueWaitMs": 0,
+    "embeddingComputeMs": 3020,
+    "embeddingGate": {
+      "maxConcurrency": 1,
+      "queueTimeoutMs": 30000,
+      "queueWaitMs": {
+        "count": 1,
+        "avg": 0,
+        "p95": 0,
+        "max": 0
+      },
+      "computeMs": {
+        "count": 1,
+        "avg": 3020,
+        "p95": 3020,
+        "max": 3020
+      }
+    }
+  },
+  "contentRootHash": "22eaf18392d42e3e724fb259ebc9e35568b10d9ab92f7a210c3a3ecbf0b81a88",
+  "rows": [
+    {
+      "vectorPosition": 0,
+      "chunkId": "c8e2c3d604f52d89b35d2894",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "a1e27dd52a71ffd753befc0801394eebe8788034f98642e1fa23473a23648a28",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 1,
+      "chunkId": "536a9266ce6a1849cfd0e0cd",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "2244f5a3ec58d6dfb961e47223d894bfaf511a7d15b6c75a5d394bc988ae2000",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 2,
+      "chunkId": "0a41ef0044d844080ca1997f",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "0d832ac7b3f8e98c43b75752f704489197d5dd710284cd22ab5751b1ab286d94",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 3,
+      "chunkId": "57cc9d086ceb070b6c41429f",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "7a1b58e364dd4f184880b900fb9f3d9f8cae6d75016d087507aeb7d4b5190375",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "rating_manipulation"
+      ],
+      "evidenceTags": [
+        "rating_manipulation"
+      ]
+    },
+    {
+      "vectorPosition": 4,
+      "chunkId": "0f2e7436edb79316065f4c15",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "8ca32d081b3b3214daf067689dfeb5fa33d1fff57b373c1837ee6c71981ed085",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "fake_review",
+        "privacy_risk"
+      ],
+      "evidenceTags": [
+        "fake_engagement",
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 5,
+      "chunkId": "41162dbeeb150907b0d23ce4",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "c872885bad21be17cb28bc540e5ab32d1bbfe19056fc63b7a542a1ccc0f322fb",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "harassment_or_abuse"
+      ],
+      "evidenceTags": [
+        "harassment_or_abuse"
+      ]
+    },
+    {
+      "vectorPosition": 6,
+      "chunkId": "3e1800d1dbd21edc2652ebcc",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "79f93f4c5b4f64513c42c66b832453724695ea1e20cd09828d79db3c1b27c4aa",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 7,
+      "chunkId": "b9a74381a55c2e2a5d531eee",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "cc63799bca609ef83d1f160dd92034b6ade78edc826324d35c8942926b4daf77",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.2 Fake or false consumer reviews, consumer testimonials, or celebrity testimonials."
+      ],
+      "clauseId": "465.2",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_review"
+      ]
+    },
+    {
+      "vectorPosition": 8,
+      "chunkId": "ff0598d26200a4e201663451",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "33047d6b08eb153c0fb66e5d827ab9a53332e3c9305238f4472677053e9fa3ad",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.2 Fake or false consumer reviews, consumer testimonials, or celebrity testimonials."
+      ],
+      "clauseId": "465.2",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_review"
+      ]
+    },
+    {
+      "vectorPosition": 9,
+      "chunkId": "e8fc322104542c3e1df7cd07",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "f7b9b0c28d3188fc588851cf2528923783d03d6b1c512a705315d4ec7f1700dc",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.2 Fake or false consumer reviews, consumer testimonials, or celebrity testimonials."
+      ],
+      "clauseId": "465.2",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_review"
+      ]
+    },
+    {
+      "vectorPosition": 10,
+      "chunkId": "d75980ec05a8bcb347f5bf52",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "b3dea86f90910974cca67b0092aa016dae8b415dc9889c6b4e3233f1c1f534c3",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.4 Buying positive or negative consumer reviews."
+      ],
+      "clauseId": "465.4",
+      "riskTypes": [
+        "rating_manipulation"
+      ],
+      "evidenceTags": [
+        "incentivized_review"
+      ]
+    },
+    {
+      "vectorPosition": 11,
+      "chunkId": "b14f89e74208114964c36c0f",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "e366fc6a5cdb95f8cda7ea47cddd7421881108a16817aa133aa7d3e021f58667",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.5 Insider consumer reviews and consumer testimonials."
+      ],
+      "clauseId": "465.5",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 12,
+      "chunkId": "6f5d0392f20447bc15c67e0c",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "142ac424a3f02a6b898e81b56ff8c41d6c2dd49f622a0de182dbf4f08a8a19f6",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.5 Insider consumer reviews and consumer testimonials."
+      ],
+      "clauseId": "465.5",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 13,
+      "chunkId": "4d7071f25cef2f602d5e9fdb",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "6f64a4f612d15f2473b9e5c91fe365b64dc3d455812c523b867262e8c5fdfd07",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.5 Insider consumer reviews and consumer testimonials."
+      ],
+      "clauseId": "465.5",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 14,
+      "chunkId": "867d3b065fe8cb78c508d36e",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "4adc22776b9c5ccf0c91823333934794469046f35c6852d8f91cea6de1cfb771",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.6 Company-controlled review websites or entities."
+      ],
+      "clauseId": "465.6",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 15,
+      "chunkId": "ce069bb67cc3b294d6e7cf93",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "5541d2ef3e9a3d367eeea2723e58798da53d3dd49969de0eb140899a9bf65e53",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.7 Review suppression."
+      ],
+      "clauseId": "465.7",
+      "riskTypes": [
+        "review_suppression"
+      ],
+      "evidenceTags": [
+        "review_suppression"
+      ]
+    },
+    {
+      "vectorPosition": 16,
+      "chunkId": "1b44f5da1082d2e258a9b675",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "a8d52257d1193cf594eb6e82be9d81031c46aa9d6f2d95da562c23838782dc0c",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.7 Review suppression."
+      ],
+      "clauseId": "465.7",
+      "riskTypes": [
+        "fake_review",
+        "rating_manipulation",
+        "review_suppression",
+        "harassment_or_abuse"
+      ],
+      "evidenceTags": [
+        "rating_manipulation",
+        "fake_engagement",
+        "review_suppression"
+      ]
+    },
+    {
+      "vectorPosition": 17,
+      "chunkId": "352cc7c3321ebbb3ee8c8c7d",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "14012521856da747883893b26cb982b25f0ee6224a5ba5d209bad72f2d68e9e7",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.7 Review suppression."
+      ],
+      "clauseId": "465.7",
+      "riskTypes": [
+        "fake_review",
+        "rating_manipulation",
+        "review_suppression",
+        "privacy_risk",
+        "harassment_or_abuse"
+      ],
+      "evidenceTags": [
+        "rating_manipulation",
+        "fake_engagement",
+        "review_suppression",
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 18,
+      "chunkId": "4bb6bc675b0b66a4f32d5866",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "9a10aac22b46224d1f2b9bf21767960f32c071538b01294aad932b595a6ee792",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.8 Misuse of fake indicators of social media influence."
+      ],
+      "clauseId": "465.8",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_review"
+      ]
+    },
+    {
+      "vectorPosition": 19,
+      "chunkId": "88ccb4cf9d7552db92333ace",
+      "documentId": "ftc_16_cfr_part_465",
+      "contentHash": "2752514dae9420e1418f52effec0651c9611f8e945cf1358aede83b3063f6afb",
+      "sourceName": "16 CFR Part 465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "PART 465—RULE ON THE USE OF CONSUMER REVIEWS AND TESTIMONIALS",
+        "§ 465.8 Misuse of fake indicators of social media influence."
+      ],
+      "clauseId": "465.8",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 20,
+      "chunkId": "c873d5aa9491fa3933669fd0",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "84cd3a390cbc10aead044f697bbdb83a747fe4fdbbfb006ba597e7258ec456ae",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "三",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales_risk"
+      ]
+    },
+    {
+      "vectorPosition": 21,
+      "chunkId": "6d72a0db83fb2384c7e57b6b",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "76ba472cc0cae32d83044ebfbac7e6286be5fd7a8721ffc76d671017ef6a936c",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "五",
+      "riskTypes": [
+        "privacy_risk",
+        "after_sales_risk",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "privacy",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 22,
+      "chunkId": "eeecfa148cfe1159d4a3498f",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "45c6fb98ad71804a50654c9875473e95b2f16774570ca96f7043098f90f090b3",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "十三",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 23,
+      "chunkId": "9c3dc9939e5eb8879caf3c5c",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "0bbe79dd040faea5a8203702e94dfc2e28594a69863855f23a4e89739951e9f3",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "十七",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 24,
+      "chunkId": "e66578cf821a0e47b9e962ca",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "4415c4f0d90b5d8172502a4a05306393673f61d37333bbd8d33a0af82705cf90",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "二十三",
+      "riskTypes": [
+        "privacy_risk"
+      ],
+      "evidenceTags": [
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 25,
+      "chunkId": "80c18a7840c993d76a64efd6",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "a60550a0a66e6c1c1a7b010a735f3ce5e5c4ec24377cb5ad749cb719a068fba0",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "二十四",
+      "riskTypes": [
+        "review_suppression"
+      ],
+      "evidenceTags": [
+        "review_suppression"
+      ]
+    },
+    {
+      "vectorPosition": 26,
+      "chunkId": "f9d2febf1911851cc59297b2",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "b807d46a45be644374d0c76b20ac769511c1ffa80dd478dc681adb796ba4b0d9",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "二十五",
+      "riskTypes": [
+        "privacy_risk",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "privacy",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 27,
+      "chunkId": "960edf5b431f2e1a75fe12c0",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "58b1fa9bbc783e9e4a98c1a3f9eb4e33b5b673df3decb93867536e7deea2abfc",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "三十",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 28,
+      "chunkId": "ab774fea76e05a3567311915",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "184baf92cb52db248b9907652ec480b6e75d26828d3d0171b8018a285888e674",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "三十二",
+      "riskTypes": [
+        "privacy_risk",
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 29,
+      "chunkId": "25b39504f13e488f3e5ae074",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "7537267fabf88eb95a86ab47a43e403c9315b504282dc241da4e756bbd3b9c77",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "三十八",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 30,
+      "chunkId": "2bee6c98575e591210bf2067",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "49807422f341470c3b8a89b56b424d51f688cf932d81a804029bfda65894e788",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "三十九",
+      "riskTypes": [
+        "review_suppression"
+      ],
+      "evidenceTags": [
+        "review_suppression"
+      ]
+    },
+    {
+      "vectorPosition": 31,
+      "chunkId": "63236b39a9f986c368b964f0",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "9dd455e10a81c8d540ca329a54f1a5b0365a690d94c762f24d2e9ca3ca1ac72d",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "四十",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 32,
+      "chunkId": "65bd65824e3b4c3ff6d04eeb",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "de2b6f82ccfce5df6eaf6ccb8d49d3d3accdd390985e7d3069ac15cffc47d518",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "四十二",
+      "riskTypes": [
+        "review_suppression"
+      ],
+      "evidenceTags": [
+        "review_suppression"
+      ]
+    },
+    {
+      "vectorPosition": 33,
+      "chunkId": "b50575b4ec5822c8229f4984",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "6803f8b0c2c0d046c6c561c5d5f5ee42fa6aabfa53342aa538a9be0f6ae1c36c",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "四十五",
+      "riskTypes": [
+        "review_suppression"
+      ],
+      "evidenceTags": [
+        "review_suppression"
+      ]
+    },
+    {
+      "vectorPosition": 34,
+      "chunkId": "2b830e6558f54bde857aeed4",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "0cf16dfbc99449d94e848d50ee3fad66e26e6783aebff700ee975be7963c6b2d",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "五十四",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 35,
+      "chunkId": "a5d7486b9d28abc732aa76d1",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "25a5a780d1dbfd9a4392bca66357600d4b4286f6cca055b45de62fdc8df9f4fd",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "五十八",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales_risk"
+      ]
+    },
+    {
+      "vectorPosition": 36,
+      "chunkId": "4ad43740494d51521fbccedb",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "db159f95b9514b6172452abf269db6623cdd4e852f36b338d1d4d13db8984cbe",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "六十九",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 37,
+      "chunkId": "2e4f02719d63c81a3bc7c23f",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "df3bc8928f62dd4e6ad334c6d30f4d07e7b050b2c4b74414e875635056c539c6",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "七十",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 38,
+      "chunkId": "f3505a02a80731136b3e62e5",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "456f2a75e469c16ae56115e1c11ef06c24dad8e1123884d8fb3c9b6c0943d861",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "七十九",
+      "riskTypes": [
+        "privacy_risk",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "privacy",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 39,
+      "chunkId": "87f20bd3c98ffb283a988c55",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "a7dfce6dd14ad21cbf16316664dc0b3b9f53d0b7529faf40498c8a417d1ca436",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "八十三",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 40,
+      "chunkId": "733aa32c4fab815fefe98471",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "efc673e3b0f99aa05425c72bdcc33526e5e21df002eb47b6de0ccee8d98f0acc",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "八十五",
+      "riskTypes": [
+        "fake_review",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "fake_engagement",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 41,
+      "chunkId": "899d4834198116b931f41f28",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "b8d03b35939e877ae741838732e39dff01ebf894fea8cea8d7f9c5c3dec7cb6f",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "八十六",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 42,
+      "chunkId": "593a78e1c365a6ab5e20e1ff",
+      "documentId": "cn_ecommerce_law_review_credit",
+      "contentHash": "4c0f4076988f88a1ebc5f97e57321543d7895492392e18188206427f3312f1dc",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国电子商务法"
+      ],
+      "clauseId": "八十七",
+      "riskTypes": [
+        "privacy_risk"
+      ],
+      "evidenceTags": [
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 43,
+      "chunkId": "80f9b79fe54394c78c211e9c",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "401af59142f2692bf81e902dd912ca83080c962cace40400939d4d6590bbec23",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "十一",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 44,
+      "chunkId": "c6e44e860bda2dbd0db15251",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "6906d92be3b7fb5658619626438c8897c405599de9d933c2699beadfc08a24f6",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "十五",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 45,
+      "chunkId": "93326e9355a42652819655e3",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "0d313ece2285d9d360fc13f8f293814b86965a3e465138a229f09c7069343df9",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "二十",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 46,
+      "chunkId": "31b38d83c374476950d9bf66",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "6cf2e167b0df9eda07f900350d67672f6e659b77852f322034acced8edd2a46c",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "三十一",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 47,
+      "chunkId": "d39f3783d3ea567ab0fa8845",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "6dc65a1d5fcb0d68f636c5b39d0d74fe79899b3a8e8f9a3395db0102297c51cf",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "三十六",
+      "riskTypes": [
+        "privacy_risk",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "privacy",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 48,
+      "chunkId": "183f7776b08e4857b7256921",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "4f3623ac983670a6bd0814d59ce5c799c574dce6a5d7f7d0f3d1b52a7261805d",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "三十七",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 49,
+      "chunkId": "32171f295985f6c3669279e8",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "1662d1e68407d3a1a1eb59da462a6fe5d09648b5d786e3121dcc7eef127d6ebf",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "五十二",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 50,
+      "chunkId": "929e63371367e06c4c16c173",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "1dfb238edded22bc99c1cddf74c0f507934a5c2ef4ddcbdc3b58656e8c2ca197",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "五十三",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 51,
+      "chunkId": "b4a69df5d87c6cb97b861b53",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "b276ad78691afdbd623a043ba9f01cfd01211889d6c2a338f0b34c230947dc69",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "五十四",
+      "riskTypes": [
+        "privacy_risk"
+      ],
+      "evidenceTags": [
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 52,
+      "chunkId": "f02be485495fbcd7eec71174",
+      "documentId": "cn_online_transaction_supervision",
+      "contentHash": "b57fee07e4f8e3395891457ff67a338311243eb7654a5cd8323e7ff3806feb6e",
+      "sourceName": "网络交易监督管理办法",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络交易监督管理办法",
+        "（2021年3月15日国家市场监督管理总局令第37号公布）"
+      ],
+      "clauseId": "五十六",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 53,
+      "chunkId": "fb73b04f3dc30c502020b99e",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "e093a06a415b750caed6c519fdc4c1ee7a01bc39879a9916d2a138a0d828d9e8",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Google Maps User Generated Content Policy"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "privacy_risk"
+      ],
+      "evidenceTags": [
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 54,
+      "chunkId": "72db6bec63c837846684727a",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "12a932f608eea1c499f78dfa53b3abb3715853bd2f2d84b66ca1ff53b6febd1d",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Fake & Misleading Content & Reviews"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "fake_review",
+        "rating_manipulation",
+        "review_suppression"
+      ],
+      "evidenceTags": [
+        "rating_manipulation",
+        "fake_engagement",
+        "review_suppression"
+      ]
+    },
+    {
+      "vectorPosition": 55,
+      "chunkId": "74340d2418d9fcfa599e41da",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "528f3d24e86583c3c4812504231d7c505cb0d8ed4118692a43142a3b37e9dd4d",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Fake & Misleading Content & Reviews"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "fake_review",
+        "rating_manipulation"
+      ],
+      "evidenceTags": [
+        "incentivized_review",
+        "rating_manipulation"
+      ]
+    },
+    {
+      "vectorPosition": 56,
+      "chunkId": "6c7475580a2b1d66073c6416",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "6a20adf6e56098691c7a4feb68a9d144aa44133f45aa6b04718c9595daaa011c",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Rating Manipulation"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "rating_manipulation",
+        "review_suppression"
+      ],
+      "evidenceTags": [
+        "rating_manipulation",
+        "review_suppression"
+      ]
+    },
+    {
+      "vectorPosition": 57,
+      "chunkId": "193384aae5a85267bb71d5a2",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "d9a54655e5f339918f8ce547d838014c11c50fe3f22fc2a176d726e84f8f37d4",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Rating Manipulation"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "rating_manipulation"
+      ],
+      "evidenceTags": [
+        "incentivized_review",
+        "rating_manipulation"
+      ]
+    },
+    {
+      "vectorPosition": 58,
+      "chunkId": "5e45c7b9d11e097df49f7e14",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "5c8cfc30830b8753a4b56670bec9498a8ae36d10b78e66ebe75caa1f45aad094",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Rating Manipulation"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "fake_review",
+        "rating_manipulation"
+      ],
+      "evidenceTags": [
+        "incentivized_review",
+        "rating_manipulation",
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 59,
+      "chunkId": "a8834b40ce1493aef9864ed1",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "cbf5e089019a13b27d8fab732675782978f54d68f10d3c708ae4de1d778e17e4",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Rating Manipulation"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "fake_review",
+        "rating_manipulation"
+      ],
+      "evidenceTags": [
+        "rating_manipulation",
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 60,
+      "chunkId": "897edec791c0ca7e55aa81a4",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "a72048500ab70e79f1bfb5461acfe855b40f4ea37ba61400a77b1011ffcccad9",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Rating Manipulation"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "rating_manipulation"
+      ],
+      "evidenceTags": [
+        "rating_manipulation"
+      ]
+    },
+    {
+      "vectorPosition": 61,
+      "chunkId": "a120af91026adec4e2a4e419",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "fbe970d1420b6eb57d00123771239468fb9b1153a58cb73b8eabf5cbd0047ffe",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "harassment_or_abuse"
+      ],
+      "evidenceTags": [
+        "harassment_or_abuse"
+      ]
+    },
+    {
+      "vectorPosition": 62,
+      "chunkId": "707d8b182fcab0cc98e0d706",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "cfc2b8fc4fbf0486b417f75d420beb2263dd7e91d2f3def6f0b7745b30ca1406",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "harassment_or_abuse",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 63,
+      "chunkId": "268b9e81014b78dc6839c0a1",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "96deadd7d577392558b1fcc0b181060daa4e159c5d3de19c5a7a754fa8bc64e0",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "privacy_risk"
+      ],
+      "evidenceTags": [
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 64,
+      "chunkId": "f7c63a5ca6444c3d8bf2766b",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "81eb957e44f742c0842dca66c069b8d7d278ceae0a0357989b53229c62a355de",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "review_suppression",
+        "privacy_risk"
+      ],
+      "evidenceTags": [
+        "review_suppression",
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 65,
+      "chunkId": "febd4cde0160f2f3212b99f2",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "3027078eec910df4509aa2cd80b6eab2107e1ac9b458f49beab68b0c636c42a2",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 66,
+      "chunkId": "d72cb9cf95bc8f2bd4c9e132",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "23bdddc186a6f1c9960c88547f7c97ea4b7d01ef1eb14f9cbe9a75a8f2100ab2",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "review_suppression",
+        "harassment_or_abuse",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "review_suppression",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 67,
+      "chunkId": "7133e4b54a39002fa4a58098",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "264eada0183ecaf709091b39aa99b37bf072ebd25df189d31ed241d95f46d0cc",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "review_suppression",
+        "harassment_or_abuse",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "review_suppression"
+      ]
+    },
+    {
+      "vectorPosition": 68,
+      "chunkId": "75d20ee4fb71bddfb0ed4faa",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "7c078d7659aa2c37a1bfaf7b2e6e8ec161e9d2655b0ed6b24d5c45fd7bd471c9",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 69,
+      "chunkId": "84208b9327ce0af315cef11b",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "552b5e4eaca8cc96ee9b1570eda5ed7a72133791131c96ae025c4356aec97929",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 70,
+      "chunkId": "f9554d43e61de67ca86d2418",
+      "documentId": "google_maps_ugc_policy",
+      "contentHash": "c6b47455bdf45e16f8a10c4a992d883b3f2d71d1e4f6ddebcc98e4f8449956d5",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceType": "platform_policy",
+      "sectionPath": [
+        "Prohibited & restricted content",
+        "Inappropriate content & behavior"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 71,
+      "chunkId": "070f4053489022f87fc5237c",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "639e682b3968ecf0431a3c18bba7425c60275d86e694e74e85e857eac98f9eb1",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "四",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 72,
+      "chunkId": "cba521004ee4425bbf51a4ea",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "2ed279d5df64874cda8a37b36eb7b66f1489335e393d53db000ece142aae8963",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "七",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 73,
+      "chunkId": "14a0429ad049e37ac599d13c",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "d35e8f0b1da4677f71220ddd9a7212f8d24873b643cee23c42c2aef50ba1a97d",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "十",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales_risk"
+      ]
+    },
+    {
+      "vectorPosition": 74,
+      "chunkId": "3ef61b884044c23b1ab6928a",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "67c620f174c54e4bfb928fe7f0a14a9e443a1d7ba8bb9b90ba60a28c5663fda4",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "十四",
+      "riskTypes": [
+        "privacy_risk"
+      ],
+      "evidenceTags": [
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 75,
+      "chunkId": "f33d6618dfe6675e82c068be",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "012696d97b9f42f42e976a6bbce00f56f9d5f59060ef165e0c28798499eb26e9",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "十八",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 76,
+      "chunkId": "b21768e181d271673972f8c9",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "c9aaf82ad53784fcb231c4c9841b2c4df6402a5ab16b9d2911ef38ade86f10dd",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "十九",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 77,
+      "chunkId": "1138c0cb67333b62aa803d93",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "8c86029d1cd729c73d57c5dc6a422c21ff7bd21ae6e17d112f5856fdf817d37e",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "二十",
+      "riskTypes": [
+        "fake_review",
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 78,
+      "chunkId": "0539bd066e0d98b45a9bfaf1",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "f6ef2f990cb5fc14a8081582b72e276d64962d73ceed4cf0f377547a32eb2d6c",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "二十四",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 79,
+      "chunkId": "ca84282d68724f1844e27349",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "16b60118e37acfb8a4811541367c3f623821b6050a777883bb9012ff97485390",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "二十四",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 80,
+      "chunkId": "5946574f8bd0c4044db3569f",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "ae403a2ca98de2fe7b10abc02323272382c524316db4811fa27e6c79904c70b5",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "二十六",
+      "riskTypes": [
+        "after_sales_risk",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "after_sales",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 81,
+      "chunkId": "10b2eab53a3049abffc25534",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "1316eceaad4720a94fa20eff92e6a01da311f1a4e3c612d88c8f4e74b11bfbd2",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "二十八",
+      "riskTypes": [
+        "after_sales_risk",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "after_sales",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 82,
+      "chunkId": "174a95d3588ac5353f94c9db",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "9732d64e15172d15084c1d87ce8ae1bca43b731e6ccda9eae3c12bea77c2fc42",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "二十九",
+      "riskTypes": [
+        "privacy_risk",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "privacy",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 83,
+      "chunkId": "b01da79002cd4c4b04ae3537",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "858284ae6f89192ba610f6229d9bf32681d3a5aa1f07842cebf13da2af8b09a6",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "三十一",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 84,
+      "chunkId": "bcefe2556533bf214b092aaa",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "4179e0e7ad2bb4b368cd3eb6f8966cdcc1c11d0c465d815b94924faf25173b4d",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "三十二",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales_risk"
+      ]
+    },
+    {
+      "vectorPosition": 85,
+      "chunkId": "d9c726a36797a9b2cde31118",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "201d7c59b7f47bd70c76fd0914f756c287b1d3f0507f04160a25749eb6012655",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "三十三",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 86,
+      "chunkId": "cb15ead12d4039caf231ca9f",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "21c488527e9a6c2fca01c00cd8770cda003c1585a458255f8d452d42be3d5194",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "四十五",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 87,
+      "chunkId": "6f85d773ade297809eb63340",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "2e9714bcc2b07e89ad4218e790cb5e76231b3abbd9b2aa7f7bc78b4dc320eed1",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "四十五",
+      "riskTypes": [
+        "fake_review"
+      ],
+      "evidenceTags": [
+        "fake_engagement"
+      ]
+    },
+    {
+      "vectorPosition": 88,
+      "chunkId": "39cbb81e156f7d499df5c611",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "b6892758c1cc6bf1dc0efea6ca5e1992dc03ccc961c8357125bb924c8b46339f",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "四十八",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales_risk"
+      ]
+    },
+    {
+      "vectorPosition": 89,
+      "chunkId": "3d1b1ab914b0e9b977cb1cc3",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "150a68b26ff55585e94054165e5ef08cc78d41fc842edf6e5ed5f52fd711f78e",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "四十八",
+      "riskTypes": [
+        "after_sales_risk",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "after_sales",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 90,
+      "chunkId": "d12388c9593d556cbf9fa26b",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "6326c4fcad59d241492b069729b0bfd8c1e74167c40089366f6485ef05208e89",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "五十",
+      "riskTypes": [
+        "privacy_risk"
+      ],
+      "evidenceTags": [
+        "privacy"
+      ]
+    },
+    {
+      "vectorPosition": 91,
+      "chunkId": "4ff7433c72a04eb7d842200c",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "c5c66ed945a37ead26d34e6e95ab798c20e67908167a392f36c770eddac202fa",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "五十二",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 92,
+      "chunkId": "773f942e3be758de8ae2902e",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "3f23625a664d7cf563cc09f287a7390bcfe40509df2e0327acfb8d465d585c59",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "五十四",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 93,
+      "chunkId": "3f4842c89c425516e5e7b1dd",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "5fbded2694b04e2ddbfded5a218558b5d950ec43fcace1ac1df7b9689b51c6e8",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "五十五",
+      "riskTypes": [
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 94,
+      "chunkId": "b01986d4ce16f18afeddc94d",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "8956c85153cd09fb6d626b42f0ea02aa2eb91b4f5dc182706de69f6fb3432562",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "五十六",
+      "riskTypes": [
+        "review_policy"
+      ],
+      "evidenceTags": [
+        "review_policy"
+      ]
+    },
+    {
+      "vectorPosition": 95,
+      "chunkId": "af0ee5dc2e3fcf3d97c9b6bb",
+      "documentId": "cn_consumer_rights_protection_law",
+      "contentHash": "6e42771d14a56edf5a6fb6ac4d76bfa4c8b3322fad6adc42d3ec054c64d0ed6e",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceType": "law",
+      "sectionPath": [
+        "中华人民共和国消费者权益保护法"
+      ],
+      "clauseId": "六十",
+      "riskTypes": [
+        "harassment_or_abuse"
+      ],
+      "evidenceTags": [
+        "harassment_or_abuse"
+      ]
+    },
+    {
+      "vectorPosition": 96,
+      "chunkId": "b73e8604ebe3fb0270ddefab",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "0e5a57c82abcbb3bada5a31dc880ca56746c45c685c9be88338142fcb19f468d",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 97,
+      "chunkId": "a769d850d93d977e9c761636",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "7a05828eb74f3e7f730c3bd7592893a3854a4d31724a4beec6b0b1eb73e76230",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "一",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 98,
+      "chunkId": "48a39b86e63089dd46fbafa4",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "379d0b44b9755cd9c25a9b4145f66ed96cc9146efc5fd967c0cd8db8bd32c79b",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "三",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 99,
+      "chunkId": "18124aa970f61cb814ff1f41",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "d4383c907a7bcf4b2a2e53e095524632697d8047ffc27764a89d0e53f4f120b1",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "四",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 100,
+      "chunkId": "1c9cd654141a711b51a1aee9",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "21c97bfd1ca2611e64371c44edd246eca04f07e838bd0988b1137dddeb4ea017",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "五",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 101,
+      "chunkId": "a9af6989a139fdb8b55fd170",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "7ac8305f70b0bca90050b78db22a3cdef4825abdd40e4db9274212ceca3ff55d",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "六",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 102,
+      "chunkId": "493041265bd2c713afb129a9",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "e0cf6d966af58f7a565ee50be9389f1eb7f814a5d59cf15e0633947f451f5daa",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "七",
+      "riskTypes": [
+        "after_sales_risk",
+        "safety_or_fraud_risk"
+      ],
+      "evidenceTags": [
+        "after_sales",
+        "safety_or_fraud"
+      ]
+    },
+    {
+      "vectorPosition": 103,
+      "chunkId": "f1208c5777a24744235ba1d5",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "ad19e18fc1f35e3f70768e73e99fd10c9a0e9f4c7d68d1b7a682ebba404667d4",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "十",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 104,
+      "chunkId": "04b48270f13dd05eb79be4f1",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "9256b0bd3e9110816e22b876e4eaf42704f9ec89cee1ff80274d01166ed0e07c",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "十一",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 105,
+      "chunkId": "70df58cd0cfaf7f187a4c567",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "c215a27258c71201ff32b946c4f1e1c6e50fcb78ad031b9db7432f2cf3ecee55",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "十二",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 106,
+      "chunkId": "4bfc051f1914fbb4ab5e4ad7",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "5b08debeeb32f68d9449fa4cbc4217444227af387b1d97f69d1d62d213a9c166",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "十四",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 107,
+      "chunkId": "889a958ba5164a7f669de87c",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "438e8398149aeb5a945e624303eb8ed383a8467335d222c465a21993ab535735",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "十六",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 108,
+      "chunkId": "1a1f03399fdc3d89d3d719c7",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "11e3dc29d68dfe9d64cd5d0b6dc7fc6b34e53b27999e7dfb2c4eb2ad037829c0",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "十七",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 109,
+      "chunkId": "bffde39478e67ef16a09a9e5",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "bf156639903fac74446c198e66d8be7e84522bad65f2f52274cf53f9416bafe4",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "十八",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 110,
+      "chunkId": "475d1bf42488f69738fe0822",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "4db82f0f334f2e38c114f0c649e48aa0403ac0967ead607090aad8f3a863cdb8",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "十九",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 111,
+      "chunkId": "707fc44e82dce02fce6e24d1",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "21d253ab25fd43184d906a97114e41611d61b2c6b035ec3a4ce3878ba01996c6",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "二十",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 112,
+      "chunkId": "e28f2dfdf2961a59e0428c3e",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "05c579849960635f741d0834d30fb4fe1a8d29658b5f8f9918ad94c16f51f5e1",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "二十一",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 113,
+      "chunkId": "9019f9c567d98512d8c79925",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "a92b7a9c38ae0e2bc475f1eaf1a98a4c3612c0288f6a8c7dbb5933688565c537",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "二十二",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 114,
+      "chunkId": "ca8f54de923030e6f5b872a0",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "d8753f4cfcd4e85850382f91975f4aa5ae0ebefcf5846f12626de77d4ec188ba",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "二十三",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 115,
+      "chunkId": "ddb8117db129df8892b5aba4",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "57571c98730db55423e00bba98a3623f909261ae92ea68b3d744f1971a213bd0",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "二十五",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 116,
+      "chunkId": "318b1c9c6e239c9f56e3981b",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "58307e56ab2e3e762f99fdc1c5ed52c7b3afdc2717c18e55f30609e09dca93b8",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "二十六",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 117,
+      "chunkId": "8fbf095e4758d1c692d3041d",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "dd74d25bab2b3c93ef2c6eab09067c7703520ea9826229048fd6567562833044",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "二十七",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 118,
+      "chunkId": "7d0ffada34b4e1b7c8b8106e",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "90f727f69170ef7a0c434aa10512b472ec0b5ef2327162f4fb1bd4dcac60bc7b",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "二十八",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 119,
+      "chunkId": "49b39af22b6c54bde6c10da9",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "4f5d3c1ac5daf83193517a659aa4b46e96455f4ea6e02a07707ea3c9ea637294",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "二十九",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 120,
+      "chunkId": "69866aa104c7a213cab4293b",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "a793e895297c96873e07cdfd55cbdf085b4457e4ff35bfbcf726a1943022c50a",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "三十",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 121,
+      "chunkId": "48dc6d207a8f925466215641",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "5e6ac60616c6c7bed06b5f206935f434a3e8002103a2d39e3f118bb80713116c",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "三十三",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    },
+    {
+      "vectorPosition": 122,
+      "chunkId": "d16fa94c30683f12a1f89dd3",
+      "documentId": "cn_online_return_without_reason",
+      "contentHash": "6c3f77b58e4da105c15de61012755d75789670421383c339b9ef1b292064ebb3",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceType": "regulation",
+      "sectionPath": [
+        "网络购买商品七日无理由退货暂行办法"
+      ],
+      "clauseId": "三十五",
+      "riskTypes": [
+        "after_sales_risk"
+      ],
+      "evidenceTags": [
+        "after_sales"
+      ]
+    }
+  ]
+}

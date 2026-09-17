@@ -1,0 +1,2 @@
+# Install only in ai-service/.venv-mineru. Model artifacts are downloaded separately.
+mineru[all]==3.4.5

@@ -1,0 +1,10 @@
+{
+  "absolutePathLeaks": 0,
+  "authorizationLeaks": 0,
+  "evidenceLeaks": 0,
+  "modelResponseLeaks": 0,
+  "promptLeaks": 0,
+  "queryLeaks": 0,
+  "secretLeaks": 0,
+  "securityGate": "E_REVIEW_V24_RUNTIME_TRACE_SECURITY_PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "canonicalIndexHashStable": true,
+    "contentHashMismatchCountZero": true,
+    "disabledIndexedCountZero": true,
+    "eligibleChunkCountPositive": true,
+    "emptyVectorRateAllowed": false,
+    "encodedEqualsEligible": true,
+    "environmentGatePass": true,
+    "expiredIndexedCountZero": true,
+    "inactiveIndexedCountZero": true,
+    "invalidWeightChunkCountZero": true,
+    "realSparseExecution": true,
+    "tenantViolationCountZero": true
+  },
+  "schemaVersion": "agent-rag-v23-bge-m3-sparse-index-gate-v1",
+  "status": "BLOCKED"
+}

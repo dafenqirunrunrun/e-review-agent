@@ -1,0 +1,7 @@
+{
+  "marker": "REALWORLD_VLM_EVAL_BLOCKED",
+  "blocking_reasons": [
+    "real multimodal external test requires at least 40 privacy-cleared image-text samples"
+  ],
+  "sample_count": 0
+}

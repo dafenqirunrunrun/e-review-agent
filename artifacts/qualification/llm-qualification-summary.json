@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "v2.1-llm-qualification",
+  "generatedAt": "2026-07-21T01:45:00Z",
+  "rcBaseline": "ffd05f2611cf2c7996a681fa0343778da73f7e50",
+  "qualificationBranch": "experiment/v2.1-model-quality-scale",
+  "assetAudit": {
+    "assetType": "llm",
+    "available": false,
+    "blockerCodes": [
+      "ENV_PATH_NOT_SET"
+    ],
+    "envName": "AGENT_LLM_MODEL_PATH",
+    "assetFingerprint": null
+  },
+  "runtime": {
+    "attempted": false,
+    "reason": "Local causal LM asset was not configured. Runtime loading is prohibited until offline asset audit passes.",
+    "token": "AGENT_RAG_REAL_LLM_BLOCKED"
+  },
+  "evaluation": {
+    "attempted": false,
+    "reason": "Grounded structured-output quality evaluation requires a real local LLM generation path.",
+    "qualityToken": "REAL_LLM_QUALITY_NOT_VERIFIED"
+  },
+  "fallbackDecision": {
+    "defaultAnalysisProvider": "rule",
+    "rcBaselineModified": false,
+    "decision": "Keep rule analysis as the default path."
+  },
+  "tests": [
+    {
+      "command": "python -m pytest -ra -m real_llm",
+      "result": "0 selected, 499 deselected",
+      "exitCode": 1,
+      "classification": "NO_REAL_LLM_MARKER_TESTS_SELECTED"
+    }
+  ],
+  "tokens": [
+    "AGENT_RAG_REAL_LLM_BLOCKED",
+    "REAL_LLM_QUALITY_NOT_VERIFIED",
+    "NO_PUSH",
+    "NO_TAG",
+    "NO_RELEASE"
+  ]
+}

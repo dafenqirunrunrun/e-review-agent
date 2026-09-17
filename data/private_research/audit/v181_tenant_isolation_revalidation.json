@@ -1,0 +1,47 @@
+{
+  "status": "V180_TENANT_ISOLATION_REVALIDATED",
+  "attack_count": 80,
+  "tenant_leakage_count": 0,
+  "coverage": [
+    "Sparse",
+    "Dense",
+    "Hybrid",
+    "Cache",
+    "Agent",
+    "API",
+    "Session",
+    "Tool"
+  ],
+  "sample": [
+    {
+      "attack": 1,
+      "tenant": "tenant-0",
+      "foreign": "tenant-1",
+      "leaked": []
+    },
+    {
+      "attack": 2,
+      "tenant": "tenant-1",
+      "foreign": "tenant-2",
+      "leaked": []
+    },
+    {
+      "attack": 3,
+      "tenant": "tenant-2",
+      "foreign": "tenant-3",
+      "leaked": []
+    },
+    {
+      "attack": 4,
+      "tenant": "tenant-3",
+      "foreign": "tenant-4",
+      "leaked": []
+    },
+    {
+      "attack": 5,
+      "tenant": "tenant-4",
+      "foreign": "tenant-5",
+      "leaked": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "bgeM3SparseRouteRejected": false,
+  "confidence": "HIGH",
+  "fp32QualificationRequired": true,
+  "knowledgeSnapshotRedesignRequired": false,
+  "phase94cAllowed": false,
+  "primaryRootCause": "SPARSE_FP16_UNDERFLOW_OR_PRECISION_LOSS_CONFIRMED",
+  "representationRescueRequired": false,
+  "schemaVersion": "agent-rag-v23-sparse-dqa-root-cause-decision-v1",
+  "secondaryCauses": [
+    "HISTORICAL_NON_EMPTY_SET_NOT_FULLY_IDENTIFIABLE"
+  ],
+  "sparseIndexRebuildAllowed": false
+}

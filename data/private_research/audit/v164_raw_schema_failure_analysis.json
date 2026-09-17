@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-15T08:20:10.570944+00:00",
+  "status": "V164_RAW_PREDICTIONS_UNAVAILABLE",
+  "raw_prediction_file_count": 0,
+  "holdout_rerun_performed": false,
+  "reason": "v1.6.4 run directory contains adapters/checkpoints but no persisted raw holdout prediction files",
+  "raw_output_count": 0,
+  "json_parse_success_count": null,
+  "raw_schema_valid_count": null,
+  "failure_reason_distribution": {},
+  "missing_field_distribution": {},
+  "invalid_enum_distribution": {},
+  "wrong_type_distribution": {},
+  "unknown_field_distribution": {},
+  "evidence_shape_failure_count": null,
+  "alias_mismatch_count": null,
+  "schema_version_mismatch_count": null,
+  "primary_reason_for_parse_success_but_schema_failure": "unavailable for historical holdout; validation diagnostic is required for field-level evidence"
+}

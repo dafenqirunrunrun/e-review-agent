@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "agent-rag-v22-reranker-calibration-decision-v1",
+  "benchmarkVersion": "v22-real-reranker-frozen-phase3a2-v1",
+  "benchmarkHash": "222802bed4ac363db5dbdfba5b362584ff05e2788f606781bfa2cfbb7e39a0b6",
+  "gridCount": 36,
+  "selected": {
+    "candidateK": 8,
+    "finalK": 5,
+    "batchSize": 8,
+    "maxLength": 384
+  },
+  "selectedSummary": {
+    "caseCount": 52,
+    "subsets": {
+      "overall": {
+        "caseCount": 52,
+        "hybrid": {
+          "hitRateAt5": 0.19230769230769232,
+          "recallAt5": 0.1,
+          "mrr": 0.20592948717948717,
+          "ndcgAt5": 0.11740177990989105
+        },
+        "deterministic": {
+          "hitRateAt5": 0.19230769230769232,
+          "recallAt5": 0.1,
+          "mrr": 0.18269230769230768,
+          "ndcgAt5": 0.11740177990989105
+        },
+        "real": {
+          "hitRateAt5": 0.21153846153846154,
+          "recallAt5": 0.07692307692307693,
+          "mrr": 0.1060897435897436,
+          "ndcgAt5": 0.07116567701063084
+        }
+      },
+      "lexical": {
+        "caseCount": 16,
+        "hybrid": {
+          "hitRateAt5": 0.1875,
+          "recallAt5": 0.125,
+          "mrr": 0.23697916666666666,
+          "ndcgAt5": 0.13559875641480051
+        },
+        "deterministic": {
+          "hitRateAt5": 0.1875,
+          "recallAt5": 0.125,
+          "mrr": 0.1875,
+          "ndcgAt5": 0.13559875641480051
+        },
+        "real": {
+          "hitRateAt5": 0.1875,
+          "recallAt5": 0.07500000000000001,
+          "mrr": 0.06458333333333333,
+          "ndcgAt5": 0.05863207638008951
+        }
+      },
+      "semantic": {
+        "caseCount": 16,
+        "hybrid": {
+          "hitRateAt5": 0.0625,
+          "recallAt5": 0.025,
+          "mrr": 0.0625,
+          "ndcgAt5": 0.03032678469477016
+        },
+        "deterministic": {
+          "hitRateAt5": 0.0625,
+          "recallAt5": 0.025,
+          "mrr": 0.0625,
+          "ndcgAt5": 0.03032678469477016
+        },
+        "real": {
+          "hitRateAt5": 0.0625,
+          "recallAt5": 0.025,
+          "mrr": 0.020833333333333332,
+          "ndcgAt5": 0.019728028279969657
+        }
+      },
+      "mixed": {
+        "caseCount": 11,
+        "hybrid": {
+          "hitRateAt5": 0.2727272727272727,
+          "recallAt5": 0.12727272727272726,
+          "mrr": 0.3106060606060606,
+          "ndcgAt5": 0.16627450115102174
+        },
+        "deterministic": {
+          "hitRateAt5": 0.2727272727272727,
+          "recallAt5": 0.12727272727272726,
+          "mrr": 0.2727272727272727,
+          "ndcgAt5": 0.16627450115102174
+        },
+        "real": {
+          "hitRateAt5": 0.36363636363636365,
+          "recallAt5": 0.14545454545454545,
+          "mrr": 0.24545454545454548,
+          "ndcgAt5": 0.1544740745318955
+        }
+      },
+      "temporal": {
+        "caseCount": 3,
+        "hybrid": {
+          "hitRateAt5": 0.3333333333333333,
+          "recallAt5": 0.13333333333333333,
+          "mrr": 0.16666666666666666,
+          "ndcgAt5": 0.11506378074895646
+        },
+        "deterministic": {
+          "hitRateAt5": 0.3333333333333333,
+          "recallAt5": 0.13333333333333333,
+          "mrr": 0.16666666666666666,
+          "ndcgAt5": 0.11506378074895646
+        },
+        "real": {
+          "hitRateAt5": 0.3333333333333333,
+          "recallAt5": 0.13333333333333333,
+          "mrr": 0.08333333333333333,
+          "ndcgAt5": 0.09242447578501607
+        }
+      },
+      "tenant-isolation": {
+        "caseCount": 3,
+        "hybrid": {
+          "hitRateAt5": 0.6666666666666666,
+          "recallAt5": 0.3333333333333333,
+          "mrr": 0.6666666666666666,
+          "ndcgAt5": 0.4252910142176985
+        },
+        "deterministic": {
+          "hitRateAt5": 0.6666666666666666,
+          "recallAt5": 0.3333333333333333,
+          "mrr": 0.6666666666666666,
+          "ndcgAt5": 0.4252910142176985
+        },
+        "real": {
+          "hitRateAt5": 0.6666666666666666,
+          "recallAt5": 0.13333333333333333,
+          "mrr": 0.39999999999999997,
+          "ndcgAt5": 0.1567884275953193
+        }
+      },
+      "no-answer": {
+        "caseCount": 3,
+        "hybrid": {
+          "hitRateAt5": 0.0,
+          "recallAt5": 0.0,
+          "mrr": 0.0,
+          "ndcgAt5": 0.0
+        },
+        "deterministic": {
+          "hitRateAt5": 0.0,
+          "recallAt5": 0.0,
+          "mrr": 0.0,
+          "ndcgAt5": 0.0
+        },
+        "real": {
+          "hitRateAt5": 0.0,
+          "recallAt5": 0.0,
+          "mrr": 0.0,
+          "ndcgAt5": 0.0
+        }
+      }
+    },
+    "realRuntimeExecutions": 52,
+    "computeScoreExecutions": 52,
+    "tenantViolations": 0,
+    "inactiveEvidenceLeaks": 0,
+    "expiredEvidenceLeaks": 1,
+    "falseEvidenceCount": 15,
+    "falseEvidenceRate": 0.0577,
+    "noAnswerCorrectRejection": 0.0,
+    "latency": {
+      "p50": 37.467,
+      "p95": 44.899,
+      "p99": 47.147
+    }
+  },
+  "decisionRule": "safety, semantic nDCG@5, semantic MRR, overall no regression, latency",
+  "createdAtUtc": "2026-07-22T03:13:09Z"
+}

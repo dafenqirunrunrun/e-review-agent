@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-07-15T10:42:24.780979+00:00",
+  "status": "SYNTHETIC_LINEAGE_AUDIT_PASS",
+  "field_value_counts": {
+    "generation_batch": {
+      "data/rag/cases/risk_cases_240.jsonl": 192,
+      "data/eval/review_schema_eval.jsonl": 100,
+      "data/synthetic/golden_queries/golden_queries_strict_80.jsonl": 80
+    },
+    "paraphrase_family": {
+      "p0": 372
+    },
+    "risk_type": {
+      "after_sales_risk": 164,
+      "negative_review": 100,
+      "normal_review": 108
+    },
+    "scenario_family": {
+      "after_sales_risk": 96,
+      "negative_review": 60,
+      "normal_review": 36,
+      "positive": 24,
+      "neutral": 24,
+      "negative": 20,
+      "after_sales": 20,
+      "delivery_delay": 4,
+      "malicious_review": 4,
+      "food_safety": 4,
+      "missing_parts": 4,
+      "counterfeit": 4,
+      "damaged": 4,
+      "subjective_negative": 4,
+      "return_dispute": 4,
+      "fake_shipping": 4,
+      "battery_safety": 4,
+      "service_no_response": 4,
+      "quality_defect": 4,
+      "wrong_item": 4,
+      "refund_dispute": 4,
+      "mixed_evidence": 20,
+      "modality_conflict": 4,
+      "rating_conflict": 4,
+      "insufficient_evidence": 4,
+      "leakage": 4
+    },
+    "source_prompt_version": {
+      "v1633": 372
+    },
+    "template_family": {
+      "CASE-LEAKAGE": 12,
+      "CASE-MISSING_PARTS": 12,
+      "CASE-REFUND_DISPUTE": 12,
+      "CASE-RETURN_DISPUTE": 12,
+      "CASE-SERVICE_NO_RESPONSE": 12,
+      "CASE-COUNTERFEIT": 12,
+      "CASE-QUALITY_DEFECT": 12,
+      "CASE-FOOD_SAFETY": 12,
+      "CASE-BATTERY_SAFETY": 12,
+      "CASE-MODALITY_CONFLICT": 12,
+      "CASE-RATING_CONFLICT": 12,
+      "CASE-SUBJECTIVE_NEGATIVE": 12,
+      "CASE-MALICIOUS_REVIEW": 12,
+      "CASE-NEUTRAL": 12,
+      "CASE-POSITIVE": 12,
+      "CASE-INSUFFICIENT_EVIDENCE": 12,
+      "SCHEMA": 100,
+      "STRICT-DELIVERY_DELAY": 4,
+      "STRICT-MALICIOUS_REVIEW": 4,
+      "STRICT-FOOD_SAFETY": 4,
+      "STRICT-MISSING_PARTS": 4,
+      "STRICT-COUNTERFEIT": 4,
+      "STRICT-DAMAGED": 4,
+      "STRICT-POSITIVE": 4,
+      "STRICT-SUBJECTIVE_NEGATIVE": 4,
+      "STRICT-RETURN_DISPUTE": 4,
+      "STRICT-NEUTRAL": 4,
+      "STRICT-FAKE_SHIPPING": 4,
+      "STRICT-BATTERY_SAFETY": 4,
+      "STRICT-SERVICE_NO_RESPONSE": 4,
+      "STRICT-QUALITY_DEFECT": 4,
+      "STRICT-WRONG_ITEM": 4,
+      "STRICT-REFUND_DISPUTE": 4,
+      "STRICT-MODALITY_CONFLICT": 4,
+      "STRICT-RATING_CONFLICT": 4,
+      "STRICT-INSUFFICIENT_EVIDENCE": 4,
+      "STRICT-LEAKAGE": 4
+    }
+  },
+  "field_classification": {
+    "generation_batch": {
+      "semantic": "source batch locator",
+      "lineage_role": "source_locator",
+      "split_constraint": "not a leakage group",
+      "reason": "single project-owned generator source; using it as group would block all splits"
+    },
+    "paraphrase_family": {
+      "semantic": "local paraphrase index within generator/template, not global identity",
+      "lineage_role": "local_sequence_number",
+      "split_constraint": "must be composed with template_family and scenario_family before use",
+      "reason": "all reusable rows have p0; treating p0 globally collapses all records into one group"
+    },
+    "risk_type": {
+      "semantic": "label category",
+      "lineage_role": "stratification_label",
+      "split_constraint": "must be present in every split",
+      "reason": "label distribution, not leakage identity"
+    },
+    "scenario_family": {
+      "semantic": "scenario/taxonomy family",
+      "lineage_role": "semantic_family",
+      "split_constraint": "stratify/inspect; not alone a hard leakage group",
+      "reason": "families are intentionally repeated across categories"
+    },
+    "source_prompt_version": {
+      "semantic": "generator prompt version",
+      "lineage_role": "generator_version",
+      "split_constraint": "must be recorded; not split group",
+      "reason": "single version among reusable data"
+    },
+    "template_family": {
+      "semantic": "template/case family",
+      "lineage_role": "hard_leakage_group",
+      "split_constraint": "must not cross split for reused rows",
+      "reason": "same template can leak surface form and scenario wording"
+    },
+    "composite_lineage_group_v21": {
+      "semantic": "derived from source fields without inventing new ancestry",
+      "lineage_role": "hard_leakage_group",
+      "definition": "source_prompt_version|template_family|scenario_family|paraphrase_family",
+      "split_constraint": "must not cross split"
+    }
+  },
+  "composite_lineage_group_count": 41,
+  "composite_lineage_group_top_counts": {
+    "v1633|SCHEMA|positive|p0": 20,
+    "v1633|SCHEMA|neutral|p0": 20,
+    "v1633|SCHEMA|negative|p0": 20,
+    "v1633|SCHEMA|after_sales|p0": 20,
+    "v1633|SCHEMA|mixed_evidence|p0": 20,
+    "v1633|CASE-LEAKAGE|after_sales_risk|p0": 12,
+    "v1633|CASE-MISSING_PARTS|after_sales_risk|p0": 12,
+    "v1633|CASE-REFUND_DISPUTE|after_sales_risk|p0": 12,
+    "v1633|CASE-RETURN_DISPUTE|after_sales_risk|p0": 12,
+    "v1633|CASE-SERVICE_NO_RESPONSE|after_sales_risk|p0": 12
+  },
+  "exact_duplicate_count": 75,
+  "v164_holdout_hashes_excluded": 48,
+  "lineage_repair_decision": "use composite_lineage_group_v21; do not treat local paraphrase_family alone as global identity"
+}

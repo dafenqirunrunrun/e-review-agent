@@ -1,0 +1,11 @@
+{
+  "status": "TARGET_TEMPLATE_ANALYSIS_COMPLETE",
+  "target_exact_duplicate_rate": 0.61794872,
+  "normalized_target_duplicate_rate": 0.61794872,
+  "route_reason_top1_share": 0.41794872,
+  "route_reason_top5_share": 1.0,
+  "evidence_template_duplicate_rate": 0.61794872,
+  "risk_type_route_reason_binding_rate": 0.96806862,
+  "risk_level_route_reason_binding_rate": 0.96172955,
+  "template_signal": "TARGET_TEMPLATE_OVERFIT_RISK"
+}

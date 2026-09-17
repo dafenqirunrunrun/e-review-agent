@@ -1,0 +1,46 @@
+{
+  "absolutePathsRedacted": true,
+  "artifactVersion": "agent-rag-v23-parent-child-environment-responsibility-v1",
+  "environments": [
+    {
+      "dependencyFingerprint": "b48904ecc18f0248443e0ae37885286eef5bfb745058a57f2775f5dbb8bff99e",
+      "environmentId": "A_DEFAULT_DEVELOPMENT",
+      "faissSupported": true,
+      "intendedPurpose": "pure python unit tests, configuration parsing, metric calculation and gate checks",
+      "pipCheckPass": true,
+      "pythonVersion": "3.10.0",
+      "qualificationStatus": "DEFAULT_LOGIC_ONLY",
+      "realDenseSupported": false,
+      "realLlmSupported": false,
+      "realSparseSupported": false
+    },
+    {
+      "cudaAvailable": true,
+      "dependencyFingerprint": "b48904ecc18f0248443e0ae37885286eef5bfb745058a57f2775f5dbb8bff99e",
+      "environmentId": "B_QUALIFIED_REAL_MODEL",
+      "faissImportPass": true,
+      "faissSupported": true,
+      "intendedPurpose": "BGE-M3 Dense, FAISS, real model retrieval and parent-child qualification",
+      "pipCheckPass": true,
+      "pythonVersion": "3.10.0",
+      "qualificationStatus": "QUALIFIED_FOR_PARENT_CHILD_QC",
+      "realDenseSupported": true,
+      "realLlmSupported": false,
+      "realSparseSupported": false,
+      "torchImportPass": true,
+      "transformersImportPass": true
+    },
+    {
+      "dependencyFingerprint": "not-collected",
+      "environmentId": "C_CONFLICT_ENVIRONMENT",
+      "faissSupported": false,
+      "intendedPurpose": "not used for formal gates",
+      "pipCheckPass": false,
+      "pythonVersion": null,
+      "qualificationStatus": "DEPENDENCY_CONFLICT_ENVIRONMENT_NOT_QUALIFIED",
+      "realDenseSupported": false,
+      "realLlmSupported": false,
+      "realSparseSupported": false
+    }
+  ]
+}

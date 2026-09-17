@@ -1,0 +1,119 @@
+{
+  "marker": "V161_FINAL_GATE_BLOCKED",
+  "release_allowed": false,
+  "recommended_tag": null,
+  "gates": [
+    {
+      "name": "synthetic_leakage_audit",
+      "status": "RAG_LEAKAGE_AUDIT_COMPLETE",
+      "expected_for_release": "RAG_LEAKAGE_AUDIT_COMPLETE",
+      "passed": true,
+      "release_required": false,
+      "evidence": "data/rag/audit/leakage_audit_summary.json"
+    },
+    {
+      "name": "source_manifest",
+      "status": "SOURCE_MANIFEST_PRESENT",
+      "expected_for_release": "SOURCE_MANIFEST_PRESENT",
+      "passed": true,
+      "release_required": false,
+      "evidence": "data/real_world/source_manifest/source_manifest.jsonl"
+    },
+    {
+      "name": "realworld_external_eval",
+      "status": "REALWORLD_EXTERNAL_EVAL_BLOCKED",
+      "expected_for_release": "REALWORLD_EXTERNAL_EVAL_PASS",
+      "passed": false,
+      "release_required": true,
+      "evidence": "data/rag/audit/validity_external_eval_results.json"
+    },
+    {
+      "name": "qwen_realworld_external_eval",
+      "status": "REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED",
+      "expected_for_release": "REALWORLD_QWEN_EXTERNAL_EVAL_PASS",
+      "passed": false,
+      "release_required": true,
+      "evidence": "data/rag/audit/qwen_realworld_external_eval_results.json"
+    },
+    {
+      "name": "vlm_provider_smoke",
+      "status": "VLM_PROVIDER_SMOKE_BLOCKED",
+      "expected_for_release": "VLM_PROVIDER_SMOKE_PASS",
+      "passed": false,
+      "release_required": true,
+      "evidence": "data/multimodal/eval/vlm_provider_smoke_results.json"
+    },
+    {
+      "name": "multimodal_vlm_eval",
+      "status": "MULTIMODAL_VLM_EVAL_BLOCKED",
+      "expected_for_release": "MULTIMODAL_VLM_EVAL_PASS",
+      "passed": false,
+      "release_required": true,
+      "evidence": "data/multimodal/eval/vlm_visual_eval_results.json"
+    },
+    {
+      "name": "multimodal_ablation_eval",
+      "status": "MULTIMODAL_ABLATION_EVAL_BLOCKED",
+      "expected_for_release": "MULTIMODAL_ABLATION_EVAL_PASS",
+      "passed": false,
+      "release_required": true,
+      "evidence": "data/multimodal/eval/multimodal_ablation_results.json"
+    },
+    {
+      "name": "route_calibration",
+      "status": "REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED",
+      "expected_for_release": "REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_PASS",
+      "passed": false,
+      "release_required": true,
+      "evidence": "data/multimodal/eval/route_calibration_results.json"
+    },
+    {
+      "name": "text_sft_readiness",
+      "status": "SFT_DATA_NOT_READY",
+      "expected_for_release": "SFT_DATA_READY",
+      "passed": false,
+      "release_required": true,
+      "evidence": "data/multimodal/audit/sft_data_readiness.json"
+    },
+    {
+      "name": "vlm_sft_readiness",
+      "status": "VLM_SFT_DATA_NOT_READY",
+      "expected_for_release": "VLM_SFT_DATA_READY",
+      "passed": false,
+      "release_required": true,
+      "evidence": "data/multimodal/audit/sft_data_readiness.json"
+    },
+    {
+      "name": "forbidden_git_payload",
+      "status": "NO_FORBIDDEN_TRACKED_PAYLOAD",
+      "expected_for_release": "NO_FORBIDDEN_TRACKED_PAYLOAD",
+      "passed": true,
+      "release_required": true,
+      "evidence": "git ls-files"
+    }
+  ],
+  "release_blockers": [
+    "realworld_external_eval: current=REALWORLD_EXTERNAL_EVAL_BLOCKED, required=REALWORLD_EXTERNAL_EVAL_PASS",
+    "qwen_realworld_external_eval: current=REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED, required=REALWORLD_QWEN_EXTERNAL_EVAL_PASS",
+    "vlm_provider_smoke: current=VLM_PROVIDER_SMOKE_BLOCKED, required=VLM_PROVIDER_SMOKE_PASS",
+    "multimodal_vlm_eval: current=MULTIMODAL_VLM_EVAL_BLOCKED, required=MULTIMODAL_VLM_EVAL_PASS",
+    "multimodal_ablation_eval: current=MULTIMODAL_ABLATION_EVAL_BLOCKED, required=MULTIMODAL_ABLATION_EVAL_PASS",
+    "route_calibration: current=REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED, required=REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_PASS",
+    "text_sft_readiness: current=SFT_DATA_NOT_READY, required=SFT_DATA_READY",
+    "vlm_sft_readiness: current=VLM_SFT_DATA_NOT_READY, required=VLM_SFT_DATA_READY"
+  ],
+  "forbidden_git_files": [],
+  "metrics": {
+    "exact_duplicate_count": 0,
+    "normalized_duplicate_count": 0,
+    "near_duplicate_count": 0,
+    "metadata_shortcut_count": 109,
+    "strict_no_oracle_hit5": 0.325,
+    "real_external_count": 0,
+    "qwen_real_external_count": 0,
+    "vlm_provider_model_available": false,
+    "multimodal_external_count": 0,
+    "route_unsafe_auto_pass_rate": 0.0,
+    "route_high_risk_review_recall": 1.0
+  }
+}

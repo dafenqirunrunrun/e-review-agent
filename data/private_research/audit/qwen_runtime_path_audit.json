@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-07-15T03:08:33.181724+00:00",
+  "marker": "QWEN_RUNTIME_PATH_AUDIT_COMPLETE",
+  "model_dir_ready": true,
+  "model_dir_label": "<repo-external>/models/Qwen3-1.7B",
+  "model_file_count": 12,
+  "provider_file": "ai-service/app/llm/local_qwen.py",
+  "exploratory_eval_file": "ai-service/scripts/eval_private_real_text_exploratory.py",
+  "provider_loads_tokenizer_with_from_pretrained": true,
+  "provider_loads_model_with_from_pretrained": true,
+  "provider_uses_class_level_runtime_cache": true,
+  "provider_reloads_model_per_sample_in_same_process": false,
+  "provider_reloads_tokenizer_per_sample_in_same_process": false,
+  "provider_has_explicit_unload": false,
+  "provider_uses_device_map_auto_when_accelerate_available": true,
+  "provider_manual_to_device_without_device_map": true,
+  "provider_local_files_only_for_local_model_dir": true,
+  "fallback_can_mask_provider_errors": true,
+  "default_max_new_tokens": 512,
+  "exploratory_eval_sets_max_new_tokens": "96",
+  "exploratory_eval_uses_single_service_instance_per_mode": true,
+  "exploratory_eval_runs_prompt_then_rag_then_stability_serially": true,
+  "qwen3_vl_loaded_by_text_path": false,
+  "rag_can_load_bge_or_reranker_when_enabled": true,
+  "latency_root_causes": [
+    "previous exploratory metric mixed provider call time with model load and possible schema repair",
+    "first request can include tokenizer/model load cost",
+    "RAG mode may initialize BGE-M3 and reranker when enabled",
+    "fallback path can hide provider failure unless real_model_inference_count is checked",
+    "existing provider does not expose per-stage timing or unload verification"
+  ],
+  "v163_runtime_session_added_for_budget_smoke": true
+}

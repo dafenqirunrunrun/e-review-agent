@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-07-15T10:49:35.607051+00:00",
+  "status": "PRIVATE_SYNTHETIC_SFT_V21_SPLIT_BUILT",
+  "source_reusable_candidate_count": 372,
+  "excluded_v164_holdout_count": 48,
+  "train_count": 336,
+  "validation_count": 54,
+  "holdout_count": 24,
+  "new_validation_count": 18,
+  "new_holdout_count": 24,
+  "v164_holdout_reused": false,
+  "distributions": {
+    "train": {
+      "risk_type": {
+        "after_sales_risk": 152,
+        "negative_review": 88,
+        "normal_review": 96
+      },
+      "risk_level": {
+        "high": 148,
+        "medium": 92,
+        "low": 96
+      },
+      "need_human_review": {
+        "True": 240,
+        "False": 96
+      }
+    },
+    "validation": {
+      "risk_type": {
+        "after_sales_risk": 18,
+        "normal_review": 18,
+        "negative_review": 18
+      },
+      "risk_level": {
+        "high": 15,
+        "low": 18,
+        "medium": 21
+      },
+      "need_human_review": {
+        "True": 36,
+        "False": 18
+      }
+    },
+    "engineering_holdout_v21": {
+      "risk_type": {
+        "normal_review": 8,
+        "negative_review": 8,
+        "after_sales_risk": 8
+      },
+      "risk_level": {
+        "low": 8,
+        "medium": 12,
+        "high": 4
+      },
+      "need_human_review": {
+        "False": 8,
+        "True": 16
+      }
+    }
+  },
+  "cross_split_exact_duplicate": {
+    "train_validation": 0,
+    "train_holdout": 0,
+    "validation_holdout": 0
+  },
+  "cross_split_composite_lineage_overlap": {
+    "train_validation": 0,
+    "train_holdout": 0,
+    "validation_holdout": 0
+  },
+  "cross_split_template_overlap": {
+    "train_validation": 0,
+    "train_holdout": 0,
+    "validation_holdout": 0
+  },
+  "cross_split_paraphrase_overlap": {
+    "train_validation": 0,
+    "train_holdout": 0,
+    "validation_holdout": 0
+  },
+  "old_holdout_overlap": {
+    "train": 0,
+    "validation": 0,
+    "engineering_holdout_v21": 0
+  },
+  "manifest_hashes": {
+    "train": "85af6046826a9513c74ae82500f23ed897b17592ffb843629349a0ba16eaf80d",
+    "validation": "aab86c24c708bccbd667ea9c6b26f57b3b9551b1b3b502e17bc06e2b00d0b0ad",
+    "engineering_holdout_v21": "5fc5b12157715553bbb2762031938cb5184002d30df82dc4e43b1935108d634a"
+  },
+  "dataset_status": "PRIVATE_SYNTHETIC_SFT_V21_DATASET_PASS"
+}

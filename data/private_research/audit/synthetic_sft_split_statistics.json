@@ -1,0 +1,23 @@
+{
+  "status": "PRIVATE_SYNTHETIC_SFT_SPLIT_PASS",
+  "source_type": "synthetic_project_owned",
+  "total_count": 420,
+  "split_counts": {
+    "engineering_holdout": 48,
+    "train": 336,
+    "validation": 36
+  },
+  "group_count": 45,
+  "cross_split_group_leakage_count": 0,
+  "risk_type_distribution": {
+    "after_sales_risk": 212,
+    "negative_review": 100,
+    "normal_review": 108
+  },
+  "risk_level_distribution": {
+    "high": 196,
+    "medium": 116,
+    "low": 108
+  },
+  "private_output_label": "<data-private>/synthetic-sft-v1633"
+}

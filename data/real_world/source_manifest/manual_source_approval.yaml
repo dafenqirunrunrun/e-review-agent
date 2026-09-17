@@ -1,0 +1,115 @@
+approval_version: "1.1"
+approved_by_user: true
+approved_at: "2026-07-14"
+approval_method: "delegated_conservative_evidence_review"
+legal_certification: false
+approver_note: >
+  User delegated internal project source review to the assistant in this conversation.
+  This approval is limited to E-Review Agent private, non-public research pilot work.
+  It is not legal advice and does not authorize model training, commercial use, or redistribution.
+risk_acceptance_note: >
+  For official research releases without complete per-right license text, only private local pilot
+  use is conditionally approved. Raw text, raw images, URLs, and user identifiers must stay outside Git.
+
+sources:
+  amazon_reviews_2023:
+    decision_status: conditionally_approved
+    approval_scope: private_internal_pilot
+    approve_text_internal_research: true
+    approve_text_external_evaluation: false
+    approve_text_model_training: false
+    approve_text_redistribution: false
+    approve_image_download: true
+    approve_image_internal_inference: true
+    approve_image_external_evaluation: false
+    approve_image_model_training: false
+    approve_image_redistribution: false
+    approve_derived_features: true
+    approve_case_corpus_usage: false
+    approve_sft_usage: false
+    approve_vlm_sft_usage: false
+    evidence_strength: official_research_release
+    risk_level: high
+    conditions:
+      - "Official project page and download links must remain reachable."
+      - "Pilot text records are capped at 150 for this source."
+      - "Pilot image groups are capped at 20 and raw images stay outside Git."
+      - "User identifiers must be hashed or removed."
+      - "No raw review text, image URL, or raw image may be committed."
+    prohibited_uses:
+      - "model_training"
+      - "sft_or_dpo"
+      - "redistribution"
+      - "commercial_use"
+      - "formal_external_test"
+    evidence_refs:
+      - "https://amazon-reviews-2023.github.io/"
+    reviewed_at: "2026-07-14"
+    review_note: "Conditionally approved only for private local pilot because the official research page provides data links but no complete explicit license terms were found."
+
+  asap_chinese_reviews:
+    decision_status: conditionally_approved
+    approval_scope: private_internal_pilot
+    approve_text_internal_research: true
+    approve_text_external_evaluation: false
+    approve_text_model_training: false
+    approve_text_redistribution: false
+    approve_image_download: false
+    approve_image_internal_inference: false
+    approve_image_external_evaluation: false
+    approve_image_model_training: false
+    approve_image_redistribution: false
+    approve_derived_features: true
+    approve_case_corpus_usage: false
+    approve_sft_usage: false
+    approve_vlm_sft_usage: false
+    evidence_strength: explicit
+    risk_level: medium
+    conditions:
+      - "Use as Chinese text-only private pilot."
+      - "Pilot text records are capped at 150 for this source."
+      - "Do not mark as multimodal."
+      - "Raw text must stay outside Git."
+    prohibited_uses:
+      - "image_use"
+      - "model_training"
+      - "sft_or_dpo"
+      - "redistribution"
+      - "formal_external_test"
+    evidence_refs:
+      - "https://github.com/Meituan-Dianping/ASAP"
+      - "https://github.com/Meituan-Dianping/ASAP/blob/master/LICENSE"
+    reviewed_at: "2026-07-14"
+    review_note: "Conditionally approved for private Chinese text pilot only; restaurant review domain bias remains."
+
+  jddc_2_multimodal:
+    decision_status: unavailable
+    approval_scope: auxiliary_development_only
+    approve_text_internal_research: false
+    approve_text_external_evaluation: false
+    approve_text_model_training: false
+    approve_text_redistribution: false
+    approve_image_download: false
+    approve_image_internal_inference: false
+    approve_image_external_evaluation: false
+    approve_image_model_training: false
+    approve_image_redistribution: false
+    approve_derived_features: false
+    approve_case_corpus_usage: false
+    approve_sft_usage: false
+    approve_vlm_sft_usage: false
+    evidence_strength: official_research_release
+    risk_level: high
+    conditions:
+      - "Requires separate official application before data use."
+      - "Do not treat as product review data."
+    prohibited_uses:
+      - "data_download"
+      - "image_use"
+      - "model_training"
+      - "redistribution"
+      - "formal_external_test"
+    evidence_refs:
+      - "https://github.com/hrlinlp/jddc2.1"
+    reviewed_at: "2026-07-14"
+    review_note: "Unavailable because official data access approval has not been obtained."

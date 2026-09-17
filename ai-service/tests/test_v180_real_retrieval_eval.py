@@ -1,6 +1,11 @@
 import json
 from pathlib import Path
 
+import numpy as np
+import pytest
+
+from app.rag.versioned_faiss_index import VersionedFaissIndex
+
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -27,12 +32,38 @@ def test_v180_real_retrieval_eval_records_hard_benchmark_metrics():
     assert metrics["sparse_bm25"]["empty_retrieval_rate"] > 0
 
 
-def test_v180_real_retrieval_eval_persistent_index_files_exist():
-    result = json.loads((ROOT / "data/private_research/eval/v180_real_retrieval_eval.json").read_text(encoding="utf-8"))
-    index_root = ROOT / "data/private_research/enterprise_rag_v180/faiss_index"
-    version = result["index_version"]
-    assert (index_root / "ACTIVE").read_text(encoding="utf-8").strip() == version
-    version_dir = index_root / "versions" / version
-    assert (version_dir / "index.faiss").exists()
-    assert (version_dir / "metadata.jsonl").exists()
-    assert (version_dir / "manifest.json").exists()
+def test_v180_real_retrieval_eval_persistent_index_fixture_is_self_contained(tmp_path):
+    pytest.importorskip("faiss")
+    index_root = tmp_path / "faiss_index"
+    store = VersionedFaissIndex(index_root)
+    vectors = np.array(
+        [
+            [1.0, 0.0, 0.0],
+            [0.0, 1.0, 0.0],
+            [0.0, 0.0, 1.0],
+        ],
+        dtype="float32",
+    )
+    metadata = [
+        {"tenant_id": "tenant-a", "document_id": "doc-1", "chunk_id": "chunk-1"},
+        {"tenant_id": "tenant-a", "document_id": "doc-2", "chunk_id": "chunk-2"},
+        {"tenant_id": "tenant-b", "document_id": "doc-3", "chunk_id": "chunk-3"},
+    ]
+
+    staged = store.build_staging(
+        vectors=vectors,
+        metadata=metadata,
+        embedding_model="fixture-bge-m3",
+        embedding_hash="fixture-embedding-fingerprint",
+    )
+    published = store.publish(staged.index_version)
+    index, loaded_metadata, loaded_manifest = store.load_active()
+
+    assert store.active_version() == staged.index_version
+    assert (index_root / "versions" / staged.index_version / "index.faiss").exists()
+    assert (index_root / "versions" / staged.index_version / "metadata.jsonl").exists()
+    assert (index_root / "versions" / staged.index_version / "manifest.json").exists()
+    assert index.ntotal == len(metadata)
+    assert loaded_metadata == metadata
+    assert loaded_manifest.checksum == published.checksum
+    assert loaded_manifest.embedding_hash == "fixture-embedding-fingerprint"

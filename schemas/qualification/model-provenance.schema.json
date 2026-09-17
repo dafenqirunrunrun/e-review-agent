@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://e-review-agent.local/schemas/model-provenance.schema.json",
+  "title": "E-Review Agent Model Provenance",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "assetType",
+    "modelName",
+    "source",
+    "revision",
+    "downloadedAt",
+    "fileCount",
+    "sizeBytes",
+    "assetFingerprint",
+    "licenseId",
+    "licenseEvidence"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "type": "string", "const": "1.0.0" },
+    "assetType": { "type": "string", "enum": ["embedding", "reranker", "llm"] },
+    "modelName": { "type": "string" },
+    "source": { "type": "string" },
+    "revision": { "type": "string" },
+    "downloadedAt": { "type": "string" },
+    "downloadMachine": { "type": "string" },
+    "fileCount": { "type": "integer", "minimum": 1 },
+    "sizeBytes": { "type": "integer", "minimum": 1 },
+    "assetFingerprint": { "type": "string" },
+    "architecture": { "type": ["array", "string", "null"] },
+    "configFiles": { "type": "array", "items": { "type": "string" } },
+    "weightFormat": { "type": "array", "items": { "type": "string" } },
+    "licenseId": { "type": "string" },
+    "licenseEvidence": { "type": "string" },
+    "redistributionRestrictions": { "type": ["string", "null"] }
+  }
+}

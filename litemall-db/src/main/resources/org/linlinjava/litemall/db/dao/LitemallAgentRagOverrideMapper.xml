@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallAgentRagOverrideMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallAgentRagOverride">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="run_id" jdbcType="BIGINT" property="runId" />
+    <result column="tenant_id" jdbcType="VARCHAR" property="tenantId" />
+    <result column="previous_risk_level" jdbcType="VARCHAR" property="previousRiskLevel" />
+    <result column="new_risk_level" jdbcType="VARCHAR" property="newRiskLevel" />
+    <result column="previous_action" jdbcType="VARCHAR" property="previousAction" />
+    <result column="new_action" jdbcType="VARCHAR" property="newAction" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="operator_id" jdbcType="BIGINT" property="operatorId" />
+    <result column="previous_override_hash" jdbcType="CHAR" property="previousOverrideHash" />
+    <result column="override_hash" jdbcType="CHAR" property="overrideHash" />
+    <result column="effective_decision_hash" jdbcType="CHAR" property="effectiveDecisionHash" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="deleted" jdbcType="BIT" property="deleted" />
+  </resultMap>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAgentRagOverride"
+          useGeneratedKeys="true" keyProperty="id">
+    insert into litemall_agent_rag_override
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="runId != null">run_id,</if>
+      <if test="tenantId != null">tenant_id,</if>
+      <if test="previousRiskLevel != null">previous_risk_level,</if>
+      <if test="newRiskLevel != null">new_risk_level,</if>
+      <if test="previousAction != null">previous_action,</if>
+      <if test="newAction != null">new_action,</if>
+      <if test="reason != null">reason,</if>
+      <if test="operatorId != null">operator_id,</if>
+      <if test="previousOverrideHash != null">previous_override_hash,</if>
+      <if test="overrideHash != null">override_hash,</if>
+      <if test="effectiveDecisionHash != null">effective_decision_hash,</if>
+      <if test="createdAt != null">created_at,</if>
+      <if test="deleted != null">deleted,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="runId != null">#{runId},</if>
+      <if test="tenantId != null">#{tenantId},</if>
+      <if test="previousRiskLevel != null">#{previousRiskLevel},</if>
+      <if test="newRiskLevel != null">#{newRiskLevel},</if>
+      <if test="previousAction != null">#{previousAction},</if>
+      <if test="newAction != null">#{newAction},</if>
+      <if test="reason != null">#{reason},</if>
+      <if test="operatorId != null">#{operatorId},</if>
+      <if test="previousOverrideHash != null">#{previousOverrideHash},</if>
+      <if test="overrideHash != null">#{overrideHash},</if>
+      <if test="effectiveDecisionHash != null">#{effectiveDecisionHash},</if>
+      <if test="createdAt != null">#{createdAt},</if>
+      <if test="deleted != null">#{deleted},</if>
+    </trim>
+  </insert>
+
+  <select id="selectByRunId" resultMap="BaseResultMap">
+    select id, run_id, tenant_id, previous_risk_level, new_risk_level, previous_action,
+      new_action, reason, operator_id, previous_override_hash, override_hash,
+      effective_decision_hash, created_at, deleted
+    from litemall_agent_rag_override
+    where run_id = #{runId} and tenant_id = #{tenantId} and deleted = 0
+    order by created_at desc
+  </select>
+
+  <select id="selectLatestByRunIds" resultMap="BaseResultMap">
+    select o.id, o.run_id, o.tenant_id, o.previous_risk_level, o.new_risk_level,
+      o.previous_action, o.new_action, o.reason, o.operator_id, o.previous_override_hash,
+      o.override_hash, o.effective_decision_hash, o.created_at, o.deleted
+    from litemall_agent_rag_override o
+    inner join (
+      select run_id, max(created_at) as max_created_at
+      from litemall_agent_rag_override
+      where tenant_id = #{tenantId} and deleted = 0
+      <if test="runIds != null and runIds.size() > 0">
+        and run_id in
+        <foreach collection="runIds" item="id" open="(" separator="," close=")">
+          #{id}
+        </foreach>
+      </if>
+      group by run_id
+    ) latest on latest.run_id = o.run_id and latest.max_created_at = o.created_at
+    where o.tenant_id = #{tenantId} and o.deleted = 0
+    <if test="runIds != null and runIds.size() > 0">
+      and o.run_id in
+      <foreach collection="runIds" item="id" open="(" separator="," close=")">
+        #{id}
+      </foreach>
+    </if>
+    order by o.created_at desc
+  </select>
+
+  <select id="countByRunIds" resultType="java.util.HashMap">
+    select run_id as runId, count(1) as count
+    from litemall_agent_rag_override
+    where tenant_id = #{tenantId} and deleted = 0
+    <if test="runIds != null and runIds.size() > 0">
+      and run_id in
+      <foreach collection="runIds" item="id" open="(" separator="," close=")">
+        #{id}
+      </foreach>
+    </if>
+    group by run_id
+  </select>
+
+  <select id="countInWindow" resultType="long">
+    select count(1)
+    from litemall_agent_rag_override
+    where tenant_id = #{tenantId} and deleted = 0
+      and created_at &gt;= #{createdFrom}
+      and created_at &lt;= #{createdTo}
+  </select>
+</mapper>

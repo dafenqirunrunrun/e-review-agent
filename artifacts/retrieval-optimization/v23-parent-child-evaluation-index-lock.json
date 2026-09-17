@@ -1,0 +1,14 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-evaluation-index-lock-v1",
+  "bm25FingerprintMatch": true,
+  "childFingerprintMatch": true,
+  "childIndexCanonicalFingerprint": "3208c5b4821192375ab6e1daaee7aeac928d6a3986699b9b3f621f84f0561f33",
+  "expiredIndexed": 0,
+  "freshBuild": true,
+  "inactiveIndexed": 0,
+  "indexGatePass": true,
+  "oldIndexDependency": false,
+  "parentFingerprintMatch": true,
+  "parentIndexCanonicalFingerprint": "4ea05065a8342f2ff96614bf5695fb9d7c3824f86241617969eca3ef56643546",
+  "tenantViolations": 0
+}

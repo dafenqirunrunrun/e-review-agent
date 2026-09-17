@@ -1,0 +1,23 @@
+{
+  "benchmarkHash": "222802bed4ac363db5dbdfba5b362584ff05e2788f606781bfa2cfbb7e39a0b6",
+  "candidateCount": 1392,
+  "candidatePoolHash": "90afa384d48974e333966edbe67b0a66fe7d0b1dd1e851ec71dbeb690748bc0c",
+  "candidatePoolVersion": "v22-answerability-canonical-candidate-pool-v1",
+  "disabledCandidateCount": 0,
+  "disabledRemoved": 0,
+  "duplicateRemoved": 0,
+  "evaluationTimeUtc": "2026-07-22T00:00:00Z",
+  "expiredCandidateCount": 0,
+  "expiredRemoved": 0,
+  "inactiveCandidateCount": 0,
+  "inactiveRemoved": 0,
+  "knowledgeSnapshotHash": "6a47565e19594a6c527df10e34c63af004a6080f80f1817d697d28e828746a94",
+  "notYetEffectiveCount": 0,
+  "notYetEffectiveRemoved": 0,
+  "queryCount": 174,
+  "schemaVersion": "agent-rag-v22-answerability-canonical-candidate-pool-manifest-v1",
+  "status": "PASS",
+  "tenantMismatchCount": 0,
+  "tenantMismatchRemoved": 0,
+  "timezone": "UTC"
+}

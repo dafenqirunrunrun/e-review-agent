@@ -1,0 +1,32 @@
+{
+  "marker": "TECHNICAL_SYSTEM_READINESS_PASS",
+  "TECHNICAL_SYSTEM_READINESS_PASS": true,
+  "RESEARCH_EVALUATION_READINESS_BLOCKED": true,
+  "passed_capabilities": [
+    "Qwen3-1.7B local inference",
+    "Qwen3-VL local direct inference",
+    "Hybrid RAG",
+    "BGE-M3",
+    "Neural Reranker",
+    "Tool Registry",
+    "JSON Schema",
+    "GPU Gate",
+    "single GPU serialized runtime",
+    "VLM Runtime Session",
+    "FastAPI",
+    "Agent Observability",
+    "External Test Isolation",
+    "data source approval pipeline",
+    "pilot data boundary audit"
+  ],
+  "blocked_research_capabilities": [
+    "formal real text external evaluation",
+    "formal real multimodal evaluation",
+    "annotation agreement",
+    "formal routing calibration",
+    "SFT readiness",
+    "VLM SFT readiness"
+  ],
+  "current_blocker": "explicit_authorized_annotatable_ecommerce_review_data_required",
+  "created_at": "2026-07-14T19:16:42.798951+00:00"
+}

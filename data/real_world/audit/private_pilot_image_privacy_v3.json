@@ -1,0 +1,19 @@
+{
+  "marker": "PRIVATE_PILOT_IMAGE_PRIVACY_V3_BLOCKED_DETECTOR_CAPABILITY",
+  "actual_image_file_count": 9,
+  "actual_reaudited_image_count": 0,
+  "automated_low_risk_for_private_pilot": 0,
+  "automated_redacted_for_private_pilot": 0,
+  "automated_uncertain": 9,
+  "automated_uncertain_reason_distribution": {
+    "detector_not_capability_pass:ocr_text_detection": 9,
+    "detector_not_capability_pass:qr_code_detection": 9,
+    "detector_not_capability_pass:barcode_detection": 9,
+    "detector_not_capability_pass:face_detection": 9
+  },
+  "automated_rejected": 0,
+  "manual_privacy_review_performed": false,
+  "legal_privacy_clearance_claimed": false,
+  "qwen3_vl_auxiliary_privacy_hint_used": false,
+  "created_at": "2026-07-14T18:59:55.598478+00:00"
+}

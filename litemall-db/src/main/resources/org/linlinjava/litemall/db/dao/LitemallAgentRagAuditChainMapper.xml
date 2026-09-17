@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallAgentRagAuditChainMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallAgentRagAuditChain">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="tenant_id" jdbcType="VARCHAR" property="tenantId" />
+    <result column="last_run_id" jdbcType="BIGINT" property="lastRunId" />
+    <result column="last_audit_hash" jdbcType="CHAR" property="lastAuditHash" />
+    <result column="chain_version" jdbcType="BIGINT" property="chainVersion" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, tenant_id, last_run_id, last_audit_hash, chain_version, created_at, updated_at
+  </sql>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAgentRagAuditChain"
+          useGeneratedKeys="true" keyProperty="id">
+    insert into litemall_agent_rag_audit_chain
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="tenantId != null">tenant_id,</if>
+      <if test="lastRunId != null">last_run_id,</if>
+      <if test="lastAuditHash != null">last_audit_hash,</if>
+      <if test="chainVersion != null">chain_version,</if>
+      <if test="createdAt != null">created_at,</if>
+      <if test="updatedAt != null">updated_at,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="tenantId != null">#{tenantId},</if>
+      <if test="lastRunId != null">#{lastRunId},</if>
+      <if test="lastAuditHash != null">#{lastAuditHash},</if>
+      <if test="chainVersion != null">#{chainVersion},</if>
+      <if test="createdAt != null">#{createdAt},</if>
+      <if test="updatedAt != null">#{updatedAt},</if>
+    </trim>
+  </insert>
+
+  <select id="selectByTenant" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_audit_chain
+    where tenant_id = #{tenantId}
+    limit 1
+  </select>
+
+  <select id="selectByTenantForUpdate" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_audit_chain
+    where tenant_id = #{tenantId}
+    limit 1
+    for update
+  </select>
+
+  <update id="updateByPrimaryKeySelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAgentRagAuditChain">
+    update litemall_agent_rag_audit_chain
+    <set>
+      <if test="lastRunId != null">last_run_id = #{lastRunId},</if>
+      <if test="lastAuditHash != null">last_audit_hash = #{lastAuditHash},</if>
+      <if test="chainVersion != null">chain_version = #{chainVersion},</if>
+      <if test="updatedAt != null">updated_at = #{updatedAt},</if>
+    </set>
+    where id = #{id}
+  </update>
+</mapper>

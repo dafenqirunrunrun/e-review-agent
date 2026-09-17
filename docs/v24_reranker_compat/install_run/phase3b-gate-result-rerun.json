@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "agent-rag-phase3b-gate-v1",
+  "status": "BLOCKED",
+  "contractStatus": "PASS",
+  "fallbackStatus": "PASS",
+  "modelRerankerStatus": "BLOCKED",
+  "deterministic": {
+    "effectiveType": "deterministic",
+    "inputCount": 2,
+    "outputCount": 2,
+    "fallbackUsed": false
+  },
+  "modelAttempt": {
+    "requestedType": "local-model",
+    "effectiveType": "deterministic-fallback",
+    "fallbackUsed": true,
+    "fallbackReason": "EXECUTION_TIMEOUT",
+    "modelName": "",
+    "modelFingerprint": ""
+  },
+  "assetAudit": {
+    "configured": true,
+    "exists": true,
+    "pathHint": "bge-reranker-v2-m3",
+    "configPresent": true,
+    "tokenizerPresent": true,
+    "weightsPresent": true,
+    "weightsIndexPresent": false,
+    "fingerprint": "d80473a3eab097ee335f58a2",
+    "blockedReason": ""
+  },
+  "boundaries": [
+    "REAL_LLM_QUALITY_NOT_VERIFIED",
+    "ENTERPRISE_RAG_PRODUCTION_NOT_CLAIMED",
+    "NO_PUSH",
+    "NO_TAG",
+    "NO_RELEASE"
+  ]
+}

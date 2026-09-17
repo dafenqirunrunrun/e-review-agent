@@ -1,0 +1,21 @@
+{
+  "marker": "V161_RELEASE_GUARD_BLOCKED",
+  "requested_tag": "v1.6.1-realworld-multimodal-evaluation",
+  "tag_command_allowed": false,
+  "recommended_command": null,
+  "final_gate_marker": "V161_FINAL_GATE_BLOCKED",
+  "final_gate_release_allowed": false,
+  "final_gate_recommended_tag": null,
+  "tag_matches_final_gate": false,
+  "release_blockers": [
+    "realworld_external_eval: current=REALWORLD_EXTERNAL_EVAL_BLOCKED, required=REALWORLD_EXTERNAL_EVAL_PASS",
+    "qwen_realworld_external_eval: current=REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED, required=REALWORLD_QWEN_EXTERNAL_EVAL_PASS",
+    "vlm_provider_smoke: current=VLM_PROVIDER_SMOKE_BLOCKED, required=VLM_PROVIDER_SMOKE_PASS",
+    "multimodal_vlm_eval: current=MULTIMODAL_VLM_EVAL_BLOCKED, required=MULTIMODAL_VLM_EVAL_PASS",
+    "multimodal_ablation_eval: current=MULTIMODAL_ABLATION_EVAL_BLOCKED, required=MULTIMODAL_ABLATION_EVAL_PASS",
+    "route_calibration: current=REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED, required=REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_PASS",
+    "text_sft_readiness: current=SFT_DATA_NOT_READY, required=SFT_DATA_READY",
+    "vlm_sft_readiness: current=VLM_SFT_DATA_NOT_READY, required=VLM_SFT_DATA_READY"
+  ],
+  "final_gate_evidence": "data/multimodal/audit/v161_final_gate_results.json"
+}

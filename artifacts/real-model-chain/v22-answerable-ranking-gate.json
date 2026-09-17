@@ -1,0 +1,417 @@
+{
+  "answerableCases": 164,
+  "benchmarkHash": "222802bed4ac363db5dbdfba5b362584ff05e2788f606781bfa2cfbb7e39a0b6",
+  "calibrationHash": "5b49e660cc2d2186abdbed642fcae70ba9e8e7c4cd56b1c7c1262887c4dd608b",
+  "categoryCounts": {
+    "lexical": 35,
+    "mixed": 18,
+    "semantic": 8,
+    "temporal": 8,
+    "tenant-isolation": 5
+  },
+  "decision": "ANSWERABLE_RANKING_REGRESSION",
+  "durationMs": 4803.395,
+  "evaluationHash": "16e55999a3305e0c9123ce73f3e940846e678ea45b6aaf93947acc29096e778c",
+  "evaluationTimeUtc": "2026-07-22T00:00:00Z",
+  "expiredEvidenceAccepted": 0,
+  "identityMappingErrors": 0,
+  "knowledgeHash": "6a47565e19594a6c527df10e34c63af004a6080f80f1817d697d28e828746a94",
+  "latency": {
+    "p50": 26.262,
+    "p95": 54.865
+  },
+  "realRuntimeExecutions": 74,
+  "relevantDemotionRate": 0.631579,
+  "relevantPromotionRate": 0.289474,
+  "retrievalEligibleAnswerableCases": 74,
+  "retrievalMissedAnswerableCases": 90,
+  "retrievalMissedLight": [
+    {
+      "caseId": "p3a2-004",
+      "category": "lexical",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-005",
+      "category": "lexical",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-010",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-011",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-013",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-014",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-016",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-017",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-018",
+      "category": "mixed",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-019",
+      "category": "mixed",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-021",
+      "category": "mixed",
+      "expectedChunkIdsHash": "1a19702f078f76a7728603b1b8172b264f7d0dc68ba5de9b55e6902bd318358c"
+    },
+    {
+      "caseId": "p3a2-028",
+      "category": "lexical",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-029",
+      "category": "lexical",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-031",
+      "category": "lexical",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-032",
+      "category": "lexical",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-034",
+      "category": "semantic",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-035",
+      "category": "semantic",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-037",
+      "category": "semantic",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-038",
+      "category": "semantic",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-039",
+      "category": "semantic",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-040",
+      "category": "semantic",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-041",
+      "category": "semantic",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-043",
+      "category": "mixed",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-045",
+      "category": "mixed",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-047",
+      "category": "mixed",
+      "expectedChunkIdsHash": "78905b561714bbc621cadc22bdcb74f82fedfc0c32d0b05ae9d9a08d40bcb92a"
+    },
+    {
+      "caseId": "p3a2-055",
+      "category": "lexical",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-056",
+      "category": "lexical",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-057",
+      "category": "semantic",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-058",
+      "category": "semantic",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-059",
+      "category": "semantic",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-060",
+      "category": "semantic",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-061",
+      "category": "semantic",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-062",
+      "category": "semantic",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-063",
+      "category": "semantic",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-064",
+      "category": "semantic",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-065",
+      "category": "semantic",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-067",
+      "category": "mixed",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-069",
+      "category": "mixed",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-071",
+      "category": "mixed",
+      "expectedChunkIdsHash": "6e5ac4a3c30ec3f5d6cfbfd873d6fab36dc6dcc8b406c4d8abdf830b1f7cbcb9"
+    },
+    {
+      "caseId": "p3a2-079",
+      "category": "lexical",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-080",
+      "category": "lexical",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-082",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-083",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-085",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-086",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-088",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-089",
+      "category": "semantic",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-091",
+      "category": "mixed",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-093",
+      "category": "mixed",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    },
+    {
+      "caseId": "p3a2-095",
+      "category": "mixed",
+      "expectedChunkIdsHash": "1571357131314a04940e90caa0abf8b83118172c178e354b3b5533b49a057b61"
+    }
+  ],
+  "schemaVersion": "agent-rag-v22-answerable-ranking-gate-v1",
+  "selected": {
+    "batchSize": 8,
+    "candidateK": 8,
+    "maxLength": 384,
+    "maximumFinalK": 5
+  },
+  "status": "BLOCKED",
+  "subsets": {
+    "lexical": {
+      "caseCount": 35,
+      "deterministic": {
+        "hitRateAt5": 0.42857142857142855,
+        "mrr": 0.4057142857142857,
+        "ndcgAt5": 0.2728670200172639,
+        "recallAt5": 0.23428571428571432
+      },
+      "hybrid": {
+        "hitRateAt5": 0.42857142857142855,
+        "mrr": 0.4057142857142857,
+        "ndcgAt5": 0.2728670200172639,
+        "recallAt5": 0.23428571428571432
+      },
+      "real": {
+        "hitRateAt5": 0.37142857142857144,
+        "mrr": 0.11571428571428571,
+        "ndcgAt5": 0.09922806849418538,
+        "recallAt5": 0.13142857142857142
+      }
+    },
+    "mixed": {
+      "caseCount": 18,
+      "deterministic": {
+        "hitRateAt5": 0.6666666666666666,
+        "mrr": 0.5777777777777778,
+        "ndcgAt5": 0.4057786415399165,
+        "recallAt5": 0.35555555555555557
+      },
+      "hybrid": {
+        "hitRateAt5": 0.6666666666666666,
+        "mrr": 0.5777777777777778,
+        "ndcgAt5": 0.4057786415399165,
+        "recallAt5": 0.35555555555555557
+      },
+      "real": {
+        "hitRateAt5": 0.7222222222222222,
+        "mrr": 0.3305555555555555,
+        "ndcgAt5": 0.24559580187262617,
+        "recallAt5": 0.2777777777777778
+      }
+    },
+    "overall": {
+      "caseCount": 74,
+      "deterministic": {
+        "hitRateAt5": 0.6216216216216216,
+        "mrr": 0.5342342342342342,
+        "ndcgAt5": 0.35408337748729846,
+        "recallAt5": 0.3135135135135136
+      },
+      "hybrid": {
+        "hitRateAt5": 0.6216216216216216,
+        "mrr": 0.5342342342342342,
+        "ndcgAt5": 0.35408337748729846,
+        "recallAt5": 0.3135135135135136
+      },
+      "real": {
+        "hitRateAt5": 0.581081081081081,
+        "mrr": 0.2277027027027027,
+        "ndcgAt5": 0.16823856851913252,
+        "recallAt5": 0.2027027027027027
+      }
+    },
+    "semantic": {
+      "caseCount": 8,
+      "deterministic": {
+        "hitRateAt5": 0.875,
+        "mrr": 0.5666666666666667,
+        "ndcgAt5": 0.27968725219107865,
+        "recallAt5": 0.25
+      },
+      "hybrid": {
+        "hitRateAt5": 0.875,
+        "mrr": 0.5666666666666667,
+        "ndcgAt5": 0.27968725219107865,
+        "recallAt5": 0.25
+      },
+      "real": {
+        "hitRateAt5": 0.625,
+        "mrr": 0.22291666666666665,
+        "ndcgAt5": 0.16227097958233325,
+        "recallAt5": 0.2
+      }
+    },
+    "temporal": {
+      "caseCount": 8,
+      "deterministic": {
+        "hitRateAt5": 0.875,
+        "mrr": 0.675,
+        "ndcgAt5": 0.46601808569241765,
+        "recallAt5": 0.47500000000000003
+      },
+      "hybrid": {
+        "hitRateAt5": 0.875,
+        "mrr": 0.675,
+        "ndcgAt5": 0.46601808569241765,
+        "recallAt5": 0.47500000000000003
+      },
+      "real": {
+        "hitRateAt5": 0.875,
+        "mrr": 0.3854166666666667,
+        "ndcgAt5": 0.25791089532756506,
+        "recallAt5": 0.3
+      }
+    },
+    "tenant-isolation": {
+      "caseCount": 5,
+      "deterministic": {
+        "hitRateAt5": 1.0,
+        "mrr": 1.0,
+        "ndcgAt5": 0.6764331965338766,
+        "recallAt5": 0.5599999999999999
+      },
+      "hybrid": {
+        "hitRateAt5": 1.0,
+        "mrr": 1.0,
+        "ndcgAt5": 0.6764331965338766,
+        "recallAt5": 0.5599999999999999
+      },
+      "real": {
+        "hitRateAt5": 1.0,
+        "mrr": 0.3966666666666666,
+        "ndcgAt5": 0.23889844802657248,
+        "recallAt5": 0.27999999999999997
+      }
+    }
+  },
+  "tenantViolations": 0
+}

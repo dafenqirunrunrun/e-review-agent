@@ -1,0 +1,24 @@
+{
+  "name": "case_retriever",
+  "role": "Case Retriever Agent",
+  "description": "Retrieve local case knowledge evidence and explain why cases are relevant. It does not require Qdrant.",
+  "capabilities": ["local_rag_retrieval", "evidence_snippet", "retrieval_reason"],
+  "tools": ["case_retriever"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "query": { "type": "string" },
+      "risk_type": { "type": "string" },
+      "top_k": { "type": "number" }
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "cases": { "type": "array" },
+      "retrieval_mode": { "type": "string" }
+    }
+  },
+  "risk_level": "low",
+  "requires_human_approval": false
+}

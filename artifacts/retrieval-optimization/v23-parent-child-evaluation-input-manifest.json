@@ -1,0 +1,17 @@
+{
+  "answerableCaseCount": 120,
+  "artifactVersion": "agent-rag-v23-parent-child-evaluation-input-manifest-v1",
+  "calibrationCaseCount": 150,
+  "challengeAccessed": false,
+  "challengeCaseCount": 75,
+  "challengeCaseIdsHash": "184fd2e76c23d4732214d38d98c3fba3eac26c30249cdc1c78ca29f91b281e37",
+  "datasetHash": "d638d44c69e1e678c2f990fd193af23d2ac18962b6e2be5eaf1ffd19e4575e47",
+  "datasetVersion": "v23-retrieval-qualification-v2",
+  "evaluationCaseCount": 150,
+  "evaluationCaseIdsHash": "bc03baa6505c8221bd39cda4ef4c51596fb557b882f39df7ce64f4760825fb7a",
+  "evaluationLabelHashesHash": "14437e461ecbd8eb6f6f959d1036b61345af1307d28c366e594fb38e57bdac7d",
+  "evaluationQueryHashesHash": "ddc33ccde3c6e99feb3150c8c818f700450939a086b7931ef6000991d26fbe79",
+  "evaluationRelevantChunkIdsHash": "20d57387b27e1032d576f786e7bd048bffc80c68280c8f6e39182cea0757a2c3",
+  "fullQueriesStored": false,
+  "noAnswerCaseCount": 30
+}

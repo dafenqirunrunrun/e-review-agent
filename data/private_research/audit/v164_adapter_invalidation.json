@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-07-15T08:54:57.356754+00:00",
+  "status": "V164_ADAPTER_AND_HOLDOUT_PERMANENTLY_FROZEN",
+  "v164_adapter_status": "V164_ADAPTER_INVALIDATED_BY_SCHEMA_CONTRACT_DRIFT",
+  "allowed_uses": [
+    "historical_debugging",
+    "training_pipeline_regression",
+    "adapter_load_regression"
+  ],
+  "blocked_uses": [
+    "default_inference",
+    "further_training",
+    "warm_start",
+    "prompt_selection",
+    "schema_selection",
+    "metric_claim",
+    "public_distribution"
+  ],
+  "v164_holdout_reuse_allowed": false,
+  "v164_holdout_reinference_allowed": false,
+  "v164_holdout_tuning_allowed": false,
+  "v164_adapter_warm_start_allowed": false
+}

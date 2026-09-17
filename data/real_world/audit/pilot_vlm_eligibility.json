@@ -1,0 +1,12 @@
+{
+  "marker": "REALWORLD_VLM_ELIGIBILITY_COMPLETE",
+  "eligible_record_count": 0,
+  "eligible_image_count": 0,
+  "automated_cleared_count": 0,
+  "automated_redacted_count": 0,
+  "automated_uncertain_count": 18,
+  "automated_rejected_count": 0,
+  "excluded_duplicate_count": 0,
+  "excluded_invalid_image_count": 0,
+  "excluded_license_count": 0
+}

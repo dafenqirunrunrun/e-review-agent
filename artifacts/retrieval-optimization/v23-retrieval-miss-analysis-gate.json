@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "allCasesConsumed": true,
+    "bm25Top100Complete": true,
+    "candidateKDiagnosticComplete": true,
+    "chunkAuditComplete": true,
+    "denseTop100Complete": true,
+    "eligibilityAuditComplete": true,
+    "indexAuditComplete": true,
+    "ninetyCasesAnalyzed": true,
+    "primaryMissTypePresent": true,
+    "priorityGenerated": true,
+    "queryAuditComplete": true,
+    "rrfTop100Complete": true,
+    "sensitivePolicyRecorded": true,
+    "unionOracleComplete": true
+  },
+  "decision": "PHASE_92_PRIORITY_CANDIDATE_K_AND_FUSION",
+  "qualityClaim": "RETRIEVAL_MISS_ANALYSIS_COMPLETE_NOT_RETRIEVAL_QUALITY_PASS",
+  "schemaVersion": "agent-rag-v23-retrieval-miss-analysis-gate-v1",
+  "status": "PASS"
+}

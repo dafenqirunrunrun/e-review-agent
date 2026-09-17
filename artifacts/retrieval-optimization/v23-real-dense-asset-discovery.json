@@ -1,0 +1,46 @@
+{
+  "absolutePathsRedacted": true,
+  "artifactVersion": "agent-rag-v23-real-dense-asset-discovery-v1",
+  "assetDiscoveryStatus": "REQUIRED_ASSET_PATH_CONFIGURED",
+  "assetExists": true,
+  "assetExpectedSource": "local offline model directory via RAG_BGE_M3_MODEL_PATH",
+  "assetManifestEntry": "env:RAG_BGE_M3_MODEL_PATH",
+  "cudaUsed": true,
+  "embeddingDimension": 1024,
+  "fallbackUsed": false,
+  "finiteValues": true,
+  "fullModelPathStored": false,
+  "normalized": true,
+  "optionalSkipped": 0,
+  "relevantGreaterThanIrrelevantSmoke": true,
+  "repeatEmbeddingStable": true,
+  "requiredAsset": "BAAI/bge-m3",
+  "requiredTests": 2,
+  "requiredTestsFailed": 0,
+  "requiredTestsPassed": 2,
+  "requiredTestsSkipped": 0,
+  "selectedTests": 8,
+  "status": "AGENT_RAG_V23_REAL_DENSE_RUNTIME_PASS",
+  "tests": [
+    {
+      "assetExists": true,
+      "assetExpectedSource": "RAG_BGE_M3_MODEL_PATH",
+      "assetManifestEntry": "env:RAG_BGE_M3_MODEL_PATH",
+      "classification": "CURRENT_PARENT_CHILD_REQUIRED",
+      "requiredAsset": "BAAI/bge-m3",
+      "skipReason": null,
+      "status": "PASS",
+      "testNodeId": "test_v200_phase3a_real_bge_provider_numerics"
+    },
+    {
+      "assetExists": true,
+      "assetExpectedSource": "RAG_BGE_M3_MODEL_PATH and qualified environment",
+      "assetManifestEntry": "env:RAG_BGE_M3_MODEL_PATH",
+      "classification": "CURRENT_PARENT_CHILD_REQUIRED",
+      "requiredAsset": "BAAI/bge-m3 + FAISS",
+      "skipReason": null,
+      "status": "PASS",
+      "testNodeId": "test_v200_phase3a_real_faiss_build_search_and_compatibility"
+    }
+  ]
+}

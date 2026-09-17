@@ -1,0 +1,12 @@
+{
+  "agentReplayEnabledDefault": false,
+  "agentTraceEnabledDefault": false,
+  "agentTracePayloadCaptureDefault": false,
+  "agentTraceSinkDefault": "none",
+  "ciConfigAudited": true,
+  "composeConfigAudited": true,
+  "dockerConfigAudited": true,
+  "pythonConfigAudited": true,
+  "runtimeBoundaryGate": "E_REVIEW_V24_AGENT_TRACE_RUNTIME_BOUNDARY_PASS",
+  "springBootConfigAudited": true
+}

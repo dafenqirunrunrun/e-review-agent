@@ -1,0 +1,12 @@
+{
+  "fixtureId": "synthetic-replay-case-001",
+  "fixtureVersion": "v1",
+  "synthetic": true,
+  "containsRealUserData": false,
+  "stubProvider": "synthetic-trace-model-v1",
+  "stubToolResults": {
+    "evidenceIds": ["ev-001", "ev-002"],
+    "modelOutput": "safe synthetic structured decision"
+  },
+  "expectedOutcomeHash": "computed-by-harness"
+}

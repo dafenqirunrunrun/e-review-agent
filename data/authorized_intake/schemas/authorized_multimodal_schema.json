@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Authorized Multimodal Image Record",
+  "type": "object",
+  "required": ["image_id", "source_id", "source_record_id_hash", "image_sha256", "mime_type", "width", "height", "privacy_status", "authorization_status", "local_private_relative_path_hash"],
+  "properties": {
+    "image_id": {"type": "string", "minLength": 1},
+    "source_id": {"type": "string", "minLength": 1},
+    "source_record_id_hash": {"type": "string", "minLength": 16},
+    "image_sha256": {"type": "string", "minLength": 32},
+    "perceptual_hash": {"type": ["string", "null"]},
+    "mime_type": {"enum": ["image/jpeg", "image/png", "image/webp"]},
+    "width": {"type": "integer", "minimum": 1},
+    "height": {"type": "integer", "minimum": 1},
+    "privacy_status": {"enum": ["pending", "cleared", "redacted", "rejected"]},
+    "authorization_status": {"enum": ["pending", "approved", "rejected", "expired"]},
+    "local_private_relative_path_hash": {"type": "string", "minLength": 16}
+  },
+  "additionalProperties": false
+}

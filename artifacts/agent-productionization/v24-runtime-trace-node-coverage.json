@@ -1,0 +1,15 @@
+{
+  "coverageGate": "E_REVIEW_V24_RUNTIME_TRACE_NODE_COVERAGE_PASS",
+  "fallbackTransitionCoverageRate": 1.0,
+  "fallbackTransitions": 5,
+  "instrumentedNodes": 9,
+  "modelCallCoverageRate": 1.0,
+  "modelCalls": 20,
+  "requiredNodeCoverageRate": 1.0,
+  "requiredNodes": 9,
+  "retrievalCallCoverageRate": 1.0,
+  "retrievalCalls": 20,
+  "tracedFallbackTransitions": 5,
+  "tracedModelCalls": 20,
+  "tracedRetrievalCalls": 20
+}

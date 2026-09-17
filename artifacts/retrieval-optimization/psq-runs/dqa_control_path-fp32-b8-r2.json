@@ -1,0 +1,1577 @@
+{
+  "activeTokenIdsHash": "0e9fb3d3f23fc81b337f1507aad002b9a45446a7fe59efb27cfc8cde81665832",
+  "actualInputCount": 153,
+  "alignmentErrorCount": 0,
+  "batchSize": 8,
+  "canonicalWeightVectorHash": "9233657e8095ab3452a745aa2150d7d1a02eaa2172bd9205e59a9365010b29e9",
+  "duplicateOutputCount": 0,
+  "emptyChunkIdsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "expectedInputCount": 153,
+  "fullChunkContentStored": false,
+  "fullTokenWeightMapStored": false,
+  "invocationPath": "DQA_CONTROL_PATH",
+  "metrics": {
+    "averageMaxWeight": 1.35072746,
+    "averageNonZeroDimensions": 20.386,
+    "averageWeightSum": 18.76634766,
+    "medianMaxWeight": 1.399,
+    "medianNonZeroDimensions": 21.0,
+    "minimumPositiveWeight": 0.909536,
+    "p95NonZeroDimensions": 23.0
+  },
+  "missingOutputCount": 0,
+  "nonEmptyChunkIdsHash": "83aa971e598f87b350ed70a3fb675b6529792d9c3bec6801570cca352f6c8c4d",
+  "performance": {
+    "documentsPerSecond": 102.103,
+    "encodeDurationMs": 1498.48,
+    "encodeP50Ms": 9.794,
+    "encodeP95Ms": 9.794,
+    "encodeP99Ms": 9.794,
+    "fallbackUsed": false,
+    "modelLoadDurationMs": 7264.39,
+    "peakCpuMemoryBytes": 1226874880,
+    "peakCudaMemoryBytes": 2302160384,
+    "unexpectedCudaOom": 0,
+    "warmupDurationMs": 1439.422
+  },
+  "precision": "FP32",
+  "rawEmptyCount": 0,
+  "rawNonEmptyCount": 153,
+  "rawNonEmptyRate": 1.0,
+  "rawOutputCount": 153,
+  "repeatId": 2,
+  "rows": [
+    {
+      "activeTokenIdsHash": "afa7b7ed3b490654174a12b299bbfde92ed0c6bc60a7809d3dd5bd8a011c02ba",
+      "canonicalWeightVectorHash": "dc1dee0f28cadf9f1e6955b3a247c81854f1c12739dae3fa2ee31ca2d11f4f08",
+      "chunkId": "05b8ee305803db234ea82bf6",
+      "contentHash": "354df3943839118b208ea22c53272208291fc0477cca61da583e1affde08b54f",
+      "maximumWeight": 1.63886786,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 24.80094659
+    },
+    {
+      "activeTokenIdsHash": "996f7c5996aef5a373d18a86273e8db24c337607e378a776f959d4500879ab06",
+      "canonicalWeightVectorHash": "b2c2133501855aaef81c6936901a61483976c497f1b1a5d2002c4e93bf2e274e",
+      "chunkId": "07e66229edccde7f13e75747",
+      "contentHash": "ba85ee4e0534439cd20d99a2579dbb04f44dff82897bb76092140bac91ca6eaf",
+      "maximumWeight": 1.37678516,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 21.02851337
+    },
+    {
+      "activeTokenIdsHash": "02d19883f1acac2c49fcd37d63480ac63e987debb82d299fe91ad80762ce3608",
+      "canonicalWeightVectorHash": "27e6ebcdfeaf8a741a610e3ad25aec391370b850a7ee29a0783ee178130c783e",
+      "chunkId": "085e7d29a3ab61035bc15481",
+      "contentHash": "0473e06431ff77cecea636cf40e65f3b54df355e95ba7a6d3b71b374335037cf",
+      "maximumWeight": 1.2506578,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 16.65005717
+    },
+    {
+      "activeTokenIdsHash": "29484a3a797e0c5bb73f648f5feeff6fed7a8932786f2f003e5dc3f4dad67f75",
+      "canonicalWeightVectorHash": "fe7392c16617ba2988742a5d1edd4b112b21de1459b9f7b536cec60d8072faea",
+      "chunkId": "08fde6a3c382b50191ad03d6",
+      "contentHash": "43eaf421027f8f7d21c27beb0d135e54a276793c4db16b9cbf985ed1f27f2c93",
+      "maximumWeight": 1.29898846,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 17.37816975
+    },
+    {
+      "activeTokenIdsHash": "dd2184db00d80a8e3e23d20839cf7ce01e518be9c69f0bbba1bbd590c84a32f1",
+      "canonicalWeightVectorHash": "1f4660e572149cec6e90340f149d0fa18edb8ad9435ecb7da85154779f3d8d65",
+      "chunkId": "09837bce054a591b93ff307b",
+      "contentHash": "a6a4742ec5d5d32982ea518a5e07a39749b3003505107745151601c1c275c5a0",
+      "maximumWeight": 1.18766248,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 15.71165483
+    },
+    {
+      "activeTokenIdsHash": "e864b72c91f1d3997841d1cf55734f26740d432cb870e0d78760dd7aa10fc6ed",
+      "canonicalWeightVectorHash": "85ca4aef124ba92bf8fbcf21f7b6b3283cc6598064c48f3c19bc5c25231f3394",
+      "chunkId": "0b08d45f1aaf7ea057d59b11",
+      "contentHash": "e56b237b9ae2855b27e48b865a3cdc8543259402674a8a9e393f281fca459003",
+      "maximumWeight": 1.23481536,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 15.92591345
+    },
+    {
+      "activeTokenIdsHash": "264e93ceea64958581bac1350a31bbb6c13a20204405a41ea3647e3d0b191235",
+      "canonicalWeightVectorHash": "48e1cbc20ff10e70f3a22b5deab5e4b44865f25d57d873890e43efbd68f9dcea",
+      "chunkId": "0f9059af4e21e96fa6908c63",
+      "contentHash": "dd855afc8c1d0ae8fe0a1338ce7f07eb0504472ecacb9466357a6261bd982cd5",
+      "maximumWeight": 1.29929638,
+      "nonZeroDimensionCount": 10,
+      "rawEmpty": false,
+      "weightSum": 9.05444825
+    },
+    {
+      "activeTokenIdsHash": "d11df2c8b05f032c77c435b439aec868680016f133d8924e63e6c84f945efefe",
+      "canonicalWeightVectorHash": "bd14501d68a6b4a87528771d9fa9f2c8b0f90ba396e6ffca29c5c77681b3f891",
+      "chunkId": "0fd071e1d5cd1319d89d5078",
+      "contentHash": "75ef3b35a281bea136f79710661242ca4657020ad0631902c44b7528cd61ce26",
+      "maximumWeight": 1.55662334,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 25.57873183
+    },
+    {
+      "activeTokenIdsHash": "996f7c5996aef5a373d18a86273e8db24c337607e378a776f959d4500879ab06",
+      "canonicalWeightVectorHash": "bfd8fd83e32cf74d75e2e147aaeb443c1c7b3bf4d30c4663c9bfc832a9d63bfc",
+      "chunkId": "1141fa68c639ad0179af76a1",
+      "contentHash": "c310ac11a08ae908a6e7925be14a7c46414121883f840af9c059524f4cfd63fb",
+      "maximumWeight": 1.50296712,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 22.50126362
+    },
+    {
+      "activeTokenIdsHash": "e91249b3c6314f74984d1d569ca00436f2a74fec3a1eee314ff24a541069453f",
+      "canonicalWeightVectorHash": "58de1ecbac3da3bc056fbe92fc42d8aa8af08e2d04cc35ef45be4fcdfa85e14f",
+      "chunkId": "1248f57ba93309e8243c5b77",
+      "contentHash": "d828305d6774019158b384f3c8983766dc2157bede1553a7901c05e0ab17ebee",
+      "maximumWeight": 1.04367948,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 8.92477375
+    },
+    {
+      "activeTokenIdsHash": "a02520f87cc113bf12e17101731ecc7efdc0f01dd7a715bc93e286ba47d05b1b",
+      "canonicalWeightVectorHash": "7a636784d2910b380788d012091d7ead358e546387e49a609881ac947f627aff",
+      "chunkId": "168c7dcdca2c9481e78827f7",
+      "contentHash": "e81ad6b31f370f5190c9136ab2f4b103871912346ecf061f0fdeda0508819bc7",
+      "maximumWeight": 1.49978554,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 23.12872863
+    },
+    {
+      "activeTokenIdsHash": "b7e1d8c09ab28898f4fa57a9434e62d849a93419556aff9cb91455de181b00eb",
+      "canonicalWeightVectorHash": "f846d25c246431839fa37cea08a2d031c4f463c582931c807cc45ed27acd0a10",
+      "chunkId": "183a4e21d84eb9a90e4e0049",
+      "contentHash": "f8ad8e645680354448addaec163b1b28bd84b24dc26f478c83e89f63b6cbaced",
+      "maximumWeight": 1.08315837,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 13.96610345
+    },
+    {
+      "activeTokenIdsHash": "e726f662646eb0911f690ebf2f298bc3998eb3b897485dcf5d9763348353290f",
+      "canonicalWeightVectorHash": "7d4628a82efd9dcb042fa06d04ecb32b93c2a306a8d4c7e4acbcfc5bdac0a211",
+      "chunkId": "1934a277103eb8bcdfc59e01",
+      "contentHash": "bd028f630653e27f55c855bd18f4dda3f20494282ac74dfcc2406a4e4993ec3d",
+      "maximumWeight": 1.55407786,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 27.44929665
+    },
+    {
+      "activeTokenIdsHash": "e726f662646eb0911f690ebf2f298bc3998eb3b897485dcf5d9763348353290f",
+      "canonicalWeightVectorHash": "774551e61557180ba118e2e55d3fd6db1c16df7ce63c9235ea21ab95f471b09a",
+      "chunkId": "1a322ead2322b7b0e96c7df2",
+      "contentHash": "ae584f3c9e4519cbfbe2e8b03effaef77d55020dd9f3b652a37ac8d8fe02a4ce",
+      "maximumWeight": 1.4738903,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 24.22163618
+    },
+    {
+      "activeTokenIdsHash": "df7de6306104c72a09bc3b43a4b88e4dd9de5c264c5f908ba663323db2813c32",
+      "canonicalWeightVectorHash": "921884109f817d9abd5eadc3632dbc9373add74b148ec5077196fa77fe5dba87",
+      "chunkId": "1b8f647cf92b7e6e15823bc2",
+      "contentHash": "4f592b3ea687032e894a9ceec1004f8e932c99fd8f0b964fec9e7837e4fa85bc",
+      "maximumWeight": 1.55214381,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 23.72633994
+    },
+    {
+      "activeTokenIdsHash": "e726f662646eb0911f690ebf2f298bc3998eb3b897485dcf5d9763348353290f",
+      "canonicalWeightVectorHash": "33c98bb5257cd2eb1141958d932d6ff22884dc988806ad813cfcf4b86ac21559",
+      "chunkId": "1bf82f77fece16108fe505b0",
+      "contentHash": "1eb4ed26dab241261479db0aabc99e6c10f03943e9f2f84f64e70a7053cdc287",
+      "maximumWeight": 1.63562965,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 28.74585688
+    },
+    {
+      "activeTokenIdsHash": "888494b10aa03398e7d522980d7f92a1f2ad5fddf9d6ef48027cf3d8751eebd8",
+      "canonicalWeightVectorHash": "c0788dce87bdebf598cc7500336eab234ec61fc5c574398b791bd224ee86a32a",
+      "chunkId": "1e6e0ac0dd00dbea1ddd5100",
+      "contentHash": "453b219e4dac1632c09eaf30baf615c095367f2c082ac9ffb147899876b9a04f",
+      "maximumWeight": 1.21739697,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 14.79939446
+    },
+    {
+      "activeTokenIdsHash": "996f7c5996aef5a373d18a86273e8db24c337607e378a776f959d4500879ab06",
+      "canonicalWeightVectorHash": "0306ca739426e2bae7af949bf28f29ac9f945504e6d6232114a876424fdd5ec0",
+      "chunkId": "1ffcef0795033d338646da6a",
+      "contentHash": "f7bfebd0537ec78b189639a2e36a50fd9d3a0442eca2c10e2926ef953ab797ed",
+      "maximumWeight": 1.38569868,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 20.57908303
+    },
+    {
+      "activeTokenIdsHash": "041efce734dbee38b266f8785de933e6ee57fb552f3c8589999f1072ee35f263",
+      "canonicalWeightVectorHash": "3d75c968828058adc614ea33383ac716f20551c0b1eda8a4277aae625a65d3f7",
+      "chunkId": "2033fe94f51f2d2a3df1ec36",
+      "contentHash": "0b6b64744b9f4623a62639a59372629f25ae3516a69de72dccdde0987de9fdb0",
+      "maximumWeight": 1.07946301,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 12.27034672
+    },
+    {
+      "activeTokenIdsHash": "bc05387935ec6d2b3d0ace8c441b9b7d0324407dc11ae41f049335461cdc215b",
+      "canonicalWeightVectorHash": "c32c7355648af18f1b72680d936c1a2ab2ed6e0a9b1f909ceac57deb0292df04",
+      "chunkId": "20e06d7ebdd00c1fa5636986",
+      "contentHash": "629d772af90ff7f0ce49611ee77e8410d3581033d978d0c5dc497ffe5cbe5c60",
+      "maximumWeight": 1.60014904,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 24.24461669
+    },
+    {
+      "activeTokenIdsHash": "dd2184db00d80a8e3e23d20839cf7ce01e518be9c69f0bbba1bbd590c84a32f1",
+      "canonicalWeightVectorHash": "06c87099bc0b3da7d4fdcf4b8391dddcae85d6e47cd2b8f98453dfbd6bb5ae3d",
+      "chunkId": "24306d5e652b6a5ff6dbd3ab",
+      "contentHash": "e7147c417da53c801ed79a815026019f0e7f78688a10e13157f1ea9ab06d0f4c",
+      "maximumWeight": 1.25646746,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 18.1254698
+    },
+    {
+      "activeTokenIdsHash": "ae458f57e11cfb55d908f192827606471e8ca1b1179dfbb5f68fd8881419d967",
+      "canonicalWeightVectorHash": "12084e2b5901a69e2c85f7d2b9dd2da24b4b0095e8355e9e49545d71da476a9c",
+      "chunkId": "24eaef616f4e2d52232c410a",
+      "contentHash": "42cea9bcc8e1b5c9f4ee3de4ab2ffc12cb7ca9ebc55c171d9d8080c2e1f8a872",
+      "maximumWeight": 1.42936039,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 21.44481999
+    },
+    {
+      "activeTokenIdsHash": "996f7c5996aef5a373d18a86273e8db24c337607e378a776f959d4500879ab06",
+      "canonicalWeightVectorHash": "d6ac78bb5576428d170d4bee4e35778c7d41fbf5ef60264a29f2635f033ba7ae",
+      "chunkId": "2513de75ead87646db56d27d",
+      "contentHash": "29fa97f708e35d54200a8d3546e39a665a24a2f089493bac9691938c703eaa4c",
+      "maximumWeight": 1.49834478,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 24.01725572
+    },
+    {
+      "activeTokenIdsHash": "e864b72c91f1d3997841d1cf55734f26740d432cb870e0d78760dd7aa10fc6ed",
+      "canonicalWeightVectorHash": "dc617281e6e7edda05adc38f2c92df40d3dec459ffa3426bfdb8857bcd8ecacd",
+      "chunkId": "276e6fc0550f9a8332011666",
+      "contentHash": "2fefbf768798a598be2d0de80461955dd4a642c2abf403ac2e3f7c9d39ab0e8e",
+      "maximumWeight": 1.00754094,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 11.02999446
+    },
+    {
+      "activeTokenIdsHash": "dd2184db00d80a8e3e23d20839cf7ce01e518be9c69f0bbba1bbd590c84a32f1",
+      "canonicalWeightVectorHash": "20650102e611b78a62b5d36c8e7096529866896e32b4d14b7398b7e65b3a93be",
+      "chunkId": "295d29ec2414a09cdaaa190b",
+      "contentHash": "6daaf7a512e1b1f36eaf5aec40e7c16f2b774312b7c5ad1b82b4524c9a69c73b",
+      "maximumWeight": 1.05161333,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 15.14270478
+    },
+    {
+      "activeTokenIdsHash": "a02520f87cc113bf12e17101731ecc7efdc0f01dd7a715bc93e286ba47d05b1b",
+      "canonicalWeightVectorHash": "64fd8e49fc0caf71c600ff6960eab4c80149aa0ff2c53905c5cc2bca4844a45d",
+      "chunkId": "2a1510a21374b33637f15289",
+      "contentHash": "507c2dccec3de2fff90c77ced18d9c897420b9bcca4237d9204f7b42bf8f2fcc",
+      "maximumWeight": 1.48726547,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 24.87462729
+    },
+    {
+      "activeTokenIdsHash": "c299cd5e48405b6b5635454495957bc093f9e3a9e816f9d256f4ddf2078ca93a",
+      "canonicalWeightVectorHash": "fce4c4758bd9e9613e4dc4351c324de3c82c9035b8b42371224fb7d148b9ffb1",
+      "chunkId": "2a34ace8f2efd575b2235687",
+      "contentHash": "a10ca2bbcd2bc98f53825a7480359208e4e929ff7b1b7f4fa5c19d3cce25cd87",
+      "maximumWeight": 1.16226482,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 12.82744193
+    },
+    {
+      "activeTokenIdsHash": "d11df2c8b05f032c77c435b439aec868680016f133d8924e63e6c84f945efefe",
+      "canonicalWeightVectorHash": "c9991a043846fc6c2d098feabe03f977f8437213c6616b2943e7d3d62dfb2ac2",
+      "chunkId": "2ca677563e5ebd41718aad9a",
+      "contentHash": "01d308b15aaa3aa5a1286bb0c15a78380c5a9da8f86edba36604f29f50399be4",
+      "maximumWeight": 1.49271142,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 24.758753
+    },
+    {
+      "activeTokenIdsHash": "acd347246af9ade5a821c0a6a36cb688ba5536cbd0cd2c92a7cd9eaeca7d7300",
+      "canonicalWeightVectorHash": "621e7278d1b3af411ab1c64357c177d2a46c724b2fae0693271784a27d63cf23",
+      "chunkId": "2d65e5cd918328b6644c7fc1",
+      "contentHash": "fcb7e40209c3c4860c7e03cb695da2ba05b1a58798e7507935a7668b7b8dc2e8",
+      "maximumWeight": 1.57658184,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 21.5127008
+    },
+    {
+      "activeTokenIdsHash": "afa7b7ed3b490654174a12b299bbfde92ed0c6bc60a7809d3dd5bd8a011c02ba",
+      "canonicalWeightVectorHash": "7c97ac9e4db33c534a1c465844076f2315652629b3d903aaa287fe50276318ba",
+      "chunkId": "2e19ff929845e605f1a34b77",
+      "contentHash": "648a1014c2a8294134a29cb03bb0007412175a019109ae335cde85801b5a054b",
+      "maximumWeight": 1.56388223,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 22.87553263
+    },
+    {
+      "activeTokenIdsHash": "d11df2c8b05f032c77c435b439aec868680016f133d8924e63e6c84f945efefe",
+      "canonicalWeightVectorHash": "d205739a622751a447cf1eee433f5c1547f10a15b267e58935f53443e109eda4",
+      "chunkId": "30d3792eb7dbab3ef76f4feb",
+      "contentHash": "89c16a67f725192448f481b43790757b2513b7fc86614c4966be96b154132d25",
+      "maximumWeight": 1.38090932,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 23.32492661
+    },
+    {
+      "activeTokenIdsHash": "8a477e8becb50f1cb4b2ba0e710397a8126c34c1b23858ac3c0854fc5686a6f6",
+      "canonicalWeightVectorHash": "3b2eb4e05daf039cd08a09e74cfeaed955765f5f258870c537d1be3b060dafff",
+      "chunkId": "3108358d68fa7578819f7fbb",
+      "contentHash": "34758e7b867e9661a2316c27dfdb49cc6ca1c3493c6e9c8be2350068b1a9f686",
+      "maximumWeight": 1.43291879,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 20.82636413
+    },
+    {
+      "activeTokenIdsHash": "acd347246af9ade5a821c0a6a36cb688ba5536cbd0cd2c92a7cd9eaeca7d7300",
+      "canonicalWeightVectorHash": "080b9c135d3c9c8a110e98a726e17ddb4b4d3bfde317954cc51e42398ed50f9b",
+      "chunkId": "3349a5cbf9ba8f68fe9d631b",
+      "contentHash": "2225ef80962823447610971cb3d8331d13adf3cd4a83e32da1fb66c1415faa2a",
+      "maximumWeight": 1.5362941,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 22.20427185
+    },
+    {
+      "activeTokenIdsHash": "29484a3a797e0c5bb73f648f5feeff6fed7a8932786f2f003e5dc3f4dad67f75",
+      "canonicalWeightVectorHash": "b00617d6fad5237f98c6c3f4ec41717237cba013ef0ed502817cc422da131272",
+      "chunkId": "369aedb98e2025a19fee4ecf",
+      "contentHash": "b2fd7c10291954d11d19d18671512d72fdc001c58dd8873f544e54291cd151c0",
+      "maximumWeight": 1.36647058,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 19.92061737
+    },
+    {
+      "activeTokenIdsHash": "8a477e8becb50f1cb4b2ba0e710397a8126c34c1b23858ac3c0854fc5686a6f6",
+      "canonicalWeightVectorHash": "8368fcd91cf45d0f928cb4f85d88c01679344410981ed4936c9d7cc2cb75cc30",
+      "chunkId": "379965280e91ffb1dd3eeb2d",
+      "contentHash": "017ff9b163ed902ec687245caa5cf72746da09a97b39219da2ade021a865b71f",
+      "maximumWeight": 1.52874672,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 23.943628
+    },
+    {
+      "activeTokenIdsHash": "cb9c4b5ca53ac06a0f66cf6d71b23b6821ea423e2286080bd2e0967af59654ef",
+      "canonicalWeightVectorHash": "4b6f2211f74009a0068633322656147182b35bc87b99fc00cb5b15c9ee6c9a50",
+      "chunkId": "39bce4796d754d2838f9fead",
+      "contentHash": "f69077a9c7de0e29fa349a10d01bc94bab6bf8d37a523aee44780fa2ba2245b2",
+      "maximumWeight": 1.37423193,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 19.67244449
+    },
+    {
+      "activeTokenIdsHash": "acd347246af9ade5a821c0a6a36cb688ba5536cbd0cd2c92a7cd9eaeca7d7300",
+      "canonicalWeightVectorHash": "9c0ba63640652e39df5909ffe81f8bef613c330e308a382c83c44c1ae40b8db8",
+      "chunkId": "3c5dd6268eb639cf1b7ffaf1",
+      "contentHash": "1a2e213bf394161490e3e1348ca710028b585d714c790b08d58d0990b532f56b",
+      "maximumWeight": 1.57121181,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 21.8925994
+    },
+    {
+      "activeTokenIdsHash": "ae458f57e11cfb55d908f192827606471e8ca1b1179dfbb5f68fd8881419d967",
+      "canonicalWeightVectorHash": "0cec3328d14f9c9d19f71ed95aea9a53a9105d7afa1d15446d74e5d18c0b7e49",
+      "chunkId": "3dbb2b4d9b4b5a82ba7375f4",
+      "contentHash": "08430dc1dc50cfa76cf0aad9a3bc302d7fcc4770d7f08403a87e9e2a10d7beb1",
+      "maximumWeight": 1.50954127,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 24.97362801
+    },
+    {
+      "activeTokenIdsHash": "a02520f87cc113bf12e17101731ecc7efdc0f01dd7a715bc93e286ba47d05b1b",
+      "canonicalWeightVectorHash": "c35bbc5d6e82b63dc60ffa4cf5bb37f7f46830b1ba3ea0e4bb0acce338a9d845",
+      "chunkId": "3df890a19f2513a5c73bdff4",
+      "contentHash": "a7fa0b7e502ad8ec8f245d07b9ade03accc377e628d271a17de387812aee0731",
+      "maximumWeight": 1.45741093,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 23.60656637
+    },
+    {
+      "activeTokenIdsHash": "8a477e8becb50f1cb4b2ba0e710397a8126c34c1b23858ac3c0854fc5686a6f6",
+      "canonicalWeightVectorHash": "f851fd3363a71ce41cfaae48700cff46bfcedc48c1b13215e310247f3ffb06af",
+      "chunkId": "418be61e9f7908e366c5218c",
+      "contentHash": "0c9092371316cb646951e1f4411c65f500dac8c0affb5554befa2c3abe04d6ff",
+      "maximumWeight": 1.45803404,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 21.24086136
+    },
+    {
+      "activeTokenIdsHash": "bc05387935ec6d2b3d0ace8c441b9b7d0324407dc11ae41f049335461cdc215b",
+      "canonicalWeightVectorHash": "8f7f2d5af55ed8b38e6734ef86276434685c8573a597b0e24aaa5db29c42529f",
+      "chunkId": "432f6e882e00965f814465f2",
+      "contentHash": "87069fd96e1e0ff59b2e69ef6053b57c100f85f758fa5861bf5e9d3310ac25fb",
+      "maximumWeight": 1.5782963,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 24.50258422
+    },
+    {
+      "activeTokenIdsHash": "a02520f87cc113bf12e17101731ecc7efdc0f01dd7a715bc93e286ba47d05b1b",
+      "canonicalWeightVectorHash": "8ea408ee9abc81c96aad4f62ce513fef26a13d6487c923a1f64f368953d8c29b",
+      "chunkId": "448379dd6e6fcbf9f39fe880",
+      "contentHash": "ba6253f69d8f99f016287d29ebfc82c18ed827bd7f6761c80bc8734ddc20a64f",
+      "maximumWeight": 1.45131862,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 24.03457856
+    },
+    {
+      "activeTokenIdsHash": "996f7c5996aef5a373d18a86273e8db24c337607e378a776f959d4500879ab06",
+      "canonicalWeightVectorHash": "4dea26dca08afc465582acbb815e2d4ea546fe03d3185d45c8619da8a505877a",
+      "chunkId": "44ef124531b4a565acf97e9c",
+      "contentHash": "f198d9d6219f941df861282e726e73668a02310c1760ea7637c6163949034057",
+      "maximumWeight": 1.41198623,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 21.94011164
+    },
+    {
+      "activeTokenIdsHash": "acd347246af9ade5a821c0a6a36cb688ba5536cbd0cd2c92a7cd9eaeca7d7300",
+      "canonicalWeightVectorHash": "e97df58f0d322d656fa176e476293d8b8e5573b3af0139530eb94485b091f766",
+      "chunkId": "45e0144e7de0d6466d4013a6",
+      "contentHash": "1e879c48bb14f409e4909215f26e0ce54318bd0c1a43339d34c27505dd93004e",
+      "maximumWeight": 1.52994847,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 21.62689376
+    },
+    {
+      "activeTokenIdsHash": "d11df2c8b05f032c77c435b439aec868680016f133d8924e63e6c84f945efefe",
+      "canonicalWeightVectorHash": "789eb2118f556c4865b1c62dcef6d325dafb4f87bc612868e06b866306c399fc",
+      "chunkId": "47921eab9d224bad732296bb",
+      "contentHash": "37d2a378593d7d0029017c7bb95efa618665d76b1bf80900526a8954b551ba53",
+      "maximumWeight": 1.38983393,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 23.42980021
+    },
+    {
+      "activeTokenIdsHash": "a2a8bb2dfde252081272a1110794811a64a1fd710445c09c73daba5125462bf1",
+      "canonicalWeightVectorHash": "86aa6ff89c3536958ec87d6e5420da2a0bbba47492554c3e5a9cbef0d1b50b67",
+      "chunkId": "4b18d0ac03cc47f799d81f9e",
+      "contentHash": "5d88f86b7c80990378ed725f5c3890db4f89c77a9497fcd6623bdafa9d6ea8a5",
+      "maximumWeight": 1.49236774,
+      "nonZeroDimensionCount": 11,
+      "rawEmpty": false,
+      "weightSum": 11.95386076
+    },
+    {
+      "activeTokenIdsHash": "df7de6306104c72a09bc3b43a4b88e4dd9de5c264c5f908ba663323db2813c32",
+      "canonicalWeightVectorHash": "cd120e52cc6c74bd56fe16a3803a078143cfc85fe0c15b140c6cf6558766b2a9",
+      "chunkId": "4c02757e9de37168ef8274bf",
+      "contentHash": "0b4c71b923ed141d347302753dc8223863619590d5abfcaa929b5857a7543021",
+      "maximumWeight": 1.50045884,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 23.02225289
+    },
+    {
+      "activeTokenIdsHash": "e726f662646eb0911f690ebf2f298bc3998eb3b897485dcf5d9763348353290f",
+      "canonicalWeightVectorHash": "cba20601f7bf0e43c834d49a4bca8fd809c0e3b290c00ad25932b32dd287afeb",
+      "chunkId": "4c15eba9b49cdacd5c996bdc",
+      "contentHash": "ffee5d58ea231572adb1c750bd77ba7e6d6f3aaf9fa7ec18f1c8ea6e4238bfb0",
+      "maximumWeight": 1.54926181,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 25.68565387
+    },
+    {
+      "activeTokenIdsHash": "e726f662646eb0911f690ebf2f298bc3998eb3b897485dcf5d9763348353290f",
+      "canonicalWeightVectorHash": "39d5d54d26f01bcd07140acd9c4b585d2852704a15388cb869cc02fe26bf7021",
+      "chunkId": "4c6a19dfb4b1358d5db09a0a",
+      "contentHash": "f6f8bf5566881262e379cb21a997fbb44537e42b23d2b03423c6d5d13f665417",
+      "maximumWeight": 1.51124966,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 26.07649249
+    },
+    {
+      "activeTokenIdsHash": "dd2184db00d80a8e3e23d20839cf7ce01e518be9c69f0bbba1bbd590c84a32f1",
+      "canonicalWeightVectorHash": "b604d672871bc47beed6fb3b2085645a40797cc1ebdc268a4c40bf645adbefe4",
+      "chunkId": "4e8682f9d4a07a8e1d126dd4",
+      "contentHash": "2b3764e118edbe0fb31b2f65211311dc94a01a23b4cd6504de48f906af995fdb",
+      "maximumWeight": 1.16139603,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 16.72541097
+    },
+    {
+      "activeTokenIdsHash": "df7de6306104c72a09bc3b43a4b88e4dd9de5c264c5f908ba663323db2813c32",
+      "canonicalWeightVectorHash": "c83c419f79e306bf22a2f426c0eb01f7a283a0764350055f7e95a914c4ab9501",
+      "chunkId": "4f7dc97dd3ae790bac5f8217",
+      "contentHash": "d8bec118527bee44b731d8d278e99058b47db66c7886b21ccc83e0a366748144",
+      "maximumWeight": 1.33886695,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 18.57772191
+    },
+    {
+      "activeTokenIdsHash": "02d19883f1acac2c49fcd37d63480ac63e987debb82d299fe91ad80762ce3608",
+      "canonicalWeightVectorHash": "e97d1eee97f17aa80510a8bc81a5dedea4ca85fe1d810ae2fc8365560460ea82",
+      "chunkId": "4f863ef23f56f0247549b5a6",
+      "contentHash": "0269a59fbca922c706ec89e66796d47a9d846523fa436225f0dc97918723e073",
+      "maximumWeight": 1.16910481,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 15.12066713
+    },
+    {
+      "activeTokenIdsHash": "01161bcf2b4e709eec975494c5ea62efe4d5cf35caee45b280361f6482d19677",
+      "canonicalWeightVectorHash": "a3032e51170b199ba8e43774927ba184d8b976af855ada1e2480ecef61eebe8c",
+      "chunkId": "514ef67b7860b8ce028bb29e",
+      "contentHash": "24618abcb97720d96879f63907d5232544ca4305c73ef1461add4731b8e1d47a",
+      "maximumWeight": 1.43144727,
+      "nonZeroDimensionCount": 10,
+      "rawEmpty": false,
+      "weightSum": 11.40685642
+    },
+    {
+      "activeTokenIdsHash": "29484a3a797e0c5bb73f648f5feeff6fed7a8932786f2f003e5dc3f4dad67f75",
+      "canonicalWeightVectorHash": "e2f09b28ff2f659ebd797b2f015254cfc27d96765ba5232edccafafeca4d8c0a",
+      "chunkId": "53c561f33f49218fc95992a0",
+      "contentHash": "dc84cbed1eb7e1f446d3a9f58dc22351c366a64351a6e3108b4363d4ef448e16",
+      "maximumWeight": 1.21660733,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 15.68016918
+    },
+    {
+      "activeTokenIdsHash": "df7de6306104c72a09bc3b43a4b88e4dd9de5c264c5f908ba663323db2813c32",
+      "canonicalWeightVectorHash": "ba448459b814d859ed946e227affac6b3315ed104c82af5dcd5a12d62597c860",
+      "chunkId": "544fae716dabc27f3378fe3e",
+      "contentHash": "41e4cd192fda98200b5b2f89dc57d5780e915304f083837dfe90fe4802f34bba",
+      "maximumWeight": 1.5817256,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 22.06884938
+    },
+    {
+      "activeTokenIdsHash": "02d19883f1acac2c49fcd37d63480ac63e987debb82d299fe91ad80762ce3608",
+      "canonicalWeightVectorHash": "b358c0d14c86c8abd0309cdf28d9147eae1e68a3b8443fb1c15da0da6bec3360",
+      "chunkId": "54fb937c8792cef3354eb9b3",
+      "contentHash": "828553764cec6e118820fdc618f31c0cadc3e365322440168768a70e81fec36c",
+      "maximumWeight": 1.25068223,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 16.63707903
+    },
+    {
+      "activeTokenIdsHash": "8a477e8becb50f1cb4b2ba0e710397a8126c34c1b23858ac3c0854fc5686a6f6",
+      "canonicalWeightVectorHash": "5f5db18d5b2fdeb580e08db16e65fe97ab9b4339cc428309f074da5c097eeb42",
+      "chunkId": "56e5213ceed2cc5889141649",
+      "contentHash": "54da2fd510d43ad0215865dd83625f05a6c6339328f1ba701c77563222c2bcb1",
+      "maximumWeight": 1.50514245,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 22.08584404
+    },
+    {
+      "activeTokenIdsHash": "cb9c4b5ca53ac06a0f66cf6d71b23b6821ea423e2286080bd2e0967af59654ef",
+      "canonicalWeightVectorHash": "adfa334462d36828969174ed00bbd2297191369d237bb3b220a612a2d8f9bd2d",
+      "chunkId": "576e84be4eda0a47e540c80e",
+      "contentHash": "8e2129fbbda5f86b601747d0ca9d24cfba58f87841639bb0b32d78e591c63280",
+      "maximumWeight": 1.45834398,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 19.45963641
+    },
+    {
+      "activeTokenIdsHash": "d374b35ae94f2196a7f2e77077afe64272e3ae81c4cc38c05423fdd8866c662a",
+      "canonicalWeightVectorHash": "14c3c1328541a971c6bbb10ddcd50877d4ef268ec8907f48d59a1dacd06a07af",
+      "chunkId": "5860ed7d6f61d973813a7680",
+      "contentHash": "08c7369197b99bc4b03d3b60a794d08f8dd45660caa16eb269ba6ca9abcef5d2",
+      "maximumWeight": 1.21903753,
+      "nonZeroDimensionCount": 10,
+      "rawEmpty": false,
+      "weightSum": 8.12502313
+    },
+    {
+      "activeTokenIdsHash": "cb9c4b5ca53ac06a0f66cf6d71b23b6821ea423e2286080bd2e0967af59654ef",
+      "canonicalWeightVectorHash": "de6e7eda41713c21d5c5732e5bd2a3133f769d38699e0ad20d580947d7a31011",
+      "chunkId": "593d05374bb7629bbd00a2df",
+      "contentHash": "a6c5662b86cfdcc175cdff9d3be89907452bad0409bc22b0b83b4b8f69b74f0b",
+      "maximumWeight": 1.32308424,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 17.37367614
+    },
+    {
+      "activeTokenIdsHash": "7cf39002590bcd4c63c0535c96e3ae2e0239b6402c0c3ebf1046cfe274183d09",
+      "canonicalWeightVectorHash": "2873d36f36a91f04299d03b194efe8a606383f77ecf1ebaaf9116b76aec77903",
+      "chunkId": "595f60a831f76a777a6f78c4",
+      "contentHash": "5dd9fe4953c94551f5f9fb40719f61908737e59ec5e6a06fc0ae7e3b4c958d3e",
+      "maximumWeight": 1.08508515,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 13.23939128
+    },
+    {
+      "activeTokenIdsHash": "afa7b7ed3b490654174a12b299bbfde92ed0c6bc60a7809d3dd5bd8a011c02ba",
+      "canonicalWeightVectorHash": "ace3547065d2f4cc52f134898a58da3061e79989d172c387e58d1e800357a9b6",
+      "chunkId": "5966a5c129c160358356c039",
+      "contentHash": "5af5f1edd2e25bc89fec9084b711c44be0f2b59b7da2f6a9047c651472f042c4",
+      "maximumWeight": 1.56197524,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 23.41754818
+    },
+    {
+      "activeTokenIdsHash": "29484a3a797e0c5bb73f648f5feeff6fed7a8932786f2f003e5dc3f4dad67f75",
+      "canonicalWeightVectorHash": "7ea2afec052a5ba14538930f99081f0f9ade00f64498bba5954ca2567879af59",
+      "chunkId": "5b002ee89dab569f3ce6636d",
+      "contentHash": "c28f9c9360a5a6c58834d8f1f97f0f9dab1741189d2d47a70e48af71f57c80c9",
+      "maximumWeight": 1.44903123,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 20.39642556
+    },
+    {
+      "activeTokenIdsHash": "041efce734dbee38b266f8785de933e6ee57fb552f3c8589999f1072ee35f263",
+      "canonicalWeightVectorHash": "21ea45c848bc56db64026b74d723a4c6c01d150654e124837cbaab9faf09de7e",
+      "chunkId": "5c196fdec8bb338466ade7bb",
+      "contentHash": "1ddefd265ce68b71c7817b16dfb8bbbcdfc0839a9e6519e987f6a5dce732d1c9",
+      "maximumWeight": 1.22742832,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 14.52039534
+    },
+    {
+      "activeTokenIdsHash": "ae458f57e11cfb55d908f192827606471e8ca1b1179dfbb5f68fd8881419d967",
+      "canonicalWeightVectorHash": "6e55296d336c6258cfafd9bee1955c8aca5779f7fba4f574b586eb9436211e8d",
+      "chunkId": "5da3d1ef60cabb0d13ba26b3",
+      "contentHash": "18fbb19b21606c7eb53859d857bda55a7a22fcc0bd86d39ac463ca8cc3c52564",
+      "maximumWeight": 1.48649979,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 23.89668024
+    },
+    {
+      "activeTokenIdsHash": "afa7b7ed3b490654174a12b299bbfde92ed0c6bc60a7809d3dd5bd8a011c02ba",
+      "canonicalWeightVectorHash": "5fb0e42ea33a23ac2198487838f64cd72466722ff69e8fba5e276064c5ec9a35",
+      "chunkId": "5e67e1ca9095ab7f271b277f",
+      "contentHash": "a1d490609e0a54172de88d95dfeb71bdf559477017c5cb3dc1aef8e4e2281fbf",
+      "maximumWeight": 1.60396528,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 22.65439093
+    },
+    {
+      "activeTokenIdsHash": "e726f662646eb0911f690ebf2f298bc3998eb3b897485dcf5d9763348353290f",
+      "canonicalWeightVectorHash": "fe6ed8a4f673827e76334aa50f4fc79bcff84758a92b1dd97073de5ef6b17dc1",
+      "chunkId": "61755bb0bcd7286a0c466721",
+      "contentHash": "b4046ee320cb367d56e4da0e9bfe2665b214b0d4d46bb4546fde905711017c95",
+      "maximumWeight": 1.49935305,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 24.51593167
+    },
+    {
+      "activeTokenIdsHash": "d11df2c8b05f032c77c435b439aec868680016f133d8924e63e6c84f945efefe",
+      "canonicalWeightVectorHash": "2c8bfaea40784bbdaed8ef1b949c78d84b33b58afc880bdd6c5fc79b71ee6468",
+      "chunkId": "6225af57d2f9014e83229222",
+      "contentHash": "ee2a100f9fd38e0c658094ffabc2a184dd3bd2be4c17008b28247b694e01ec7c",
+      "maximumWeight": 1.42611074,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 21.66318423
+    },
+    {
+      "activeTokenIdsHash": "cb9c4b5ca53ac06a0f66cf6d71b23b6821ea423e2286080bd2e0967af59654ef",
+      "canonicalWeightVectorHash": "5a8c599a94e20bae96626a15eb6eb16a843905e864c0252e42a3acdff6dd8d8b",
+      "chunkId": "624bbcbf5267abbd76f7f289",
+      "contentHash": "2360301eca07defec4582d898058d1dca45ee7a17c847340a5c3849463ee2f0a",
+      "maximumWeight": 1.38129354,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 19.31665373
+    },
+    {
+      "activeTokenIdsHash": "b7e1d8c09ab28898f4fa57a9434e62d849a93419556aff9cb91455de181b00eb",
+      "canonicalWeightVectorHash": "b05f1bdd44f50ac05d0ec03fea71edcf67b8de0a9081290bfee75c5a3310edc6",
+      "chunkId": "63696ad6f78586719af45e3e",
+      "contentHash": "3bea4969b435c92d6c1777a9956906fcd256dd07d52fdd76bc99cf2847601ca7",
+      "maximumWeight": 0.92639858,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 10.45925083
+    },
+    {
+      "activeTokenIdsHash": "041efce734dbee38b266f8785de933e6ee57fb552f3c8589999f1072ee35f263",
+      "canonicalWeightVectorHash": "094e890910c9b07611a6bf3148458c74e4f6bba0755d2e7737f5086af71aeae8",
+      "chunkId": "63a75978326049de5455485f",
+      "contentHash": "a33d2c058b5479d449b6d479113ee21d8be44decadd8c81badb43d8c7ba4641c",
+      "maximumWeight": 1.23715806,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 14.75118271
+    },
+    {
+      "activeTokenIdsHash": "041efce734dbee38b266f8785de933e6ee57fb552f3c8589999f1072ee35f263",
+      "canonicalWeightVectorHash": "bf72714158e8dd97dac27b1017d9062594500a8d784c279415504d1c9e0bf354",
+      "chunkId": "660d28f714ed432dd1c41277",
+      "contentHash": "4442050b2511dd57f143950786910cecb1db1be84a15101429df20cf1c351074",
+      "maximumWeight": 1.20744109,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 14.03496739
+    },
+    {
+      "activeTokenIdsHash": "bc05387935ec6d2b3d0ace8c441b9b7d0324407dc11ae41f049335461cdc215b",
+      "canonicalWeightVectorHash": "55c6614396f27b5dd769f358b57677c29a1ae051605d0aeb4a315a138d5d6554",
+      "chunkId": "663da0f5e4533bbbefba1e1b",
+      "contentHash": "5e91fce78169618204f29a6f09775d72398eda73f48a87b46e6d1109fedac31c",
+      "maximumWeight": 1.61927354,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 24.34515464
+    },
+    {
+      "activeTokenIdsHash": "a33878bc80d61946610ddd6da5ffa947dd376caf971ee7b862f31cbfc8a85df7",
+      "canonicalWeightVectorHash": "4b0675b7bc61ae5c89a9dc6ee359cc062d8324f210701ce52b07169fcdd1a429",
+      "chunkId": "66af9ad0a4c77a85b1a7defb",
+      "contentHash": "b7401dedc39979290e8ed73334587ea2311a0e3b54ea0dcb86d144844d3f7747",
+      "maximumWeight": 1.41495931,
+      "nonZeroDimensionCount": 10,
+      "rawEmpty": false,
+      "weightSum": 11.11336547
+    },
+    {
+      "activeTokenIdsHash": "6d13f5e39a0474ca149af6b292822cb85b4b564341580ebec006550417ae18ec",
+      "canonicalWeightVectorHash": "7f5d8f1f835ec470e1fe47bff64014af468c30e689a11515328a483e2522cfad",
+      "chunkId": "67703a7f0cda5054da41ca8e",
+      "contentHash": "56bd5a4114a3163bae5e5baadaf2460c04c3d3615c0d3c40cb68ccccb212fbf1",
+      "maximumWeight": 1.30001533,
+      "nonZeroDimensionCount": 10,
+      "rawEmpty": false,
+      "weightSum": 8.39156422
+    },
+    {
+      "activeTokenIdsHash": "b7e1d8c09ab28898f4fa57a9434e62d849a93419556aff9cb91455de181b00eb",
+      "canonicalWeightVectorHash": "05d047051c69bfd0a4dce20ccf6b7dd779bb3de7d86fa74cc399bc78df0f30e3",
+      "chunkId": "68041697b6ff55bd0e32a47c",
+      "contentHash": "055f3a743c626d4f7bc0f7d41a24c4281c22ce42daeef68439762cd97ddc3042",
+      "maximumWeight": 1.071715,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 12.87692897
+    },
+    {
+      "activeTokenIdsHash": "acd347246af9ade5a821c0a6a36cb688ba5536cbd0cd2c92a7cd9eaeca7d7300",
+      "canonicalWeightVectorHash": "c3b3bb1c6ac161a6a6959105aef1a2bd03079532e379b69daf1ecbb478a712ad",
+      "chunkId": "680b871b62739a51841f4d26",
+      "contentHash": "369b63fe15ce3b08571c9689ae1ce069830834319d10271d3d159f80f6fc53a5",
+      "maximumWeight": 1.5877707,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 22.41532356
+    },
+    {
+      "activeTokenIdsHash": "cb9c4b5ca53ac06a0f66cf6d71b23b6821ea423e2286080bd2e0967af59654ef",
+      "canonicalWeightVectorHash": "8f321e6a3c3c265f2a9cac60957e2d0a4bb67a79780f4e2481aaf2a9460004ba",
+      "chunkId": "6968a42f7a217c5b66230085",
+      "contentHash": "af000a078a22482b1836fc99b8a14cd64f120014b20401901bfdf1d1033fca94",
+      "maximumWeight": 1.43226552,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 20.5945206
+    },
+    {
+      "activeTokenIdsHash": "29484a3a797e0c5bb73f648f5feeff6fed7a8932786f2f003e5dc3f4dad67f75",
+      "canonicalWeightVectorHash": "f4b6ff6dc7c88ac831946fc1d723b1b5bb0911aa5e5afc237ae21aaa03e53c9c",
+      "chunkId": "6baa38f36be882468f7453ca",
+      "contentHash": "35097ab465fc4c6bbac85a2cdbf62c5e390ee93cc71b3d35e6b307b5ce7e770a",
+      "maximumWeight": 1.44285417,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 21.33412242
+    },
+    {
+      "activeTokenIdsHash": "df7de6306104c72a09bc3b43a4b88e4dd9de5c264c5f908ba663323db2813c32",
+      "canonicalWeightVectorHash": "a651441f628c76263c55274f112e2c1f6ffc7d2527d63363690901a73e76c7c2",
+      "chunkId": "6c0f3cf63fcd916aac323de8",
+      "contentHash": "34a70396b36a752c7057b30c8d1242446945c913ab89f3e482dce30d74edb025",
+      "maximumWeight": 1.41764545,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 20.64808643
+    },
+    {
+      "activeTokenIdsHash": "a02520f87cc113bf12e17101731ecc7efdc0f01dd7a715bc93e286ba47d05b1b",
+      "canonicalWeightVectorHash": "7664ef11efc5adb6bb2866a6eba1b6c9768f5474c0174c2e6f1ec1d35fd5ec26",
+      "chunkId": "6c5a367aff90e5da241fcc0c",
+      "contentHash": "91937e2f851f51902a6e263899b6fb2835e078ee00d19e18f393234b2f607139",
+      "maximumWeight": 1.55297518,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 24.62256306
+    },
+    {
+      "activeTokenIdsHash": "02d19883f1acac2c49fcd37d63480ac63e987debb82d299fe91ad80762ce3608",
+      "canonicalWeightVectorHash": "38baf6f63c12211826e496b9fa2beee4dd8964f96cb14053dd69ace058e915ff",
+      "chunkId": "7022e23cb31d336e899ffb2e",
+      "contentHash": "9cc370c8daee2884f09a059750c359db7b4b34059428f2497003a8d97004e00f",
+      "maximumWeight": 1.13345838,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 14.99692112
+    },
+    {
+      "activeTokenIdsHash": "02d19883f1acac2c49fcd37d63480ac63e987debb82d299fe91ad80762ce3608",
+      "canonicalWeightVectorHash": "c18c5d4071f56e933e851f3a125a5630bcbabd088467dd6cd87c2b4af748f217",
+      "chunkId": "70a5aaf4cf0d2a95fae99ac0",
+      "contentHash": "b4d95157807efbb87f5fda34f05d28436fd848259fc9b5acb097e62506b33600",
+      "maximumWeight": 1.06547093,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 13.43459743
+    },
+    {
+      "activeTokenIdsHash": "b7e1d8c09ab28898f4fa57a9434e62d849a93419556aff9cb91455de181b00eb",
+      "canonicalWeightVectorHash": "169085be640aa423e7e5fc42c4b0645c0d09cebc2fff8daab4d7ec3b6a7b8806",
+      "chunkId": "70c918abec77b60200fddeeb",
+      "contentHash": "887af62c2a36b354e6f3908f87f1c1e47e903da756312caf8ac74c726990e7df",
+      "maximumWeight": 0.95078343,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 10.8810224
+    },
+    {
+      "activeTokenIdsHash": "cb9c4b5ca53ac06a0f66cf6d71b23b6821ea423e2286080bd2e0967af59654ef",
+      "canonicalWeightVectorHash": "819733edc2eca2370fd661ee32ee5812b915fbc8a56d333ae9a688b2c0ce8e3d",
+      "chunkId": "71b1beeb310e521cba2b9411",
+      "contentHash": "128ec4417388301896ae511206f8db64c6d2ccb093a56603d53511b29cbc7ac1",
+      "maximumWeight": 1.36067867,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 18.36225882
+    },
+    {
+      "activeTokenIdsHash": "bc05387935ec6d2b3d0ace8c441b9b7d0324407dc11ae41f049335461cdc215b",
+      "canonicalWeightVectorHash": "4c0dca1fdeb0bcd53438b8a87fdb316420e1b58c43837e19045bed622279c061",
+      "chunkId": "75a24eeefc767ce8121f412e",
+      "contentHash": "65eadd2c4bb1418cf7acec4359a7fd4bd188eb90802f69a6404c27e6899b5534",
+      "maximumWeight": 1.56889355,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 24.03320789
+    },
+    {
+      "activeTokenIdsHash": "888494b10aa03398e7d522980d7f92a1f2ad5fddf9d6ef48027cf3d8751eebd8",
+      "canonicalWeightVectorHash": "d1b049bfbe457f90a01f4a96e90f6f59bf6ea300daa3d594106d4e1cabe5cc41",
+      "chunkId": "7a4bb6c7ec46ae1eb0db6097",
+      "contentHash": "d0249b4057dc0e4d2e2c667332885f9225866b145a2c4c72093b0f042cdae7d6",
+      "maximumWeight": 1.0920732,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 12.9563188
+    },
+    {
+      "activeTokenIdsHash": "dd2184db00d80a8e3e23d20839cf7ce01e518be9c69f0bbba1bbd590c84a32f1",
+      "canonicalWeightVectorHash": "8ea81ec87a6c828492580a23423c0864f596a5a39f40ae62a83d3b5dac2cf947",
+      "chunkId": "7af1ce19da4a3339be3d66a0",
+      "contentHash": "c6e999c71e5d4e145af04e9a0d168dd0562b40819d9e0019ac70dc53e959278c",
+      "maximumWeight": 1.14993644,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 16.41380987
+    },
+    {
+      "activeTokenIdsHash": "10ff65210e9e7336b75a99c6c194222277fc2bc6bef1e259f18f48f7c8d6b8ba",
+      "canonicalWeightVectorHash": "93892938af0e6abf5ee45f6db2ccf16b1adcaf98bb105f3540aa37ec1fb8bc43",
+      "chunkId": "7e91948c46e7799fa3959478",
+      "contentHash": "9df46193fb87cd853a9b7e67f30d0e298cc6b83f7391a4caf668b8fc50d2f688",
+      "maximumWeight": 0.909536,
+      "nonZeroDimensionCount": 20,
+      "rawEmpty": false,
+      "weightSum": 9.71056165
+    },
+    {
+      "activeTokenIdsHash": "041efce734dbee38b266f8785de933e6ee57fb552f3c8589999f1072ee35f263",
+      "canonicalWeightVectorHash": "be334c49558acda8a9feb22cb30912aef9b1111427e04d4894303c0481faa8fd",
+      "chunkId": "7fe63e19641c973038cd2fe1",
+      "contentHash": "ec1ecc3c3afbefe748777475415ae7dc178ed0aca6c788a46429565e22438c7b",
+      "maximumWeight": 1.04151893,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 10.78882673
+    },
+    {
+      "activeTokenIdsHash": "041efce734dbee38b266f8785de933e6ee57fb552f3c8589999f1072ee35f263",
+      "canonicalWeightVectorHash": "040111231e253200fbe364b293382687a2dfb44ba4920f13ec7d0f0699002834",
+      "chunkId": "81a0275dc37d86a7973c38e2",
+      "contentHash": "2c6e5a4e8a20c89999994872888ebb50b32e53d882c8e68e849a03767edf1443",
+      "maximumWeight": 1.01571047,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 11.15402992
+    },
+    {
+      "activeTokenIdsHash": "02d19883f1acac2c49fcd37d63480ac63e987debb82d299fe91ad80762ce3608",
+      "canonicalWeightVectorHash": "e1edda7a866670c4c489b3e65587e5109eece3bfe94be92ba16ff64d9cc1b47e",
+      "chunkId": "82d24129e36312c688cc4133",
+      "contentHash": "c6fbcc7fe90585ea59bb8d43cd0beaa10376a718ff706585982a13294bcebd06",
+      "maximumWeight": 1.09943604,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 13.55558291
+    },
+    {
+      "activeTokenIdsHash": "acd347246af9ade5a821c0a6a36cb688ba5536cbd0cd2c92a7cd9eaeca7d7300",
+      "canonicalWeightVectorHash": "dc695bf34a449b06c966082ce870ad619b6ade6425c343a6ed9fa291f6816e3f",
+      "chunkId": "83f719248389b4a090578e45",
+      "contentHash": "913397049dc7fd66e6043c9612e95b4f447ef9a8feb566e7d92535dffdabd570",
+      "maximumWeight": 1.61032259,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 23.17105889
+    },
+    {
+      "activeTokenIdsHash": "dd2184db00d80a8e3e23d20839cf7ce01e518be9c69f0bbba1bbd590c84a32f1",
+      "canonicalWeightVectorHash": "5b45720f1f776a4120e01a6125a3a5c922492053a8a9f237ddff8000dea8ba2d",
+      "chunkId": "85bda13cf8f9e9444b6b78bb",
+      "contentHash": "d1f4b5865df0517284376dd081f2eee98224a8b1ef0fcaa50f0f4813b2726cfc",
+      "maximumWeight": 1.08306468,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 14.97556081
+    },
+    {
+      "activeTokenIdsHash": "d11df2c8b05f032c77c435b439aec868680016f133d8924e63e6c84f945efefe",
+      "canonicalWeightVectorHash": "598fcb69a23616e4df4f3f37fd5f2040c1ffa70076aa325011a93a5eb9f7a29c",
+      "chunkId": "89821f48f375025dcd28a21c",
+      "contentHash": "33841ab86b1014e7763225478bff74bc78ed602b5249b7cc06cd5cb2c9511ce2",
+      "maximumWeight": 1.42663956,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 21.88079947
+    },
+    {
+      "activeTokenIdsHash": "8a477e8becb50f1cb4b2ba0e710397a8126c34c1b23858ac3c0854fc5686a6f6",
+      "canonicalWeightVectorHash": "28bf5cb96aa6cfe95d5a18a0bbcfa832cd50addbc9efaaec0598e230088f2506",
+      "chunkId": "8a1d206e7b7491f1ba9e197a",
+      "contentHash": "caca8cb18fc789a6ca458bc350105f14c70e27ff6916e346a6d107337fe99e22",
+      "maximumWeight": 1.41171443,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 20.46537523
+    },
+    {
+      "activeTokenIdsHash": "df7de6306104c72a09bc3b43a4b88e4dd9de5c264c5f908ba663323db2813c32",
+      "canonicalWeightVectorHash": "f228c581ca32885f2f511d763c0bfe6799c5d0f6113f87503b887f1fc9955480",
+      "chunkId": "8a3dbcd46ae69337d1014a63",
+      "contentHash": "9ccbfb68a4092cdeb3015ed55d844893a2bb1ac71b7ca70db3bf0a5022933e9e",
+      "maximumWeight": 1.62799191,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 23.50591919
+    },
+    {
+      "activeTokenIdsHash": "8a477e8becb50f1cb4b2ba0e710397a8126c34c1b23858ac3c0854fc5686a6f6",
+      "canonicalWeightVectorHash": "48960502acc6b5b91a6e181b2bcc93320bbf3a746e0081fad045a047b2d604b6",
+      "chunkId": "8b7501461efd0df340ad19f2",
+      "contentHash": "0b2bc6de285282206e6546f9a6d9dd51c79b00e406db4361f5ab443ffcdad446",
+      "maximumWeight": 1.38048744,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 21.21473473
+    },
+    {
+      "activeTokenIdsHash": "7cf39002590bcd4c63c0535c96e3ae2e0239b6402c0c3ebf1046cfe274183d09",
+      "canonicalWeightVectorHash": "aac369e7595dfcdb8f66ce2ecd47699c41d545000fd2e8f1e7e81ae60e2e888f",
+      "chunkId": "8eb171b02b64d8afd4ef5826",
+      "contentHash": "e9a45189706234a01df6a0801457e14ba541a766c9473e500bb4a4f7d1c64d89",
+      "maximumWeight": 1.08379149,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 12.3624965
+    },
+    {
+      "activeTokenIdsHash": "d11df2c8b05f032c77c435b439aec868680016f133d8924e63e6c84f945efefe",
+      "canonicalWeightVectorHash": "c6c83409bd09b0e794b15f6ce0acf722a106a8e51acf190d41cf301fe245911b",
+      "chunkId": "90eaea01f4020cb25b5475c5",
+      "contentHash": "3574f80346786236255ee05f9f69893fe9263650eb7701c04e46053387c65f42",
+      "maximumWeight": 1.54150343,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 25.21359134
+    },
+    {
+      "activeTokenIdsHash": "a02520f87cc113bf12e17101731ecc7efdc0f01dd7a715bc93e286ba47d05b1b",
+      "canonicalWeightVectorHash": "e69ca2bf29bcc378a85c952ecaf0f18cc6df2f40f865e093f2586e5adafbc1b0",
+      "chunkId": "9706cb72e475493de1f42b0d",
+      "contentHash": "10723f15f3c002cd346f4e49f2fbd173dc9a4fe3947f4f8b4f1cac4c10d69f0b",
+      "maximumWeight": 1.56375492,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 26.77290612
+    },
+    {
+      "activeTokenIdsHash": "acd347246af9ade5a821c0a6a36cb688ba5536cbd0cd2c92a7cd9eaeca7d7300",
+      "canonicalWeightVectorHash": "56b7c932800d11f9510ee9b6d95d17dd54d725e2425d26c1ced8bf620fcf6d26",
+      "chunkId": "9707aad0cd15353ea1b33342",
+      "contentHash": "25471be1b0ebf4f81d97f068393818c130aacf150ea54818ca2b5b4017e55911",
+      "maximumWeight": 1.54830039,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 22.24533534
+    },
+    {
+      "activeTokenIdsHash": "b7e1d8c09ab28898f4fa57a9434e62d849a93419556aff9cb91455de181b00eb",
+      "canonicalWeightVectorHash": "d63113b92a84343bd2f1a7b3634e5554a2501cc819414fb5943276f1f55150bc",
+      "chunkId": "98f893f91f685e6c7aa96d7c",
+      "contentHash": "d7e26b17a6f5066a3737fc2b05a7b1d441e4f702de8894bed207f8b179e69e49",
+      "maximumWeight": 1.13333106,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 13.56103066
+    },
+    {
+      "activeTokenIdsHash": "ae458f57e11cfb55d908f192827606471e8ca1b1179dfbb5f68fd8881419d967",
+      "canonicalWeightVectorHash": "4c6d4301d25c7d8544ba491b67ab43c4669c6bcc69010b221a5503a52e75e3d8",
+      "chunkId": "9a10ed6eb5c2cd726d610cca",
+      "contentHash": "7c6b75fc3b3c94d646dcdd4e0c4d512a4b511a28d55a82c4b35b5ca6d17ad9a2",
+      "maximumWeight": 1.38585997,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 22.92561084
+    },
+    {
+      "activeTokenIdsHash": "afa7b7ed3b490654174a12b299bbfde92ed0c6bc60a7809d3dd5bd8a011c02ba",
+      "canonicalWeightVectorHash": "f7c91f30387f1069859c95390c8b5d49fdf1b8fc0c3aa45a3cfc97c7327c9778",
+      "chunkId": "9ae74b75b4daf3c4a605ca4c",
+      "contentHash": "eaf1f2cc4f3fc26054c555d0c5c8e207194088b3d66fb3f3982d37a0592ac42a",
+      "maximumWeight": 1.59015858,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 22.78552419
+    },
+    {
+      "activeTokenIdsHash": "ae458f57e11cfb55d908f192827606471e8ca1b1179dfbb5f68fd8881419d967",
+      "canonicalWeightVectorHash": "de2135bd9499c7ea49cffc8fba28130030860c077a46e82b9cd78d0b2cb8cec0",
+      "chunkId": "9d563117d18f195c4f024b87",
+      "contentHash": "ec458ba762f0b4c8dc395cc0af8417c5a8c61812cdcc8431cd2c330431c8cbbf",
+      "maximumWeight": 1.40726173,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 20.92632222
+    },
+    {
+      "activeTokenIdsHash": "29484a3a797e0c5bb73f648f5feeff6fed7a8932786f2f003e5dc3f4dad67f75",
+      "canonicalWeightVectorHash": "00f54565353007046e8478245e300ce7d8bd19e298b049a0db006c53101687f4",
+      "chunkId": "9d5abf5a2e0077d51f0bf2b0",
+      "contentHash": "d3dea42b670be248777361be8d43220f7283145343fa9494df1b305c85d33668",
+      "maximumWeight": 1.48968387,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 20.43332846
+    },
+    {
+      "activeTokenIdsHash": "e726f662646eb0911f690ebf2f298bc3998eb3b897485dcf5d9763348353290f",
+      "canonicalWeightVectorHash": "ee7f95552cb77defaf469b40f57f09f28cef42cb0e39afe69eb73dfb075d744b",
+      "chunkId": "9fc3806eb9742d4f9cdb954b",
+      "contentHash": "b9d5cbfbf16b7bbd724e6fd1808c1239aa8af89a03b8c2bd01b36fd6e3b1fea1",
+      "maximumWeight": 1.45612752,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 26.1674732
+    },
+    {
+      "activeTokenIdsHash": "cb9c4b5ca53ac06a0f66cf6d71b23b6821ea423e2286080bd2e0967af59654ef",
+      "canonicalWeightVectorHash": "eeada9f5c7a0777e810a22ca203c090cfe9281e19fc0ed95c20be4bdf5732494",
+      "chunkId": "a062d8650f0bed9b018cd91c",
+      "contentHash": "86114c834e5f050ecf9101f00998715d3a7a67a283db0329cb9670792336c446",
+      "maximumWeight": 1.22062349,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 15.22407122
+    },
+    {
+      "activeTokenIdsHash": "d11df2c8b05f032c77c435b439aec868680016f133d8924e63e6c84f945efefe",
+      "canonicalWeightVectorHash": "5350785e22bc2a230402556ea9ce3a995ec4a9f3e1d366e7c539f89b7e9a04b4",
+      "chunkId": "a08af598652d48393dba1b55",
+      "contentHash": "08a4f7bc68eec593c89d8488fb6a941ee987d3c4bb2b1918c9fd34ca5eeda2a4",
+      "maximumWeight": 1.39892125,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 21.96388495
+    },
+    {
+      "activeTokenIdsHash": "bc05387935ec6d2b3d0ace8c441b9b7d0324407dc11ae41f049335461cdc215b",
+      "canonicalWeightVectorHash": "d6a417fe2e94a4f3ac97e5f6fc2a638471b72735ea8ebe264143fc1f3a82a5ba",
+      "chunkId": "a0917f063f71f43864d786d4",
+      "contentHash": "dae991c9235f9e64800bd6c82067f48c4ee9458bd68761d8ad7cc8cedb8f6cf5",
+      "maximumWeight": 1.59635735,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 23.65176487
+    },
+    {
+      "activeTokenIdsHash": "888494b10aa03398e7d522980d7f92a1f2ad5fddf9d6ef48027cf3d8751eebd8",
+      "canonicalWeightVectorHash": "adbda303146be6b9a7b5138c8ae16804ab21e4c9f2295e07531f5b91a16e04c1",
+      "chunkId": "a0b201c58637f6706315c8db",
+      "contentHash": "0df0d9fab1e68d5b1e116fad78eeeb3c7f2a8e7aab53e72b727365239c80b3af",
+      "maximumWeight": 1.05054176,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 11.53004691
+    },
+    {
+      "activeTokenIdsHash": "02d19883f1acac2c49fcd37d63480ac63e987debb82d299fe91ad80762ce3608",
+      "canonicalWeightVectorHash": "5a26fcee83d54f4e8870ef5f21252f170d10b1bde7673381c5369cf4f968c08b",
+      "chunkId": "a2ce8262e45a8b3efaeb9062",
+      "contentHash": "0a24fc0e7e1413f18112cfdeae742d1ed9f2b56d8c3a4a70401f361cfb6c6971",
+      "maximumWeight": 1.31172752,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 17.53395545
+    },
+    {
+      "activeTokenIdsHash": "b7e1d8c09ab28898f4fa57a9434e62d849a93419556aff9cb91455de181b00eb",
+      "canonicalWeightVectorHash": "e771f1d955cb6d021bc52c8ca1674f13d1b1e2c52c06e779b0851300eaf3d11d",
+      "chunkId": "a3985126cf607669b2514506",
+      "contentHash": "2c26d5dc8e0614a99804aba02b5dc0d4d5e5335615725730f075e88fc845789c",
+      "maximumWeight": 1.18682671,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 14.86564089
+    },
+    {
+      "activeTokenIdsHash": "55e18c5b737881e93b3d2b50c27defb821526b09c49018d5e36078fa6e059c91",
+      "canonicalWeightVectorHash": "d0a53eb88cc5d02a0d64c1115d745de2c33562ef5d738522e176ee4829418a30",
+      "chunkId": "a4671d1ea3c14e12324520b4",
+      "contentHash": "1ed93e97ceb97694ad1a60eb65109e4f43e8ebeea49fe265182bd0044c35cf1e",
+      "maximumWeight": 1.05030942,
+      "nonZeroDimensionCount": 18,
+      "rawEmpty": false,
+      "weightSum": 8.84643737
+    },
+    {
+      "activeTokenIdsHash": "7cf39002590bcd4c63c0535c96e3ae2e0239b6402c0c3ebf1046cfe274183d09",
+      "canonicalWeightVectorHash": "1d4ced67df10e374083781535592bcbe7d992d0309fed9d25cd5749472098034",
+      "chunkId": "a4adb1e93b97809597a826ad",
+      "contentHash": "8b4be421b71a88aa0ba96de75a692f345ab758e2c14b520b6927e8cbcb0976cf",
+      "maximumWeight": 1.07558966,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 13.32736076
+    },
+    {
+      "activeTokenIdsHash": "29484a3a797e0c5bb73f648f5feeff6fed7a8932786f2f003e5dc3f4dad67f75",
+      "canonicalWeightVectorHash": "8fb4d357651fd289e187f2b34d5aca61e6e9a70b5755dc46dc7e29e1999426c7",
+      "chunkId": "a5814da7f51b96dc957e1f3d",
+      "contentHash": "27a6162f234d6c01ed2937ef9fe3c5d10d09eefe6481564ca9d9c51d23c40e11",
+      "maximumWeight": 1.41040051,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 19.55242062
+    },
+    {
+      "activeTokenIdsHash": "df7de6306104c72a09bc3b43a4b88e4dd9de5c264c5f908ba663323db2813c32",
+      "canonicalWeightVectorHash": "30804d5e154dce3836d28d50608a63871b786dea88289408bf4468b6ff9c61d9",
+      "chunkId": "a97a210ab92409df748f1a9c",
+      "contentHash": "5d5d9b5702c8d9b742c469b9beae2765bb7da97748982104a0b27b58c3331a97",
+      "maximumWeight": 1.51334274,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 21.7247971
+    },
+    {
+      "activeTokenIdsHash": "996f7c5996aef5a373d18a86273e8db24c337607e378a776f959d4500879ab06",
+      "canonicalWeightVectorHash": "38f4ae24ad9322917cf8d3b86d2eeb7a015853d3c604a35ca531f442390cfe99",
+      "chunkId": "ab5ccce414f723f3ec457199",
+      "contentHash": "63609bd1b47e02dce36777e89b42d601c1e4d77ec7c1f613c3a0d2534944d873",
+      "maximumWeight": 1.44859397,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 20.91210797
+    },
+    {
+      "activeTokenIdsHash": "a02520f87cc113bf12e17101731ecc7efdc0f01dd7a715bc93e286ba47d05b1b",
+      "canonicalWeightVectorHash": "ee096f8022d08b29c30a2d2baaa007821da20ac3666e310066f70dbb69246d70",
+      "chunkId": "afaf684749b9585e3991b108",
+      "contentHash": "1ac5868702658d58edf1556cfabd586602943437f27894fa667b665f61711d48",
+      "maximumWeight": 1.47920346,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 24.55351722
+    },
+    {
+      "activeTokenIdsHash": "e726f662646eb0911f690ebf2f298bc3998eb3b897485dcf5d9763348353290f",
+      "canonicalWeightVectorHash": "7c77b5c5345321d219bb61f75cd9415113380b7079c8b3d31dd57b78502cb561",
+      "chunkId": "b0f9aeeca3e6b65f4707285f",
+      "contentHash": "3b8a13ac4808a4527fc3ba0eb1635d82db02158f22284f0c67db2d6e577e9c83",
+      "maximumWeight": 1.45259261,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 25.91188091
+    },
+    {
+      "activeTokenIdsHash": "e864b72c91f1d3997841d1cf55734f26740d432cb870e0d78760dd7aa10fc6ed",
+      "canonicalWeightVectorHash": "9fb4bdccec4d7266ade7641522a5504901aa17e187111e666530fd91c0b60c05",
+      "chunkId": "b1a1329d21e3ebe5e91391f7",
+      "contentHash": "2b61d920cd212b226727d9da3509d9f9333e6240a9c284e946519817bec70812",
+      "maximumWeight": 1.08331704,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 11.99415848
+    },
+    {
+      "activeTokenIdsHash": "ae458f57e11cfb55d908f192827606471e8ca1b1179dfbb5f68fd8881419d967",
+      "canonicalWeightVectorHash": "20fc55fe3db21fee47e6db22250d5e696364fb1c03fa06cdd32a2a8a7630bb60",
+      "chunkId": "b21139b2869564882c33269e",
+      "contentHash": "d28dc60dbac37aa76a5a65f615cad81d4b3f26d7180b43d6bee7b5faf8dc626c",
+      "maximumWeight": 1.39421988,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 21.34399727
+    },
+    {
+      "activeTokenIdsHash": "dd2184db00d80a8e3e23d20839cf7ce01e518be9c69f0bbba1bbd590c84a32f1",
+      "canonicalWeightVectorHash": "3f16d3403f4813c8f16ee80d672574854f6382f0b4b20f649c5a3ec2061169d2",
+      "chunkId": "b5a4b07ff7b820d73738ebe4",
+      "contentHash": "6a8f672819fab860279e90ca9253c813f2792dfb467efbbfd765a3c544f9a757",
+      "maximumWeight": 1.07218623,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 13.20304272
+    },
+    {
+      "activeTokenIdsHash": "8a477e8becb50f1cb4b2ba0e710397a8126c34c1b23858ac3c0854fc5686a6f6",
+      "canonicalWeightVectorHash": "2f9fb322c8b8555e03ae94ed5f393925368f8ef9a105809d2e352f950b65af5f",
+      "chunkId": "b8ff07bc87f5cc87adde21d9",
+      "contentHash": "30a1c6e9f355e85340df1127ed3870fb0b68f597ff56cb125fda3090f9d7bfbd",
+      "maximumWeight": 1.37373352,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 20.20815989
+    },
+    {
+      "activeTokenIdsHash": "996f7c5996aef5a373d18a86273e8db24c337607e378a776f959d4500879ab06",
+      "canonicalWeightVectorHash": "00e3f32714ee25186c32f0f18f68261e0959b37c9bfe3b1d2029a92346ffab96",
+      "chunkId": "ba36f81a22a3b7ac4ee1321d",
+      "contentHash": "42dcd10598655ead30784ef62f167ce8607aac8a6ff1f3f74e9c7941b10b7fcc",
+      "maximumWeight": 1.36179924,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 20.87002778
+    },
+    {
+      "activeTokenIdsHash": "7cf39002590bcd4c63c0535c96e3ae2e0239b6402c0c3ebf1046cfe274183d09",
+      "canonicalWeightVectorHash": "ea6f69f80152ead0366185c2718a15c7bd689d4d471b66a3c84c203ecafd21b9",
+      "chunkId": "bd33a3e9969a0b531f348ac2",
+      "contentHash": "f98004656eee40829ce890801ffdf38d27cebbdb4b3ca523dd6d1c7c93fe54fc",
+      "maximumWeight": 1.15982831,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 13.98419087
+    },
+    {
+      "activeTokenIdsHash": "29484a3a797e0c5bb73f648f5feeff6fed7a8932786f2f003e5dc3f4dad67f75",
+      "canonicalWeightVectorHash": "36d72f58b01434fb53ccf9f23132c632c91f701248c8b35d115b9dba1e6f5ac3",
+      "chunkId": "bdec7159347b58c626028fac",
+      "contentHash": "6f3b4e5dc67bab3d51990c9e685394bdf8b6a189ecf4f6c6497edc0ddc2c2cbc",
+      "maximumWeight": 1.34419417,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 17.90992545
+    },
+    {
+      "activeTokenIdsHash": "8a477e8becb50f1cb4b2ba0e710397a8126c34c1b23858ac3c0854fc5686a6f6",
+      "canonicalWeightVectorHash": "34191782bb271ef56b349c2fd94659c5b911455e75283ddff09d06abd847c4f9",
+      "chunkId": "bdf04f70888fd0dca1b4ece7",
+      "contentHash": "98deff5061c6aacf525f381dbaa0e557a60d20b5b0f9c530560fe1b2d064297e",
+      "maximumWeight": 1.43894422,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 21.26263945
+    },
+    {
+      "activeTokenIdsHash": "b7e1d8c09ab28898f4fa57a9434e62d849a93419556aff9cb91455de181b00eb",
+      "canonicalWeightVectorHash": "b8d3f6370e7ec486164ec5828b6962a3e90ea12d7b782a2406cb494eb1744851",
+      "chunkId": "bf22417ce173fd4b9d02f97c",
+      "contentHash": "1e17ea423a395e8eb99b6c1e8ed88833fda74eb4af9a93251b85e1cfa921e2cd",
+      "maximumWeight": 1.00581336,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 11.83486438
+    },
+    {
+      "activeTokenIdsHash": "afa7b7ed3b490654174a12b299bbfde92ed0c6bc60a7809d3dd5bd8a011c02ba",
+      "canonicalWeightVectorHash": "cd8b27379b9c1daafc45fd32874057491402a9d6bcbd69f6358fe5552a152082",
+      "chunkId": "c039b1cbddbb2265b4eb9365",
+      "contentHash": "4187840ffdfffa8cf2facc83c60ef3f50f79ebe283bae467820f4b87267572b0",
+      "maximumWeight": 1.56033587,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 23.07387942
+    },
+    {
+      "activeTokenIdsHash": "bc05387935ec6d2b3d0ace8c441b9b7d0324407dc11ae41f049335461cdc215b",
+      "canonicalWeightVectorHash": "eeff5994c4afe033e4fc3e714d853032959fcd6eeb957b6729a0c4e7e53521c7",
+      "chunkId": "c15a7149d99fada6832c55e4",
+      "contentHash": "fe591f95b292d19baf37040d449bf1919c8df6b65d189d1a4477478d6c35a03a",
+      "maximumWeight": 1.61122465,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 24.95982611
+    },
+    {
+      "activeTokenIdsHash": "afa7b7ed3b490654174a12b299bbfde92ed0c6bc60a7809d3dd5bd8a011c02ba",
+      "canonicalWeightVectorHash": "9033983612c108c99dbf7eb560c4e778f7fb8ba6d1715afcbe694bfa0df29a79",
+      "chunkId": "c83c7bcdc8f54788d189f3d1",
+      "contentHash": "f428091d70dc558266c056a0f7de8c271f78c0bb3acaa961f097aa3308fffc52",
+      "maximumWeight": 1.59613395,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 23.10051948
+    },
+    {
+      "activeTokenIdsHash": "dd2184db00d80a8e3e23d20839cf7ce01e518be9c69f0bbba1bbd590c84a32f1",
+      "canonicalWeightVectorHash": "0d7ea54b6988035f2dea4d12e7219db514ea65bbf5618d0148e09d43723517e9",
+      "chunkId": "cf1164ad6307d9ef49d19e7a",
+      "contentHash": "e8ef23c217285b12c2e3fe934a0eb1a964e81d02b1d26ec8243b1fa205d7701d",
+      "maximumWeight": 1.21574581,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 17.14667603
+    },
+    {
+      "activeTokenIdsHash": "b7e1d8c09ab28898f4fa57a9434e62d849a93419556aff9cb91455de181b00eb",
+      "canonicalWeightVectorHash": "040bfd008b7e15b9b50333d339cb8a3b5a1129d76901025126e2a94784a50637",
+      "chunkId": "d17c10b860e81b884f53294b",
+      "contentHash": "d6acdcc553e8edb6b32629f9cb675c44ee38614cb8fda15dc546c8d2dbba0f39",
+      "maximumWeight": 1.25672245,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 17.12390807
+    },
+    {
+      "activeTokenIdsHash": "b5c93df5a3cbecdced548c9670c6b6ee1ac51e4538d61aed2efc62fdded9e3aa",
+      "canonicalWeightVectorHash": "8e9cf57c2b0c92c5bbc076a750eb4f26ead74f1882d3a1d27289f80ec56e7b45",
+      "chunkId": "d3e6e42bd1d793f9cd6f15fd",
+      "contentHash": "8d7abfa0ab28fc01b15e50301fd72dccc6698eaa5cf14160b758af232273a50e",
+      "maximumWeight": 1.51049709,
+      "nonZeroDimensionCount": 11,
+      "rawEmpty": false,
+      "weightSum": 12.58670664
+    },
+    {
+      "activeTokenIdsHash": "888494b10aa03398e7d522980d7f92a1f2ad5fddf9d6ef48027cf3d8751eebd8",
+      "canonicalWeightVectorHash": "efba37f1a319ea73acb40aeadb113fbc35b9c3ad46c33dd9d558a956490d775b",
+      "chunkId": "d768d585ba9fdbb3d89ce16a",
+      "contentHash": "01b7fc6b65274877c4cdd3ad43286615eb65083344bdae8221d4e5b288bae77e",
+      "maximumWeight": 1.10321784,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 12.84662738
+    },
+    {
+      "activeTokenIdsHash": "df7de6306104c72a09bc3b43a4b88e4dd9de5c264c5f908ba663323db2813c32",
+      "canonicalWeightVectorHash": "b95ccc01829e6fad00ae1ce6e85affc10510036f9ab7f7ed0aef58d792fb4bbd",
+      "chunkId": "d77b1a028bb0a929a7f48480",
+      "contentHash": "3fa434cc6903a355bbe85a001ecb5b914ae167c4975dbc95cc8e14db4cc8f4ef",
+      "maximumWeight": 1.51880872,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 21.76138273
+    },
+    {
+      "activeTokenIdsHash": "7ab930fd7831ad486d82ae3e95625bea7cb9ea7b48f03d3169bab7ceadc319f8",
+      "canonicalWeightVectorHash": "dbff0e93a6b6932563b2f7bf3be7a3b4a0689582701da9cb6fcf49e3f10c9582",
+      "chunkId": "d962965a9830a702d4cab5b2",
+      "contentHash": "324f5c9c16b423da8164c3c8c07773012ec155206a133e8137bc5a4385ccc4de",
+      "maximumWeight": 1.62294221,
+      "nonZeroDimensionCount": 11,
+      "rawEmpty": false,
+      "weightSum": 15.09319079
+    },
+    {
+      "activeTokenIdsHash": "bc05387935ec6d2b3d0ace8c441b9b7d0324407dc11ae41f049335461cdc215b",
+      "canonicalWeightVectorHash": "323de023c1ecea915301ade852a2ca26b2183df594ee62363af7fe35ac9486c4",
+      "chunkId": "d99a379e01bafecacc18e5c5",
+      "contentHash": "59987cf9934ec1bb02af207c2a0495771ec0eec94a208602a51e0d448834f3a2",
+      "maximumWeight": 1.6505276,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 25.23102254
+    },
+    {
+      "activeTokenIdsHash": "b7e1d8c09ab28898f4fa57a9434e62d849a93419556aff9cb91455de181b00eb",
+      "canonicalWeightVectorHash": "02ced4edc90b187db1ed5d0520586110d67a2792833b606f69a18f939f0d4512",
+      "chunkId": "da9079dc880ebc00ed94f42d",
+      "contentHash": "8a70401d577f6ea10e04a3512637f242d122d16752c97b2e5861829906fb8103",
+      "maximumWeight": 1.0854727,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 13.98026134
+    },
+    {
+      "activeTokenIdsHash": "14cf5e6a98a614a8c388b87c506efd6c346e4d3a2d139a3845e2d04b257c75ce",
+      "canonicalWeightVectorHash": "486220242376dd6d91382f0ee4a00a923cbb4819940585552a3fde079af17b62",
+      "chunkId": "dbbc866f7dd9f24b01517a70",
+      "contentHash": "4d0838e3ef7e1b0e9bb9fbe6d743800d0de7c875da25d25279f5685a94fe7dad",
+      "maximumWeight": 1.21810842,
+      "nonZeroDimensionCount": 10,
+      "rawEmpty": false,
+      "weightSum": 7.50077409
+    },
+    {
+      "activeTokenIdsHash": "a02520f87cc113bf12e17101731ecc7efdc0f01dd7a715bc93e286ba47d05b1b",
+      "canonicalWeightVectorHash": "4ecb25093d986c9e2f4256c20a1ecc10be02723a595f7c63b833b4050bf685d7",
+      "chunkId": "dd3b01b0de1b7a952da777f5",
+      "contentHash": "ce0bbe58ec66d40b8ec411b333c645f62f44e710db4b0b19b2a626e0fc36d013",
+      "maximumWeight": 1.44287717,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 23.6343869
+    },
+    {
+      "activeTokenIdsHash": "888494b10aa03398e7d522980d7f92a1f2ad5fddf9d6ef48027cf3d8751eebd8",
+      "canonicalWeightVectorHash": "82214e42f0c887abc4569153b9e51194f1251e03a244d08029224330e02fa7e2",
+      "chunkId": "dda4625439c497343db6de64",
+      "contentHash": "cba41b00e4e6be21345d804c25649435db4a3f8b4fa42ade5a6ce899e3137f96",
+      "maximumWeight": 1.2254374,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 15.05002642
+    },
+    {
+      "activeTokenIdsHash": "041efce734dbee38b266f8785de933e6ee57fb552f3c8589999f1072ee35f263",
+      "canonicalWeightVectorHash": "e5bdfe299f5e9fe0b60ee16477af2e362fd322122850bc8f054f97e653cd9188",
+      "chunkId": "e3c898aa342355aff717141c",
+      "contentHash": "840e233ac170a091247b3295fff144d294a34277459f924aae804366cd5f52e5",
+      "maximumWeight": 1.08637023,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 12.11358608
+    },
+    {
+      "activeTokenIdsHash": "888494b10aa03398e7d522980d7f92a1f2ad5fddf9d6ef48027cf3d8751eebd8",
+      "canonicalWeightVectorHash": "964dad7054697864e17a7a37c2e9e028622fde6e25e8c64907825c5586505259",
+      "chunkId": "e424ae4d50ae56cf26e5bd9a",
+      "contentHash": "41596d94262d740e41dc3d8cdfd84aa0249d482f4490e925a61ca9c62de9d026",
+      "maximumWeight": 1.26519775,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 15.87014827
+    },
+    {
+      "activeTokenIdsHash": "cb9c4b5ca53ac06a0f66cf6d71b23b6821ea423e2286080bd2e0967af59654ef",
+      "canonicalWeightVectorHash": "c6d57aa0e4ff6da0c74cb14c26b857ab2fadc0056b731dfb651ff122f9879f02",
+      "chunkId": "e7107e1db1b05b42b063e235",
+      "contentHash": "fcf4bdeaaf2e3dfeb1aa9d9978136d822683bbdb9009c4f0cfd8e8c813e18b6b",
+      "maximumWeight": 1.27875829,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 16.35625786
+    },
+    {
+      "activeTokenIdsHash": "ae458f57e11cfb55d908f192827606471e8ca1b1179dfbb5f68fd8881419d967",
+      "canonicalWeightVectorHash": "680600869258b4b52c93442aed4e394ee1e1c50e29bbbcf4f7ea24a693f32c05",
+      "chunkId": "e746d449898dfdc6906cb174",
+      "contentHash": "90af91737968919ea833c4e2c5e1a4f9d4a5164297ebf6de320c921f9b98c907",
+      "maximumWeight": 1.37887192,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 22.9208329
+    },
+    {
+      "activeTokenIdsHash": "e864b72c91f1d3997841d1cf55734f26740d432cb870e0d78760dd7aa10fc6ed",
+      "canonicalWeightVectorHash": "e492959019489ec6cb2ef2c2028d1423cfddf04a2d4e402962dc0023ff4583dc",
+      "chunkId": "eaea675ab69a93b958bb4ec2",
+      "contentHash": "1591330fb0d0202f49b5071c677e754b8317c3d868caccc63698435496fbcae0",
+      "maximumWeight": 0.95829272,
+      "nonZeroDimensionCount": 21,
+      "rawEmpty": false,
+      "weightSum": 10.6536192
+    },
+    {
+      "activeTokenIdsHash": "ae458f57e11cfb55d908f192827606471e8ca1b1179dfbb5f68fd8881419d967",
+      "canonicalWeightVectorHash": "b7da52f73a8208f0fd10ca0e1c543bcdc03eb08861de739c3ff2f20e24fb5b51",
+      "chunkId": "f1531b458dc41971995b9110",
+      "contentHash": "782463c4f805a3f159331b0790408022053968bad90b766dd904d32602df86c4",
+      "maximumWeight": 1.47198987,
+      "nonZeroDimensionCount": 23,
+      "rawEmpty": false,
+      "weightSum": 23.69073239
+    },
+    {
+      "activeTokenIdsHash": "dd2184db00d80a8e3e23d20839cf7ce01e518be9c69f0bbba1bbd590c84a32f1",
+      "canonicalWeightVectorHash": "55b68c646d5d5a72dd608f672c16fbcc5a9c207bd07f782f1df07b4fb0e4a1cf",
+      "chunkId": "fcc449c2c5cbec7fcc1f172b",
+      "contentHash": "ae460beff9d8502b793091e7ad476d88825220c9403ae22f766d34f1a754f32e",
+      "maximumWeight": 0.97159743,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 12.10254404
+    },
+    {
+      "activeTokenIdsHash": "996f7c5996aef5a373d18a86273e8db24c337607e378a776f959d4500879ab06",
+      "canonicalWeightVectorHash": "d3ec9ff686b15adda91bac9dd3e22fefd76aa9d27da47952c01957ed33abc8fa",
+      "chunkId": "feb4e74b58d8140926f34e25",
+      "contentHash": "249f2e5317ee58cf6358d100acc76e47c77f521cd4ae99cbe5b48bac1a0da20a",
+      "maximumWeight": 1.44343626,
+      "nonZeroDimensionCount": 22,
+      "rawEmpty": false,
+      "weightSum": 22.08042198
+    },
+    {
+      "activeTokenIdsHash": "888494b10aa03398e7d522980d7f92a1f2ad5fddf9d6ef48027cf3d8751eebd8",
+      "canonicalWeightVectorHash": "f7f9804804d38f7931157d49c64b6af0ee594b6acbfe1b3d0d9946fd320b6d0d",
+      "chunkId": "ff75ecd339c7b0e3923d5f39",
+      "contentHash": "a2e29834cdfd873302d88061a481b99feaf1d35cf7efdeab14f4f3a2a9de1b79",
+      "maximumWeight": 1.01726651,
+      "nonZeroDimensionCount": 19,
+      "rawEmpty": false,
+      "weightSum": 11.62888661
+    }
+  ],
+  "schemaVersion": "agent-rag-v23-sparse-precision-stability-run-v1",
+  "status": "PASS"
+}

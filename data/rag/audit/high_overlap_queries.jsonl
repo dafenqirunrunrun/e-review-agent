@@ -1,0 +1,1 @@
+{"max_relevant_char3_jaccard": 0.179487, "max_relevant_tfidf_cosine": 0.509283, "query_id": "QUERY-DAMAGED-02", "query_text": "一条新评论提到外壳碎了并伴随漏液，客服也未响应，想知道应如何核验和处理。", "relevant_case_ids": ["CASE-DAMAGED-03", "CASE-DAMAGED-06", "CASE-DAMAGED-09"]}

@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-07-15T14:00:05.886018+00:00",
+  "status": "V21_ENGINEERING_HOLDOUT_SEALED",
+  "sealed": true,
+  "manifest_hash": "5fc5b12157715553bbb2762031938cb5184002d30df82dc4e43b1935108d634a",
+  "allowed_use": "single_final_evaluation_after_training_pass",
+  "prompt_tuning_allowed": false,
+  "model_selection_allowed": false,
+  "repeated_evaluation_allowed": false,
+  "body_read_before_training": false
+}

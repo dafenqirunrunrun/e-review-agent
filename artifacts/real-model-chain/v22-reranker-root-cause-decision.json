@@ -1,0 +1,43 @@
+{
+  "batchDeterministic": true,
+  "bestDiagnosticRepresentation": {
+    "overallMrr": 0.2693693693693693,
+    "overallNdcgAt5": 0.20403037751759875,
+    "semanticMrr": 0.26875,
+    "semanticNdcgAt5": 0.2077800224285421,
+    "severelyRegressedCases": 18
+  },
+  "boundaries": [
+    "MODEL_RERANKER_NOT_VERIFIED",
+    "AGENT_RAG_V22_REAL_MODEL_CHAIN_BLOCKED",
+    "REAL_LLM_QUALITY_VERIFIED",
+    "NO_PUSH",
+    "NO_TAG",
+    "NO_RELEASE"
+  ],
+  "currentRepresentation": {
+    "overallMrr": 0.2277027027027027,
+    "overallNdcgAt5": 0.16823856851913252,
+    "semanticMrr": 0.22291666666666665,
+    "semanticNdcgAt5": 0.16227097958233325,
+    "severelyRegressedCases": 20
+  },
+  "decision": "ROOT_CAUSE_UNRESOLVED",
+  "deterministicBaseline": {
+    "overallMrr": 0.5342342342342342,
+    "overallNdcgAt5": 0.35408337748729846,
+    "semanticMrr": 0.5666666666666667,
+    "semanticNdcgAt5": 0.27968725219107865,
+    "severelyRegressedCases": 0
+  },
+  "newHoldoutRequired": true,
+  "primaryRootCause": "MULTIPLE_CONTRIBUTING_FACTORS",
+  "recoverable": false,
+  "schemaVersion": "agent-rag-v22-reranker-root-cause-decision-v1",
+  "secondaryCauses": [
+    "PASSAGE_REPRESENTATION_INCOMPLETE",
+    "UNFAIR_BASELINE_INFORMATION_ADVANTAGE"
+  ],
+  "singleExplainableFix": "",
+  "sourceCommit": "7c592a6f"
+}

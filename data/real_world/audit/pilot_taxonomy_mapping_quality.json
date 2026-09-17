@@ -1,0 +1,46 @@
+{
+  "marker": "PILOT_TAXONOMY_MAPPING_QUALITY_COMPLETE",
+  "total_samples": 300,
+  "raw_mappable_rate": 1.0,
+  "mapped_count": 13,
+  "taxonomy_gap_count": 0,
+  "insufficient_evidence_count": 150,
+  "multi_risk_count": 0,
+  "non_risk_opinion_count": 126,
+  "ambiguous_count": 11,
+  "default_mapping_count": 0,
+  "forced_mapping_count": 0,
+  "fallback_mapping_count": 0,
+  "adjusted_mappable_rate": 0.0433,
+  "risk_type_distribution": {
+    "low_rating_risk_candidate": 13
+  },
+  "status_distribution": {
+    "insufficient_evidence": 150,
+    "non_risk_opinion": 126,
+    "mapped": 13,
+    "ambiguous": 11
+  },
+  "rating_distribution_by_risk_type": {
+    "insufficient_evidence": {
+      "None": 150
+    },
+    "non_risk_opinion": {
+      "5.0": 79,
+      "4.0": 47
+    },
+    "mapped": {
+      "1.0": 8,
+      "2.0": 5
+    },
+    "ambiguous": {
+      "3.0": 11
+    }
+  },
+  "reason_distribution": {
+    "rating_missing": 150,
+    "positive_or_neutral_rating": 126,
+    "low_rating_risk_candidate": 13,
+    "middle_rating_ambiguous": 11
+  }
+}

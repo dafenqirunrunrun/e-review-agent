@@ -1,0 +1,24 @@
+{
+  "sft_status": "SFT_DATA_NOT_READY",
+  "vlm_sft_status": "VLM_SFT_DATA_NOT_READY",
+  "blocking_reasons": [
+    "real_world dev requires at least 400 text samples; current=0",
+    "real_world external test requires at least 200 text samples; current=0",
+    "real multimodal external test requires at least 40 image-text samples; current=0"
+  ],
+  "checks": {
+    "synthetic_review_count": 1200,
+    "strict_query_count": 80,
+    "real_dev_count": 0,
+    "real_external_count": 0,
+    "multimodal_external_count": 0,
+    "source_manifest_count": 4,
+    "synthetic_risk_type_distribution": {
+      "normal_review": 180,
+      "negative_review": 300,
+      "after_sales_risk": 720
+    },
+    "privacy_hit_count": 0,
+    "independent_final_test_available": false
+  }
+}

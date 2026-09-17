@@ -1,0 +1,21 @@
+{
+  "marker": "PRIVATE_PILOT_V2_IMAGE_PRIVACY_BLOCKED_DETECTOR_UNAVAILABLE",
+  "image_count": 18,
+  "automated_cleared": 0,
+  "automated_redacted": 0,
+  "automated_uncertain": 18,
+  "automated_uncertain_reason_distribution": {
+    "automated_uncertain_detector_unavailable": 18
+  },
+  "automated_rejected": 0,
+  "missing_mandatory_detectors": [
+    "ocr_text_detection",
+    "qr_code_detection",
+    "barcode_detection",
+    "face_detection"
+  ],
+  "qwen3_vl_used_for_clearance": false,
+  "human_review_performed": false,
+  "private_manifest_sha256": "3b674c6e31ff414337e5833732063e6bf33e6c873855e9fae2d48a4c1cbbe667",
+  "created_at": "2026-07-14T09:39:00.111283+00:00"
+}

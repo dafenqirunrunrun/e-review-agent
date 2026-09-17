@@ -3,7 +3,7 @@
 
     <!-- 查询和其他操作 -->
     <div class="filter-container">
-      <el-input v-model="listQuery.name" clearable class="filter-item" style="width: 200px;" :placeholder="$t('sys_log.placeholder.filter_name')" />
+      <el-input v-model="listQuery.name" clearable class="filter-item" style="width: 200px;" :placeholder="$t('sys_log.placeholder.filter_name')"/>
       <el-button v-permission="['GET /admin/log/list']" class="filter-item" type="primary" icon="el-icon-search" @click="handleFilter">{{ $t('app.button.search') }}</el-button>
     </div>
 

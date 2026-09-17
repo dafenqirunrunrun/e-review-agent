@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "rag-quality-dataset-manifest-v2",
+  "datasetVersion": "rag-quality-v2-llm-frozen-1",
+  "status": "FROZEN_LLM_ADJUDICATED",
+  "promotionEligible": true,
+  "promotionScope": "personal_demo_with_single_llm_judge_limitation",
+  "language": "zh",
+  "frozenAt": "2026-09-13T00:00:00Z",
+  "frozenWorkflowGold": {
+    "path": "data/benchmarks/review_governance_gold_v1.jsonl",
+    "sha256": "9B9D596D88E28EE93327CC95E6F4B18DB0B2A939B70BE8F5CBF10C1E226CAB54",
+    "unchanged": true
+  },
+  "corpus": {
+    "path": "data/policy_rag_real/index/policy_chunks.jsonl",
+    "chunkCount": 71,
+    "contentRootHash": "c06aea7bd687b848fdf9c9e0dd2bba0b58e74e4624bb233a3cc440346fc81118"
+  },
+  "files": {
+    "metricContract": {
+      "path": "metric_contract_frozen_llm_v1.json",
+      "sha256": "73E3DE34EE45125CECC4F791C8D477BE162E6A982950242ADBBBF47A736EE90E"
+    },
+    "dataset": {
+      "path": "dataset_frozen_llm_v1.jsonl",
+      "sha256": "ECDCDC53871683DB2004F4C24E3C522E94F572309FE0EA7CB4FA23B10AA58792"
+    },
+    "dev": {
+      "path": "dev_frozen_llm_v1.jsonl",
+      "sha256": "C49B83999F74A77E43EBF8E5D27F82889CB56BA4C918864E363A9C85046F688E"
+    },
+    "holdout": {
+      "path": "holdout_frozen_llm_v1.jsonl",
+      "sha256": "439ED6A72CF337760570677E1A60C566031022E01D1A50927124CED56BE687FF"
+    },
+    "smoke": {
+      "path": "smoke_frozen_llm_v1.jsonl",
+      "sha256": "C11D53FCD01350D443F040C348752A322988A4495FF13E675AA7CAA25794ED0F"
+    },
+    "qrels": {
+      "path": "qrels_frozen_llm_v1.tsv",
+      "sha256": "4D8C3E73C1A90AAB419AF1A2FDDF7EBC648F0F14518C2AEC68261F5CA6A3CB28"
+    },
+    "adjudicationDecisions": {
+      "path": "artifacts/step242c/codex_adjudication_decisions.jsonl",
+      "sha256": "6B3A8EC264772DE3305D6DA869344D28688E67200475CCF822C1C17C3D58B46C"
+    },
+    "adjudicationSummary": {
+      "path": "artifacts/step242c/adjudication_summary.json",
+      "sha256": "C2D3E1ACCD59631AB708C459D32480C6977671980DCB43E3DFF0F96F95DC0B5B"
+    },
+    "devBaselines": {
+      "path": "artifacts/step242c/frozen_dev_baselines.json",
+      "sha256": "4B4F98C89035645FDE4A0C26E440F8341550DB2381CE265AA3375B634F010070"
+    },
+    "blindJudgeResults": {
+      "path": "artifacts/step242c/blind_judge_results.jsonl",
+      "sha256": "E8DFF45039803CC8F72E2F8FFF0116A46C871CBF38012BFDB871877F92E34328"
+    },
+    "blindJudgeSummary": {
+      "path": "artifacts/step242c/blind_judge_summary.json",
+      "sha256": "83F32BAB75E844A21D76205352D52222D76BFC5B91292C7D8381B5402F4640A9"
+    }
+  },
+  "sourceCandidate": {
+    "datasetVersion": "rag-quality-v2-candidate-1",
+    "datasetSha256": "682967082DF4AAB078778BE1D074402D3AB54CBDC297839712EE8735922E0A86",
+    "manifestSha256": "F6CD5BD87A8E56103CE5D8E2DA56D78E3CE295233F5AD1A092F9B70CC9DBDC77"
+  },
+  "validation": {
+    "caseCount": 120,
+    "devCount": 80,
+    "holdoutCount": 40,
+    "smokeCount": 24,
+    "allQueriesChinese": true,
+    "allQrelsComplete": true,
+    "allCorpusChunksJudgedPerCase": true,
+    "allRiskTypesSupported": true,
+    "noAnswerHasNoPositiveQrels": true,
+    "unresolvedConflictCount": 0
+  },
+  "annotation": {
+    "status": "FROZEN_LLM_ADJUDICATED",
+    "verificationMode": "codex_single_llm_judge_with_deterministic_validation",
+    "humanVerifiedCaseCount": 0,
+    "llmAdjudicatedCaseCount": 120,
+    "pendingCaseCount": 0,
+    "requiredBeforePromotion": true,
+    "holdoutExecutionAllowed": true,
+    "holdoutExecuted": false,
+    "limitation": "The frozen labels are machine-adjudicated and must not be described as human gold."
+  },
+  "qualityThresholds": {
+    "status": "FROZEN",
+    "sourceSplit": "dev",
+    "holdoutConsulted": false,
+    "referenceVariant": "B2",
+    "values": {
+      "candidateEvidenceHitRateAt5": 0.95,
+      "relevantChunkRecallAt5": 0.477869,
+      "mrrAt5": 0.844103,
+      "pooledNdcgAt5": 0.556093,
+      "riskCoverageAt3": 0.857692,
+      "highRiskEvidenceHitRateAt5": 1.0,
+      "citationValidCaseRate": 1.0,
+      "noAnswerAbstentionAccuracy": 1.0,
+      "unjudgedItemRateAt5": 0.0,
+      "duplicateItemRateAt5": 0.0,
+      "highRiskAutoPassCount": 0,
+      "silentParserLossCount": 0
+    }
+  },
+  "promotionBlockers": [],
+  "knownLimitations": [
+    "SINGLE_LLM_JUDGE_NOT_HUMAN_GOLD",
+    "LOCAL_QWEN_BLIND_JUDGE_FAILED_PRIMARY_JUDGE_RELIABILITY_GATE",
+    "DEV_CASES_WERE_VISIBLE_TO_PRIOR_CANDIDATE_EXPERIMENTS",
+    "AMAZON_POLICY_SOURCE_FETCH_FAILED_AND_IS_NOT_IN_THE_71_CHUNK_CORPUS",
+    "HOLDOUT_LABELS_ARE_FROZEN_BUT_HOLDOUT_RETRIEVAL_HAS_NOT_BEEN_EXECUTED"
+  ]
+}

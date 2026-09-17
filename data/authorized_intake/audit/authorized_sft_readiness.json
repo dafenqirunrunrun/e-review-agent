@@ -1,0 +1,20 @@
+{
+  "marker": "AUTHORIZED_SFT_DATA_NOT_READY",
+  "AUTHORIZED_SFT_DATA_READY": false,
+  "AUTHORIZED_VLM_SFT_DATA_READY": false,
+  "llm_requirements": {
+    "allowed_model_training": false,
+    "llm_sft": false,
+    "trainable_samples_at_least_1000": false,
+    "external_test_overlap_zero": true,
+    "annotation_reliability_pass": false
+  },
+  "vlm_requirements": {
+    "image_model_training_allowed": false,
+    "vlm_sft": false,
+    "real_multimodal_training_samples_at_least_500": false,
+    "image_privacy_review_complete": false,
+    "visual_labels_reliable": false,
+    "external_test_isolation_pass": true
+  }
+}

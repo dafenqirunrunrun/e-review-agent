@@ -1,0 +1,627 @@
+{
+  "benchmarkHash": "222802bed4ac363db5dbdfba5b362584ff05e2788f606781bfa2cfbb7e39a0b6",
+  "bestDiagnosticRepresentation": "F_SAFE_METADATA_CONTENT",
+  "decision": "ROOT_CAUSE_UNRESOLVED",
+  "deterministicBaseline": {
+    "caseCount": 74,
+    "improvedCases": 0,
+    "regressedCases": 0,
+    "relevantDemotionRate": 0.0,
+    "relevantPromotionRate": 0.0,
+    "severelyRegressedCases": 0,
+    "subsets": {
+      "lexical": {
+        "caseCount": 35,
+        "hitRateAt5": 0.42857142857142855,
+        "mrr": 0.4057142857142857,
+        "ndcgAt5": 0.2728670200172639,
+        "recallAt5": 0.23428571428571432
+      },
+      "mixed": {
+        "caseCount": 18,
+        "hitRateAt5": 0.6666666666666666,
+        "mrr": 0.5777777777777778,
+        "ndcgAt5": 0.4057786415399165,
+        "recallAt5": 0.35555555555555557
+      },
+      "overall": {
+        "caseCount": 74,
+        "hitRateAt5": 0.6216216216216216,
+        "mrr": 0.5342342342342342,
+        "ndcgAt5": 0.35408337748729846,
+        "recallAt5": 0.3135135135135136
+      },
+      "semantic": {
+        "caseCount": 8,
+        "hitRateAt5": 0.875,
+        "mrr": 0.5666666666666667,
+        "ndcgAt5": 0.27968725219107865,
+        "recallAt5": 0.25
+      },
+      "temporal": {
+        "caseCount": 8,
+        "hitRateAt5": 0.875,
+        "mrr": 0.675,
+        "ndcgAt5": 0.46601808569241765,
+        "recallAt5": 0.47500000000000003
+      },
+      "tenant-isolation": {
+        "caseCount": 5,
+        "hitRateAt5": 1.0,
+        "mrr": 1.0,
+        "ndcgAt5": 0.6764331965338766,
+        "recallAt5": 0.5599999999999999
+      }
+    },
+    "top5Retention": 1.0
+  },
+  "diagnosticCaseCount": 74,
+  "knowledgeHash": "6a47565e19594a6c527df10e34c63af004a6080f80f1817d697d28e828746a94",
+  "rootCauseDecision": "MULTIPLE_CONTRIBUTING_FACTORS",
+  "schemaVersion": "agent-rag-v22-reranker-input-ablation-summary-v1",
+  "sourceCommit": "7c592a6f",
+  "stage1PassageRepresentation": [
+    {
+      "batchSize": 8,
+      "caseCount": 74,
+      "caseResultHash": "7043941fceeeea49ec04bddb691a5fc52c511948031206561cbb52380f263039",
+      "improvedCases": 9,
+      "latency": {
+        "p50": 20.471,
+        "p95": 37.636
+      },
+      "maxLength": 384,
+      "regressedCases": 41,
+      "relevantDemotionRate": 0.554054,
+      "relevantPromotionRate": 0.121622,
+      "severelyRegressedCases": 20,
+      "subsets": {
+        "lexical": {
+          "caseCount": 35,
+          "hitRateAt5": 0.37142857142857144,
+          "mrr": 0.11571428571428571,
+          "ndcgAt5": 0.09922806849418538,
+          "recallAt5": 0.13142857142857142
+        },
+        "mixed": {
+          "caseCount": 18,
+          "hitRateAt5": 0.7222222222222222,
+          "mrr": 0.3305555555555555,
+          "ndcgAt5": 0.24559580187262617,
+          "recallAt5": 0.2777777777777778
+        },
+        "overall": {
+          "caseCount": 74,
+          "hitRateAt5": 0.581081081081081,
+          "mrr": 0.2277027027027027,
+          "ndcgAt5": 0.16823856851913252,
+          "recallAt5": 0.2027027027027027
+        },
+        "semantic": {
+          "caseCount": 8,
+          "hitRateAt5": 0.625,
+          "mrr": 0.22291666666666665,
+          "ndcgAt5": 0.16227097958233325,
+          "recallAt5": 0.2
+        },
+        "temporal": {
+          "caseCount": 8,
+          "hitRateAt5": 0.875,
+          "mrr": 0.3854166666666667,
+          "ndcgAt5": 0.25791089532756506,
+          "recallAt5": 0.3
+        },
+        "tenant-isolation": {
+          "caseCount": 5,
+          "hitRateAt5": 1.0,
+          "mrr": 0.3966666666666666,
+          "ndcgAt5": 0.23889844802657248,
+          "recallAt5": 0.27999999999999997
+        }
+      },
+      "top5Retention": 0.891304,
+      "useFp16": true,
+      "variant": "A_CURRENT_CONTENT_ONLY"
+    },
+    {
+      "batchSize": 8,
+      "caseCount": 74,
+      "caseResultHash": "4ff701e36ea5f13ec82e3edb0ed1c717581867eb97488d463558e6998a745bb9",
+      "improvedCases": 7,
+      "latency": {
+        "p50": 19.809,
+        "p95": 35.544
+      },
+      "maxLength": 384,
+      "regressedCases": 35,
+      "relevantDemotionRate": 0.472973,
+      "relevantPromotionRate": 0.094595,
+      "severelyRegressedCases": 15,
+      "subsets": {
+        "lexical": {
+          "caseCount": 35,
+          "hitRateAt5": 0.42857142857142855,
+          "mrr": 0.1638095238095238,
+          "ndcgAt5": 0.12763242614904602,
+          "recallAt5": 0.15428571428571428
+        },
+        "mixed": {
+          "caseCount": 18,
+          "hitRateAt5": 0.7222222222222222,
+          "mrr": 0.48796296296296293,
+          "ndcgAt5": 0.3101494088764166,
+          "recallAt5": 0.30000000000000004
+        },
+        "overall": {
+          "caseCount": 74,
+          "hitRateAt5": 0.6081081081081081,
+          "mrr": 0.2876126126126125,
+          "ndcgAt5": 0.21331622273252226,
+          "recallAt5": 0.2405405405405406
+        },
+        "semantic": {
+          "caseCount": 8,
+          "hitRateAt5": 0.625,
+          "mrr": 0.18541666666666665,
+          "ndcgAt5": 0.15300439123752715,
+          "recallAt5": 0.2
+        },
+        "temporal": {
+          "caseCount": 8,
+          "hitRateAt5": 0.875,
+          "mrr": 0.28541666666666665,
+          "ndcgAt5": 0.270291500859378,
+          "recallAt5": 0.35000000000000003
+        },
+        "tenant-isolation": {
+          "caseCount": 5,
+          "hitRateAt5": 1.0,
+          "mrr": 0.6,
+          "ndcgAt5": 0.4698418140878612,
+          "recallAt5": 0.52
+        }
+      },
+      "top5Retention": 0.934783,
+      "useFp16": true,
+      "variant": "C_TITLE_CONTENT"
+    },
+    {
+      "batchSize": 8,
+      "caseCount": 74,
+      "caseResultHash": "4ff701e36ea5f13ec82e3edb0ed1c717581867eb97488d463558e6998a745bb9",
+      "improvedCases": 7,
+      "latency": {
+        "p50": 17.768,
+        "p95": 33.397
+      },
+      "maxLength": 384,
+      "regressedCases": 35,
+      "relevantDemotionRate": 0.472973,
+      "relevantPromotionRate": 0.094595,
+      "severelyRegressedCases": 15,
+      "subsets": {
+        "lexical": {
+          "caseCount": 35,
+          "hitRateAt5": 0.42857142857142855,
+          "mrr": 0.1638095238095238,
+          "ndcgAt5": 0.12763242614904602,
+          "recallAt5": 0.15428571428571428
+        },
+        "mixed": {
+          "caseCount": 18,
+          "hitRateAt5": 0.7222222222222222,
+          "mrr": 0.48796296296296293,
+          "ndcgAt5": 0.3101494088764166,
+          "recallAt5": 0.30000000000000004
+        },
+        "overall": {
+          "caseCount": 74,
+          "hitRateAt5": 0.6081081081081081,
+          "mrr": 0.2876126126126125,
+          "ndcgAt5": 0.21331622273252226,
+          "recallAt5": 0.2405405405405406
+        },
+        "semantic": {
+          "caseCount": 8,
+          "hitRateAt5": 0.625,
+          "mrr": 0.18541666666666665,
+          "ndcgAt5": 0.15300439123752715,
+          "recallAt5": 0.2
+        },
+        "temporal": {
+          "caseCount": 8,
+          "hitRateAt5": 0.875,
+          "mrr": 0.28541666666666665,
+          "ndcgAt5": 0.270291500859378,
+          "recallAt5": 0.35000000000000003
+        },
+        "tenant-isolation": {
+          "caseCount": 5,
+          "hitRateAt5": 1.0,
+          "mrr": 0.6,
+          "ndcgAt5": 0.4698418140878612,
+          "recallAt5": 0.52
+        }
+      },
+      "top5Retention": 0.934783,
+      "useFp16": true,
+      "variant": "E_TITLE_SECTION_CONTENT"
+    },
+    {
+      "batchSize": 8,
+      "caseCount": 74,
+      "caseResultHash": "a914427b00cdfbbaa8ab7131a702a22c6486ca26dc26cd00629954bdc8ad4a65",
+      "improvedCases": 8,
+      "latency": {
+        "p50": 21.365,
+        "p95": 35.103
+      },
+      "maxLength": 384,
+      "regressedCases": 38,
+      "relevantDemotionRate": 0.513514,
+      "relevantPromotionRate": 0.108108,
+      "severelyRegressedCases": 18,
+      "subsets": {
+        "lexical": {
+          "caseCount": 35,
+          "hitRateAt5": 0.42857142857142855,
+          "mrr": 0.1638095238095238,
+          "ndcgAt5": 0.13058933876711543,
+          "recallAt5": 0.16000000000000003
+        },
+        "mixed": {
+          "caseCount": 18,
+          "hitRateAt5": 0.7777777777777778,
+          "mrr": 0.43148148148148147,
+          "ndcgAt5": 0.3082406701579706,
+          "recallAt5": 0.3222222222222223
+        },
+        "overall": {
+          "caseCount": 74,
+          "hitRateAt5": 0.6486486486486487,
+          "mrr": 0.2693693693693693,
+          "ndcgAt5": 0.20403037751759875,
+          "recallAt5": 0.2378378378378378
+        },
+        "semantic": {
+          "caseCount": 8,
+          "hitRateAt5": 0.75,
+          "mrr": 0.26875,
+          "ndcgAt5": 0.2077800224285421,
+          "recallAt5": 0.25
+        },
+        "temporal": {
+          "caseCount": 8,
+          "hitRateAt5": 1.0,
+          "mrr": 0.3645833333333333,
+          "ndcgAt5": 0.2682585437303383,
+          "recallAt5": 0.325
+        },
+        "tenant-isolation": {
+          "caseCount": 5,
+          "hitRateAt5": 1.0,
+          "mrr": 0.2733333333333333,
+          "ndcgAt5": 0.23419609746775216,
+          "recallAt5": 0.32
+        }
+      },
+      "top5Retention": 0.978261,
+      "useFp16": true,
+      "variant": "F_SAFE_METADATA_CONTENT"
+    }
+  ],
+  "stage3MaxLength": [
+    {
+      "batchSize": 1,
+      "caseCount": 74,
+      "caseResultHash": "a914427b00cdfbbaa8ab7131a702a22c6486ca26dc26cd00629954bdc8ad4a65",
+      "improvedCases": 8,
+      "latency": {
+        "p50": 55.132,
+        "p95": 76.475
+      },
+      "maxLength": 384,
+      "regressedCases": 38,
+      "relevantDemotionRate": 0.513514,
+      "relevantPromotionRate": 0.108108,
+      "severelyRegressedCases": 18,
+      "subsets": {
+        "lexical": {
+          "caseCount": 35,
+          "hitRateAt5": 0.42857142857142855,
+          "mrr": 0.1638095238095238,
+          "ndcgAt5": 0.13058933876711543,
+          "recallAt5": 0.16000000000000003
+        },
+        "mixed": {
+          "caseCount": 18,
+          "hitRateAt5": 0.7777777777777778,
+          "mrr": 0.43148148148148147,
+          "ndcgAt5": 0.3082406701579706,
+          "recallAt5": 0.3222222222222223
+        },
+        "overall": {
+          "caseCount": 74,
+          "hitRateAt5": 0.6486486486486487,
+          "mrr": 0.2693693693693693,
+          "ndcgAt5": 0.20403037751759875,
+          "recallAt5": 0.2378378378378378
+        },
+        "semantic": {
+          "caseCount": 8,
+          "hitRateAt5": 0.75,
+          "mrr": 0.26875,
+          "ndcgAt5": 0.2077800224285421,
+          "recallAt5": 0.25
+        },
+        "temporal": {
+          "caseCount": 8,
+          "hitRateAt5": 1.0,
+          "mrr": 0.3645833333333333,
+          "ndcgAt5": 0.2682585437303383,
+          "recallAt5": 0.325
+        },
+        "tenant-isolation": {
+          "caseCount": 5,
+          "hitRateAt5": 1.0,
+          "mrr": 0.2733333333333333,
+          "ndcgAt5": 0.23419609746775216,
+          "recallAt5": 0.32
+        }
+      },
+      "top5Retention": 0.978261,
+      "useFp16": true,
+      "variant": "F_SAFE_METADATA_CONTENT_LEN_384"
+    },
+    {
+      "batchSize": 1,
+      "caseCount": 74,
+      "caseResultHash": "a914427b00cdfbbaa8ab7131a702a22c6486ca26dc26cd00629954bdc8ad4a65",
+      "improvedCases": 8,
+      "latency": {
+        "p50": 55.035,
+        "p95": 78.493
+      },
+      "maxLength": 512,
+      "regressedCases": 38,
+      "relevantDemotionRate": 0.513514,
+      "relevantPromotionRate": 0.108108,
+      "severelyRegressedCases": 18,
+      "subsets": {
+        "lexical": {
+          "caseCount": 35,
+          "hitRateAt5": 0.42857142857142855,
+          "mrr": 0.1638095238095238,
+          "ndcgAt5": 0.13058933876711543,
+          "recallAt5": 0.16000000000000003
+        },
+        "mixed": {
+          "caseCount": 18,
+          "hitRateAt5": 0.7777777777777778,
+          "mrr": 0.43148148148148147,
+          "ndcgAt5": 0.3082406701579706,
+          "recallAt5": 0.3222222222222223
+        },
+        "overall": {
+          "caseCount": 74,
+          "hitRateAt5": 0.6486486486486487,
+          "mrr": 0.2693693693693693,
+          "ndcgAt5": 0.20403037751759875,
+          "recallAt5": 0.2378378378378378
+        },
+        "semantic": {
+          "caseCount": 8,
+          "hitRateAt5": 0.75,
+          "mrr": 0.26875,
+          "ndcgAt5": 0.2077800224285421,
+          "recallAt5": 0.25
+        },
+        "temporal": {
+          "caseCount": 8,
+          "hitRateAt5": 1.0,
+          "mrr": 0.3645833333333333,
+          "ndcgAt5": 0.2682585437303383,
+          "recallAt5": 0.325
+        },
+        "tenant-isolation": {
+          "caseCount": 5,
+          "hitRateAt5": 1.0,
+          "mrr": 0.2733333333333333,
+          "ndcgAt5": 0.23419609746775216,
+          "recallAt5": 0.32
+        }
+      },
+      "top5Retention": 0.978261,
+      "useFp16": true,
+      "variant": "F_SAFE_METADATA_CONTENT_LEN_512"
+    }
+  ],
+  "stage4BatchDeterminism": [
+    {
+      "batchSize": 1,
+      "caseCount": 74,
+      "caseResultHash": "a914427b00cdfbbaa8ab7131a702a22c6486ca26dc26cd00629954bdc8ad4a65",
+      "improvedCases": 8,
+      "latency": {
+        "p50": 55.253,
+        "p95": 86.046
+      },
+      "maxLength": 384,
+      "regressedCases": 38,
+      "relevantDemotionRate": 0.513514,
+      "relevantPromotionRate": 0.108108,
+      "severelyRegressedCases": 18,
+      "subsets": {
+        "lexical": {
+          "caseCount": 35,
+          "hitRateAt5": 0.42857142857142855,
+          "mrr": 0.1638095238095238,
+          "ndcgAt5": 0.13058933876711543,
+          "recallAt5": 0.16000000000000003
+        },
+        "mixed": {
+          "caseCount": 18,
+          "hitRateAt5": 0.7777777777777778,
+          "mrr": 0.43148148148148147,
+          "ndcgAt5": 0.3082406701579706,
+          "recallAt5": 0.3222222222222223
+        },
+        "overall": {
+          "caseCount": 74,
+          "hitRateAt5": 0.6486486486486487,
+          "mrr": 0.2693693693693693,
+          "ndcgAt5": 0.20403037751759875,
+          "recallAt5": 0.2378378378378378
+        },
+        "semantic": {
+          "caseCount": 8,
+          "hitRateAt5": 0.75,
+          "mrr": 0.26875,
+          "ndcgAt5": 0.2077800224285421,
+          "recallAt5": 0.25
+        },
+        "temporal": {
+          "caseCount": 8,
+          "hitRateAt5": 1.0,
+          "mrr": 0.3645833333333333,
+          "ndcgAt5": 0.2682585437303383,
+          "recallAt5": 0.325
+        },
+        "tenant-isolation": {
+          "caseCount": 5,
+          "hitRateAt5": 1.0,
+          "mrr": 0.2733333333333333,
+          "ndcgAt5": 0.23419609746775216,
+          "recallAt5": 0.32
+        }
+      },
+      "top5Retention": 0.978261,
+      "useFp16": true,
+      "variant": "F_SAFE_METADATA_CONTENT_BATCH_1"
+    },
+    {
+      "batchSize": 2,
+      "caseCount": 74,
+      "caseResultHash": "a914427b00cdfbbaa8ab7131a702a22c6486ca26dc26cd00629954bdc8ad4a65",
+      "improvedCases": 8,
+      "latency": {
+        "p50": 33.534,
+        "p95": 54.564
+      },
+      "maxLength": 384,
+      "regressedCases": 38,
+      "relevantDemotionRate": 0.513514,
+      "relevantPromotionRate": 0.108108,
+      "severelyRegressedCases": 18,
+      "subsets": {
+        "lexical": {
+          "caseCount": 35,
+          "hitRateAt5": 0.42857142857142855,
+          "mrr": 0.1638095238095238,
+          "ndcgAt5": 0.13058933876711543,
+          "recallAt5": 0.16000000000000003
+        },
+        "mixed": {
+          "caseCount": 18,
+          "hitRateAt5": 0.7777777777777778,
+          "mrr": 0.43148148148148147,
+          "ndcgAt5": 0.3082406701579706,
+          "recallAt5": 0.3222222222222223
+        },
+        "overall": {
+          "caseCount": 74,
+          "hitRateAt5": 0.6486486486486487,
+          "mrr": 0.2693693693693693,
+          "ndcgAt5": 0.20403037751759875,
+          "recallAt5": 0.2378378378378378
+        },
+        "semantic": {
+          "caseCount": 8,
+          "hitRateAt5": 0.75,
+          "mrr": 0.26875,
+          "ndcgAt5": 0.2077800224285421,
+          "recallAt5": 0.25
+        },
+        "temporal": {
+          "caseCount": 8,
+          "hitRateAt5": 1.0,
+          "mrr": 0.3645833333333333,
+          "ndcgAt5": 0.2682585437303383,
+          "recallAt5": 0.325
+        },
+        "tenant-isolation": {
+          "caseCount": 5,
+          "hitRateAt5": 1.0,
+          "mrr": 0.2733333333333333,
+          "ndcgAt5": 0.23419609746775216,
+          "recallAt5": 0.32
+        }
+      },
+      "top5Retention": 0.978261,
+      "useFp16": true,
+      "variant": "F_SAFE_METADATA_CONTENT_BATCH_2"
+    },
+    {
+      "batchSize": 4,
+      "caseCount": 74,
+      "caseResultHash": "a914427b00cdfbbaa8ab7131a702a22c6486ca26dc26cd00629954bdc8ad4a65",
+      "improvedCases": 8,
+      "latency": {
+        "p50": 22.067,
+        "p95": 31.189
+      },
+      "maxLength": 384,
+      "regressedCases": 38,
+      "relevantDemotionRate": 0.513514,
+      "relevantPromotionRate": 0.108108,
+      "severelyRegressedCases": 18,
+      "subsets": {
+        "lexical": {
+          "caseCount": 35,
+          "hitRateAt5": 0.42857142857142855,
+          "mrr": 0.1638095238095238,
+          "ndcgAt5": 0.13058933876711543,
+          "recallAt5": 0.16000000000000003
+        },
+        "mixed": {
+          "caseCount": 18,
+          "hitRateAt5": 0.7777777777777778,
+          "mrr": 0.43148148148148147,
+          "ndcgAt5": 0.3095468786465318,
+          "recallAt5": 0.3222222222222223
+        },
+        "overall": {
+          "caseCount": 74,
+          "hitRateAt5": 0.6486486486486487,
+          "mrr": 0.2693693693693693,
+          "ndcgAt5": 0.20434810390670827,
+          "recallAt5": 0.2378378378378378
+        },
+        "semantic": {
+          "caseCount": 8,
+          "hitRateAt5": 0.75,
+          "mrr": 0.26875,
+          "ndcgAt5": 0.2077800224285421,
+          "recallAt5": 0.25
+        },
+        "temporal": {
+          "caseCount": 8,
+          "hitRateAt5": 1.0,
+          "mrr": 0.3645833333333333,
+          "ndcgAt5": 0.2682585437303383,
+          "recallAt5": 0.325
+        },
+        "tenant-isolation": {
+          "caseCount": 5,
+          "hitRateAt5": 1.0,
+          "mrr": 0.2733333333333333,
+          "ndcgAt5": 0.23419609746775216,
+          "recallAt5": 0.32
+        }
+      },
+      "top5Retention": 0.978261,
+      "useFp16": true,
+      "variant": "F_SAFE_METADATA_CONTENT_BATCH_4"
+    }
+  ]
+}

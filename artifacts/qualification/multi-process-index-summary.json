@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "v2.1-multi-process-index-consistency",
+  "generatedAt": "2026-07-21T06:07:41+00:00",
+  "workerCount": 2,
+  "rootClass": "temporary-local-qualification-directory",
+  "events": [
+    {
+      "event": "ready",
+      "worker": "worker-1",
+      "generation": "generation-a"
+    },
+    {
+      "event": "ready",
+      "worker": "worker-0",
+      "generation": "generation-a"
+    },
+    {
+      "event": "ready",
+      "worker": "worker-1",
+      "generation": "generation-b"
+    },
+    {
+      "event": "ready",
+      "worker": "worker-0",
+      "generation": "generation-b"
+    },
+    {
+      "event": "ready",
+      "worker": "worker-1",
+      "generation": "generation-a"
+    },
+    {
+      "event": "ready",
+      "worker": "worker-0",
+      "generation": "generation-a"
+    }
+  ],
+  "initialResults": [
+    {
+      "event": "query-result",
+      "worker": "worker-0",
+      "loadedGeneration": "generation-a",
+      "activeIndexVersion": "generation-a",
+      "providerFingerprint": "a3ca6b707dffca60",
+      "lastReloadStatus": "ready",
+      "lastReloadAt": "2026-07-21T06:07:41+00:00",
+      "answer": "A"
+    },
+    {
+      "event": "query-result",
+      "worker": "worker-1",
+      "loadedGeneration": "generation-a",
+      "activeIndexVersion": "generation-a",
+      "providerFingerprint": "a3ca6b707dffca60",
+      "lastReloadStatus": "ready",
+      "lastReloadAt": "2026-07-21T06:07:41+00:00",
+      "answer": "A"
+    }
+  ],
+  "switchedResults": [
+    {
+      "event": "query-result",
+      "worker": "worker-0",
+      "loadedGeneration": "generation-b",
+      "activeIndexVersion": "generation-b",
+      "providerFingerprint": "b32a2779d0d958da",
+      "lastReloadStatus": "ready",
+      "lastReloadAt": "2026-07-21T06:07:41+00:00",
+      "answer": "B"
+    },
+    {
+      "event": "query-result",
+      "worker": "worker-1",
+      "loadedGeneration": "generation-b",
+      "activeIndexVersion": "generation-b",
+      "providerFingerprint": "b32a2779d0d958da",
+      "lastReloadStatus": "ready",
+      "lastReloadAt": "2026-07-21T06:07:41+00:00",
+      "answer": "B"
+    }
+  ],
+  "afterCorruptManifestResults": [
+    {
+      "event": "query-result",
+      "worker": "worker-1",
+      "loadedGeneration": "generation-b",
+      "activeIndexVersion": "generation-b",
+      "providerFingerprint": "b32a2779d0d958da",
+      "lastReloadStatus": "rejected:ValueError",
+      "lastReloadAt": "2026-07-21T06:07:41+00:00",
+      "answer": "B"
+    },
+    {
+      "event": "query-result",
+      "worker": "worker-0",
+      "loadedGeneration": "generation-b",
+      "activeIndexVersion": "generation-b",
+      "providerFingerprint": "b32a2779d0d958da",
+      "lastReloadStatus": "rejected:ValueError",
+      "lastReloadAt": "2026-07-21T06:07:41+00:00",
+      "answer": "B"
+    }
+  ],
+  "rollbackResults": [
+    {
+      "event": "query-result",
+      "worker": "worker-1",
+      "loadedGeneration": "generation-a",
+      "activeIndexVersion": "generation-a",
+      "providerFingerprint": "a3ca6b707dffca60",
+      "lastReloadStatus": "ready",
+      "lastReloadAt": "2026-07-21T06:07:41+00:00",
+      "answer": "A"
+    },
+    {
+      "event": "query-result",
+      "worker": "worker-0",
+      "loadedGeneration": "generation-a",
+      "activeIndexVersion": "generation-a",
+      "providerFingerprint": "a3ca6b707dffca60",
+      "lastReloadStatus": "ready",
+      "lastReloadAt": "2026-07-21T06:07:41+00:00",
+      "answer": "A"
+    }
+  ],
+  "mixedGenerationResponse": 0,
+  "closedIndexErrors": 0,
+  "tenantViolations": 0,
+  "checksumRejectVerified": true,
+  "rollbackVerified": true,
+  "status": "PASS",
+  "tokens": [
+    "AGENT_RAG_MULTI_PROCESS_INDEX_CONSISTENCY_PASS"
+  ]
+}

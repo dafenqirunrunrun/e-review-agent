@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-07-15T10:44:59.410140+00:00",
+  "status": "V167_BASE_PROMPT_CONTRACT_CANARY_PASS",
+  "dataset_status": "PRIVATE_SYNTHETIC_SFT_V21_DATASET_PASS",
+  "holdout_read": false,
+  "old_adapter_used": false,
+  "real_inference_count": 12,
+  "sample_count": 12,
+  "sample_hashes": [
+    "17a5406242a19528d6d223d4",
+    "20803640e10b89a658ed2425",
+    "26f8096af17ffb60d07585e7",
+    "2cde87e52860e5674cf9f8c2",
+    "0a0a7209b418025b87815ca9",
+    "0a5fa9bf7dc13b1e8d258ccc",
+    "20a20c9db8d4fcfdd9e9fce2",
+    "408eb45c770238d143aed0f4",
+    "04ebaff33f74a1136a2092f7",
+    "2d56e8f33201b7697f9bd7e5",
+    "454ec78de92d187a001cb40c",
+    "5a9a9338b1a32bce9b0715a1"
+  ],
+  "raw_json_object_extract_rate": 0.75,
+  "raw_json_parse_success_rate": 0.75,
+  "raw_canonical_schema_valid_rate": 0.75,
+  "required_field_presence_rate": 0.75,
+  "contract_normalization_rate": 0.75,
+  "semantic_field_change_count": 0,
+  "operational_fallback_rate": 0.25,
+  "final_operational_schema_valid_rate": 1.0,
+  "input_echo_rate": 0.0,
+  "prohibited_auto_action_count": 0,
+  "avg_generate_ms": 9959.63,
+  "p95_generate_ms": 11132.05,
+  "output_hashes": [
+    "644f9ceb9f99708fc129bb25",
+    "511dd8ff6a2bb22e008628f6",
+    "5d6a580d1bc0732fdd4a6c80",
+    "472385c01f0d4ffe12356245",
+    "ddcea6d25bbded00f361a952",
+    "8587bfa7eada2150f460350b",
+    "e4b7b6b7173fd3014bb60de0",
+    "dbef083e110681e78d091567",
+    "0549f5a577e9135988537318",
+    "2a398d613edb2cbefbba1b52",
+    "9f8d5e6537e85eb52293948a",
+    "2981097109a87a3b222d3e2b"
+  ],
+  "output_source_distribution": {
+    "raw_or_normalized": 9,
+    "operational_safety_fallback": 3
+  }
+}

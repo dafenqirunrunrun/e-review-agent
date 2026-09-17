@@ -1,0 +1,263 @@
+{
+  "marker": "V161_FINAL_STATUS_SUMMARY_COMPLETE",
+  "final_gate_marker": "V161_FINAL_GATE_BLOCKED",
+  "release_allowed": false,
+  "items": [
+    {
+      "id": 1,
+      "name": "branch",
+      "value": "audit/v1.6.1-realworld-multimodal"
+    },
+    {
+      "id": 2,
+      "name": "compliant_real_text_data_found",
+      "value": false
+    },
+    {
+      "id": 3,
+      "name": "compliant_real_multimodal_data_found",
+      "value": false
+    },
+    {
+      "id": 4,
+      "name": "data_sources_and_licenses",
+      "value": [
+        {
+          "source_id": "banglishrev_hf_2024",
+          "source_name": "BanglishRev: Bangla-English and Code-mixed E-commerce Review Dataset",
+          "license": "cc-by-nc-sa-4.0",
+          "status": "candidate_allowed_for_research_after_privacy_filtering",
+          "contains_images": true,
+          "redistribution_allowed": true
+        },
+        {
+          "source_id": "amazon_reviews_2023_mccauley",
+          "source_name": "Amazon Reviews 2023",
+          "license": "not_found_on_dataset_card_or_project_site",
+          "status": "blocked_license_unclear",
+          "contains_images": true,
+          "redistribution_allowed": null
+        },
+        {
+          "source_id": "amazon_berkeley_objects_abo",
+          "source_name": "Amazon Berkeley Objects Dataset",
+          "license": "cc-by-4.0",
+          "status": "image_reference_only_not_review_dataset",
+          "contains_images": true,
+          "redistribution_allowed": true
+        },
+        {
+          "source_id": "yelp_open_dataset",
+          "source_name": "Yelp Open Dataset",
+          "license": "educational_use_terms_not_open_redistribution_license",
+          "status": "not_ecommerce_product_review_dataset",
+          "contains_images": true,
+          "redistribution_allowed": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "real_text_count",
+      "value": 0
+    },
+    {
+      "id": 6,
+      "name": "real_multimodal_count",
+      "value": 0
+    },
+    {
+      "id": 7,
+      "name": "external_text_test_size",
+      "value": 0
+    },
+    {
+      "id": 8,
+      "name": "external_multimodal_test_size",
+      "value": 0
+    },
+    {
+      "id": 9,
+      "name": "raw_real_images_in_git",
+      "value": "no"
+    },
+    {
+      "id": 10,
+      "name": "vlm_model_name",
+      "value": "Qwen3-VL-2B-Instruct"
+    },
+    {
+      "id": 11,
+      "name": "vlm_4bit_enabled",
+      "value": false
+    },
+    {
+      "id": 12,
+      "name": "actual_gpu_and_peak_memory",
+      "value": "cuda available via torchtest; VLM peak memory not_available because VLM inference is blocked"
+    },
+    {
+      "id": 13,
+      "name": "vlm_avg_and_p95_latency",
+      "value": {
+        "avg_latency_ms": null,
+        "p95_latency_ms": null
+      }
+    },
+    {
+      "id": 14,
+      "name": "exact_duplicate_count",
+      "value": 0
+    },
+    {
+      "id": 15,
+      "name": "near_duplicate_count",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "original_synthetic_hit3_hit5",
+      "value": {
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0
+      }
+    },
+    {
+      "id": 17,
+      "name": "strict_synthetic_hit3_hit5",
+      "value": {
+        "hit_at_3": 0.2125,
+        "hit_at_5": 0.325
+      }
+    },
+    {
+      "id": 18,
+      "name": "real_external_no_oracle_hit3_hit5",
+      "value": "BLOCKED: real external text test set is not available"
+    },
+    {
+      "id": 19,
+      "name": "real_text_risk_type_macro_f1",
+      "value": null
+    },
+    {
+      "id": 20,
+      "name": "text_only_macro_f1",
+      "value": null
+    },
+    {
+      "id": 21,
+      "name": "image_only_macro_f1",
+      "value": null
+    },
+    {
+      "id": 22,
+      "name": "text_image_macro_f1",
+      "value": null
+    },
+    {
+      "id": 23,
+      "name": "text_image_rag_macro_f1",
+      "value": null
+    },
+    {
+      "id": 24,
+      "name": "visual_evidence_support_rate",
+      "value": null
+    },
+    {
+      "id": 25,
+      "name": "visual_unsupported_claim_rate",
+      "value": null
+    },
+    {
+      "id": 26,
+      "name": "text_image_consistency_macro_f1",
+      "value": null
+    },
+    {
+      "id": 27,
+      "name": "privacy_risk_recall",
+      "value": null
+    },
+    {
+      "id": 28,
+      "name": "human_review_precision",
+      "value": 1.0
+    },
+    {
+      "id": 29,
+      "name": "human_review_recall",
+      "value": 1.0
+    },
+    {
+      "id": 30,
+      "name": "high_risk_review_recall",
+      "value": 1.0
+    },
+    {
+      "id": 31,
+      "name": "unsafe_auto_pass_rate",
+      "value": 0.0
+    },
+    {
+      "id": 32,
+      "name": "multimodal_vlm_eval_pass",
+      "value": false
+    },
+    {
+      "id": 33,
+      "name": "realworld_multimodal_route_calibration_pass",
+      "value": false
+    },
+    {
+      "id": 34,
+      "name": "sft_data_ready",
+      "value": false
+    },
+    {
+      "id": 35,
+      "name": "vlm_sft_data_ready",
+      "value": false
+    },
+    {
+      "id": 36,
+      "name": "python_test_result",
+      "value": "================== 62 passed, 1 skipped, 1 warning in 16.74s =================="
+    },
+    {
+      "id": 37,
+      "name": "maven_result",
+      "value": "see docs/123_v161_build_regression_report.md"
+    },
+    {
+      "id": 38,
+      "name": "admin_h5_build_result",
+      "value": "see docs/123_v161_build_regression_report.md"
+    },
+    {
+      "id": 39,
+      "name": "commit",
+      "value": "generated_from_commit=090cc3c2; final artifact commit is assigned after this report is committed"
+    },
+    {
+      "id": 40,
+      "name": "tag",
+      "value": "none"
+    },
+    {
+      "id": 41,
+      "name": "working_tree_clean_at_generation",
+      "value": "no; summary generation observed uncommitted files"
+    },
+    {
+      "id": 42,
+      "name": "recommend_enter_qwen3_ms_swift_qlora_sft",
+      "value": "no; SFT_DATA_READY and VLM_SFT_DATA_READY are both false"
+    }
+  ],
+  "notes": [
+    "Blocked or null values are intentional evidence, not zero scores.",
+    "No release tag is recommended unless V161_FINAL_GATE_PASS is produced by the final gate script."
+  ]
+}

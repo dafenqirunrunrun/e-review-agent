@@ -1,0 +1,18 @@
+{
+  "marker": "REALWORLD_VLM_PILOT_BLOCKED_INSUFFICIENT_SAFE_IMAGES",
+  "eligible_record_count": 0,
+  "eligible_image_count": 0,
+  "real_vlm_inference_count": 0,
+  "real_vlm_success_rate": 0.0,
+  "raw_schema_valid_rate": 0.0,
+  "final_schema_valid_rate": 0.0,
+  "fallback_rate": 0.0,
+  "oom_count": 0,
+  "privacy_text_leak_count": 0,
+  "unsupported_business_action_count": 0,
+  "obvious_invalid_visual_claim_count": 0,
+  "avg_generate_ms": null,
+  "p95_generate_ms": null,
+  "consistency_distribution": {},
+  "reason": "automated privacy screening did not produce at least five safe images"
+}

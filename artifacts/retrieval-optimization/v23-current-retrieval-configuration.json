@@ -1,0 +1,64 @@
+{
+  "bm25": {
+    "analyzer": "lowercase token matching from app.rag.sparse_retriever",
+    "fieldBoosts": "not tuned in Phase 9.0-9.1",
+    "minimumScore": "not tuned in Phase 9.0-9.1",
+    "tokenizer": "project BM25Retriever default lexical tokenizer",
+    "topK": [
+      5,
+      10,
+      20,
+      50,
+      100
+    ]
+  },
+  "candidatePool": {
+    "deduplication": "chunkId",
+    "maximumCandidates": 100,
+    "sourceCandidatePoolHash": "90afa384d48974e333966edbe67b0a66fe7d0b1dd1e851ec71dbeb690748bc0c",
+    "sourceRouting": "tenant plus public scope"
+  },
+  "configurationHash": "b10def5fad62d13ace86fef1a208473d58bae940d647eb7e3484e21027a52b9f",
+  "datasetHash": "d3835de362f936a3f5000395b57c447d1518e63a879e50a08e5198b920761c2d",
+  "datasetVersion": "v23-retrieval-qualification-v1",
+  "dense": {
+    "dimension": "read from runtime/index trace during baseline",
+    "model": "BAAI/bge-m3",
+    "normalize": "current provider default",
+    "revision": "recorded in local qualification asset manifest when supplied; absolute paths are not persisted",
+    "similarity": "FAISS index metric from runtime",
+    "topK": [
+      5,
+      10,
+      20,
+      50,
+      100
+    ]
+  },
+  "eligibility": {
+    "active": true,
+    "disabled": true,
+    "duplicate": true,
+    "effectiveFrom": true,
+    "expiresAt": true,
+    "tenant": true,
+    "tombstone": true,
+    "version": "canonical evidence eligibility as of v2.2 baseline"
+  },
+  "hashes": {
+    "v22AnswerableRankingGate": "851ddee98e3d447ef88940124afcc4f2c80ee37611b8e91d3eac56fc7125b8ac",
+    "v22BenchmarkHash": "222802bed4ac363db5dbdfba5b362584ff05e2788f606781bfa2cfbb7e39a0b6",
+    "v22CandidatePoolManifest": "fcbc77942c0b867976a5727474d7dd068c32733128ee0d1ec511a1f05a0595f8",
+    "v22RerankerCaseLevelErrorAnalysis": "b9b7dd4d6b96451458bc63176e0ff39864946c7a8fe2a6190c3ce881c8dc586a",
+    "v22RerankerRootCauseDecision": "38a904d90a697513482a52bbb7dacb9a34b8174dcfd85104e89f94d3c6919059"
+  },
+  "rrf": {
+    "bm25Weight": 1.0,
+    "denseWeight": 0.5,
+    "note": "configuration frozen for diagnosis; no Phase 9.0-9.1 tuning",
+    "rankConstant": 60,
+    "rankWindow": 100
+  },
+  "schemaVersion": "agent-rag-v23-current-retrieval-configuration-v1",
+  "sourceCommit": "e7378b5e"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "V182_REAL_BGE_M3_RUNTIME_PASS",
+  "model_id": "BAAI/bge-m3",
+  "model_hash": "dfb1897399b5033f6cf3a6c0f14395a9de4c5629de470c8b17db52464c768602",
+  "tokenizer_hash": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+  "dimension": 1024,
+  "device": "cpu",
+  "dtype": "float32_output",
+  "max_sequence_length": 512,
+  "local_files_only": true,
+  "semantic_test_count": 60,
+  "positive_median_similarity": 0.848997,
+  "negative_median_similarity": 0.598732,
+  "same_text_similarity": 1.0,
+  "batch_consistency": true,
+  "finite_output": true,
+  "zero_vector_count": 0,
+  "l2_norm_min": 1.0,
+  "l2_norm_max": 1.0
+}

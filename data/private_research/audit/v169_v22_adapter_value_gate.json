@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-07-15T14:54:06Z",
+  "status": "PRIVATE_SYNTHETIC_SFT_V22_ADAPTER_VALUE_GATE_NOT_RUN",
+  "adapter_final_role": "PRIVATE_SYNTHETIC_SFT_V22_ADAPTER_RETAINED_FOR_RESEARCH_ONLY_NO_COMPLETED_TRAINING",
+  "default_candidate": false,
+  "blocked_reason": "training stopped before final adapter and holdout evaluation"
+}

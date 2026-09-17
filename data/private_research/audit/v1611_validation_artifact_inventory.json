@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-16T11:35:14.814380+00:00",
+  "status": "VALIDATION_PREDICTIONS_REUSED_OFFLINE",
+  "prediction_file_label": "<data-private>/training-runs/qwen3-1.7b-synthetic-sft-v22-v1610/private-validation/v1611_validation_predictions.jsonl",
+  "prediction_count": 108,
+  "expected_validation_count": 54,
+  "expected_prediction_count": 108,
+  "model_role_counts": {
+    "base": 54,
+    "adapter": 54
+  },
+  "validation_manifest_hash": "6b5903268ff7a9f72fb12ec896edeacaf83b8c854af4fd8a6819daba3f41f79f",
+  "prompt_version": "v2.1.0",
+  "contract_version": "v2.0.0",
+  "evaluator_version": "v2.1.0",
+  "decision_reason": "VALIDATION_PREDICTIONS_REUSED_OFFLINE",
+  "initial_status": "VALIDATION_PREDICTIONS_REQUIRED_ONCE",
+  "one_time_validation_inference_executed": true
+}

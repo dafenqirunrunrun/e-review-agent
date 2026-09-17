@@ -1,0 +1,10 @@
+{
+  "marker": "ANNOTATION_RELIABILITY_BLOCKED",
+  "blocking_reasons": [
+    "dual independent annotation file is missing"
+  ],
+  "risk_type_kappa": null,
+  "risk_level_kappa": null,
+  "need_human_review_kappa": null,
+  "text_image_consistency_kappa": null
+}

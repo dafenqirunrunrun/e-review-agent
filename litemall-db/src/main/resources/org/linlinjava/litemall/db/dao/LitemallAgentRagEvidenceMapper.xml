@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallAgentRagEvidenceMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallAgentRagEvidence">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="evidence_id" jdbcType="VARCHAR" property="evidenceId" />
+    <result column="run_id" jdbcType="BIGINT" property="runId" />
+    <result column="request_id" jdbcType="VARCHAR" property="requestId" />
+    <result column="tenant_id" jdbcType="VARCHAR" property="tenantId" />
+    <result column="bundle_hash" jdbcType="CHAR" property="bundleHash" />
+    <result column="bounded_json" jdbcType="LONGVARCHAR" property="boundedJson" />
+    <result column="citation_count" jdbcType="INTEGER" property="citationCount" />
+    <result column="payload_size_bytes" jdbcType="INTEGER" property="payloadSizeBytes" />
+    <result column="pii_redacted" jdbcType="BIT" property="piiRedacted" />
+    <result column="evidence_expired" jdbcType="BIT" property="evidenceExpired" />
+    <result column="expired_at" jdbcType="TIMESTAMP" property="expiredAt" />
+    <result column="citation_set_hash" jdbcType="CHAR" property="citationSetHash" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, evidence_id, run_id, request_id, tenant_id, bundle_hash, bounded_json,
+    citation_count, payload_size_bytes, pii_redacted, evidence_expired, expired_at,
+    citation_set_hash, created_at
+  </sql>
+
+  <sql id="Aliased_Column_List">
+    e.id, e.evidence_id, e.run_id, e.request_id, e.tenant_id, e.bundle_hash, e.bounded_json,
+    e.citation_count, e.payload_size_bytes, e.pii_redacted, e.evidence_expired, e.expired_at,
+    e.citation_set_hash, e.created_at
+  </sql>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAgentRagEvidence"
+          useGeneratedKeys="true" keyProperty="id">
+    insert into litemall_agent_rag_evidence
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="evidenceId != null">evidence_id,</if>
+      <if test="runId != null">run_id,</if>
+      <if test="requestId != null">request_id,</if>
+      <if test="tenantId != null">tenant_id,</if>
+      <if test="bundleHash != null">bundle_hash,</if>
+      <if test="boundedJson != null">bounded_json,</if>
+      <if test="citationCount != null">citation_count,</if>
+      <if test="payloadSizeBytes != null">payload_size_bytes,</if>
+      <if test="piiRedacted != null">pii_redacted,</if>
+      <if test="evidenceExpired != null">evidence_expired,</if>
+      <if test="expiredAt != null">expired_at,</if>
+      <if test="citationSetHash != null">citation_set_hash,</if>
+      <if test="createdAt != null">created_at,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="evidenceId != null">#{evidenceId},</if>
+      <if test="runId != null">#{runId},</if>
+      <if test="requestId != null">#{requestId},</if>
+      <if test="tenantId != null">#{tenantId},</if>
+      <if test="bundleHash != null">#{bundleHash},</if>
+      <if test="boundedJson != null">#{boundedJson},</if>
+      <if test="citationCount != null">#{citationCount},</if>
+      <if test="payloadSizeBytes != null">#{payloadSizeBytes},</if>
+      <if test="piiRedacted != null">#{piiRedacted},</if>
+      <if test="evidenceExpired != null">#{evidenceExpired},</if>
+      <if test="expiredAt != null">#{expiredAt},</if>
+      <if test="citationSetHash != null">#{citationSetHash},</if>
+      <if test="createdAt != null">#{createdAt},</if>
+    </trim>
+  </insert>
+
+  <select id="selectByRunId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_evidence
+    where run_id = #{runId}
+    limit 1
+  </select>
+
+  <select id="selectByTenantAndEvidenceId" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_evidence
+    where tenant_id = #{tenantId} and evidence_id = #{evidenceId}
+    limit 1
+  </select>
+
+  <select id="countExpiredCandidates" resultType="long">
+    select count(1)
+    from litemall_agent_rag_evidence e
+    inner join litemall_agent_rag_run r on r.id = e.run_id
+    where e.tenant_id = #{tenantId}
+      and r.tenant_id = #{tenantId}
+      and r.deleted = 0
+      and r.evidence_expires_at is not null
+      and r.evidence_expires_at &lt;= #{now}
+      and (e.evidence_expired is null or e.evidence_expired = 0)
+  </select>
+
+  <select id="selectExpiredCandidates" resultMap="BaseResultMap">
+    select <include refid="Aliased_Column_List" />
+    from litemall_agent_rag_evidence e
+    inner join litemall_agent_rag_run r on r.id = e.run_id
+    where e.tenant_id = #{tenantId}
+      and r.tenant_id = #{tenantId}
+      and r.deleted = 0
+      and r.evidence_expires_at is not null
+      and r.evidence_expires_at &lt;= #{now}
+      and (e.evidence_expired is null or e.evidence_expired = 0)
+    order by r.evidence_expires_at asc, e.id asc
+    limit #{limit}
+  </select>
+
+  <update id="expireEvidencePayload">
+    update litemall_agent_rag_evidence
+    set bounded_json = #{boundedJson},
+        payload_size_bytes = #{payloadSizeBytes},
+        evidence_expired = 1,
+        expired_at = #{expiredAt}
+    where tenant_id = #{tenantId}
+      and run_id = #{runId}
+      and (evidence_expired is null or evidence_expired = 0)
+  </update>
+</mapper>

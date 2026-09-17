@@ -1,0 +1,19 @@
+{
+  "blockingReasons": [
+    "AGENT_RAG_V22_ASSET_MANIFEST_UNAVAILABLE",
+    "REAL_DENSE_ASSET_UNAVAILABLE",
+    "REAL_LLM_ASSET_UNAVAILABLE"
+  ],
+  "challengeAccessed": false,
+  "crossServiceTracePropagationQualified": true,
+  "decision": "E_REVIEW_V24_PHASE_10B_BLOCKED",
+  "phase10cTraceStorageQueryAndOperationsAllowed": false,
+  "productionReplayEnabled": false,
+  "productionTraceEnabled": false,
+  "realLlmTraceQualified": false,
+  "realRetrievalTraceQualified": false,
+  "runtimeContextIsolationQualified": true,
+  "runtimeTraceIntegrationQualified": false,
+  "runtimeTraceIntegrationQualifiedWhenExplicitlyEnabled": false,
+  "traceContractFrom10aPass": true
+}

@@ -1,0 +1,364 @@
+{
+  "result": "V161_REGRESSION_COMPLETE_WITH_BLOCKED_RELEASE_GATES",
+  "final_gate_marker": "V161_FINAL_GATE_BLOCKED",
+  "release_allowed": false,
+  "skip_builds": true,
+  "stages": [
+    {
+      "name": "python-pytest",
+      "status": "PASS",
+      "duration_seconds": 18.59,
+      "return_code": 0,
+      "found_markers": [],
+      "expected_markers": [],
+      "expected_blocked_markers": [],
+      "error": null,
+      "output_summary": [
+        "================== 62 passed, 1 skipped, 1 warning in 16.74s =================="
+      ]
+    },
+    {
+      "name": "unblock-prerequisites",
+      "status": "PASS",
+      "duration_seconds": 3.33,
+      "return_code": 0,
+      "found_markers": [
+        "V161_UNBLOCK_PREREQUISITES_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "V161_UNBLOCK_PREREQUISITES_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"V161_UNBLOCK_PREREQUISITES_BLOCKED\", \"inputs\": {\"real_json\": \"D:\\\\EReviewAgent\\\\data-private\\\\banglishrev\\\\reviews v1.json\", \"vlm_candidates\": [\"D:\\\\EReviewAgent\\\\models\\\\Qwen3-VL-2B-Instruct\", \"D:\\\\EReviewAgent\\\\models\\\\Qwen2.5-VL-3B-Instruct\"], \"text_model_dirs\": [\"D:\\\\EReviewAgent\\\\models\\\\bge-m3\", \"D:\\\\EReviewAgent\\\\models\\\\rag-reranker\", \"D:\\\\EReviewAgent\\\\models\\\\Qwen3-1.7B\"], \"torch_python\": \"D:\\\\anaconda\\\\envs\\\\torchtest\\\\python.exe\"}, \"checks\": [{\"name\": \"real_text_source_file\", \"status\": \"BLOCKED\", \"evidence\": \"D:\\\\EReviewAgent\\\\data-private\\\\banglishrev\\\\reviews v1.json\", \"action\": \"Provide official BanglishRev JSON outside Git.\"}, {\"name\": \"local_vlm_model\", \"status\": \"BLOCKED\", \"evidence\": \"D:\\\\EReviewAgent\\\\models\\\\Qwen3-VL-2B-Instruct, D:\\\\EReviewAgent\\\\models\\\\Qwen2.5-VL-3B-Instruct\", \"action\": \"Place complete Qwen3-VL/Qwen2.5-VL config, processor/tokenizer, and weights outside Git.\"}, {\"name\": \"existing_text_models\", \"status\": \"READY\", \"evidence\": \"D:\\\\EReviewAgent\\\\models\\\\bge-m3, D:\\\\EReviewAgent\\\\models\\\\rag-reranker, D:\\\\EReviewAgent\\\\models\\\\Qwen3-1.7B\", \"action\": \"Keep model weights outside Git.\"}, {\"name\": \"torch_cuda_environment\", \"status\": \"READY\", \"evidence\": \"{\\\"torch_available\\\": true, \\\"cuda_available\\\": true, \\\"device_count\\\": 1, \\\"python\\\": \\\"D:\\\\\\\\anaconda\\\\\\\\envs\\\\\\\\torchtest\\\\\\\\python.exe\\\", \\\"return_code\\\": 0}\", \"action\": \"Use torchtest Python for BGE/reranker/VLM checks.\"}, {\"name\": \"private_data_not_tracked\", \"status\": \"READY\", \"evidence\": \"tracked_matches=0\", \"action\": \"Remove private data/model paths from Git if any are tracked.\"}, {\"name\": \"model_weights_not_tracked\", \"status\": \"READY\", \"evidence\": \"tracked_matches=0\", \"action\": \"Remove model weights/index binaries from Git if any are tracked.\"}], \"blockers\": [\"real_text_source_file: Provide official BanglishRev JSON outside Git.\", \"local_vlm_model: Place complete Qwen3-VL/Qwen2.5-VL config, processor/tokenizer, and weights outside Git.\"], \"torch_default\": {\"torch_available\": false, \"error\": \"No module named 'torch'\", \"python\": \"D:\\\\anaconda\\\\python.exe\", \"return_code\": 0}, \"torch_torchtest\": {\"torch_available\": true, \"cuda_available\": true, \"device_count\": 1, \"python\": \"D:\\\\anaconda\\\\envs\\\\torchtest\\\\python.exe\", \"return_code\": 0}}",
+        "V161_UNBLOCK_PREREQUISITES_BLOCKED"
+      ]
+    },
+    {
+      "name": "external-test-isolation",
+      "status": "PASS",
+      "duration_seconds": 0.54,
+      "return_code": 0,
+      "found_markers": [
+        "EXTERNAL_TEST_ISOLATION_AUDIT_PASS"
+      ],
+      "expected_markers": [
+        "EXTERNAL_TEST_ISOLATION_AUDIT_PASS"
+      ],
+      "expected_blocked_markers": [],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"EXTERNAL_TEST_ISOLATION_AUDIT_PASS\", \"allowed_references\": [{\"path\": \"ai-service/scripts/audit_external_test_isolation.py\", \"tokens\": [\"data/real_world/external_test\", \"data\\\\real_world\\\\external_test\", \"multimodal_manifest/real_multimodal_external_test\", \"multimodal_manifest\\\\real_multimodal_external_test\", \"real_multimodal_external_test.jsonl\", \"real_reviews_external_test_200.jsonl\", \"real_world/external_test\", \"real_world\\\\external_test\"], \"purpose_hint\": \"none\"}, {\"path\": \"ai-service/scripts/audit_sft_data_readiness.py\", \"tokens\": [\"data/real_world/external_test\", \"data\\\\real_world\\\\external_test\", \"multimodal_manifest/real_multimodal_external_test\", \"multimodal_manifest\\\\real_multimodal_external_test\", \"real_multimodal_external_test.jsonl\", \"real_reviews_external_test_200.jsonl\", \"real_world/external_test\", \"real_world\\\\external_test\"], \"purpose_hint\": \"sft\"}, {\"path\": \"ai-service/scripts/build_realworld_split.py\", \"tokens\": [\"data/real_world/external_test\", \"data\\\\real_world\\\\external_test\", \"real_reviews_external_test_200.jsonl\", \"real_world/external_test\", \"real_world\\\\external_test\"], \"purpose_hint\": \"none\"}, {\"path\": \"ai-service/scripts/eval_multimodal_ablation.py\", \"tokens\": [\"real_multimodal_external_test.jsonl\"], \"purpose_hint\": \"none\"}, {\"path\": \"ai-service/scripts/eval_qwen_realworld_external.py\", \"tokens\": [\"data/real_world/external_test\", \"data\\\\real_world\\\\external_test\", \"real_reviews_external_test_200.jsonl\", \"real_world/external_test\", \"real_world\\\\external_test\"], \"purpose_hint\": \"none\"}, {\"path\": \"ai-service/scripts/eval_rag_validity_and_external.py\", \"tokens\": [\"data/real_world/external_test\", \"data\\\\real_world\\\\external_test\", \"real_reviews_external_test_200.jsonl\", \"real_world/external_test\", \"real_world\\\\external_test\"], \"purpose_hint\": \"none\"}, {\"path\": \"ai-service/scripts/eval_vlm_visual_evidence.py\", \"tokens\": [\"real_multimodal_external_test.jsonl\"], \"purpose_hint\": \"none\"}], \"violations\": [], \"index_metadata_violations\": [], \"policy\": {\"external_test_allowed_for\": [\"final_evaluation\", \"release_gate_reporting\", \"sft_readiness_audit\"], \"external_test_forbidden_for\": [\"indexing\", \"training\", \"prompt_selection\", \"fusion_weight_tuning\", \"threshold_calibration\"]}}",
+        "EXTERNAL_TEST_ISOLATION_AUDIT_PASS"
+      ]
+    },
+    {
+      "name": "rag-leakage-audit",
+      "status": "PASS",
+      "duration_seconds": 43.0,
+      "return_code": 0,
+      "found_markers": [
+        "RAG_LEAKAGE_AUDIT_COMPLETE"
+      ],
+      "expected_markers": [
+        "RAG_LEAKAGE_AUDIT_COMPLETE"
+      ],
+      "expected_blocked_markers": [],
+      "error": null,
+      "output_summary": [
+        "RAG_LEAKAGE_AUDIT_COMPLETE"
+      ]
+    },
+    {
+      "name": "realworld-ingest",
+      "status": "PASS",
+      "duration_seconds": 0.78,
+      "return_code": 0,
+      "found_markers": [
+        "PUBLIC_REAL_DATA_LOCAL_SOURCE_BLOCKED",
+        "REALWORLD_SPLIT_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "PUBLIC_REAL_DATA_LOCAL_SOURCE_BLOCKED",
+        "REALWORLD_SPLIT_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"PUBLIC_REAL_DATA_LOCAL_SOURCE_BLOCKED\", \"source\": \"D:\\\\EReviewAgent\\\\data-private\\\\banglishrev\\\\reviews v1.json\", \"reason\": \"official JSON file is not available in a repository-external path\"}",
+        "PUBLIC_REAL_DATA_LOCAL_SOURCE_BLOCKED",
+        "{\"marker\": \"REALWORLD_SPLIT_BLOCKED\", \"input_count\": 0, \"required\": 600}"
+      ]
+    },
+    {
+      "name": "rag-validity-external",
+      "status": "PASS",
+      "duration_seconds": 82.5,
+      "return_code": 0,
+      "found_markers": [
+        "REALWORLD_EXTERNAL_EVAL_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "REALWORLD_EXTERNAL_EVAL_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"REALWORLD_EXTERNAL_EVAL_BLOCKED\", \"original_oracle_hybrid_hit5\": 1.0, \"original_no_oracle_hybrid_hit5\": 1.0, \"strict_no_oracle_hybrid_hit5\": 0.325, \"real_external_count\": 0}",
+        "REALWORLD_EXTERNAL_EVAL_BLOCKED"
+      ]
+    },
+    {
+      "name": "vlm-provider-smoke",
+      "status": "PASS",
+      "duration_seconds": 3.37,
+      "return_code": 0,
+      "found_markers": [
+        "VLM_PROVIDER_SMOKE_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "VLM_PROVIDER_SMOKE_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"VLM_PROVIDER_SMOKE_BLOCKED\", \"provider_marker\": \"MULTIMODAL_VLM_EVAL_BLOCKED\", \"model_available\": false, \"schema_valid\": true, \"provider\": \"local_qwen3_vl_transformers\", \"model_name\": \"Qwen3-VL-2B-Instruct\", \"model_dir_kind\": \"repo_external_configured_path\", \"device\": \"cuda\", \"dtype\": \"auto\", \"load_in_4bit\": false, \"memory_strategy\": \"serial_lazy_load\", \"blocked_reason\": \"VLM_MODEL_NOT_AVAILABLE\", \"blocking_reasons\": [\"VLM_MODEL_NOT_AVAILABLE\", \"provider smoke endpoint returned MULTIMODAL_VLM_EVAL_BLOCKED\"], \"status_endpoint\": \"/api/v1/vlm/status\", \"smoke_endpoint\": \"/api/v1/vlm/smoke-test\", \"message\": \"VLM_MODEL_NOT_AVAILABLE; place Qwen3-VL-2B-Instruct outside Git and rerun smoke test.\"}",
+        "VLM_PROVIDER_SMOKE_BLOCKED"
+      ]
+    },
+    {
+      "name": "local-vlm-smoke",
+      "status": "PASS",
+      "duration_seconds": 13.31,
+      "return_code": 0,
+      "found_markers": [
+        "VLM_PROVIDER_SMOKE_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "VLM_PROVIDER_SMOKE_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"VLM_PROVIDER_SMOKE_BLOCKED\", \"provider\": \"local_qwen3_vl_transformers\", \"model_name\": \"Qwen3-VL-2B-Instruct\", \"model_dir\": \"D:\\\\EReviewAgent\\\\models\\\\Qwen3-VL-2B-Instruct\", \"model_source\": \"Hugging Face official repository: Qwen/Qwen3-VL-2B-Instruct\", \"model_files\": {\"exists\": true, \"file_count\": 0, \"total_size_mb\": 0.0, \"has_config\": false, \"has_processor_or_tokenizer\": false, \"has_weight_file\": false}, \"config\": {\"device\": \"cuda\", \"dtype\": \"auto\", \"max_new_tokens\": 384, \"max_images\": 4, \"max_pixels\": 1048576, \"min_pixels\": 65536, \"timeout_seconds\": 180, \"enable_thinking\": false, \"lazy_load\": true, \"unload_after_request\": true}, \"dependencies\": {\"torch\": true, \"transformers\": true, \"accelerate\": false, \"PIL\": true, \"huggingface_hub\": true}, \"gpu\": {\"cuda_available\": true, \"gpu_name\": \"NVIDIA GeForce RTX 4060 Laptop GPU\", \"gpu_memory_total_mb\": 8187.5, \"gpu_memory_allocated_mb\": 0.0, \"gpu_memory_reserved_mb\": 0.0}, \"metrics\": {\"total_samples\": 12, \"real_vlm_inference_count\": 0, \"vlm_success_rate\": 0.0, \"visual_schema_valid_rate\": 0, \"visual_field_complete_rate\": 0, \"fallback_rate\": 1, \"invalid_json_count\": 0, \"repair_used_rate\": 0, \"avg_latency_ms\": 3.87, \"p95_latency_ms\": 5.01, \"gpu_peak_memory_mb\": 0.0, \"oom_count\": 0, \"unload_success_rate\": 0, \"privacy_smoke_detection_rate\": 0}, \"attempts\": [{\"sample_id\": \"vlm-smoke-01-intact-box\", \"status_code\": 503, \"latency_ms\": 5.6, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-02-dented-box\", \"status_code\": 503, \"latency_ms\": 3.65, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-03-package-damage-text\", \"status_code\": 503, \"latency_ms\": 3.44, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-04-blurred\", \"status_code\": 503, \"latency_ms\": 3.66, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-05-occluded\", \"status_code\": 503, \"latency_ms\": 3.93, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-06-unrelated-landscape\", \"status_code\": 503, \"latency_ms\": 3.73, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-07-color-mismatch\", \"status_code\": 503, \"latency_ms\": 3.53, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-08-leakage\", \"status_code\": 503, \"latency_ms\": 3.01, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-09-missing-part\", \"status_code\": 503, \"latency_ms\": 5.01, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-10-privacy-phone\", \"status_code\": 503, \"latency_ms\": 3.09, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-11-blank\", \"status_code\": 503, \"latency_ms\": 4.51, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}, {\"sample_id\": \"vlm-smoke-12-multi-panel\", \"status_code\": 503, \"latency_ms\": 3.29, \"real_vlm_inference\": false, \"error\": \"{\\\"detail\\\":\\\"VLM_MODEL_NOT_AVAILABLE\\\"}\"}], \"manifest\": \"D:\\\\EReviewAgent\\\\litemall\\\\.runtime\\\\vlm-smoke\\\\vlm_smoke_manifest.jsonl\", \"blocking_reasons\": [\"VLM_MODEL_WEIGHTS_NOT_AVAILABLE\", \"ACCELERATE_NOT_INSTALLED_FOR_TRANSFORMERS_DEVICE_MAP\", \"NO_REAL_TRANSFORMERS_VLM_INFERENCE_RECORDED\"], \"forbidden_success_markers_emitted\": false}",
+        "VLM_PROVIDER_SMOKE_BLOCKED"
+      ]
+    },
+    {
+      "name": "vlm-observability",
+      "status": "PASS",
+      "duration_seconds": 0.55,
+      "return_code": 0,
+      "found_markers": [
+        "VLM_OBSERVABILITY_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "VLM_OBSERVABILITY_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"VLM_OBSERVABILITY_BLOCKED\", \"tool_registry_presence\": {\"ImageEvidenceExtractTool\": true, \"TextImageConsistencyTool\": true, \"VisualEvidenceQualityTool\": true, \"PrivacyVisualRiskTool\": true}, \"provider\": \"local_qwen3_vl_transformers\", \"model_name\": \"Qwen3-VL-2B-Instruct\", \"smoke_marker\": \"VLM_PROVIDER_SMOKE_BLOCKED\", \"real_vlm_inference_count\": 0, \"agent_run_with_image_recorded\": false, \"agent_steps_recorded\": false, \"tool_logs_recorded\": false, \"raw_image_binary_persisted\": false, \"full_privacy_ocr_persisted\": false, \"blocking_reasons\": [\"NO_REAL_IMAGE_AGENT_RUN_RECORDED\", \"VLM_PROVIDER_SMOKE_NOT_PASSED\"]}",
+        "VLM_OBSERVABILITY_BLOCKED"
+      ]
+    },
+    {
+      "name": "vlm-visual-eval",
+      "status": "PASS",
+      "duration_seconds": 0.52,
+      "return_code": 0,
+      "found_markers": [
+        "MULTIMODAL_VLM_EVAL_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "MULTIMODAL_VLM_EVAL_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"MULTIMODAL_VLM_EVAL_BLOCKED\", \"external_multimodal_count\": 0, \"required_external_multimodal_count\": 40, \"model_available\": false, \"model_dir_kind\": \"repo_external_configured_path\", \"metrics\": {\"visual_schema_valid_rate\": null, \"visual_field_complete_rate\": null, \"image_quality_accuracy\": null, \"ocr_exact_match\": null, \"ocr_character_f1\": null, \"package_damage_f1\": null, \"product_damage_f1\": null, \"leakage_f1\": null, \"missing_part_f1\": null, \"product_mismatch_f1\": null, \"irrelevant_image_f1\": null, \"text_image_consistency_macro_f1\": null, \"visual_evidence_support_rate\": null, \"visual_unsupported_claim_rate\": null, \"privacy_risk_recall\": null, \"fallback_rate\": null, \"avg_latency_ms\": null, \"p95_latency_ms\": null, \"gpu_peak_memory_mb\": null}, \"blocking_reasons\": [\"real multimodal external test set requires at least 40 samples; current=0\", \"local Qwen3-VL/Qwen2.5-VL config, processor/tokenizer, and weights are not available outside Git\"], \"notes\": [\"Metric values remain null until real image inference is executed on an isolated external multimodal test set.\", \"The script does not use image filenames, paths, or manual labels as visual understanding.\", \"Original real images must remain outside Git.\"]}",
+        "MULTIMODAL_VLM_EVAL_BLOCKED"
+      ]
+    },
+    {
+      "name": "multimodal-ablation",
+      "status": "PASS",
+      "duration_seconds": 0.55,
+      "return_code": 0,
+      "found_markers": [
+        "MULTIMODAL_ABLATION_EVAL_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "MULTIMODAL_ABLATION_EVAL_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"MULTIMODAL_ABLATION_EVAL_BLOCKED\", \"external_multimodal_count\": 0, \"required_external_multimodal_count\": 40, \"model_available\": false, \"evaluated_modes\": [\"text_only\", \"image_only\", \"text_image\", \"text_image_hybrid_rag\"], \"metrics\": {\"text_only\": {\"schema_valid_rate\": null, \"risk_type_accuracy\": null, \"risk_type_macro_f1\": null, \"risk_level_accuracy\": null, \"risk_level_macro_f1\": null, \"evidence_support_rate\": null, \"visual_evidence_support_rate\": null, \"unsupported_claim_rate\": null, \"visual_unsupported_claim_rate\": null, \"text_image_consistency_macro_f1\": null, \"need_human_review_accuracy\": null, \"human_review_precision\": null, \"human_review_recall\": null, \"human_review_f1\": null, \"high_risk_review_recall\": null, \"unsafe_auto_pass_rate\": null, \"fallback_rate\": null, \"avg_latency_ms\": null, \"p95_latency_ms\": null, \"gpu_peak_memory_mb\": null}, \"image_only\": {\"schema_valid_rate\": null, \"risk_type_accuracy\": null, \"risk_type_macro_f1\": null, \"risk_level_accuracy\": null, \"risk_level_macro_f1\": null, \"evidence_support_rate\": null, \"visual_evidence_support_rate\": null, \"unsupported_claim_rate\": null, \"visual_unsupported_claim_rate\": null, \"text_image_consistency_macro_f1\": null, \"need_human_review_accuracy\": null, \"human_review_precision\": null, \"human_review_recall\": null, \"human_review_f1\": null, \"high_risk_review_recall\": null, \"unsafe_auto_pass_rate\": null, \"fallback_rate\": null, \"avg_latency_ms\": null, \"p95_latency_ms\": null, \"gpu_peak_memory_mb\": null}, \"text_image\": {\"schema_valid_rate\": null, \"risk_type_accuracy\": null, \"risk_type_macro_f1\": null, \"risk_level_accuracy\": null, \"risk_level_macro_f1\": null, \"evidence_support_rate\": null, \"visual_evidence_support_rate\": null, \"unsupported_claim_rate\": null, \"visual_unsupported_claim_rate\": null, \"text_image_consistency_macro_f1\": null, \"need_human_review_accuracy\": null, \"human_review_precision\": null, \"human_review_recall\": null, \"human_review_f1\": null, \"high_risk_review_recall\": null, \"unsafe_auto_pass_rate\": null, \"fallback_rate\": null, \"avg_latency_ms\": null, \"p95_latency_ms\": null, \"gpu_peak_memory_mb\": null}, \"text_image_hybrid_rag\": {\"schema_valid_rate\": null, \"risk_type_accuracy\": null, \"risk_type_macro_f1\": null, \"risk_level_accuracy\": null, \"risk_level_macro_f1\": null, \"evidence_support_rate\": null, \"visual_evidence_support_rate\": null, \"unsupported_claim_rate\": null, \"visual_unsupported_claim_rate\": null, \"text_image_consistency_macro_f1\": null, \"need_human_review_accuracy\": null, \"human_review_precision\": null, \"human_review_recall\": null, \"human_review_f1\": null, \"high_risk_review_recall\": null, \"unsafe_auto_pass_rate\": null, \"fallback_rate\": null, \"avg_latency_ms\": null, \"p95_latency_ms\": null, \"gpu_peak_memory_mb\": null}}, \"blocking_reasons\": [\"real multimodal external test set requires at least 40 samples; current=0\", \"local VLM config, processor/tokenizer, and weights are not available outside Git\"], \"notes\": [\"All four modes must be reported together once real external multimodal data and VLM inference are available.\", \"Null metric values mean the ablation was not executed; they are not zero scores.\", \"External multimodal test samples must not be used for prompt selection, training, or threshold calibration.\"]}",
+        "MULTIMODAL_ABLATION_EVAL_BLOCKED"
+      ]
+    },
+    {
+      "name": "qwen-realworld-external",
+      "status": "PASS",
+      "duration_seconds": 0.55,
+      "return_code": 0,
+      "found_markers": [
+        "REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED\", \"real_external_count\": 0, \"required_real_external_count\": 200, \"input_dataset\": \"data/real_world/external_test/real_reviews_external_test_200.jsonl\", \"evaluated_modes\": [\"qwen3_prompt_only\", \"qwen3_synthetic_rag\", \"qwen3_real_rag\", \"qwen3_synthetic_plus_real_hybrid_rag\"], \"metrics\": {\"qwen3_prompt_only\": {\"risk_type_accuracy\": null, \"risk_type_macro_f1\": null, \"risk_level_accuracy\": null, \"risk_level_macro_f1\": null, \"schema_valid_rate\": null, \"evidence_support_rate\": null, \"unsupported_claim_rate\": null, \"human_review_precision\": null, \"human_review_recall\": null, \"high_risk_review_recall\": null, \"unsafe_auto_pass_rate\": null, \"fallback_rate\": null, \"avg_latency_ms\": null}, \"qwen3_synthetic_rag\": {\"risk_type_accuracy\": null, \"risk_type_macro_f1\": null, \"risk_level_accuracy\": null, \"risk_level_macro_f1\": null, \"schema_valid_rate\": null, \"evidence_support_rate\": null, \"unsupported_claim_rate\": null, \"human_review_precision\": null, \"human_review_recall\": null, \"high_risk_review_recall\": null, \"unsafe_auto_pass_rate\": null, \"fallback_rate\": null, \"avg_latency_ms\": null}, \"qwen3_real_rag\": {\"risk_type_accuracy\": null, \"risk_type_macro_f1\": null, \"risk_level_accuracy\": null, \"risk_level_macro_f1\": null, \"schema_valid_rate\": null, \"evidence_support_rate\": null, \"unsupported_claim_rate\": null, \"human_review_precision\": null, \"human_review_recall\": null, \"high_risk_review_recall\": null, \"unsafe_auto_pass_rate\": null, \"fallback_rate\": null, \"avg_latency_ms\": null}, \"qwen3_synthetic_plus_real_hybrid_rag\": {\"risk_type_accuracy\": null, \"risk_type_macro_f1\": null, \"risk_level_accuracy\": null, \"risk_level_macro_f1\": null, \"schema_valid_rate\": null, \"evidence_support_rate\": null, \"unsupported_claim_rate\": null, \"human_review_precision\": null, \"human_review_recall\": null, \"high_risk_review_recall\": null, \"unsafe_auto_pass_rate\": null, \"fallback_rate\": null, \"avg_latency_ms\": null}}, \"blocking_reasons\": [\"real external text test set requires at least 200 samples; current=0\"], \"notes\": [\"No real-world Qwen downstream metric is reported unless the isolated external test set is available.\", \"The external test set must not be used for indexing, prompt selection, fusion-weight tuning, or threshold calibration.\", \"Null metric values mean the model comparison was not executed; they are not zero scores.\"]}",
+        "REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED"
+      ]
+    },
+    {
+      "name": "route-calibration",
+      "status": "PASS",
+      "duration_seconds": 1.87,
+      "return_code": 0,
+      "found_markers": [
+        "REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED\", \"metric_definitions\": {\"human_review_accuracy\": \"(TP + TN) / all\", \"human_review_precision\": \"TP / (TP + FP)\", \"human_review_recall\": \"TP / (TP + FN)\", \"human_review_f1\": \"2PR / (P + R)\", \"high_risk_review_recall\": \"high risk samples routed to human / all high risk samples\", \"review_trigger_rate\": \"samples routed to human / all samples\", \"unsafe_auto_pass_rate\": \"samples that should be human-reviewed but auto-passed / all samples that should be human-reviewed\"}, \"synthetic_label_policy_sanity_check\": {\"sample_count\": 180, \"true_positive\": 153, \"false_positive\": 0, \"true_negative\": 27, \"false_negative\": 0, \"human_review_accuracy\": 1.0, \"human_review_precision\": 1.0, \"human_review_recall\": 1.0, \"human_review_f1\": 1.0, \"high_risk_review_recall\": 1.0, \"review_trigger_rate\": 0.85, \"unsafe_auto_pass_rate\": 0.0}, \"calibration_status\": \"synthetic_only_not_real_calibration\", \"blocking_reasons\": [\"real_world dev requires at least 400 text samples; current=0\", \"multimodal validation requires at least 40 image-text samples; current=0\"], \"counts\": {\"synthetic_validation\": 180, \"real_dev\": 0, \"multimodal_validation\": 0}}",
+        "REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED"
+      ]
+    },
+    {
+      "name": "sft-readiness",
+      "status": "PASS",
+      "duration_seconds": 1.29,
+      "return_code": 0,
+      "found_markers": [
+        "SFT_DATA_NOT_READY",
+        "VLM_SFT_DATA_NOT_READY"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "SFT_DATA_NOT_READY",
+        "VLM_SFT_DATA_NOT_READY"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"sft_status\": \"SFT_DATA_NOT_READY\", \"vlm_sft_status\": \"VLM_SFT_DATA_NOT_READY\", \"blocking_reasons\": [\"real_world dev requires at least 400 text samples; current=0\", \"real_world external test requires at least 200 text samples; current=0\", \"real multimodal external test requires at least 40 image-text samples; current=0\"], \"checks\": {\"synthetic_review_count\": 1200, \"strict_query_count\": 80, \"real_dev_count\": 0, \"real_external_count\": 0, \"multimodal_external_count\": 0, \"source_manifest_count\": 4, \"synthetic_risk_type_distribution\": {\"normal_review\": 180, \"negative_review\": 300, \"after_sales_risk\": 720}, \"privacy_hit_count\": 0, \"independent_final_test_available\": false}}",
+        "SFT_DATA_NOT_READY",
+        "VLM_SFT_DATA_NOT_READY"
+      ]
+    },
+    {
+      "name": "security-hygiene",
+      "status": "PASS",
+      "duration_seconds": 3.02,
+      "return_code": 0,
+      "found_markers": [
+        "SECURITY_HYGIENE_CHECK_PASS"
+      ],
+      "expected_markers": [
+        "SECURITY_HYGIENE_CHECK_PASS"
+      ],
+      "expected_blocked_markers": [],
+      "error": null,
+      "output_summary": [
+        "\"result\":  \"SECURITY_HYGIENE_CHECK_PASS\""
+      ]
+    },
+    {
+      "name": "doc-link",
+      "status": "PASS",
+      "duration_seconds": 1.08,
+      "return_code": 0,
+      "found_markers": [
+        "DOC_LINK_CHECK_PASS"
+      ],
+      "expected_markers": [
+        "DOC_LINK_CHECK_PASS"
+      ],
+      "expected_blocked_markers": [],
+      "error": null,
+      "output_summary": [
+        "\"result\":  \"DOC_LINK_CHECK_PASS\""
+      ]
+    },
+    {
+      "name": "encoding",
+      "status": "PASS",
+      "duration_seconds": 17.87,
+      "return_code": 0,
+      "found_markers": [
+        "ENCODING_CHECK_PASS"
+      ],
+      "expected_markers": [
+        "ENCODING_CHECK_PASS"
+      ],
+      "expected_blocked_markers": [],
+      "error": null,
+      "output_summary": [
+        "\"result\":  \"ENCODING_CHECK_PASS\""
+      ]
+    },
+    {
+      "name": "error-message",
+      "status": "PASS",
+      "duration_seconds": 2.15,
+      "return_code": 0,
+      "found_markers": [
+        "ERROR_MESSAGE_CHECK_PASS"
+      ],
+      "expected_markers": [
+        "ERROR_MESSAGE_CHECK_PASS"
+      ],
+      "expected_blocked_markers": [],
+      "error": null,
+      "output_summary": [
+        "\"result\":  \"ERROR_MESSAGE_CHECK_PASS\""
+      ]
+    },
+    {
+      "name": "v161-final-gate",
+      "status": "PASS",
+      "duration_seconds": 0.67,
+      "return_code": 0,
+      "found_markers": [
+        "V161_FINAL_GATE_BLOCKED"
+      ],
+      "expected_markers": [],
+      "expected_blocked_markers": [
+        "V161_FINAL_GATE_BLOCKED"
+      ],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"V161_FINAL_GATE_BLOCKED\", \"release_allowed\": false, \"recommended_tag\": null, \"gates\": [{\"name\": \"synthetic_leakage_audit\", \"status\": \"RAG_LEAKAGE_AUDIT_COMPLETE\", \"expected_for_release\": \"RAG_LEAKAGE_AUDIT_COMPLETE\", \"passed\": true, \"release_required\": false, \"evidence\": \"data/rag/audit/leakage_audit_summary.json\"}, {\"name\": \"source_manifest\", \"status\": \"SOURCE_MANIFEST_PRESENT\", \"expected_for_release\": \"SOURCE_MANIFEST_PRESENT\", \"passed\": true, \"release_required\": false, \"evidence\": \"data/real_world/source_manifest/source_manifest.jsonl\"}, {\"name\": \"realworld_external_eval\", \"status\": \"REALWORLD_EXTERNAL_EVAL_BLOCKED\", \"expected_for_release\": \"REALWORLD_EXTERNAL_EVAL_PASS\", \"passed\": false, \"release_required\": true, \"evidence\": \"data/rag/audit/validity_external_eval_results.json\"}, {\"name\": \"qwen_realworld_external_eval\", \"status\": \"REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED\", \"expected_for_release\": \"REALWORLD_QWEN_EXTERNAL_EVAL_PASS\", \"passed\": false, \"release_required\": true, \"evidence\": \"data/rag/audit/qwen_realworld_external_eval_results.json\"}, {\"name\": \"vlm_provider_smoke\", \"status\": \"VLM_PROVIDER_SMOKE_BLOCKED\", \"expected_for_release\": \"VLM_PROVIDER_SMOKE_PASS\", \"passed\": false, \"release_required\": true, \"evidence\": \"data/multimodal/eval/vlm_provider_smoke_results.json\"}, {\"name\": \"multimodal_vlm_eval\", \"status\": \"MULTIMODAL_VLM_EVAL_BLOCKED\", \"expected_for_release\": \"MULTIMODAL_VLM_EVAL_PASS\", \"passed\": false, \"release_required\": true, \"evidence\": \"data/multimodal/eval/vlm_visual_eval_results.json\"}, {\"name\": \"multimodal_ablation_eval\", \"status\": \"MULTIMODAL_ABLATION_EVAL_BLOCKED\", \"expected_for_release\": \"MULTIMODAL_ABLATION_EVAL_PASS\", \"passed\": false, \"release_required\": true, \"evidence\": \"data/multimodal/eval/multimodal_ablation_results.json\"}, {\"name\": \"route_calibration\", \"status\": \"REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED\", \"expected_for_release\": \"REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_PASS\", \"passed\": false, \"release_required\": true, \"evidence\": \"data/multimodal/eval/route_calibration_results.json\"}, {\"name\": \"text_sft_readiness\", \"status\": \"SFT_DATA_NOT_READY\", \"expected_for_release\": \"SFT_DATA_READY\", \"passed\": false, \"release_required\": true, \"evidence\": \"data/multimodal/audit/sft_data_readiness.json\"}, {\"name\": \"vlm_sft_readiness\", \"status\": \"VLM_SFT_DATA_NOT_READY\", \"expected_for_release\": \"VLM_SFT_DATA_READY\", \"passed\": false, \"release_required\": true, \"evidence\": \"data/multimodal/audit/sft_data_readiness.json\"}, {\"name\": \"forbidden_git_payload\", \"status\": \"NO_FORBIDDEN_TRACKED_PAYLOAD\", \"expected_for_release\": \"NO_FORBIDDEN_TRACKED_PAYLOAD\", \"passed\": true, \"release_required\": true, \"evidence\": \"git ls-files\"}], \"release_blockers\": [\"realworld_external_eval: current=REALWORLD_EXTERNAL_EVAL_BLOCKED, required=REALWORLD_EXTERNAL_EVAL_PASS\", \"qwen_realworld_external_eval: current=REALWORLD_QWEN_EXTERNAL_EVAL_BLOCKED, required=REALWORLD_QWEN_EXTERNAL_EVAL_PASS\", \"vlm_provider_smoke: current=VLM_PROVIDER_SMOKE_BLOCKED, required=VLM_PROVIDER_SMOKE_PASS\", \"multimodal_vlm_eval: current=MULTIMODAL_VLM_EVAL_BLOCKED, required=MULTIMODAL_VLM_EVAL_PASS\", \"multimodal_ablation_eval: current=MULTIMODAL_ABLATION_EVAL_BLOCKED, required=MULTIMODAL_ABLATION_EVAL_PASS\", \"route_calibration: current=REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED, required=REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_PASS\", \"text_sft_readiness: current=SFT_DATA_NOT_READY, required=SFT_DATA_READY\", \"vlm_sft_readiness: current=VLM_SFT_DATA_NOT_READY, required=VLM_SFT_DATA_READY\"], \"forbidden_git_files\": [], \"metrics\": {\"exact_duplicate_count\": 0, \"normalized_duplicate_count\": 0, \"near_duplicate_count\": 0, \"metadata_shortcut_count\": 109, \"strict_no_oracle_hit5\": 0.325, \"real_external_count\": 0, \"qwen_real_external_count\": 0, \"vlm_provider_model_available\": false, \"multimodal_external_count\": 0, \"route_unsafe_auto_pass_rate\": 0.0, \"route_high_risk_review_recall\": 1.0}}",
+        "V161_FINAL_GATE_BLOCKED"
+      ]
+    },
+    {
+      "name": "final-status-summary",
+      "status": "PASS",
+      "duration_seconds": 1.05,
+      "return_code": 0,
+      "found_markers": [
+        "V161_FINAL_STATUS_SUMMARY_COMPLETE"
+      ],
+      "expected_markers": [
+        "V161_FINAL_STATUS_SUMMARY_COMPLETE"
+      ],
+      "expected_blocked_markers": [],
+      "error": null,
+      "output_summary": [
+        "{\"marker\": \"V161_FINAL_STATUS_SUMMARY_COMPLETE\", \"final_gate_marker\": \"V161_FINAL_GATE_BLOCKED\", \"release_allowed\": false}",
+        "V161_FINAL_STATUS_SUMMARY_COMPLETE"
+      ]
+    }
+  ]
+}

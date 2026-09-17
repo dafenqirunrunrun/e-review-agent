@@ -1,0 +1,11 @@
+{
+  "canonicalIndexHash": "b90d071e4dd314831b95a4e933e2b2eee743be2cf1806b1e3e63fa1a9965cc72",
+  "canonicalIndexHashStable": true,
+  "fullVectorHash": "58d1904692fe9c8ace3178ab117d68a5564e870bc87c1eb357f69425c5669902",
+  "metadataHashStable": true,
+  "postingHashStable": true,
+  "resultRankingHashStable": true,
+  "schemaVersion": "agent-rag-v23-bge-m3-sparse-index-repeatability-v1",
+  "status": "PASS",
+  "subsetVectorHash": "af1a501ae0064edfd0e45e9368ae16f1244cd81a3c4823a8453f2058c8204fec"
+}

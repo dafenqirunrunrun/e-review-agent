@@ -1,0 +1,9 @@
+{
+  "status": "VERIFIED_PARTIAL",
+  "duration_seconds": 5400,
+  "request_count": 10579,
+  "has_start_end_timestamps": false,
+  "activity_bucket_count": 0,
+  "blank_intervals": "UNVERIFIABLE_NO_PER_REQUEST_TIMESTAMPS",
+  "finding": "Aggregate artifact supports duration and count, but lacks per-request timestamps required for adversarial activity-bucket proof."
+}

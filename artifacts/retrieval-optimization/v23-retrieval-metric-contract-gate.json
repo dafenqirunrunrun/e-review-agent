@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "auditPass": true,
+    "correctedBaselinePresent": true,
+    "metricFamiliesSeparated": true,
+    "oldContradictionRecorded": true,
+    "rawUnionGteBm25Coverage": true,
+    "rawUnionGteBm25Recall": true,
+    "rawUnionGteDenseCoverage": true,
+    "rawUnionGteDenseRecall": true
+  },
+  "schemaVersion": "agent-rag-v23-retrieval-metric-contract-gate-v1",
+  "status": "PASS"
+}

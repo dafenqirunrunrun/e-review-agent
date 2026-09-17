@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-07-15T13:58:29.777106+00:00",
+  "status": "V168_PRETRAIN_CONTRACT_INTEGRITY_PASS",
+  "contract_version": "v2.0.0",
+  "prompt_version": "v2.0.0",
+  "evaluator_version": "v2.1.0",
+  "completion_encoding_version": "completion_only_v2.0.0",
+  "lineage_version": "v2.1_composite_lineage_group",
+  "current_hashes": {
+    "contract": "64fe5d6b1c1a6f33402e071ecd19cc2b8e37022c5b7063c9d705ad6d5f0282fd",
+    "prompt_renderer": "b020c71e526b15df6f172155ada4cf56a6884868e05c2209c9611cb22590d6be",
+    "prompt": "2804841a4f2dd495bb60cb667af24605043943429a50dcaeb0c453ab79a1cf4f",
+    "evaluator": "217ae3bbcd2c8a98043f0cf9edbf249df50183a903730a96e922fceea187c2fa",
+    "completion_encoder": "7ae0d8b9f5233f6b7116dac41d38ce5a6e02301a790f3c4399a0ee78a3751876"
+  },
+  "frozen_git_head": "da2e0399",
+  "frozen_hashes": {
+    "contract": "64fe5d6b1c1a6f33402e071ecd19cc2b8e37022c5b7063c9d705ad6d5f0282fd",
+    "prompt_renderer": "b020c71e526b15df6f172155ada4cf56a6884868e05c2209c9611cb22590d6be",
+    "prompt": "2804841a4f2dd495bb60cb667af24605043943429a50dcaeb0c453ab79a1cf4f",
+    "evaluator": "217ae3bbcd2c8a98043f0cf9edbf249df50183a903730a96e922fceea187c2fa",
+    "completion_encoder": "7ae0d8b9f5233f6b7116dac41d38ce5a6e02301a790f3c4399a0ee78a3751876"
+  },
+  "manifest_hashes": {
+    "train": "85af6046826a9513c74ae82500f23ed897b17592ffb843629349a0ba16eaf80d",
+    "validation": "aab86c24c708bccbd667ea9c6b26f57b3b9551b1b3b502e17bc06e2b00d0b0ad",
+    "holdout": "5fc5b12157715553bbb2762031938cb5184002d30df82dc4e43b1935108d634a"
+  },
+  "frozen_manifest_hashes": {
+    "train": "85af6046826a9513c74ae82500f23ed897b17592ffb843629349a0ba16eaf80d",
+    "validation": "aab86c24c708bccbd667ea9c6b26f57b3b9551b1b3b502e17bc06e2b00d0b0ad",
+    "holdout": "5fc5b12157715553bbb2762031938cb5184002d30df82dc4e43b1935108d634a"
+  },
+  "chat_template_metadata": {
+    "tokenizer": "Qwen3-1.7B",
+    "enable_thinking": false,
+    "hash": "f66e180670a4299fc0d1a8cdcb48f38261cbded41148a8f28a1884f8252e3ef9"
+  },
+  "pass_map": {
+    "contract_hash_consistent": true,
+    "prompt_renderer_hash_consistent": true,
+    "prompt_hash_consistent": true,
+    "evaluator_hash_consistent": true,
+    "completion_encoder_hash_consistent": true,
+    "train_manifest_hash_consistent": true,
+    "validation_manifest_hash_consistent": true,
+    "holdout_manifest_hash_consistent": true,
+    "contract_version_consistent": true,
+    "prompt_version_consistent": true,
+    "evaluator_version_consistent": true,
+    "completion_encoding_version_consistent": true
+  }
+}

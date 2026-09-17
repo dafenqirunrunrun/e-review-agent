@@ -1,0 +1,13 @@
+{
+  "status": "V182_REAL_BGE_FAISS_INDEX_PASS",
+  "index_type": "IndexFlatIP",
+  "vector_count": 900,
+  "dimension": 1024,
+  "active_version": "bge-m3-20260717T024725249663Z",
+  "second_process_load": {
+    "ntotal": 900,
+    "version": "bge-m3-20260717T024725249663Z"
+  },
+  "corruption_rejected": true,
+  "manifest_hash": "1b6634ad08e2f826db17d7dcec90660b55cc6dc0e602621c6c5a70329c59d29f"
+}

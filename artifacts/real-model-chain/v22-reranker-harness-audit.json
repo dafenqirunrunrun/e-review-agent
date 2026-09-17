@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "fallbackNotCountedAsReal": true,
+    "identityMappingByChunkId": true,
+    "missingScoreNotHighest": true,
+    "noDocumentIdAsPassageInput": true,
+    "normalizeDoesNotChangeOrderTested": false,
+    "sameCandidatePool": true,
+    "sameFinalK": true,
+    "sameKnowledgeSnapshot": true,
+    "sameQueryForHybridDeterministicReal": true,
+    "sameTenantFilter": true,
+    "scoreDescendingSort": true,
+    "stableTieBreakOriginalRankChunkId": true
+  },
+  "createdAtUtc": "2026-07-22T13:12:10Z",
+  "observations": [
+    "Static inspection confirms runtime sorting uses score descending with original rank and chunk id tie-breaks.",
+    "Benchmark rows do not include raw reranker scores, so score normalization order must be covered by a real model unit test.",
+    "No-answer cases currently return top-k candidates; this is measured as false evidence and is not hidden as a runtime pass.",
+    "Expired evidence leaks are measured by the benchmark; runtime candidate validation does not currently reject effective_to rows before reranking."
+  ],
+  "schemaVersion": "agent-rag-v22-reranker-harness-audit-v1",
+  "sourceCommit": "57858817",
+  "status": "PASS_WITH_TEST_GAPS"
+}

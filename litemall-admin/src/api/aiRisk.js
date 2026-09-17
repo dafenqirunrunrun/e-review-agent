@@ -31,9 +31,25 @@ export function closeRiskTask(data) {
   })
 }
 
+export function humanReviewRiskTask(data) {
+  return request({
+    url: '/ai/risk/human-review',
+    method: 'post',
+    data
+  })
+}
+
 export function riskSummary() {
   return request({
     url: '/ai/risk/summary',
     method: 'get'
+  })
+}
+
+export function governanceQualityMetrics(hours = 24) {
+  return request({
+    url: '/ai/risk/quality-metrics',
+    method: 'get',
+    params: { hours }
   })
 }

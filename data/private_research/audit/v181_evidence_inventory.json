@@ -1,0 +1,385 @@
+{
+  "status": "V181_EVIDENCE_INVENTORY_COMPLETE",
+  "items": [
+    {
+      "gate_name": "real_dense",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [
+        "ai-service/app/rag/embedding_provider.py",
+        "ai-service/app/rag_v2/dense_encoder.py"
+      ],
+      "test_files": [
+        "D:/EReviewAgent/litemall/ai-service/tests/test_qwen_realworld_external_eval.py",
+        "D:/EReviewAgent/litemall/ai-service/tests/test_realworld_ingest.py",
+        "D:/EReviewAgent/litemall/ai-service/tests/test_realworld_v16110_provenance_gate.py",
+        "D:/EReviewAgent/litemall/ai-service/tests/test_realworld_v16111_privacy_detector_closure.py",
+        "D:/EReviewAgent/litemall/ai-service/tests/test_realworld_v16112_authorized_intake_gate.py",
+        "D:/EReviewAgent/litemall/ai-service/tests/test_realworld_v1616_pipeline.py",
+        "D:/EReviewAgent/litemall/ai-service/tests/test_realworld_v1619_pilot_gate.py",
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_observability_real_signals.py",
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_real_embedding_and_faiss.py",
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_real_retrieval_eval.py"
+      ],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "model_dir": "D:\\EReviewAgent\\models\\bge-m3",
+        "model_exists": true,
+        "model_hash": "dfb1897399b5033f6cf3a6c0f14395a9de4c5629de470c8b17db52464c768602",
+        "status": "VERIFIED_PARTIAL",
+        "pairs_executed": 30,
+        "dense_production_path_contains_hash": true,
+        "health": {
+          "available": true,
+          "provider": "bge_m3",
+          "model_id": "BAAI/bge-m3",
+          "model_path_label": "<repo-external>/models/bge-m3",
+          "model_hash_present": true
+        },
+        "dimension": 1024,
+        "finite": true,
+        "norm_min": 1.0,
+        "norm_max": 1.0000001192092896,
+        "same_text_consistent": true,
+        "batch_single_consistent": true,
+        "semantic_margin_positive_count": 30
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_real_embedding_revalidation.json": "a1b22c53fd3b94ae141423aed6ab11090d7f9aa4b717c511c3b354fb7badd346",
+        "data/private_research/audit/v181_real_http_revalidation.json": "d6b4d962280ba77f4cced44bd700652e7714d90d3a649751b7ae5de35cb8bc37"
+      },
+      "real_or_mock": "partial_or_static",
+      "reproducible": true,
+      "missing_evidence": [],
+      "audit_status": "VERIFIED_PARTIAL"
+    },
+    {
+      "gate_name": "faiss",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [
+        "ai-service/app/rag/versioned_faiss_index.py"
+      ],
+      "test_files": [
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_real_embedding_and_faiss.py"
+      ],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "status": "V180_VERSIONED_FAISS_REVALIDATED",
+        "faiss_add_calls": 3,
+        "faiss_search_calls": 2,
+        "index_type": "IndexFlatIP",
+        "vector_count": 4,
+        "dimension": 4,
+        "metadata_mapping": [
+          {
+            "active": true,
+            "chunk_id": "c1",
+            "document_id": "d1",
+            "tenant_id": "tenant-a"
+          }
+        ],
+        "active_version_after_rollback": "bge-m3-20260717T015020278447Z",
+        "active_before_corrupt": "bge-m3-20260717T015020278447Z",
+        "corruption_detected": true,
+        "search_top_id": 0,
+        "restart_load_status": "PASS"
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_faiss_revalidation.json": "641f1d758d507246909c534fe5d46c434109877447b9ce952dca0a63e9f69897"
+      },
+      "real_or_mock": "real",
+      "reproducible": true,
+      "missing_evidence": [],
+      "audit_status": "VERIFIED_REAL"
+    },
+    {
+      "gate_name": "sparse",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [
+        "ai-service/app/rag/persistent_sparse_index.py"
+      ],
+      "test_files": [
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_persistent_sparse_index.py"
+      ],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "status": "V180_PERSISTENT_SPARSE_REVALIDATED",
+        "process_count": 2,
+        "first_process": {
+          "version": "bm25-20260717T015020397607Z",
+          "hits": [
+            "a"
+          ]
+        },
+        "second_process": {
+          "version": "bm25-20260717T015020383067Z",
+          "hits": [
+            "a"
+          ]
+        },
+        "rollback_version": "bm25-20260717T015020383067Z"
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_sparse_revalidation.json": "abbb8c341d50e44f464a40e5649a8f3b01027cb3e7999603cd71381599006574"
+      },
+      "real_or_mock": "real",
+      "reproducible": true,
+      "missing_evidence": [],
+      "audit_status": "VERIFIED_REAL"
+    },
+    {
+      "gate_name": "tenant",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [
+        "ai-service/app/rag/tenant_acl.py"
+      ],
+      "test_files": [
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_tenant_acl.py"
+      ],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "status": "V180_TENANT_ISOLATION_REVALIDATED",
+        "attack_count": 80,
+        "tenant_leakage_count": 0,
+        "coverage": [
+          "Sparse",
+          "Dense",
+          "Hybrid",
+          "Cache",
+          "Agent",
+          "API",
+          "Session",
+          "Tool"
+        ],
+        "sample": [
+          {
+            "attack": 1,
+            "tenant": "tenant-0",
+            "foreign": "tenant-1",
+            "leaked": []
+          },
+          {
+            "attack": 2,
+            "tenant": "tenant-1",
+            "foreign": "tenant-2",
+            "leaked": []
+          },
+          {
+            "attack": 3,
+            "tenant": "tenant-2",
+            "foreign": "tenant-3",
+            "leaked": []
+          },
+          {
+            "attack": 4,
+            "tenant": "tenant-3",
+            "foreign": "tenant-4",
+            "leaked": []
+          },
+          {
+            "attack": 5,
+            "tenant": "tenant-4",
+            "foreign": "tenant-5",
+            "leaked": []
+          }
+        ]
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_tenant_isolation_revalidation.json": "5d411c2c1fc68ebaed7c96d149136b4f383e7bc94673033582104a8a20f4bb3e"
+      },
+      "real_or_mock": "real",
+      "reproducible": true,
+      "missing_evidence": [],
+      "audit_status": "VERIFIED_REAL"
+    },
+    {
+      "gate_name": "benchmark",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [],
+      "test_files": [
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_difficult_benchmark.py"
+      ],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "status": "V180_BENCHMARK_PROVENANCE_BLOCKED",
+        "corpus_count": 192,
+        "query_count": 52,
+        "query_gold_exact_overlap": 0,
+        "gold_id_exposure": 0,
+        "gold_ids_in_corpus": 0,
+        "query_and_corpus_share_generator_file": true,
+        "template_family_overlap": "LIKELY"
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_benchmark_provenance_audit.json": "ad979e247d2b6426256b3c172a1757df4ede74f5efce99788bf39aa0e15054b8",
+        "data/private_research/audit/v181_independent_benchmark_eval.json": "8f839f0191c145b155e89e69f5466b0d44f4f2c263cefb770b3969b054f53b68"
+      },
+      "real_or_mock": "partial_or_static",
+      "reproducible": true,
+      "missing_evidence": [],
+      "audit_status": "CONTRADICTED"
+    },
+    {
+      "gate_name": "soak",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [],
+      "test_files": [
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_performance_soak.py"
+      ],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "status": "VERIFIED_PARTIAL",
+        "duration_seconds": 5400,
+        "request_count": 10579,
+        "has_start_end_timestamps": false,
+        "activity_bucket_count": 0,
+        "blank_intervals": "UNVERIFIABLE_NO_PER_REQUEST_TIMESTAMPS",
+        "finding": "Aggregate artifact supports duration and count, but lacks per-request timestamps required for adversarial activity-bucket proof."
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_soak_revalidation.json": "6f05273a64cbdd5b19d389dc51e09192fc1efe1546174f96f8cfd4bb5e01e07e"
+      },
+      "real_or_mock": "partial_or_static",
+      "reproducible": true,
+      "missing_evidence": [
+        "per_request_timestamps"
+      ],
+      "audit_status": "VERIFIED_PARTIAL"
+    },
+    {
+      "gate_name": "failure_injection",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [],
+      "test_files": [
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_failure_injection.py"
+      ],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "status": "V180_FAILURE_INJECTION_REVALIDATED",
+        "original_case_count": 25,
+        "resampled_case_count": 10,
+        "resampled_cases": [
+          "prompt_injection_english",
+          "prompt_injection_chinese",
+          "pii_phone_redaction",
+          "pii_bearer_redaction",
+          "safe_logger_drops_raw",
+          "tenant_empty_rejected",
+          "tenant_path_traversal_rejected",
+          "tenant_zero_width_rejected",
+          "acl_cross_tenant_filtered",
+          "acl_deleted_filtered"
+        ],
+        "limitation": "v1.8.1 reviewed and reused deterministic failure functions; it did not rerun all long runtime failures."
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_failure_injection_revalidation.json": "286373dc462976163ba912a522ee05b8b983e69337c871caf7f2ce359e8308d8"
+      },
+      "real_or_mock": "real",
+      "reproducible": true,
+      "missing_evidence": [],
+      "audit_status": "VERIFIED_REAL"
+    },
+    {
+      "gate_name": "http",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [
+        "ai-service/app/api/enterprise_e_review.py",
+        "ai-service/app/main.py"
+      ],
+      "test_files": [],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "status": "V180_REAL_HTTP_REVALIDATED",
+        "process_id": 26816,
+        "port": 14002,
+        "request_count": 100,
+        "status_codes": {
+          "200": 80,
+          "422": 20
+        },
+        "independent_process": true,
+        "process_exited": true
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_real_http_revalidation.json": "d6b4d962280ba77f4cced44bd700652e7714d90d3a649751b7ae5de35cb8bc37"
+      },
+      "real_or_mock": "real",
+      "reproducible": true,
+      "missing_evidence": [],
+      "audit_status": "VERIFIED_REAL"
+    },
+    {
+      "gate_name": "java",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [],
+      "test_files": [
+        "D:/EReviewAgent/litemall/ai-service/tests/test_v180_enterprise_api_java_contract.py"
+      ],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "status": "VERIFIED_PARTIAL",
+        "maven_version": [],
+        "command": "mvn -pl litemall-admin-api test",
+        "returncode": -1,
+        "build_success": false,
+        "skipped_tests": false,
+        "stdout_tail": [],
+        "stderr_tail": [
+          "FileNotFoundError(2, '系统找不到指定的文件。', None, 2, None)"
+        ]
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_java_contract_revalidation.json": "a278820f777574576a3ce9154bca907a554c1f9bc82cb187ba842bd2b7cf069c"
+      },
+      "real_or_mock": "partial_or_static",
+      "reproducible": true,
+      "missing_evidence": [
+        "maven_test_success"
+      ],
+      "audit_status": "VERIFIED_PARTIAL"
+    },
+    {
+      "gate_name": "docker",
+      "claimed_status": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+      "implementation_files": [
+        "docker-compose.yml",
+        ".github/workflows/v180-static-readiness.yml"
+      ],
+      "test_files": [],
+      "test_function_count": 100,
+      "command_evidence": "299 passed in 197.76s",
+      "runtime_evidence": {
+        "compose_status": "COMPOSE_STATIC_INVALID",
+        "docker_available": true,
+        "build_status": "IMAGE_BUILD_UNAVAILABLE_OR_FAIL",
+        "runtime_status": "V180_DOCKER_RUNTIME_UNAVAILABLE",
+        "container_health_status": "NOT_EXECUTED",
+        "api_smoke_status": "NOT_EXECUTED",
+        "no_secret_scan": true,
+        "stdout_tail": [],
+        "stderr_tail": [
+          "no configuration file provided: not found",
+          "Docker unavailable or compose config failed"
+        ]
+      },
+      "artifact_hashes": {
+        "data/private_research/audit/v181_docker_revalidation.json": "26944acbaa0a0d59dc1bdc4a94e901513b1be97583370cda1f1ec980e31eaf2c"
+      },
+      "real_or_mock": "partial_or_static",
+      "reproducible": true,
+      "missing_evidence": [
+        "container_start_health_smoke"
+      ],
+      "audit_status": "VERIFIED_STATIC_ONLY"
+    }
+  ]
+}

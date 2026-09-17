@@ -1,0 +1,59 @@
+[
+  {
+    "analysisId": 301,
+    "reviewId": "not-a-candidate",
+    "productId": "P301",
+    "productName": "历史商品",
+    "reviewText": "商品包装完整。",
+    "rating": 5,
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v2\",\"riskTypes\":[\"normal_review\"],\"evidenceStatus\":\"supported\",\"decision\":{\"code\":\"auto_pass\"}}}]",
+    "riskTaskId": 401,
+    "status": "pending"
+  },
+  {
+    "analysisId": 302,
+    "reviewId": "pending-cashback-drift",
+    "productId": "P302",
+    "productName": "历史商品",
+    "reviewText": "五星截图返现，晒图后返10元。",
+    "rating": 5,
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v2\",\"governanceSchemaVersion\":\"review-governance-v2\",\"requiresReevaluation\":true,\"riskTypes\":[\"after_sales_risk\",\"rating_manipulation\"],\"evidenceStatus\":\"mismatch\",\"decision\":{\"code\":\"manual_review\"},\"humanReview\":{\"required\":true}}}]",
+    "riskTaskId": 402,
+    "status": "pending"
+  },
+  {
+    "analysisId": 303,
+    "reviewId": "closed-cashback-drift",
+    "productId": "P303",
+    "productName": "历史商品",
+    "reviewText": "五星截图返现，晒图后返10元。",
+    "rating": 5,
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v2\",\"governanceSchemaVersion\":\"review-governance-v2\",\"requiresReevaluation\":true,\"riskTypes\":[\"after_sales_risk\",\"rating_manipulation\"],\"evidenceStatus\":\"mismatch\",\"decision\":{\"code\":\"manual_review\"},\"humanReview\":{\"required\":true}}}]",
+    "riskTaskId": 403,
+    "status": "closed",
+    "handler": "operator-a",
+    "handleNote": "人工改判：无需处置"
+  },
+  {
+    "analysisId": 304,
+    "reviewId": "unchanged-candidate",
+    "productId": "P304",
+    "productName": "历史商品",
+    "reviewText": "普通评价。",
+    "rating": 5,
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v2\",\"governanceSchemaVersion\":\"review-governance-v2\",\"requiresReevaluation\":true,\"riskTypes\":[\"normal_review\"],\"evidenceStatus\":\"supported\",\"decision\":{\"code\":\"auto_pass\"},\"humanReview\":{\"required\":false}}}]",
+    "riskTaskId": 404,
+    "status": "pending"
+  },
+  {
+    "analysisId": 305,
+    "reviewId": "unknown-not-candidate",
+    "productId": "P305",
+    "productName": "历史商品",
+    "reviewText": "历史特殊风险。",
+    "rating": 3,
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v2\",\"riskTypes\":[\"legacy_unclassified\"],\"evidenceStatus\":\"insufficient\",\"decision\":{\"code\":\"manual_review\"}}}]",
+    "riskTaskId": 405,
+    "status": "pending"
+  }
+]

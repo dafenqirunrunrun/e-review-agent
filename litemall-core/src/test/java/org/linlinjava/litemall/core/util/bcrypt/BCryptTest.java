@@ -4,14 +4,7 @@ import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import org.junit.runner.RunWith;
-import org.powermock.api.mockito.PowerMockito;
-import org.powermock.core.classloader.annotations.PrepareForTest;
-import org.powermock.modules.junit4.PowerMockRunner;
 
-import java.security.SecureRandom;
-
-@RunWith(PowerMockRunner.class)
 public class BCryptTest {
 
     @Rule
@@ -88,13 +81,14 @@ public class BCryptTest {
                 BCrypt.hashpw("foo", "$2$09$......................"));
     }
 
-    @PrepareForTest({BCrypt.class, SecureRandom.class})
     @Test
-    public void testGensalt() throws Exception {
-        PowerMockito.whenNew(SecureRandom.class).withNoArguments()
-                .thenReturn(PowerMockito.mock(SecureRandom.class));
-        Assert.assertEquals("$2a$10$......................", BCrypt.gensalt());
-        Assert.assertEquals("$2a$09$......................", BCrypt.gensalt(9));
+    public void testGensalt() {
+        String defaultSalt = BCrypt.gensalt();
+        String roundsSalt = BCrypt.gensalt(9);
+
+        Assert.assertTrue(defaultSalt.matches("\\$2a\\$10\\$[./A-Za-z0-9]{22}"));
+        Assert.assertTrue(roundsSalt.matches("\\$2a\\$09\\$[./A-Za-z0-9]{22}"));
+        Assert.assertNotEquals(defaultSalt, BCrypt.gensalt());
     }
 
     @Test

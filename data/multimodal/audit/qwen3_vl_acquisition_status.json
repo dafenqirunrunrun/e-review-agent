@@ -1,0 +1,139 @@
+{
+  "marker": "QWEN3_VL_ACQUISITION_READY_DIRECT_BLOCKED_GPU_GATE",
+  "repo_id": "Qwen/Qwen3-VL-2B-Instruct",
+  "model_dir": "D:\\EReviewAgent\\models\\Qwen3-VL-2B-Instruct",
+  "model_dir_outside_git": true,
+  "model_file_count": 10,
+  "model_total_size_mb": 4068.99,
+  "model_safetensors_size_bytes": 4255140312,
+  "part_files": [],
+  "accelerate_status": {
+    "missing_or_unreadable": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+  },
+  "direct_download_status": {
+    "missing_or_unreadable": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+  },
+  "verify_result": {
+    "marker": "VLM_MODEL_READY",
+    "repo_id": "Qwen/Qwen3-VL-2B-Instruct",
+    "model_dir": "D:\\EReviewAgent\\models\\Qwen3-VL-2B-Instruct",
+    "summary": {
+      "exists": true,
+      "file_count": 10,
+      "total_size_mb": 4068.99,
+      "required_files": {
+        "chat_template.json": {
+          "exists": true,
+          "size": 5502,
+          "non_empty": true
+        },
+        "config.json": {
+          "exists": true,
+          "size": 1505,
+          "non_empty": true
+        },
+        "generation_config.json": {
+          "exists": true,
+          "size": 269,
+          "non_empty": true
+        },
+        "merges.txt": {
+          "exists": true,
+          "size": 1671839,
+          "non_empty": true
+        },
+        "model.safetensors": {
+          "exists": true,
+          "size": 4255140312,
+          "non_empty": true
+        },
+        "preprocessor_config.json": {
+          "exists": true,
+          "size": 390,
+          "non_empty": true
+        },
+        "tokenizer.json": {
+          "exists": true,
+          "size": 7032403,
+          "non_empty": true
+        },
+        "tokenizer_config.json": {
+          "exists": true,
+          "size": 10868,
+          "non_empty": true
+        },
+        "video_preprocessor_config.json": {
+          "exists": true,
+          "size": 385,
+          "non_empty": true
+        },
+        "vocab.json": {
+          "exists": true,
+          "size": 2776833,
+          "non_empty": true
+        }
+      },
+      "missing_required_files": [],
+      "empty_required_files": [],
+      "partial_files": [],
+      "has_config": true,
+      "has_tokenizer_json": true,
+      "has_processor": true,
+      "safetensors_files": [
+        "model.safetensors"
+      ],
+      "has_safetensors": true,
+      "model_safetensors_size_mb": 4058.02,
+      "model_safetensors_reasonable_size": true,
+      "weight_index_files": [],
+      "has_generation_config": true
+    },
+    "checks": {
+      "model_dir_outside_git": true,
+      "required_files_exist": true,
+      "required_files_non_empty": true,
+      "no_part_files": true,
+      "model_safetensors_reasonable_size": true,
+      "config_json_parseable": true,
+      "tokenizer_json_parseable": true,
+      "tokenizer_config_json_parseable": true,
+      "auto_config": true,
+      "auto_processor": true,
+      "safetensors_header_readable": true,
+      "qwen3_vl_model_class": true
+    },
+    "details": {
+      "transformers_qwen3_vl_import": true,
+      "auto_config_model_type": "qwen3_vl",
+      "auto_config_architectures": [
+        "Qwen3VLForConditionalGeneration"
+      ],
+      "safetensors_key_count": 625,
+      "safetensors_key_sample": [
+        "model.language_model.embed_tokens.weight",
+        "model.language_model.layers.0.input_layernorm.weight",
+        "model.language_model.layers.0.mlp.down_proj.weight",
+        "model.language_model.layers.0.mlp.gate_proj.weight",
+        "model.language_model.layers.0.mlp.up_proj.weight",
+        "model.language_model.layers.0.post_attention_layernorm.weight",
+        "model.language_model.layers.0.self_attn.k_norm.weight",
+        "model.language_model.layers.0.self_attn.k_proj.weight",
+        "model.language_model.layers.0.self_attn.o_proj.weight",
+        "model.language_model.layers.0.self_attn.q_norm.weight"
+      ]
+    },
+    "blockers": [],
+    "errors": []
+  },
+  "direct_smoke_result": {
+    "marker": "VLM_DIRECT_INFERENCE_BLOCKED_GPU_WAIT_TIMEOUT",
+    "real_inference": false,
+    "cuda_used": true,
+    "fallback_used": false,
+    "generate_executed": false,
+    "error_message": "GPU_WAIT_TIMEOUT_BLOCKED",
+    "gpu_memory_after_unload_mb": 0.0,
+    "gpu_memory_release_marker": "GPU_MEMORY_RELEASE_PASS"
+  },
+  "conclusion": "Model files are ready, but direct inference did not run because the single GPU gate timed out below the 6000 MB free-memory threshold."
+}

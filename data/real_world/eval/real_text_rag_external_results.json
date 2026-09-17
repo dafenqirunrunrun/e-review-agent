@@ -1,0 +1,7 @@
+{
+  "marker": "REALWORLD_TEXT_RAG_EVAL_BLOCKED",
+  "blocking_reasons": [
+    "real text external test requires at least 200 isolated samples"
+  ],
+  "sample_count": 0
+}

@@ -8,6 +8,7 @@ from dataclasses import dataclass
 class PromptInjectionGuard:
     PATTERNS = [
         re.compile(r"ignore previous instructions", re.I),
+        re.compile(r"ignore (all )?(prior|policy|policies|rules)", re.I),
         re.compile(r"ignore (all )?(system|developer|safety) instructions", re.I),
         re.compile(r"system prompt", re.I),
         re.compile(r"tool call", re.I),

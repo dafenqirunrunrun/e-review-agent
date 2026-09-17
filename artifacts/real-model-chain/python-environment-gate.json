@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "tokens": [
+    "E_REVIEW_V22_PYTHON_ENVIRONMENT_PASS"
+  ],
+  "failures": [],
+  "checks": {
+    "pythonExecutableLabel": "python.exe",
+    "pythonStarts": true,
+    "pipCheckPass": true,
+    "pipCheckOutput": "No broken requirements found.",
+    "torchVersion": "2.5.1+cu121",
+    "cudaVersion": "12.1",
+    "torchCudaPass": true,
+    "gpuName": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "totalMemoryBytes": 8585216000,
+    "computeCapability": [
+      8,
+      9
+    ],
+    "faiss": "1.8.0",
+    "FlagEmbedding": "unknown",
+    "transformers": "4.51.3",
+    "accelerate": "1.14.0",
+    "flagRerankerImportPass": true,
+    "qwen3ArchitectureRecognized": true
+  }
+}

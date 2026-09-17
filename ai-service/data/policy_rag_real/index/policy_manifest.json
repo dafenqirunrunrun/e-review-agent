@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "policy-rag-index-v1",
+  "generatedAt": "2026-09-13T08:40:24Z",
+  "chunkPath": "data\\policy_rag_real\\index\\policy_chunks.jsonl",
+  "chunkCount": 123,
+  "sourceCount": 6,
+  "indexHash": "9fd2022e98e54992542bf489620a13844eb70576ef2451f3119360f23da3f704",
+  "retrieval": {
+    "sparse": {
+      "status": "ready",
+      "strategy": "bm25"
+    },
+    "dense": {
+      "schemaVersion": "policy-rag-faiss-v1",
+      "status": "ready",
+      "builtAt": "2026-09-13T08:40:24Z",
+      "indexPath": "data\\policy_rag_real\\index\\policy_vectors.faiss",
+      "metaPath": "data\\policy_rag_real\\index\\policy_vectors_meta.json",
+      "vectorCount": 123,
+      "chunkCount": 123,
+      "dimension": 1024,
+      "indexType": "IndexFlatIP",
+      "metric": "inner-product",
+      "provider": {
+        "providerType": "qwen3-embedding-transformers",
+        "modelName": "Qwen/Qwen3-Embedding-0.6B",
+        "modelPath": "D:\\EReviewAgent\\models\\Qwen3-Embedding-0.6B",
+        "dimension": 1024,
+        "device": "cuda",
+        "normalize": true,
+        "loaded": true,
+        "library": "transformers",
+        "libraryVersion": "5.16.1",
+        "pooling": "attention-mask-mean",
+        "maxLength": 96,
+        "allowRemote": false,
+        "modelFingerprint": "74eaf6b96a6aa50a43403465fd445855",
+        "coldStartLatencyMs": 13726,
+        "lastEmbeddingLatencyMs": 16748,
+        "modelLoadCount": 1,
+        "queueWaitMs": 0,
+        "embeddingComputeMs": 3020,
+        "embeddingGate": {
+          "maxConcurrency": 1,
+          "queueTimeoutMs": 30000,
+          "queueWaitMs": {
+            "count": 1,
+            "avg": 0,
+            "p95": 0,
+            "max": 0
+          },
+          "computeMs": {
+            "count": 1,
+            "avg": 3020,
+            "p95": 3020,
+            "max": 3020
+          }
+        }
+      },
+      "contentRootHash": "22eaf18392d42e3e724fb259ebc9e35568b10d9ab92f7a210c3a3ecbf0b81a88"
+    },
+    "fallback": "bm25"
+  },
+  "sources": [
+    {
+      "sourceId": "ftc_16_cfr_part_465",
+      "sourceUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-465",
+      "sourceName": "16 CFR Part 465",
+      "sourceType": "regulation",
+      "jurisdiction": "US",
+      "language": "en",
+      "parser": "lightweight_html",
+      "parserVersion": "policy-rag-v1",
+      "licenseClass": "public_domain",
+      "fetchedAt": "2026-09-13T08:40:06Z",
+      "contentHash": "724c9c9b134952eccaac407e86beb4ea6e63ca8822c5197594d73ea6ee3e58a5",
+      "metadata": {
+        "source_file": "ftc_16_cfr_part_465.xml",
+        "mineru_fallback": false,
+        "fetchedAt": "2026-09-06T08:47:25Z",
+        "httpContentType": "application/xml; charset=utf-8",
+        "rawContentHash": "0ed274f696f88713e0a1560408acb9b9c611b90959fb686b2afe547df568d6c4"
+      }
+    },
+    {
+      "sourceId": "cn_ecommerce_law_review_credit",
+      "sourceUrl": "https://www.mofcom.gov.cn/zhrmghgdzswf/fg/art/2018/art_cc9187dd95cd40158552d78a610e8c29.html",
+      "sourceName": "中华人民共和国电子商务法",
+      "sourceType": "law",
+      "jurisdiction": "CN",
+      "language": "zh",
+      "parser": "lightweight_html",
+      "parserVersion": "policy-rag-v1",
+      "licenseClass": "public_reference_restricted",
+      "fetchedAt": "2026-09-13T08:40:06Z",
+      "contentHash": "58e3bfcd8e29f84dd462a80d422bb6bb2748c0dabd682c3e2f825a33dadc02e4",
+      "metadata": {
+        "source_file": "cn_ecommerce_law_review_credit.html",
+        "mineru_fallback": false,
+        "fetchedAt": "2026-09-06T08:47:25Z",
+        "httpContentType": "text/html",
+        "rawContentHash": "df6046ff925456ce567a4b5b0384fb4201cc3655766511ef6e8c1021d5056833"
+      }
+    },
+    {
+      "sourceId": "cn_online_transaction_supervision",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/202104/t20210423_357848.html",
+      "sourceName": "网络交易监督管理办法",
+      "sourceType": "regulation",
+      "jurisdiction": "CN",
+      "language": "zh",
+      "parser": "lightweight_html",
+      "parserVersion": "policy-rag-v1",
+      "licenseClass": "public_reference_restricted",
+      "fetchedAt": "2026-09-13T08:40:06Z",
+      "contentHash": "680679064d7fde49eb162dae429a0e1d7d5038500769f4f550ca901dad239b57",
+      "metadata": {
+        "source_file": "cn_online_transaction_supervision.html",
+        "mineru_fallback": false,
+        "fetchedAt": "2026-09-06T08:47:27Z",
+        "httpContentType": "text/html",
+        "rawContentHash": "3c8258472d97b5ce9e4e8159af758b0405f0c8029fa192e34c94dd51168e20fc"
+      }
+    },
+    {
+      "sourceId": "google_maps_ugc_policy",
+      "sourceUrl": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "sourceName": "Google Maps User Generated Content Policy",
+      "sourceType": "platform_policy",
+      "jurisdiction": "platform",
+      "language": "en",
+      "parser": "lightweight_html",
+      "parserVersion": "policy-rag-v1",
+      "licenseClass": "public_reference_restricted",
+      "fetchedAt": "2026-09-13T08:40:06Z",
+      "contentHash": "725ba0adad29aa42e220bba6a40327946a2c190b52c27795aac07b47b9b5b79f",
+      "metadata": {
+        "source_file": "google_maps_ugc_policy.html",
+        "mineru_fallback": false,
+        "fetchedAt": "2026-09-06T08:47:29Z",
+        "httpContentType": "text/html; charset=UTF-8",
+        "rawContentHash": "a7cedc55f6cd6dc69490b55c09f3d03a1be4da25c1b675471bdc0fdd8b5b9b66"
+      }
+    },
+    {
+      "sourceId": "cn_consumer_rights_protection_law",
+      "sourceUrl": "https://www.samr.gov.cn/zfjcj/tzgg/art/2023/art_615af9ed6bcd4974bf853dd2e02bc663.html",
+      "sourceName": "中华人民共和国消费者权益保护法",
+      "sourceType": "law",
+      "jurisdiction": "CN",
+      "language": "zh",
+      "parser": "plain_text",
+      "parserVersion": "policy-rag-v1",
+      "licenseClass": "public_reference_restricted",
+      "fetchedAt": "2026-09-13T08:40:07Z",
+      "contentHash": "603298e89bb0578f8c79464f4f8dbcad75d4a235fb89617199a520613fbf5115",
+      "metadata": {
+        "source_file": "cn_consumer_rights_protection_law.pdf",
+        "mineru_fallback": true,
+        "pdf_extraction": "pypdf",
+        "fetchedAt": "2026-09-13T08:35:23Z",
+        "httpContentType": "application/pdf",
+        "rawContentHash": "054bdf6c94020d1a74b6228b64d2edb96337f431165a4206056e369ad926e037"
+      }
+    },
+    {
+      "sourceId": "cn_online_return_without_reason",
+      "sourceUrl": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_26ca8fe29e184edd899fa0a7a060d935.html",
+      "sourceName": "网络购买商品七日无理由退货暂行办法",
+      "sourceType": "regulation",
+      "jurisdiction": "CN",
+      "language": "zh",
+      "parser": "plain_text",
+      "parserVersion": "policy-rag-v1",
+      "licenseClass": "public_reference_restricted",
+      "fetchedAt": "2026-09-13T08:40:07Z",
+      "contentHash": "1b4cd9ee0644af1f1ea556437609ed0fee0e462a3680b79b0e9b83cbfe9bea8d",
+      "metadata": {
+        "source_file": "cn_online_return_without_reason.pdf",
+        "mineru_fallback": true,
+        "pdf_extraction": "pypdf",
+        "fetchedAt": "2026-09-13T08:35:24Z",
+        "httpContentType": "application/pdf",
+        "rawContentHash": "2dff91c6de40b98da9e9c07d862a442b22a1b4328ff8a40a379108943b7cf7bf"
+      }
+    }
+  ]
+}

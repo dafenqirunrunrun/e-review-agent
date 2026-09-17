@@ -1,0 +1,11 @@
+﻿{
+    "goodsId":  1006002,
+    "productId":  7,
+    "addressId":  2,
+    "cartId":  2,
+    "orderId":  1,
+    "orderGoodsId":  1,
+    "commentErrno":  0,
+    "mockPayStatus":  201,
+    "mockShipStatus":  301
+}

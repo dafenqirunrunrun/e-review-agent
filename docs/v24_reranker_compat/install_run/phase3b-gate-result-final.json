@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "agent-rag-phase3b-gate-v1",
+  "status": "PASS",
+  "contractStatus": "PASS",
+  "fallbackStatus": "NOT_USED",
+  "modelRerankerStatus": "PASS",
+  "deterministic": {
+    "effectiveType": "deterministic",
+    "inputCount": 2,
+    "outputCount": 2,
+    "fallbackUsed": false
+  },
+  "modelAttempt": {
+    "requestedType": "local-model",
+    "effectiveType": "local-model",
+    "fallbackUsed": false,
+    "fallbackReason": "",
+    "modelName": "BAAI/bge-reranker-v2-m3",
+    "modelFingerprint": "cf87d1dfe5081feb734ff863"
+  },
+  "assetAudit": {
+    "configured": true,
+    "exists": true,
+    "pathHint": "bge-reranker-v2-m3",
+    "configPresent": true,
+    "tokenizerPresent": true,
+    "weightsPresent": true,
+    "weightsIndexPresent": false,
+    "fingerprint": "cf87d1dfe5081feb734ff863",
+    "blockedReason": ""
+  },
+  "boundaries": [
+    "REAL_LLM_QUALITY_NOT_VERIFIED",
+    "ENTERPRISE_RAG_PRODUCTION_NOT_CLAIMED",
+    "NO_PUSH",
+    "NO_TAG",
+    "NO_RELEASE"
+  ]
+}

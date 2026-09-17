@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "ASSET_BLOCKED",
+  "generatedAt": "2026-07-21T05:52:33.301948+00:00",
+  "reason": "AGENT_RAG_QUALIFICATION_ASSET_MANIFEST_NOT_CONFIGURED",
+  "bgeM3": {
+    "status": "BLOCKED"
+  },
+  "denseIndex": {
+    "status": "BLOCKED"
+  },
+  "reranker": {
+    "status": "BLOCKED"
+  },
+  "llm": {
+    "status": "BLOCKED"
+  }
+}

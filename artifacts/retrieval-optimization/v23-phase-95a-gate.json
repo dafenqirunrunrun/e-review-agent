@@ -1,0 +1,20 @@
+{
+  "artifactVersion": "agent-rag-v23-phase-95a-gate-v1",
+  "calibrationPass": false,
+  "decision": "E_REVIEW_V23_PHASE_95A_BLOCKED",
+  "defaultRegressionPass": false,
+  "defaultRegressionStatus": "BLOCKED_BY_EXISTING_BASE_ENV_DEPENDENCY_FAILURES",
+  "hierarchyPass": true,
+  "parentIndexPass": true,
+  "phase95bParentChildEvaluationAllowed": false,
+  "resourcePass": true,
+  "sensitiveScanPass": true,
+  "sparseRouteClosurePass": true,
+  "testSummary": {
+    "fullPytest": "FAILED_EXISTING_FAISS_TORCH_AND_V180_ARTIFACT_FAILURES",
+    "pipCheck": "FAILED_EXISTING_BASE_CONDA_CONFLICTS",
+    "realDenseBoundary": "REAL_DENSE_SELECTED_TEST_ASSET_DISCOVERY_PARTIAL",
+    "realDenseMarker": "1 passed, 7 skipped, 8 selected",
+    "targetedParentChildTests": "PASS"
+  }
+}

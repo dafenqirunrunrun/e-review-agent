@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-07-15T08:55:08.012843+00:00",
+  "status": "COMPLETION_ONLY_LABEL_MASK_PASS",
+  "sample_count": 2,
+  "system_token_mask_rate": 1.0,
+  "user_token_mask_rate": 1.0,
+  "assistant_token_trainable_rate": 1.0,
+  "eos_present_rate": 1.0,
+  "eos_trainable_rate": 1.0,
+  "target_truncation_rate": 0.0,
+  "labels_equal_full_input_ids": false,
+  "risk_type_token_participates_loss": true,
+  "risk_level_token_participates_loss": true,
+  "need_human_review_token_participates_loss": true,
+  "sample_audits": [
+    {
+      "total_token_count": 377,
+      "prompt_token_count": 300,
+      "assistant_token_count": 77,
+      "system_user_mask_rate": 1.0,
+      "assistant_trainable_rate": 1.0,
+      "labels_equal_full_input_ids": false,
+      "eos_present": true,
+      "eos_trainable": true,
+      "target_truncated": false,
+      "risk_type_token_participates_loss": true,
+      "risk_level_token_participates_loss": true,
+      "need_human_review_token_participates_loss": true
+    },
+    {
+      "total_token_count": 380,
+      "prompt_token_count": 302,
+      "assistant_token_count": 78,
+      "system_user_mask_rate": 1.0,
+      "assistant_trainable_rate": 1.0,
+      "labels_equal_full_input_ids": false,
+      "eos_present": true,
+      "eos_trainable": true,
+      "target_truncated": false,
+      "risk_type_token_participates_loss": true,
+      "risk_level_token_participates_loss": true,
+      "need_human_review_token_participates_loss": true
+    }
+  ]
+}

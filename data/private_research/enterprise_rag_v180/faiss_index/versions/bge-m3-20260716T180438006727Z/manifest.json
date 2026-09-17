@@ -1,0 +1,12 @@
+{
+  "index_version": "bge-m3-20260716T180438006727Z",
+  "index_type": "IndexFlatIP",
+  "embedding_model": "BAAI/bge-m3",
+  "embedding_hash": "dfb1897399b5033f6cf3a6c0f14395a9de4c5629de470c8b17db52464c768602",
+  "dimension": 1024,
+  "vector_count": 144,
+  "metadata_count": 144,
+  "checksum": "92fa05c9f823825486c115c3fdc75f5aada7510b0bfc96a1016da5eebe0ff193",
+  "built_at": "2026-07-16T18:04:38.035348+00:00",
+  "active": true
+}

@@ -1,0 +1,155 @@
+{
+  "registryVersion": "risk-registry-snapshot-demo-v1",
+  "severityRegistryVersion": "risk-severity-registry-v1",
+  "risks": {
+    "after_sales_risk": {
+      "label": "售后争议",
+      "description": "评论集中在退款、退货、破损、质量问题或售后处理争议。",
+      "severity": "medium",
+      "defaultAction": "转售后或人工复核，结合订单和物流记录确认处理方式。",
+      "evidenceTags": [
+        "after_sales",
+        "after_sales_risk",
+        "consumer_rights"
+      ]
+    },
+    "fake_review": {
+      "label": "虚假评价",
+      "description": "评论可能并非真实消费体验，或存在编造、组织化发布等迹象。",
+      "severity": "high",
+      "defaultAction": "进入人工复核，确认是否需要限制展示或进一步调查。",
+      "evidenceTags": [
+        "fake_engagement",
+        "fake_review",
+        "incentivized_review",
+        "rating_manipulation"
+      ]
+    },
+    "fake_review_suspected": {
+      "label": "疑似虚假评价",
+      "description": "存在虚假评价迹象，但证据强度不足。",
+      "severity": "medium",
+      "defaultAction": "进入人工确认，不直接强处置。",
+      "evidenceTags": [
+        "fake_engagement",
+        "fake_review"
+      ]
+    },
+    "harassment_or_abuse": {
+      "label": "骚扰威胁",
+      "description": "评论或上下文包含威胁、辱骂、骚扰或攻击性表达。",
+      "severity": "high",
+      "defaultAction": "人工复核后按平台治理规则处理。",
+      "evidenceTags": [
+        "harassment_or_abuse",
+        "harassment",
+        "abuse"
+      ]
+    },
+    "low_confidence": {
+      "label": "低置信度",
+      "description": "当前信息不足，系统无法形成稳定判断。",
+      "severity": "medium",
+      "defaultAction": "人工复核或补充订单、图片、售后信息。",
+      "evidenceTags": [
+        "low_confidence"
+      ]
+    },
+    "modality_conflict": {
+      "label": "图文信息冲突",
+      "description": "图片、文本、评分之间存在明显不一致。",
+      "severity": "medium",
+      "defaultAction": "人工查看图片与订单上下文。",
+      "evidenceTags": [
+        "modality_conflict"
+      ]
+    },
+    "negative_review": {
+      "label": "负向体验",
+      "description": "评论表达不满，但未必构成需要政策依据支撑的治理风险。",
+      "severity": "medium",
+      "defaultAction": "结合订单和售后情况跟进。",
+      "evidenceTags": [
+        "negative_review"
+      ]
+    },
+    "normal_review": {
+      "label": "普通评价",
+      "description": "未发现需要严格治理的风险信号。",
+      "severity": "low",
+      "defaultAction": "自动通过或正常展示。",
+      "evidenceTags": []
+    },
+    "other": {
+      "label": "其他风险",
+      "description": "系统识别到需要运营关注的其他风险。",
+      "severity": "medium",
+      "defaultAction": "人工查看详情后处理。",
+      "evidenceTags": []
+    },
+    "paid_review": {
+      "label": "有偿评价",
+      "description": "评论可能受到现金、返利、赠品或其他利益驱动。",
+      "severity": "high",
+      "defaultAction": "核对活动与客服记录，必要时转人工复核。",
+      "evidenceTags": [
+        "paid_review",
+        "incentivized_review",
+        "rating_manipulation"
+      ]
+    },
+    "privacy_risk": {
+      "label": "隐私风险",
+      "description": "评论包含个人信息、隐私泄露或敏感身份信息。",
+      "severity": "high",
+      "defaultAction": "人工确认后再决定是否隐藏敏感内容。",
+      "evidenceTags": [
+        "privacy",
+        "personal_information"
+      ]
+    },
+    "rating_conflict": {
+      "label": "评分与内容不一致",
+      "description": "星级与评论文本情绪不一致，需要确认是否误打分或误判。",
+      "severity": "medium",
+      "defaultAction": "进入人工确认或观察。",
+      "evidenceTags": [
+        "rating_conflict"
+      ]
+    },
+    "rating_manipulation": {
+      "label": "评分操纵",
+      "description": "通过返现、截图、集中打分等方式影响评分真实性。",
+      "severity": "high",
+      "defaultAction": "保留证据并进入人工复核，避免直接按普通好评处理。",
+      "evidenceTags": [
+        "incentivized_review",
+        "rating_manipulation",
+        "fake_engagement",
+        "paid_review"
+      ]
+    },
+    "review_suppression": {
+      "label": "压制差评",
+      "description": "存在删除、屏蔽、威胁或干预用户负面评价展示的风险。",
+      "severity": "high",
+      "defaultAction": "转人工复核，检查评价展示、客服沟通和平台规则。",
+      "evidenceTags": [
+        "review_suppression"
+      ]
+    },
+    "safety_or_fraud_risk": {
+      "label": "安全或欺诈",
+      "description": "评论涉及人身安全、商品安全、假货、欺诈或重大误导。",
+      "severity": "high",
+      "defaultAction": "优先人工复核，必要时升级安全治理处理。",
+      "evidenceTags": [
+        "safety_or_fraud",
+        "safety_or_fraud_risk",
+        "fraud",
+        "safety"
+      ]
+    }
+  },
+  "contentHash": "885bedd49dfd85cbf1b0cc83d6a68186fe3af5cdec0789ecc5e2d1fcc2c6588b"
+}

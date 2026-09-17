@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-07-15T06:02:24.348353+00:00",
+  "before_environment_hash": "2541e90508fd1b84021368f4ae75e3e969ffbbca9d838aa7a607f990de7da19e",
+  "after_environment_hash": "2541e90508fd1b84021368f4ae75e3e969ffbbca9d838aa7a607f990de7da19e",
+  "python_version": "Python 3.10.0",
+  "torch_version": "2.5.1+cu121",
+  "torch_cuda_version": "12.1",
+  "cuda_available": true,
+  "transformers_version": "5.3.0",
+  "accelerate_version": "1.14.0",
+  "unchanged": true,
+  "status": "TORCHTEST_ENVIRONMENT_UNCHANGED_PASS"
+}

@@ -548,27 +548,38 @@ export const asyncRoutes = [
     alwaysShow: true,
     name: 'aiWorkbench',
     meta: {
-      title: 'app.menu.ai_workbench',
+      title: 'app.menu.review_governance_center',
       icon: 'chart'
     },
     children: [
       {
         path: 'home',
-        component: () => import('@/views/ai-workbench-home/index'),
+        component: () => import('@/views/ai-agentic-demo/index'),
         name: 'aiWorkbenchHome',
         meta: {
           perms: ['GET /admin/ai/review/list'],
-          title: 'app.menu.ai_workbench_home',
+          title: 'app.menu.review_console',
+          noCache: true
+        }
+      },
+      {
+        path: 'agentic-demo',
+        component: () => import('@/views/ai-agentic-demo/index'),
+        name: 'aiAgenticDemo',
+        hidden: true,
+        meta: {
+          perms: ['GET /admin/ai/review/list'],
+          title: 'app.menu.review_console',
           noCache: true
         }
       },
       {
         path: 'governance-flow',
-        component: () => import('@/views/ai-governance-flow/index'),
+        component: () => import('@/views/ai-risk/index'),
         name: 'aiGovernanceFlow',
         meta: {
           perms: ['GET /admin/ai/review/list'],
-          title: 'app.menu.ai_governance_flow',
+          title: 'app.menu.manual_review_hitl',
           noCache: true
         }
       },
@@ -576,6 +587,7 @@ export const asyncRoutes = [
         path: 'observability',
         component: () => import('@/views/ai-observability/index'),
         name: 'aiObservability',
+        hidden: true,
         meta: {
           perms: ['GET /admin/ai/review/list'],
           title: 'app.menu.ai_observability',
@@ -584,11 +596,11 @@ export const asyncRoutes = [
       },
       {
         path: 'knowledge-quality',
-        component: () => import('@/views/ai-knowledge-quality/index'),
+        component: () => import('@/views/ai-agentic-demo/evidence-library'),
         name: 'aiKnowledgeQuality',
         meta: {
           perms: ['GET /admin/ai/review/list'],
-          title: 'app.menu.ai_knowledge_quality',
+          title: 'app.menu.evidence_library',
           noCache: true
         }
       },
@@ -596,6 +608,7 @@ export const asyncRoutes = [
         path: 'platform-governance',
         component: () => import('@/views/ai-platform-governance/index'),
         name: 'aiPlatformGovernance',
+        hidden: true,
         meta: {
           perms: ['GET /admin/ai/review/list'],
           title: 'app.menu.ai_platform_governance',
@@ -648,7 +661,7 @@ export const asyncRoutes = [
       },
       {
         path: 'risk',
-        redirect: '/ai-workbench/governance-flow?tab=risk',
+        component: () => import('@/views/ai-risk/index'),
         name: 'aiRisk',
         hidden: true,
         meta: {
@@ -709,7 +722,7 @@ export const asyncRoutes = [
         hidden: true,
         meta: {
           perms: ['GET /admin/ai/review/list'],
-          title: 'app.menu.ai_history',
+          title: 'app.menu.auto_review_records',
           noCache: true
         }
       },
@@ -810,6 +823,71 @@ export const asyncRoutes = [
         meta: {
           perms: ['POST /admin/ai/review/analyze', 'GET /admin/ai/review/list'],
           title: 'app.menu.ai_review_analyze',
+          noCache: true
+        }
+      }
+    ]
+  },
+  {
+    path: '/agent-rag',
+    component: Layout,
+    redirect: '/agent-rag/overview',
+    alwaysShow: true,
+    name: 'agentRag',
+    hidden: true,
+    meta: {
+      title: 'app.menu.agent_rag',
+      icon: 'chart'
+    },
+    children: [
+      {
+        path: 'overview',
+        component: () => import('@/views/agent-rag/overview'),
+        name: 'agentRagOverview',
+        meta: {
+          perms: ['GET /admin/agent-rag/overview', 'GET /admin/agent-rag/health'],
+          title: 'app.menu.agent_rag_overview',
+          noCache: true
+        }
+      },
+      {
+        path: 'runs',
+        component: () => import('@/views/agent-rag/runs/index'),
+        name: 'agentRagRuns',
+        meta: {
+          perms: ['GET /admin/agent-rag/runs'],
+          title: 'app.menu.agent_rag_runs',
+          noCache: true
+        }
+      },
+      {
+        path: 'runs/:id',
+        component: () => import('@/views/agent-rag/detail'),
+        name: 'agentRagRunDetail',
+        hidden: true,
+        meta: {
+          perms: ['GET /admin/agent-rag/runs'],
+          title: 'app.menu.agent_rag_detail',
+          noCache: true
+        }
+      },
+      {
+        path: 'runtime',
+        component: () => import('@/views/agent-rag/runtime'),
+        name: 'agentRagRuntime',
+        meta: {
+          perms: ['GET /admin/agent-rag/health'],
+          title: 'app.menu.agent_rag_runtime',
+          noCache: true
+        }
+      },
+      {
+        path: 'security',
+        component: () => import('@/views/agent-rag/security'),
+        name: 'agentRagSecurity',
+        meta: {
+          perms: ['GET /admin/agent-rag/security/status'],
+          title: 'app.menu.agent_rag_security',
           noCache: true
         }
       }

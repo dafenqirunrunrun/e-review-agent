@@ -1,0 +1,5 @@
+Dataset asset scan summary
+Audited at: 2026-07-28T17:25:00+08:00
+Raw exhaustive rg output was intentionally not committed because it exceeded 50MB and was not useful as a review artifact.
+Canonical inventory files: historical_dataset_inventory.json, HISTORICAL_DATASET_INVENTORY.md, structured_data_file_listing.json, candidate_dataset_files.json.
+Key counts: strict synthetic 80, legacy RAG 80, difficult benchmark 52, authorized intake validated_count 0.

@@ -16,7 +16,7 @@ END$$
 DELIMITER ;
 
 CALL e_review_add_column_v16('litemall_ai_agent_run', 'rag_enabled', 'tinyint(1) DEFAULT 0');
-CALL e_review_add_column_v16('litemall_ai_agent_run', 'rag_strategy', 'varchar(32) DEFAULT NULL');
+CALL e_review_add_column_v16('litemall_ai_agent_run', 'rag_strategy', 'varchar(64) DEFAULT NULL');
 CALL e_review_add_column_v16('litemall_ai_agent_run', 'retrieval_hit_count', 'int DEFAULT 0');
 CALL e_review_add_column_v16('litemall_ai_agent_run', 'retrieval_top_score', 'decimal(10,6) DEFAULT NULL');
 CALL e_review_add_column_v16('litemall_ai_agent_run', 'embedding_provider', 'varchar(64) DEFAULT NULL');

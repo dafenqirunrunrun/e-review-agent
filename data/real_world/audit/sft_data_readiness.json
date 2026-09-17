@@ -1,0 +1,10 @@
+{
+  "marker": "SFT_DATA_NOT_READY",
+  "blocking_reasons": [
+    "compliant real-world train/dev data, annotation reliability, and external-test isolation are not complete"
+  ],
+  "train_count": 0,
+  "external_count": 0,
+  "multimodal_train_count": 0,
+  "vlm_sft_status": "VLM_SFT_DATA_NOT_READY"
+}

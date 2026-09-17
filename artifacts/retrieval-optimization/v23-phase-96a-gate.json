@@ -1,0 +1,21 @@
+{
+  "artifactVersion": "agent-rag-v23-phase-96a-gate-v1",
+  "blockingReasons": [],
+  "checks": {
+    "badCaseAnalysisComplete": true,
+    "challengePreservationPass": true,
+    "decisionMatrixComplete": true,
+    "defaultRegressionPass": true,
+    "evaluationConsumptionStateFrozen": true,
+    "parentAwareRouteClosurePass": true,
+    "referenceBaselineLockPass": true,
+    "runtimeContaminationAuditPass": true,
+    "sensitiveScanPass": true
+  },
+  "decision": "E_REVIEW_V23_PHASE_96A_PASS",
+  "retrievalProgram": "E_REVIEW_V23_RETRIEVAL_PROGRAM_CLOSED",
+  "v22DeterministicRetrievalReferenceBaselineRetained": true,
+  "v23NewRetrievalRuntimeCandidate": "NONE",
+  "v23RuntimePromotionAllowed": false,
+  "v24AgentProductionizationAllowed": true
+}

@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-07-15T08:20:23.337814+00:00",
+  "status": "SYNTHETIC_SFT_V2_REBUILD_BLOCKED",
+  "root_causes": [
+    "ROOT_CAUSE_SCHEMA_VERSION_DRIFT",
+    "ROOT_CAUSE_TRAIN_INFERENCE_PROMPT_MISMATCH",
+    "ROOT_CAUSE_DESTRUCTIVE_REPAIR",
+    "ROOT_CAUSE_EVALUATION_FIELD_MAPPING_BUG",
+    "ROOT_CAUSE_INSUFFICIENT_TRAINING_SIGNAL"
+  ],
+  "adapter_status": "V164_ADAPTER_INVALIDATED_BY_SCHEMA_CONTRACT_DRIFT",
+  "v164_adapter_value_gate": "NEUTRAL",
+  "v164_adapter_role": "PRIVATE_SYNTHETIC_ADAPTER_RETAINED_FOR_RESEARCH_ONLY",
+  "next_stage_gate": {
+    "E_REVIEW_DECISION_SCHEMA_CANONICAL": true,
+    "SCHEMA_CONTRACT_ALIGNED": false,
+    "SYNTHETIC_TARGET_SCHEMA_PASS": true,
+    "SFT_ASSISTANT_LOSS_MASK_PASS": true,
+    "SFT_TRAINING_OBJECTIVE_CONTRACT_PASS": false,
+    "TRAIN_INFERENCE_PROMPT_ALIGNMENT_PASS": false,
+    "EVALUATION_PIPELINE_PASS": false,
+    "deterministic_repair_non_destructive": false,
+    "validation_diagnostic_non_collapsed": false
+  },
+  "validation_diagnostic_status": "V165_VALIDATION_DIAGNOSTIC_COMPLETE",
+  "validation_adapter_raw_schema_valid_rate": 0.0,
+  "validation_adapter_risk_type_macro_f1": 0.0952381,
+  "no_training_performed": true,
+  "holdout_rerun_performed": false
+}

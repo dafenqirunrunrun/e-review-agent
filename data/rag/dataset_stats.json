@@ -1,0 +1,28 @@
+{
+  "seed": 20260711,
+  "comments": 1200,
+  "cases": 240,
+  "golden_queries": 80,
+  "comment_risk_types": {
+    "normal_review": 180,
+    "negative_review": 300,
+    "after_sales_risk": 720
+  },
+  "comment_splits": {
+    "train": 840,
+    "validation": 180,
+    "test": 180
+  },
+  "case_risk_types": {
+    "after_sales_risk": 144,
+    "negative_review": 60,
+    "normal_review": 36
+  },
+  "query_risk_types": {
+    "after_sales_risk": 48,
+    "negative_review": 20,
+    "normal_review": 12
+  },
+  "scenario_count": 20,
+  "contains_personal_data": false
+}

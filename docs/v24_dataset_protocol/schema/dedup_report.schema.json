@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ereview.local/schema/dedup_report.schema.json",
+  "title": "E-Review Dedup Pair Decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sampleA",
+    "sampleB",
+    "exactMatch",
+    "lexicalScore",
+    "semanticScore",
+    "reviewerDecision",
+    "decisionReason",
+    "reviewerId",
+    "reviewedAt"
+  ],
+  "properties": {
+    "sampleA": {
+      "type": "string"
+    },
+    "sampleB": {
+      "type": "string"
+    },
+    "exactMatch": {
+      "type": "boolean"
+    },
+    "lexicalScore": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "semanticScore": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": -1,
+      "maximum": 1
+    },
+    "entityDifference": {
+      "type": "boolean"
+    },
+    "numericDifference": {
+      "type": "boolean"
+    },
+    "severityDifference": {
+      "type": "boolean"
+    },
+    "reviewerDecision": {
+      "enum": [
+        "DUPLICATE",
+        "SCENARIO_VARIANT",
+        "DISTINCT",
+        "UNRESOLVED"
+      ]
+    },
+    "decisionReason": {
+      "type": "string",
+      "minLength": 3
+    },
+    "duplicateGroupId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scenarioGroupId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewerId": {
+      "type": "string"
+    },
+    "reviewedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "dedupProtocolVersion": {
+      "type": "string",
+      "default": "dedup-v0.1"
+    }
+  }
+}

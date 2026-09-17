@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://e-review-agent.local/schemas/qualification-asset-manifest.schema.json",
+  "title": "E-Review Agent Qualification Asset Manifest",
+  "type": "object",
+  "required": ["schemaVersion", "reranker", "llm"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "type": "string", "enum": ["1.0.0", "1.1.0"] },
+    "sourceCommit": { "type": "string" },
+    "embedding": {
+      "type": "object",
+      "required": ["status", "provider", "modelPath", "assetFingerprint", "dimension"],
+      "additionalProperties": false,
+      "properties": {
+        "status": { "type": "string", "enum": ["available", "blocked"] },
+        "provider": { "type": "string" },
+        "modelPath": { "type": ["string", "null"] },
+        "assetFingerprint": { "type": ["string", "null"] },
+        "dimension": { "type": ["integer", "null"] }
+      }
+    },
+    "bgeM3": {
+      "type": "object",
+      "required": ["modelPath", "assetFingerprint", "providerImpl"],
+      "additionalProperties": false,
+      "properties": {
+        "modelPath": { "type": ["string", "null"] },
+        "assetFingerprint": { "type": ["string", "null"] },
+        "providerImpl": { "type": "string", "enum": ["flagembedding", "sentence-transformers", "legacy-cls"] }
+      }
+    },
+    "denseIndex": {
+      "type": "object",
+      "required": ["indexPath", "manifestPath", "indexVersion", "effectiveEmbeddingFingerprint"],
+      "additionalProperties": false,
+      "properties": {
+        "indexPath": { "type": ["string", "null"] },
+        "manifestPath": { "type": ["string", "null"] },
+        "indexVersion": { "type": "string" },
+        "effectiveEmbeddingFingerprint": { "type": ["string", "null"] },
+        "indexSha256": { "type": "string" },
+        "manifestSha256": { "type": "string" }
+      }
+    },
+    "reranker": {
+      "type": "object",
+      "required": ["status", "modelPath"],
+      "additionalProperties": false,
+      "properties": {
+        "status": { "type": "string", "enum": ["available", "blocked"] },
+        "modelPath": { "type": ["string", "null"] },
+        "assetFingerprint": { "type": ["string", "null"] },
+        "architecture": { "type": ["string", "array", "null"] },
+        "licenseId": { "type": ["string", "null"] }
+      }
+    },
+    "llm": {
+      "type": "object",
+      "required": ["status", "modelPath"],
+      "additionalProperties": false,
+      "properties": {
+        "status": { "type": "string", "enum": ["available", "blocked"] },
+        "modelPath": { "type": ["string", "null"] },
+        "assetFingerprint": { "type": ["string", "null"] },
+        "architecture": { "type": ["string", "array", "null"] },
+        "licenseId": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

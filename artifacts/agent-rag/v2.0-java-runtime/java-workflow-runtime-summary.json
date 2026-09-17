@@ -1,0 +1,43 @@
+﻿{
+    "schemaVersion":  "1.0.0",
+    "status":  "PASS",
+    "services":  {
+                     "aiRuntime":  "PASS",
+                     "adminApi":  "PASS",
+                     "database":  "PASS"
+                 },
+    "caseCount":  13,
+    "passed":  13,
+    "failed":  0,
+    "cases":  {
+                  "replay":  "PASS",
+                  "concurrentIdempotency":  "PASS",
+                  "normalReview":  "PASS",
+                  "aiUnavailable":  "PASS",
+                  "overrideReasonRequired":  "PASS",
+                  "evidence":  "PASS",
+                  "circuitOpen":  "PASS",
+                  "health":  "PASS",
+                  "idempotency":  "PASS",
+                  "semanticReview":  "PASS",
+                  "highRiskReview":  "PASS",
+                  "circuitRecovery":  "PASS",
+                  "override":  "PASS"
+              },
+    "tenantViolations":  0,
+    "duplicateRuns":  0,
+    "duplicateEvidence":  0,
+    "duplicateRiskTasks":  0,
+    "overridePreservedOriginal":  true,
+    "replayCreatedNewRun":  true,
+    "circuitBreakerOpened":  true,
+    "circuitBreakerRecovered":  true,
+    "aiStoppedForFailureGate":  true,
+    "aiRecovered":  true,
+    "databaseEvidence":  {
+                             "runCount":  14,
+                             "evidenceCount":  7,
+                             "overrideCount":  1
+                         },
+    "result":  "JAVA_AGENT_RAG_WORKFLOW_GATE_PASS"
+}

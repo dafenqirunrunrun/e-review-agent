@@ -1,0 +1,36 @@
+{
+  "conclusion": "SPARSE_BATCH_SIZE_SENSITIVITY_CONFIRMED",
+  "rows": [
+    {
+      "invocationPath": "ORIGINAL_INDEX_BUILDER_PATH",
+      "precision": "FP16",
+      "status": "SPARSE_BATCH_SIZE_SENSITIVITY_CONFIRMED"
+    },
+    {
+      "invocationPath": "ORIGINAL_INDEX_BUILDER_PATH",
+      "precision": "FP32",
+      "status": "SPARSE_BATCH_SIZE_SENSITIVITY_CONFIRMED"
+    },
+    {
+      "invocationPath": "RCA_OFFICIAL_DIRECT_PATH",
+      "precision": "FP16",
+      "status": "SPARSE_BATCH_SIZE_SENSITIVITY_CONFIRMED"
+    },
+    {
+      "invocationPath": "RCA_OFFICIAL_DIRECT_PATH",
+      "precision": "FP32",
+      "status": "SPARSE_BATCH_SIZE_SENSITIVITY_CONFIRMED"
+    },
+    {
+      "invocationPath": "DQA_CONTROL_PATH",
+      "precision": "FP16",
+      "status": "SPARSE_BATCH_SIZE_SENSITIVITY_CONFIRMED"
+    },
+    {
+      "invocationPath": "DQA_CONTROL_PATH",
+      "precision": "FP32",
+      "status": "SPARSE_BATCH_SIZE_SENSITIVITY_CONFIRMED"
+    }
+  ],
+  "schemaVersion": "agent-rag-v23-sparse-batch-parity-v1"
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ereview.local/schema/source_manifest.schema.json",
+  "title": "E-Review Source Manifest Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sourceId",
+    "sourceType",
+    "collectionDate",
+    "licenseOrPermission",
+    "allowedUse",
+    "containsPIIRisk",
+    "recordCount",
+    "sourceHash"
+  ],
+  "properties": {
+    "sourceId": {
+      "type": "string"
+    },
+    "sourceType": {
+      "enum": [
+        "REAL_AUTHORIZED",
+        "PUBLIC_LICENSED",
+        "HUMAN_REWRITTEN",
+        "SCENARIO_AUTHORED",
+        "KNOWLEDGE_GROUNDED_SYNTHETIC",
+        "ROBUSTNESS_TRANSFORMATION",
+        "SECURITY_AUTHORED"
+      ]
+    },
+    "collectionDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "licenseOrPermission": {
+      "type": "string"
+    },
+    "allowedUse": {
+      "enum": [
+        "INTERNAL_EVALUATION_ONLY",
+        "RESEARCH_USE",
+        "PUBLIC_RELEASE"
+      ]
+    },
+    "containsPIIRisk": {
+      "type": "boolean"
+    },
+    "recordCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sourceHash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "sourceLocation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

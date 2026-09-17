@@ -1,0 +1,27 @@
+{
+  "status": "V180_CLAIMS_FROZEN_FOR_INDEPENDENT_AUDIT",
+  "generated_at": "2026-07-17T01:49:58.545713+00:00",
+  "claims": {
+    "final_gate": "V180_ENTERPRISE_READINESS_GATE_PASS_LOCAL",
+    "pytest": "299 passed in 197.76s",
+    "maven_admin_api": "BUILD SUCCESS",
+    "soak_duration_seconds": 5400,
+    "soak_request_count": 10579,
+    "failure_injection_count": 25,
+    "http_smoke": "V180_REAL_HTTP_SMOKE_PASS",
+    "embedding_status": "V180_REAL_LOCAL_EMBEDDING_AVAILABLE",
+    "faiss_status": "V180_REAL_RETRIEVAL_EVAL_PASS",
+    "tenant_isolation": "PASS",
+    "java_build": "BUILD SUCCESS",
+    "docker_status": "PASS",
+    "security": "V180_SECURITY_PRIVACY_HARDENING_PASS",
+    "isolation": "EXTERNAL_TEST_ISOLATION_AUDIT_PASS"
+  },
+  "source_artifacts": {
+    "data/private_research/audit/v180_final_gate.json": "6d7bd808c1b485440bd0c61733f000e5057e4f357afcb45f7602b6a890897e18",
+    "data/private_research/audit/v180_performance_soak.json": "abd518494f5b3019c55ea884b59c663a8abb4f3a8efe4a1d2dac3214db802ad4",
+    "data/private_research/audit/v180_failure_injection.json": "2ab588d40258a9e5ad8d3e5212e0249b2be7ae70aeab3ce6062cd28f5877e3b0",
+    "data/private_research/audit/v180_local_embedding_inventory.json": "d211e47ac5839f1c73563ec779e20b1d0015a9f82f32d6eca7ed32a51b34c62d",
+    "state/v180_readiness_progress.json": "df0b8fd5564109d7370f7d04aa6af2deed48da85e3fb69fc7c575260f9dcdd37"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "V181_GATE_STATIC_ANALYSIS_COMPLETE",
+  "bypass_found": false,
+  "final_gate_doc_mentions_static_ci_boundary": true,
+  "static_ci_exists": true,
+  "docker_runtime_not_hard_required_in_v180_final_gate": true,
+  "finding": "No executable v1.8.0 gate calculator was found; final gate is artifact-composed and Docker runtime was not a hard runtime gate."
+}

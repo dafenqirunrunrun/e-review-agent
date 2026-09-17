@@ -1,0 +1,7 @@
+{
+  "marker": "REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED",
+  "blocking_reasons": [
+    "real multimodal validation set is not available; external test must not be used for threshold calibration"
+  ],
+  "validation_count": 0
+}

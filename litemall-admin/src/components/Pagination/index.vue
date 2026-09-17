@@ -8,8 +8,7 @@
       :total="total"
       v-bind="$attrs"
       @size-change="handleSizeChange"
-      @current-change="handleCurrentChange"
-    />
+      @current-change="handleCurrentChange"/>
   </div>
 </template>
 

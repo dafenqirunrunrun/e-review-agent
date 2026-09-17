@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Authorized Annotation Record",
+  "type": "object",
+  "required": ["sample_id", "annotator_id_hash", "primary_risk_type", "risk_level", "need_human_review", "text_image_consistency", "ambiguity_flag", "annotator_confidence", "annotation_round"],
+  "properties": {
+    "sample_id": {"type": "string", "minLength": 1},
+    "annotator_id_hash": {"type": "string", "minLength": 16},
+    "primary_risk_type": {"type": "string", "minLength": 1},
+    "secondary_risk_types": {"type": "array", "items": {"type": "string"}},
+    "risk_level": {"enum": ["low", "medium", "high"]},
+    "need_human_review": {"type": "boolean"},
+    "text_evidence_spans": {"type": "array"},
+    "visual_evidence": {"type": "array"},
+    "text_image_consistency": {"enum": ["consistent", "conflicting", "unrelated", "uncertain"]},
+    "ambiguity_flag": {"type": "boolean"},
+    "annotator_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "annotation_round": {"type": "integer", "minimum": 1}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "V180_OBSERVABILITY_REAL_SIGNALS_PASS",
+  "phase": "phase_10_observability_real_signals",
+  "training_executed": false,
+  "closed_holdout_accessed": false,
+  "tag_created": false,
+  "signals": {
+    "request_counter": true,
+    "success_counter": true,
+    "rag_request_counter": true,
+    "prompt_injection_counter": true,
+    "idempotency_hit_counter": true,
+    "request_latency_histogram": true,
+    "model_latency_histogram": true,
+    "pii_redaction_histogram": true,
+    "histogram_min_max_avg_p50_p95": true,
+    "raw_prompt_not_exposed": true,
+    "raw_tenant_id_not_exposed": true,
+    "raw_pii_not_exposed": true
+  },
+  "pytest_command": "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_observability_real_signals.py ai-service\\tests\\test_v180_enterprise_api_java_contract.py",
+  "pytest_result": "8 passed in 2.14s"
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "e-review-v24-transformers451-validation-v1",
+  "worktree": "D:\\EReviewAgent\\litemall-v24-reranker-fix",
+  "pythonEnvironment": "D:\\anaconda\\envs\\ereview-v24-transformers451",
+  "planAClassification": "PASS",
+  "dependencyMatrix": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.51.3",
+    "tokenizers": "0.21.1",
+    "huggingfaceHub": "0.30.2",
+    "FlagEmbedding": "1.3.5",
+    "sentenceTransformers": "3.0.1",
+    "accelerate": "1.14.0",
+    "peft": "0.19.1",
+    "safetensors": "0.7.0"
+  },
+  "pipCheck": "PASS",
+  "imports": {
+    "torchFx": "PASS",
+    "flagReranker": "PASS",
+    "qwen3ForCausalLM": "PASS",
+    "cudaAvailable": true
+  },
+  "formalRerankerTest": "PASS",
+  "phase3bGate": {
+    "status": "PASS",
+    "effectiveType": "local-model",
+    "fallbackUsed": false,
+    "realInference": true
+  },
+  "qwenRegression": {
+    "status": "PASS",
+    "fallbackUsed": false,
+    "realGenerate": true,
+    "schemaValid": true,
+    "cudaPeakMb": 3326.15,
+    "durationMs": 21694
+  },
+  "bgeM3Regression": {
+    "status": "PASS",
+    "providerImpl": "flagembedding",
+    "dimension": 1024,
+    "cudaUsed": true,
+    "hashProviderUsed": false,
+    "cudaPeakMb": 1094.92,
+    "durationMs": 11622
+  },
+  "traceReplay": {
+    "selected": 33,
+    "passed": 33,
+    "failed": 0
+  },
+  "pythonFullRegression": {
+    "collected": 620,
+    "passed": 604,
+    "skipped": 16,
+    "failed": 0,
+    "durationSeconds": 227.83
+  },
+  "push": false,
+  "tag": false,
+  "release": false
+}

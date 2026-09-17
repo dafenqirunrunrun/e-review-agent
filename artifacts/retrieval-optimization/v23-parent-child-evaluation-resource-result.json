@@ -1,0 +1,10 @@
+{
+  "flatRetrievalP50Ms": 0.579,
+  "flatRetrievalP95Ms": 0.8241,
+  "flatRetrievalP99Ms": 0.8847,
+  "indexSizeRatio": 1.06,
+  "latencyRatioP95": 0.417789,
+  "parentAwareRetrievalP50Ms": 0.2626,
+  "parentAwareRetrievalP95Ms": 0.3443,
+  "parentAwareRetrievalP99Ms": 0.4159
+}

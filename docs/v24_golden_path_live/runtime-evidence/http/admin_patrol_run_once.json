@@ -1,0 +1,12 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "highRiskCount":  1,
+                 "batchNo":  "PATROL-ae0ea05f92cf48e9",
+                 "failedCount":  0,
+                 "successCount":  1,
+                 "scanCount":  1,
+                 "status":  "success"
+             },
+    "errmsg":  "成功"
+}

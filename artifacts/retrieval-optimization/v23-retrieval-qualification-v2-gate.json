@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "answerableLabelAuditComplete": true,
+    "calibration120Answerable30NoAnswer": true,
+    "caseFamilyLeakageZero": true,
+    "challenge60Answerable15NoAnswer": true,
+    "datasetVersionV2": true,
+    "difficultyDistributionSpreadAtMost020": true,
+    "documentFamilyLeakageZero": true,
+    "evaluation120Answerable30NoAnswer": true,
+    "intentDistributionSpreadAtMost010": true,
+    "noAnswerCorpusAuditComplete": true,
+    "oldCaseLeakageZero": true,
+    "oldQueryLeakageZero": true,
+    "totalCases375": true
+  },
+  "datasetHash": "d638d44c69e1e678c2f990fd193af23d2ac18962b6e2be5eaf1ffd19e4575e47",
+  "schemaVersion": "agent-rag-v23-retrieval-dataset-v2-gate-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-07-15T14:50:00.095784+00:00",
+  "status": "SYNTHETIC_SFT_V22_CONTRACT_FROZEN",
+  "contract_version": "v2.0.0",
+  "prompt_version": "v2.1.0",
+  "renderer_version": "v2.1.0",
+  "evaluator_version": "v2.1.0",
+  "completion_encoding_version": "completion_only_v2.2.0",
+  "max_length": 384,
+  "max_new_tokens": 160,
+  "contract_hash": "06c77cc14887cfe22e2d5dc60480dfb98dd123ae304af12223a467417f93c5e7",
+  "prompt_hash": "f283293db82158ccc554460bafc8021e9c40b7a510f6c40f90f40cea8b36fb97",
+  "renderer_hash": "9922e5062b311302b9d1d7f86dcc7a6d911b534d913459c2a0c037b91f444c1d",
+  "evaluator_hash": "217ae3bbcd2c8a98043f0cf9edbf249df50183a903730a96e922fceea187c2fa",
+  "completion_encoder_hash": "4e0a94aa961f763dd4a770870da6980f5195494a012d995c1b6ceb8e64e593a9",
+  "compact_target_hash": "9b349f31a2450f4d7699c06bc4d191cb7c67cbcff1d7aab6ca284e2cb24132ae",
+  "train_manifest_hash": "711e8a2c25106d9837cbddfaa4a98425d191d906a31ca7c970d5a2a0c99701c6",
+  "validation_manifest_hash": "378de5d7ad9cf384309e2f7bc2e98f42cee6f309a532436f6448213c862d70c0",
+  "holdout_manifest_hash": "3d77f02a24f378cf10324c89a33fd65238f6ee64ab374bbe0bf9b1e39b34e515",
+  "holdout_seal_hash": "7cd1a456e5006fd8795d587c8c894cdae2771201d3304510969d34a67ea9bc95",
+  "tokenizer_metadata": {
+    "model": "Qwen3-1.7B",
+    "local_files_only": true
+  },
+  "chat_template_metadata": {
+    "enable_thinking": false,
+    "hash": "fd08fa3cb9bffa9e1a56fc187355a2631431f1b3ce50e9208cc2861016938e9b"
+  },
+  "pass_conditions": [
+    true,
+    true,
+    true,
+    true
+  ]
+}

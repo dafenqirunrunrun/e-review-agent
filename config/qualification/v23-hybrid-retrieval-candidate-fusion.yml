@@ -1,0 +1,15 @@
+policyVersion: v23-hybrid-retrieval-candidate-fusion-v1
+datasetHash: d3835de362f936a3f5000395b57c447d1518e63a879e50a08e5198b920761c2d
+calibrationHash: 9f542961acbffd9f9d978af2edc8b47d5959ffd15691486d7fc41480988e244e
+knowledgeSnapshotHash: 6a47565e19594a6c527df10e34c63af004a6080f80f1817d697d28e828746a94
+indexManifestHash: 90afa384d48974e333966edbe67b0a66fe7d0b1dd1e851ec71dbeb690748bc0c
+bm25RetrieveK: 20
+denseRetrieveK: 100
+rrfRankWindow: 100
+postFusionCandidateK: 20
+rrfRankConstant: 60
+bm25Weight: 0.75
+denseWeight: 1.25
+maximumFinalK: 5
+allowBackfill: false
+configurationHash: ce88dd40b0ada235832348e4f4c1f6e3149692243aef7d07ed5df490af17b3b6

@@ -1,0 +1,15 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-evaluation-consumption-state-v1",
+  "challengeAccessed": false,
+  "evaluationRerunAllowed": false,
+  "legalStates": [
+    "UNCONSUMED",
+    "LOCKED",
+    "RUNNING",
+    "CONSUMED_PASS",
+    "CONSUMED_BLOCKED",
+    "ABORTED_NO_RESULT"
+  ],
+  "resultGenerated": true,
+  "state": "CONSUMED_BLOCKED"
+}

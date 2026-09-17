@@ -1,0 +1,194 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "todayRunCount":  6,
+                 "todaySuccessCount":  0,
+                 "todayHighRiskCount":  2,
+                 "todayReviewRequiredCount":  4,
+                 "todayFallbackCount":  2,
+                 "todayFailureCount":  2,
+                 "averageDurationMs":  6108,
+                 "p95DurationMs":  14505,
+                 "overrideCount":  1,
+                 "replayCount":  2,
+                 "statusDistribution":  [
+                                            {
+                                                "name":  "REVIEW_REQUIRED",
+                                                "value":  2
+                                            },
+                                            {
+                                                "name":  "RULE_FALLBACK",
+                                                "value":  2
+                                            },
+                                            {
+                                                "name":  "FAILED",
+                                                "value":  2
+                                            }
+                                        ],
+                 "riskDistribution":  [
+                                          {
+                                              "name":  "medium",
+                                              "value":  1
+                                          },
+                                          {
+                                              "name":  "low",
+                                              "value":  1
+                                          },
+                                          {
+                                              "name":  "high",
+                                              "value":  2
+                                          },
+                                          {
+                                              "name":  "unknown",
+                                              "value":  2
+                                          }
+                                      ],
+                 "providerDistribution":  [
+                                              {
+                                                  "name":  "local_qwen3_transformers",
+                                                  "value":  2
+                                              },
+                                              {
+                                                  "name":  "deterministic",
+                                                  "value":  2
+                                              },
+                                              {
+                                                  "name":  "unknown",
+                                                  "value":  2
+                                              }
+                                          ],
+                 "fallbackDistribution":  [
+                                              {
+                                                  "name":  "normal",
+                                                  "value":  4
+                                              },
+                                              {
+                                                  "name":  "fallback",
+                                                  "value":  2
+                                              }
+                                          ],
+                 "recentFailures":  [
+                                        {
+                                            "id":  3,
+                                            "requestId":  "golden-comment-1015-hybrid-real-20260728144538",
+                                            "subjectType":  "review",
+                                            "subjectId":  "litemall_comment:1015",
+                                            "status":  "FAILED",
+                                            "requestedRetrievalMode":  "hybrid-real",
+                                            "fallbackUsed":  false,
+                                            "requiresHumanReview":  true,
+                                            "durationMs":  294,
+                                            "errorCode":  "AGENT_RAG_HTTP_5XX",
+                                            "errorMessage":  "Agent-RAG HTTP 5xx.",
+                                            "overrideCount":  0,
+                                            "replayCount":  0,
+                                            "createdAt":  "2026-07-28 14:45:38",
+                                            "finishedAt":  "2026-07-28 14:45:39"
+                                        },
+                                        {
+                                            "id":  1,
+                                            "requestId":  "golden-comment-1015-20260728144200",
+                                            "subjectType":  "litemall_comment",
+                                            "subjectId":  "1015",
+                                            "status":  "FAILED",
+                                            "requestedRetrievalMode":  "bm25-first-semantic-hybrid",
+                                            "fallbackUsed":  false,
+                                            "requiresHumanReview":  true,
+                                            "durationMs":  82,
+                                            "errorCode":  "AGENT_RAG_HTTP_4XX",
+                                            "errorMessage":  "Agent-RAG HTTP 4xx.",
+                                            "overrideCount":  0,
+                                            "replayCount":  0,
+                                            "createdAt":  "2026-07-28 14:42:01",
+                                            "finishedAt":  "2026-07-28 14:42:01"
+                                        }
+                                    ],
+                 "pendingReviews":  [
+                                        {
+                                            "id":  6,
+                                            "requestId":  "replay-2e94a593f1cc472faf5e328d27282761",
+                                            "subjectType":  "review",
+                                            "subjectId":  "litemall_comment:1015:live-faiss:20260728145605",
+                                            "status":  "REVIEW_REQUIRED",
+                                            "originalRiskLevel":  "medium",
+                                            "effectiveRiskLevel":  "medium",
+                                            "originalAction":  "manual-review",
+                                            "effectiveAction":  "manual-review",
+                                            "confidence":  0.750000,
+                                            "effectiveProviderImpl":  "local_qwen3_transformers",
+                                            "requestedRetrievalMode":  "bm25-first-semantic-hybrid",
+                                            "effectiveRetrievalMode":  "hybrid-real",
+                                            "indexVersion":  "phase1-fixture-index-v1",
+                                            "fallbackUsed":  false,
+                                            "requiresHumanReview":  true,
+                                            "durationMs":  14505,
+                                            "overrideCount":  0,
+                                            "replayCount":  1,
+                                            "replayOfRunId":  4,
+                                            "createdAt":  "2026-07-28 14:59:38",
+                                            "finishedAt":  "2026-07-28 14:59:52"
+                                        },
+                                        {
+                                            "id":  4,
+                                            "requestId":  "goldenpath-live-faiss-20260728145605",
+                                            "subjectType":  "review",
+                                            "subjectId":  "litemall_comment:1015:live-faiss:20260728145605",
+                                            "status":  "REVIEW_REQUIRED",
+                                            "originalRiskLevel":  "high",
+                                            "effectiveRiskLevel":  "high",
+                                            "originalAction":  "create-risk-task",
+                                            "effectiveAction":  "create-risk-task",
+                                            "confidence":  0.900000,
+                                            "effectiveProviderImpl":  "local_qwen3_transformers",
+                                            "requestedRetrievalMode":  "hybrid-real",
+                                            "effectiveRetrievalMode":  "hybrid-real",
+                                            "indexVersion":  "phase1-fixture-index-v1",
+                                            "fallbackUsed":  false,
+                                            "requiresHumanReview":  true,
+                                            "durationMs":  13484,
+                                            "overrideCount":  0,
+                                            "replayCount":  0,
+                                            "createdAt":  "2026-07-28 14:56:05",
+                                            "finishedAt":  "2026-07-28 14:56:19"
+                                        },
+                                        {
+                                            "id":  3,
+                                            "requestId":  "golden-comment-1015-hybrid-real-20260728144538",
+                                            "subjectType":  "review",
+                                            "subjectId":  "litemall_comment:1015",
+                                            "status":  "FAILED",
+                                            "requestedRetrievalMode":  "hybrid-real",
+                                            "fallbackUsed":  false,
+                                            "requiresHumanReview":  true,
+                                            "durationMs":  294,
+                                            "errorCode":  "AGENT_RAG_HTTP_5XX",
+                                            "errorMessage":  "Agent-RAG HTTP 5xx.",
+                                            "overrideCount":  0,
+                                            "replayCount":  0,
+                                            "createdAt":  "2026-07-28 14:45:38",
+                                            "finishedAt":  "2026-07-28 14:45:39"
+                                        },
+                                        {
+                                            "id":  1,
+                                            "requestId":  "golden-comment-1015-20260728144200",
+                                            "subjectType":  "litemall_comment",
+                                            "subjectId":  "1015",
+                                            "status":  "FAILED",
+                                            "requestedRetrievalMode":  "bm25-first-semantic-hybrid",
+                                            "fallbackUsed":  false,
+                                            "requiresHumanReview":  true,
+                                            "durationMs":  82,
+                                            "errorCode":  "AGENT_RAG_HTTP_4XX",
+                                            "errorMessage":  "Agent-RAG HTTP 4xx.",
+                                            "overrideCount":  0,
+                                            "replayCount":  0,
+                                            "createdAt":  "2026-07-28 14:42:01",
+                                            "finishedAt":  "2026-07-28 14:42:01"
+                                        }
+                                    ],
+                 "sampled":  false,
+                 "sampleSize":  6,
+                 "maxSampleSize":  10000
+             },
+    "errmsg":  "成功"
+}

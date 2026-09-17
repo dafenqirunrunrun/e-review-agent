@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-07-15T14:42:03.670162+00:00",
+  "status": "V22_TOKEN_BUDGET_DATA_PASS",
+  "total_count": 414,
+  "train_count": 336,
+  "validation_count": 54,
+  "holdout_count": 24,
+  "max_length": 384,
+  "total_tokens": {
+    "p50": 301,
+    "p75": 317,
+    "p90": 332,
+    "p95": 335,
+    "p99": 341,
+    "max": 350,
+    "mean": 304.2826
+  },
+  "prompt_tokens": {
+    "p50": 229,
+    "p75": 233,
+    "p90": 242,
+    "p95": 246,
+    "p99": 249,
+    "max": 250,
+    "mean": 228.285
+  },
+  "completion_tokens": {
+    "p50": 72,
+    "p75": 75,
+    "p90": 97,
+    "p95": 98,
+    "p99": 101,
+    "max": 103,
+    "mean": 75.9976
+  },
+  "trainable_tokens": {
+    "p50": 72,
+    "p75": 75,
+    "p90": 97,
+    "p95": 98,
+    "p99": 101,
+    "max": 103,
+    "mean": 75.9976
+  },
+  "over_368_count": 0,
+  "over_384_count": 0,
+  "target_truncation_count": 0,
+  "target_truncation_rate": 0.0,
+  "eos_present_rate": 1.0,
+  "eos_trainable_rate": 1.0,
+  "prompt_mask_rate": 1.0,
+  "completion_trainable_rate": 1.0,
+  "zero_trainable_sample_count": 0,
+  "risk_type_token_trainable_rate": 1.0,
+  "risk_level_token_trainable_rate": 1.0,
+  "need_human_review_token_trainable_rate": 1.0
+}

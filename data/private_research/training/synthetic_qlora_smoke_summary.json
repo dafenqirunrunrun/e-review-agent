@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-07-15T06:41:08.658114+00:00",
+  "status": "PRIVATE_SYNTHETIC_QLORA_ENGINEERING_SMOKE_PASS",
+  "max_steps_completed": 20,
+  "final_train_loss": 3.23233699798584,
+  "validation_executed": true,
+  "validation_loss": 3.010573625564575,
+  "nan_count": 0,
+  "inf_count": 0,
+  "oom_count": 0,
+  "adapter_saved": true,
+  "adapter_reloaded": true,
+  "adapter_real_generate_executed": true,
+  "gpu_peak_memory_mb": 4521.2,
+  "gpu_memory_released": true,
+  "gpu_lock_release_success": true,
+  "base_metrics": {
+    "raw_json_parse_success_rate": 1.0,
+    "raw_schema_valid_rate": 0.0,
+    "deterministic_repair_rate": 1.0,
+    "final_schema_valid_rate": 1.0,
+    "fallback_rate": 0.0,
+    "empty_output_rate": 0.0,
+    "prohibited_auto_action_count": 0
+  },
+  "adapter_metrics": {
+    "raw_json_parse_success_rate": 1.0,
+    "raw_schema_valid_rate": 0.0,
+    "deterministic_repair_rate": 1.0,
+    "final_schema_valid_rate": 1.0,
+    "fallback_rate": 0.0,
+    "empty_output_rate": 0.0,
+    "prohibited_auto_action_count": 0
+  },
+  "quantized_module_count": 196
+}

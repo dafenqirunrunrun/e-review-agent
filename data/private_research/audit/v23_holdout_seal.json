@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-07-16T14:18:05.962912+00:00",
+  "status": "V23_ENGINEERING_HOLDOUT_SEALED",
+  "count": 72,
+  "manifest_hash": "5e72d83703d8623f6362049adc05aba20fcf2e28fd2ba9d13281847f67442e2f",
+  "generation_root_hash": "c4b57b8c75d6a03cb1aec828bcc21d48239cac5ee7e49fa8e9a4599fce86d78e",
+  "scenario_group_hash": "4392c38806da56929100ff9addad48dbb24ff974b49b31f58e1e1180a2811034",
+  "contrast_pair_hash": "9955497913d3a90c17d27dcde4f9307d5b9c7c272f115e6bbabfeb3127d5792d",
+  "class_distribution": {
+    "normal_review": 24,
+    "negative_review": 24,
+    "after_sales_risk": 24
+  },
+  "risk_level_distribution": {
+    "low": 24,
+    "medium": 24,
+    "high": 24
+  },
+  "human_review_distribution": {
+    "False": 24,
+    "True": 48
+  },
+  "sealed_at": "2026-07-16T14:18:05.963951+00:00",
+  "allowed_use": "single_final_evaluation_after_experiment_a",
+  "training_access": false,
+  "prompt_tuning": false,
+  "model_selection": false,
+  "repeated_evaluation": false
+}

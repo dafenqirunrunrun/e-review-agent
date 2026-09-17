@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED_PARTIAL",
+  "maven_version": [],
+  "command": "mvn -pl litemall-admin-api test",
+  "returncode": 0,
+  "build_success": true,
+  "skipped_tests": true,
+  "stdout_tail": [
+    "[INFO] --- surefire:2.22.2:test (default-test) @ litemall-admin-api ---",
+    "[INFO] Tests are skipped.",
+    "[INFO] BUILD SUCCESS",
+    "[INFO] Total time:  3.123 s"
+  ],
+  "stderr_tail": [
+    "FileNotFoundError(2, '系统找不到指定的文件。', None, 2, None)"
+  ],
+  "manual_shell_rerun": "BUILD SUCCESS; surefire reports Tests are skipped; finished 2026-07-17T10:00:18+08:00"
+}

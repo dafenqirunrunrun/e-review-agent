@@ -1,0 +1,10 @@
+{
+  "status": "V180_BENCHMARK_PROVENANCE_BLOCKED",
+  "corpus_count": 192,
+  "query_count": 52,
+  "query_gold_exact_overlap": 0,
+  "gold_id_exposure": 0,
+  "gold_ids_in_corpus": 0,
+  "query_and_corpus_share_generator_file": true,
+  "template_family_overlap": "LIKELY"
+}

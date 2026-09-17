@@ -1,0 +1,7 @@
+{
+  "assetManifestAvailable": false,
+  "modelSpanCoverageRate": 0.0,
+  "qwen3Available": false,
+  "realLlmRequired": true,
+  "status": "REAL_LLM_TRACE_BLOCKED_ASSET_MANIFEST_UNAVAILABLE"
+}

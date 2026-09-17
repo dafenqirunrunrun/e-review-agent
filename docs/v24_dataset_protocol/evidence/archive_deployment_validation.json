@@ -1,0 +1,27 @@
+﻿{
+    "sourceZipPath":  "D:\\EReviewAgent\\litemall-v24-goldenpath\\EReview_Dataset_Protocol_v0.1_ResearchPack.zip",
+    "sourceZipSize":  47816,
+    "sourceZipSha256":  "8bfd3f37423e5613d6621cbd94e90132786e91e587b7548df51ef9a558964ef9",
+    "sourceZipTrackedByGit":  false,
+    "stagingPath":  "D:\\EReviewAgent\\_staging\\dataset-protocol-v01-20260728_163616",
+    "packageRoot":  "D:\\EReviewAgent\\_staging\\dataset-protocol-v01-20260728_163616\\extracted",
+    "packageManifestStatus":  "PASS",
+    "manifestFilesExpected":  35,
+    "manifestFilesValidated":  35,
+    "targetWorktree":  "D:\\EReviewAgent\\litemall-v24-dataset-protocol",
+    "targetBranch":  "design/v24-dataset-protocol-v01",
+    "baselineCommit":  "d8a3ebbc2447631f953d0ea385ccfb54639daab4",
+    "deployedAt":  "2026-07-28T16:38:12.7361938+08:00",
+    "zipDeleted":  true,
+    "deployHashStatus":  "PASS",
+    "failures":  [
+
+                 ],
+    "zipDeletion":  {
+                        "path":  "D:\\EReviewAgent\\litemall-v24-goldenpath\\EReview_Dataset_Protocol_v0.1_ResearchPack.zip",
+                        "size":  47816,
+                        "sha256":  "8bfd3f37423e5613d6621cbd94e90132786e91e587b7548df51ef9a558964ef9",
+                        "deletedAt":  "2026-07-28T16:41:25.0413029+08:00",
+                        "reason":  "Package safely deployed to isolated dataset protocol worktree and verified by manifest/hash checks."
+                    }
+}

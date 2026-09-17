@@ -1,0 +1,25 @@
+{
+  "name": "risk_auditor",
+  "role": "Risk Auditor Agent",
+  "description": "Audit risk type, risk level, image-text conflict, and guardrail warnings for review-governance tasks.",
+  "capabilities": ["risk_classification", "guardrail_awareness", "policy_decision_summary"],
+  "tools": ["risk_rule_checker"],
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "review_text": { "type": "string" },
+      "sentiment_label": { "type": "string" },
+      "evidence": { "type": "array" }
+    }
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "risk_level": { "type": "string" },
+      "risk_type": { "type": "string" },
+      "approval_required": { "type": "boolean" }
+    }
+  },
+  "risk_level": "medium",
+  "requires_human_approval": false
+}

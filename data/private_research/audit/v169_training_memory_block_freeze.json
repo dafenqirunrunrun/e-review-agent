@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-16T07:35:41.535899+00:00",
+  "status": "V169_TRAINING_MEMORY_BLOCK_FROZEN",
+  "source_summary": "data/private_research/training/v169_v22_training_summary.json",
+  "blocked_optimizer_step": 27,
+  "planned_optimizer_steps": 42,
+  "oom_count": 0,
+  "nan_count": 0,
+  "inf_count": 0,
+  "holdout_unsealed": false,
+  "holdout_evaluation_executed": false,
+  "trigger": "free_memory_below_200mb",
+  "budget_passed": true,
+  "dataset_passed": true,
+  "token_contract_passed": true
+}

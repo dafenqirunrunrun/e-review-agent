@@ -5,32 +5,31 @@
       :rules="rules"
       :model="dataForm"
       status-icon
-      label-width="300px"
-    >
-      <el-tabs tab-position="left">
+      label-width="300px">
+      <el-tabs tab-position="left" >
         <el-tab-pane :label="$t('config_wx.section.home')">
           <el-form-item :label="$t('config_wx.form.index_new')" prop="litemall_wx_index_new">
-            <el-input v-model="dataForm.litemall_wx_index_new" />
+            <el-input v-model="dataForm.litemall_wx_index_new"/>
           </el-form-item>
           <el-form-item :label="$t('config_wx.form.index_hot')" prop="litemall_wx_index_hot">
-            <el-input v-model="dataForm.litemall_wx_index_hot" />
+            <el-input v-model="dataForm.litemall_wx_index_hot"/>
           </el-form-item>
           <el-form-item :label="$t('config_wx.form.index_brand')" prop="litemall_wx_index_brand">
-            <el-input v-model="dataForm.litemall_wx_index_brand" />
+            <el-input v-model="dataForm.litemall_wx_index_brand"/>
           </el-form-item>
           <el-form-item :label="$t('config_wx.form.index_topic')" prop="litemall_wx_index_topic">
-            <el-input v-model="dataForm.litemall_wx_index_topic" />
+            <el-input v-model="dataForm.litemall_wx_index_topic"/>
           </el-form-item>
           <el-form-item :label="$t('config_wx.form.catlog_list')" prop="litemall_wx_catlog_list">
-            <el-input v-model="dataForm.litemall_wx_catlog_list" />
+            <el-input v-model="dataForm.litemall_wx_catlog_list"/>
           </el-form-item>
           <el-form-item :label="$t('config_wx.form.catlog_goods')" prop="litemall_wx_catlog_goods">
-            <el-input v-model="dataForm.litemall_wx_catlog_goods" />
+            <el-input v-model="dataForm.litemall_wx_catlog_goods"/>
           </el-form-item>
         </el-tab-pane>
         <el-tab-pane :label="$t('config_wx.section.other')">
           <el-form-item :label="$t('config_wx.form.share')" prop="litemall_wx_share">
-            <el-switch v-model="dataForm.litemall_wx_share" />
+            <el-switch v-model="dataForm.litemall_wx_share"/>
           </el-form-item>
         </el-tab-pane>
       </el-tabs>

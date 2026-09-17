@@ -1,0 +1,26 @@
+{
+  "status": "V182_90_MIN_ACTIVE_SOAK_PASS",
+  "monotonic_duration_seconds": 5405.828,
+  "event_count": 10967,
+  "complete_bucket_count": 18,
+  "empty_bucket_count": 0,
+  "request_counts": {
+    "retrieval": 10704,
+    "agent": 72,
+    "failure_injection": 9,
+    "health": 91,
+    "resource": 91
+  },
+  "success_count": 10967,
+  "error_rate": 0.0,
+  "p50_latency_ms": 15.1225,
+  "p95_latency_ms": 16.2725,
+  "p99_latency_ms": 17.1701,
+  "p95_drift": 0.099538,
+  "tenant_leakage": 0,
+  "pii_leakage": 0,
+  "rss_growth": "not_sustained",
+  "thread_growth": "not_sustained",
+  "fd_growth": "not_sustained",
+  "health_final": "ok"
+}

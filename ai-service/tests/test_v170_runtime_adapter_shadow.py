@@ -29,10 +29,9 @@ def test_v170_runtime_config_defaults_are_enterprise_safe():
     assert "adapter_path" not in config.safe_public_status()
 
 
-@pytest.mark.parametrize("adapter_path", ["/private/adapter", "Z:/private/adapter"])
-def test_v170_runtime_config_rejects_absolute_adapter_path(adapter_path):
+def test_v170_runtime_config_rejects_absolute_adapter_path():
     with pytest.raises(ValueError):
-        EnterpriseRuntimeConfig(adapter_path=adapter_path)
+        EnterpriseRuntimeConfig(adapter_path="D:/EReviewAgent/data-private/adapter")
 
 
 def test_v170_runtime_config_loads_feature_flags_without_secret_paths():

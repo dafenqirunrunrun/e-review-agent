@@ -1,0 +1,7 @@
+{
+  "marker": "REALWORLD_MULTIMODAL_ABLATION_BLOCKED",
+  "blocking_reasons": [
+    "four-way ablation requires the same adjudicated real multimodal external test set for all arms"
+  ],
+  "sample_count": 0
+}

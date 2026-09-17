@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-07-15T14:00:19.908315+00:00",
+  "status": "V21_COMPLETION_ONLY_QLORA_BUDGET_NOT_RUN_PRETRAIN_DATA_BLOCKED",
+  "blocked_reason": "train/validation completion-only audit failed before GPU budget",
+  "truncation_rate": 0.2512820512820513,
+  "eos_trainable_rate": 0.7487179487179487,
+  "gpu_used": false
+}

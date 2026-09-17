@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-15T06:01:30.620155+00:00",
+  "backend_name": "bitsandbytes",
+  "backend_version": null,
+  "four_bit_config_created": false,
+  "four_bit_model_load_attempted": false,
+  "four_bit_model_load_success": false,
+  "quantized_module_count": 0,
+  "trainable_adapter_only": false,
+  "cpu_offload_used": false,
+  "backend_error_type": "ModuleNotFoundError",
+  "backend_error_sanitized": "bitsandbytes is not installed in isolated ereview_sft, and official PyPI dry-run/download is blocked by TLS/SSL EOF. No LoRA fallback was used.",
+  "status": "PRIVATE_SYNTHETIC_QLORA_BACKEND_BLOCKED"
+}

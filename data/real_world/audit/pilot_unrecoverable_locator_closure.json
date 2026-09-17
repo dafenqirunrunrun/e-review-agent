@@ -1,0 +1,24 @@
+{
+  "marker": "PILOT_UNRECOVERABLE_LOCATORS_CLOSED",
+  "total_unrecoverable_count": 9,
+  "affected_record_hashes": [
+    "6b86fd0f60781cf8ea08d973",
+    "e278cd5f76e981328aeab760",
+    "ff215d8ba89b9d02ae303836",
+    "766884d92acce453d15fe12b",
+    "55487b3444aeef03fb2a78e4",
+    "34b2179afc7df5e759279686",
+    "f385887efabcc45aa9cadae2",
+    "4e0ce2f05df1c8127d6cdd52",
+    "fadab2590f8997860123189f"
+  ],
+  "official_snapshot_checked": true,
+  "official_snapshot_version": "private_v1_selected_records_without_url",
+  "locator_field_absent": true,
+  "retry_disabled": true,
+  "retry_allowed": false,
+  "retry_reason": "official_snapshot_contains_no_image_locator",
+  "third_party_recovery_prohibited": true,
+  "alternative_source_allowed": false,
+  "closed_at": "2026-07-14T18:59:54.884585+00:00"
+}

@@ -1,0 +1,9 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "orderId":  1,
+                 "grouponLinkId":  0,
+                 "payed":  false
+             },
+    "errmsg":  "成功"
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "rag-quality-after-sales-semantic-manifest-v2",
+  "status": "FROZEN_SEMANTIC_LABELS_AWAITING_CHUNK_BINDING",
+  "datasetVersion": "rag-quality-after-sales-semantic-v2",
+  "purpose": "Chunk-independent, Chinese after-sales semantic ground truth for validating a future structure-aware index rebuild.",
+  "limitation": "Single Codex semantic adjudication for a personal demo; not human gold. The holdout is execution-unseen, not author-blind.",
+  "files": {
+    "semantic_cases_llm_adjudicated_v2.jsonl": {
+      "path": "semantic_cases_llm_adjudicated_v2.jsonl",
+      "sha256": "9E6EE61D3D3A10025B7F6FC83FECE0936A488CE03ED5DF6A67E880C332E4A2BD"
+    },
+    "semantic_dev_llm_adjudicated_v2.jsonl": {
+      "path": "semantic_dev_llm_adjudicated_v2.jsonl",
+      "sha256": "8BBFABA047362729FBE8C32E7CF11E3CAC5A0388C80E90625F1662E2B86B53BB"
+    },
+    "semantic_holdout_llm_adjudicated_v2.jsonl": {
+      "path": "semantic_holdout_llm_adjudicated_v2.jsonl",
+      "sha256": "8608F60223462E2DD457C3531754F029EEA03CF280CC085DF3610CF019EA55D8"
+    }
+  },
+  "annotation": {
+    "status": "llm_adjudicated",
+    "semanticLabels": "canonical_document_clause_anchor",
+    "chunkIdsBound": false,
+    "holdoutExecuted": false,
+    "thresholdsFrozen": false
+  },
+  "validation": {
+    "caseCount": 48,
+    "devCount": 24,
+    "holdoutCount": 24,
+    "riskCaseCount": 40,
+    "normalControlCount": 8,
+    "legalTopicCount": 20,
+    "topicCoverage": {
+      "actual_paid_price": 2,
+      "after_sales_terms": 2,
+      "civil_remedy": 2,
+      "confirmed_exception": 2,
+      "exception_confirmation_process": 2,
+      "expanded_exception": 2,
+      "online_after_sales_information": 2,
+      "post_seven_day_repair": 2,
+      "quality_cross_reference": 2,
+      "quality_return": 2,
+      "quality_transport_cost": 2,
+      "refund_method": 2,
+      "refund_time": 2,
+      "return_contact": 2,
+      "return_method_restriction": 2,
+      "return_notice": 2,
+      "seven_day_duty": 2,
+      "statutory_exception": 2,
+      "unqualified_goods": 2,
+      "unreasonable_delay": 2
+    },
+    "checks": {
+      "caseCountIs48": true,
+      "devCountIs24": true,
+      "holdoutCountIs24": true,
+      "allChinese": true,
+      "idsUnique": true,
+      "textsUnique": true,
+      "everyTopicHasDevAndHoldoutParaphrase": true,
+      "holdoutNotCandidateExposed": true,
+      "allSemanticReferencesResolve": true,
+      "normalCasesHaveNoEvidence": true,
+      "riskCasesHaveDirectEvidence": true
+    }
+  }
+}

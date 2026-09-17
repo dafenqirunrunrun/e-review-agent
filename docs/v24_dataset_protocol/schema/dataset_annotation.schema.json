@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ereview.local/schema/dataset_annotation.schema.json",
+  "title": "E-Review Dataset Annotation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sampleId",
+    "annotationId",
+    "annotatorId",
+    "guidelineVersion",
+    "annotationTimestamp",
+    "independent",
+    "inScope",
+    "answerable",
+    "hasRisk",
+    "primaryRiskType",
+    "secondaryRiskTypes",
+    "severity",
+    "evidenceAvailability",
+    "goldEvidenceIds",
+    "goldEvidenceRelevance",
+    "requiresHumanReview",
+    "expressionStyle",
+    "robustnessTags",
+    "containsPII",
+    "containsPromptInjection",
+    "ambiguity",
+    "annotationRationale",
+    "adjudicationStatus"
+  ],
+  "properties": {
+    "sampleId": {
+      "type": "string",
+      "pattern": "^ER-(CAND|PILOT|TEST|RES)-[A-Z0-9-]{8,64}$"
+    },
+    "annotationId": {
+      "type": "string",
+      "pattern": "^ER-ANN-[A-Z0-9-]{8,64}$"
+    },
+    "annotatorId": {
+      "type": "string",
+      "pattern": "^ANN-[A-Z0-9_-]{2,64}$"
+    },
+    "guidelineVersion": {
+      "type": "string",
+      "pattern": "^dataset-protocol-v[0-9]+\\.[0-9]+$"
+    },
+    "annotationTimestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "independent": {
+      "type": "boolean"
+    },
+    "inScope": {
+      "type": "boolean"
+    },
+    "answerable": {
+      "type": "boolean"
+    },
+    "hasRisk": {
+      "type": "boolean"
+    },
+    "primaryRiskType": {
+      "enum": [
+        "NORMAL_REVIEW",
+        "NEGATIVE_REVIEW",
+        "AFTER_SALES_RISK",
+        "IMAGE_TEXT_CONFLICT",
+        "INSUFFICIENT_INFORMATION",
+        "OUT_OF_SCOPE"
+      ]
+    },
+    "secondaryRiskTypes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "NORMAL_REVIEW",
+          "NEGATIVE_REVIEW",
+          "AFTER_SALES_RISK",
+          "IMAGE_TEXT_CONFLICT",
+          "INSUFFICIENT_INFORMATION",
+          "OUT_OF_SCOPE"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "severity": {
+      "enum": [
+        "NONE",
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "UNDETERMINED"
+      ]
+    },
+    "evidenceAvailability": {
+      "enum": [
+        "SUFFICIENT",
+        "PARTIAL",
+        "NONE",
+        "NOT_APPLICABLE",
+        "UNDETERMINED"
+      ]
+    },
+    "goldEvidenceIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256
+      },
+      "uniqueItems": true
+    },
+    "goldEvidenceRelevance": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 3
+      }
+    },
+    "minimumSufficientEvidenceSet": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "requiresHumanReview": {
+      "type": "boolean"
+    },
+    "expressionStyle": {
+      "enum": [
+        "DIRECT",
+        "IMPLICIT",
+        "SARCASM",
+        "COLLOQUIAL",
+        "MIXED_LANGUAGE",
+        "SHORT",
+        "LONG",
+        "OTHER"
+      ]
+    },
+    "robustnessTags": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "TYPO",
+          "SLANG",
+          "EMOJI",
+          "REPEATED_CHAR",
+          "SCORE_TEXT_CONFLICT",
+          "CODE_SWITCH",
+          "LONG_CONTEXT",
+          "SHORT_CONTEXT",
+          "NEGATION",
+          "TEMPORAL_DETAIL",
+          "OTHER"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "containsPII": {
+      "type": "boolean"
+    },
+    "containsPromptInjection": {
+      "type": "boolean"
+    },
+    "ambiguity": {
+      "type": "boolean"
+    },
+    "candidateAlternativeLabels": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "NORMAL_REVIEW",
+          "NEGATIVE_REVIEW",
+          "AFTER_SALES_RISK",
+          "IMAGE_TEXT_CONFLICT",
+          "INSUFFICIENT_INFORMATION",
+          "OUT_OF_SCOPE"
+        ]
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "annotationRationale": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 2000
+    },
+    "uncertaintyReason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 1000
+    },
+    "adjudicationStatus": {
+      "enum": [
+        "NOT_REQUIRED",
+        "PENDING",
+        "RESOLVED"
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-07-16T14:18:05.907078+00:00",
+  "status": "V23_LINEAGE_AND_CONTRAST_GROUP_PASS",
+  "dataset_version": "synthetic_sft_v2.3",
+  "split_counts": {
+    "train": {
+      "count": 576,
+      "scenario_groups": 96,
+      "risk_type": {
+        "normal_review": 192,
+        "negative_review": 192,
+        "after_sales_risk": 192
+      },
+      "risk_level": {
+        "low": 192,
+        "medium": 192,
+        "high": 192
+      },
+      "need_human_review": {
+        "False": 216,
+        "True": 360
+      },
+      "scenario_family": {
+        "clear": 168,
+        "normal_negative_boundary": 120,
+        "negative_after_sales_boundary": 156,
+        "risk_level_contrast": 84,
+        "evidence_conflict_human_review": 48
+      }
+    },
+    "validation": {
+      "count": 72,
+      "scenario_groups": 12,
+      "risk_type": {
+        "normal_review": 24,
+        "negative_review": 24,
+        "after_sales_risk": 24
+      },
+      "risk_level": {
+        "low": 24,
+        "medium": 24,
+        "high": 24
+      },
+      "need_human_review": {
+        "False": 24,
+        "True": 48
+      },
+      "scenario_family": {
+        "clear": 24,
+        "normal_negative_boundary": 12,
+        "negative_after_sales_boundary": 12,
+        "risk_level_contrast": 12,
+        "evidence_conflict_human_review": 12
+      }
+    },
+    "engineering_holdout_v23": {
+      "count": 72,
+      "scenario_groups": 12,
+      "risk_type": {
+        "normal_review": 24,
+        "negative_review": 24,
+        "after_sales_risk": 24
+      },
+      "risk_level": {
+        "low": 24,
+        "medium": 24,
+        "high": 24
+      },
+      "need_human_review": {
+        "False": 24,
+        "True": 48
+      },
+      "scenario_family": {
+        "clear": 24,
+        "normal_negative_boundary": 12,
+        "negative_after_sales_boundary": 12,
+        "risk_level_contrast": 12,
+        "evidence_conflict_human_review": 12
+      }
+    }
+  },
+  "manifest_hashes": {
+    "train": "68ab06f3a427f5f5349551ea05e997ba36a51370fdf8b71e4908811e98fac8ad",
+    "validation": "c8215a84a72a8c4eaa3f8eb95eee4a644f775a3699827a1bca47c0ea6500164e",
+    "engineering_holdout_v23": "5e72d83703d8623f6362049adc05aba20fcf2e28fd2ba9d13281847f67442e2f"
+  },
+  "all_samples_hash": "0d2668c21e2061a40d0263894001ab91ac461668ab789f8cb4f93c0780e63ff7",
+  "cross_split_generation_root_overlap": 0,
+  "cross_split_scenario_group_overlap": 0,
+  "cross_split_contrast_pair_overlap": 0,
+  "cross_split_template_instance_overlap": 0
+}

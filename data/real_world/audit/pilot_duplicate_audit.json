@@ -1,0 +1,12 @@
+{
+  "marker": "PILOT_DUPLICATE_AUDIT_COMPLETE",
+  "text_count": 300,
+  "image_count": 18,
+  "exact_text_duplicate": 1,
+  "normalized_text_duplicate": 1,
+  "source_record_id_hash_duplicate": 3,
+  "image_sha256_duplicate": 0,
+  "perceptual_image_duplicate": 0,
+  "same_review_multi_sample_count": 3,
+  "cross_source_text_duplicate": 0
+}

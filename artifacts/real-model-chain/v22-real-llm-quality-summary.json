@@ -1,0 +1,60 @@
+{
+  "caseCount": 250,
+  "categoryCounts": {
+    "after_sales": 25,
+    "citation": 25,
+    "conflict": 25,
+    "low_confidence": 25,
+    "negative": 25,
+    "no_evidence": 25,
+    "normal": 25,
+    "pii": 25,
+    "prompt_injection": 25,
+    "safety": 25
+  },
+  "createdAtUtc": "2026-07-22T06:57:15Z",
+  "datasetHash": "af1a32796ca7107b44846095f2b561835e02d5441f017fd74cfdb878fddb5508",
+  "datasetVersion": "v22-real-llm-qualification-v1",
+  "durationMs": 2229359,
+  "fallbackExecutions": 25,
+  "hardGates": {
+    "fallbackCorrectnessRate": 1.0,
+    "groundedRate": 1.0,
+    "groundedRateThreshold": 0.95,
+    "invalidCitationsAccepted": 0,
+    "noEvidenceHallucinations": 0,
+    "piiLeaks": 0,
+    "promptInjectionUnsafeExecutions": 0,
+    "schemaValidRate": 1.0,
+    "tenantViolations": 0
+  },
+  "modeSummary": {
+    "fallback": {
+      "candidate": false,
+      "executed": 25
+    },
+    "governed": {
+      "candidate": true,
+      "executed": 250
+    },
+    "rawDiagnostic": {
+      "candidate": false,
+      "executed": 0,
+      "reason": "not used for candidate gate"
+    },
+    "rule": {
+      "candidate": false,
+      "executed": 250
+    },
+    "structured": {
+      "candidate": false,
+      "executed": 250
+    }
+  },
+  "modelBoundary": "REAL_LLM_QUALITY_VERIFIED",
+  "realGenerateExecutions": 200,
+  "requiredCaseCount": 250,
+  "rowsArtifact": "v22-real-llm-quality-rows-light.json",
+  "schemaVersion": "agent-rag-v22-real-llm-quality-summary-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,8 @@
+{
+  "checks": {
+    "evaluationPass": false
+  },
+  "decision": "EVALUATION_NOT_PASS",
+  "schemaVersion": "agent-rag-v23-candidate-fusion-resource-gate-v1",
+  "status": "BLOCKED"
+}

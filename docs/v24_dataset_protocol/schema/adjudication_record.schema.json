@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ereview.local/schema/adjudication_record.schema.json",
+  "title": "E-Review Adjudication Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "adjudicationRecordId",
+    "sampleId",
+    "annotatorA",
+    "annotatorB",
+    "disputedFields",
+    "arguments",
+    "adjudicatorId",
+    "finalDecision",
+    "appliedRule",
+    "guidelineChangeRequired",
+    "resolvedAt"
+  ],
+  "properties": {
+    "adjudicationRecordId": {
+      "type": "string"
+    },
+    "sampleId": {
+      "type": "string"
+    },
+    "annotatorA": {
+      "type": "string"
+    },
+    "annotatorB": {
+      "type": "string"
+    },
+    "disputedFields": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "arguments": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "adjudicatorId": {
+      "type": "string"
+    },
+    "finalDecision": {
+      "type": "object"
+    },
+    "appliedRule": {
+      "type": "string"
+    },
+    "guidelineChangeRequired": {
+      "type": "boolean"
+    },
+    "previousGuidelineVersion": {
+      "type": "string"
+    },
+    "finalGuidelineVersion": {
+      "type": "string"
+    },
+    "resolvedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

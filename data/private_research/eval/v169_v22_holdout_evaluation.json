@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-07-15T14:54:06Z",
+  "status": "V22_ENGINEERING_HOLDOUT_EVALUATION_NOT_RUN_TRAINING_BLOCKED",
+  "holdout_unsealed_once": false,
+  "base_real_inference_count": 0,
+  "adapter_real_inference_count": 0,
+  "blocked_reason": "training stopped on free memory below 200MB before PRIVATE_SYNTHETIC_SFT_V22_QLORA_TRAIN_PASS"
+}

@@ -1,0 +1,11 @@
+{
+  "marker": "AUTHORIZED_DATA_SPLIT_BLOCKED_NO_DATA",
+  "development_count": 0,
+  "validation_count": 0,
+  "external_test_count": 0,
+  "external_test_requires_formal_authorization": true,
+  "external_test_excluded_from_rag_index": true,
+  "external_test_excluded_from_prompt_examples": true,
+  "external_test_excluded_from_calibration": true,
+  "external_test_excluded_from_sft": true
+}

@@ -1,0 +1,3026 @@
+{
+  "benchmarkHash": "222802bed4ac363db5dbdfba5b362584ff05e2788f606781bfa2cfbb7e39a0b6",
+  "caseCount": 122,
+  "cases": [
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-000",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        2,
+        0,
+        5,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "68041697b6ff55bd0e32a47c",
+        "09837bce054a591b93ff307b",
+        "d17c10b860e81b884f53294b",
+        "63696ad6f78586719af45e3e",
+        "fcc449c2c5cbec7fcc1f172b"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-002",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bd33a3e9969a0b531f348ac2",
+        "8eb171b02b64d8afd4ef5826",
+        "b1a1329d21e3ebe5e91391f7",
+        "7e91948c46e7799fa3959478",
+        "0b08d45f1aaf7ea057d59b11"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-003",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        2,
+        0,
+        4,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "68041697b6ff55bd0e32a47c",
+        "09837bce054a591b93ff307b",
+        "63696ad6f78586719af45e3e",
+        "fcc449c2c5cbec7fcc1f172b",
+        "d17c10b860e81b884f53294b"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-005",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bd33a3e9969a0b531f348ac2",
+        "eaea675ab69a93b958bb4ec2",
+        "b1a1329d21e3ebe5e91391f7",
+        "a4adb1e93b97809597a826ad",
+        "8eb171b02b64d8afd4ef5826"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-006",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "68041697b6ff55bd0e32a47c",
+        "da9079dc880ebc00ed94f42d",
+        "09837bce054a591b93ff307b",
+        "b1a1329d21e3ebe5e91391f7",
+        "bf22417ce173fd4b9d02f97c"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-007",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "183a4e21d84eb9a90e4e0049",
+        "da9079dc880ebc00ed94f42d",
+        "68041697b6ff55bd0e32a47c",
+        "70c918abec77b60200fddeeb",
+        "bf22417ce173fd4b9d02f97c"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-008",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "b1a1329d21e3ebe5e91391f7",
+        "a4adb1e93b97809597a826ad",
+        "595f60a831f76a777a6f78c4",
+        "eaea675ab69a93b958bb4ec2",
+        "7e91948c46e7799fa3959478"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-009",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "98f893f91f685e6c7aa96d7c",
+        "68041697b6ff55bd0e32a47c",
+        "b1a1329d21e3ebe5e91391f7",
+        "e5d39d5495e6ee58dd606755",
+        "09837bce054a591b93ff307b"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-010",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "5860ed7d6f61d973813a7680",
+        "44ef124531b4a565acf97e9c",
+        "2ca677563e5ebd41718aad9a"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-012",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bd33a3e9969a0b531f348ac2",
+        "cf1164ad6307d9ef49d19e7a",
+        "68041697b6ff55bd0e32a47c",
+        "8eb171b02b64d8afd4ef5826",
+        "b1a1329d21e3ebe5e91391f7"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-015",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        2,
+        0,
+        4,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "98f893f91f685e6c7aa96d7c",
+        "09837bce054a591b93ff307b",
+        "8eb171b02b64d8afd4ef5826",
+        "fcc449c2c5cbec7fcc1f172b",
+        "cf1164ad6307d9ef49d19e7a"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-016",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "5860ed7d6f61d973813a7680",
+        "44ef124531b4a565acf97e9c",
+        "feb4e74b58d8140926f34e25"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-017",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "67703a7f0cda5054da41ca8e",
+        "4b18d0ac03cc47f799d81f9e",
+        "dbbc866f7dd9f24b01517a70",
+        "bdf04f70888fd0dca1b4ece7",
+        "f1531b458dc41971995b9110"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-018",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "f8b2b2b89201cc38c3517d61",
+        "ddf93d7e2a02155c93c3440f",
+        "32ae23d52eb948b8fefd433e",
+        "18e69e2c3626f33ae2bb218f",
+        "63fda2d45550cb89fdbeaf21"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-023",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "a3985126cf607669b2514506",
+        "70c918abec77b60200fddeeb",
+        "68041697b6ff55bd0e32a47c",
+        "bf22417ce173fd4b9d02f97c",
+        "98f893f91f685e6c7aa96d7c"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-024",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "4c02757e9de37168ef8274bf",
+        "5b002ee89dab569f3ce6636d",
+        "624bbcbf5267abbd76f7f289",
+        "9d5abf5a2e0077d51f0bf2b0",
+        "576e84be4eda0a47e540c80e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-025",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "9d5abf5a2e0077d51f0bf2b0",
+        "369aedb98e2025a19fee4ecf",
+        "bdec7159347b58c626028fac",
+        "5b002ee89dab569f3ce6636d",
+        "6baa38f36be882468f7453ca"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-027",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "c3efd2303abb0b635da78935",
+        "81c2251928e89acb9b23bf37",
+        "521f2ee133bdb61d8e2b7ad3",
+        "cde0b8c5eaf06f273fb6c636",
+        "5b002ee89dab569f3ce6636d"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-030",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        5,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "9d5abf5a2e0077d51f0bf2b0",
+        "5b002ee89dab569f3ce6636d",
+        "576e84be4eda0a47e540c80e",
+        "624bbcbf5267abbd76f7f289",
+        "8a3dbcd46ae69337d1014a63"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-031",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "9d5abf5a2e0077d51f0bf2b0",
+        "369aedb98e2025a19fee4ecf",
+        "bdec7159347b58c626028fac",
+        "6baa38f36be882468f7453ca",
+        "5b002ee89dab569f3ce6636d"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-033",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5b002ee89dab569f3ce6636d",
+        "544fae716dabc27f3378fe3e",
+        "e7107e1db1b05b42b063e235",
+        "08fde6a3c382b50191ad03d6",
+        "6baa38f36be882468f7453ca"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-035",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "624bbcbf5267abbd76f7f289",
+        "576e84be4eda0a47e540c80e",
+        "4b18d0ac03cc47f799d81f9e",
+        "67703a7f0cda5054da41ca8e",
+        "dbbc866f7dd9f24b01517a70"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-036",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "c3efd2303abb0b635da78935",
+        "521f2ee133bdb61d8e2b7ad3",
+        "81c2251928e89acb9b23bf37",
+        "cde0b8c5eaf06f273fb6c636",
+        "6baa38f36be882468f7453ca"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-037",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "5860ed7d6f61d973813a7680",
+        "44ef124531b4a565acf97e9c",
+        "9d5abf5a2e0077d51f0bf2b0"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-038",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "67703a7f0cda5054da41ca8e",
+        "dbbc866f7dd9f24b01517a70",
+        "4b18d0ac03cc47f799d81f9e",
+        "bdf04f70888fd0dca1b4ece7",
+        "576e84be4eda0a47e540c80e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-039",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "c3efd2303abb0b635da78935",
+        "6968a42f7a217c5b66230085",
+        "6baa38f36be882468f7453ca",
+        "521f2ee133bdb61d8e2b7ad3",
+        "81c2251928e89acb9b23bf37"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-040",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "5860ed7d6f61d973813a7680",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "9d5abf5a2e0077d51f0bf2b0",
+        "5b002ee89dab569f3ce6636d"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-042",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        4,
+        3,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5b002ee89dab569f3ce6636d",
+        "9d5abf5a2e0077d51f0bf2b0",
+        "544fae716dabc27f3378fe3e",
+        "8a3dbcd46ae69337d1014a63",
+        "c3efd2303abb0b635da78935"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-043",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5b002ee89dab569f3ce6636d",
+        "9d5abf5a2e0077d51f0bf2b0",
+        "bdec7159347b58c626028fac",
+        "369aedb98e2025a19fee4ecf",
+        "08fde6a3c382b50191ad03d6"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-045",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "9d5abf5a2e0077d51f0bf2b0",
+        "369aedb98e2025a19fee4ecf",
+        "6baa38f36be882468f7453ca",
+        "08fde6a3c382b50191ad03d6",
+        "53c561f33f49218fc95992a0"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-046",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "c3efd2303abb0b635da78935",
+        "521f2ee133bdb61d8e2b7ad3",
+        "81c2251928e89acb9b23bf37",
+        "cde0b8c5eaf06f273fb6c636",
+        "5b002ee89dab569f3ce6636d"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-047",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "369aedb98e2025a19fee4ecf",
+        "bdec7159347b58c626028fac",
+        "6baa38f36be882468f7453ca",
+        "5b002ee89dab569f3ce6636d",
+        "08fde6a3c382b50191ad03d6"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-048",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        5
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bdf04f70888fd0dca1b4ece7",
+        "44ef124531b4a565acf97e9c",
+        "feb4e74b58d8140926f34e25",
+        "418be61e9f7908e366c5218c",
+        "3df890a19f2513a5c73bdff4"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-049",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "44ef124531b4a565acf97e9c",
+        "1ffcef0795033d338646da6a",
+        "feb4e74b58d8140926f34e25",
+        "ba36f81a22a3b7ac4ee1321d",
+        "2513de75ead87646db56d27d"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-050",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bdf04f70888fd0dca1b4ece7",
+        "8a1d206e7b7491f1ba9e197a",
+        "418be61e9f7908e366c5218c",
+        "8b7501461efd0df340ad19f2",
+        "b8ff07bc87f5cc87adde21d9"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-052",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "44ef124531b4a565acf97e9c",
+        "feb4e74b58d8140926f34e25",
+        "2513de75ead87646db56d27d",
+        "ba36f81a22a3b7ac4ee1321d",
+        "1141fa68c639ad0179af76a1"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-053",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bdf04f70888fd0dca1b4ece7",
+        "418be61e9f7908e366c5218c",
+        "8a1d206e7b7491f1ba9e197a",
+        "379965280e91ffb1dd3eeb2d",
+        "56e5213ceed2cc5889141649"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-055",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "44ef124531b4a565acf97e9c",
+        "1ffcef0795033d338646da6a",
+        "ab5ccce414f723f3ec457199",
+        "feb4e74b58d8140926f34e25",
+        "07e66229edccde7f13e75747"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-056",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bdf04f70888fd0dca1b4ece7",
+        "8a1d206e7b7491f1ba9e197a",
+        "3108358d68fa7578819f7fbb",
+        "b8ff07bc87f5cc87adde21d9",
+        "418be61e9f7908e366c5218c"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-057",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bdf04f70888fd0dca1b4ece7",
+        "44ef124531b4a565acf97e9c",
+        "b8ff07bc87f5cc87adde21d9",
+        "8a1d206e7b7491f1ba9e197a",
+        "1ffcef0795033d338646da6a"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-058",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "44ef124531b4a565acf97e9c",
+        "feb4e74b58d8140926f34e25",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "5860ed7d6f61d973813a7680",
+        "0f9059af4e21e96fa6908c63"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-059",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bdf04f70888fd0dca1b4ece7",
+        "418be61e9f7908e366c5218c",
+        "4b18d0ac03cc47f799d81f9e",
+        "67703a7f0cda5054da41ca8e",
+        "dbbc866f7dd9f24b01517a70"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-060",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "44ef124531b4a565acf97e9c",
+        "bdf04f70888fd0dca1b4ece7",
+        "8a1d206e7b7491f1ba9e197a",
+        "1ffcef0795033d338646da6a",
+        "379965280e91ffb1dd3eeb2d"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-061",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "5860ed7d6f61d973813a7680",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "44ef124531b4a565acf97e9c",
+        "feb4e74b58d8140926f34e25"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-062",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "67703a7f0cda5054da41ca8e",
+        "dbbc866f7dd9f24b01517a70",
+        "4b18d0ac03cc47f799d81f9e",
+        "bdf04f70888fd0dca1b4ece7",
+        "418be61e9f7908e366c5218c"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-065",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "4b18d0ac03cc47f799d81f9e",
+        "67703a7f0cda5054da41ca8e",
+        "dbbc866f7dd9f24b01517a70",
+        "bdf04f70888fd0dca1b4ece7",
+        "418be61e9f7908e366c5218c"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-066",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        4,
+        0,
+        0,
+        5,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "44ef124531b4a565acf97e9c",
+        "feb4e74b58d8140926f34e25",
+        "bdf04f70888fd0dca1b4ece7",
+        "2a1510a21374b33637f15289",
+        "afaf684749b9585e3991b108"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-067",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "44ef124531b4a565acf97e9c",
+        "1ffcef0795033d338646da6a",
+        "feb4e74b58d8140926f34e25",
+        "ba36f81a22a3b7ac4ee1321d",
+        "07e66229edccde7f13e75747"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-070",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        3,
+        2
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "44ef124531b4a565acf97e9c",
+        "3df890a19f2513a5c73bdff4",
+        "afaf684749b9585e3991b108",
+        "5f3f5f5df1577f930f111c5f",
+        "621607555aab7d49e13ecc49"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-071",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "44ef124531b4a565acf97e9c",
+        "1ffcef0795033d338646da6a",
+        "feb4e74b58d8140926f34e25",
+        "ba36f81a22a3b7ac4ee1321d",
+        "ab5ccce414f723f3ec457199"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-072",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        5,
+        4,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "90eaea01f4020cb25b5475c5",
+        "f1531b458dc41971995b9110",
+        "1934a277103eb8bcdfc59e01",
+        "4c6a19dfb4b1358d5db09a0a"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-074",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "f1531b458dc41971995b9110",
+        "5da3d1ef60cabb0d13ba26b3",
+        "b21139b2869564882c33269e",
+        "9a10ed6eb5c2cd726d610cca",
+        "9d563117d18f195c4f024b87"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-075",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "90eaea01f4020cb25b5475c5",
+        "f1531b458dc41971995b9110",
+        "5da3d1ef60cabb0d13ba26b3",
+        "1934a277103eb8bcdfc59e01"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-076",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "30d3792eb7dbab3ef76f4feb",
+        "90eaea01f4020cb25b5475c5",
+        "6225af57d2f9014e83229222",
+        "a08af598652d48393dba1b55"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-078",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        5,
+        0,
+        3,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "f1531b458dc41971995b9110",
+        "1934a277103eb8bcdfc59e01",
+        "90eaea01f4020cb25b5475c5",
+        "1a322ead2322b7b0e96c7df2"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-080",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "f1531b458dc41971995b9110",
+        "b21139b2869564882c33269e",
+        "9a10ed6eb5c2cd726d610cca",
+        "9d563117d18f195c4f024b87",
+        "e746d449898dfdc6906cb174"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-081",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "47921eab9d224bad732296bb",
+        "9a10ed6eb5c2cd726d610cca",
+        "e746d449898dfdc6906cb174",
+        "30d3792eb7dbab3ef76f4feb",
+        "9d563117d18f195c4f024b87"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-084",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        5
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "47921eab9d224bad732296bb",
+        "30d3792eb7dbab3ef76f4feb",
+        "e746d449898dfdc6906cb174",
+        "9a10ed6eb5c2cd726d610cca",
+        "9fc3806eb9742d4f9cdb954b"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-086",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "f1531b458dc41971995b9110",
+        "67703a7f0cda5054da41ca8e",
+        "4b18d0ac03cc47f799d81f9e",
+        "dbbc866f7dd9f24b01517a70",
+        "bdf04f70888fd0dca1b4ece7"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-090",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        2,
+        4,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "4c6a19dfb4b1358d5db09a0a",
+        "f1531b458dc41971995b9110",
+        "1934a277103eb8bcdfc59e01",
+        "90eaea01f4020cb25b5475c5"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-091",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "a08af598652d48393dba1b55",
+        "90eaea01f4020cb25b5475c5",
+        "47921eab9d224bad732296bb",
+        "0fd071e1d5cd1319d89d5078"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-092",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "1934a277103eb8bcdfc59e01",
+        "f1531b458dc41971995b9110",
+        "90eaea01f4020cb25b5475c5",
+        "5da3d1ef60cabb0d13ba26b3"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-093",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "6225af57d2f9014e83229222",
+        "89821f48f375025dcd28a21c",
+        "a08af598652d48393dba1b55",
+        "47921eab9d224bad732296bb"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-094",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "f1531b458dc41971995b9110",
+        "90eaea01f4020cb25b5475c5",
+        "1934a277103eb8bcdfc59e01",
+        "5da3d1ef60cabb0d13ba26b3"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-095",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "30d3792eb7dbab3ef76f4feb",
+        "a08af598652d48393dba1b55",
+        "90eaea01f4020cb25b5475c5",
+        "47921eab9d224bad732296bb"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-098",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "3c5dd6268eb639cf1b7ffaf1",
+        "83f719248389b4a090578e45",
+        "3349a5cbf9ba8f68fe9d631b",
+        "45e0144e7de0d6466d4013a6",
+        "2d65e5cd918328b6644c7fc1"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-099",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        3,
+        0,
+        0,
+        0,
+        5
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5966a5c129c160358356c039",
+        "5e67e1ca9095ab7f271b277f",
+        "c15a7149d99fada6832c55e4",
+        "432f6e882e00965f814465f2",
+        "75a24eeefc767ce8121f412e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-101",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "83f719248389b4a090578e45",
+        "3349a5cbf9ba8f68fe9d631b",
+        "2d65e5cd918328b6644c7fc1",
+        "9707aad0cd15353ea1b33342",
+        "45e0144e7de0d6466d4013a6"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-102",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        3,
+        0,
+        0,
+        4,
+        5
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5966a5c129c160358356c039",
+        "5e67e1ca9095ab7f271b277f",
+        "c15a7149d99fada6832c55e4",
+        "663da0f5e4533bbbefba1e1b",
+        "75a24eeefc767ce8121f412e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-103",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "9ae74b75b4daf3c4a605ca4c",
+        "05b8ee305803db234ea82bf6",
+        "2e19ff929845e605f1a34b77",
+        "5966a5c129c160358356c039",
+        "c83c7bcdc8f54788d189f3d1"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-104",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "83f719248389b4a090578e45",
+        "3c5dd6268eb639cf1b7ffaf1",
+        "3349a5cbf9ba8f68fe9d631b",
+        "45e0144e7de0d6466d4013a6",
+        "680b871b62739a51841f4d26"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-107",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "4b18d0ac03cc47f799d81f9e",
+        "67703a7f0cda5054da41ca8e",
+        "dbbc866f7dd9f24b01517a70",
+        "576e84be4eda0a47e540c80e",
+        "624bbcbf5267abbd76f7f289"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-108",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "83f719248389b4a090578e45",
+        "d99a379e01bafecacc18e5c5",
+        "05b8ee305803db234ea82bf6",
+        "9707aad0cd15353ea1b33342",
+        "680b871b62739a51841f4d26"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-109",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "5860ed7d6f61d973813a7680",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "44ef124531b4a565acf97e9c",
+        "feb4e74b58d8140926f34e25"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-110",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "67703a7f0cda5054da41ca8e",
+        "4b18d0ac03cc47f799d81f9e",
+        "dbbc866f7dd9f24b01517a70",
+        "bdf04f70888fd0dca1b4ece7",
+        "418be61e9f7908e366c5218c"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-111",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "e5d39d5495e6ee58dd606755",
+        "b1a1329d21e3ebe5e91391f7",
+        "b5a4b07ff7b820d73738ebe4",
+        "7e91948c46e7799fa3959478",
+        "fcc449c2c5cbec7fcc1f172b"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-112",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "5860ed7d6f61d973813a7680",
+        "44ef124531b4a565acf97e9c",
+        "9d5abf5a2e0077d51f0bf2b0"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-113",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "4b18d0ac03cc47f799d81f9e",
+        "67703a7f0cda5054da41ca8e",
+        "dbbc866f7dd9f24b01517a70",
+        "bdf04f70888fd0dca1b4ece7",
+        "576e84be4eda0a47e540c80e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-114",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        4,
+        0,
+        5,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5966a5c129c160358356c039",
+        "5e67e1ca9095ab7f271b277f",
+        "432f6e882e00965f814465f2",
+        "c15a7149d99fada6832c55e4",
+        "a0917f063f71f43864d786d4"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-115",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "9ae74b75b4daf3c4a605ca4c",
+        "05b8ee305803db234ea82bf6",
+        "2e19ff929845e605f1a34b77",
+        "5966a5c129c160358356c039",
+        "c83c7bcdc8f54788d189f3d1"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-116",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        5,
+        3,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5966a5c129c160358356c039",
+        "5e67e1ca9095ab7f271b277f",
+        "20e06d7ebdd00c1fa5636986",
+        "432f6e882e00965f814465f2",
+        "c15a7149d99fada6832c55e4"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-118",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        4,
+        0,
+        3,
+        0,
+        5
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5e67e1ca9095ab7f271b277f",
+        "5966a5c129c160358356c039",
+        "a0917f063f71f43864d786d4",
+        "c15a7149d99fada6832c55e4",
+        "75a24eeefc767ce8121f412e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-120",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "d768d585ba9fdbb3d89ce16a",
+        "a0b201c58637f6706315c8db",
+        "54fb937c8792cef3354eb9b3",
+        "82d24129e36312c688cc4133",
+        "4f863ef23f56f0247549b5a6"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-121",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "1e6e0ac0dd00dbea1ddd5100",
+        "e424ae4d50ae56cf26e5bd9a",
+        "d768d585ba9fdbb3d89ce16a",
+        "a0b201c58637f6706315c8db",
+        "7a4bb6c7ec46ae1eb0db6097"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-122",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "63a75978326049de5455485f",
+        "e3c898aa342355aff717141c",
+        "660d28f714ed432dd1c41277",
+        "7fe63e19641c973038cd2fe1",
+        "2033fe94f51f2d2a3df1ec36"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-123",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "d768d585ba9fdbb3d89ce16a",
+        "a0b201c58637f6706315c8db",
+        "4f863ef23f56f0247549b5a6",
+        "085e7d29a3ab61035bc15481",
+        "82d24129e36312c688cc4133"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-126",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "d768d585ba9fdbb3d89ce16a",
+        "54fb937c8792cef3354eb9b3",
+        "a0b201c58637f6706315c8db",
+        "4f863ef23f56f0247549b5a6",
+        "7022e23cb31d336e899ffb2e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-127",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "1e6e0ac0dd00dbea1ddd5100",
+        "dda4625439c497343db6de64",
+        "a0b201c58637f6706315c8db",
+        "d768d585ba9fdbb3d89ce16a",
+        "7a4bb6c7ec46ae1eb0db6097"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-128",
+      "category": "lexical",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "660d28f714ed432dd1c41277",
+        "e3c898aa342355aff717141c",
+        "5c196fdec8bb338466ade7bb",
+        "7fe63e19641c973038cd2fe1",
+        "2033fe94f51f2d2a3df1ec36"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-129",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "a2ce8262e45a8b3efaeb9062",
+        "54fb937c8792cef3354eb9b3",
+        "ff75ecd339c7b0e3923d5f39",
+        "81a0275dc37d86a7973c38e2",
+        "7022e23cb31d336e899ffb2e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-130",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "d3e6e42bd1d793f9cd6f15fd",
+        "0f9059af4e21e96fa6908c63",
+        "5860ed7d6f61d973813a7680",
+        "44ef124531b4a565acf97e9c",
+        "2ca677563e5ebd41718aad9a"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-131",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "4b18d0ac03cc47f799d81f9e",
+        "67703a7f0cda5054da41ca8e",
+        "dbbc866f7dd9f24b01517a70",
+        "bdf04f70888fd0dca1b4ece7",
+        "f1531b458dc41971995b9110"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-132",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "63a75978326049de5455485f",
+        "e424ae4d50ae56cf26e5bd9a",
+        "a2ce8262e45a8b3efaeb9062",
+        "660d28f714ed432dd1c41277",
+        "81a0275dc37d86a7973c38e2"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-133",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "5860ed7d6f61d973813a7680",
+        "44ef124531b4a565acf97e9c",
+        "feb4e74b58d8140926f34e25"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-134",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "67703a7f0cda5054da41ca8e",
+        "4b18d0ac03cc47f799d81f9e",
+        "dbbc866f7dd9f24b01517a70",
+        "bdf04f70888fd0dca1b4ece7",
+        "418be61e9f7908e366c5218c"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-135",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "660d28f714ed432dd1c41277",
+        "1e6e0ac0dd00dbea1ddd5100",
+        "5263250d92079c15db7e2de7",
+        "54fb937c8792cef3354eb9b3",
+        "81a0275dc37d86a7973c38e2"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-137",
+      "category": "semantic",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "67703a7f0cda5054da41ca8e",
+        "4b18d0ac03cc47f799d81f9e",
+        "dbbc866f7dd9f24b01517a70",
+        "bdf04f70888fd0dca1b4ece7",
+        "f1531b458dc41971995b9110"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-140",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "a0b201c58637f6706315c8db",
+        "d768d585ba9fdbb3d89ce16a",
+        "82d24129e36312c688cc4133",
+        "4f863ef23f56f0247549b5a6",
+        "54fb937c8792cef3354eb9b3"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-141",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "1e6e0ac0dd00dbea1ddd5100",
+        "e424ae4d50ae56cf26e5bd9a",
+        "a0b201c58637f6706315c8db",
+        "d768d585ba9fdbb3d89ce16a",
+        "7a4bb6c7ec46ae1eb0db6097"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-142",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "d768d585ba9fdbb3d89ce16a",
+        "a0b201c58637f6706315c8db",
+        "4f863ef23f56f0247549b5a6",
+        "085e7d29a3ab61035bc15481",
+        "82d24129e36312c688cc4133"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-143",
+      "category": "mixed",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "e424ae4d50ae56cf26e5bd9a",
+        "d768d585ba9fdbb3d89ce16a",
+        "a0b201c58637f6706315c8db",
+        "1e6e0ac0dd00dbea1ddd5100",
+        "7a4bb6c7ec46ae1eb0db6097"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-145",
+      "category": "temporal",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        2,
+        3,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "9d5abf5a2e0077d51f0bf2b0",
+        "8a3dbcd46ae69337d1014a63",
+        "544fae716dabc27f3378fe3e",
+        "c3efd2303abb0b635da78935",
+        "81c2251928e89acb9b23bf37"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-146",
+      "category": "temporal",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "e5d39d5495e6ee58dd606755",
+        "a4671d1ea3c14e12324520b4",
+        "1248f57ba93309e8243c5b77",
+        "5263250d92079c15db7e2de7",
+        "2a34ace8f2efd575b2235687"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-147",
+      "category": "temporal",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "a08af598652d48393dba1b55",
+        "4c15eba9b49cdacd5c996bdc",
+        "2ca677563e5ebd41718aad9a",
+        "e746d449898dfdc6906cb174",
+        "9d563117d18f195c4f024b87"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-148",
+      "category": "temporal",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "feb4e74b58d8140926f34e25",
+        "418be61e9f7908e366c5218c",
+        "1ffcef0795033d338646da6a",
+        "3df890a19f2513a5c73bdff4",
+        "dd3b01b0de1b7a952da777f5"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-149",
+      "category": "temporal",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        4,
+        1,
+        5
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "663da0f5e4533bbbefba1e1b",
+        "5e67e1ca9095ab7f271b277f",
+        "5966a5c129c160358356c039",
+        "a0917f063f71f43864d786d4",
+        "75a24eeefc767ce8121f412e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-151",
+      "category": "temporal",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "bdec7159347b58c626028fac",
+        "5b002ee89dab569f3ce6636d",
+        "d77b1a028bb0a929a7f48480",
+        "08fde6a3c382b50191ad03d6",
+        "624bbcbf5267abbd76f7f289"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-152",
+      "category": "temporal",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        3,
+        5,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "90eaea01f4020cb25b5475c5",
+        "5da3d1ef60cabb0d13ba26b3",
+        "4c15eba9b49cdacd5c996bdc",
+        "a08af598652d48393dba1b55",
+        "1a322ead2322b7b0e96c7df2"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-156",
+      "category": "tenant-isolation",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        5,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "feb4e74b58d8140926f34e25",
+        "44ef124531b4a565acf97e9c",
+        "bdf04f70888fd0dca1b4ece7",
+        "418be61e9f7908e366c5218c",
+        "168c7dcdca2c9481e78827f7"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-157",
+      "category": "tenant-isolation",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "2ca677563e5ebd41718aad9a",
+        "90eaea01f4020cb25b5475c5",
+        "f1531b458dc41971995b9110",
+        "1934a277103eb8bcdfc59e01",
+        "5da3d1ef60cabb0d13ba26b3"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-158",
+      "category": "tenant-isolation",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        4,
+        0,
+        0,
+        3,
+        5
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "UNKNOWN",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5e67e1ca9095ab7f271b277f",
+        "5966a5c129c160358356c039",
+        "663da0f5e4533bbbefba1e1b",
+        "c15a7149d99fada6832c55e4",
+        "75a24eeefc767ce8121f412e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-159",
+      "category": "tenant-isolation",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "d768d585ba9fdbb3d89ce16a",
+        "a0b201c58637f6706315c8db",
+        "085e7d29a3ab61035bc15481",
+        "54fb937c8792cef3354eb9b3",
+        "4f863ef23f56f0247549b5a6"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-160",
+      "category": "tenant-isolation",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "67703a7f0cda5054da41ca8e",
+        "514ef67b7860b8ce028bb29e",
+        "5860ed7d6f61d973813a7680",
+        "66af9ad0a4c77a85b1a7defb"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-161",
+      "category": "tenant-isolation",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5860ed7d6f61d973813a7680",
+        "0f9059af4e21e96fa6908c63",
+        "66af9ad0a4c77a85b1a7defb",
+        "67703a7f0cda5054da41ca8e",
+        "514ef67b7860b8ce028bb29e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-162",
+      "category": "tenant-isolation",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relevantCandidateScores": [],
+      "rootCause": "SEMANTIC_MODEL_MISMATCH",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "514ef67b7860b8ce028bb29e",
+        "67703a7f0cda5054da41ca8e",
+        "0f9059af4e21e96fa6908c63",
+        "66af9ad0a4c77a85b1a7defb",
+        "5860ed7d6f61d973813a7680"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-165",
+      "category": "no-answer",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [],
+      "relevantCandidateScores": [],
+      "rootCause": "CANDIDATE_POOL_TOO_SMALL",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "f1531b458dc41971995b9110",
+        "2ca677563e5ebd41718aad9a",
+        "a08af598652d48393dba1b55",
+        "89821f48f375025dcd28a21c",
+        "44ef124531b4a565acf97e9c"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-166",
+      "category": "no-answer",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [],
+      "relevantCandidateScores": [],
+      "rootCause": "CANDIDATE_POOL_TOO_SMALL",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "5263250d92079c15db7e2de7",
+        "1e6e0ac0dd00dbea1ddd5100",
+        "660d28f714ed432dd1c41277",
+        "54fb937c8792cef3354eb9b3",
+        "a4671d1ea3c14e12324520b4"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-167",
+      "category": "no-answer",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [],
+      "relevantCandidateScores": [],
+      "rootCause": "CANDIDATE_POOL_TOO_SMALL",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "f8b2b2b89201cc38c3517d61",
+        "5263250d92079c15db7e2de7",
+        "ddf93d7e2a02155c93c3440f",
+        "18e69e2c3626f33ae2bb218f",
+        "bdf04f70888fd0dca1b4ece7"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-168",
+      "category": "no-answer",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [],
+      "relevantCandidateScores": [],
+      "rootCause": "CANDIDATE_POOL_TOO_SMALL",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "7022e23cb31d336e899ffb2e",
+        "660d28f714ed432dd1c41277",
+        "54fb937c8792cef3354eb9b3",
+        "a2ce8262e45a8b3efaeb9062",
+        "81a0275dc37d86a7973c38e2"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-169",
+      "category": "no-answer",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [],
+      "relevantCandidateScores": [],
+      "rootCause": "CANDIDATE_POOL_TOO_SMALL",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "0f9059af4e21e96fa6908c63",
+        "67703a7f0cda5054da41ca8e",
+        "d3e6e42bd1d793f9cd6f15fd",
+        "5f3f5f5df1577f930f111c5f",
+        "32ae23d52eb948b8fefd433e"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-170",
+      "category": "no-answer",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [],
+      "relevantCandidateScores": [],
+      "rootCause": "CANDIDATE_POOL_TOO_SMALL",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "1248f57ba93309e8243c5b77",
+        "a4671d1ea3c14e12324520b4",
+        "c3efd2303abb0b635da78935",
+        "e424ae4d50ae56cf26e5bd9a",
+        "521f2ee133bdb61d8e2b7ad3"
+      ],
+      "truncatedCandidateCount": null
+    },
+    {
+      "candidateCount": null,
+      "caseId": "p3a2-172",
+      "category": "no-answer",
+      "queryLengthTokens": null,
+      "relevantCandidateOriginalRanks": [],
+      "relevantCandidateRerankedRanks": [],
+      "relevantCandidateScores": [],
+      "rootCause": "CANDIDATE_POOL_TOO_SMALL",
+      "safeSummary": "Light row artifact contains chunk ids and ranks only; original private text is intentionally omitted.",
+      "topReturnedChunkIds": [
+        "a4671d1ea3c14e12324520b4",
+        "2a34ace8f2efd575b2235687",
+        "b5a4b07ff7b820d73738ebe4",
+        "1248f57ba93309e8243c5b77",
+        "8eb171b02b64d8afd4ef5826"
+      ],
+      "truncatedCandidateCount": null
+    }
+  ],
+  "createdAtUtc": "2026-07-22T13:12:10Z",
+  "limitations": [
+    "Existing light rows do not include query text, candidate pool size, raw scores, or deterministic ranks.",
+    "Root-cause labels are conservative and should be refined after score-direction and parity tests run."
+  ],
+  "rootCauseCounts": {
+    "CANDIDATE_POOL_TOO_SMALL": 7,
+    "SEMANTIC_MODEL_MISMATCH": 83,
+    "UNKNOWN": 32
+  },
+  "schemaVersion": "agent-rag-v22-reranker-regression-case-analysis-v1",
+  "sourceCommit": "57858817"
+}

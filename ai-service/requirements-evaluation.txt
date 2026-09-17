@@ -1,0 +1,2 @@
+# Offline-only deterministic RAG evaluation. Not imported by API runtime.
+ir-measures==0.4.3

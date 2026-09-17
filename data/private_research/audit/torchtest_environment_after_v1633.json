@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-07-15T06:44:20.617445+00:00",
+  "before_environment_hash": "2541e90508fd1b84021368f4ae75e3e969ffbbca9d838aa7a607f990de7da19e",
+  "after_environment_hash": "2541e90508fd1b84021368f4ae75e3e969ffbbca9d838aa7a607f990de7da19e",
+  "peft_installed_in_torchtest": false,
+  "bitsandbytes_installed_in_torchtest": false,
+  "status": "TORCHTEST_ENVIRONMENT_UNCHANGED_PASS"
+}

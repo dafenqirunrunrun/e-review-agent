@@ -1,0 +1,12 @@
+{
+  "configurationGate": "E_REVIEW_V24_RUNTIME_TRACE_CONFIGURATION_PASS",
+  "defaultPayloadCaptureDisabled": true,
+  "defaultReplayDisabled": true,
+  "defaultSampleRate": 0.0,
+  "defaultSinkNone": true,
+  "defaultTraceDisabled": true,
+  "qualificationPayloadCaptureDisabled": true,
+  "qualificationReplayDisabled": true,
+  "qualificationSampleRate": 1.0,
+  "qualificationTraceEnabled": true
+}

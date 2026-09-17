@@ -1,0 +1,104 @@
+{
+  "conclusion": "CONTROL_SET_MIXED_SIGNAL",
+  "gate": {
+    "allGroupsExecuted": true,
+    "metricsComplete": true,
+    "status": "PASS"
+  },
+  "groups": {
+    "A_OFFICIAL_COMPATIBLE_ENGLISH": {
+      "averageMaxWeight": 1.0265625,
+      "averageNonZeroDimensions": 15.8,
+      "averageWeightSum": 10.94898682,
+      "caseCount": 5,
+      "encodeP50Ms": 557.633,
+      "encodeP95Ms": 557.633,
+      "medianNonZeroDimensions": 15.0,
+      "p95NonZeroDimensions": 19.0,
+      "rawSparseNonEmptyCount": 5,
+      "rawSparseNonEmptyRate": 1.0,
+      "tokenCountMedian": 12.0,
+      "tokenCountP95": 13.0
+    },
+    "B_SYNTHETIC_CHINESE_RULES": {
+      "averageMaxWeight": 0.95688477,
+      "averageNonZeroDimensions": 17.5,
+      "averageWeightSum": 10.7427063,
+      "caseCount": 10,
+      "encodeP50Ms": 6.683,
+      "encodeP95Ms": 6.683,
+      "medianNonZeroDimensions": 17.5,
+      "p95NonZeroDimensions": 21.0,
+      "rawSparseNonEmptyCount": 10,
+      "rawSparseNonEmptyRate": 1.0,
+      "tokenCountMedian": 1.0,
+      "tokenCountP95": 3.0
+    },
+    "C_PROJECT_CONTENT_ONLY": {
+      "averageMaxWeight": 0.86499023,
+      "averageNonZeroDimensions": 21.7,
+      "averageWeightSum": 12.41661377,
+      "caseCount": 20,
+      "encodeP50Ms": 8.322,
+      "encodeP95Ms": 8.322,
+      "medianNonZeroDimensions": 22.0,
+      "p95NonZeroDimensions": 22.0,
+      "rawSparseNonEmptyCount": 20,
+      "rawSparseNonEmptyRate": 1.0,
+      "tokenCountMedian": 24.0,
+      "tokenCountP95": 24.0
+    },
+    "D_PARENT_SUMMARY_CONTENT": {
+      "averageMaxWeight": 0.70393066,
+      "averageNonZeroDimensions": 33.8,
+      "averageWeightSum": 13.88485718,
+      "caseCount": 20,
+      "encodeP50Ms": 6.962,
+      "encodeP95Ms": 6.962,
+      "medianNonZeroDimensions": 34.0,
+      "p95NonZeroDimensions": 34.0,
+      "rawSparseNonEmptyCount": 20,
+      "rawSparseNonEmptyRate": 1.0,
+      "tokenCountMedian": 31.0,
+      "tokenCountP95": 31.0
+    },
+    "D_SECTION_CONTENT": {
+      "averageMaxWeight": 0.74262695,
+      "averageNonZeroDimensions": 30.8,
+      "averageWeightSum": 14.22496033,
+      "caseCount": 20,
+      "encodeP50Ms": 8.364,
+      "encodeP95Ms": 8.364,
+      "medianNonZeroDimensions": 31.0,
+      "p95NonZeroDimensions": 31.0,
+      "rawSparseNonEmptyCount": 20,
+      "rawSparseNonEmptyRate": 1.0,
+      "tokenCountMedian": 31.0,
+      "tokenCountP95": 31.0
+    },
+    "D_TITLE_SECTION_CONTENT": {
+      "averageMaxWeight": 0.73024902,
+      "averageNonZeroDimensions": 32.8,
+      "averageWeightSum": 13.48025818,
+      "caseCount": 20,
+      "encodeP50Ms": 9.739,
+      "encodeP95Ms": 9.739,
+      "medianNonZeroDimensions": 33.0,
+      "p95NonZeroDimensions": 33.0,
+      "rawSparseNonEmptyCount": 20,
+      "rawSparseNonEmptyRate": 1.0,
+      "tokenCountMedian": 37.0,
+      "tokenCountP95": 37.0
+    }
+  },
+  "modelId": "BAAI/bge-m3",
+  "sameEnvironment": true,
+  "sameParameters": {
+    "maxLength": 128,
+    "returnColbertVecs": false,
+    "returnDense": false,
+    "returnSparse": true
+  },
+  "sameTokenizer": true,
+  "schemaVersion": "agent-rag-v23-sparse-control-set-results-v1"
+}

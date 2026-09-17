@@ -1,0 +1,17 @@
+{
+  "marker": "PRIVATE_PILOT_V2_IMAGE_ACQUISITION_BLOCKED_NO_RECOVERED_LOCATORS",
+  "requested_image_count": 9,
+  "recovered_locator_count": 0,
+  "download_attempt_count": 0,
+  "download_success_count": 0,
+  "valid_image_count": 9,
+  "failure_reason_counts": {
+    "locator_unrecoverable": 18
+  },
+  "unique_image_sha256_count": 9,
+  "perceptual_duplicate_count": 0,
+  "download_success_rate": 0.5,
+  "substitute_image_used": false,
+  "url_guessing_used": false,
+  "created_at": "2026-07-14T09:38:59.841879+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "V182_JAVA_TESTS_REAL_PASS",
+  "command": "mvn -pl litemall-admin-api -Dtest=AiEnterpriseContractTest test",
+  "tests_run": 20,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "maven_status": "BUILD SUCCESS",
+  "duration_seconds": 10.935,
+  "skip_tests_flag_used": false
+}

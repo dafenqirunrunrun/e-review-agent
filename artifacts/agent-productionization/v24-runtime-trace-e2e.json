@@ -1,0 +1,11 @@
+{
+  "businessWrites": 0,
+  "e2eGate": "E_REVIEW_V24_RUNTIME_TRACE_E2E_PASS",
+  "externalToolCalls": 0,
+  "fallbackSpans": 5,
+  "modelSpans": 20,
+  "requestCorrelationMatches": 20,
+  "requests": 20,
+  "retrievalSpans": 20,
+  "traceIntegrityPasses": 20
+}

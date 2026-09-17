@@ -1,0 +1,22 @@
+{
+  "blockedReason": "BGE-M3 sparse environment did not pass pip check; sparse index and three-way retrieval were intentionally not run",
+  "checks": {
+    "calibrationPass": false,
+    "challengePass": false,
+    "evaluationPass": false,
+    "pythonRegressionPass": false,
+    "sensitiveScanPass": true,
+    "sparseEnvironmentPass": false,
+    "sparseIndexPass": false,
+    "sparseRuntimePass": false,
+    "threeWayMetricContractPass": false
+  },
+  "decision": "E_REVIEW_V23_PHASE_94_BLOCKED",
+  "noPush": true,
+  "noRelease": true,
+  "noTag": true,
+  "productionClaimed": false,
+  "runtimeIntegrated": false,
+  "schemaVersion": "agent-rag-v23-phase-94-gate-v1",
+  "status": "BLOCKED"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "V180_PERSISTENT_SPARSE_REVALIDATED",
+  "process_count": 2,
+  "first_process": {
+    "version": "bm25-20260717T015020397607Z",
+    "hits": [
+      "a"
+    ]
+  },
+  "second_process": {
+    "version": "bm25-20260717T015020383067Z",
+    "hits": [
+      "a"
+    ]
+  },
+  "rollback_version": "bm25-20260717T015020383067Z"
+}

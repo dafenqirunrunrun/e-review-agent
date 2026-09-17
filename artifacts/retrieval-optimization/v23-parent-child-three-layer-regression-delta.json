@@ -1,0 +1,47 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-three-layer-regression-delta-v1",
+  "blockingReason": null,
+  "environmentId": "agent-rag-v22-real-models",
+  "failureNodeIdsA": [],
+  "failureNodeIdsB": [],
+  "failureNodeIdsC": [],
+  "layerA": {
+    "commit": "c230fffd",
+    "fullPytest": "549 passed, 5 skipped, 0 failed",
+    "fullPytestFailed": 0,
+    "fullPytestPassed": 549,
+    "fullPytestSkipped": 5,
+    "pipCheckPass": true,
+    "targetedParentChild": "TEST_NOT_PRESENT_AT_COMMIT",
+    "worktree": "D:/EReviewAgent/litemall-v23-qc2-base-c230"
+  },
+  "layerB": {
+    "commit": "f60948d7",
+    "fullPytest": "557 passed, 5 skipped, 0 failed",
+    "fullPytestFailed": 0,
+    "fullPytestPassed": 557,
+    "fullPytestSkipped": 5,
+    "pipCheckPass": true,
+    "targetedParentChild": "8 passed, 0 failed",
+    "worktree": "D:/EReviewAgent/litemall-v23-qc2-base-f609"
+  },
+  "layerC": {
+    "commit": "291c7ef9ce4a0668e140942e79adcc41e68c8655",
+    "fullPytest": "566 passed, 5 skipped, 0 failed",
+    "fullPytestFailed": 0,
+    "fullPytestPassed": 566,
+    "fullPytestSkipped": 5,
+    "pipCheckPass": true,
+    "realDense": "8 passed, 563 deselected, 0 failed",
+    "realLlm": "1 skipped, 570 deselected, 0 failed; AGENT_RAG_V22_ASSET_MANIFEST is required for real LLM runtime verification",
+    "targetedParentChildQc2": "9 passed, 0 failed",
+    "worktree": "D:/EReviewAgent/litemall-v23-parent-child-qualification-evidence"
+  },
+  "newFailuresAtoB": 0,
+  "newFailuresAtoC": 0,
+  "newFailuresBtoC": 0,
+  "qualifiedFullRegressionPass": true,
+  "regressionDeltaPass": true,
+  "resolvedFailuresAtoB": [],
+  "resolvedFailuresBtoC": []
+}

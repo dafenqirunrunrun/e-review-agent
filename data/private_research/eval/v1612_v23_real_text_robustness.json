@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-07-16T16:30:40.957451+00:00",
+  "status": "PRIVATE_REAL_TEXT_V23_ADAPTER_ROBUSTNESS_PASS",
+  "amazon_sample_count": 10,
+  "asap_sample_count": 10,
+  "base_metrics": {
+    "real_inference_count": 20,
+    "raw_canonical_schema_valid_rate": 0.0,
+    "task_coverage_rate": 0.0,
+    "fallback_rate": 1.0,
+    "empty_rate": 0.0,
+    "evidence_nonempty_rate": 0.0,
+    "need_human_review_rate": 1.0,
+    "risk_distribution": {
+      "normal_review": 20
+    },
+    "prohibited_action": 0,
+    "unsupported_action": 0,
+    "avg_generate_ms": 23017.36,
+    "p95_generate_ms": 24658.47,
+    "oom": 0
+  },
+  "adapter_metrics": {
+    "real_inference_count": 20,
+    "raw_canonical_schema_valid_rate": 0.35,
+    "task_coverage_rate": 0.35,
+    "fallback_rate": 0.65,
+    "empty_rate": 0.0,
+    "evidence_nonempty_rate": 0.35,
+    "need_human_review_rate": 0.7,
+    "risk_distribution": {
+      "normal_review": 20
+    },
+    "prohibited_action": 0,
+    "unsupported_action": 0,
+    "avg_generate_ms": 25223.73,
+    "p95_generate_ms": 28705.01,
+    "oom": 0
+  },
+  "raw_text_saved_in_git": false,
+  "raw_outputs_saved_in_git": false,
+  "accuracy_or_macro_f1_computed": false
+}

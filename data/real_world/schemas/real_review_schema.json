@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "E-Review Agent Real Text Review Record",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "source_id",
+    "source_record_id_hash",
+    "source_language",
+    "product_category",
+    "rating",
+    "review_text",
+    "review_text_redacted",
+    "image_available",
+    "image_ids",
+    "source_type",
+    "privacy_status",
+    "annotation_status",
+    "split",
+    "created_at",
+    "processing_version"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "sample_id": {"type": "string"},
+    "source_id": {"type": "string"},
+    "source_record_id_hash": {"type": "string"},
+    "source_language": {"enum": ["zh", "en", "other"]},
+    "product_category": {"type": "string"},
+    "rating": {"type": ["integer", "number", "null"], "minimum": 1, "maximum": 5},
+    "review_text": {"type": "string"},
+    "review_text_redacted": {"type": "string"},
+    "image_available": {"type": "boolean"},
+    "image_ids": {"type": "array", "items": {"type": "string"}},
+    "source_type": {"enum": ["real_public", "real_authorized"]},
+    "privacy_status": {"enum": ["pending", "cleared", "redacted", "rejected", "uncertain"]},
+    "annotation_status": {"enum": ["unlabeled", "labeled", "adjudicated"]},
+    "split": {"enum": ["unassigned", "development", "validation", "external_test"]},
+    "created_at": {"type": "string"},
+    "processing_version": {"type": "string"}
+  }
+}

@@ -125,12 +125,12 @@ export default {
     },
     handleDownload() {
       this.downloadLoading = true
-      import('@/vendor/Export2Excel').then(excel => {
-        const tHeader = ['商品ID', '名称', '首页主图', '折扣', '人数要求', '活动开始时间', '活动结束时间']
-        const filterVal = ['id', 'name', 'pic_url', 'discount', 'discountMember', 'addTime', 'expireTime']
-        excel.export_json_to_excel2(tHeader, this.list, filterVal, '商品信息')
-        this.downloadLoading = false
-      })
+        import('@/vendor/Export2Excel').then(excel => {
+          const tHeader = ['商品ID', '名称', '首页主图', '折扣', '人数要求', '活动开始时间', '活动结束时间']
+          const filterVal = ['id', 'name', 'pic_url', 'discount', 'discountMember', 'addTime', 'expireTime']
+          excel.export_json_to_excel2(tHeader, this.list, filterVal, '商品信息')
+          this.downloadLoading = false
+        })
     }
   }
 }

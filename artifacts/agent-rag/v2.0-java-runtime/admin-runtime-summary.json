@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "PASS",
+  "adminBaseUrl": "http://127.0.0.1:8083",
+  "health": {
+    "runtimeStatus": "ready",
+    "targetMode": "enterprise-maturity-local-single-node",
+    "effectiveProviderImpl": "flagembedding",
+    "providerConformance": "official-library",
+    "indexCompatible": true,
+    "fallbackUsed": false,
+    "circuitBreakerState": "CLOSED"
+  },
+  "missing": []
+}

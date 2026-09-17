@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-07-15T05:27:39.654787+00:00",
+  "marker": "WDDM_GPU_GATE_AUDIT_COMPLETE",
+  "current_driver_mode": "WDDM",
+  "current_utilization_percent": 36,
+  "current_memory_free_mb": 6193,
+  "current_numeric_compute_process_count": 0,
+  "current_wddm_graphics_process_count": 33,
+  "current_gate_had_hard_total_utilization_threshold": true,
+  "wddm_aware_policy_implemented": true,
+  "driver_mode_enum_implemented": true,
+  "compute_and_graphics_processes_distinguished": true,
+  "memory_drop_check_implemented": true,
+  "external_lock_check_implemented": true,
+  "supports_test_injection": true,
+  "decision_object_fields": [
+    "decision",
+    "driver_mode",
+    "policy_mode",
+    "reason_codes",
+    "numeric_compute_process_count",
+    "free_memory_mb",
+    "free_memory_drop_mb",
+    "total_gpu_utilization",
+    "graphics_activity_tolerated",
+    "valid_external_lock_count",
+    "stable_check_count",
+    "checked_at"
+  ],
+  "default_policy_mode": "auto",
+  "windows_gpu_engine": {
+    "windows_gpu_engine_status": "available_inconclusive",
+    "windows_gpu_engine_available": true,
+    "graphics_engine_observed": true,
+    "compute_engine_observed": false,
+    "video_engine_observed": true
+  }
+}

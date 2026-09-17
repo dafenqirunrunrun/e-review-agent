@@ -1,0 +1,11 @@
+{
+  "codeCommit": "dbb2c7c57f9510c23362a89bf7234280de2fcdd1",
+  "configurationHash": "ce88dd40b0ada235832348e4f4c1f6e3149692243aef7d07ed5df490af17b3b6",
+  "datasetHash": "d3835de362f936a3f5000395b57c447d1518e63a879e50a08e5198b920761c2d",
+  "evaluationCaseIdsHash": "cbf10ac07111f5c806133be31bfbeb21065fff000adf027e735bf827cd98064c",
+  "indexManifestHash": "90afa384d48974e333966edbe67b0a66fe7d0b1dd1e851ec71dbeb690748bc0c",
+  "knowledgeSnapshotHash": "6a47565e19594a6c527df10e34c63af004a6080f80f1817d697d28e828746a94",
+  "noAnswerCaseIdsHash": "906c4307d9a1e57d0d0f7ac5da9dfcef1aa2806d3e5e095e8528a1ea1a441468",
+  "schemaVersion": "agent-rag-v23-candidate-fusion-evaluation-lock-v1",
+  "selectionPolicy": "one-shot evaluation; no retuning after result"
+}

@@ -1,0 +1,15 @@
+{
+  "javaMemoryDeltaMb": 0,
+  "p95TraceSizeBytes": 21176,
+  "pythonMemoryDeltaMb": 4,
+  "realChainAbsoluteOverheadMs": null,
+  "realChainLatencyRatio": null,
+  "realChainTraceOffP95Ms": null,
+  "realChainTraceOnP95Ms": null,
+  "resourceGate": "E_REVIEW_V24_RUNTIME_TRACE_RESOURCE_PASS",
+  "syntheticAbsoluteOverheadMs": 3.320829989388585,
+  "syntheticLatencyRatio": 2.086021130431931,
+  "syntheticTraceOffP95Ms": 3.057795006316155,
+  "syntheticTraceOnP95Ms": 6.37862499570474,
+  "traceWriteFailureCount": 0
+}

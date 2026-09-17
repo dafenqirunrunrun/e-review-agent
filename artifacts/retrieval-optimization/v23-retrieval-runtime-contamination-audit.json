@@ -1,0 +1,18 @@
+{
+  "artifactVersion": "agent-rag-v23-retrieval-runtime-contamination-audit-v1",
+  "contaminationViolationCount": 0,
+  "defaultOff": true,
+  "parentAwareRetrieverEnabledByDefault": false,
+  "readinessDoesNotClaimQualified": true,
+  "realRerankerEnabledByDefault": false,
+  "runtimeContaminationFree": true,
+  "runtimeNotRegisteredByDefault": true,
+  "scanHits": {
+    "parentAware": [],
+    "realReranker": [],
+    "sparse": [],
+    "structured": []
+  },
+  "sparseRetrieverEnabledByDefault": false,
+  "structuredRetrievalContentEnabledByDefault": false
+}

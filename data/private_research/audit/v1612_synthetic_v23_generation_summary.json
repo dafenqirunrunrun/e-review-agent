@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-07-16T14:18:05.742373+00:00",
+  "status": "V23_GENERATION_FROM_ABSTRACT_SPEC_ONLY",
+  "seed": 231612,
+  "total_count": 720,
+  "scenario_group_count": 120,
+  "group_size_distribution": {
+    "6": 120
+  },
+  "split_distribution": {
+    "validation": 72,
+    "engineering_holdout_v23": 72,
+    "train": 576
+  },
+  "risk_type_distribution": {
+    "normal_review": 240,
+    "negative_review": 240,
+    "after_sales_risk": 240
+  },
+  "risk_level_distribution": {
+    "low": 240,
+    "medium": 240,
+    "high": 240
+  },
+  "scenario_family_distribution": {
+    "clear": 216,
+    "normal_negative_boundary": 144,
+    "negative_after_sales_boundary": 180,
+    "risk_level_contrast": 108,
+    "evidence_conflict_human_review": 72
+  },
+  "uses_old_text": false,
+  "uses_external_test": false,
+  "uses_public_pilot": false,
+  "uses_real_images": false,
+  "uses_amazon_asap": false
+}

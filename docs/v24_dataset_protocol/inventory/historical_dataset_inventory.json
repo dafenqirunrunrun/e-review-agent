@@ -1,0 +1,61 @@
+{
+  "auditedAt": "2026-07-28T17:25:00+08:00",
+  "baselineCommit": "d8a3ebbc2447631f953d0ea385ccfb54639daab4",
+  "datasetCollectionStarted": false,
+  "formalSamplesCreated": 0,
+  "assets": [
+    {
+      "name": "strict synthetic golden queries",
+      "path": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl",
+      "lineCount": 80,
+      "role": "historical_development_regression",
+      "eligibleForNewHeldOut": false,
+      "reason": "seen during prior project evaluation and documentation"
+    },
+    {
+      "name": "legacy RAG golden queries",
+      "path": "data/rag/golden_queries/golden_queries_80.jsonl",
+      "lineCount": 80,
+      "role": "historical_development_regression",
+      "eligibleForNewHeldOut": false,
+      "reason": "legacy benchmark, potentially exposed during optimization"
+    },
+    {
+      "name": "enterprise RAG difficult queries",
+      "path": "data/private_research/enterprise_rag_v180/difficult_queries.jsonl",
+      "lineCount": 52,
+      "role": "historical_difficult_benchmark",
+      "eligibleForNewHeldOut": false,
+      "reason": "available in repository; not independently sealed as unseen final set"
+    },
+    {
+      "name": "private pilot aggregate manifest",
+      "path": "data/real_world/pilot_manifest/private_pilot_aggregate_manifest.jsonl",
+      "lineCount": 300,
+      "role": "manifest_only_or_private_governance_record",
+      "eligibleForNewHeldOut": false,
+      "reason": "requires authorization and privacy review before formal reuse"
+    },
+    {
+      "name": "authorized intake run",
+      "path": "data/authorized_intake/audit/intake_run_summary.json",
+      "validatedCount": 0,
+      "role": "intake_infrastructure_only",
+      "eligibleForNewHeldOut": false,
+      "reason": "actual validated_count is zero"
+    }
+  ],
+  "summary": {
+    "syntheticExpected": 80,
+    "syntheticActual": 80,
+    "realExpected": 52,
+    "realActual": 52,
+    "formalReusableForNewEvaluation": 0,
+    "recommendedRole": "development_regression_and_protocol_design_reference_only"
+  },
+  "doNotUseAsNewFinalHoldout": [
+    "data/synthetic/golden_queries/golden_queries_strict_80.jsonl",
+    "data/rag/golden_queries/golden_queries_80.jsonl",
+    "data/private_research/enterprise_rag_v180/difficult_queries.jsonl"
+  ]
+}

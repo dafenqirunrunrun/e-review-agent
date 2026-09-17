@@ -1,0 +1,165 @@
+{
+  "marker": "NETWORK_TLS_DIAGNOSTICS_COMPLETE",
+  "generated_at": "2026-07-13T01:19:25.0854290+08:00",
+  "python_executable": "D:\\anaconda\\envs\\torchtest\\python.exe",
+  "urls": {
+    "huggingface": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct/resolve/main/config.json",
+    "pypi": "https://pypi.org/simple/accelerate/"
+  },
+  "environment": {
+    "HTTP_PROXY": null,
+    "HTTPS_PROXY": null,
+    "ALL_PROXY": null,
+    "NO_PROXY": null,
+    "PIP_INDEX_URL": null,
+    "PIP_CERT": null,
+    "REQUESTS_CA_BUNDLE": null,
+    "SSL_CERT_FILE": null,
+    "CURL_CA_BUNDLE": null,
+    "HF_ENDPOINT": null,
+    "HF_HOME": null,
+    "HUGGINGFACE_HUB_CACHE": null
+  },
+  "commands": [
+    {
+      "name": "pip_config_debug",
+      "status": "OK",
+      "exit_code": 0,
+      "duration_ms": 864,
+      "output": "env_var:\r\nenv:\r\nglobal:\r\n  C:\\ProgramData\\pip\\pip.ini, exists: False\r\nsite:\r\n  D:\\anaconda\\envs\\torchtest\\pip.ini, exists: False\r\nuser:\r\n  C:\\Users\\�����\\pip\\pip.ini, exists: False\r\n  C:\\Users\\�����\\AppData\\Roaming\\pip\\pip.ini, exists: False"
+    },
+    {
+      "name": "netsh_winhttp_proxy",
+      "status": "OK",
+      "exit_code": 0,
+      "duration_ms": 321,
+      "output": "Current WinHTTP proxy settings:\r\n\r\n    Direct access (no proxy server)."
+    },
+    {
+      "name": "curl_pypi",
+      "status": "OK",
+      "exit_code": 0,
+      "duration_ms": 1035,
+      "output": "curl.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt line:25 char:40\r\n+ ... s += Run-Capture 'curl_pypi' { curl.exe -I --max-time 30 $urls.pypi }\r\n+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (  % Total    % ... Time   Current:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r\n  0      0   0      0   0      0      0      0                              0\r\n  0  63419   0      0   0      0      0      0                              0\r\n  0  63419   0      0   0      0      0      0                              0\r\n  0  63419   0      0   0      0      0      0                              0\r\nHTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Length: 63419\r\naccess-control-expose-headers: X-PyPI-Last-Serial\r\nx-pypi-last-serial: 37932474\r\naccess-control-allow-headers: Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since\r\naccess-control-allow-origin: *\r\nreferrer-policy: origin-when-cross-origin\r\ncache-control: max-age=600, public\r\ncontent-security-policy: default-src 'none'; sandbox allow-top-navigation\r\netag: \"PNGYych/rboCnKjF+xHM2A\"\r\nserver: gunicorn\r\naccess-control-max-age: 86400\r\naccess-control-allow-methods: GET\r\nAccept-Ranges: bytes\r\nDate: Sun, 12 Jul 2026 17:19:09 GMT\r\nX-Served-By: cache-iad-kjyo7100110-IAD, cache-iad-kjyo7100110-IAD, cache-iad-kjyo7100098-IAD, cache-sin-wsat1880062-SIN\r\nX-Cache: MISS, HIT, HIT\r\nX-Cache-Hits: 0, 8, 0\r\nX-Timer: S1783876749.834466,VS0,VE228\r\nContent-Type: text/html\r\nVary: Accept-Encoding, Accept\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Permitted-Cross-Domain-Policies: none\r\nPermissions-Policy: publickey-credentials-create=(self),publickey-credentials-get=(self),accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),gamepad=(),geolocation=(),gyroscope=(),hid=(),identity-credentials-get=(),idle-detection=(),local-fonts=(),magnetometer=(),microphone=(),midi=(),otp-credentials=(),payment=(),picture-in-picture=(),screen-wake-lock=(),serial=(),speaker-selection=(),storage-access=(),usb=(),web-share=(),xr-spatial-tracking=()"
+    },
+    {
+      "name": "curl_huggingface_config",
+      "status": "OK",
+      "exit_code": 6,
+      "duration_ms": 232,
+      "output": "curl.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt line:26 char:54\r\n+ ... l_huggingface_config' { curl.exe -I --max-time 30 $urls.huggingface }\r\n+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (  % Total    % ... Time   Current:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r\n  0      0   0      0   0      0      0      0                              0curl: (6) Could not resolve host: huggingf\r\nace.co"
+    },
+    {
+      "name": "invoke_webrequest_pypi",
+      "status": "ERROR",
+      "exit_code": -1,
+      "duration_ms": 811,
+      "output": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at Microsoft.PowerShell.ConsoleHostUserInterface.PromptForChoice(String caption, String message, Collection`1 choices, Int32 defaultChoice)\r\n   at System.Management.Automation.Internal.Host.InternalHostUserInterface.PromptForChoice(String caption, String message, Collection`1 choices, Int32 defaultChoice)\r\n   at System.Management.Automation.MshCommandRuntime.InquireHelper(String inquireMessage, String inquireCaption, Boolean allowYesToAll, Boolean allowNoToAll, Boolean replaceNoWithHalt, Boolean hasSecurityImpact)\r\n   at System.Management.Automation.MshCommandRuntime.DoShouldContinue(String query, String caption, Boolean hasSecurityImpact, Boolean supportsToAllOptions, Boolean& yesToAll, Boolean& noToAll)\r\n   at System.Management.Automation.MshCommandRuntime.ShouldContinue(String query, String caption, Boolean hasSecurityImpact, Boolean& yesToAll, Boolean& noToAll)\r\n   at System.Management.Automation.Cmdlet.ShouldContinue(String query, String caption, Boolean hasSecurityImpact, Boolean& yesToAll, Boolean& noToAll)\r\n   at Microsoft.PowerShell.Commands.InvokeWebRequestCommand.ProcessResponse(WebResponse response)\r\n   at Microsoft.PowerShell.Commands.WebRequestPSCmdlet.ProcessRecord()\r\n   at System.Management.Automation.CommandProcessor.ProcessRecord()"
+    },
+    {
+      "name": "invoke_webrequest_huggingface_config",
+      "status": "ERROR",
+      "exit_code": -1,
+      "duration_ms": 773,
+      "output": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at Microsoft.PowerShell.ConsoleHostUserInterface.PromptForChoice(String caption, String message, Collection`1 choices, Int32 defaultChoice)\r\n   at System.Management.Automation.Internal.Host.InternalHostUserInterface.PromptForChoice(String caption, String message, Collection`1 choices, Int32 defaultChoice)\r\n   at System.Management.Automation.MshCommandRuntime.InquireHelper(String inquireMessage, String inquireCaption, Boolean allowYesToAll, Boolean allowNoToAll, Boolean replaceNoWithHalt, Boolean hasSecurityImpact)\r\n   at System.Management.Automation.MshCommandRuntime.DoShouldContinue(String query, String caption, Boolean hasSecurityImpact, Boolean supportsToAllOptions, Boolean& yesToAll, Boolean& noToAll)\r\n   at System.Management.Automation.MshCommandRuntime.ShouldContinue(String query, String caption, Boolean hasSecurityImpact, Boolean& yesToAll, Boolean& noToAll)\r\n   at System.Management.Automation.Cmdlet.ShouldContinue(String query, String caption, Boolean hasSecurityImpact, Boolean& yesToAll, Boolean& noToAll)\r\n   at Microsoft.PowerShell.Commands.InvokeWebRequestCommand.ProcessResponse(WebResponse response)\r\n   at Microsoft.PowerShell.Commands.WebRequestPSCmdlet.ProcessRecord()\r\n   at System.Management.Automation.CommandProcessor.ProcessRecord()"
+    },
+    {
+      "name": "python_urllib_tls_probe",
+      "status": "OK",
+      "exit_code": 0,
+      "duration_ms": 8010,
+      "output": "{\r\n  \"python\": \"D:\\\\anaconda\\\\envs\\\\torchtest\\\\python.exe\",\r\n  \"version\": \"3.10.0 | packaged by conda-forge | (default, Nov 20 2021, 02:18:13) [MSC v.1916 64 bit (AMD64)]\",\r\n  \"openssl\": \"OpenSSL 3.6.1 27 Jan 2026\",\r\n  \"pip_version\": \"26.0.1\",\r\n  \"certifi_where\": \"D:\\\\anaconda\\\\envs\\\\torchtest\\\\lib\\\\site-packages\\\\certifi\\\\cacert.pem\",\r\n  \"urllib_checks\": {\r\n    \"pypi\": {\r\n      \"ok\": true,\r\n      \"status\": 200,\r\n      \"reason\": \"OK\"\r\n    },\r\n    \"huggingface\": {\r\n      \"ok\": true,\r\n      \"status\": 200,\r\n      \"reason\": \"OK\"\r\n    }\r\n  }\r\n}"
+    }
+  ],
+  "python_probe": {
+    "python": "D:\\anaconda\\envs\\torchtest\\python.exe",
+    "version": "3.10.0 | packaged by conda-forge | (default, Nov 20 2021, 02:18:13) [MSC v.1916 64 bit (AMD64)]",
+    "openssl": "OpenSSL 3.6.1 27 Jan 2026",
+    "pip_version": "26.0.1",
+    "certifi_where": "D:\\anaconda\\envs\\torchtest\\lib\\site-packages\\certifi\\cacert.pem",
+    "urllib_checks": {
+      "pypi": {
+        "ok": true,
+        "status": 200,
+        "reason": "OK"
+      },
+      "huggingface": {
+        "ok": true,
+        "status": 200,
+        "reason": "OK"
+      }
+    }
+  },
+  "classification": {
+    "os_level_network_failure": true,
+    "python_level_certificate_failure": false,
+    "pip_configuration_failure": false,
+    "huggingface_only_restricted": false,
+    "pypi_only_restricted": false
+  },
+  "prohibited_workarounds_not_used": [
+    "--trusted-host",
+    "verify=False",
+    "SSL verification disabled"
+  ],
+  "followup_commands": [
+    {
+      "name": "curl_pypi_v2",
+      "status": "OK",
+      "exit_code": 0,
+      "duration_ms": 334,
+      "output": "curl.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt line:17 char:40\r\n+ ... n-Capture 'curl_pypi_v2' { curl.exe -L -I --max-time 30 --url $urlP }\r\n+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (  % Total    % ... Time   Current:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r\n  0      0   0      0   0      0      0      0                              0\r\n  0  63419   0      0   0      0      0      0                              0\r\n  0  63419   0      0   0      0      0      0                              0\r\n  0  63419   0      0   0      0      0      0                              0\r\nHTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Length: 63419\r\naccess-control-expose-headers: X-PyPI-Last-Serial\r\nx-pypi-last-serial: 37932474\r\naccess-control-allow-headers: Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since\r\naccess-control-allow-origin: *\r\nreferrer-policy: origin-when-cross-origin\r\ncache-control: max-age=600, public\r\ncontent-security-policy: default-src 'none'; sandbox allow-top-navigation\r\netag: \"PNGYych/rboCnKjF+xHM2A\"\r\nserver: gunicorn\r\naccess-control-max-age: 86400\r\naccess-control-allow-methods: GET\r\nAccept-Ranges: bytes\r\nDate: Sun, 12 Jul 2026 17:19:47 GMT\r\nX-Served-By: cache-iad-kjyo7100110-IAD, cache-iad-kjyo7100110-IAD, cache-iad-kjyo7100098-IAD, cache-sin-wsap440093-SIN\r\nX-Cache: MISS, HIT, HIT\r\nX-Cache-Hits: 0, 8, 1\r\nX-Timer: S1783876788.825330,VS0,VE1\r\nContent-Type: text/html\r\nVary: Accept-Encoding, Accept\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nX-Content-Type-Options: nosniff\r\nX-Permitted-Cross-Domain-Policies: none\r\nPermissions-Policy: publickey-credentials-create=(self),publickey-credentials-get=(self),accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),gamepad=(),geolocation=(),gyroscope=(),hid=(),identity-credentials-get=(),idle-detection=(),local-fonts=(),magnetometer=(),microphone=(),midi=(),otp-credentials=(),payment=(),picture-in-picture=(),screen-wake-lock=(),serial=(),speaker-selection=(),storage-access=(),usb=(),web-share=(),xr-spatial-tracking=()"
+    },
+    {
+      "name": "curl_huggingface_config_v2",
+      "status": "ERROR",
+      "exit_code": 6,
+      "duration_ms": 228,
+      "output": "curl.exe :   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\r\nAt line:18 char:54\r\n+ ... l_huggingface_config_v2' { curl.exe -L -I --max-time 30 --url $urlH }\r\n+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (  % Total    % ... Time   Current:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError\r\n \r\n                                 Dload  Upload  Total   Spent   Left   Speed\r\n\r\n  0      0   0      0   0      0      0      0                              0curl: (6) Could not resolve host: huggingf\r\nace.co"
+    },
+    {
+      "name": "invoke_webrequest_pypi_v2",
+      "status": "OK",
+      "exit_code": 0,
+      "duration_ms": 524,
+      "output": "StatusCode        : 200\r\nStatusDescription : OK"
+    },
+    {
+      "name": "invoke_webrequest_huggingface_config_v2",
+      "status": "OK",
+      "exit_code": 0,
+      "duration_ms": 765,
+      "output": "StatusCode        : 200\r\nStatusDescription : OK"
+    },
+    {
+      "name": "pip_version",
+      "status": "OK",
+      "exit_code": 0,
+      "duration_ms": 440,
+      "output": "pip 26.0.1 from D:\\anaconda\\envs\\torchtest\\lib\\site-packages\\pip (python 3.10)"
+    }
+  ],
+  "diagnostic_matrix": {
+    "proxy_detected": false,
+    "winhttp_proxy": "Direct access (no proxy server).",
+    "pip_config_files_present": false,
+    "pip_version": "26.0.1",
+    "certifi_path": "D:\\anaconda\\envs\\torchtest\\lib\\site-packages\\certifi\\cacert.pem",
+    "openssl_version": "OpenSSL 3.6.1 27 Jan 2026",
+    "curl_pypi": "PASS",
+    "curl_huggingface": "FAIL_DNS_CURL_EXIT_6",
+    "powershell_pypi": "PASS",
+    "powershell_huggingface": "PASS",
+    "python_urllib_pypi": "PASS",
+    "python_urllib_huggingface": "PASS",
+    "huggingface_hub_snapshot_download": "FAIL_TLS_SSL_EOF",
+    "conda_forge_accelerate": "FAIL_CONDA_SSL_ASN1_NOT_ENOUGH_DATA",
+    "classification": {
+      "os_level_network_failure": "PARTIAL: curl DNS fails for Hugging Face, PowerShell succeeds for both endpoints",
+      "python_level_certificate_failure": "NO: urllib succeeds for PyPI and Hugging Face",
+      "pip_configuration_failure": "NO: no pip.ini config files found",
+      "huggingface_only_restricted": "NO: PowerShell and urllib can reach config URL, but huggingface_hub/httpx snapshot fails TLS EOF",
+      "pypi_only_restricted": "NO: curl, PowerShell, and urllib reach PyPI; previous pip/conda installers still show SSL/TLS failures on package metadata/install paths"
+    }
+  }
+}

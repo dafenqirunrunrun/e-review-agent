@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-07-15T08:55:23.361246+00:00",
+  "status": "SYNTHETIC_SFT_V2_SPLIT_BLOCKED_GROUP_CONSTRAINT",
+  "source": "synthetic-sft-v1633 train+validation only",
+  "v164_holdout_excluded_count": 48,
+  "v164_holdout_reuse_allowed": false,
+  "candidate_count": 372,
+  "train_count": 0,
+  "validation_count": 0,
+  "holdout_count": 0,
+  "blocked_reasons": [
+    {
+      "constraint": "same paraphrase_family must not cross split",
+      "reason": "all reusable records share one paraphrase_family, so train/validation/holdout isolation is impossible without generating new data",
+      "families": {
+        "p0": 372
+      }
+    }
+  ],
+  "risk_type_distribution": {
+    "after_sales_risk": 164,
+    "negative_review": 100,
+    "normal_review": 108
+  },
+  "risk_level_distribution": {
+    "high": 160,
+    "medium": 104,
+    "low": 108
+  },
+  "human_review_distribution": {
+    "True": 264,
+    "False": 108
+  },
+  "template_family_count": 37,
+  "paraphrase_family_count": 1,
+  "cross_split_exact_duplicate": null,
+  "cross_split_template_overlap": null,
+  "cross_split_paraphrase_overlap": null,
+  "amazon_overlap": 0,
+  "asap_overlap": 0,
+  "public_pilot_overlap": 0,
+  "external_test_overlap": 0,
+  "output_private_dir": "synthetic-sft-v2",
+  "data_files_written": false
+}

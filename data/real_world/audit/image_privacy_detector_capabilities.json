@@ -1,0 +1,160 @@
+{
+  "marker": "PRIVACY_DETECTOR_CAPABILITY_BLOCKED",
+  "mandatory_detector_count": 7,
+  "mandatory_available_count": 3,
+  "missing_mandatory_detectors": [
+    "ocr_text_detection",
+    "qr_code_detection",
+    "barcode_detection",
+    "face_detection"
+  ],
+  "detectors": [
+    {
+      "detector_name": "pillow_file_read",
+      "available": true,
+      "initialized": true,
+      "model_or_backend": "Pillow",
+      "version": "12.0.0",
+      "test_input_pass": true,
+      "failure_code": null,
+      "failure_summary": null,
+      "mandatory": true,
+      "can_block_clearance": true
+    },
+    {
+      "detector_name": "exif_read_remove",
+      "available": true,
+      "initialized": true,
+      "model_or_backend": "Pillow EXIF",
+      "version": "12.0.0",
+      "test_input_pass": true,
+      "failure_code": null,
+      "failure_summary": null,
+      "mandatory": true,
+      "can_block_clearance": true
+    },
+    {
+      "detector_name": "ocr_text_detection",
+      "available": false,
+      "initialized": false,
+      "model_or_backend": "pytesseract/easyocr",
+      "version": null,
+      "test_input_pass": false,
+      "failure_code": "missing_dependency",
+      "failure_summary": "No local OCR backend is initialized; online model download is forbidden.",
+      "mandatory": true,
+      "can_block_clearance": true
+    },
+    {
+      "detector_name": "text_pii_regex",
+      "available": true,
+      "initialized": true,
+      "model_or_backend": "python-re",
+      "version": null,
+      "test_input_pass": true,
+      "failure_code": null,
+      "failure_summary": null,
+      "mandatory": true,
+      "can_block_clearance": true
+    },
+    {
+      "detector_name": "qr_code_detection",
+      "available": false,
+      "initialized": false,
+      "model_or_backend": "pyzbar",
+      "version": null,
+      "test_input_pass": false,
+      "failure_code": "missing_dependency",
+      "failure_summary": "No QR decoder backend is available.",
+      "mandatory": true,
+      "can_block_clearance": true
+    },
+    {
+      "detector_name": "barcode_detection",
+      "available": false,
+      "initialized": false,
+      "model_or_backend": "pyzbar",
+      "version": null,
+      "test_input_pass": false,
+      "failure_code": "missing_dependency",
+      "failure_summary": "No barcode decoder backend is available.",
+      "mandatory": true,
+      "can_block_clearance": true
+    },
+    {
+      "detector_name": "face_detection",
+      "available": false,
+      "initialized": false,
+      "model_or_backend": "opencv-haarcascade-or-dnn",
+      "version": null,
+      "test_input_pass": false,
+      "failure_code": "missing_dependency",
+      "failure_summary": "No local face detector backend is available.",
+      "mandatory": true,
+      "can_block_clearance": true
+    },
+    {
+      "detector_name": "license_plate_detection",
+      "available": false,
+      "initialized": false,
+      "model_or_backend": "opencv-heuristic",
+      "version": null,
+      "test_input_pass": false,
+      "failure_code": "missing_dependency",
+      "failure_summary": "License plate detection is an extension detector and is not initialized.",
+      "mandatory": false,
+      "can_block_clearance": false
+    },
+    {
+      "detector_name": "screenshot_document_heuristic",
+      "available": true,
+      "initialized": true,
+      "model_or_backend": "local-aspect-text-block-heuristic",
+      "version": "rule-v1",
+      "test_input_pass": true,
+      "failure_code": null,
+      "failure_summary": null,
+      "mandatory": false,
+      "can_block_clearance": false
+    },
+    {
+      "detector_name": "waybill_candidate_heuristic",
+      "available": true,
+      "initialized": true,
+      "model_or_backend": "local-keyword-layout-heuristic",
+      "version": "rule-v1",
+      "test_input_pass": true,
+      "failure_code": null,
+      "failure_summary": null,
+      "mandatory": false,
+      "can_block_clearance": false
+    },
+    {
+      "detector_name": "image_duplicate_detection",
+      "available": true,
+      "initialized": true,
+      "model_or_backend": "sha256-and-average-hash",
+      "version": "rule-v1",
+      "test_input_pass": true,
+      "failure_code": null,
+      "failure_summary": null,
+      "mandatory": false,
+      "can_block_clearance": false
+    },
+    {
+      "detector_name": "qwen3_vl_privacy_hint",
+      "available": false,
+      "initialized": false,
+      "model_or_backend": "Qwen3-VL auxiliary hint",
+      "version": null,
+      "test_input_pass": false,
+      "failure_code": "blocked_by_policy_gate",
+      "failure_summary": "Qwen3-VL cannot replace mandatory privacy detectors and is not used before clearance.",
+      "mandatory": false,
+      "can_block_clearance": false
+    }
+  ],
+  "automated_clearance_allowed": false,
+  "qwen3_vl_can_replace_mandatory_detectors": false,
+  "created_at": "2026-07-14T09:38:59.941418+00:00"
+}

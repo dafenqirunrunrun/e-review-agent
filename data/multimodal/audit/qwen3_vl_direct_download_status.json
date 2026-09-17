@@ -1,0 +1,72 @@
+{
+    "status":  "PASS",
+    "bytes_downloaded":  4266640306,
+    "error_summary":  "",
+    "files_partial":  [
+
+                      ],
+    "error_category":  "",
+    "files_completed":  [
+                            {
+                                "bytes":  1505,
+                                "filename":  "config.json"
+                            },
+                            {
+                                "bytes":  390,
+                                "filename":  "preprocessor_config.json"
+                            },
+                            {
+                                "bytes":  10868,
+                                "filename":  "tokenizer_config.json"
+                            },
+                            {
+                                "bytes":  7032403,
+                                "filename":  "tokenizer.json"
+                            },
+                            {
+                                "bytes":  2776833,
+                                "filename":  "vocab.json"
+                            },
+                            {
+                                "bytes":  1671839,
+                                "filename":  "merges.txt"
+                            },
+                            {
+                                "bytes":  5502,
+                                "filename":  "chat_template.json"
+                            },
+                            {
+                                "bytes":  269,
+                                "filename":  "generation_config.json"
+                            },
+                            {
+                                "bytes":  385,
+                                "filename":  "video_preprocessor_config.json"
+                            },
+                            {
+                                "bytes":  4255140312,
+                                "filename":  "model.safetensors"
+                            }
+                        ],
+    "resolved_revision":  null,
+    "download_method":  "PowerShell System.Net.Http.HttpClient ResponseHeadersRead with Range resume",
+    "started_at":  "2026-07-13T02:28:43.1477595+08:00",
+    "repo_id":  "Qwen/Qwen3-VL-2B-Instruct",
+    "retry_count":  1,
+    "model_dir":  "D:\\EReviewAgent\\models\\Qwen3-VL-2B-Instruct",
+    "requested_revision":  "main",
+    "completed_at":  "2026-07-13T03:23:57.8582073+08:00",
+    "marker":  "QWEN3_VL_DIRECT_DOWNLOAD_PASS",
+    "files_expected":  [
+                           "config.json",
+                           "preprocessor_config.json",
+                           "tokenizer_config.json",
+                           "tokenizer.json",
+                           "vocab.json",
+                           "merges.txt",
+                           "chat_template.json",
+                           "generation_config.json",
+                           "video_preprocessor_config.json",
+                           "model.safetensors"
+                       ]
+}

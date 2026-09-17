@@ -1,0 +1,85 @@
+{
+  "externalCallCount": 60,
+  "externalCallCoverageRate": 1.0,
+  "instrumentedRequiredNodeCount": 8,
+  "nodes": [
+    {
+      "agentNodeName": "request_validation",
+      "agentNodeType": "REQUEST_VALIDATION",
+      "errorEvent": "NODE_FAILED",
+      "instrumented": true,
+      "required": true,
+      "startEvent": "NODE_STARTED",
+      "terminalEvent": "NODE_COMPLETED"
+    },
+    {
+      "agentNodeName": "retrieval_planning",
+      "agentNodeType": "RETRIEVAL_PLANNING",
+      "errorEvent": "NODE_FAILED",
+      "instrumented": true,
+      "required": true,
+      "startEvent": "NODE_STARTED",
+      "terminalEvent": "NODE_COMPLETED"
+    },
+    {
+      "agentNodeName": "evidence_retrieval",
+      "agentNodeType": "EVIDENCE_RETRIEVAL",
+      "errorEvent": "NODE_FAILED",
+      "instrumented": true,
+      "required": true,
+      "startEvent": "NODE_STARTED",
+      "terminalEvent": "NODE_COMPLETED"
+    },
+    {
+      "agentNodeName": "evidence_validation",
+      "agentNodeType": "EVIDENCE_VALIDATION",
+      "errorEvent": "NODE_FAILED",
+      "instrumented": true,
+      "required": true,
+      "startEvent": "NODE_STARTED",
+      "terminalEvent": "NODE_COMPLETED"
+    },
+    {
+      "agentNodeName": "task_reasoning",
+      "agentNodeType": "TASK_REASONING",
+      "errorEvent": "NODE_FAILED",
+      "instrumented": true,
+      "required": true,
+      "startEvent": "NODE_STARTED",
+      "terminalEvent": "NODE_COMPLETED"
+    },
+    {
+      "agentNodeName": "answer_generation",
+      "agentNodeType": "ANSWER_GENERATION",
+      "errorEvent": "NODE_FAILED",
+      "instrumented": true,
+      "required": true,
+      "startEvent": "NODE_STARTED",
+      "terminalEvent": "NODE_COMPLETED"
+    },
+    {
+      "agentNodeName": "output_validation",
+      "agentNodeType": "OUTPUT_VALIDATION",
+      "errorEvent": "NODE_FAILED",
+      "instrumented": true,
+      "required": true,
+      "startEvent": "NODE_STARTED",
+      "terminalEvent": "NODE_COMPLETED"
+    },
+    {
+      "agentNodeName": "finalization",
+      "agentNodeType": "FINALIZATION",
+      "errorEvent": "NODE_FAILED",
+      "instrumented": true,
+      "required": true,
+      "startEvent": "NODE_STARTED",
+      "terminalEvent": "NODE_COMPLETED"
+    }
+  ],
+  "requiredNodeCount": 8,
+  "requiredNodeCoverageRate": 1.0,
+  "stateTransitionCount": 240,
+  "stateTransitionCoverageRate": 1.0,
+  "tracedExternalCallCount": 60,
+  "tracedStateTransitionCount": 240
+}

@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-15T14:00:05.884016+00:00",
+  "status": "V21_HOLDOUT_PROVENANCE_PASS",
+  "holdout_total": 24,
+  "newly_generated_count": 24,
+  "legacy_count": 0,
+  "previous_train_overlap": 0,
+  "previous_validation_overlap": 0,
+  "previous_holdout_overlap": 0,
+  "previous_prediction_overlap": 0,
+  "canary_overlap": 0,
+  "prompt_tuning_overlap": 0,
+  "lineage_complete_count": 24,
+  "generation_root_independent_from_train_validation": true,
+  "manifest_hash": "5fc5b12157715553bbb2762031938cb5184002d30df82dc4e43b1935108d634a"
+}

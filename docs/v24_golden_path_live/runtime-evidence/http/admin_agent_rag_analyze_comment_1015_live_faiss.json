@@ -1,0 +1,37 @@
+﻿{
+    "errno":  0,
+    "data":  {
+                 "idempotentReplay":  true,
+                 "run":  {
+                             "id":  3,
+                             "requestId":  "golden-comment-1015-hybrid-real-20260728144538",
+                             "idempotencyKey":  "1fa1203d672681583a2b5b73640e23e8fbf2b59824c78acc8db2cbe7e771f854",
+                             "tenantId":  "__local__",
+                             "subjectType":  "review",
+                             "subjectId":  "litemall_comment:1015",
+                             "status":  "FAILED",
+                             "requiresHumanReview":  true,
+                             "runtimeMode":  "local-model",
+                             "requestedRetrievalMode":  "hybrid-real",
+                             "fallbackUsed":  false,
+                             "schemaVersion":  "2.0.0",
+                             "piiDetected":  false,
+                             "piiCount":  0,
+                             "modelInputRedacted":  false,
+                             "auditRedacted":  false,
+                             "uiRedacted":  false,
+                             "promptInjectionDetected":  false,
+                             "promptInjectionExecutionSuppressed":  false,
+                             "retryCount":  0,
+                             "errorCode":  "AGENT_RAG_HTTP_5XX",
+                             "errorMessage":  "Agent-RAG HTTP 5xx.",
+                             "startedAt":  "2026-07-28 14:45:38",
+                             "finishedAt":  "2026-07-28 14:45:39",
+                             "durationMs":  294,
+                             "createdAt":  "2026-07-28 14:45:38",
+                             "updatedAt":  "2026-07-28 14:45:39",
+                             "deleted":  false
+                         }
+             },
+    "errmsg":  "成功"
+}

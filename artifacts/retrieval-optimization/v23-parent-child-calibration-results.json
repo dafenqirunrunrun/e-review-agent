@@ -1,0 +1,2886 @@
+{
+  "gridLimit": 48,
+  "resultCount": 48,
+  "results": [
+    {
+      "averageEligibleChildren": 42.133333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 5,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "d90fa638a99ac9304a3190b2450f7b0ee3b4b5c69ada030083c17121d5481579",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 78,
+        "FLAT_ONLY_HIT": 6,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.466667,
+        "coverageAt20": 0.658333,
+        "coverageAt30": 0.658333,
+        "coverageAt5": 0.291667,
+        "coverageAt50": 0.658333,
+        "medianRelevantRank": 6,
+        "missCount": 41,
+        "mrr": 0.179624,
+        "ndcgAt5": 0.178559,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.466667,
+        "recallAt20": 0.658333,
+        "recallAt30": 0.658333,
+        "recallAt5": 0.291667,
+        "recallAt50": 0.658333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.133333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 5,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "7c5971e34134deb958e85446a6a43ed8f0e0ab2308c748ef472e33496c2cec54",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 12,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 78,
+        "FLAT_ONLY_HIT": 6,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.466667,
+        "coverageAt20": 0.658333,
+        "coverageAt30": 0.75,
+        "coverageAt5": 0.291667,
+        "coverageAt50": 0.75,
+        "medianRelevantRank": 7,
+        "missCount": 30,
+        "mrr": 0.183467,
+        "ndcgAt5": 0.178559,
+        "p95RelevantRank": 25,
+        "recallAt10": 0.466667,
+        "recallAt20": 0.658333,
+        "recallAt30": 0.75,
+        "recallAt5": 0.291667,
+        "recallAt50": 0.75
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.133333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 5,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "dfa88b4c52da2faa13a2dd3a84e70ac738a3afc031655845670cd7e46a50e8c5",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 78,
+        "FLAT_ONLY_HIT": 6,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.475,
+        "coverageAt20": 0.658333,
+        "coverageAt30": 0.658333,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.658333,
+        "medianRelevantRank": 6,
+        "missCount": 41,
+        "mrr": 0.18681,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 19,
+        "recallAt10": 0.475,
+        "recallAt20": 0.658333,
+        "recallAt30": 0.658333,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.658333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.133333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 5,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "ba4e603bb1d9cc3236e70b64600ad698fca8dbd6e4a45fe4ad246763091cef73",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 10,
+        "deepRankRecoveredAt30": 12,
+        "deepRankRecoveryRate": 0.322581,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 10,
+      "hierarchicalOnlyHitRate": 0.083333,
+      "hitBreakdown": {
+        "BOTH_HIT": 69,
+        "FLAT_ONLY_HIT": 15,
+        "HIERARCHICAL_ONLY_HIT": 10,
+        "NEITHER_HIT": 26
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.658333,
+        "coverageAt30": 0.75,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.75,
+        "medianRelevantRank": 6,
+        "missCount": 30,
+        "mrr": 0.192661,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 23,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.658333,
+        "recallAt30": 0.75,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.75
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.133333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 5,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "a3ebd3e21b4b8665e8e03d760ddbd21a920a95213bb68f33f7c91b45c3ea2888",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.5,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.291667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.184461,
+        "ndcgAt5": 0.178559,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.5,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.291667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.133333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 5,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "6591e49738de6b3bfdd24a708092c40131d0f9b637238aea91e86eb7401d627e",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 12,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.5,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.8,
+        "coverageAt5": 0.291667,
+        "coverageAt50": 0.8,
+        "medianRelevantRank": 8,
+        "missCount": 24,
+        "mrr": 0.187931,
+        "ndcgAt5": 0.178559,
+        "p95RelevantRank": 25,
+        "recallAt10": 0.5,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.8,
+        "recallAt5": 0.291667,
+        "recallAt50": 0.8
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.133333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 5,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "aedc634a24d45e8d1af339de41bf5cc94b7258056a9fc1ea3020f932ae96616c",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.283333,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.188328,
+        "ndcgAt5": 0.178624,
+        "p95RelevantRank": 18,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.283333,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.133333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 5,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "6246a7657cc68a50ca616a0ddfaa8a6527292d2ba95a5fa3e5b5cd5cf8525a09",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 10,
+        "deepRankRecoveredAt30": 12,
+        "deepRankRecoveryRate": 0.322581,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 10,
+      "hierarchicalOnlyHitRate": 0.083333,
+      "hitBreakdown": {
+        "BOTH_HIT": 80,
+        "FLAT_ONLY_HIT": 4,
+        "HIERARCHICAL_ONLY_HIT": 10,
+        "NEITHER_HIT": 26
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.75,
+        "coverageAt30": 0.791667,
+        "coverageAt5": 0.308333,
+        "coverageAt50": 0.791667,
+        "medianRelevantRank": 7,
+        "missCount": 25,
+        "mrr": 0.192348,
+        "ndcgAt5": 0.187717,
+        "p95RelevantRank": 23,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.75,
+        "recallAt30": 0.791667,
+        "recallAt5": 0.308333,
+        "recallAt50": 0.791667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.333333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 5,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "b9861054314a903c1da42553c92c7e33a9be9aaa6495e91f1f519d99afa27352",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 78,
+        "FLAT_ONLY_HIT": 6,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.466667,
+        "coverageAt20": 0.658333,
+        "coverageAt30": 0.658333,
+        "coverageAt5": 0.291667,
+        "coverageAt50": 0.658333,
+        "medianRelevantRank": 6,
+        "missCount": 41,
+        "mrr": 0.179624,
+        "ndcgAt5": 0.178559,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.466667,
+        "recallAt20": 0.658333,
+        "recallAt30": 0.658333,
+        "recallAt5": 0.291667,
+        "recallAt50": 0.658333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.333333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 5,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "c0c96bdc0b2f96f9ba3c456a5065a2b5b88e671bfc057874be62235fc1ab1fdf",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 12,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 78,
+        "FLAT_ONLY_HIT": 6,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.466667,
+        "coverageAt20": 0.658333,
+        "coverageAt30": 0.75,
+        "coverageAt5": 0.291667,
+        "coverageAt50": 0.75,
+        "medianRelevantRank": 7,
+        "missCount": 30,
+        "mrr": 0.183467,
+        "ndcgAt5": 0.178559,
+        "p95RelevantRank": 25,
+        "recallAt10": 0.466667,
+        "recallAt20": 0.658333,
+        "recallAt30": 0.75,
+        "recallAt5": 0.291667,
+        "recallAt50": 0.75
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.333333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 5,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "2e1650907522e1c347bba9553e85b67286a202d84866b7c26d954792b05235cf",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 78,
+        "FLAT_ONLY_HIT": 6,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.475,
+        "coverageAt20": 0.658333,
+        "coverageAt30": 0.658333,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.658333,
+        "medianRelevantRank": 6,
+        "missCount": 41,
+        "mrr": 0.18681,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 19,
+        "recallAt10": 0.475,
+        "recallAt20": 0.658333,
+        "recallAt30": 0.658333,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.658333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.333333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 5,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "143540b641d82988e7b1ea3f200dc8437d5efe52bcedaaad90c2d20d784af60f",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 10,
+        "deepRankRecoveredAt30": 12,
+        "deepRankRecoveryRate": 0.322581,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 10,
+      "hierarchicalOnlyHitRate": 0.083333,
+      "hitBreakdown": {
+        "BOTH_HIT": 69,
+        "FLAT_ONLY_HIT": 15,
+        "HIERARCHICAL_ONLY_HIT": 10,
+        "NEITHER_HIT": 26
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.658333,
+        "coverageAt30": 0.75,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.75,
+        "medianRelevantRank": 6,
+        "missCount": 30,
+        "mrr": 0.192661,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 23,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.658333,
+        "recallAt30": 0.75,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.75
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.333333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 5,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "ff3f3c5029b0cbfba43d1750863d1f46792c1c6b085410b6eb1cbfcf0b19db9b",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.5,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.291667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.184461,
+        "ndcgAt5": 0.178559,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.5,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.291667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.333333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 5,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "47524cce6b499a83591cee72780c1b73ba8d6346f5931b165472984e57414833",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 12,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.5,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.8,
+        "coverageAt5": 0.291667,
+        "coverageAt50": 0.8,
+        "medianRelevantRank": 8,
+        "missCount": 24,
+        "mrr": 0.187931,
+        "ndcgAt5": 0.178559,
+        "p95RelevantRank": 25,
+        "recallAt10": 0.5,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.8,
+        "recallAt5": 0.291667,
+        "recallAt50": 0.8
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.333333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 5,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "7abcc18e6bc1df888c3d731fa451e02a057f92eb446577cf47038e8145b3baec",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.283333,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.188328,
+        "ndcgAt5": 0.178624,
+        "p95RelevantRank": 18,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.283333,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 42.333333,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 5,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "749fcb32379e93c0d3a3521bc32900bc548d442ac53efb1e7dd7194848d37b74",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 10,
+        "deepRankRecoveredAt30": 12,
+        "deepRankRecoveryRate": 0.322581,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 10,
+      "hierarchicalOnlyHitRate": 0.083333,
+      "hitBreakdown": {
+        "BOTH_HIT": 80,
+        "FLAT_ONLY_HIT": 4,
+        "HIERARCHICAL_ONLY_HIT": 10,
+        "NEITHER_HIT": 26
+      },
+      "maximumEligibleChildren": 47,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.75,
+        "coverageAt30": 0.791667,
+        "coverageAt5": 0.308333,
+        "coverageAt50": 0.791667,
+        "medianRelevantRank": 7,
+        "missCount": 25,
+        "mrr": 0.192348,
+        "ndcgAt5": 0.187717,
+        "p95RelevantRank": 23,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.75,
+        "recallAt30": 0.791667,
+        "recallAt5": 0.308333,
+        "recallAt50": 0.791667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 10,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "ae7b4d19ffbc166866e6f66b30e409ebb616954b877d5d83d4e93b135ce5812e",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.191301,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 10,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "efa69d3134579f6b095cfa56e5731552c277e095f66c6e93aa01e5003f851385",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.791667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.791667,
+        "medianRelevantRank": 7,
+        "missCount": 25,
+        "mrr": 0.195479,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 25,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.791667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.791667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 10,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "8b46c61233005b2927738495e629b49fb4d1fafec1b2d6208950d4c4eca5f910",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.475,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.188824,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 18,
+        "recallAt10": 0.475,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 10,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "0e9c9825ed52f603b2c90a6e31fca4da5fbb363d87d5abb9fdc55f56c60bbe29",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 11,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.354839,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 11,
+      "hierarchicalOnlyHitRate": 0.091667,
+      "hitBreakdown": {
+        "BOTH_HIT": 73,
+        "FLAT_ONLY_HIT": 11,
+        "HIERARCHICAL_ONLY_HIT": 11,
+        "NEITHER_HIT": 25
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.516667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.791667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.791667,
+        "medianRelevantRank": 7,
+        "missCount": 25,
+        "mrr": 0.195608,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 23,
+        "recallAt10": 0.516667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.791667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.791667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 10,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "7f723d932932dcf1b92a0781b9386233a0115162fc6aa3cc22ec2429f61971b3",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 84,
+        "FLAT_ONLY_HIT": 0,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.7,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.7,
+        "medianRelevantRank": 6,
+        "missCount": 36,
+        "mrr": 0.191823,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.7,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.7
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 10,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "89a5db8f65376a599645b4f36e204f3ff1219a577276a1001b7e9406b794f6f6",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.808333,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.808333,
+        "medianRelevantRank": 7,
+        "missCount": 23,
+        "mrr": 0.196366,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 25,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.808333,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.808333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 10,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "d16b904590bf6162025c6fdbaca5a7d63d84f1c920e69812d685f5d098d65cc9",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.308333,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.198518,
+        "ndcgAt5": 0.19529,
+        "p95RelevantRank": 18,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.308333,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 10,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "d836677016d3eb47dd6182dbf418a73ca3a85de1e9d42e0bd0364c17ffff3448",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 11,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.354839,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 11,
+      "hierarchicalOnlyHitRate": 0.091667,
+      "hitBreakdown": {
+        "BOTH_HIT": 81,
+        "FLAT_ONLY_HIT": 3,
+        "HIERARCHICAL_ONLY_HIT": 11,
+        "NEITHER_HIT": 25
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.766667,
+        "coverageAt30": 0.808333,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.808333,
+        "medianRelevantRank": 7,
+        "missCount": 23,
+        "mrr": 0.201819,
+        "ndcgAt5": 0.196051,
+        "p95RelevantRank": 23,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.766667,
+        "recallAt30": 0.808333,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.808333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 10,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "dbb2219217eea9873412fb511996119100f540c30ae23676691d73380094b11f",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.191301,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 10,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "bbe45acc91c4566e365d09f6d8843b4d3a538dd529ed6e6bd3fefa5aeab931bb",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.791667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.791667,
+        "medianRelevantRank": 7,
+        "missCount": 25,
+        "mrr": 0.195479,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 25,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.791667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.791667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 10,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "2300972a02868ab4d608fe064449e306b78b5e934962418575b9846aadfb1e5d",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 1,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 82,
+        "FLAT_ONLY_HIT": 2,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.475,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.188824,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 18,
+        "recallAt10": 0.475,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 10,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "3a2f40a2e7e5f80f404def2a1948e537c921ca923c024aa8a7af197fe891cca0",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 11,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.354839,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 11,
+      "hierarchicalOnlyHitRate": 0.091667,
+      "hitBreakdown": {
+        "BOTH_HIT": 73,
+        "FLAT_ONLY_HIT": 11,
+        "HIERARCHICAL_ONLY_HIT": 11,
+        "NEITHER_HIT": 25
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.516667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.791667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.791667,
+        "medianRelevantRank": 7,
+        "missCount": 25,
+        "mrr": 0.195608,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 23,
+        "recallAt10": 0.516667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.791667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.791667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 10,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "ea4281ebeea522de1653a7613210aa287313acdde066d9f57fe0b324faa0d25e",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 84,
+        "FLAT_ONLY_HIT": 0,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.7,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.7,
+        "medianRelevantRank": 6,
+        "missCount": 36,
+        "mrr": 0.191823,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.7,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.7
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 10,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "6298726ff998312436bd415b020ce7851de5e4efa1fe5d60e4b3219464c54086",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 1,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.032258,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 1,
+      "hierarchicalOnlyHitRate": 0.008333,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 1,
+        "NEITHER_HIT": 35
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.808333,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.808333,
+        "medianRelevantRank": 7,
+        "missCount": 23,
+        "mrr": 0.196366,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 25,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.808333,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.808333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 10,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "07d246e75391caff2030abc8c47d0d17cb46a87165aa35d5ac8891a5e58c4903",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.308333,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.198518,
+        "ndcgAt5": 0.19529,
+        "p95RelevantRank": 18,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.308333,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 82.591667,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 10,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "d2c25d6d4dee64a1aa4fb7fce6f5532422bb34c9971f9d8eac602207b32972dd",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 11,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.354839,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 11,
+      "hierarchicalOnlyHitRate": 0.091667,
+      "hitBreakdown": {
+        "BOTH_HIT": 81,
+        "FLAT_ONLY_HIT": 3,
+        "HIERARCHICAL_ONLY_HIT": 11,
+        "NEITHER_HIT": 25
+      },
+      "maximumEligibleChildren": 91,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.766667,
+        "coverageAt30": 0.808333,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.808333,
+        "medianRelevantRank": 7,
+        "missCount": 23,
+        "mrr": 0.201819,
+        "ndcgAt5": 0.196051,
+        "p95RelevantRank": 23,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.766667,
+        "recallAt30": 0.808333,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.808333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 20,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "f856eed58f1d03dee7d15e4d75d89cdab058481f02c37c9c3a7942fc6b0d21e1",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.191406,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 20,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "b38fccc9d7b2f843aae3a6f06e4838646a970a563d848177e05fceac6e262a2d",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 15,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.816667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.816667,
+        "medianRelevantRank": 7,
+        "missCount": 22,
+        "mrr": 0.196686,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 26,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.816667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.816667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 20,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "a93c880803d62b15fb668ed5cbe0cb95081ff06f845297c21fb766f4df897ecb",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.475,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.189528,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 19,
+        "recallAt10": 0.475,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 20,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "8aeca967f9446f22a0a847f2ad564d67ab038cfc33aec7874860a79fbb366f75",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 11,
+        "deepRankRecoveredAt30": 15,
+        "deepRankRecoveryRate": 0.354839,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 11,
+      "hierarchicalOnlyHitRate": 0.091667,
+      "hitBreakdown": {
+        "BOTH_HIT": 75,
+        "FLAT_ONLY_HIT": 9,
+        "HIERARCHICAL_ONLY_HIT": 11,
+        "NEITHER_HIT": 25
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.516667,
+        "coverageAt20": 0.716667,
+        "coverageAt30": 0.816667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.816667,
+        "medianRelevantRank": 7,
+        "missCount": 22,
+        "mrr": 0.197093,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 24,
+        "recallAt10": 0.516667,
+        "recallAt20": 0.716667,
+        "recallAt30": 0.816667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.816667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 20,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "b540d9cb2d520eca05bb9c1f6f8ed0746277539243675a3e382a9434d486f1f9",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 84,
+        "FLAT_ONLY_HIT": 0,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.7,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.7,
+        "medianRelevantRank": 6,
+        "missCount": 36,
+        "mrr": 0.191927,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.7,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.7
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P1",
+        "parentTopN": 20,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "017eac69e69d7119e429a7cf9ab407d5fd232b3673dd8afb722c16cdb14eed0b",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 14,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 84,
+        "FLAT_ONLY_HIT": 0,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.816667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.816667,
+        "medianRelevantRank": 7,
+        "missCount": 22,
+        "mrr": 0.196718,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 26,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.816667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.816667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 20,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "fb5b3df6dcd838c1a025df2681bbdfd5ccecc885b19db5f83cf464d2640822dd",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 84,
+        "FLAT_ONLY_HIT": 0,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.7,
+        "coverageAt5": 0.308333,
+        "coverageAt50": 0.7,
+        "medianRelevantRank": 6,
+        "missCount": 36,
+        "mrr": 0.199086,
+        "ndcgAt5": 0.19529,
+        "p95RelevantRank": 18,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.7,
+        "recallAt30": 0.7,
+        "recallAt5": 0.308333,
+        "recallAt50": 0.7
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P1",
+        "parentTopN": 20,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "4efed7ebe620bd8308b177620327b4572ed30efee208588318cdc533ed6a5f66",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 11,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.354839,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 11,
+      "hierarchicalOnlyHitRate": 0.091667,
+      "hitBreakdown": {
+        "BOTH_HIT": 81,
+        "FLAT_ONLY_HIT": 3,
+        "HIERARCHICAL_ONLY_HIT": 11,
+        "NEITHER_HIT": 25
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.766667,
+        "coverageAt30": 0.808333,
+        "coverageAt5": 0.333333,
+        "coverageAt50": 0.808333,
+        "medianRelevantRank": 7,
+        "missCount": 23,
+        "mrr": 0.204649,
+        "ndcgAt5": 0.204384,
+        "p95RelevantRank": 21,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.766667,
+        "recallAt30": 0.808333,
+        "recallAt5": 0.333333,
+        "recallAt50": 0.808333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 20,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "eebe467e29b11ca9f464afa07739214aa6fa31cd3802b7befb5acba6e5af9fa0",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.191406,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 20,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "b3b0f82880b687d5af8845f912d950ffb87a96e06960b51faee0ee82873b0cbf",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 15,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.816667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.816667,
+        "medianRelevantRank": 7,
+        "missCount": 22,
+        "mrr": 0.196686,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 26,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.816667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.816667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 20,
+        "postFusionCandidateK": 20,
+        "strategy": "H1"
+      },
+      "configurationHash": "17088b142f367f9be6f27543198d04ea367934133bf4db84c7933558e1ce57c1",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 83,
+        "FLAT_ONLY_HIT": 1,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.475,
+        "coverageAt20": 0.691667,
+        "coverageAt30": 0.691667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.691667,
+        "medianRelevantRank": 6,
+        "missCount": 37,
+        "mrr": 0.189528,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 19,
+        "recallAt10": 0.475,
+        "recallAt20": 0.691667,
+        "recallAt30": 0.691667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.691667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 20,
+        "postFusionCandidateK": 30,
+        "strategy": "H1"
+      },
+      "configurationHash": "d48add0b29b0c22d3f1f85448bb2268406dabed073e30dd7e41eb9bb336ca712",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 11,
+        "deepRankRecoveredAt30": 15,
+        "deepRankRecoveryRate": 0.354839,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 11,
+      "hierarchicalOnlyHitRate": 0.091667,
+      "hitBreakdown": {
+        "BOTH_HIT": 75,
+        "FLAT_ONLY_HIT": 9,
+        "HIERARCHICAL_ONLY_HIT": 11,
+        "NEITHER_HIT": 25
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.516667,
+        "coverageAt20": 0.716667,
+        "coverageAt30": 0.816667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.816667,
+        "medianRelevantRank": 7,
+        "missCount": 22,
+        "mrr": 0.197093,
+        "ndcgAt5": 0.192402,
+        "p95RelevantRank": 24,
+        "recallAt10": 0.516667,
+        "recallAt20": 0.716667,
+        "recallAt30": 0.816667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.816667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 20,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "c5f8283ef993bfc82226683d114fe6d0f6c12058c795bdd883275c6e18794ccd",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 84,
+        "FLAT_ONLY_HIT": 0,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.7,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.7,
+        "medianRelevantRank": 6,
+        "missCount": 36,
+        "mrr": 0.191927,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 17,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.7,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.7
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": false,
+        "parentRepresentation": "P2",
+        "parentTopN": 20,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "fc542f73ce659bb2397f8bb3b7cec718ba462f83a4c6dcfdda88407e03c9f01a",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 14,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 84,
+        "FLAT_ONLY_HIT": 0,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.491667,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.816667,
+        "coverageAt5": 0.316667,
+        "coverageAt50": 0.816667,
+        "medianRelevantRank": 7,
+        "missCount": 22,
+        "mrr": 0.196718,
+        "ndcgAt5": 0.193241,
+        "p95RelevantRank": 26,
+        "recallAt10": 0.491667,
+        "recallAt20": 0.7,
+        "recallAt30": 0.816667,
+        "recallAt5": 0.316667,
+        "recallAt50": 0.816667
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 20,
+        "postFusionCandidateK": 20,
+        "strategy": "H2"
+      },
+      "configurationHash": "477b2f52952ad9a3e47d1bacd3bc1feb0a74f4c7ea42b25d49dab797befdaf91",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 0,
+        "deepRankRecoveredAt30": 0,
+        "deepRankRecoveryRate": 0.0,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 0,
+      "hierarchicalOnlyHitRate": 0.0,
+      "hitBreakdown": {
+        "BOTH_HIT": 84,
+        "FLAT_ONLY_HIT": 0,
+        "HIERARCHICAL_ONLY_HIT": 0,
+        "NEITHER_HIT": 36
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.7,
+        "coverageAt30": 0.7,
+        "coverageAt5": 0.308333,
+        "coverageAt50": 0.7,
+        "medianRelevantRank": 6,
+        "missCount": 36,
+        "mrr": 0.199086,
+        "ndcgAt5": 0.19529,
+        "p95RelevantRank": 18,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.7,
+        "recallAt30": 0.7,
+        "recallAt5": 0.308333,
+        "recallAt50": 0.7
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    },
+    {
+      "averageEligibleChildren": 100.0,
+      "configuration": {
+        "allowBackfill": false,
+        "maximumFinalK": 5,
+        "parentPriorConstant": 60,
+        "parentPriorEnabled": true,
+        "parentRepresentation": "P2",
+        "parentTopN": 20,
+        "postFusionCandidateK": 30,
+        "strategy": "H2"
+      },
+      "configurationHash": "2d80dfa3605886d236c390be9ca5e3851ddfd78fba47d319c9031a577cbf976a",
+      "deepRank": {
+        "deepRankCaseCount": 31,
+        "deepRankRecoveredAt20": 11,
+        "deepRankRecoveredAt30": 13,
+        "deepRankRecoveryRate": 0.354839,
+        "medianRelevantRankAfter": 999,
+        "medianRelevantRankBefore": 36,
+        "p95RelevantRankAfter": 999,
+        "p95RelevantRankBefore": 94
+      },
+      "hierarchicalOnlyHitCount": 11,
+      "hierarchicalOnlyHitRate": 0.091667,
+      "hitBreakdown": {
+        "BOTH_HIT": 81,
+        "FLAT_ONLY_HIT": 3,
+        "HIERARCHICAL_ONLY_HIT": 11,
+        "NEITHER_HIT": 25
+      },
+      "maximumEligibleChildren": 100,
+      "metrics": {
+        "caseCount": 120,
+        "coverageAt10": 0.508333,
+        "coverageAt20": 0.766667,
+        "coverageAt30": 0.808333,
+        "coverageAt5": 0.333333,
+        "coverageAt50": 0.808333,
+        "medianRelevantRank": 7,
+        "missCount": 23,
+        "mrr": 0.204649,
+        "ndcgAt5": 0.204384,
+        "p95RelevantRank": 21,
+        "recallAt10": 0.508333,
+        "recallAt20": 0.766667,
+        "recallAt30": 0.808333,
+        "recallAt5": 0.333333,
+        "recallAt50": 0.808333
+      },
+      "safety": {
+        "disabledEvidenceAccepted": 0,
+        "expiredEvidenceAccepted": 0,
+        "inactiveEvidenceAccepted": 0,
+        "lowScoreBackfillCount": 0,
+        "maximumFinalK": 5,
+        "tenantViolations": 0,
+        "tombstonedEvidenceAccepted": 0
+      }
+    }
+  ]
+}

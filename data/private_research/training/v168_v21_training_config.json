@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-15T14:00:19.909845+00:00",
+  "status": "V168_TRAINING_CONFIG_FROZEN_BUT_NOT_RUN",
+  "epochs_planned": 1,
+  "optimizer_steps_planned": 42,
+  "max_length": 384,
+  "lora_target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "lora_r": 8,
+  "holdout_path_accepted_by_training": false,
+  "blocked_reason": "V21_TRAIN_VALIDATION_DATA_BLOCKED"
+}

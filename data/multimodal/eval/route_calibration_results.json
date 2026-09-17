@@ -1,0 +1,36 @@
+{
+  "marker": "REALWORLD_MULTIMODAL_ROUTE_CALIBRATION_BLOCKED",
+  "metric_definitions": {
+    "human_review_accuracy": "(TP + TN) / all",
+    "human_review_precision": "TP / (TP + FP)",
+    "human_review_recall": "TP / (TP + FN)",
+    "human_review_f1": "2PR / (P + R)",
+    "high_risk_review_recall": "high risk samples routed to human / all high risk samples",
+    "review_trigger_rate": "samples routed to human / all samples",
+    "unsafe_auto_pass_rate": "samples that should be human-reviewed but auto-passed / all samples that should be human-reviewed"
+  },
+  "synthetic_label_policy_sanity_check": {
+    "sample_count": 180,
+    "true_positive": 153,
+    "false_positive": 0,
+    "true_negative": 27,
+    "false_negative": 0,
+    "human_review_accuracy": 1.0,
+    "human_review_precision": 1.0,
+    "human_review_recall": 1.0,
+    "human_review_f1": 1.0,
+    "high_risk_review_recall": 1.0,
+    "review_trigger_rate": 0.85,
+    "unsafe_auto_pass_rate": 0.0
+  },
+  "calibration_status": "synthetic_only_not_real_calibration",
+  "blocking_reasons": [
+    "real_world dev requires at least 400 text samples; current=0",
+    "multimodal validation requires at least 40 image-text samples; current=0"
+  ],
+  "counts": {
+    "synthetic_validation": 180,
+    "real_dev": 0,
+    "multimodal_validation": 0
+  }
+}

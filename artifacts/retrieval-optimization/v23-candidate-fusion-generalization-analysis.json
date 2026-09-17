@@ -1,0 +1,668 @@
+{
+  "calibration": {
+    "averageCandidateOverlapAt20": 0.373773,
+    "averageQueryTokenCount": 7.3,
+    "averageRelevantChunkTokenCount": 22.1,
+    "bm25DominantRate": 0.19,
+    "caseCount": 100,
+    "deepRankRate": 0.22,
+    "denseDominantRate": 0.09,
+    "denseRankDistribution": {
+      "1-5": {
+        "count": 18,
+        "rate": 0.18
+      },
+      "11-20": {
+        "count": 24,
+        "rate": 0.24
+      },
+      "21-30": {
+        "count": 16,
+        "rate": 0.16
+      },
+      "31-50": {
+        "count": 11,
+        "rate": 0.11
+      },
+      "51-75": {
+        "count": 9,
+        "rate": 0.09
+      },
+      "6-10": {
+        "count": 16,
+        "rate": 0.16
+      },
+      "76-100": {
+        "count": 3,
+        "rate": 0.03
+      },
+      ">100": {
+        "count": 3,
+        "rate": 0.03
+      }
+    },
+    "denseWeightHelpedRate": 0.2,
+    "denseWeightHurtRate": 0.13,
+    "dependencyDistribution": {
+      "BM25_DOMINANT": {
+        "count": 19,
+        "rate": 0.19
+      },
+      "BOTH_SUPPORT": {
+        "count": 49,
+        "rate": 0.49
+      },
+      "DEEP_RANK_ONLY": {
+        "count": 22,
+        "rate": 0.22
+      },
+      "DENSE_DOMINANT": {
+        "count": 9,
+        "rate": 0.09
+      },
+      "RETRIEVER_DISAGREEMENT": {
+        "count": 1,
+        "rate": 0.01
+      }
+    },
+    "equalWeightCoverageAt20": 0.7,
+    "intentDistribution": {
+      "ABBREVIATION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "COLLOQUIAL_QUERY": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "CONDITIONAL_RULE": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "ENTITY_RELATION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "LEXICAL_EXACT_MATCH": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "LEXICAL_PARTIAL_MATCH": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "LONG_QUERY": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "LOW_FREQUENCY_TERM": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "MULTIPLE_DISTRACTORS": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "MULTI_CONDITION_QUERY": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "NEAR_DUPLICATE_DISTRACTORS": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "NEGATION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "PARENT_CONTEXT_REQUIRED": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "SCOPE_CONDITION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "SECTION_DEPENDENT": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "SEMANTIC_PARAPHRASE": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "SHORT_QUERY": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "TEMPORAL_CONDITION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "TITLE_DEPENDENT": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "TYPO_OR_VARIANT": {
+        "count": 5,
+        "rate": 0.05
+      }
+    },
+    "intentWeightSensitivity": {
+      "ABBREVIATION": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.4,
+        "selectedCoverageAt20": 0.4
+      },
+      "COLLOQUIAL_QUERY": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.4,
+        "selectedCoverageAt20": 0.4
+      },
+      "CONDITIONAL_RULE": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.6,
+        "selectedCoverageAt20": 0.6
+      },
+      "ENTITY_RELATION": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.4,
+        "selectedCoverageAt20": 0.4
+      },
+      "LEXICAL_EXACT_MATCH": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 1.0,
+        "selectedCoverageAt20": 1.0
+      },
+      "LEXICAL_PARTIAL_MATCH": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.0,
+        "selectedCoverageAt20": 0.0
+      },
+      "LONG_QUERY": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.6,
+        "selectedCoverageAt20": 0.6
+      },
+      "LOW_FREQUENCY_TERM": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "MULTIPLE_DISTRACTORS": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "MULTI_CONDITION_QUERY": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 0.6,
+        "selectedCoverageAt20": 0.6
+      },
+      "NEAR_DUPLICATE_DISTRACTORS": {
+        "caseCount": 5,
+        "denseWeightHelped": 3,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 1.0,
+        "selectedCoverageAt20": 1.0
+      },
+      "NEGATION": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "PARENT_CONTEXT_REQUIRED": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.6,
+        "selectedCoverageAt20": 0.6
+      },
+      "SCOPE_CONDITION": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 2,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "SECTION_DEPENDENT": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "SEMANTIC_PARAPHRASE": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 2,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "SHORT_QUERY": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "TEMPORAL_CONDITION": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "TITLE_DEPENDENT": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 1.0,
+        "selectedCoverageAt20": 1.0
+      },
+      "TYPO_OR_VARIANT": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 1.0,
+        "selectedCoverageAt20": 1.0
+      }
+    },
+    "retrieverDisagreementRate": 0.01,
+    "selectedCoverageAt20": 0.7,
+    "selectedRrfRankDistribution": {
+      "1-5": {
+        "count": 31,
+        "rate": 0.31
+      },
+      "11-20": {
+        "count": 22,
+        "rate": 0.22
+      },
+      "6-10": {
+        "count": 17,
+        "rate": 0.17
+      },
+      ">100": {
+        "count": 30,
+        "rate": 0.3
+      }
+    }
+  },
+  "comparison": {
+    "bm25DominantDeltaEvalMinusCal": -0.01,
+    "candidateOverlapDeltaEvalMinusCal": -0.002113,
+    "deepRankDeltaEvalMinusCal": 0.07,
+    "denseDominantDeltaEvalMinusCal": 0.03,
+    "denseWeightHelpedDeltaEvalMinusCal": 0.02,
+    "denseWeightHurtDeltaEvalMinusCal": -0.01,
+    "retrieverDisagreementDeltaEvalMinusCal": 0.03,
+    "selectedCoverageAt20Gap": 0.15
+  },
+  "conclusion": {
+    "globalWeightConclusion": "ROOT_CAUSE_UNRESOLVED",
+    "nextExperimentRecommendation": "build balanced v23-retrieval-qualification-v2 before testing structured retrieval content and BGE-M3 sparse",
+    "primaryCause": "CALIBRATION_TO_EVALUATION_GENERALIZATION_GAP+EVALUATION_MORE_DEEP_RANK",
+    "runtimeIntegrationAllowed": false
+  },
+  "datasetHash": "d3835de362f936a3f5000395b57c447d1518e63a879e50a08e5198b920761c2d",
+  "evaluation": {
+    "averageCandidateOverlapAt20": 0.37166,
+    "averageQueryTokenCount": 7.3,
+    "averageRelevantChunkTokenCount": 22.64,
+    "bm25DominantRate": 0.18,
+    "caseCount": 100,
+    "deepRankRate": 0.29,
+    "denseDominantRate": 0.12,
+    "denseRankDistribution": {
+      "1-5": {
+        "count": 16,
+        "rate": 0.16
+      },
+      "11-20": {
+        "count": 23,
+        "rate": 0.23
+      },
+      "21-30": {
+        "count": 17,
+        "rate": 0.17
+      },
+      "31-50": {
+        "count": 12,
+        "rate": 0.12
+      },
+      "51-75": {
+        "count": 11,
+        "rate": 0.11
+      },
+      "6-10": {
+        "count": 10,
+        "rate": 0.1
+      },
+      "76-100": {
+        "count": 5,
+        "rate": 0.05
+      },
+      ">100": {
+        "count": 6,
+        "rate": 0.06
+      }
+    },
+    "denseWeightHelpedRate": 0.22,
+    "denseWeightHurtRate": 0.12,
+    "dependencyDistribution": {
+      "BM25_DOMINANT": {
+        "count": 18,
+        "rate": 0.18
+      },
+      "BOTH_SUPPORT": {
+        "count": 37,
+        "rate": 0.37
+      },
+      "DEEP_RANK_ONLY": {
+        "count": 29,
+        "rate": 0.29
+      },
+      "DENSE_DOMINANT": {
+        "count": 12,
+        "rate": 0.12
+      },
+      "RETRIEVER_DISAGREEMENT": {
+        "count": 4,
+        "rate": 0.04
+      }
+    },
+    "equalWeightCoverageAt20": 0.56,
+    "intentDistribution": {
+      "ABBREVIATION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "COLLOQUIAL_QUERY": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "CONDITIONAL_RULE": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "ENTITY_RELATION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "LEXICAL_EXACT_MATCH": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "LEXICAL_PARTIAL_MATCH": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "LONG_QUERY": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "LOW_FREQUENCY_TERM": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "MULTIPLE_DISTRACTORS": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "MULTI_CONDITION_QUERY": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "NEAR_DUPLICATE_DISTRACTORS": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "NEGATION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "PARENT_CONTEXT_REQUIRED": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "SCOPE_CONDITION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "SECTION_DEPENDENT": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "SEMANTIC_PARAPHRASE": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "SHORT_QUERY": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "TEMPORAL_CONDITION": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "TITLE_DEPENDENT": {
+        "count": 5,
+        "rate": 0.05
+      },
+      "TYPO_OR_VARIANT": {
+        "count": 5,
+        "rate": 0.05
+      }
+    },
+    "intentWeightSensitivity": {
+      "ABBREVIATION": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.6,
+        "selectedCoverageAt20": 0.6
+      },
+      "COLLOQUIAL_QUERY": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "CONDITIONAL_RULE": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 0.2,
+        "selectedCoverageAt20": 0.2
+      },
+      "ENTITY_RELATION": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.0,
+        "selectedCoverageAt20": 0.0
+      },
+      "LEXICAL_EXACT_MATCH": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.2,
+        "selectedCoverageAt20": 0.2
+      },
+      "LEXICAL_PARTIAL_MATCH": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.6,
+        "selectedCoverageAt20": 0.6
+      },
+      "LONG_QUERY": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 0.6,
+        "selectedCoverageAt20": 0.6
+      },
+      "LOW_FREQUENCY_TERM": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 1.0,
+        "selectedCoverageAt20": 1.0
+      },
+      "MULTIPLE_DISTRACTORS": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.2,
+        "selectedCoverageAt20": 0.2
+      },
+      "MULTI_CONDITION_QUERY": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.2,
+        "selectedCoverageAt20": 0.2
+      },
+      "NEAR_DUPLICATE_DISTRACTORS": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 3,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.6
+      },
+      "NEGATION": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 2,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "PARENT_CONTEXT_REQUIRED": {
+        "caseCount": 5,
+        "denseWeightHelped": 0,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.6,
+        "selectedCoverageAt20": 0.6
+      },
+      "SCOPE_CONDITION": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.4,
+        "selectedCoverageAt20": 0.4
+      },
+      "SECTION_DEPENDENT": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 2,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "SEMANTIC_PARAPHRASE": {
+        "caseCount": 5,
+        "denseWeightHelped": 2,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.4,
+        "selectedCoverageAt20": 0.4
+      },
+      "SHORT_QUERY": {
+        "caseCount": 5,
+        "denseWeightHelped": 4,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      },
+      "TEMPORAL_CONDITION": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 0.4,
+        "selectedCoverageAt20": 0.4
+      },
+      "TITLE_DEPENDENT": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 1,
+        "equalWeightCoverageAt20": 1.0,
+        "selectedCoverageAt20": 1.0
+      },
+      "TYPO_OR_VARIANT": {
+        "caseCount": 5,
+        "denseWeightHelped": 1,
+        "denseWeightHurt": 0,
+        "equalWeightCoverageAt20": 0.8,
+        "selectedCoverageAt20": 0.8
+      }
+    },
+    "retrieverDisagreementRate": 0.04,
+    "selectedCoverageAt20": 0.55,
+    "selectedRrfRankDistribution": {
+      "1-5": {
+        "count": 25,
+        "rate": 0.25
+      },
+      "11-20": {
+        "count": 17,
+        "rate": 0.17
+      },
+      "6-10": {
+        "count": 13,
+        "rate": 0.13
+      },
+      ">100": {
+        "count": 45,
+        "rate": 0.45
+      }
+    }
+  },
+  "phase92Consumed": {
+    "calibration": true,
+    "challenge": false,
+    "evaluation": true,
+    "futureQualificationAllowedForCalibration": false,
+    "futureQualificationAllowedForChallenge": false,
+    "futureQualificationAllowedForEvaluation": false
+  },
+  "rowHashes": {
+    "calibrationRowsHash": "9d40faaadc82446612ab4ffc0d76732287af4ec83175023dd09119dfaf17780f",
+    "evaluationRowsHash": "3f2239b7759b0ddb052a91ee819cdb30ccf0bf5bb4f391fec9d6172c9a754fbd"
+  },
+  "schemaVersion": "agent-rag-v23-candidate-fusion-generalization-analysis-v1",
+  "selectedConfiguration": {
+    "allowBackfill": false,
+    "bm25RetrieveK": 20,
+    "bm25Weight": 0.75,
+    "denseRetrieveK": 100,
+    "denseWeight": 1.25,
+    "maximumFinalK": 5,
+    "postFusionCandidateK": 20,
+    "rrfRankConstant": 60,
+    "rrfRankWindow": 100
+  },
+  "selectedConfigurationHash": "ce88dd40b0ada235832348e4f4c1f6e3149692243aef7d07ed5df490af17b3b6"
+}

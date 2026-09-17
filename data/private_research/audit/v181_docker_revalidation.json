@@ -1,0 +1,14 @@
+{
+  "compose_status": "COMPOSE_STATIC_INVALID",
+  "docker_available": true,
+  "build_status": "IMAGE_BUILD_UNAVAILABLE_OR_FAIL",
+  "runtime_status": "V180_DOCKER_RUNTIME_UNAVAILABLE",
+  "container_health_status": "NOT_EXECUTED",
+  "api_smoke_status": "NOT_EXECUTED",
+  "no_secret_scan": true,
+  "stdout_tail": [],
+  "stderr_tail": [
+    "no configuration file provided: not found",
+    "Docker unavailable or compose config failed"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "marker": "PILOT_IMAGE_ACQUISITION_PARTIAL",
+  "images_expected": 18,
+  "images_previously_downloaded": 9,
+  "images_retried": 0,
+  "images_newly_downloaded": 0,
+  "images_total_downloaded": 9,
+  "valid_image_count": 9,
+  "corrupted_image_count": 0,
+  "expired_url_count": 0,
+  "forbidden_count": 0,
+  "network_failure_count": 0,
+  "source_url_not_retained_count": 9,
+  "final_download_success_rate": 0.5,
+  "reason_counts": {
+    "downloaded": 9,
+    "source_url_not_retained": 9
+  }
+}

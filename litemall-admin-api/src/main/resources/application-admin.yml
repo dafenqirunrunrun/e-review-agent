@@ -25,3 +25,23 @@ demo:
     enabled: false
     prefer-framework-trace: true
     fallback-to-legacy: true
+
+agent-rag:
+  enabled: true
+  base-url: http://127.0.0.1:8008
+  analyze-path: /api/v1/agent-rag/analyze
+  health-path: /api/v1/internal/agent-rag/dense/health
+  connect-timeout-ms: 2000
+  read-timeout-ms: 30000
+  total-timeout-ms: 35000
+  max-retries: 1
+  retry-backoff-ms: 200
+  max-response-bytes: 2097152
+  max-context-bytes: 65536
+  max-citations: 20
+  max-evidence-bytes: 524288
+  single-tenant-id: __local__
+  circuit-breaker:
+    failure-threshold: 5
+    open-duration-ms: 30000
+    half-open-max-calls: 1

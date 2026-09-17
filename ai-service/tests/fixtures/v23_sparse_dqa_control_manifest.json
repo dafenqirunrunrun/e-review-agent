@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "agent-rag-v23-sparse-dqa-control-manifest-v1",
+  "groups": {
+    "A_OFFICIAL_COMPATIBLE_ENGLISH": [
+      "A customer asks how refund evidence should be checked before approving a claim.",
+      "The policy requires account risk review when abnormal login activity is detected.",
+      "A support agent must verify order status before issuing after-sales compensation.",
+      "The rule applies only when the complaint includes a valid purchase record.",
+      "The review workflow escalates unsafe content to a human operator."
+    ],
+    "B_SYNTHETIC_CHINESE_RULES": [
+      "用户申请退款时，系统应先核验订单状态和售后凭证。",
+      "账号出现异地登录和高频修改资料时，应进入风险复核流程。",
+      "客服处理投诉前，需要确认商品、订单和用户身份是否一致。",
+      "超过售后时限的请求，应根据平台规则提示人工确认。",
+      "管理员只能处理其权限范围内的风险评论任务。",
+      "当评价内容和图片证据冲突时，应标记为图文不一致风险。",
+      "如果用户描述包含威胁、辱骂或恶意索赔，应提交运营复核。",
+      "系统巡检发现低置信度结果时，应保留 AI 建议并提示人工判断。",
+      "同一订单短时间内出现多次异常评价时，应记录处理日志。",
+      "风险任务关闭前，需要保存处理动作、处理人和处理时间。"
+    ]
+  }
+}

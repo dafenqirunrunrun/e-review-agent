@@ -1,0 +1,26 @@
+{
+  "artifactVersion": "agent-rag-v23-phase-95a-qc2-gate-v1",
+  "blockingReasons": [],
+  "calibration": "E_REVIEW_V23_PARENT_CHILD_CALIBRATION_PASS",
+  "checks": {
+    "calibrationReproducibilityPass": true,
+    "challengeNotConsumed": true,
+    "configurationLockPass": true,
+    "detachedVerifyPass": true,
+    "evaluationNotConsumed": true,
+    "faissRuntimePass": true,
+    "hierarchyLabelPass": true,
+    "indexRebuildParityPass": true,
+    "parentGranularityPass": true,
+    "qualificationEnvironmentPass": true,
+    "qualifiedEnvironmentFullRegressionPass": true,
+    "rankingHashParityPass": true,
+    "realDenseRequiredTestsPass": true,
+    "sensitiveScanPass": true,
+    "threeLayerRegressionDeltaPass": true
+  },
+  "decision": "E_REVIEW_V23_PHASE_95A_QC2_PASS",
+  "phase95bParentChildEvaluationAllowed": true,
+  "qualificationChain": "E_REVIEW_V23_PARENT_CHILD_QUALIFICATION_CHAIN_PASS",
+  "reproducibility": "E_REVIEW_V23_PARENT_CHILD_REPRODUCIBILITY_PASS"
+}

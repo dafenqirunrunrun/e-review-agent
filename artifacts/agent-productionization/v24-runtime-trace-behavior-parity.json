@@ -1,0 +1,11 @@
+{
+  "cases": 20,
+  "fallbackMatches": 20,
+  "finalStateMatches": 20,
+  "httpContractMatches": 20,
+  "outputValidationMatches": 20,
+  "parityGate": "E_REVIEW_V24_RUNTIME_TRACE_BEHAVIOR_PARITY_PASS",
+  "realLlmTextHashMatches": 0,
+  "realLlmTextNondeterminismCases": 0,
+  "retrievalOutcomeMatches": 20
+}

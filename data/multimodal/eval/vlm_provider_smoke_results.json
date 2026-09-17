@@ -1,0 +1,21 @@
+{
+  "marker": "VLM_PROVIDER_SMOKE_BLOCKED",
+  "provider_marker": "MULTIMODAL_VLM_EVAL_BLOCKED",
+  "model_available": false,
+  "schema_valid": true,
+  "provider": "local_qwen3_vl_transformers",
+  "model_name": "Qwen3-VL-2B-Instruct",
+  "model_dir_kind": "repo_external_configured_path",
+  "device": "cuda",
+  "dtype": "auto",
+  "load_in_4bit": false,
+  "memory_strategy": "serial_lazy_load",
+  "blocked_reason": "VLM_MODEL_NOT_AVAILABLE",
+  "blocking_reasons": [
+    "VLM_MODEL_NOT_AVAILABLE",
+    "provider smoke endpoint returned MULTIMODAL_VLM_EVAL_BLOCKED"
+  ],
+  "status_endpoint": "/api/v1/vlm/status",
+  "smoke_endpoint": "/api/v1/vlm/smoke-test",
+  "message": "VLM_MODEL_NOT_AVAILABLE; place Qwen3-VL-2B-Instruct outside Git and rerun smoke test."
+}

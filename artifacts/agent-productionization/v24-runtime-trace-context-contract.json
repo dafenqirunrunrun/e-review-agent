@@ -1,0 +1,17 @@
+{
+  "externalClientMayProvide": [
+    "X-EReview-Request-Id"
+  ],
+  "externalClientMayProvideTraceId": false,
+  "headers": [
+    "X-EReview-Request-Id",
+    "X-EReview-Trace-Id",
+    "X-EReview-Execution-Id",
+    "X-EReview-Trace-Schema",
+    "X-EReview-Trace-Issued-At",
+    "X-EReview-Trace-Caller",
+    "X-EReview-Trace-Signature"
+  ],
+  "invalidContextPolicy": "REJECTED_AND_REGENERATED",
+  "signatureAlgorithm": "HMAC-SHA-256"
+}

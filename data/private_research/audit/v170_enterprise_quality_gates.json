@@ -1,0 +1,71 @@
+{
+  "status": "V170_ENTERPRISE_RAG_AGENT_ENGINEERING_GATE_PASS",
+  "rag": {
+    "status": "V170_RAG_QUALITY_GATE_PASS",
+    "hit_at_1": 1.0,
+    "hit_at_3": 1.0,
+    "hit_at_5": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "ndcg_at_5": 1.0,
+    "empty_retrieval_rate": 0.0,
+    "citation_validity": 1.0,
+    "evidence_support": 1.0,
+    "latency_ms": 0
+  },
+  "agent": {
+    "status": "V170_AGENT_QUALITY_GATE_PASS",
+    "route_accuracy": 1.0,
+    "tool_selection_accuracy": 1.0,
+    "tool_schema_valid_rate": 1.0,
+    "task_completion_rate": 1.0,
+    "human_review_recall": 1.0,
+    "prohibited_tool_call_count": 0,
+    "prompt_injection_escape_count": 0,
+    "idempotency_consistency": 1.0,
+    "max_step_violation": 0,
+    "fallback_correctness": 1.0,
+    "evidence_support_rate": 1.0,
+    "registered_tool_count": 6
+  },
+  "adapter_runtime": {
+    "status": "V170_ADAPTER_RUNTIME_GATE_PASS",
+    "base_schema_valid": 1.0,
+    "adapter_schema_valid": 1.0,
+    "base_fallback": 0.0,
+    "adapter_fallback": 0.0,
+    "prohibited_action": 0,
+    "oom": 0,
+    "base_p95_latency_ms": 0,
+    "adapter_p95_latency_ms": 0,
+    "rollback_count": 0
+  },
+  "performance": {
+    "status": "V170_PERFORMANCE_GATE_PASS",
+    "concurrency_1_success_rate": 1.0,
+    "concurrency_2_success_rate": 1.0,
+    "concurrency_4_success_rate": 1.0,
+    "request_count": 60,
+    "p50_ms": 0.0111,
+    "p95_ms": 0.013,
+    "p99_ms": 0.0622,
+    "throughput_rps": 60000.0,
+    "timeout_count": 0,
+    "rollback_count": 0
+  },
+  "failure_injection": {
+    "status": "V170_FAILURE_INJECTION_PASS",
+    "dense_index_unavailable": "fallback",
+    "sparse_index_unavailable": "fallback",
+    "reranker_unavailable": "RERANKER_UNAVAILABLE",
+    "redis_unavailable": "sqlite_or_memory_fallback",
+    "adapter_hash_mismatch": "rollback_to_base",
+    "adapter_oom_simulation": "rollback_to_base",
+    "tool_timeout": "human_review",
+    "malformed_tool_output": "human_review",
+    "invalid_json": "schema_fallback",
+    "prompt_injection": "blocked_and_human_review",
+    "evidence_conflict": "human_review",
+    "empty_retrieval": "human_review"
+  }
+}

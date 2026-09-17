@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-07-15T08:55:08.040950+00:00",
+  "status": "V166_CONTRACT_UNIFICATION_PASS",
+  "canonical_contract_status": "CANONICAL_DECISION_CONTRACT_DEFINED",
+  "v164_invalidation_status": "V164_ADAPTER_AND_HOLDOUT_PERMANENTLY_FROZEN",
+  "schema_consumer_status": "CANONICAL_SCHEMA_SINGLE_SOURCE_PASS",
+  "prompt_alignment_status": "PROMPT_CONTRACT_ALIGNMENT_PASS",
+  "completion_only_status": "COMPLETION_ONLY_LABEL_MASK_PASS",
+  "semantic_repair_status": "SEMANTIC_REPAIR_REMOVED_FROM_EVALUATION_PATH"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "V180_FAILURE_INJECTION_REVALIDATED",
+  "original_case_count": 25,
+  "resampled_case_count": 10,
+  "resampled_cases": [
+    "prompt_injection_english",
+    "prompt_injection_chinese",
+    "pii_phone_redaction",
+    "pii_bearer_redaction",
+    "safe_logger_drops_raw",
+    "tenant_empty_rejected",
+    "tenant_path_traversal_rejected",
+    "tenant_zero_width_rejected",
+    "acl_cross_tenant_filtered",
+    "acl_deleted_filtered"
+  ],
+  "limitation": "v1.8.1 reviewed and reused deterministic failure functions; it did not rerun all long runtime failures."
+}

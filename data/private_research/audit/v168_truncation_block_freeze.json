@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-15T14:38:57.530932+00:00",
+  "status": "V168_TRUNCATION_BLOCK_RESULT_FROZEN",
+  "train_count": 336,
+  "validation_count": 54,
+  "holdout_count": 24,
+  "max_length": 384,
+  "truncation_rate": 0.2512820512820513,
+  "eos_trainable_rate": 0.7487179487179487,
+  "zero_trainable_sample_count": 0,
+  "qlora_budget_executed": false,
+  "training_executed": false,
+  "holdout_unsealed": false,
+  "blocked_reason": "completion_target_truncation"
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "v2.1-scale-qualification",
+  "generatedAt": "2026-07-21T06:07:59+00:00",
+  "artifactRootClass": "external-qualification-directory",
+  "scales": [
+    {
+      "chunks": 10000,
+      "tenants": 8,
+      "syntheticOnly": true,
+      "generatedDataCommitted": false,
+      "rawDataSizeBytes": 4194973,
+      "generationSeconds": 0.295913,
+      "loadSeconds": 0.05546,
+      "indexBuildSeconds": 0.126157,
+      "indexTermCount": 10044,
+      "metrics": {
+        "nDCG@5": 1.0,
+        "MRR": 1.0,
+        "Recall@5": 1.0,
+        "queryP95Ms": 7.3885,
+        "tenantViolations": 0,
+        "inactiveLeakage": 0,
+        "expiredLeakage": 0,
+        "duplicateEvidence": 0
+      },
+      "status": "PASS",
+      "manifestHash": "f674f54522f10469588031f7920494ba099869492bc60383658cf94ac0e1e2e9"
+    },
+    {
+      "chunks": 100000,
+      "tenants": 8,
+      "syntheticOnly": true,
+      "generatedDataCommitted": false,
+      "rawDataSizeBytes": 42057519,
+      "generationSeconds": 1.847534,
+      "loadSeconds": 0.581179,
+      "indexBuildSeconds": 1.315027,
+      "indexTermCount": 100044,
+      "metrics": {
+        "nDCG@5": 1.0,
+        "MRR": 1.0,
+        "Recall@5": 1.0,
+        "queryP95Ms": 83.8883,
+        "tenantViolations": 0,
+        "inactiveLeakage": 0,
+        "expiredLeakage": 0,
+        "duplicateEvidence": 0
+      },
+      "status": "PASS",
+      "manifestHash": "3949f99096fe978d2d779b2b75b0a2dc0396ea1ba0eed4a19b979d73d6ceca21"
+    }
+  ],
+  "tokens": [
+    "AGENT_RAG_SCALE_10K_PASS",
+    "AGENT_RAG_SCALE_100K_PASS",
+    "MILLION_SCALE_KNOWLEDGE_NOT_VERIFIED"
+  ]
+}

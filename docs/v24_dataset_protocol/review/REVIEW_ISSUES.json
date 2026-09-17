@@ -1,0 +1,95 @@
+{
+  "auditedAt": "2026-07-28T17:25:00+08:00",
+  "baselineCommit": "d8a3ebbc2447631f953d0ea385ccfb54639daab4",
+  "summary": {
+    "p0Open": 0,
+    "p1Open": 0,
+    "p2Open": 4,
+    "p3Open": 0
+  },
+  "closedIssues": [
+    {
+      "id": "P1-001",
+      "title": "Repository risk enums not audited",
+      "status": "CLOSED",
+      "evidence": [
+        "schema/risk_ontology_v0.1.json",
+        "inventory/PROJECT_FIELD_MAPPING.md"
+      ]
+    },
+    {
+      "id": "P1-002",
+      "title": "Historical 80+52 assets not verified",
+      "status": "CLOSED",
+      "evidence": [
+        "inventory/HISTORICAL_DATASET_INVENTORY.md"
+      ]
+    },
+    {
+      "id": "P1-003",
+      "title": "Evidence/Citation schema not audited",
+      "status": "CLOSED",
+      "evidence": [
+        "08_EVIDENCE_AND_CITATION_LABELING.md",
+        "docs/v24_golden_path_live/golden_path_live_validation.json"
+      ]
+    },
+    {
+      "id": "P1-004",
+      "title": "Multi-label persistence not verified",
+      "status": "CLOSED",
+      "evidence": [
+        "inventory/project_field_mapping.json"
+      ]
+    },
+    {
+      "id": "P1-005",
+      "title": "Answerability mapping not verified",
+      "status": "CLOSED",
+      "evidence": [
+        "inventory/project_field_mapping.json",
+        "schema/dataset_annotation.schema.json"
+      ]
+    },
+    {
+      "id": "P1-006",
+      "title": "Severity-to-risk-task routing not verified",
+      "status": "CLOSED",
+      "evidence": [
+        "03_RISK_ONTOLOGY.md",
+        "schema/risk_ontology_v0.1.json"
+      ]
+    },
+    {
+      "id": "P1-007",
+      "title": "Cross-layer naming consistency not verified",
+      "status": "CLOSED",
+      "evidence": [
+        "inventory/PROJECT_FIELD_MAPPING.md",
+        "scripts/check_field_mapping_completeness.py"
+      ]
+    }
+  ],
+  "openIssues": [
+    {
+      "id": "P2-001",
+      "title": "Lexical/semantic dedup thresholds need Pilot calibration",
+      "status": "OPEN_PILOT_CALIBRATION"
+    },
+    {
+      "id": "P2-002",
+      "title": "Formal 500 collection not started",
+      "status": "INTENTIONAL_BOUNDARY"
+    },
+    {
+      "id": "P2-003",
+      "title": "Legacy table stores primary risk only",
+      "status": "DOCUMENTED_BOUNDARY"
+    },
+    {
+      "id": "P2-004",
+      "title": "jsonschema package unavailable due offline/TLS; basic offline validator used",
+      "status": "TOOLING_WARNING"
+    }
+  ]
+}

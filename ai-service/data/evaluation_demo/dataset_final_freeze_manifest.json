@@ -1,0 +1,22 @@
+{
+  "datasetVersion": "evaluation-dataset-demo-v2.2-final",
+  "parentRevision": "v2.1",
+  "calibrationHash": "DB3B4B9692EBB08B1A4A0CC45715084369AEE4BD571BCBAED6FDBF297F6A48A3",
+  "boundaryHash": "5472C19987A23F57BF121321D47958C1D5ED0344615E12C9714CD26A4A021730",
+  "semanticResultsHash": "AC3777925FE41B1894BB1828097CCF707D23938F0FD09F3B1BD0E26B581712C2",
+  "boundaryResultsHash": "CD53C43E92C5BF93E0E6EB792ECE9324E3437A809900901B19A5E7A5A2C4DBDE",
+  "frozenGoldSha": "9B9D596D88E28EE93327CC95E6F4B18DB0B2A939B70BE8F5CBF10C1E226CAB54",
+  "semanticJudgeType": "CODEX_SINGLE_JUDGE",
+  "humanGold": false,
+  "multiModelValidated": false,
+  "independentJudge": false,
+  "calibrationStatus": "SEMANTICALLY_REVIEWED_CANDIDATE",
+  "demoReady": true,
+  "freezeStatus": "SEMANTICALLY_ACCEPTED_FOR_DEMO",
+  "datasetSemanticGate": "PASS_WITH_SINGLE_JUDGE_LIMITATION",
+  "stepGate": "PASS_WITH_SINGLE_JUDGE_LIMITATION",
+  "limitations": [
+    "SINGLE_JUDGE_LIMITATION",
+    "Candidate data is not human gold and does not establish probability calibration."
+  ]
+}

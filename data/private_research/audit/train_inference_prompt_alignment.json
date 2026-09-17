@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-07-15T08:20:23.330033+00:00",
+  "status": "TRAIN_INFERENCE_PROMPT_MISMATCH_CONFIRMED",
+  "training_format": {
+    "system": "row['system']",
+    "user": "row['user'] JSON string",
+    "assistant_prefix": "manual newline concat",
+    "chat_template": "not used",
+    "generation_delimiter": "none"
+  },
+  "inference_format": {
+    "system": "runtime hard-coded English schema prompt",
+    "user": "_build_prompt output",
+    "add_generation_prompt": true,
+    "assistant_prefix": "tokenizer chat template",
+    "schema_fields": "legacy ReviewRiskAnalysis fields"
+  },
+  "mismatches": [
+    "training uses manual concat but runtime uses tokenizer.apply_chat_template",
+    "training target fields use text_evidence/retrieved_case_evidence/route_reason/unsupported_claims",
+    "runtime prompt asks for sentiment/evidence/reason/suggestion/confidence",
+    "v1.6.4 validation prompt appends JSON: delimiter, not the runtime prompt"
+  ]
+}

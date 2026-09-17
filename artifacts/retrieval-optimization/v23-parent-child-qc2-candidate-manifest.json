@@ -1,0 +1,18 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-qc2-candidate-manifest-v1",
+  "candidateCommit": "291c7ef9ce4a0668e140942e79adcc41e68c8655",
+  "challengeConsumed": false,
+  "childIndexCanonicalFingerprint": "3208c5b4821192375ab6e1daaee7aeac928d6a3986699b9b3f621f84f0561f33",
+  "configurationHash": "850e532f7c61b45dbb426c3efa3c6d6949584638f3d07c4bfd654d03c6195b81",
+  "datasetHash": "d638d44c69e1e678c2f990fd193af23d2ac18962b6e2be5eaf1ffd19e4575e47",
+  "detachedVerifyPass": true,
+  "environmentFingerprint": "agent-rag-v22-real-models-qualified-environment-required",
+  "evaluationConsumed": false,
+  "fullRegressionPass": true,
+  "knowledgeSnapshotHash": "70d9285947d8a84254206a70d9d31c6789b5ff902a8340cb18abdab20eaa30b4",
+  "modelRevision": "BAAI/bge-m3:external-existing-local-asset",
+  "parentIndexCanonicalFingerprint": "4ea05065a8342f2ff96614bf5695fb9d7c3824f86241617969eca3ef56643546",
+  "rankingHashParityPass": true,
+  "regressionDeltaPass": true,
+  "tokenizerFingerprint": "tokenizer-parity-pass"
+}

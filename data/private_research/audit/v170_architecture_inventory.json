@@ -1,0 +1,224 @@
+{
+  "status": "V170_ARCHITECTURE_INVENTORY_PASS",
+  "generated_at": "2026-07-17T00:00:00+08:00",
+  "branch": "experiment/v1.7.0-enterprise-rag-agent-platform",
+  "head": "213149e5",
+  "modules": [
+    {
+      "module_name": "FastAPI application entry",
+      "file_path": "ai-service/app/main.py",
+      "file_path_hash": "e39b2ffba63d7a40",
+      "responsibility": "Registers review, LLM, RAG v2, VLM, system, and agent framework routers.",
+      "current_status": "present",
+      "enterprise_gap": "Version and description are still demo-oriented; enterprise e-review API namespace is not yet exposed.",
+      "duplicate_implementation": false,
+      "recommended_action": "Extend without breaking existing routers.",
+      "migration_risk": "low"
+    },
+    {
+      "module_name": "Review API",
+      "file_path": "ai-service/app/api/review.py",
+      "file_path_hash": "e3af305b62248792",
+      "responsibility": "Provides current /review/analyze behavior backed by mock/rule/LLM service.",
+      "current_status": "present",
+      "enterprise_gap": "No idempotency, tenant enforcement, evidence references, or enterprise trace response.",
+      "duplicate_implementation": false,
+      "recommended_action": "Keep compatibility and add enterprise API beside it.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "RAG v2 API",
+      "file_path": "ai-service/app/api/rag_v2.py",
+      "file_path_hash": "48efcc4b9317bc7f",
+      "responsibility": "Builds, searches, evaluates, and reports the existing hybrid RAG v2 path.",
+      "current_status": "present",
+      "enterprise_gap": "Index governance, tenant isolation, document versioning, and evidence verification are incomplete.",
+      "duplicate_implementation": false,
+      "recommended_action": "Reuse concepts and add governed RAG modules under app/rag.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "LLM API",
+      "file_path": "ai-service/app/api/llm.py",
+      "file_path_hash": "53a40413e6fa5c7a",
+      "responsibility": "Exposes local Qwen smoke, schema validation, and LLM-backed review analysis.",
+      "current_status": "present",
+      "enterprise_gap": "Provider selection is not centralized through a governed runtime factory.",
+      "duplicate_implementation": false,
+      "recommended_action": "Introduce provider factory while preserving current endpoints.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "Agent framework graph",
+      "file_path": "ai-service/app/agent_framework/graph.py",
+      "file_path_hash": "4427e78b43fd0d69",
+      "responsibility": "Runs the existing graph-style agent workflow.",
+      "current_status": "present",
+      "enterprise_gap": "Needs bounded governed state machine, tool registry, and human review routing.",
+      "duplicate_implementation": false,
+      "recommended_action": "Add governed agent beside current graph; do not replace current behavior.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "RAG v2 service",
+      "file_path": "ai-service/app/rag_v2/service.py",
+      "file_path_hash": "2a5213f484790f0b",
+      "responsibility": "Composes corpus loading, TF-IDF, dense encoder, FAISS store, hybrid retrieval, and reranker.",
+      "current_status": "present",
+      "enterprise_gap": "Runtime construction eagerly loads all components and lacks ingestion governance.",
+      "duplicate_implementation": false,
+      "recommended_action": "Reuse algorithms where possible and add governed document/index lifecycle.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "Sparse retrieval",
+      "file_path": "ai-service/app/rag_v2/tfidf_retriever.py",
+      "file_path_hash": "22c3657858eec189",
+      "responsibility": "Provides existing lexical retrieval.",
+      "current_status": "present",
+      "enterprise_gap": "BM25-style explainable sparse retrieval with tenant/version/trust filters is missing.",
+      "duplicate_implementation": false,
+      "recommended_action": "Add governed BM25 retriever without removing TF-IDF.",
+      "migration_risk": "low"
+    },
+    {
+      "module_name": "Dense retrieval and FAISS",
+      "file_path": "ai-service/app/rag_v2/faiss_store.py",
+      "file_path_hash": "2acd12740187c084",
+      "responsibility": "Stores and searches dense vectors.",
+      "current_status": "present",
+      "enterprise_gap": "Metadata/index atomicity, active version filtering, and cache governance need hardening.",
+      "duplicate_implementation": false,
+      "recommended_action": "Add governed dense retriever facade.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "Embedding",
+      "file_path": "ai-service/app/rag_v2/dense_encoder.py",
+      "file_path_hash": "4cb9bba3ba28bffe",
+      "responsibility": "Encodes documents and queries for dense retrieval.",
+      "current_status": "present",
+      "enterprise_gap": "Embedding cache and version tracking are not centralized.",
+      "duplicate_implementation": false,
+      "recommended_action": "Wrap with cache and version metadata.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "Reranker",
+      "file_path": "ai-service/app/rag_v2/reranker.py",
+      "file_path_hash": "6b1ba308626dcdc9",
+      "responsibility": "Provides neural reranker when available and rule fallback.",
+      "current_status": "present",
+      "enterprise_gap": "Fallback state should be explicit and non-blocking.",
+      "duplicate_implementation": false,
+      "recommended_action": "Expose LocalRerankerProvider with deterministic fallback status.",
+      "migration_risk": "low"
+    },
+    {
+      "module_name": "Qwen text runtime",
+      "file_path": "ai-service/app/llm/qwen_text_runtime.py",
+      "file_path_hash": "b536fb4abf2c7c05",
+      "responsibility": "Loads local Qwen text model, runs CUDA generation, parses schema, and manages GPU gate.",
+      "current_status": "present",
+      "enterprise_gap": "Adapter provider, shadow execution, and rollback policy are not unified.",
+      "duplicate_implementation": false,
+      "recommended_action": "Add enterprise provider layer using common contract/prompt/parser/fallback.",
+      "migration_risk": "high"
+    },
+    {
+      "module_name": "OpenAI-compatible provider",
+      "file_path": "ai-service/app/llm/providers.py",
+      "file_path_hash": "3aaae568a89ea371",
+      "responsibility": "Calls an OpenAI-compatible chat completion endpoint.",
+      "current_status": "present",
+      "enterprise_gap": "Secrets, timeouts, audit, and provider rollback are not governed centrally.",
+      "duplicate_implementation": false,
+      "recommended_action": "Route through provider factory and safe audit layer.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "GPU gate",
+      "file_path": "ai-service/app/runtime/gpu_gate.py",
+      "file_path_hash": "49778e1c28c6f30c",
+      "responsibility": "Controls WDDM-aware GPU lock and idle checks.",
+      "current_status": "present",
+      "enterprise_gap": "Provider rollback needs to consume GPU lock loss and contention signals.",
+      "duplicate_implementation": false,
+      "recommended_action": "Reuse as shared GPU gate for base/adapter/shadow providers.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "Dataset access guard",
+      "file_path": "ai-service/app/evaluation/dataset_access_guard.py",
+      "file_path_hash": "8a6898a6a79a7f8c",
+      "responsibility": "Blocks holdout rows in validation-only contexts.",
+      "current_status": "present",
+      "enterprise_gap": "v1.7.0 scripts must consistently use it for closed holdouts and external tests.",
+      "duplicate_implementation": false,
+      "recommended_action": "Reuse guard in new evaluation dataset builders.",
+      "migration_risk": "low"
+    },
+    {
+      "module_name": "Redis",
+      "file_path": "none",
+      "file_path_hash": "none",
+      "responsibility": "Optional external cache and idempotency backend.",
+      "current_status": "optional_or_absent",
+      "enterprise_gap": "Need SQLite/in-memory fallback for local demos.",
+      "duplicate_implementation": false,
+      "recommended_action": "Implement backend protocol and non-blocking fallback.",
+      "migration_risk": "low"
+    },
+    {
+      "module_name": "SQLite",
+      "file_path": "none",
+      "file_path_hash": "none",
+      "responsibility": "Local persistence fallback for idempotency and audit summaries.",
+      "current_status": "absent",
+      "enterprise_gap": "No shared store protocol yet.",
+      "duplicate_implementation": false,
+      "recommended_action": "Add small local SQLite-backed idempotency store.",
+      "migration_risk": "low"
+    },
+    {
+      "module_name": "Logging and metrics",
+      "file_path": "ai-service/app/metrics/human_review.py",
+      "file_path_hash": "existing_metrics",
+      "responsibility": "Tracks selected human review metrics.",
+      "current_status": "partial",
+      "enterprise_gap": "Need safe structured logs, spans, counters, histograms, and JSON metrics endpoint.",
+      "duplicate_implementation": false,
+      "recommended_action": "Add observability package with privacy-safe fields only.",
+      "migration_risk": "medium"
+    },
+    {
+      "module_name": "Security scripts",
+      "file_path": "scripts/e-review-security-hygiene-check.ps1",
+      "file_path_hash": "581042c6a22299af",
+      "responsibility": "Checks local security hygiene before delivery.",
+      "current_status": "present",
+      "enterprise_gap": "Prompt injection and PII runtime guards need code-level enforcement.",
+      "duplicate_implementation": false,
+      "recommended_action": "Add runtime guards and preserve script gate.",
+      "migration_risk": "low"
+    },
+    {
+      "module_name": "Docker and local start scripts",
+      "file_path": "scripts/e-review-start-all.ps1",
+      "file_path_hash": "747689494c8c0296",
+      "responsibility": "Starts the local demo stack.",
+      "current_status": "present",
+      "enterprise_gap": "AI service Docker profile and environment templates need enterprise boundary docs.",
+      "duplicate_implementation": false,
+      "recommended_action": "Document and harden deployment without publishing images.",
+      "migration_risk": "low"
+    }
+  ],
+  "summary": {
+    "present_modules": 17,
+    "partial_modules": 1,
+    "optional_or_absent_modules": 2,
+    "duplicate_implementations_found": 0,
+    "highest_migration_risk": "high"
+  }
+}

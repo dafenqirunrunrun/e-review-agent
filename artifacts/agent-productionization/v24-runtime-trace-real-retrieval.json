@@ -1,0 +1,10 @@
+{
+  "bgeM3DenseSpanCoverageRate": 0.0,
+  "faissSpanCoverageRate": 0.0,
+  "parentAwareEnabled": false,
+  "realDenseAvailable": false,
+  "realDenseRequired": true,
+  "realRerankerEnabled": false,
+  "sparseEnabled": false,
+  "status": "REAL_RETRIEVAL_TRACE_BLOCKED_ASSET_UNAVAILABLE"
+}

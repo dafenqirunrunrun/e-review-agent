@@ -1,0 +1,9 @@
+{
+  "businessOutcomeMatches": 30,
+  "fallbackDecisionMatches": 30,
+  "nodeSequenceMatches": 30,
+  "parityGate": "E_REVIEW_V24_AGENT_TRACE_BEHAVIOR_PARITY_PASS",
+  "syntheticCases": 30,
+  "traceOffCases": 30,
+  "traceOnCases": 30
+}

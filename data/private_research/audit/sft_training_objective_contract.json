@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-15T08:20:23.330033+00:00",
+  "status": "SFT_TRAINING_OBJECTIVE_CONTRACT_BUG_CONFIRMED",
+  "labels_constructed_as": "labels=inputs['input_ids']",
+  "padding_masked": "no explicit padding masking observed",
+  "user_tokens_masked": false,
+  "assistant_tokens_retained": true,
+  "gradient_accumulation_correct": "idx % gradient_accumulation_steps or last batch",
+  "optimizer_updates_adapter_only": true,
+  "adapter_parameters_changed": true,
+  "validation_loss_token_scope": "full concatenated system+user+assistant sequence",
+  "best_checkpoint_selection": "validation_loss from full sequence",
+  "completion_only_loss_effective": false,
+  "chat_template_train_inference_consistent": false
+}

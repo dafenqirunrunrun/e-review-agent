@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-07-15T08:58:01.361161+00:00",
+  "status": "V166_BASE_PROMPT_CONTRACT_CANARY_BLOCKED",
+  "gates": {
+    "CANONICAL_SCHEMA_SINGLE_SOURCE_PASS": true,
+    "PROMPT_CONTRACT_ALIGNMENT_PASS": true,
+    "COMPLETION_ONLY_LABEL_MASK_PASS": true,
+    "PRIVATE_SYNTHETIC_SFT_V2_DATASET_PASS": false
+  },
+  "blocked_reason": "v2 dataset gate did not pass; canary cannot run without validation split",
+  "holdout_read": false,
+  "old_adapter_used": false,
+  "real_inference_count": 0,
+  "raw_json_parse_success_rate": null,
+  "raw_canonical_schema_valid_rate": null,
+  "required_field_presence_rate": null,
+  "input_echo_rate": null,
+  "operational_fallback_rate": null,
+  "prohibited_auto_action_count": null,
+  "avg_generate_ms": null,
+  "p95_generate_ms": null
+}

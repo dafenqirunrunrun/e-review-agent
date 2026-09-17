@@ -1,0 +1,21 @@
+{
+  "marker": "REALWORLD_TAXONOMY_PILOT_AUDIT_COMPLETE",
+  "coverage_ready": true,
+  "pilot_sample_count": 300,
+  "directly_mapped_ratio": 1.0,
+  "unmapped_ratio": 0.0,
+  "multi_risk_ratio": null,
+  "insufficient_evidence_ratio": null,
+  "emotion_only_ratio": null,
+  "taxonomy_gap_categories": [],
+  "language_distribution": {
+    "zh": 150,
+    "en": 150
+  },
+  "image_text_conflict_ratio": null,
+  "irrelevant_image_ratio": null,
+  "low_quality_image_ratio": null,
+  "image_download_success_rate": 0.5,
+  "external_test": false,
+  "sft": false
+}

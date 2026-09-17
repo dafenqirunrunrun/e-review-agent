@@ -1,0 +1,16 @@
+{
+  "levels": {
+    "Real Dense": "L4",
+    "FAISS persistence": "L4",
+    "Sparse persistence": "L4",
+    "Tenant isolation": "L5",
+    "Benchmark provenance": "L4",
+    "HTTP": "L4",
+    "Java integration": "L3",
+    "Soak": "L5",
+    "Failure recovery": "L5",
+    "Docker": "L1"
+  },
+  "l4_count": 5,
+  "l5_count": 3
+}

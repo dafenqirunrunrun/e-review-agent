@@ -1,0 +1,22 @@
+Repository field scan summary
+Audited at: 2026-07-28T17:35:00+08:00
+
+Raw rg dumps were intentionally removed from the committed protocol package because they include vendored/minified frontend code and excessive unrelated matches.
+
+Useful retained evidence:
+- project_field_mapping.json
+- PROJECT_FIELD_MAPPING.md
+- historical_dataset_inventory.json
+- HISTORICAL_DATASET_INVENTORY.md
+- structured_data_file_listing.json
+- candidate_dataset_files.json
+
+Manually audited anchors:
+- ai-service/app/contracts/e_review_decision.py
+- ai-service/app/agent_rag/contracts.py
+- data/contracts/e_review_decision_v2.schema.json
+- litemall-db/sql/litemall_review_ai_analysis.sql
+- litemall-db/sql/litemall_ai_review_risk_task.sql
+- litemall-db/sql/litemall_agent_rag_workflow.sql
+- litemall-admin/src/utils/aiDisplayMap.js
+- litemall-admin/src/utils/agent-rag.js

@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "controlSetComplete": true,
+    "corpusQualityAuditComplete": true,
+    "defaultRegressionPass": true,
+    "fp16Fp32Complete": true,
+    "historical56ReconciliationComplete": true,
+    "inputFieldAuditComplete": true,
+    "primaryRootCauseAssigned": true,
+    "representationDiagnosticComplete": true,
+    "sensitiveScanPass": true
+  },
+  "decision": "E_REVIEW_V23_PHASE_94B_DQA_PASS",
+  "phase94cAllowed": false,
+  "schemaVersion": "agent-rag-v23-phase-94b-dqa-gate-v1",
+  "sparseIndexPass": false,
+  "sparseRetrievalPass": false,
+  "status": "PASS"
+}

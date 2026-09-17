@@ -1,5 +1,7 @@
 package org.linlinjava.litemall.admin;
 
+import org.junit.Assert;
+import org.junit.Assume;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.linlinjava.litemall.core.qcode.QCodeService;
@@ -10,7 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
-import static org.junit.Assume.assumeNotNull;
+import java.util.List;
 
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -23,8 +25,11 @@ public class CreateShareImageTest {
 
     @Test
     public void test() {
-        LitemallGoods good = litemallGoodsService.findById(1181010);
-        assumeNotNull(good);
-        qCodeService.createGoodShareImage(good.getId().toString(), good.getPicUrl(), good.getName());
+        List<LitemallGoods> goods = litemallGoodsService.querySelective(null, null, null, 1, 1, "id", "asc");
+        Assume.assumeFalse("Share image test skipped because the local database has no goods fixture.", goods.isEmpty());
+
+        LitemallGoods good = goods.get(0);
+        String result = qCodeService.createGoodShareImage(good.getId().toString(), good.getPicUrl(), good.getName());
+        Assert.assertNotNull(result);
     }
 }

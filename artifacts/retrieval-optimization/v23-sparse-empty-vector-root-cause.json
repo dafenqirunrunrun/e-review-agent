@@ -1,0 +1,22 @@
+{
+  "decision": "BGE_M3_SPARSE_SIGNAL_INADEQUATE_FOR_CURRENT_CORPUS",
+  "eligibleChunkCount": 153,
+  "emptySetReproductionStatus": "NOT_STABLE",
+  "emptyVectorChunkCount": 153,
+  "implementationDefect": false,
+  "inputDefect": false,
+  "modelId": "BAAI/bge-m3",
+  "modelRevision": "external-existing",
+  "modelSignalDefect": true,
+  "originalEmptyVectorChunkCount": 97,
+  "primaryCauseCounts": {
+    "MODEL_RAW_SPARSE_EMPTY": 153
+  },
+  "representationDefect": false,
+  "representationDiagnosticStatus": "REPRESENTATION_DIAGNOSTIC_NO_EFFECT",
+  "reproducedEmptyVectorChunkCount": 153,
+  "rootCauseConfidence": "HIGH",
+  "schemaVersion": "agent-rag-v23-sparse-empty-vector-root-cause-v1",
+  "singleVsBatchStatus": "PASS",
+  "wrapperVsOfficialStatus": "WRAPPER_PARITY_PASS"
+}

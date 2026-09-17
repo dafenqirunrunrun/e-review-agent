@@ -1,0 +1,5307 @@
+{
+  "index_version": "bge-m3-20260711T033027Z",
+  "model_name": "BAAI/bge-m3",
+  "dimension": 1024,
+  "case_count": 240,
+  "case_ids": [
+    "CASE-DAMAGED-01",
+    "CASE-DAMAGED-02",
+    "CASE-DAMAGED-03",
+    "CASE-DAMAGED-04",
+    "CASE-DAMAGED-05",
+    "CASE-DAMAGED-06",
+    "CASE-DAMAGED-07",
+    "CASE-DAMAGED-08",
+    "CASE-DAMAGED-09",
+    "CASE-DAMAGED-10",
+    "CASE-DAMAGED-11",
+    "CASE-DAMAGED-12",
+    "CASE-LEAKAGE-01",
+    "CASE-LEAKAGE-02",
+    "CASE-LEAKAGE-03",
+    "CASE-LEAKAGE-04",
+    "CASE-LEAKAGE-05",
+    "CASE-LEAKAGE-06",
+    "CASE-LEAKAGE-07",
+    "CASE-LEAKAGE-08",
+    "CASE-LEAKAGE-09",
+    "CASE-LEAKAGE-10",
+    "CASE-LEAKAGE-11",
+    "CASE-LEAKAGE-12",
+    "CASE-MISSING_PARTS-01",
+    "CASE-MISSING_PARTS-02",
+    "CASE-MISSING_PARTS-03",
+    "CASE-MISSING_PARTS-04",
+    "CASE-MISSING_PARTS-05",
+    "CASE-MISSING_PARTS-06",
+    "CASE-MISSING_PARTS-07",
+    "CASE-MISSING_PARTS-08",
+    "CASE-MISSING_PARTS-09",
+    "CASE-MISSING_PARTS-10",
+    "CASE-MISSING_PARTS-11",
+    "CASE-MISSING_PARTS-12",
+    "CASE-WRONG_ITEM-01",
+    "CASE-WRONG_ITEM-02",
+    "CASE-WRONG_ITEM-03",
+    "CASE-WRONG_ITEM-04",
+    "CASE-WRONG_ITEM-05",
+    "CASE-WRONG_ITEM-06",
+    "CASE-WRONG_ITEM-07",
+    "CASE-WRONG_ITEM-08",
+    "CASE-WRONG_ITEM-09",
+    "CASE-WRONG_ITEM-10",
+    "CASE-WRONG_ITEM-11",
+    "CASE-WRONG_ITEM-12",
+    "CASE-DELIVERY_DELAY-01",
+    "CASE-DELIVERY_DELAY-02",
+    "CASE-DELIVERY_DELAY-03",
+    "CASE-DELIVERY_DELAY-04",
+    "CASE-DELIVERY_DELAY-05",
+    "CASE-DELIVERY_DELAY-06",
+    "CASE-DELIVERY_DELAY-07",
+    "CASE-DELIVERY_DELAY-08",
+    "CASE-DELIVERY_DELAY-09",
+    "CASE-DELIVERY_DELAY-10",
+    "CASE-DELIVERY_DELAY-11",
+    "CASE-DELIVERY_DELAY-12",
+    "CASE-FAKE_SHIPPING-01",
+    "CASE-FAKE_SHIPPING-02",
+    "CASE-FAKE_SHIPPING-03",
+    "CASE-FAKE_SHIPPING-04",
+    "CASE-FAKE_SHIPPING-05",
+    "CASE-FAKE_SHIPPING-06",
+    "CASE-FAKE_SHIPPING-07",
+    "CASE-FAKE_SHIPPING-08",
+    "CASE-FAKE_SHIPPING-09",
+    "CASE-FAKE_SHIPPING-10",
+    "CASE-FAKE_SHIPPING-11",
+    "CASE-FAKE_SHIPPING-12",
+    "CASE-REFUND_DISPUTE-01",
+    "CASE-REFUND_DISPUTE-02",
+    "CASE-REFUND_DISPUTE-03",
+    "CASE-REFUND_DISPUTE-04",
+    "CASE-REFUND_DISPUTE-05",
+    "CASE-REFUND_DISPUTE-06",
+    "CASE-REFUND_DISPUTE-07",
+    "CASE-REFUND_DISPUTE-08",
+    "CASE-REFUND_DISPUTE-09",
+    "CASE-REFUND_DISPUTE-10",
+    "CASE-REFUND_DISPUTE-11",
+    "CASE-REFUND_DISPUTE-12",
+    "CASE-RETURN_DISPUTE-01",
+    "CASE-RETURN_DISPUTE-02",
+    "CASE-RETURN_DISPUTE-03",
+    "CASE-RETURN_DISPUTE-04",
+    "CASE-RETURN_DISPUTE-05",
+    "CASE-RETURN_DISPUTE-06",
+    "CASE-RETURN_DISPUTE-07",
+    "CASE-RETURN_DISPUTE-08",
+    "CASE-RETURN_DISPUTE-09",
+    "CASE-RETURN_DISPUTE-10",
+    "CASE-RETURN_DISPUTE-11",
+    "CASE-RETURN_DISPUTE-12",
+    "CASE-SERVICE_NO_RESPONSE-01",
+    "CASE-SERVICE_NO_RESPONSE-02",
+    "CASE-SERVICE_NO_RESPONSE-03",
+    "CASE-SERVICE_NO_RESPONSE-04",
+    "CASE-SERVICE_NO_RESPONSE-05",
+    "CASE-SERVICE_NO_RESPONSE-06",
+    "CASE-SERVICE_NO_RESPONSE-07",
+    "CASE-SERVICE_NO_RESPONSE-08",
+    "CASE-SERVICE_NO_RESPONSE-09",
+    "CASE-SERVICE_NO_RESPONSE-10",
+    "CASE-SERVICE_NO_RESPONSE-11",
+    "CASE-SERVICE_NO_RESPONSE-12",
+    "CASE-COUNTERFEIT-01",
+    "CASE-COUNTERFEIT-02",
+    "CASE-COUNTERFEIT-03",
+    "CASE-COUNTERFEIT-04",
+    "CASE-COUNTERFEIT-05",
+    "CASE-COUNTERFEIT-06",
+    "CASE-COUNTERFEIT-07",
+    "CASE-COUNTERFEIT-08",
+    "CASE-COUNTERFEIT-09",
+    "CASE-COUNTERFEIT-10",
+    "CASE-COUNTERFEIT-11",
+    "CASE-COUNTERFEIT-12",
+    "CASE-QUALITY_DEFECT-01",
+    "CASE-QUALITY_DEFECT-02",
+    "CASE-QUALITY_DEFECT-03",
+    "CASE-QUALITY_DEFECT-04",
+    "CASE-QUALITY_DEFECT-05",
+    "CASE-QUALITY_DEFECT-06",
+    "CASE-QUALITY_DEFECT-07",
+    "CASE-QUALITY_DEFECT-08",
+    "CASE-QUALITY_DEFECT-09",
+    "CASE-QUALITY_DEFECT-10",
+    "CASE-QUALITY_DEFECT-11",
+    "CASE-QUALITY_DEFECT-12",
+    "CASE-FOOD_SAFETY-01",
+    "CASE-FOOD_SAFETY-02",
+    "CASE-FOOD_SAFETY-03",
+    "CASE-FOOD_SAFETY-04",
+    "CASE-FOOD_SAFETY-05",
+    "CASE-FOOD_SAFETY-06",
+    "CASE-FOOD_SAFETY-07",
+    "CASE-FOOD_SAFETY-08",
+    "CASE-FOOD_SAFETY-09",
+    "CASE-FOOD_SAFETY-10",
+    "CASE-FOOD_SAFETY-11",
+    "CASE-FOOD_SAFETY-12",
+    "CASE-BATTERY_SAFETY-01",
+    "CASE-BATTERY_SAFETY-02",
+    "CASE-BATTERY_SAFETY-03",
+    "CASE-BATTERY_SAFETY-04",
+    "CASE-BATTERY_SAFETY-05",
+    "CASE-BATTERY_SAFETY-06",
+    "CASE-BATTERY_SAFETY-07",
+    "CASE-BATTERY_SAFETY-08",
+    "CASE-BATTERY_SAFETY-09",
+    "CASE-BATTERY_SAFETY-10",
+    "CASE-BATTERY_SAFETY-11",
+    "CASE-BATTERY_SAFETY-12",
+    "CASE-MODALITY_CONFLICT-01",
+    "CASE-MODALITY_CONFLICT-02",
+    "CASE-MODALITY_CONFLICT-03",
+    "CASE-MODALITY_CONFLICT-04",
+    "CASE-MODALITY_CONFLICT-05",
+    "CASE-MODALITY_CONFLICT-06",
+    "CASE-MODALITY_CONFLICT-07",
+    "CASE-MODALITY_CONFLICT-08",
+    "CASE-MODALITY_CONFLICT-09",
+    "CASE-MODALITY_CONFLICT-10",
+    "CASE-MODALITY_CONFLICT-11",
+    "CASE-MODALITY_CONFLICT-12",
+    "CASE-RATING_CONFLICT-01",
+    "CASE-RATING_CONFLICT-02",
+    "CASE-RATING_CONFLICT-03",
+    "CASE-RATING_CONFLICT-04",
+    "CASE-RATING_CONFLICT-05",
+    "CASE-RATING_CONFLICT-06",
+    "CASE-RATING_CONFLICT-07",
+    "CASE-RATING_CONFLICT-08",
+    "CASE-RATING_CONFLICT-09",
+    "CASE-RATING_CONFLICT-10",
+    "CASE-RATING_CONFLICT-11",
+    "CASE-RATING_CONFLICT-12",
+    "CASE-SUBJECTIVE_NEGATIVE-01",
+    "CASE-SUBJECTIVE_NEGATIVE-02",
+    "CASE-SUBJECTIVE_NEGATIVE-03",
+    "CASE-SUBJECTIVE_NEGATIVE-04",
+    "CASE-SUBJECTIVE_NEGATIVE-05",
+    "CASE-SUBJECTIVE_NEGATIVE-06",
+    "CASE-SUBJECTIVE_NEGATIVE-07",
+    "CASE-SUBJECTIVE_NEGATIVE-08",
+    "CASE-SUBJECTIVE_NEGATIVE-09",
+    "CASE-SUBJECTIVE_NEGATIVE-10",
+    "CASE-SUBJECTIVE_NEGATIVE-11",
+    "CASE-SUBJECTIVE_NEGATIVE-12",
+    "CASE-MALICIOUS_REVIEW-01",
+    "CASE-MALICIOUS_REVIEW-02",
+    "CASE-MALICIOUS_REVIEW-03",
+    "CASE-MALICIOUS_REVIEW-04",
+    "CASE-MALICIOUS_REVIEW-05",
+    "CASE-MALICIOUS_REVIEW-06",
+    "CASE-MALICIOUS_REVIEW-07",
+    "CASE-MALICIOUS_REVIEW-08",
+    "CASE-MALICIOUS_REVIEW-09",
+    "CASE-MALICIOUS_REVIEW-10",
+    "CASE-MALICIOUS_REVIEW-11",
+    "CASE-MALICIOUS_REVIEW-12",
+    "CASE-NEUTRAL-01",
+    "CASE-NEUTRAL-02",
+    "CASE-NEUTRAL-03",
+    "CASE-NEUTRAL-04",
+    "CASE-NEUTRAL-05",
+    "CASE-NEUTRAL-06",
+    "CASE-NEUTRAL-07",
+    "CASE-NEUTRAL-08",
+    "CASE-NEUTRAL-09",
+    "CASE-NEUTRAL-10",
+    "CASE-NEUTRAL-11",
+    "CASE-NEUTRAL-12",
+    "CASE-POSITIVE-01",
+    "CASE-POSITIVE-02",
+    "CASE-POSITIVE-03",
+    "CASE-POSITIVE-04",
+    "CASE-POSITIVE-05",
+    "CASE-POSITIVE-06",
+    "CASE-POSITIVE-07",
+    "CASE-POSITIVE-08",
+    "CASE-POSITIVE-09",
+    "CASE-POSITIVE-10",
+    "CASE-POSITIVE-11",
+    "CASE-POSITIVE-12",
+    "CASE-INSUFFICIENT_EVIDENCE-01",
+    "CASE-INSUFFICIENT_EVIDENCE-02",
+    "CASE-INSUFFICIENT_EVIDENCE-03",
+    "CASE-INSUFFICIENT_EVIDENCE-04",
+    "CASE-INSUFFICIENT_EVIDENCE-05",
+    "CASE-INSUFFICIENT_EVIDENCE-06",
+    "CASE-INSUFFICIENT_EVIDENCE-07",
+    "CASE-INSUFFICIENT_EVIDENCE-08",
+    "CASE-INSUFFICIENT_EVIDENCE-09",
+    "CASE-INSUFFICIENT_EVIDENCE-10",
+    "CASE-INSUFFICIENT_EVIDENCE-11",
+    "CASE-INSUFFICIENT_EVIDENCE-12"
+  ],
+  "cases": [
+    {
+      "case_id": "CASE-DAMAGED-01",
+      "title": "商品破损处置案例 01",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“破损”，场景归类为商品破损，第1种处理条件。",
+      "evidence": [
+        "破损",
+        "破损"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-02",
+      "title": "商品破损处置案例 02",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“裂开”，场景归类为商品破损，第2种处理条件。",
+      "evidence": [
+        "裂开",
+        "签收"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-03",
+      "title": "商品破损处置案例 03",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“外壳碎了并伴随漏液，客服也未响应”，场景归类为商品破损，第3种处理条件。",
+      "evidence": [
+        "外壳碎了并伴随漏液，客服也未响应",
+        "售后"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-04",
+      "title": "商品破损处置案例 04",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“破损”，场景归类为商品破损，第4种处理条件。",
+      "evidence": [
+        "破损",
+        "多风险并存"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-05",
+      "title": "商品破损处置案例 05",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“裂开”，场景归类为商品破损，第5种处理条件。",
+      "evidence": [
+        "裂开",
+        "破损"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-06",
+      "title": "商品破损处置案例 06",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“外壳碎了并伴随漏液，客服也未响应”，场景归类为商品破损，第6种处理条件。",
+      "evidence": [
+        "外壳碎了并伴随漏液，客服也未响应",
+        "签收"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-07",
+      "title": "商品破损处置案例 07",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“破损”，场景归类为商品破损，第7种处理条件。",
+      "evidence": [
+        "破损",
+        "售后"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-08",
+      "title": "商品破损处置案例 08",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“裂开”，场景归类为商品破损，第8种处理条件。",
+      "evidence": [
+        "裂开",
+        "多风险并存"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-09",
+      "title": "商品破损处置案例 09",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“外壳碎了并伴随漏液，客服也未响应”，场景归类为商品破损，第9种处理条件。",
+      "evidence": [
+        "外壳碎了并伴随漏液，客服也未响应",
+        "破损"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-10",
+      "title": "商品破损处置案例 10",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“破损”，场景归类为商品破损，第10种处理条件。",
+      "evidence": [
+        "破损",
+        "签收"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-11",
+      "title": "商品破损处置案例 11",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“裂开”，场景归类为商品破损，第11种处理条件。",
+      "evidence": [
+        "裂开",
+        "售后"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DAMAGED-12",
+      "title": "商品破损处置案例 12",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“外壳碎了并伴随漏液，客服也未响应”，场景归类为商品破损，第12种处理条件。",
+      "evidence": [
+        "外壳碎了并伴随漏液，客服也未响应",
+        "多风险并存"
+      ],
+      "operation_suggestion": "核验签收与包装照片，转售后人工处理",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "破损",
+        "签收",
+        "售后",
+        "多风险并存",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-01",
+      "title": "漏液处置案例 01",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“漏液”，场景归类为漏液，第1种处理条件。",
+      "evidence": [
+        "漏液",
+        "漏液"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-02",
+      "title": "漏液处置案例 02",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“瓶口渗出”，场景归类为漏液，第2种处理条件。",
+      "evidence": [
+        "瓶口渗出",
+        "包装"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-03",
+      "title": "漏液处置案例 03",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“包装湿了”，场景归类为漏液，第3种处理条件。",
+      "evidence": [
+        "包装湿了",
+        "批次"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-04",
+      "title": "漏液处置案例 04",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“漏液”，场景归类为漏液，第4种处理条件。",
+      "evidence": [
+        "漏液",
+        "漏液"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-05",
+      "title": "漏液处置案例 05",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“瓶口渗出”，场景归类为漏液，第5种处理条件。",
+      "evidence": [
+        "瓶口渗出",
+        "包装"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-06",
+      "title": "漏液处置案例 06",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“包装湿了”，场景归类为漏液，第6种处理条件。",
+      "evidence": [
+        "包装湿了",
+        "批次"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-07",
+      "title": "漏液处置案例 07",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“漏液”，场景归类为漏液，第7种处理条件。",
+      "evidence": [
+        "漏液",
+        "漏液"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-08",
+      "title": "漏液处置案例 08",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“瓶口渗出”，场景归类为漏液，第8种处理条件。",
+      "evidence": [
+        "瓶口渗出",
+        "包装"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-09",
+      "title": "漏液处置案例 09",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“包装湿了”，场景归类为漏液，第9种处理条件。",
+      "evidence": [
+        "包装湿了",
+        "批次"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-10",
+      "title": "漏液处置案例 10",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“漏液”，场景归类为漏液，第10种处理条件。",
+      "evidence": [
+        "漏液",
+        "漏液"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-11",
+      "title": "漏液处置案例 11",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“瓶口渗出”，场景归类为漏液，第11种处理条件。",
+      "evidence": [
+        "瓶口渗出",
+        "包装"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-LEAKAGE-12",
+      "title": "漏液处置案例 12",
+      "product_category": "个护",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“包装湿了”，场景归类为漏液，第12种处理条件。",
+      "evidence": [
+        "包装湿了",
+        "批次"
+      ],
+      "operation_suggestion": "核验批次与图片，隔离同批次并人工售后",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "漏液",
+        "包装",
+        "批次",
+        "个护"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-01",
+      "title": "缺件处置案例 01",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“少了配件”，场景归类为缺件，第1种处理条件。",
+      "evidence": [
+        "少了配件",
+        "缺件"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-02",
+      "title": "缺件处置案例 02",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“缺少螺丝”，场景归类为缺件，第2种处理条件。",
+      "evidence": [
+        "缺少螺丝",
+        "配件"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-03",
+      "title": "缺件处置案例 03",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“清单不全”，场景归类为缺件，第3种处理条件。",
+      "evidence": [
+        "清单不全",
+        "补发"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-04",
+      "title": "缺件处置案例 04",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“少了配件”，场景归类为缺件，第4种处理条件。",
+      "evidence": [
+        "少了配件",
+        "缺件"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-05",
+      "title": "缺件处置案例 05",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“缺少螺丝”，场景归类为缺件，第5种处理条件。",
+      "evidence": [
+        "缺少螺丝",
+        "配件"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-06",
+      "title": "缺件处置案例 06",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“清单不全”，场景归类为缺件，第6种处理条件。",
+      "evidence": [
+        "清单不全",
+        "补发"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-07",
+      "title": "缺件处置案例 07",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“少了配件”，场景归类为缺件，第7种处理条件。",
+      "evidence": [
+        "少了配件",
+        "缺件"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-08",
+      "title": "缺件处置案例 08",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“缺少螺丝”，场景归类为缺件，第8种处理条件。",
+      "evidence": [
+        "缺少螺丝",
+        "配件"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-09",
+      "title": "缺件处置案例 09",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“清单不全”，场景归类为缺件，第9种处理条件。",
+      "evidence": [
+        "清单不全",
+        "补发"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-10",
+      "title": "缺件处置案例 10",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“少了配件”，场景归类为缺件，第10种处理条件。",
+      "evidence": [
+        "少了配件",
+        "缺件"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-11",
+      "title": "缺件处置案例 11",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“缺少螺丝”，场景归类为缺件，第11种处理条件。",
+      "evidence": [
+        "缺少螺丝",
+        "配件"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MISSING_PARTS-12",
+      "title": "缺件处置案例 12",
+      "product_category": "家居",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“清单不全”，场景归类为缺件，第12种处理条件。",
+      "evidence": [
+        "清单不全",
+        "补发"
+      ],
+      "operation_suggestion": "比对装箱清单并安排补件",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "缺件",
+        "配件",
+        "补发",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-01",
+      "title": "错发处置案例 01",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“发错型号”，场景归类为错发，第1种处理条件。",
+      "evidence": [
+        "发错型号",
+        "错发"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-02",
+      "title": "错发处置案例 02",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“颜色不对”，场景归类为错发，第2种处理条件。",
+      "evidence": [
+        "颜色不对",
+        "型号"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-03",
+      "title": "错发处置案例 03",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“收到别的商品”，场景归类为错发，第3种处理条件。",
+      "evidence": [
+        "收到别的商品",
+        "换货"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-04",
+      "title": "错发处置案例 04",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“发错型号”，场景归类为错发，第4种处理条件。",
+      "evidence": [
+        "发错型号",
+        "错发"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-05",
+      "title": "错发处置案例 05",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“颜色不对”，场景归类为错发，第5种处理条件。",
+      "evidence": [
+        "颜色不对",
+        "型号"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-06",
+      "title": "错发处置案例 06",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“收到别的商品”，场景归类为错发，第6种处理条件。",
+      "evidence": [
+        "收到别的商品",
+        "换货"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-07",
+      "title": "错发处置案例 07",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“发错型号”，场景归类为错发，第7种处理条件。",
+      "evidence": [
+        "发错型号",
+        "错发"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-08",
+      "title": "错发处置案例 08",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“颜色不对”，场景归类为错发，第8种处理条件。",
+      "evidence": [
+        "颜色不对",
+        "型号"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-09",
+      "title": "错发处置案例 09",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“收到别的商品”，场景归类为错发，第9种处理条件。",
+      "evidence": [
+        "收到别的商品",
+        "换货"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-10",
+      "title": "错发处置案例 10",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“发错型号”，场景归类为错发，第10种处理条件。",
+      "evidence": [
+        "发错型号",
+        "错发"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-11",
+      "title": "错发处置案例 11",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“颜色不对”，场景归类为错发，第11种处理条件。",
+      "evidence": [
+        "颜色不对",
+        "型号"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-WRONG_ITEM-12",
+      "title": "错发处置案例 12",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“收到别的商品”，场景归类为错发，第12种处理条件。",
+      "evidence": [
+        "收到别的商品",
+        "换货"
+      ],
+      "operation_suggestion": "核对订单与拣货记录，人工处理换货",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "错发",
+        "型号",
+        "换货",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-01",
+      "title": "物流延迟处置案例 01",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“多天没到”，场景归类为物流延迟，第1种处理条件。",
+      "evidence": [
+        "多天没到",
+        "物流"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-02",
+      "title": "物流延迟处置案例 02",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“物流不更新”，场景归类为物流延迟，第2种处理条件。",
+      "evidence": [
+        "物流不更新",
+        "延迟"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-03",
+      "title": "物流延迟处置案例 03",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“超过承诺时间”，场景归类为物流延迟，第3种处理条件。",
+      "evidence": [
+        "超过承诺时间",
+        "时效"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-04",
+      "title": "物流延迟处置案例 04",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“多天没到”，场景归类为物流延迟，第4种处理条件。",
+      "evidence": [
+        "多天没到",
+        "物流"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-05",
+      "title": "物流延迟处置案例 05",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“物流不更新”，场景归类为物流延迟，第5种处理条件。",
+      "evidence": [
+        "物流不更新",
+        "延迟"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-06",
+      "title": "物流延迟处置案例 06",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“超过承诺时间”，场景归类为物流延迟，第6种处理条件。",
+      "evidence": [
+        "超过承诺时间",
+        "时效"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-07",
+      "title": "物流延迟处置案例 07",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“多天没到”，场景归类为物流延迟，第7种处理条件。",
+      "evidence": [
+        "多天没到",
+        "物流"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-08",
+      "title": "物流延迟处置案例 08",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“物流不更新”，场景归类为物流延迟，第8种处理条件。",
+      "evidence": [
+        "物流不更新",
+        "延迟"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-09",
+      "title": "物流延迟处置案例 09",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“超过承诺时间”，场景归类为物流延迟，第9种处理条件。",
+      "evidence": [
+        "超过承诺时间",
+        "时效"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-10",
+      "title": "物流延迟处置案例 10",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“多天没到”，场景归类为物流延迟，第10种处理条件。",
+      "evidence": [
+        "多天没到",
+        "物流"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-11",
+      "title": "物流延迟处置案例 11",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“物流不更新”，场景归类为物流延迟，第11种处理条件。",
+      "evidence": [
+        "物流不更新",
+        "延迟"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-DELIVERY_DELAY-12",
+      "title": "物流延迟处置案例 12",
+      "product_category": "日用",
+      "risk_type": "after_sales_risk",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“超过承诺时间”，场景归类为物流延迟，第12种处理条件。",
+      "evidence": [
+        "超过承诺时间",
+        "时效"
+      ],
+      "operation_suggestion": "查询物流轨迹并主动告知预计时效",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "物流",
+        "延迟",
+        "时效",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-01",
+      "title": "虚假发货处置案例 01",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“只有单号”，场景归类为虚假发货，第1种处理条件。",
+      "evidence": [
+        "只有单号",
+        "虚假发货"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-02",
+      "title": "虚假发货处置案例 02",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“一直未揽收”，场景归类为虚假发货，第2种处理条件。",
+      "evidence": [
+        "一直未揽收",
+        "揽收"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-03",
+      "title": "虚假发货处置案例 03",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“显示发货但没物流”，场景归类为虚假发货，第3种处理条件。",
+      "evidence": [
+        "显示发货但没物流",
+        "物流"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-04",
+      "title": "虚假发货处置案例 04",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“只有单号”，场景归类为虚假发货，第4种处理条件。",
+      "evidence": [
+        "只有单号",
+        "虚假发货"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-05",
+      "title": "虚假发货处置案例 05",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“一直未揽收”，场景归类为虚假发货，第5种处理条件。",
+      "evidence": [
+        "一直未揽收",
+        "揽收"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-06",
+      "title": "虚假发货处置案例 06",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“显示发货但没物流”，场景归类为虚假发货，第6种处理条件。",
+      "evidence": [
+        "显示发货但没物流",
+        "物流"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-07",
+      "title": "虚假发货处置案例 07",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“只有单号”，场景归类为虚假发货，第7种处理条件。",
+      "evidence": [
+        "只有单号",
+        "虚假发货"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-08",
+      "title": "虚假发货处置案例 08",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“一直未揽收”，场景归类为虚假发货，第8种处理条件。",
+      "evidence": [
+        "一直未揽收",
+        "揽收"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-09",
+      "title": "虚假发货处置案例 09",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“显示发货但没物流”，场景归类为虚假发货，第9种处理条件。",
+      "evidence": [
+        "显示发货但没物流",
+        "物流"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-10",
+      "title": "虚假发货处置案例 10",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“只有单号”，场景归类为虚假发货，第10种处理条件。",
+      "evidence": [
+        "只有单号",
+        "虚假发货"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-11",
+      "title": "虚假发货处置案例 11",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“一直未揽收”，场景归类为虚假发货，第11种处理条件。",
+      "evidence": [
+        "一直未揽收",
+        "揽收"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FAKE_SHIPPING-12",
+      "title": "虚假发货处置案例 12",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“显示发货但没物流”，场景归类为虚假发货，第12种处理条件。",
+      "evidence": [
+        "显示发货但没物流",
+        "物流"
+      ],
+      "operation_suggestion": "核验揽收记录并转平台人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "虚假发货",
+        "揽收",
+        "物流",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-01",
+      "title": "退款争议处置案例 01",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“拒绝退款”，场景归类为退款争议，第1种处理条件。",
+      "evidence": [
+        "拒绝退款",
+        "退款"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-02",
+      "title": "退款争议处置案例 02",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“退款没到账”，场景归类为退款争议，第2种处理条件。",
+      "evidence": [
+        "退款没到账",
+        "争议"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-03",
+      "title": "退款争议处置案例 03",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“申请被驳回”，场景归类为退款争议，第3种处理条件。",
+      "evidence": [
+        "申请被驳回",
+        "支付"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-04",
+      "title": "退款争议处置案例 04",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“拒绝退款”，场景归类为退款争议，第4种处理条件。",
+      "evidence": [
+        "拒绝退款",
+        "退款"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-05",
+      "title": "退款争议处置案例 05",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“退款没到账”，场景归类为退款争议，第5种处理条件。",
+      "evidence": [
+        "退款没到账",
+        "争议"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-06",
+      "title": "退款争议处置案例 06",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“申请被驳回”，场景归类为退款争议，第6种处理条件。",
+      "evidence": [
+        "申请被驳回",
+        "支付"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-07",
+      "title": "退款争议处置案例 07",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“拒绝退款”，场景归类为退款争议，第7种处理条件。",
+      "evidence": [
+        "拒绝退款",
+        "退款"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-08",
+      "title": "退款争议处置案例 08",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“退款没到账”，场景归类为退款争议，第8种处理条件。",
+      "evidence": [
+        "退款没到账",
+        "争议"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-09",
+      "title": "退款争议处置案例 09",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“申请被驳回”，场景归类为退款争议，第9种处理条件。",
+      "evidence": [
+        "申请被驳回",
+        "支付"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-10",
+      "title": "退款争议处置案例 10",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“拒绝退款”，场景归类为退款争议，第10种处理条件。",
+      "evidence": [
+        "拒绝退款",
+        "退款"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-11",
+      "title": "退款争议处置案例 11",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“退款没到账”，场景归类为退款争议，第11种处理条件。",
+      "evidence": [
+        "退款没到账",
+        "争议"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-REFUND_DISPUTE-12",
+      "title": "退款争议处置案例 12",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“申请被驳回”，场景归类为退款争议，第12种处理条件。",
+      "evidence": [
+        "申请被驳回",
+        "支付"
+      ],
+      "operation_suggestion": "核验退款单与支付流水，交由人工裁定",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退款",
+        "争议",
+        "支付",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-01",
+      "title": "退货争议处置案例 01",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“不让退货”，场景归类为退货争议，第1种处理条件。",
+      "evidence": [
+        "不让退货",
+        "退货"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-02",
+      "title": "退货争议处置案例 02",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“退回后拒收”，场景归类为退货争议，第2种处理条件。",
+      "evidence": [
+        "退回后拒收",
+        "拒收"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-03",
+      "title": "退货争议处置案例 03",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“运费争议”，场景归类为退货争议，第3种处理条件。",
+      "evidence": [
+        "运费争议",
+        "运费"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-04",
+      "title": "退货争议处置案例 04",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“不让退货”，场景归类为退货争议，第4种处理条件。",
+      "evidence": [
+        "不让退货",
+        "退货"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-05",
+      "title": "退货争议处置案例 05",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“退回后拒收”，场景归类为退货争议，第5种处理条件。",
+      "evidence": [
+        "退回后拒收",
+        "拒收"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-06",
+      "title": "退货争议处置案例 06",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“运费争议”，场景归类为退货争议，第6种处理条件。",
+      "evidence": [
+        "运费争议",
+        "运费"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-07",
+      "title": "退货争议处置案例 07",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“不让退货”，场景归类为退货争议，第7种处理条件。",
+      "evidence": [
+        "不让退货",
+        "退货"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-08",
+      "title": "退货争议处置案例 08",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“退回后拒收”，场景归类为退货争议，第8种处理条件。",
+      "evidence": [
+        "退回后拒收",
+        "拒收"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-09",
+      "title": "退货争议处置案例 09",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“运费争议”，场景归类为退货争议，第9种处理条件。",
+      "evidence": [
+        "运费争议",
+        "运费"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-10",
+      "title": "退货争议处置案例 10",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“不让退货”，场景归类为退货争议，第10种处理条件。",
+      "evidence": [
+        "不让退货",
+        "退货"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-11",
+      "title": "退货争议处置案例 11",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“退回后拒收”，场景归类为退货争议，第11种处理条件。",
+      "evidence": [
+        "退回后拒收",
+        "拒收"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RETURN_DISPUTE-12",
+      "title": "退货争议处置案例 12",
+      "product_category": "服饰",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“运费争议”，场景归类为退货争议，第12种处理条件。",
+      "evidence": [
+        "运费争议",
+        "运费"
+      ],
+      "operation_suggestion": "核验退货政策和签收记录，人工协商",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "退货",
+        "拒收",
+        "运费",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-01",
+      "title": "售后未响应处置案例 01",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“客服不回复”，场景归类为售后未响应，第1种处理条件。",
+      "evidence": [
+        "客服不回复",
+        "售后"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-02",
+      "title": "售后未响应处置案例 02",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“售后失联”，场景归类为售后未响应，第2种处理条件。",
+      "evidence": [
+        "售后失联",
+        "客服"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-03",
+      "title": "售后未响应处置案例 03",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“多次联系没人处理”，场景归类为售后未响应，第3种处理条件。",
+      "evidence": [
+        "多次联系没人处理",
+        "未响应"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-04",
+      "title": "售后未响应处置案例 04",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“客服不回复”，场景归类为售后未响应，第4种处理条件。",
+      "evidence": [
+        "客服不回复",
+        "售后"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-05",
+      "title": "售后未响应处置案例 05",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“售后失联”，场景归类为售后未响应，第5种处理条件。",
+      "evidence": [
+        "售后失联",
+        "客服"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-06",
+      "title": "售后未响应处置案例 06",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“多次联系没人处理”，场景归类为售后未响应，第6种处理条件。",
+      "evidence": [
+        "多次联系没人处理",
+        "未响应"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-07",
+      "title": "售后未响应处置案例 07",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“客服不回复”，场景归类为售后未响应，第7种处理条件。",
+      "evidence": [
+        "客服不回复",
+        "售后"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-08",
+      "title": "售后未响应处置案例 08",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“售后失联”，场景归类为售后未响应，第8种处理条件。",
+      "evidence": [
+        "售后失联",
+        "客服"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-09",
+      "title": "售后未响应处置案例 09",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“多次联系没人处理”，场景归类为售后未响应，第9种处理条件。",
+      "evidence": [
+        "多次联系没人处理",
+        "未响应"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-10",
+      "title": "售后未响应处置案例 10",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“客服不回复”，场景归类为售后未响应，第10种处理条件。",
+      "evidence": [
+        "客服不回复",
+        "售后"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-11",
+      "title": "售后未响应处置案例 11",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“售后失联”，场景归类为售后未响应，第11种处理条件。",
+      "evidence": [
+        "售后失联",
+        "客服"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SERVICE_NO_RESPONSE-12",
+      "title": "售后未响应处置案例 12",
+      "product_category": "家电",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“多次联系没人处理”，场景归类为售后未响应，第12种处理条件。",
+      "evidence": [
+        "多次联系没人处理",
+        "未响应"
+      ],
+      "operation_suggestion": "升级人工工单并设置响应时限",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "售后",
+        "客服",
+        "未响应",
+        "家电"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-01",
+      "title": "假货质疑处置案例 01",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“怀疑是假货”，场景归类为假货质疑，第1种处理条件。",
+      "evidence": [
+        "怀疑是假货",
+        "假货质疑"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-02",
+      "title": "假货质疑处置案例 02",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“防伪码异常”，场景归类为假货质疑，第2种处理条件。",
+      "evidence": [
+        "防伪码异常",
+        "防伪"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-03",
+      "title": "假货质疑处置案例 03",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“包装和专柜不同”，场景归类为假货质疑，第3种处理条件。",
+      "evidence": [
+        "包装和专柜不同",
+        "供应链"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-04",
+      "title": "假货质疑处置案例 04",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“怀疑是假货”，场景归类为假货质疑，第4种处理条件。",
+      "evidence": [
+        "怀疑是假货",
+        "假货质疑"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-05",
+      "title": "假货质疑处置案例 05",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“防伪码异常”，场景归类为假货质疑，第5种处理条件。",
+      "evidence": [
+        "防伪码异常",
+        "防伪"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-06",
+      "title": "假货质疑处置案例 06",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“包装和专柜不同”，场景归类为假货质疑，第6种处理条件。",
+      "evidence": [
+        "包装和专柜不同",
+        "供应链"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-07",
+      "title": "假货质疑处置案例 07",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“怀疑是假货”，场景归类为假货质疑，第7种处理条件。",
+      "evidence": [
+        "怀疑是假货",
+        "假货质疑"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-08",
+      "title": "假货质疑处置案例 08",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“防伪码异常”，场景归类为假货质疑，第8种处理条件。",
+      "evidence": [
+        "防伪码异常",
+        "防伪"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-09",
+      "title": "假货质疑处置案例 09",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“包装和专柜不同”，场景归类为假货质疑，第9种处理条件。",
+      "evidence": [
+        "包装和专柜不同",
+        "供应链"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-10",
+      "title": "假货质疑处置案例 10",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“怀疑是假货”，场景归类为假货质疑，第10种处理条件。",
+      "evidence": [
+        "怀疑是假货",
+        "假货质疑"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-11",
+      "title": "假货质疑处置案例 11",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“防伪码异常”，场景归类为假货质疑，第11种处理条件。",
+      "evidence": [
+        "防伪码异常",
+        "防伪"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-COUNTERFEIT-12",
+      "title": "假货质疑处置案例 12",
+      "product_category": "美妆",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“包装和专柜不同”，场景归类为假货质疑，第12种处理条件。",
+      "evidence": [
+        "包装和专柜不同",
+        "供应链"
+      ],
+      "operation_suggestion": "核验供应链和防伪信息，禁止自动定性",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "假货质疑",
+        "防伪",
+        "供应链",
+        "美妆"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-01",
+      "title": "质量缺陷处置案例 01",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“做工粗糙”，场景归类为质量缺陷，第1种处理条件。",
+      "evidence": [
+        "做工粗糙",
+        "质量"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-02",
+      "title": "质量缺陷处置案例 02",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“容易断”，场景归类为质量缺陷，第2种处理条件。",
+      "evidence": [
+        "容易断",
+        "缺陷"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-03",
+      "title": "质量缺陷处置案例 03",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“使用后变形”，场景归类为质量缺陷，第3种处理条件。",
+      "evidence": [
+        "使用后变形",
+        "做工"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-04",
+      "title": "质量缺陷处置案例 04",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“做工粗糙”，场景归类为质量缺陷，第4种处理条件。",
+      "evidence": [
+        "做工粗糙",
+        "质量"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-05",
+      "title": "质量缺陷处置案例 05",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“容易断”，场景归类为质量缺陷，第5种处理条件。",
+      "evidence": [
+        "容易断",
+        "缺陷"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-06",
+      "title": "质量缺陷处置案例 06",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“使用后变形”，场景归类为质量缺陷，第6种处理条件。",
+      "evidence": [
+        "使用后变形",
+        "做工"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-07",
+      "title": "质量缺陷处置案例 07",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“做工粗糙”，场景归类为质量缺陷，第7种处理条件。",
+      "evidence": [
+        "做工粗糙",
+        "质量"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-08",
+      "title": "质量缺陷处置案例 08",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“容易断”，场景归类为质量缺陷，第8种处理条件。",
+      "evidence": [
+        "容易断",
+        "缺陷"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-09",
+      "title": "质量缺陷处置案例 09",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“使用后变形”，场景归类为质量缺陷，第9种处理条件。",
+      "evidence": [
+        "使用后变形",
+        "做工"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-10",
+      "title": "质量缺陷处置案例 10",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“做工粗糙”，场景归类为质量缺陷，第10种处理条件。",
+      "evidence": [
+        "做工粗糙",
+        "质量"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-11",
+      "title": "质量缺陷处置案例 11",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“容易断”，场景归类为质量缺陷，第11种处理条件。",
+      "evidence": [
+        "容易断",
+        "缺陷"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-QUALITY_DEFECT-12",
+      "title": "质量缺陷处置案例 12",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“使用后变形”，场景归类为质量缺陷，第12种处理条件。",
+      "evidence": [
+        "使用后变形",
+        "做工"
+      ],
+      "operation_suggestion": "记录缺陷并汇总同款质量反馈",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "质量",
+        "缺陷",
+        "做工",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-01",
+      "title": "食品安全处置案例 01",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“已经变质”，场景归类为食品安全，第1种处理条件。",
+      "evidence": [
+        "已经变质",
+        "食品安全"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-02",
+      "title": "食品安全处置案例 02",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“吃后不舒服”，场景归类为食品安全，第2种处理条件。",
+      "evidence": [
+        "吃后不舒服",
+        "变质"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-03",
+      "title": "食品安全处置案例 03",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“发现异物”，场景归类为食品安全，第3种处理条件。",
+      "evidence": [
+        "发现异物",
+        "批次"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-04",
+      "title": "食品安全处置案例 04",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“已经变质”，场景归类为食品安全，第4种处理条件。",
+      "evidence": [
+        "已经变质",
+        "食品安全"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-05",
+      "title": "食品安全处置案例 05",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“吃后不舒服”，场景归类为食品安全，第5种处理条件。",
+      "evidence": [
+        "吃后不舒服",
+        "变质"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-06",
+      "title": "食品安全处置案例 06",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“发现异物”，场景归类为食品安全，第6种处理条件。",
+      "evidence": [
+        "发现异物",
+        "批次"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-07",
+      "title": "食品安全处置案例 07",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“已经变质”，场景归类为食品安全，第7种处理条件。",
+      "evidence": [
+        "已经变质",
+        "食品安全"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-08",
+      "title": "食品安全处置案例 08",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“吃后不舒服”，场景归类为食品安全，第8种处理条件。",
+      "evidence": [
+        "吃后不舒服",
+        "变质"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-09",
+      "title": "食品安全处置案例 09",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“发现异物”，场景归类为食品安全，第9种处理条件。",
+      "evidence": [
+        "发现异物",
+        "批次"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-10",
+      "title": "食品安全处置案例 10",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“已经变质”，场景归类为食品安全，第10种处理条件。",
+      "evidence": [
+        "已经变质",
+        "食品安全"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-11",
+      "title": "食品安全处置案例 11",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“吃后不舒服”，场景归类为食品安全，第11种处理条件。",
+      "evidence": [
+        "吃后不舒服",
+        "变质"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-FOOD_SAFETY-12",
+      "title": "食品安全处置案例 12",
+      "product_category": "食品",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“发现异物”，场景归类为食品安全，第12种处理条件。",
+      "evidence": [
+        "发现异物",
+        "批次"
+      ],
+      "operation_suggestion": "立即人工复核批次与健康风险，不自动归责",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "食品安全",
+        "变质",
+        "批次",
+        "食品"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-01",
+      "title": "电池电器安全处置案例 01",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“电池鼓包”，场景归类为电池电器安全，第1种处理条件。",
+      "evidence": [
+        "电池鼓包",
+        "电池"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-02",
+      "title": "电池电器安全处置案例 02",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“充电发烫”，场景归类为电池电器安全，第2种处理条件。",
+      "evidence": [
+        "充电发烫",
+        "发热"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-03",
+      "title": "电池电器安全处置案例 03",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“出现焦味”，场景归类为电池电器安全，第3种处理条件。",
+      "evidence": [
+        "出现焦味",
+        "安全"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-04",
+      "title": "电池电器安全处置案例 04",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“电池鼓包”，场景归类为电池电器安全，第4种处理条件。",
+      "evidence": [
+        "电池鼓包",
+        "电池"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-05",
+      "title": "电池电器安全处置案例 05",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“充电发烫”，场景归类为电池电器安全，第5种处理条件。",
+      "evidence": [
+        "充电发烫",
+        "发热"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-06",
+      "title": "电池电器安全处置案例 06",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“出现焦味”，场景归类为电池电器安全，第6种处理条件。",
+      "evidence": [
+        "出现焦味",
+        "安全"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-07",
+      "title": "电池电器安全处置案例 07",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“电池鼓包”，场景归类为电池电器安全，第7种处理条件。",
+      "evidence": [
+        "电池鼓包",
+        "电池"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-08",
+      "title": "电池电器安全处置案例 08",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“充电发烫”，场景归类为电池电器安全，第8种处理条件。",
+      "evidence": [
+        "充电发烫",
+        "发热"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-09",
+      "title": "电池电器安全处置案例 09",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“出现焦味”，场景归类为电池电器安全，第9种处理条件。",
+      "evidence": [
+        "出现焦味",
+        "安全"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-10",
+      "title": "电池电器安全处置案例 10",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“电池鼓包”，场景归类为电池电器安全，第10种处理条件。",
+      "evidence": [
+        "电池鼓包",
+        "电池"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-11",
+      "title": "电池电器安全处置案例 11",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“充电发烫”，场景归类为电池电器安全，第11种处理条件。",
+      "evidence": [
+        "充电发烫",
+        "发热"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-BATTERY_SAFETY-12",
+      "title": "电池电器安全处置案例 12",
+      "product_category": "数码",
+      "risk_type": "after_sales_risk",
+      "risk_level": "high",
+      "scenario": "历史工单核验到“出现焦味”，场景归类为电池电器安全，第12种处理条件。",
+      "evidence": [
+        "出现焦味",
+        "安全"
+      ],
+      "operation_suggestion": "停止使用并升级安全复核，核验批次",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "电池",
+        "发热",
+        "安全",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-01",
+      "title": "图文冲突处置案例 01",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“文字说完好”，场景归类为图文冲突，第1种处理条件。",
+      "evidence": [
+        "文字说完好",
+        "图文冲突"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-02",
+      "title": "图文冲突处置案例 02",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“图片显示破损”，场景归类为图文冲突，第2种处理条件。",
+      "evidence": [
+        "图片显示破损",
+        "多模态"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-03",
+      "title": "图文冲突处置案例 03",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“图文不一致”，场景归类为图文冲突，第3种处理条件。",
+      "evidence": [
+        "图文不一致",
+        "复核"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-04",
+      "title": "图文冲突处置案例 04",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“文字说完好”，场景归类为图文冲突，第4种处理条件。",
+      "evidence": [
+        "文字说完好",
+        "图文冲突"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-05",
+      "title": "图文冲突处置案例 05",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“图片显示破损”，场景归类为图文冲突，第5种处理条件。",
+      "evidence": [
+        "图片显示破损",
+        "多模态"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-06",
+      "title": "图文冲突处置案例 06",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“图文不一致”，场景归类为图文冲突，第6种处理条件。",
+      "evidence": [
+        "图文不一致",
+        "复核"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-07",
+      "title": "图文冲突处置案例 07",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“文字说完好”，场景归类为图文冲突，第7种处理条件。",
+      "evidence": [
+        "文字说完好",
+        "图文冲突"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-08",
+      "title": "图文冲突处置案例 08",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“图片显示破损”，场景归类为图文冲突，第8种处理条件。",
+      "evidence": [
+        "图片显示破损",
+        "多模态"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-09",
+      "title": "图文冲突处置案例 09",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“图文不一致”，场景归类为图文冲突，第9种处理条件。",
+      "evidence": [
+        "图文不一致",
+        "复核"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-10",
+      "title": "图文冲突处置案例 10",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“文字说完好”，场景归类为图文冲突，第10种处理条件。",
+      "evidence": [
+        "文字说完好",
+        "图文冲突"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-11",
+      "title": "图文冲突处置案例 11",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“图片显示破损”，场景归类为图文冲突，第11种处理条件。",
+      "evidence": [
+        "图片显示破损",
+        "多模态"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MODALITY_CONFLICT-12",
+      "title": "图文冲突处置案例 12",
+      "product_category": "家居",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“图文不一致”，场景归类为图文冲突，第12种处理条件。",
+      "evidence": [
+        "图文不一致",
+        "复核"
+      ],
+      "operation_suggestion": "分离文本与图片证据并转人工复核",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "图文冲突",
+        "多模态",
+        "复核",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-01",
+      "title": "评分文本矛盾处置案例 01",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“五星但说很差”，场景归类为评分文本矛盾，第1种处理条件。",
+      "evidence": [
+        "五星但说很差",
+        "评分冲突"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-02",
+      "title": "评分文本矛盾处置案例 02",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“评分高却要求退货”，场景归类为评分文本矛盾，第2种处理条件。",
+      "evidence": [
+        "评分高却要求退货",
+        "文本"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-03",
+      "title": "评分文本矛盾处置案例 03",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“文字和星级相反”，场景归类为评分文本矛盾，第3种处理条件。",
+      "evidence": [
+        "文字和星级相反",
+        "置信度"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-04",
+      "title": "评分文本矛盾处置案例 04",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“五星但说很差”，场景归类为评分文本矛盾，第4种处理条件。",
+      "evidence": [
+        "五星但说很差",
+        "评分冲突"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-05",
+      "title": "评分文本矛盾处置案例 05",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“评分高却要求退货”，场景归类为评分文本矛盾，第5种处理条件。",
+      "evidence": [
+        "评分高却要求退货",
+        "文本"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-06",
+      "title": "评分文本矛盾处置案例 06",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“文字和星级相反”，场景归类为评分文本矛盾，第6种处理条件。",
+      "evidence": [
+        "文字和星级相反",
+        "置信度"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-07",
+      "title": "评分文本矛盾处置案例 07",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“五星但说很差”，场景归类为评分文本矛盾，第7种处理条件。",
+      "evidence": [
+        "五星但说很差",
+        "评分冲突"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-08",
+      "title": "评分文本矛盾处置案例 08",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“评分高却要求退货”，场景归类为评分文本矛盾，第8种处理条件。",
+      "evidence": [
+        "评分高却要求退货",
+        "文本"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-09",
+      "title": "评分文本矛盾处置案例 09",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“文字和星级相反”，场景归类为评分文本矛盾，第9种处理条件。",
+      "evidence": [
+        "文字和星级相反",
+        "置信度"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-10",
+      "title": "评分文本矛盾处置案例 10",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“五星但说很差”，场景归类为评分文本矛盾，第10种处理条件。",
+      "evidence": [
+        "五星但说很差",
+        "评分冲突"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-11",
+      "title": "评分文本矛盾处置案例 11",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“评分高却要求退货”，场景归类为评分文本矛盾，第11种处理条件。",
+      "evidence": [
+        "评分高却要求退货",
+        "文本"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-RATING_CONFLICT-12",
+      "title": "评分文本矛盾处置案例 12",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“文字和星级相反”，场景归类为评分文本矛盾，第12种处理条件。",
+      "evidence": [
+        "文字和星级相反",
+        "置信度"
+      ],
+      "operation_suggestion": "降低置信度并人工确认真实意图",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "评分冲突",
+        "文本",
+        "置信度",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-01",
+      "title": "主观差评处置案例 01",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“不喜欢款式”，场景归类为主观差评，第1种处理条件。",
+      "evidence": [
+        "不喜欢款式",
+        "主观"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-02",
+      "title": "主观差评处置案例 02",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“手感一般”，场景归类为主观差评，第2种处理条件。",
+      "evidence": [
+        "手感一般",
+        "差评"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-03",
+      "title": "主观差评处置案例 03",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“颜色不合心意”，场景归类为主观差评，第3种处理条件。",
+      "evidence": [
+        "颜色不合心意",
+        "偏好"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-04",
+      "title": "主观差评处置案例 04",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“不喜欢款式”，场景归类为主观差评，第4种处理条件。",
+      "evidence": [
+        "不喜欢款式",
+        "主观"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-05",
+      "title": "主观差评处置案例 05",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“手感一般”，场景归类为主观差评，第5种处理条件。",
+      "evidence": [
+        "手感一般",
+        "差评"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-06",
+      "title": "主观差评处置案例 06",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“颜色不合心意”，场景归类为主观差评，第6种处理条件。",
+      "evidence": [
+        "颜色不合心意",
+        "偏好"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-07",
+      "title": "主观差评处置案例 07",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“不喜欢款式”，场景归类为主观差评，第7种处理条件。",
+      "evidence": [
+        "不喜欢款式",
+        "主观"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-08",
+      "title": "主观差评处置案例 08",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“手感一般”，场景归类为主观差评，第8种处理条件。",
+      "evidence": [
+        "手感一般",
+        "差评"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-09",
+      "title": "主观差评处置案例 09",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“颜色不合心意”，场景归类为主观差评，第9种处理条件。",
+      "evidence": [
+        "颜色不合心意",
+        "偏好"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-10",
+      "title": "主观差评处置案例 10",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“不喜欢款式”，场景归类为主观差评，第10种处理条件。",
+      "evidence": [
+        "不喜欢款式",
+        "主观"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-11",
+      "title": "主观差评处置案例 11",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“手感一般”，场景归类为主观差评，第11种处理条件。",
+      "evidence": [
+        "手感一般",
+        "差评"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-SUBJECTIVE_NEGATIVE-12",
+      "title": "主观差评处置案例 12",
+      "product_category": "服饰",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“颜色不合心意”，场景归类为主观差评，第12种处理条件。",
+      "evidence": [
+        "颜色不合心意",
+        "偏好"
+      ],
+      "operation_suggestion": "归纳主观偏好，不升级为高风险",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "主观",
+        "差评",
+        "偏好",
+        "服饰"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-01",
+      "title": "恶意评价处置案例 01",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“不给赔偿就差评”，场景归类为恶意评价，第1种处理条件。",
+      "evidence": [
+        "不给赔偿就差评",
+        "恶意评价"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-02",
+      "title": "恶意评价处置案例 02",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“要求返现删评”，场景归类为恶意评价，第2种处理条件。",
+      "evidence": [
+        "要求返现删评",
+        "威胁"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-03",
+      "title": "恶意评价处置案例 03",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“威胁曝光”，场景归类为恶意评价，第3种处理条件。",
+      "evidence": [
+        "威胁曝光",
+        "人工判断"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-04",
+      "title": "恶意评价处置案例 04",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“不给赔偿就差评”，场景归类为恶意评价，第4种处理条件。",
+      "evidence": [
+        "不给赔偿就差评",
+        "恶意评价"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-05",
+      "title": "恶意评价处置案例 05",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“要求返现删评”，场景归类为恶意评价，第5种处理条件。",
+      "evidence": [
+        "要求返现删评",
+        "威胁"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-06",
+      "title": "恶意评价处置案例 06",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“威胁曝光”，场景归类为恶意评价，第6种处理条件。",
+      "evidence": [
+        "威胁曝光",
+        "人工判断"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-07",
+      "title": "恶意评价处置案例 07",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“不给赔偿就差评”，场景归类为恶意评价，第7种处理条件。",
+      "evidence": [
+        "不给赔偿就差评",
+        "恶意评价"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-08",
+      "title": "恶意评价处置案例 08",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“要求返现删评”，场景归类为恶意评价，第8种处理条件。",
+      "evidence": [
+        "要求返现删评",
+        "威胁"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-09",
+      "title": "恶意评价处置案例 09",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“威胁曝光”，场景归类为恶意评价，第9种处理条件。",
+      "evidence": [
+        "威胁曝光",
+        "人工判断"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-10",
+      "title": "恶意评价处置案例 10",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“不给赔偿就差评”，场景归类为恶意评价，第10种处理条件。",
+      "evidence": [
+        "不给赔偿就差评",
+        "恶意评价"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-11",
+      "title": "恶意评价处置案例 11",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“要求返现删评”，场景归类为恶意评价，第11种处理条件。",
+      "evidence": [
+        "要求返现删评",
+        "威胁"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-MALICIOUS_REVIEW-12",
+      "title": "恶意评价处置案例 12",
+      "product_category": "日用",
+      "risk_type": "negative_review",
+      "risk_level": "medium",
+      "scenario": "历史工单核验到“威胁曝光”，场景归类为恶意评价，第12种处理条件。",
+      "evidence": [
+        "威胁曝光",
+        "人工判断"
+      ],
+      "operation_suggestion": "保留沟通证据并交人工判断，禁止自动封禁",
+      "human_review_reason": "涉及高风险或证据边界时由人工确认最终处置",
+      "tags": [
+        "恶意评价",
+        "威胁",
+        "人工判断",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-01",
+      "title": "中性评价处置案例 01",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“整体一般”，场景归类为中性评价，第1种处理条件。",
+      "evidence": [
+        "整体一般",
+        "中性"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-02",
+      "title": "中性评价处置案例 02",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“符合描述”，场景归类为中性评价，第2种处理条件。",
+      "evidence": [
+        "符合描述",
+        "一般"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-03",
+      "title": "中性评价处置案例 03",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“暂时正常”，场景归类为中性评价，第3种处理条件。",
+      "evidence": [
+        "暂时正常",
+        "正常"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-04",
+      "title": "中性评价处置案例 04",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“整体一般”，场景归类为中性评价，第4种处理条件。",
+      "evidence": [
+        "整体一般",
+        "中性"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-05",
+      "title": "中性评价处置案例 05",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“符合描述”，场景归类为中性评价，第5种处理条件。",
+      "evidence": [
+        "符合描述",
+        "一般"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-06",
+      "title": "中性评价处置案例 06",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“暂时正常”，场景归类为中性评价，第6种处理条件。",
+      "evidence": [
+        "暂时正常",
+        "正常"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-07",
+      "title": "中性评价处置案例 07",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“整体一般”，场景归类为中性评价，第7种处理条件。",
+      "evidence": [
+        "整体一般",
+        "中性"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-08",
+      "title": "中性评价处置案例 08",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“符合描述”，场景归类为中性评价，第8种处理条件。",
+      "evidence": [
+        "符合描述",
+        "一般"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-09",
+      "title": "中性评价处置案例 09",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“暂时正常”，场景归类为中性评价，第9种处理条件。",
+      "evidence": [
+        "暂时正常",
+        "正常"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-10",
+      "title": "中性评价处置案例 10",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“整体一般”，场景归类为中性评价，第10种处理条件。",
+      "evidence": [
+        "整体一般",
+        "中性"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-11",
+      "title": "中性评价处置案例 11",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“符合描述”，场景归类为中性评价，第11种处理条件。",
+      "evidence": [
+        "符合描述",
+        "一般"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-NEUTRAL-12",
+      "title": "中性评价处置案例 12",
+      "product_category": "日用",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“暂时正常”，场景归类为中性评价，第12种处理条件。",
+      "evidence": [
+        "暂时正常",
+        "正常"
+      ],
+      "operation_suggestion": "常规观察，无需主动干预",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "中性",
+        "一般",
+        "正常",
+        "日用"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-01",
+      "title": "正常好评处置案例 01",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“质量很好”，场景归类为正常好评，第1种处理条件。",
+      "evidence": [
+        "质量很好",
+        "好评"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-02",
+      "title": "正常好评处置案例 02",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“包装完好”，场景归类为正常好评，第2种处理条件。",
+      "evidence": [
+        "包装完好",
+        "满意"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-03",
+      "title": "正常好评处置案例 03",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“值得推荐”，场景归类为正常好评，第3种处理条件。",
+      "evidence": [
+        "值得推荐",
+        "推荐"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-04",
+      "title": "正常好评处置案例 04",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“质量很好”，场景归类为正常好评，第4种处理条件。",
+      "evidence": [
+        "质量很好",
+        "好评"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-05",
+      "title": "正常好评处置案例 05",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“包装完好”，场景归类为正常好评，第5种处理条件。",
+      "evidence": [
+        "包装完好",
+        "满意"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-06",
+      "title": "正常好评处置案例 06",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“值得推荐”，场景归类为正常好评，第6种处理条件。",
+      "evidence": [
+        "值得推荐",
+        "推荐"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-07",
+      "title": "正常好评处置案例 07",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“质量很好”，场景归类为正常好评，第7种处理条件。",
+      "evidence": [
+        "质量很好",
+        "好评"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-08",
+      "title": "正常好评处置案例 08",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“包装完好”，场景归类为正常好评，第8种处理条件。",
+      "evidence": [
+        "包装完好",
+        "满意"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-09",
+      "title": "正常好评处置案例 09",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“值得推荐”，场景归类为正常好评，第9种处理条件。",
+      "evidence": [
+        "值得推荐",
+        "推荐"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-10",
+      "title": "正常好评处置案例 10",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“质量很好”，场景归类为正常好评，第10种处理条件。",
+      "evidence": [
+        "质量很好",
+        "好评"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-11",
+      "title": "正常好评处置案例 11",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“包装完好”，场景归类为正常好评，第11种处理条件。",
+      "evidence": [
+        "包装完好",
+        "满意"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-POSITIVE-12",
+      "title": "正常好评处置案例 12",
+      "product_category": "家居",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“值得推荐”，场景归类为正常好评，第12种处理条件。",
+      "evidence": [
+        "值得推荐",
+        "推荐"
+      ],
+      "operation_suggestion": "记录正向反馈并常规观察",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "好评",
+        "满意",
+        "推荐",
+        "家居"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-01",
+      "title": "证据不足处置案例 01",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“不好说”，场景归类为证据不足，第1种处理条件。",
+      "evidence": [
+        "不好说",
+        "证据不足"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-02",
+      "title": "证据不足处置案例 02",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“感觉有问题”，场景归类为证据不足，第2种处理条件。",
+      "evidence": [
+        "感觉有问题",
+        "低置信度"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-03",
+      "title": "证据不足处置案例 03",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“没有具体描述”，场景归类为证据不足，第3种处理条件。",
+      "evidence": [
+        "没有具体描述",
+        "补充信息"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-04",
+      "title": "证据不足处置案例 04",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“不好说”，场景归类为证据不足，第4种处理条件。",
+      "evidence": [
+        "不好说",
+        "证据不足"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-05",
+      "title": "证据不足处置案例 05",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“感觉有问题”，场景归类为证据不足，第5种处理条件。",
+      "evidence": [
+        "感觉有问题",
+        "低置信度"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-06",
+      "title": "证据不足处置案例 06",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“没有具体描述”，场景归类为证据不足，第6种处理条件。",
+      "evidence": [
+        "没有具体描述",
+        "补充信息"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-07",
+      "title": "证据不足处置案例 07",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“不好说”，场景归类为证据不足，第7种处理条件。",
+      "evidence": [
+        "不好说",
+        "证据不足"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-08",
+      "title": "证据不足处置案例 08",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“感觉有问题”，场景归类为证据不足，第8种处理条件。",
+      "evidence": [
+        "感觉有问题",
+        "低置信度"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-09",
+      "title": "证据不足处置案例 09",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“没有具体描述”，场景归类为证据不足，第9种处理条件。",
+      "evidence": [
+        "没有具体描述",
+        "补充信息"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-10",
+      "title": "证据不足处置案例 10",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“不好说”，场景归类为证据不足，第10种处理条件。",
+      "evidence": [
+        "不好说",
+        "证据不足"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-11",
+      "title": "证据不足处置案例 11",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“感觉有问题”，场景归类为证据不足，第11种处理条件。",
+      "evidence": [
+        "感觉有问题",
+        "低置信度"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    },
+    {
+      "case_id": "CASE-INSUFFICIENT_EVIDENCE-12",
+      "title": "证据不足处置案例 12",
+      "product_category": "数码",
+      "risk_type": "normal_review",
+      "risk_level": "low",
+      "scenario": "历史工单核验到“没有具体描述”，场景归类为证据不足，第12种处理条件。",
+      "evidence": [
+        "没有具体描述",
+        "补充信息"
+      ],
+      "operation_suggestion": "请求补充图片、订单和故障细节",
+      "human_review_reason": "低风险案例用于相似场景参考",
+      "tags": [
+        "证据不足",
+        "低置信度",
+        "补充信息",
+        "数码"
+      ],
+      "source_type": "synthetic_case_v16"
+    }
+  ],
+  "built_at": "2026-07-11T03:30:27.640521+00:00",
+  "index_type": "IndexFlatIP",
+  "normalized": true,
+  "embedding_latency_ms": 1802.9,
+  "embedding_device": "cuda"
+}

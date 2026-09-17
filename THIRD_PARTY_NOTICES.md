@@ -1,19 +1,13 @@
-# Third-Party Notices
+# Third Party Notices
 
-## litemall
+This repository includes dependency metadata for E-Review Agent qualification and demonstration work. License review is evidence-based and uses package metadata already present in the local environment or dependency manifests.
 
-E-Review Agent is based on and extends the open-source litemall project.
+The current local audit is not a legal opinion. Packages with unknown, custom, weak copyleft or strong copyleft licenses remain in `LICENSE_REVIEW_REQUIRED` until reviewed with authoritative package metadata.
 
-- Original project: https://github.com/linlinjava/litemall
-- License: MIT License
-- Original copyright:
-  Copyright (c) 2018 linlinjava
+Current generated evidence:
 
-The original copyright notice and MIT permission notice are retained in accordance with the upstream license.
+- Dependency inventory: `artifacts/qualification/dependency-license-inventory.json`
+- License review summary: `artifacts/qualification/license-review-summary.json`
+- Policy: `compliance/license-policy.yml`
 
-## Major Open-Source Dependencies
-
-- Spring Boot, MyBatis and PageHelper for Java backend development.
-- Vue 2, Element UI and Vant 2 for frontend development.
-- FastAPI, Pydantic, Uvicorn and pytest for the AI service.
-- BGE-M3 and FAISS are referenced as optional experimental retrieval components; model weights and indexes are not included in this repository.
+Denied licenses are not accepted by policy. Unknown licenses are not treated as safe.

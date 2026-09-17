@@ -1,0 +1,11 @@
+{
+  "deepRankCaseCount": 12,
+  "deepRankRecoveredAt20": 3,
+  "deepRankRecoveredAt30": 12,
+  "deepRankRecoveryRateAt20": 0.25,
+  "deepRankRecoveryRateAt30": 1.0,
+  "medianRelevantRankAfter": 24,
+  "medianRelevantRankBefore": 26,
+  "p95RelevantRankAfter": 30,
+  "p95RelevantRankBefore": 28
+}

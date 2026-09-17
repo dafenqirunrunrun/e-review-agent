@@ -1,0 +1,9 @@
+{
+  "marker": "CONDA_ACCELERATE_INSTALL_BLOCKED_SSL",
+  "command": "conda install -n torchtest -c conda-forge accelerate",
+  "accelerate_available": false,
+  "log_path": "data/multimodal/audit/conda_accelerate_install.log",
+  "error_type": "CondaSSLError",
+  "error_message": "HTTPSConnectionPool(host=conda.anaconda.org, port=443): Max retries exceeded with url /conda-forge/win-64/current_repodata.json; SSLError [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4035)",
+  "retry_policy": "single attempt only; no retry loop was used"
+}

@@ -1,0 +1,12 @@
+﻿{
+    "errno":  0,
+    "errmsg":  "成功",
+    "data":  {
+                 "token":  "REDACTED",
+                 "tokenLength":  228,
+                 "userInfo":  {
+                                  "nickName":  "user123",
+                                  "avatarUrl":  ""
+                              }
+             }
+}

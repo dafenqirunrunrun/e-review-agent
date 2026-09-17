@@ -1,0 +1,50 @@
+{
+  "caseCount": 30,
+  "jsonlAbsoluteP95OverheadMs": 4.006439962540753,
+  "jsonlP95LatencyRatio": 2.3873483116634038,
+  "modes": {
+    "jsonl": {
+      "averageTraceSizeBytes": 20363,
+      "executionP50Ms": 5.792850017314777,
+      "executionP95Ms": 6.894279972766526,
+      "executionP99Ms": 6.911000004038215,
+      "p95TraceSizeBytes": 21176,
+      "peakCpuMemoryMb": 1.0,
+      "peakProcessMemoryMb": 4.0,
+      "traceAppendP50Ms": 0.02,
+      "traceAppendP95Ms": 0.05,
+      "traceFlushP50Ms": 0.2,
+      "traceFlushP95Ms": 0.5,
+      "traceWriteFailureCount": 0
+    },
+    "memory": {
+      "averageTraceSizeBytes": 20363,
+      "executionP50Ms": 2.4807999725453556,
+      "executionP95Ms": 3.3131500182207674,
+      "executionP99Ms": 3.4721000120043755,
+      "p95TraceSizeBytes": 21176,
+      "peakCpuMemoryMb": 1.0,
+      "peakProcessMemoryMb": 4.0,
+      "traceAppendP50Ms": 0.02,
+      "traceAppendP95Ms": 0.05,
+      "traceFlushP50Ms": 0,
+      "traceFlushP95Ms": 0,
+      "traceWriteFailureCount": 0
+    },
+    "off": {
+      "averageTraceSizeBytes": 20363,
+      "executionP50Ms": 2.5768499763216823,
+      "executionP95Ms": 2.887840010225773,
+      "executionP99Ms": 2.9148999601602554,
+      "p95TraceSizeBytes": 21176,
+      "peakCpuMemoryMb": 1.0,
+      "peakProcessMemoryMb": 4.0,
+      "traceAppendP50Ms": 0,
+      "traceAppendP95Ms": 0,
+      "traceFlushP50Ms": 0,
+      "traceFlushP95Ms": 0,
+      "traceWriteFailureCount": 0
+    }
+  },
+  "resourceGate": "E_REVIEW_V24_AGENT_TRACE_RESOURCE_PASS"
+}

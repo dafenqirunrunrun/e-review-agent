@@ -1,0 +1,52 @@
+{
+  "semanticJudgeType": "CODEX_SINGLE_JUDGE",
+  "singleJudgeLimitation": true,
+  "calibration": {
+    "total": 120,
+    "pass": 96,
+    "fail": 23,
+    "uncertain": 1,
+    "passRate": 0.8
+  },
+  "boundary": {
+    "total": 60,
+    "pass": 54,
+    "fail": 6,
+    "uncertain": 0,
+    "passRate": 0.9,
+    "highChallengeCount": 37,
+    "mediumChallengeCount": 13,
+    "lowChallengeCount": 10,
+    "highMediumRatio": 0.833333,
+    "keywordShortcutCount": 22,
+    "keywordShortcutRatio": 0.366667
+  },
+  "semantic": {
+    "naturalChineseCount": 177,
+    "naturalChineseRatio": 0.983333,
+    "missedMultiRiskCount": 13,
+    "riskTypeMismatchCount": 27,
+    "severityMismatchCount": 27
+  },
+  "abstention": {
+    "caseCount": 5,
+    "correctCount": 5,
+    "incorrectCount": 0,
+    "uncertainCount": 0,
+    "abstentionAccuracy": 1.0
+  },
+  "finalMinimalRepair": {
+    "performed": false,
+    "reason": "More than five semantic defects remain; a one-iteration minimal repair is not applicable."
+  },
+  "thresholds": {
+    "calibrationSemanticPass": false,
+    "boundaryValidityPass": true,
+    "boundaryChallengePass": true,
+    "keywordShortcutPass": false,
+    "naturalChinesePass": true,
+    "multiRiskSystematicErrorPass": false,
+    "abstentionPass": true
+  },
+  "gate": "FAIL"
+}

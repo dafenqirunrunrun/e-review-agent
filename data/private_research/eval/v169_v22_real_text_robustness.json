@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-07-15T14:54:06Z",
+  "status": "PRIVATE_REAL_TEXT_V22_ADAPTER_ROBUSTNESS_NOT_RUN_TRAINING_BLOCKED",
+  "amazon_sample_count": 0,
+  "asap_sample_count": 0,
+  "base_real_inference_count": 0,
+  "adapter_real_inference_count": 0,
+  "blocked_reason": "training did not pass; no adapter evaluation allowed"
+}

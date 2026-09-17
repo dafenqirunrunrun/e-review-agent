@@ -1,0 +1,40 @@
+{"query_id":"RAG001","query":"package damaged refund requested","expected_risk_type":"after_sales_risk","expected_non_empty":true}
+{"query_id":"RAG002","query":"product broken after delivery quality defect","expected_risk_type":"quality_issue","expected_non_empty":true}
+{"query_id":"RAG003","query":"after-sales no response for refund","expected_risk_type":"after_sales_risk","expected_non_empty":true}
+{"query_id":"RAG004","query":"logistics slow and package crushed","expected_risk_type":"logistics_risk","expected_non_empty":true}
+{"query_id":"RAG005","query":"size does not match description","expected_risk_type":"description_mismatch","expected_non_empty":true}
+{"query_id":"RAG006","query":"color is different from picture","expected_risk_type":"image_text_conflict","expected_non_empty":true}
+{"query_id":"RAG007","query":"suspected counterfeit fake goods","expected_risk_type":"authenticity_risk","expected_non_empty":true}
+{"query_id":"RAG008","query":"packaging damage package broken missing parts","expected_risk_type":"package_damage","expected_non_empty":true}
+{"query_id":"RAG009","query":"accessories missing from box","expected_risk_type":"missing_parts","expected_non_empty":true}
+{"query_id":"RAG010","query":"high rating but complaint in text","expected_risk_type":"rating_text_conflict","expected_non_empty":true}
+{"query_id":"RAG011","query":"low rating short text low confidence","expected_risk_type":"low_confidence","expected_non_empty":true}
+{"query_id":"RAG012","query":"image text conflict review picture says damaged","expected_risk_type":"image_text_conflict","expected_non_empty":true}
+{"query_id":"RAG013","query":"customer service attitude complaint","expected_risk_type":"service_attitude","expected_non_empty":true}
+{"query_id":"RAG014","query":"description mismatch material different","expected_risk_type":"description_mismatch","expected_non_empty":true}
+{"query_id":"RAG015","query":"multiple complaints from same product","expected_risk_type":"repeated_issue","expected_non_empty":true}
+{"query_id":"RAG016","query":"product repeated risk memory","expected_risk_type":"repeated_issue","expected_non_empty":true}
+{"query_id":"RAG017","query":"category risk trend similar products","expected_risk_type":"category_risk","expected_non_empty":true}
+{"query_id":"RAG018","query":"rare unrelated poem query","expected_risk_type":"none","expected_non_empty":false}
+{"query_id":"RAG019","query":"low risk positive review good quality","expected_risk_type":"positive_review","expected_non_empty":true}
+{"query_id":"RAG020","query":"human false positive feedback","expected_risk_type":"feedback_learning","expected_non_empty":true}
+{"query_id":"RAG021","query":"risk level too high feedback","expected_risk_type":"feedback_learning","expected_non_empty":true}
+{"query_id":"RAG022","query":"risk level too low complaint","expected_risk_type":"feedback_learning","expected_non_empty":true}
+{"query_id":"RAG023","query":"operation suggestion bad not useful","expected_risk_type":"feedback_learning","expected_non_empty":true}
+{"query_id":"RAG024","query":"transferred after-sales case","expected_risk_type":"after_sales_risk","expected_non_empty":true}
+{"query_id":"RAG025","query":"closed without action low risk praise","expected_risk_type":"positive_review","expected_non_empty":true}
+{"query_id":"RAG026","query":"invalid image URL no evidence","expected_risk_type":"low_confidence","expected_non_empty":true}
+{"query_id":"RAG027","query":"short text but high risk refund broken","expected_risk_type":"quality_issue","expected_non_empty":true}
+{"query_id":"RAG028","query":"positive text low score conflict","expected_risk_type":"rating_text_conflict","expected_non_empty":true}
+{"query_id":"RAG029","query":"negative text high score complaint","expected_risk_type":"rating_text_conflict","expected_non_empty":true}
+{"query_id":"RAG030","query":"quality flaw defect after first use","expected_risk_type":"quality_issue","expected_non_empty":true}
+{"query_id":"RAG031","query":"after-sales promise not fulfilled","expected_risk_type":"after_sales_risk","expected_non_empty":true}
+{"query_id":"RAG032","query":"user multiple complaints in recent orders","expected_risk_type":"repeated_issue","expected_non_empty":true}
+{"query_id":"RAG033","query":"recent product negative concentration","expected_risk_type":"repeated_issue","expected_non_empty":true}
+{"query_id":"RAG034","query":"same category risk rising trend","expected_risk_type":"category_risk","expected_non_empty":true}
+{"query_id":"RAG035","query":"fake review suspected brushing order","expected_risk_type":"authenticity_risk","expected_non_empty":true}
+{"query_id":"RAG036","query":"product effect mismatch with description","expected_risk_type":"description_mismatch","expected_non_empty":true}
+{"query_id":"RAG037","query":"slow service response after-sales","expected_risk_type":"service_attitude","expected_non_empty":true}
+{"query_id":"RAG038","query":"refund rejected customer complaint","expected_risk_type":"after_sales_risk","expected_non_empty":true}
+{"query_id":"RAG039","query":"missing evidence unclear picture","expected_risk_type":"low_confidence","expected_non_empty":true}
+{"query_id":"RAG040","query":"no clear risk ordinary neutral text","expected_risk_type":"none","expected_non_empty":false}

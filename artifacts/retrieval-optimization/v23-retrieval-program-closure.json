@@ -1,0 +1,18 @@
+{
+  "artifactVersion": "agent-rag-v23-retrieval-program-closure-v1",
+  "benchmarkVersion": "v23-retrieval-qualification-v2",
+  "calibrationConsumed": true,
+  "challengeConsumed": false,
+  "datasetHash": "d638d44c69e1e678c2f990fd193af23d2ac18962b6e2be5eaf1ffd19e4575e47",
+  "evaluationConsumed": true,
+  "experimentalOnlyCandidateCount": 1,
+  "knowledgeSnapshotHash": "70d9285947d8a84254206a70d9d31c6789b5ff902a8340cb18abdab20eaa30b4",
+  "nextProgram": "v2.4-agent-productionization",
+  "programClosed": true,
+  "programVersion": "v2.3",
+  "qualifiedNewRuntimeCandidateCount": 0,
+  "referenceBaselineRetained": true,
+  "rejectedCandidateCount": 4,
+  "runtimePromotion": false,
+  "v24AgentProductionizationAllowed": true
+}

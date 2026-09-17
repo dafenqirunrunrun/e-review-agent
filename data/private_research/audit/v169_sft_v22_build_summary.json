@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-07-15T14:41:06.076147+00:00",
+  "status": "PRIVATE_SYNTHETIC_SFT_V22_BUILT",
+  "total_count": 414,
+  "train_count": 336,
+  "validation_count": 54,
+  "holdout_count": 24,
+  "identity_change_count": 0,
+  "split_identity_change_count": 0,
+  "lineage_change_count": 0,
+  "core_label_change_count": 0,
+  "contract_version": "v2.0.0",
+  "prompt_version": "v2.1.0",
+  "renderer_version": "v2.1.0",
+  "completion_encoding_version": "completion_only_v2.2.0",
+  "target_serialization_version": "compact_target_v2.2.0",
+  "distributions": {
+    "train": {
+      "risk_type": {
+        "after_sales_risk": 152,
+        "negative_review": 88,
+        "normal_review": 96
+      },
+      "risk_level": {
+        "high": 148,
+        "medium": 92,
+        "low": 96
+      },
+      "need_human_review": {
+        "True": 240,
+        "False": 96
+      }
+    },
+    "validation": {
+      "risk_type": {
+        "after_sales_risk": 18,
+        "normal_review": 18,
+        "negative_review": 18
+      },
+      "risk_level": {
+        "high": 15,
+        "low": 18,
+        "medium": 21
+      },
+      "need_human_review": {
+        "True": 36,
+        "False": 18
+      }
+    },
+    "engineering_holdout_v21": {
+      "risk_type": {
+        "normal_review": 8,
+        "negative_review": 8,
+        "after_sales_risk": 8
+      },
+      "risk_level": {
+        "low": 8,
+        "medium": 12,
+        "high": 4
+      },
+      "need_human_review": {
+        "False": 8,
+        "True": 16
+      }
+    }
+  },
+  "manifest_hashes": {
+    "train": "711e8a2c25106d9837cbddfaa4a98425d191d906a31ca7c970d5a2a0c99701c6",
+    "validation": "378de5d7ad9cf384309e2f7bc2e98f42cee6f309a532436f6448213c862d70c0",
+    "engineering_holdout_v21": "3d77f02a24f378cf10324c89a33fd65238f6ee64ab374bbe0bf9b1e39b34e515"
+  }
+}

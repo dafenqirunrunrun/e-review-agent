@@ -1,0 +1,24 @@
+{
+  "artifactVersion": "agent-rag-v23-phase-95a-qc-gate-v1",
+  "blockingReasons": [
+    "regressionDeltaPass",
+    "qualifiedEnvironmentFullRegressionPass",
+    "calibrationReproducibilityPass",
+    "detachedVerifyPass"
+  ],
+  "checks": {
+    "calibrationReproducibilityPass": false,
+    "configurationLockPass": true,
+    "detachedVerifyPass": false,
+    "faissRuntimePass": true,
+    "parentGranularityAuditPass": true,
+    "qualificationEnvironmentPass": true,
+    "qualifiedEnvironmentFullRegressionPass": false,
+    "realDenseRequiredTestsPass": true,
+    "regressionDeltaPass": false,
+    "sensitiveScanPass": true
+  },
+  "decision": "E_REVIEW_V23_PHASE_95A_QC_BLOCKED",
+  "phase95bParentChildEvaluationAllowed": false,
+  "qualificationChain": "E_REVIEW_V23_PARENT_CHILD_QUALIFICATION_CHAIN_BLOCKED"
+}

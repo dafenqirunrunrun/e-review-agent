@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.1.0",
+  "sourceCommit": "2d160578c381cd701f90cbcf57b4a682959a2988",
+  "embedding": {
+    "status": "available",
+    "provider": "flagembedding",
+    "modelPath": "<external-embedding-model-directory>",
+    "assetFingerprint": "<sha256-or-controlled-fingerprint>",
+    "dimension": 1024
+  },
+  "denseIndex": {
+    "status": "available",
+    "indexPath": "<external-index.faiss>",
+    "manifestPath": "<external-manifest.json>",
+    "indexVersion": "<index-version>",
+    "effectiveEmbeddingFingerprint": "<must-match-bgeM3.assetFingerprint>",
+    "indexSha256": "<optional-sha256>",
+    "manifestSha256": "<optional-sha256>"
+  },
+  "reranker": {
+    "status": "blocked",
+    "modelPath": null,
+    "assetFingerprint": null,
+    "architecture": null,
+    "licenseId": null
+  },
+  "llm": {
+    "status": "blocked",
+    "modelPath": null,
+    "assetFingerprint": null,
+    "architecture": null,
+    "licenseId": null
+  }
+}

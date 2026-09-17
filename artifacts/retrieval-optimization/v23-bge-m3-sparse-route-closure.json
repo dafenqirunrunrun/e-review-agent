@@ -1,0 +1,76 @@
+{
+  "artifactVersion": "agent-rag-v23-bge-m3-sparse-route-closure-v1",
+  "sourceCommit": "c230fffd",
+  "createdUtc": "2026-07-23T00:00:00Z",
+  "environmentFingerprint": "9820236f02e050fa189890df8dcf3a6055c7a6690d91d54f1afbddd1c8df0167",
+  "modelRevision": {
+    "modelId": "BAAI/bge-m3",
+    "revision": "external-existing",
+    "assetFingerprint": "a36441812a43bc60e2464af3cc3ffc4d466fc2dc9a52d921264b0109c39094a2",
+    "modelPathStored": false
+  },
+  "tokenizerFingerprint": {
+    "tokenizerParityGate": "PASS",
+    "tokenizerPathStored": false
+  },
+  "knowledgeSnapshotHash": "70d9285947d8a84254206a70d9d31c6789b5ff902a8340cb18abdab20eaa30b4",
+  "fullCorpusChunkCount": 153,
+  "precisionMatrixRunCount": 24,
+  "phase94AEnvironmentGate": {
+    "status": "PASS",
+    "runtimeVerified": true,
+    "isolatedEnvironmentVerified": true
+  },
+  "phase94BIndexGate": {
+    "status": "BLOCKED",
+    "indexQualified": false
+  },
+  "phase94BRcaGate": {
+    "status": "PASS",
+    "emptyVectorRootCauseAudited": true
+  },
+  "phase94BDqaGate": {
+    "status": "PASS",
+    "corpusInputPrecisionRepresentationAudited": true
+  },
+  "phase94BPsqGate": {
+    "status": "PASS",
+    "matrixComplete": true,
+    "completeRunCount": 24,
+    "expectedRunCount": 24
+  },
+  "evidenceSha256": {
+    "v23-sparse-precision-stability-matrix.json": "848dd4912aaf4b0d64967cd920fe104d62db354311970fd38ba0ac2be9d36aa1",
+    "v23-sparse-process-repeatability.json": "9102f92efbf98b638961b42a2c6546457b0ba0952032700e785a407173a99d4c",
+    "v23-sparse-batch-parity.json": "b7c32d0d64f33d49534b8275a38d1c0567ea49f69fb189ec86985d8c9f589276",
+    "v23-sparse-invocation-path-diff.json": "23e085b280f4cf08534047b8273d91eeaacbc6d90c301af08af42a49cbdf0149",
+    "v23-sparse-encoding-configuration-decision.json": "6747fb4e82d23caf882cce582d384a0c6a3edbb9541af87c4ae638091823dfef",
+    "v23-phase-94b-psq-gate.json": "a9b02f27103f1f907307aa7ad6128be474b6324df12eaad47e2f4e9eacf80d4d"
+  },
+  "status": [
+    "BGE_M3_SPARSE_RUNTIME_VERIFIED",
+    "BGE_M3_SPARSE_ENCODING_NOT_REPRODUCIBLE",
+    "BGE_M3_SPARSE_ROUTE_REJECTED_FOR_V2_3"
+  ],
+  "checks": {
+    "runtimeVerified": true,
+    "isolatedEnvironmentVerified": true,
+    "indexQualified": false,
+    "encodingReproducible": false,
+    "stablePrecisionFound": false,
+    "stableBatchFound": false,
+    "stableInvocationPathFound": false,
+    "sparseRouteAllowedForV23Runtime": false,
+    "sparseIndexRebuildAllowed": false,
+    "sparseRetrievalCalibrationAllowed": false,
+    "phase94cThreeWayFusionAllowed": false,
+    "runtimeIntegrationAllowed": false
+  },
+  "finalDecision": "NO_STABLE_SPARSE_ENCODING_CONFIGURATION",
+  "decisionBoundary": {
+    "doesNotClaimGlobalModelFailure": true,
+    "doesNotClaimFlagEmbeddingGlobalFailure": true,
+    "doesNotClaimSparseRetrievalPass": true,
+    "allowedNextStep": "PARENT_CHILD_HIERARCHICAL_RETRIEVAL_QUALIFICATION"
+  }
+}

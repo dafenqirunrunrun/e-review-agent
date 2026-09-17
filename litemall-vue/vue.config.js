@@ -14,7 +14,7 @@ module.exports = {
     port: 6255,
     proxy: {
       '/wx': {
-        target: 'http://localhost:8080'
+        target: process.env.VUE_APP_WX_PROXY_TARGET || 'http://localhost:8082'
       },
     },
   },

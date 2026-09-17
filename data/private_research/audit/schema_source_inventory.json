@@ -1,0 +1,350 @@
+{
+  "generated_at": "2026-07-15T08:20:10.562889+00:00",
+  "status": "SCHEMA_SOURCE_INVENTORY_COMPLETE",
+  "canonical_schema_name": "E_REVIEW_DECISION_SCHEMA_CANONICAL",
+  "canonical_schema_file": "ai-service/app/evaluation/schema_failure_analysis.py",
+  "canonical_schema_version": "v1.6.5-canonical",
+  "schema_definitions": [
+    {
+      "file": "ai-service/app/evaluation/schema_failure_analysis.py",
+      "file_hash": "231c4eb1ca439209d7bab0cf732ad6d76fe4fdf95afb99cc160e08f2ca4ee503",
+      "schema_name": "E_REVIEW_DECISION_SCHEMA_CANONICAL",
+      "schema_version": "v1.6.5-canonical",
+      "required_fields": [
+        "missing_information",
+        "need_human_review",
+        "retrieved_case_evidence",
+        "risk_level",
+        "risk_type",
+        "route_reason",
+        "text_evidence",
+        "unsupported_claims"
+      ],
+      "optional_fields": [
+        "schema_version",
+        "visual_evidence"
+      ],
+      "field_types": {
+        "risk_type": "enum",
+        "risk_level": "enum",
+        "text_evidence": "list[string]",
+        "visual_evidence": "list[string]",
+        "retrieved_case_evidence": "list[object|string]",
+        "need_human_review": "boolean",
+        "route_reason": "string",
+        "missing_information": "list[string]",
+        "unsupported_claims": "list[string]",
+        "schema_version": "string"
+      },
+      "enum_values": {
+        "risk_type": [
+          "normal_review",
+          "negative_review",
+          "after_sales_risk"
+        ],
+        "risk_level": [
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "aliases": {
+        "evidence": "text_evidence",
+        "human_review_required": "need_human_review",
+        "riskType": "risk_type",
+        "riskLevel": "risk_level"
+      },
+      "nullable_fields": [],
+      "extra_field_policy": "forbid_for_raw_schema; ignored only by explicit repair",
+      "evidence_item_shape": "text_evidence=list[str], visual_evidence=list[str], retrieved_case_evidence=list[object|string]",
+      "active_or_legacy": "canonical",
+      "used_by_training": false,
+      "used_by_runtime": false,
+      "used_by_evaluation": true,
+      "used_by_api": false
+    },
+    {
+      "file": "ai-service/app/llm/schemas.py",
+      "file_hash": "75b874a8d49365d4391c631f72de6640e85f3bf754f9b586885744b056203d25",
+      "schema_name": "ReviewRiskAnalysis",
+      "schema_version": "legacy-text-runtime-v1",
+      "required_fields": [
+        "confidence",
+        "evidence",
+        "missing_information",
+        "need_human_review",
+        "reason",
+        "risk_level",
+        "risk_type",
+        "sentiment",
+        "suggestion"
+      ],
+      "optional_fields": [],
+      "field_types": {
+        "risk_type": "enum",
+        "risk_level": "enum",
+        "need_human_review": "boolean",
+        "missing_information": "list[string]",
+        "sentiment": "unknown",
+        "evidence": "unknown",
+        "reason": "unknown",
+        "suggestion": "unknown",
+        "confidence": "unknown"
+      },
+      "enum_values": {
+        "risk_type": [
+          "normal_review",
+          "negative_review",
+          "after_sales_risk"
+        ],
+        "risk_level": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "sentiment": [
+          "positive",
+          "neutral",
+          "negative"
+        ]
+      },
+      "aliases": {},
+      "nullable_fields": [],
+      "extra_field_policy": "pydantic default ignore",
+      "evidence_item_shape": "text_evidence=list[str], visual_evidence=list[str], retrieved_case_evidence=list[object|string]",
+      "active_or_legacy": "legacy",
+      "used_by_training": false,
+      "used_by_runtime": true,
+      "used_by_evaluation": false,
+      "used_by_api": true
+    },
+    {
+      "file": "ai-service/app/llm/qwen_text_runtime.py",
+      "file_hash": "7cc2443e94234c6ad87f3b75856ea31cb6f040f25a6ddfc203df7ce544377e12",
+      "schema_name": "qwen_text_runtime.py",
+      "schema_version": "legacy-prompt",
+      "required_fields": [
+        "confidence",
+        "evidence",
+        "missing_information",
+        "need_human_review",
+        "reason",
+        "risk_level",
+        "risk_type",
+        "sentiment",
+        "suggestion"
+      ],
+      "optional_fields": [],
+      "field_types": {
+        "risk_type": "enum",
+        "risk_level": "enum",
+        "need_human_review": "boolean",
+        "missing_information": "list[string]",
+        "sentiment": "unknown",
+        "evidence": "unknown",
+        "reason": "unknown",
+        "suggestion": "unknown",
+        "confidence": "unknown"
+      },
+      "enum_values": {
+        "risk_type": [
+          "normal_review",
+          "negative_review",
+          "after_sales_risk"
+        ],
+        "risk_level": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "sentiment": [
+          "positive",
+          "neutral",
+          "negative"
+        ]
+      },
+      "aliases": {},
+      "nullable_fields": [],
+      "extra_field_policy": "prompt text",
+      "evidence_item_shape": "text_evidence=list[str], visual_evidence=list[str], retrieved_case_evidence=list[object|string]",
+      "active_or_legacy": "legacy",
+      "used_by_training": false,
+      "used_by_runtime": true,
+      "used_by_evaluation": false,
+      "used_by_api": false
+    },
+    {
+      "file": "ai-service/scripts/run_v164_controlled_synthetic_qlora_training.py",
+      "file_hash": "3e53a38be93a4e75d078a710da6c5ee462ee4298163f384ddef02966b95917a5",
+      "schema_name": "v164_synthetic_target_or_eval_projection",
+      "schema_version": "v1.6.4-script-local",
+      "required_fields": [],
+      "optional_fields": [],
+      "field_types": {},
+      "enum_values": {
+        "risk_level": [
+          "low"
+        ]
+      },
+      "aliases": {},
+      "nullable_fields": [],
+      "extra_field_policy": "script-local ad hoc checks",
+      "evidence_item_shape": null,
+      "active_or_legacy": "compatible_projection",
+      "used_by_training": true,
+      "used_by_runtime": false,
+      "used_by_evaluation": false,
+      "used_by_api": false
+    },
+    {
+      "file": "ai-service/scripts/eval_v164_synthetic_holdout_and_robustness.py",
+      "file_hash": "afee5ccd40d28ace7e6402434904e095f9520477fa1c94cb1ce743922816b40c",
+      "schema_name": "v164_synthetic_target_or_eval_projection",
+      "schema_version": "v1.6.4-script-local",
+      "required_fields": [
+        "evidence",
+        "missing_information",
+        "need_human_review",
+        "reason",
+        "retrieved_case_evidence",
+        "risk_level",
+        "risk_type",
+        "route_reason",
+        "text_evidence",
+        "unsupported_claims"
+      ],
+      "optional_fields": [],
+      "field_types": {
+        "risk_type": "enum",
+        "risk_level": "enum",
+        "text_evidence": "list[string]",
+        "retrieved_case_evidence": "list[object|string]",
+        "need_human_review": "boolean",
+        "route_reason": "string",
+        "missing_information": "list[string]",
+        "unsupported_claims": "list[string]",
+        "evidence": "unknown",
+        "reason": "unknown"
+      },
+      "enum_values": {
+        "risk_type": [
+          "normal_review"
+        ],
+        "risk_level": [
+          "low"
+        ]
+      },
+      "aliases": {},
+      "nullable_fields": [],
+      "extra_field_policy": "script-local ad hoc checks",
+      "evidence_item_shape": "text_evidence=list[str], visual_evidence=list[str], retrieved_case_evidence=list[object|string]",
+      "active_or_legacy": "conflicting",
+      "used_by_training": false,
+      "used_by_runtime": false,
+      "used_by_evaluation": true,
+      "used_by_api": false
+    },
+    {
+      "file": "ai-service/scripts/eval_v164_private_real_text_robustness.py",
+      "file_hash": "ccf656595790d55eb0085183b332a7d8d6c99feb37cdad651df3508645d9eb69",
+      "schema_name": "v164_synthetic_target_or_eval_projection",
+      "schema_version": "v1.6.4-script-local",
+      "required_fields": [
+        "evidence",
+        "need_human_review",
+        "risk_level",
+        "risk_type",
+        "text_evidence",
+        "unsupported_claims"
+      ],
+      "optional_fields": [],
+      "field_types": {
+        "risk_type": "enum",
+        "risk_level": "enum",
+        "text_evidence": "list[string]",
+        "need_human_review": "boolean",
+        "unsupported_claims": "list[string]",
+        "evidence": "unknown"
+      },
+      "enum_values": {
+        "risk_type": [
+          "normal_review"
+        ],
+        "risk_level": [
+          "low"
+        ]
+      },
+      "aliases": {},
+      "nullable_fields": [],
+      "extra_field_policy": "script-local ad hoc checks",
+      "evidence_item_shape": "text_evidence=list[str], visual_evidence=list[str], retrieved_case_evidence=list[object|string]",
+      "active_or_legacy": "conflicting",
+      "used_by_training": false,
+      "used_by_runtime": false,
+      "used_by_evaluation": true,
+      "used_by_api": false
+    },
+    {
+      "file": "ai-service/prompts/json_repair_zh.md",
+      "file_hash": "f64782b4fba6c07cbd1e924050cccaa3ced1f525092f59b6e600612273bf1e16",
+      "schema_name": "json_repair_zh.md",
+      "schema_version": "legacy-prompt",
+      "required_fields": [
+        "confidence",
+        "evidence",
+        "missing_information",
+        "need_human_review",
+        "reason",
+        "risk_level",
+        "risk_type",
+        "sentiment",
+        "suggestion"
+      ],
+      "optional_fields": [],
+      "field_types": {
+        "risk_type": "enum",
+        "risk_level": "enum",
+        "need_human_review": "boolean",
+        "missing_information": "list[string]",
+        "sentiment": "unknown",
+        "evidence": "unknown",
+        "reason": "unknown",
+        "suggestion": "unknown",
+        "confidence": "unknown"
+      },
+      "enum_values": {
+        "risk_type": [
+          "normal_review",
+          "negative_review",
+          "after_sales_risk"
+        ],
+        "risk_level": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "sentiment": [
+          "positive",
+          "neutral",
+          "negative"
+        ]
+      },
+      "aliases": {},
+      "nullable_fields": [],
+      "extra_field_policy": "prompt text",
+      "evidence_item_shape": "text_evidence=list[str], visual_evidence=list[str], retrieved_case_evidence=list[object|string]",
+      "active_or_legacy": "legacy",
+      "used_by_training": false,
+      "used_by_runtime": false,
+      "used_by_evaluation": false,
+      "used_by_api": false
+    }
+  ],
+  "conflicting_schema_count": 2,
+  "classification_counts": {
+    "canonical": 1,
+    "legacy": 3,
+    "compatible_projection": 1,
+    "conflicting": 2
+  }
+}

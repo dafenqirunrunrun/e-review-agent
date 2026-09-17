@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.linlinjava.litemall.db.dao.LitemallAgentRagRunMapper">
+  <resultMap id="BaseResultMap" type="org.linlinjava.litemall.db.domain.LitemallAgentRagRun">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="request_id" jdbcType="VARCHAR" property="requestId" />
+    <result column="idempotency_key" jdbcType="CHAR" property="idempotencyKey" />
+    <result column="tenant_id" jdbcType="VARCHAR" property="tenantId" />
+    <result column="subject_type" jdbcType="VARCHAR" property="subjectType" />
+    <result column="subject_id" jdbcType="VARCHAR" property="subjectId" />
+    <result column="parent_run_id" jdbcType="BIGINT" property="parentRunId" />
+    <result column="replay_of_run_id" jdbcType="BIGINT" property="replayOfRunId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="risk_level" jdbcType="VARCHAR" property="riskLevel" />
+    <result column="risk_types_json" jdbcType="LONGVARCHAR" property="riskTypesJson" />
+    <result column="action" jdbcType="VARCHAR" property="action" />
+    <result column="confidence" jdbcType="DECIMAL" property="confidence" />
+    <result column="requires_human_review" jdbcType="BIT" property="requiresHumanReview" />
+    <result column="runtime_mode" jdbcType="VARCHAR" property="runtimeMode" />
+    <result column="target_mode" jdbcType="VARCHAR" property="targetMode" />
+    <result column="requested_provider_impl" jdbcType="VARCHAR" property="requestedProviderImpl" />
+    <result column="effective_provider_impl" jdbcType="VARCHAR" property="effectiveProviderImpl" />
+    <result column="requested_retrieval_mode" jdbcType="VARCHAR" property="requestedRetrievalMode" />
+    <result column="effective_retrieval_mode" jdbcType="VARCHAR" property="effectiveRetrievalMode" />
+    <result column="index_version" jdbcType="VARCHAR" property="indexVersion" />
+    <result column="fallback_used" jdbcType="BIT" property="fallbackUsed" />
+    <result column="fallback_reason" jdbcType="VARCHAR" property="fallbackReason" />
+    <result column="schema_version" jdbcType="VARCHAR" property="schemaVersion" />
+    <result column="analyzer_version" jdbcType="VARCHAR" property="analyzerVersion" />
+    <result column="evidence_id" jdbcType="VARCHAR" property="evidenceId" />
+    <result column="security_policy_version" jdbcType="VARCHAR" property="securityPolicyVersion" />
+    <result column="pii_detected" jdbcType="BIT" property="piiDetected" />
+    <result column="pii_types_json" jdbcType="LONGVARCHAR" property="piiTypesJson" />
+    <result column="pii_count" jdbcType="INTEGER" property="piiCount" />
+    <result column="model_input_redacted" jdbcType="BIT" property="modelInputRedacted" />
+    <result column="audit_redacted" jdbcType="BIT" property="auditRedacted" />
+    <result column="ui_redacted" jdbcType="BIT" property="uiRedacted" />
+    <result column="prompt_injection_detected" jdbcType="BIT" property="promptInjectionDetected" />
+    <result column="prompt_injection_risk_level" jdbcType="VARCHAR" property="promptInjectionRiskLevel" />
+    <result column="prompt_injection_signals_json" jdbcType="LONGVARCHAR" property="promptInjectionSignalsJson" />
+    <result column="prompt_injection_execution_suppressed" jdbcType="BIT" property="promptInjectionExecutionSuppressed" />
+    <result column="citation_set_hash" jdbcType="CHAR" property="citationSetHash" />
+    <result column="runtime_config_hash" jdbcType="CHAR" property="runtimeConfigHash" />
+    <result column="effective_decision_hash" jdbcType="CHAR" property="effectiveDecisionHash" />
+    <result column="previous_audit_hash" jdbcType="CHAR" property="previousAuditHash" />
+    <result column="audit_hash" jdbcType="CHAR" property="auditHash" />
+    <result column="audit_integrity_status" jdbcType="VARCHAR" property="auditIntegrityStatus" />
+    <result column="evidence_expires_at" jdbcType="TIMESTAMP" property="evidenceExpiresAt" />
+    <result column="raw_input_expires_at" jdbcType="TIMESTAMP" property="rawInputExpiresAt" />
+    <result column="retry_count" jdbcType="INTEGER" property="retryCount" />
+    <result column="error_code" jdbcType="VARCHAR" property="errorCode" />
+    <result column="error_message" jdbcType="VARCHAR" property="errorMessage" />
+    <result column="started_at" jdbcType="TIMESTAMP" property="startedAt" />
+    <result column="finished_at" jdbcType="TIMESTAMP" property="finishedAt" />
+    <result column="duration_ms" jdbcType="BIGINT" property="durationMs" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="deleted" jdbcType="BIT" property="deleted" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, request_id, idempotency_key, tenant_id, subject_type, subject_id, parent_run_id,
+    replay_of_run_id, status, risk_level, risk_types_json, action, confidence,
+    requires_human_review, runtime_mode, target_mode, requested_provider_impl,
+    effective_provider_impl, requested_retrieval_mode, effective_retrieval_mode,
+    index_version, fallback_used, fallback_reason, schema_version, analyzer_version,
+    evidence_id, security_policy_version, pii_detected, pii_types_json, pii_count,
+    model_input_redacted, audit_redacted, ui_redacted, prompt_injection_detected,
+    prompt_injection_risk_level, prompt_injection_signals_json,
+    prompt_injection_execution_suppressed, citation_set_hash, runtime_config_hash,
+    effective_decision_hash, previous_audit_hash, audit_hash, audit_integrity_status,
+    evidence_expires_at, raw_input_expires_at, retry_count, error_code, error_message, started_at, finished_at,
+    duration_ms, created_at, updated_at, deleted
+  </sql>
+
+  <insert id="insertSelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAgentRagRun"
+          useGeneratedKeys="true" keyProperty="id">
+    insert into litemall_agent_rag_run
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="requestId != null">request_id,</if>
+      <if test="idempotencyKey != null">idempotency_key,</if>
+      <if test="tenantId != null">tenant_id,</if>
+      <if test="subjectType != null">subject_type,</if>
+      <if test="subjectId != null">subject_id,</if>
+      <if test="parentRunId != null">parent_run_id,</if>
+      <if test="replayOfRunId != null">replay_of_run_id,</if>
+      <if test="status != null">status,</if>
+      <if test="riskLevel != null">risk_level,</if>
+      <if test="riskTypesJson != null">risk_types_json,</if>
+      <if test="action != null">action,</if>
+      <if test="confidence != null">confidence,</if>
+      <if test="requiresHumanReview != null">requires_human_review,</if>
+      <if test="runtimeMode != null">runtime_mode,</if>
+      <if test="targetMode != null">target_mode,</if>
+      <if test="requestedProviderImpl != null">requested_provider_impl,</if>
+      <if test="effectiveProviderImpl != null">effective_provider_impl,</if>
+      <if test="requestedRetrievalMode != null">requested_retrieval_mode,</if>
+      <if test="effectiveRetrievalMode != null">effective_retrieval_mode,</if>
+      <if test="indexVersion != null">index_version,</if>
+      <if test="fallbackUsed != null">fallback_used,</if>
+      <if test="fallbackReason != null">fallback_reason,</if>
+      <if test="schemaVersion != null">schema_version,</if>
+      <if test="analyzerVersion != null">analyzer_version,</if>
+      <if test="evidenceId != null">evidence_id,</if>
+      <if test="securityPolicyVersion != null">security_policy_version,</if>
+      <if test="piiDetected != null">pii_detected,</if>
+      <if test="piiTypesJson != null">pii_types_json,</if>
+      <if test="piiCount != null">pii_count,</if>
+      <if test="modelInputRedacted != null">model_input_redacted,</if>
+      <if test="auditRedacted != null">audit_redacted,</if>
+      <if test="uiRedacted != null">ui_redacted,</if>
+      <if test="promptInjectionDetected != null">prompt_injection_detected,</if>
+      <if test="promptInjectionRiskLevel != null">prompt_injection_risk_level,</if>
+      <if test="promptInjectionSignalsJson != null">prompt_injection_signals_json,</if>
+      <if test="promptInjectionExecutionSuppressed != null">prompt_injection_execution_suppressed,</if>
+      <if test="citationSetHash != null">citation_set_hash,</if>
+      <if test="runtimeConfigHash != null">runtime_config_hash,</if>
+      <if test="effectiveDecisionHash != null">effective_decision_hash,</if>
+      <if test="previousAuditHash != null">previous_audit_hash,</if>
+      <if test="auditHash != null">audit_hash,</if>
+      <if test="auditIntegrityStatus != null">audit_integrity_status,</if>
+      <if test="evidenceExpiresAt != null">evidence_expires_at,</if>
+      <if test="rawInputExpiresAt != null">raw_input_expires_at,</if>
+      <if test="retryCount != null">retry_count,</if>
+      <if test="errorCode != null">error_code,</if>
+      <if test="errorMessage != null">error_message,</if>
+      <if test="startedAt != null">started_at,</if>
+      <if test="finishedAt != null">finished_at,</if>
+      <if test="durationMs != null">duration_ms,</if>
+      <if test="createdAt != null">created_at,</if>
+      <if test="updatedAt != null">updated_at,</if>
+      <if test="deleted != null">deleted,</if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="requestId != null">#{requestId},</if>
+      <if test="idempotencyKey != null">#{idempotencyKey},</if>
+      <if test="tenantId != null">#{tenantId},</if>
+      <if test="subjectType != null">#{subjectType},</if>
+      <if test="subjectId != null">#{subjectId},</if>
+      <if test="parentRunId != null">#{parentRunId},</if>
+      <if test="replayOfRunId != null">#{replayOfRunId},</if>
+      <if test="status != null">#{status},</if>
+      <if test="riskLevel != null">#{riskLevel},</if>
+      <if test="riskTypesJson != null">#{riskTypesJson},</if>
+      <if test="action != null">#{action},</if>
+      <if test="confidence != null">#{confidence},</if>
+      <if test="requiresHumanReview != null">#{requiresHumanReview},</if>
+      <if test="runtimeMode != null">#{runtimeMode},</if>
+      <if test="targetMode != null">#{targetMode},</if>
+      <if test="requestedProviderImpl != null">#{requestedProviderImpl},</if>
+      <if test="effectiveProviderImpl != null">#{effectiveProviderImpl},</if>
+      <if test="requestedRetrievalMode != null">#{requestedRetrievalMode},</if>
+      <if test="effectiveRetrievalMode != null">#{effectiveRetrievalMode},</if>
+      <if test="indexVersion != null">#{indexVersion},</if>
+      <if test="fallbackUsed != null">#{fallbackUsed},</if>
+      <if test="fallbackReason != null">#{fallbackReason},</if>
+      <if test="schemaVersion != null">#{schemaVersion},</if>
+      <if test="analyzerVersion != null">#{analyzerVersion},</if>
+      <if test="evidenceId != null">#{evidenceId},</if>
+      <if test="securityPolicyVersion != null">#{securityPolicyVersion},</if>
+      <if test="piiDetected != null">#{piiDetected},</if>
+      <if test="piiTypesJson != null">#{piiTypesJson},</if>
+      <if test="piiCount != null">#{piiCount},</if>
+      <if test="modelInputRedacted != null">#{modelInputRedacted},</if>
+      <if test="auditRedacted != null">#{auditRedacted},</if>
+      <if test="uiRedacted != null">#{uiRedacted},</if>
+      <if test="promptInjectionDetected != null">#{promptInjectionDetected},</if>
+      <if test="promptInjectionRiskLevel != null">#{promptInjectionRiskLevel},</if>
+      <if test="promptInjectionSignalsJson != null">#{promptInjectionSignalsJson},</if>
+      <if test="promptInjectionExecutionSuppressed != null">#{promptInjectionExecutionSuppressed},</if>
+      <if test="citationSetHash != null">#{citationSetHash},</if>
+      <if test="runtimeConfigHash != null">#{runtimeConfigHash},</if>
+      <if test="effectiveDecisionHash != null">#{effectiveDecisionHash},</if>
+      <if test="previousAuditHash != null">#{previousAuditHash},</if>
+      <if test="auditHash != null">#{auditHash},</if>
+      <if test="auditIntegrityStatus != null">#{auditIntegrityStatus},</if>
+      <if test="evidenceExpiresAt != null">#{evidenceExpiresAt},</if>
+      <if test="rawInputExpiresAt != null">#{rawInputExpiresAt},</if>
+      <if test="retryCount != null">#{retryCount},</if>
+      <if test="errorCode != null">#{errorCode},</if>
+      <if test="errorMessage != null">#{errorMessage},</if>
+      <if test="startedAt != null">#{startedAt},</if>
+      <if test="finishedAt != null">#{finishedAt},</if>
+      <if test="durationMs != null">#{durationMs},</if>
+      <if test="createdAt != null">#{createdAt},</if>
+      <if test="updatedAt != null">#{updatedAt},</if>
+      <if test="deleted != null">#{deleted},</if>
+    </trim>
+  </insert>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_run
+    where id = #{id} and deleted = 0
+  </select>
+
+  <select id="selectByTenantAndRequest" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_run
+    where tenant_id = #{tenantId} and request_id = #{requestId} and deleted = 0
+    limit 1
+  </select>
+
+  <select id="selectByIdempotencyKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_run
+    where idempotency_key = #{idempotencyKey} and deleted = 0
+    limit 1
+  </select>
+
+  <select id="selectRecent" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_run
+    where tenant_id = #{tenantId} and deleted = 0
+    <if test="status != null and status != ''">
+      and status = #{status}
+    </if>
+    order by created_at desc
+    limit #{limit}
+  </select>
+
+  <sql id="Admin_Filter">
+    tenant_id = #{tenantId} and deleted = 0
+    <if test="subjectType != null and subjectType != ''">
+      and subject_type = #{subjectType}
+    </if>
+    <if test="subjectId != null and subjectId != ''">
+      and subject_id like concat('%', #{subjectId}, '%')
+    </if>
+    <if test="requestId != null and requestId != ''">
+      and request_id like concat('%', #{requestId}, '%')
+    </if>
+    <if test="status != null and status != ''">
+      and status = #{status}
+    </if>
+    <if test="riskLevel != null and riskLevel != ''">
+      and risk_level = #{riskLevel}
+    </if>
+    <if test="providerImpl != null and providerImpl != ''">
+      and effective_provider_impl = #{providerImpl}
+    </if>
+    <if test="fallbackUsed != null">
+      and fallback_used = #{fallbackUsed}
+    </if>
+    <if test="requiresHumanReview != null">
+      and requires_human_review = #{requiresHumanReview}
+    </if>
+    <if test="createdFrom != null and createdFrom != ''">
+      and created_at &gt;= #{createdFrom}
+    </if>
+    <if test="createdTo != null and createdTo != ''">
+      and created_at &lt;= #{createdTo}
+    </if>
+  </sql>
+
+  <select id="selectForAdmin" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_run
+    where <include refid="Admin_Filter" />
+    order by created_at desc
+    limit #{offset}, #{limit}
+  </select>
+
+  <select id="countForAdmin" resultType="long">
+    select count(1)
+    from litemall_agent_rag_run
+    where <include refid="Admin_Filter" />
+  </select>
+
+  <select id="selectOverviewWindow" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List" />
+    from litemall_agent_rag_run
+    where tenant_id = #{tenantId} and deleted = 0
+      and created_at &gt;= #{createdFrom}
+      and created_at &lt;= #{createdTo}
+    order by created_at desc
+    limit #{limit}
+  </select>
+
+  <update id="updateByPrimaryKeySelective" parameterType="org.linlinjava.litemall.db.domain.LitemallAgentRagRun">
+    update litemall_agent_rag_run
+    <set>
+      <if test="status != null">status = #{status},</if>
+      <if test="riskLevel != null">risk_level = #{riskLevel},</if>
+      <if test="riskTypesJson != null">risk_types_json = #{riskTypesJson},</if>
+      <if test="action != null">action = #{action},</if>
+      <if test="confidence != null">confidence = #{confidence},</if>
+      <if test="requiresHumanReview != null">requires_human_review = #{requiresHumanReview},</if>
+      <if test="runtimeMode != null">runtime_mode = #{runtimeMode},</if>
+      <if test="targetMode != null">target_mode = #{targetMode},</if>
+      <if test="effectiveProviderImpl != null">effective_provider_impl = #{effectiveProviderImpl},</if>
+      <if test="effectiveRetrievalMode != null">effective_retrieval_mode = #{effectiveRetrievalMode},</if>
+      <if test="indexVersion != null">index_version = #{indexVersion},</if>
+      <if test="fallbackUsed != null">fallback_used = #{fallbackUsed},</if>
+      <if test="fallbackReason != null">fallback_reason = #{fallbackReason},</if>
+      <if test="schemaVersion != null">schema_version = #{schemaVersion},</if>
+      <if test="analyzerVersion != null">analyzer_version = #{analyzerVersion},</if>
+      <if test="evidenceId != null">evidence_id = #{evidenceId},</if>
+      <if test="securityPolicyVersion != null">security_policy_version = #{securityPolicyVersion},</if>
+      <if test="piiDetected != null">pii_detected = #{piiDetected},</if>
+      <if test="piiTypesJson != null">pii_types_json = #{piiTypesJson},</if>
+      <if test="piiCount != null">pii_count = #{piiCount},</if>
+      <if test="modelInputRedacted != null">model_input_redacted = #{modelInputRedacted},</if>
+      <if test="auditRedacted != null">audit_redacted = #{auditRedacted},</if>
+      <if test="uiRedacted != null">ui_redacted = #{uiRedacted},</if>
+      <if test="promptInjectionDetected != null">prompt_injection_detected = #{promptInjectionDetected},</if>
+      <if test="promptInjectionRiskLevel != null">prompt_injection_risk_level = #{promptInjectionRiskLevel},</if>
+      <if test="promptInjectionSignalsJson != null">prompt_injection_signals_json = #{promptInjectionSignalsJson},</if>
+      <if test="promptInjectionExecutionSuppressed != null">prompt_injection_execution_suppressed = #{promptInjectionExecutionSuppressed},</if>
+      <if test="citationSetHash != null">citation_set_hash = #{citationSetHash},</if>
+      <if test="runtimeConfigHash != null">runtime_config_hash = #{runtimeConfigHash},</if>
+      <if test="effectiveDecisionHash != null">effective_decision_hash = #{effectiveDecisionHash},</if>
+      <if test="previousAuditHash != null">previous_audit_hash = #{previousAuditHash},</if>
+      <if test="auditHash != null">audit_hash = #{auditHash},</if>
+      <if test="auditIntegrityStatus != null">audit_integrity_status = #{auditIntegrityStatus},</if>
+      <if test="evidenceExpiresAt != null">evidence_expires_at = #{evidenceExpiresAt},</if>
+      <if test="rawInputExpiresAt != null">raw_input_expires_at = #{rawInputExpiresAt},</if>
+      <if test="retryCount != null">retry_count = #{retryCount},</if>
+      <if test="errorCode != null">error_code = #{errorCode},</if>
+      <if test="errorMessage != null">error_message = #{errorMessage},</if>
+      <if test="finishedAt != null">finished_at = #{finishedAt},</if>
+      <if test="durationMs != null">duration_ms = #{durationMs},</if>
+      <if test="updatedAt != null">updated_at = #{updatedAt},</if>
+    </set>
+    where id = #{id} and deleted = 0
+  </update>
+</mapper>

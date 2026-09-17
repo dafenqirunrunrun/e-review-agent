@@ -1,0 +1,52 @@
+{
+  "marker": "PRIVACY_DETECTOR_CAPABILITY_BLOCKED",
+  "fixtures_present": true,
+  "synthetic_fixtures_counted_as_real_pilot": false,
+  "detectors": {
+    "pillow_file_integrity": {
+      "backend": "Pillow",
+      "positive_result": true,
+      "negative_result": true,
+      "status": "capability_pass"
+    },
+    "pii_regex": {
+      "backend": "python_re",
+      "positive_result": true,
+      "negative_result": true,
+      "status": "capability_pass"
+    },
+    "ocr_text_detection": {
+      "backend": "none",
+      "positive_result": false,
+      "negative_result": null,
+      "status": "capability_blocked",
+      "blocked_reason": "no_local_ocr_backend_initialized"
+    },
+    "qr_code_detection": {
+      "backend": "none",
+      "positive_result": false,
+      "negative_result": null,
+      "status": "capability_blocked",
+      "blocked_reason": "no_local_qr_backend_initialized"
+    },
+    "barcode_detection": {
+      "backend": "none",
+      "positive_result": false,
+      "negative_result": null,
+      "status": "capability_blocked",
+      "blocked_reason": "no_local_barcode_backend_initialized"
+    },
+    "face_detection": {
+      "backend": "none",
+      "positive_result": false,
+      "negative_result": null,
+      "status": "capability_blocked",
+      "blocked_reason": "no_local_face_backend_initialized"
+    }
+  },
+  "mandatory_capability_pass": false,
+  "qwen3_vl_replaces_mandatory_detectors": false,
+  "ocr_full_text_in_git_report": false,
+  "qr_full_content_in_git_report": false,
+  "created_at": "2026-07-14T18:59:55.497804+00:00"
+}

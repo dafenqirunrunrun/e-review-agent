@@ -1,0 +1,2 @@
+launchExit=0
+restartExit=0

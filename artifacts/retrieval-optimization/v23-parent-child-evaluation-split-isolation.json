@@ -1,0 +1,10 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-split-isolation-v1",
+  "calibrationEvaluationCaseIdOverlap": 0,
+  "caseFamilyCrossSplitCount": 0,
+  "challengeReadCount": 0,
+  "documentFamilyCrossSplitCount": 0,
+  "evaluationChallengeCaseIdOverlap": 0,
+  "evaluationPreviouslyConsumed": false,
+  "splitIsolationPass": true
+}

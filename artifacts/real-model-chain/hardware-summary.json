@@ -1,0 +1,11 @@
+{
+  "torchVersion": "2.5.1+cu121",
+  "cudaVersion": "12.1",
+  "cudaAvailable": true,
+  "gpuName": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "totalMemoryBytes": 8585216000,
+  "computeCapability": [
+    8,
+    9
+  ]
+}

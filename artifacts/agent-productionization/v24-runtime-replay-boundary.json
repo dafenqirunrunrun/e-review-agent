@@ -1,0 +1,7 @@
+{
+  "businessWritesDuringReplay": 0,
+  "realExternalToolCallsDuringReplay": 0,
+  "replayBoundaryGate": "E_REVIEW_V24_RUNTIME_REPLAY_BOUNDARY_PASS",
+  "replayEnabledByDefault": false,
+  "replayHttpRouteExists": false
+}

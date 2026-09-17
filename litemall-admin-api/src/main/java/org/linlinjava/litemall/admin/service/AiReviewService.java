@@ -2,8 +2,6 @@ package org.linlinjava.litemall.admin.service;
 
 import org.linlinjava.litemall.admin.vo.AiReviewAnalyzeRequest;
 import org.linlinjava.litemall.admin.vo.AiReviewAnalyzeResponse;
-import org.linlinjava.litemall.admin.util.PublicRequestContext;
-import org.linlinjava.litemall.admin.util.PublicRuntimeMetrics;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -34,19 +32,24 @@ public class AiReviewService {
     private Boolean agentFrameworkFallbackToLegacy;
 
     public AiReviewAnalyzeResponse analyze(AiReviewAnalyzeRequest request) {
+        return postAnalyze("/api/v1/review/analyze", request);
+    }
+
+    public AiReviewAnalyzeResponse shadowAudit(AiReviewAnalyzeRequest request) {
+        return postAnalyze("/api/v1/review/shadow-audit", request);
+    }
+
+    private AiReviewAnalyzeResponse postAnalyze(String path, AiReviewAnalyzeRequest request) {
         RestTemplate restTemplate = createRestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.add(PublicRequestContext.REQUEST_ID_HEADER, PublicRequestContext.currentOrCreate());
         HttpEntity<AiReviewAnalyzeRequest> entity = new HttpEntity<AiReviewAnalyzeRequest>(request, headers);
 
-        String url = trimTrailingSlash(baseUrl) + "/api/v1/review/analyze";
+        String url = trimTrailingSlash(baseUrl) + path;
         try {
             ResponseEntity<AiReviewAnalyzeResponse> response = restTemplate.postForEntity(url, entity, AiReviewAnalyzeResponse.class);
-            PublicRuntimeMetrics.recordAiAnalysis(true);
             return response.getBody();
         } catch (RestClientException e) {
-            PublicRuntimeMetrics.recordAiAnalysis(false);
             throw new AiReviewServiceException("AI service request failed: " + e.getMessage(), e);
         }
     }
@@ -98,6 +101,14 @@ public class AiReviewService {
         return postMap("/api/v1/e-review/analyze/rag", request, "Enterprise e-review RAG analyze");
     }
 
+    public Map policyPlaygroundQuery(Map request) {
+        return postMap("/api/v1/policy/playground/query", request, "Policy evidence playground", Math.max(readTimeout, 60000));
+    }
+
+    public Map policyIndexRuntime() {
+        return getMap("/api/v1/system/policy-index-runtime", "Policy index runtime");
+    }
+
     public String ragV2Report() {
         RestTemplate restTemplate = createRestTemplate();
         try {
@@ -117,10 +128,13 @@ public class AiReviewService {
     }
 
     private Map postMap(String path, Map request, String operation) {
-        RestTemplate restTemplate = createRestTemplate();
+        return postMap(path, request, operation, readTimeout);
+    }
+
+    private Map postMap(String path, Map request, String operation, int timeout) {
+        RestTemplate restTemplate = createRestTemplate(timeout);
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.add(PublicRequestContext.REQUEST_ID_HEADER, PublicRequestContext.currentOrCreate());
         try {
             return restTemplate.postForObject(trimTrailingSlash(baseUrl) + path,
                     new HttpEntity<Map>(request, headers), Map.class);
@@ -130,9 +144,13 @@ public class AiReviewService {
     }
 
     private RestTemplate createRestTemplate() {
+        return createRestTemplate(readTimeout);
+    }
+
+    private RestTemplate createRestTemplate(int timeout) {
         SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
         factory.setConnectTimeout(connectTimeout);
-        factory.setReadTimeout(readTimeout);
+        factory.setReadTimeout(timeout);
         return new RestTemplate(factory);
     }
 

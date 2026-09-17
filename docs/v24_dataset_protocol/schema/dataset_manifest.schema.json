@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ereview.local/schema/dataset_manifest.schema.json",
+  "title": "E-Review Dataset Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "datasetVersion",
+    "protocolVersion",
+    "schemaVersion",
+    "status",
+    "sampleCount",
+    "datasetHash",
+    "createdAt",
+    "codeCommit",
+    "distributions",
+    "artifactHashes"
+  ],
+  "properties": {
+    "datasetVersion": {
+      "type": "string"
+    },
+    "protocolVersion": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "PROTOCOL_ONLY",
+        "COLLECTING",
+        "ANNOTATING",
+        "REVIEWING",
+        "SEALED"
+      ]
+    },
+    "sampleCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "datasetHash": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sealedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "codeCommit": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{7,40}$"
+    },
+    "distributions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "syntheticRatio": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "artifactHashes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "pattern": "^[a-f0-9]{64}$"
+      }
+    },
+    "indexManifest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "modelAssetManifest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

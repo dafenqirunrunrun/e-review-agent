@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "agent-rag-v22-real-reranker-gate-v1",
+  "status": "BLOCKED",
+  "checks": {
+    "assetPass": true,
+    "runtimeIntegrationPass": true,
+    "e2ePass": true,
+    "soakPass": true,
+    "benchmarkPresent": true,
+    "falseEvidenceZero": false,
+    "tenantViolationsZero": true,
+    "semanticImproved": false
+  },
+  "tokens": [
+    "AGENT_RAG_V22_RERANKER_ASSET_PASS",
+    "AGENT_RAG_V22_REAL_RERANKER_RUNTIME_PASS",
+    "AGENT_RAG_V22_REAL_RERANKER_E2E_PASS",
+    "AGENT_RAG_V22_REAL_RERANKER_SOAK_PASS",
+    "AGENT_RAG_V22_REAL_RERANKER_BLOCKED",
+    "MODEL_RERANKER_NOT_VERIFIED"
+  ],
+  "boundaries": [
+    "MODEL_RERANKER_NOT_VERIFIED",
+    "NO_PUSH",
+    "NO_TAG",
+    "NO_RELEASE"
+  ]
+}

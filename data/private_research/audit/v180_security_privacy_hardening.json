@@ -1,0 +1,23 @@
+{
+  "status": "V180_SECURITY_PRIVACY_HARDENING_PASS",
+  "phase": "phase_9_security_privacy_hardening",
+  "training_executed": false,
+  "closed_holdout_accessed": false,
+  "tag_created": false,
+  "controls": {
+    "english_prompt_injection_patterns": true,
+    "chinese_prompt_injection_patterns": true,
+    "business_write_instruction_detection": true,
+    "phone_email_id_card_redaction": true,
+    "bearer_token_redaction": true,
+    "jwt_redaction": true,
+    "safe_logger_allowlist_verified": true,
+    "enterprise_api_sensitive_response_check": true,
+    "repository_security_hygiene_check": true
+  },
+  "pytest_command": "D:\\anaconda\\envs\\torchtest\\python.exe -m pytest ai-service\\tests\\test_v180_security_privacy_hardening.py ai-service\\tests\\test_v180_enterprise_api_java_contract.py",
+  "pytest_result": "13 passed in 2.34s",
+  "security_hygiene_command": "powershell -ExecutionPolicy Bypass -File .\\scripts\\e-review-security-hygiene-check.ps1",
+  "security_hygiene_result": "SECURITY_HYGIENE_CHECK_PASS",
+  "security_hygiene_scanned_files": 1006
+}

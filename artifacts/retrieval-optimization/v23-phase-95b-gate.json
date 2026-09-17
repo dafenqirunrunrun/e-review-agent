@@ -1,0 +1,24 @@
+{
+  "artifactVersion": "agent-rag-v23-phase-95b-gate-v1",
+  "blockingReasons": [
+    "coverageOrDeepRankPass",
+    "independentIncrementPass",
+    "rankingQualityPass"
+  ],
+  "challengeAccessed": false,
+  "checks": {
+    "coverageOrDeepRankPass": false,
+    "independentIncrementPass": false,
+    "noAnswerPass": true,
+    "parentHitRatePass": true,
+    "rankingQualityPass": false,
+    "resourcePass": true,
+    "safetyPass": true
+  },
+  "consumptionStateAfter": "CONSUMED_BLOCKED",
+  "decision": "E_REVIEW_V23_PHASE_95B_BLOCKED",
+  "parentAwareFusion": "E_REVIEW_V23_PARENT_AWARE_FUSION_EVALUATION_BLOCKED",
+  "parentChildEvaluation": "E_REVIEW_V23_PARENT_CHILD_EVALUATION_BLOCKED",
+  "phase95cParentChildChallengeAllowed": false,
+  "realLlmStatus": "REAL_LLM_NOT_REVALIDATED_IN_PHASE_95B_ASSET_MANIFEST_MISSING"
+}

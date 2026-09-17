@@ -1,0 +1,72 @@
+{
+  "marker": "LOCAL_PRIVACY_DEPENDENCY_INVENTORY_COMPLETE",
+  "packages": [
+    {
+      "package_or_binary": "cv2",
+      "installed": false,
+      "version": null,
+      "backend_path": null,
+      "initialization_success": false,
+      "notes": "not installed"
+    },
+    {
+      "package_or_binary": "zxingcpp",
+      "installed": false,
+      "version": null,
+      "backend_path": null,
+      "initialization_success": false,
+      "notes": "not installed"
+    },
+    {
+      "package_or_binary": "pytesseract",
+      "installed": false,
+      "version": null,
+      "backend_path": null,
+      "initialization_success": false,
+      "notes": "not installed"
+    },
+    {
+      "package_or_binary": "tesseract",
+      "installed": false,
+      "version": null,
+      "backend_path": null,
+      "initialization_success": false,
+      "notes": "not found on PATH"
+    },
+    {
+      "package_or_binary": "rapidocr_onnxruntime",
+      "installed": false,
+      "version": null,
+      "backend_path": null,
+      "initialization_success": false,
+      "notes": "not installed"
+    },
+    {
+      "package_or_binary": "onnxruntime",
+      "installed": false,
+      "version": null,
+      "backend_path": null,
+      "initialization_success": false,
+      "notes": "not installed"
+    },
+    {
+      "package_or_binary": "PIL",
+      "installed": true,
+      "version": "12.0.0",
+      "backend_path": "D:\\anaconda\\envs\\torchtest\\lib\\site-packages\\PIL\\__init__.py",
+      "initialization_success": true,
+      "notes": "import initialized"
+    },
+    {
+      "package_or_binary": "numpy",
+      "installed": true,
+      "version": "1.26.4",
+      "backend_path": "D:\\anaconda\\envs\\torchtest\\lib\\site-packages\\numpy\\__init__.py",
+      "initialization_success": true,
+      "notes": "import initialized"
+    }
+  ],
+  "new_dependencies_installed": [],
+  "dependency_sha256_verified": {},
+  "created_at": "2026-07-14T18:59:55.184919+00:00"
+}

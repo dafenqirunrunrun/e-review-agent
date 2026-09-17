@@ -1,0 +1,89 @@
+{
+  "protocolVersion": "dataset-protocol-v0.1",
+  "auditedAt": "2026-07-28T17:25:00+08:00",
+  "baselineCommit": "d8a3ebbc2447631f953d0ea385ccfb54639daab4",
+  "singleSourceContracts": [
+    {
+      "area": "canonical AI decision",
+      "path": "ai-service/app/contracts/e_review_decision.py",
+      "version": "v2.0.0",
+      "promptVersion": "v2.1.0"
+    },
+    {
+      "area": "Agent-RAG evidence bundle",
+      "path": "ai-service/app/agent_rag/contracts.py"
+    },
+    {
+      "area": "canonical JSON schema",
+      "path": "data/contracts/e_review_decision_v2.schema.json"
+    }
+  ],
+  "fieldMappings": [
+    {
+      "datasetField": "primaryRiskType",
+      "runtimeField": "risk_type",
+      "runtimeValues": [
+        "normal_review",
+        "negative_review",
+        "after_sales_risk"
+      ],
+      "status": "PASS_WITH_MAPPING"
+    },
+    {
+      "datasetField": "secondaryRiskTypes",
+      "runtimeField": "riskTypes / evidence_json",
+      "status": "PASS_WITH_BOUNDARY",
+      "note": "Agent-RAG supports list riskTypes; legacy litemall_review_ai_analysis persists one primary risk_type."
+    },
+    {
+      "datasetField": "severity",
+      "runtimeField": "risk_level",
+      "runtimeValues": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "status": "PASS"
+    },
+    {
+      "datasetField": "answerable",
+      "runtimeField": "missing_information + unsupported_claims + route_reason",
+      "status": "PASS_WITH_DERIVATION"
+    },
+    {
+      "datasetField": "requiresHumanReview",
+      "runtimeField": "need_human_review / requiresHumanReview",
+      "status": "PASS"
+    },
+    {
+      "datasetField": "goldEvidenceIds",
+      "runtimeField": "retrieved_case_evidence / citations / citationIds",
+      "status": "PASS"
+    },
+    {
+      "datasetField": "minimumSufficientEvidenceSet",
+      "runtimeField": "citationSetHash + evidence bundle citations",
+      "status": "PASS_WITH_BOUNDARY"
+    },
+    {
+      "datasetField": "sourceType",
+      "runtimeField": "source_type",
+      "runtimeValues": [
+        "demo_review",
+        "litemall_comment",
+        "manual_input"
+      ],
+      "status": "PASS_WITH_RECODE"
+    },
+    {
+      "datasetField": "sampleId",
+      "runtimeField": "source_id / subjectId / evidenceId",
+      "status": "PASS_WITH_MAPPING"
+    }
+  ],
+  "knownBoundaries": [
+    "Frontend display includes critical/none, but audited runtime gate for v2.4 is low/medium/high.",
+    "Legacy review analysis table stores a single risk_type; formal dataset must preserve secondary labels in gold JSON, not depend on legacy table alone.",
+    "Golden Path live warning remains: response retrieval.indexVersion display can differ from active live FAISS health artifact."
+  ]
+}

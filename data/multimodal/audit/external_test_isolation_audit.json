@@ -1,0 +1,110 @@
+{
+  "marker": "EXTERNAL_TEST_ISOLATION_AUDIT_PASS",
+  "allowed_references": [
+    {
+      "path": "ai-service/scripts/audit_external_test_isolation.py",
+      "tokens": [
+        "data/real_world/external_test",
+        "data\\real_world\\external_test",
+        "multimodal_manifest/real_multimodal_external_test",
+        "multimodal_manifest\\real_multimodal_external_test",
+        "real_multimodal_external_test.jsonl",
+        "real_reviews_external_test_200.jsonl",
+        "real_world/external_test",
+        "real_world\\external_test"
+      ],
+      "purpose_hint": "none"
+    },
+    {
+      "path": "ai-service/scripts/audit_sft_data_readiness.py",
+      "tokens": [
+        "data/real_world/external_test",
+        "data\\real_world\\external_test",
+        "multimodal_manifest/real_multimodal_external_test",
+        "multimodal_manifest\\real_multimodal_external_test",
+        "real_multimodal_external_test.jsonl",
+        "real_reviews_external_test_200.jsonl",
+        "real_world/external_test",
+        "real_world\\external_test"
+      ],
+      "purpose_hint": "sft"
+    },
+    {
+      "path": "ai-service/scripts/build_realworld_split.py",
+      "tokens": [
+        "data/real_world/external_test",
+        "data\\real_world\\external_test",
+        "real_reviews_external_test_200.jsonl",
+        "real_world/external_test",
+        "real_world\\external_test"
+      ],
+      "purpose_hint": "none"
+    },
+    {
+      "path": "ai-service/scripts/eval_multimodal_ablation.py",
+      "tokens": [
+        "real_multimodal_external_test.jsonl"
+      ],
+      "purpose_hint": "none"
+    },
+    {
+      "path": "ai-service/scripts/eval_qwen_realworld_external.py",
+      "tokens": [
+        "data/real_world/external_test",
+        "data\\real_world\\external_test",
+        "real_reviews_external_test_200.jsonl",
+        "real_world/external_test",
+        "real_world\\external_test"
+      ],
+      "purpose_hint": "none"
+    },
+    {
+      "path": "ai-service/scripts/eval_rag_validity_and_external.py",
+      "tokens": [
+        "data/real_world/external_test",
+        "data\\real_world\\external_test",
+        "real_reviews_external_test_200.jsonl",
+        "real_world/external_test",
+        "real_world\\external_test"
+      ],
+      "purpose_hint": "none"
+    },
+    {
+      "path": "ai-service/scripts/eval_realworld_multimodal_ablation.py",
+      "tokens": [
+        "real_multimodal_external_test.jsonl"
+      ],
+      "purpose_hint": "none"
+    },
+    {
+      "path": "ai-service/scripts/eval_realworld_vlm_external.py",
+      "tokens": [
+        "real_multimodal_external_test.jsonl"
+      ],
+      "purpose_hint": "none"
+    },
+    {
+      "path": "ai-service/scripts/eval_vlm_visual_evidence.py",
+      "tokens": [
+        "real_multimodal_external_test.jsonl"
+      ],
+      "purpose_hint": "none"
+    }
+  ],
+  "violations": [],
+  "index_metadata_violations": [],
+  "policy": {
+    "external_test_allowed_for": [
+      "final_evaluation",
+      "release_gate_reporting",
+      "sft_readiness_audit"
+    ],
+    "external_test_forbidden_for": [
+      "indexing",
+      "training",
+      "prompt_selection",
+      "fusion_weight_tuning",
+      "threshold_calibration"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-07-15T08:54:57.353229+00:00",
+  "status": "CANONICAL_DECISION_CONTRACT_DEFINED",
+  "contract_file": "ai-service/app/contracts/e_review_decision.py",
+  "schema_name": "e_review_decision",
+  "schema_version": "v2.0.0",
+  "json_schema_path": "data/contracts/e_review_decision_v2.schema.json",
+  "json_schema_hash": "13080d31e66017239870effb3911fcbef8d044ff7376ea6f6c4713c3d69536e3",
+  "canonical_summary": {
+    "schema_name": "e_review_decision",
+    "schema_version": "v2.0.0",
+    "required_fields": [
+      "risk_type",
+      "risk_level",
+      "text_evidence",
+      "need_human_review",
+      "route_reason",
+      "missing_information",
+      "unsupported_claims"
+    ],
+    "field_order": [
+      "schema_version",
+      "risk_type",
+      "risk_level",
+      "text_evidence",
+      "visual_evidence",
+      "retrieved_case_evidence",
+      "need_human_review",
+      "route_reason",
+      "missing_information",
+      "unsupported_claims"
+    ],
+    "risk_type_enum": [
+      "normal_review",
+      "negative_review",
+      "after_sales_risk"
+    ],
+    "risk_level_enum": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "properties": [
+      "missing_information",
+      "need_human_review",
+      "retrieved_case_evidence",
+      "risk_level",
+      "risk_type",
+      "route_reason",
+      "schema_version",
+      "text_evidence",
+      "unsupported_claims",
+      "visual_evidence"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-07-15T05:30:59.841214+00:00",
+  "marker": "QWEN_TEXT_WDDM_CANARY_PASS",
+  "canary": true,
+  "private_exploratory": true,
+  "formal_benchmark": false,
+  "model_dir_label": "<repo-external>/models/Qwen3-1.7B",
+  "max_new_tokens": 64,
+  "max_input_tokens": 512,
+  "do_sample": false,
+  "sample_count": 1,
+  "real_model_inference_count": 1,
+  "model_load_count": 1,
+  "tokenizer_load_count": 1,
+  "generate_call_count": 1,
+  "unload_count": 1,
+  "gpu_lock_acquire_count": 1,
+  "schema_valid_count": 1,
+  "schema_valid_rate": 1.0,
+  "fallback_count": 0,
+  "empty_output_count": 0,
+  "avg_generate_ms": 3269.97,
+  "p95_generate_ms": 3269.97,
+  "avg_active_request_ms": 3307.06,
+  "p95_active_request_ms": 3307.06,
+  "model_load_ms": 6563.34,
+  "tokenizer_load_ms": 713.32,
+  "gpu_peak_memory_mb": 3938.0,
+  "gpu_memory_after_unload_mb": 20.0,
+  "output_token_count": [
+    64
+  ],
+  "input_token_count": [
+    176
+  ],
+  "oom_count": 0,
+  "unload_success": true,
+  "latency_breakdown_by_sample": [
+    {
+      "sample_id_hash": "878e7524b4e20caddc03832b",
+      "source_index": 0,
+      "schema_valid": true,
+      "input_token_count": 176,
+      "output_token_count": 64,
+      "latency_breakdown": {
+        "gpu_wait_ms": 21038.44,
+        "gpu_lock_acquire_ms": 21038.44,
+        "tokenizer_load_ms": 713.32,
+        "model_load_ms": 6563.34,
+        "prompt_build_ms": 0.02,
+        "retrieval_ms": 0.0,
+        "tokenizer_encode_ms": 31.99,
+        "input_transfer_ms": 0.38,
+        "prefill_and_generate_ms": 3269.97,
+        "decode_ms": 2.47,
+        "json_parse_ms": 0.72,
+        "schema_repair_ms": 1.44,
+        "provider_mapping_ms": 0.0,
+        "model_unload_ms": 0.0,
+        "gpu_release_wait_ms": 0.0,
+        "active_request_ms": 3307.06
+      },
+      "error_code": null,
+      "error_summary": "ValueError: JSON object not found"
+    }
+  ],
+  "runtime_counters": {
+    "runtime_instance_count": 1,
+    "tokenizer_load_count": 1,
+    "model_load_count": 1,
+    "generate_call_count": 1,
+    "unload_count": 1,
+    "gpu_lock_acquire_count": 1
+  },
+  "session_breakdown": {
+    "model_unload_ms": 152.41,
+    "gpu_memory_after_unload_mb": 20.0,
+    "unload_success": true,
+    "gpu_memory_before_load_mb": 0.0,
+    "gpu_memory_after_load_mb": 3886.0
+  },
+  "total_benchmark_wall_clock_ms": 38825.37
+}

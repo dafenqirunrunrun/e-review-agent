@@ -1,0 +1,54 @@
+{
+  "status": "PRIVATE_REAL_TEXT_ADAPTER_ROBUSTNESS_PASS",
+  "amazon_sample_count": 10,
+  "asap_sample_count": 10,
+  "base_metrics": {
+    "real_inference_count": 20,
+    "parse_success_rate": 0.15,
+    "raw_schema_valid_rate": 0.0,
+    "repair_rate": 1.0,
+    "final_schema_valid_rate": 1.0,
+    "fallback_rate": 0.0,
+    "empty_output_rate": 0.0,
+    "text_evidence_nonempty_rate": 1.0,
+    "need_human_review_rate": 1.0,
+    "output_risk_type_distribution": {
+      "normal_review": 20
+    },
+    "output_risk_level_distribution": {
+      "low": 20
+    },
+    "prohibited_auto_action_count": 0,
+    "unsupported_business_action_count": 0,
+    "avg_latency_ms": 10215.51,
+    "p95_latency_ms": 11387.53,
+    "oom_count": 0
+  },
+  "adapter_metrics": {
+    "real_inference_count": 20,
+    "parse_success_rate": 0.15,
+    "raw_schema_valid_rate": 0.0,
+    "repair_rate": 1.0,
+    "final_schema_valid_rate": 1.0,
+    "fallback_rate": 0.0,
+    "empty_output_rate": 0.0,
+    "text_evidence_nonempty_rate": 1.0,
+    "need_human_review_rate": 1.0,
+    "output_risk_type_distribution": {
+      "normal_review": 20
+    },
+    "output_risk_level_distribution": {
+      "low": 20
+    },
+    "prohibited_auto_action_count": 0,
+    "unsupported_business_action_count": 0,
+    "avg_latency_ms": 6733.77,
+    "p95_latency_ms": 12981.83,
+    "oom_count": 0
+  },
+  "distribution_shift_between_base_and_adapter": {
+    "risk_type_distribution_changed": false,
+    "risk_level_distribution_changed": false
+  },
+  "note": "Unlabeled private robustness check only; no accuracy or Macro-F1 is computed."
+}

@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-07-15T08:20:23.330033+00:00",
+  "status": "EVALUATION_PIPELINE_BUG_CONFIRMED",
+  "macro_f1_uses_raw_or_repaired": "repaired output",
+  "gold_prediction_same_canonicalization": false,
+  "nested_field_read_bug": false,
+  "missing_fields_mapped_to_unknown": false,
+  "unknown_excluded": false,
+  "labels_include_true_classes": true,
+  "case_mismatch_confirmed": false,
+  "prediction_enum_object_string_bug": false,
+  "gold_risk_type_internal_id": false,
+  "repaired_output_collapses_classes": true,
+  "risk_type_confusion_matrix": {
+    "rows": "gold",
+    "cols": "repaired_prediction",
+    "matrix": {}
+  },
+  "risk_level_confusion_matrix": {
+    "rows": "gold",
+    "cols": "repaired_prediction",
+    "matrix": {}
+  },
+  "need_human_review_confusion_matrix": {
+    "rows": "gold",
+    "cols": "repaired_prediction",
+    "matrix": {}
+  }
+}

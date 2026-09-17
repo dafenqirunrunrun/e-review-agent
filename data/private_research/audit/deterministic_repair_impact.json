@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-07-15T08:20:10.573460+00:00",
+  "status": "DETERMINISTIC_REPAIR_CAUSES_OUTPUT_COLLAPSE",
+  "repair_applied_count": {
+    "base": 48,
+    "adapter": 48
+  },
+  "repaired_field_count": {
+    "base": 384,
+    "adapter": 384
+  },
+  "field_overwrite_count": {
+    "base": 384,
+    "adapter": 384
+  },
+  "default_value_injection_count": {
+    "base": 384,
+    "adapter": 384
+  },
+  "risk_type_overwrite_count": {
+    "base": 48,
+    "adapter": 48
+  },
+  "risk_level_overwrite_count": {
+    "base": 48,
+    "adapter": 48
+  },
+  "need_human_review_overwrite_count": {
+    "base": 48,
+    "adapter": 48
+  },
+  "evidence_overwrite_count": {
+    "base": 48,
+    "adapter": 48
+  },
+  "repair_to_same_value_distribution": {
+    "risk_type": {
+      "normal_review": 96
+    },
+    "risk_level": {
+      "low": 96
+    },
+    "need_human_review": {
+      "true": 96
+    }
+  },
+  "findings": [
+    "v1.6.4 holdout repair rate is 1.0 for Base and Adapter.",
+    "The script-local repair_schema returns constant risk_type=normal_review, risk_level=low, need_human_review=true.",
+    "Task metrics were computed on repaired outputs, so risk fields collapsed to one class."
+  ]
+}

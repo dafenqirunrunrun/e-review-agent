@@ -1,0 +1,3222 @@
+[
+  {
+    "path": ".gitbook.yaml",
+    "length": 36
+  },
+  {
+    "path": ".github/workflows/main.yml",
+    "length": 1876
+  },
+  {
+    "path": ".github/workflows/v180-static-readiness.yml",
+    "length": 1675
+  },
+  {
+    "path": ".workflow/BranchPipeline.yml",
+    "length": 1975
+  },
+  {
+    "path": ".workflow/MasterPipeline.yml",
+    "length": 1945
+  },
+  {
+    "path": ".workflow/PRPipeline.yml",
+    "length": 1639
+  },
+  {
+    "path": "ai-service/data/review_cases.json",
+    "length": 865
+  },
+  {
+    "path": "ai-service/tests/fixtures/agent_rag/phase1_cases.json",
+    "length": 9807
+  },
+  {
+    "path": "ai-service/tests/fixtures/agent_rag/phase2/corpus.json",
+    "length": 4281
+  },
+  {
+    "path": "ai-service/tests/fixtures/agent_rag/phase3a2_sanity/sanity_cases.json",
+    "length": 11141
+  },
+  {
+    "path": "ai-service/tests/fixtures/agent-replay/synthetic_replay_case_001.json",
+    "length": 358
+  },
+  {
+    "path": "ai-service/tests/fixtures/agent-trace/synthetic_trace_case_001.json",
+    "length": 589
+  },
+  {
+    "path": "ai-service/tests/fixtures/e_review_contract/canonical_valid_after_sales.json",
+    "length": 364
+  },
+  {
+    "path": "ai-service/tests/fixtures/e_review_contract/canonical_valid_negative.json",
+    "length": 305
+  },
+  {
+    "path": "ai-service/tests/fixtures/e_review_contract/canonical_valid_normal.json",
+    "length": 295
+  },
+  {
+    "path": "ai-service/tests/fixtures/e_review_contract/enum_case_normalizable.json",
+    "length": 297
+  },
+  {
+    "path": "ai-service/tests/fixtures/e_review_contract/extra_unknown_field.json",
+    "length": 317
+  },
+  {
+    "path": "ai-service/tests/fixtures/e_review_contract/input_echo_object.json",
+    "length": 112
+  },
+  {
+    "path": "ai-service/tests/fixtures/e_review_contract/legacy_alias_valid.json",
+    "length": 262
+  },
+  {
+    "path": "ai-service/tests/fixtures/e_review_contract/missing_risk_type.json",
+    "length": 264
+  },
+  {
+    "path": "ai-service/tests/fixtures/e_review_contract/wrong_evidence_shape.json",
+    "length": 293
+  },
+  {
+    "path": "ai-service/tests/fixtures/v23_sparse_dqa_control_manifest.json",
+    "length": 1497
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-node-trace-coverage.json",
+    "length": 2511
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-replay-deterministic-result.json",
+    "length": 105
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-replay-side-effect-result.json",
+    "length": 101
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-replay-structural-result.json",
+    "length": 88
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-trace-behavior-parity.json",
+    "length": 240
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-trace-contract.json",
+    "length": 1844
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-trace-integrity-result.json",
+    "length": 410
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-trace-resource-result.json",
+    "length": 1571
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-trace-runtime-boundary.json",
+    "length": 400
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-trace-security-result.json",
+    "length": 285
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-agent-trace-tamper-detection.json",
+    "length": 222
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-phase-10a-gate.json",
+    "length": 431
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-phase-10b-gate.json",
+    "length": 688
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-phase-10b-input-lock.json",
+    "length": 1374
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-replay-boundary.json",
+    "length": 225
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-behavior-parity.json",
+    "length": 313
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-configuration.json",
+    "length": 405
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-context-contract.json",
+    "length": 451
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-context-isolation.json",
+    "length": 281
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-context-propagation.json",
+    "length": 7774
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-default-boundary.json",
+    "length": 258
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-e2e.json",
+    "length": 264
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-integrity.json",
+    "length": 268
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-node-coverage.json",
+    "length": 439
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-real-llm.json",
+    "length": 196
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-real-retrieval.json",
+    "length": 293
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-regression.json",
+    "length": 221
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-resource.json",
+    "length": 524
+  },
+  {
+    "path": "artifacts/agent-productionization/v24-runtime-trace-security.json",
+    "length": 236
+  },
+  {
+    "path": "artifacts/agent-rag/v2.0-java-runtime/admin-runtime-summary.json",
+    "length": 419
+  },
+  {
+    "path": "artifacts/agent-rag/v2.0-java-runtime/ai-runtime-summary.json",
+    "length": 1047
+  },
+  {
+    "path": "artifacts/agent-rag/v2.0-java-runtime/database-migration-summary.json",
+    "length": 889
+  },
+  {
+    "path": "artifacts/agent-rag/v2.0-java-runtime/java-runtime-gate-summary.json",
+    "length": 561
+  },
+  {
+    "path": "artifacts/agent-rag/v2.0-java-runtime/java-workflow-runtime-summary.json",
+    "length": 1498
+  },
+  {
+    "path": "artifacts/qualification/build-provenance.json",
+    "length": 1277
+  },
+  {
+    "path": "artifacts/qualification/dependency-license-inventory.json",
+    "length": 23713
+  },
+  {
+    "path": "artifacts/qualification/license-review-summary.json",
+    "length": 41658
+  },
+  {
+    "path": "artifacts/qualification/llm-qualification-summary.json",
+    "length": 1370
+  },
+  {
+    "path": "artifacts/qualification/local-capacity-summary.json",
+    "length": 2934
+  },
+  {
+    "path": "artifacts/qualification/migration-checksum-diagnosis.json",
+    "length": 1792
+  },
+  {
+    "path": "artifacts/qualification/migration-immutability-gate.json",
+    "length": 1792
+  },
+  {
+    "path": "artifacts/qualification/model-assets-summary.json",
+    "length": 849
+  },
+  {
+    "path": "artifacts/qualification/multi-process-index-summary.json",
+    "length": 3827
+  },
+  {
+    "path": "artifacts/qualification/qualification-asset-verification.json",
+    "length": 374
+  },
+  {
+    "path": "artifacts/qualification/reranker-qualification-summary.json",
+    "length": 1376
+  },
+  {
+    "path": "artifacts/qualification/scale-qualification-summary.json",
+    "length": 1671
+  },
+  {
+    "path": "artifacts/qualification/supply-chain-summary.json",
+    "length": 889
+  },
+  {
+    "path": "artifacts/qualification/v21-blocker-model-assets-summary.json",
+    "length": 849
+  },
+  {
+    "path": "artifacts/qualification/v21-candidate-eligibility-gate.json",
+    "length": 864
+  },
+  {
+    "path": "artifacts/qualification/v21-qualification-gate-summary.json",
+    "length": 1237
+  },
+  {
+    "path": "artifacts/qualification/v21-reproducibility-gate.json",
+    "length": 864
+  },
+  {
+    "path": "artifacts/qualification/vulnerability-scan-bundle-status.json",
+    "length": 310
+  },
+  {
+    "path": "artifacts/qualification/vulnerability-scan-summary.json",
+    "length": 345
+  },
+  {
+    "path": "artifacts/real-model-chain/hardware-summary.json",
+    "length": 223
+  },
+  {
+    "path": "artifacts/real-model-chain/model-assets-summary.json",
+    "length": 1688
+  },
+  {
+    "path": "artifacts/real-model-chain/python-environment-gate.json",
+    "length": 715
+  },
+  {
+    "path": "artifacts/real-model-chain/real-llm-smoke-summary.json",
+    "length": 876
+  },
+  {
+    "path": "artifacts/real-model-chain/real-reranker-smoke-summary.json",
+    "length": 695
+  },
+  {
+    "path": "artifacts/real-model-chain/tls-network-diagnostics-summary.json",
+    "length": 786
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-admin-lint-regression-gate.json",
+    "length": 1065
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-answerability-canonical-candidate-pool-manifest.json",
+    "length": 902
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-answerability-policy-gate.json",
+    "length": 207
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-answerable-ranking-gate.json",
+    "length": 13365
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-canonical-candidate-pool-diff.json",
+    "length": 1113
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-evidence-answerability-calibration-decision.json",
+    "length": 1383
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-full-regression-summary.json",
+    "length": 1750
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-llm-quality-dataset-manifest.json",
+    "length": 799
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-phase84-regression-summary.json",
+    "length": 1477
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-real-llm-gate.json",
+    "length": 769
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-real-llm-quality-rows-light.json",
+    "length": 202930
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-real-llm-quality-summary.json",
+    "length": 1541
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-real-marker-regression-gate.json",
+    "length": 5010
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-real-model-chain-e2e-summary.json",
+    "length": 3257
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-real-model-chain-gate.json",
+    "length": 2381
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-real-model-soak-summary.json",
+    "length": 23360
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-real-reranker-benchmark-summary.json",
+    "length": 1776
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-real-reranker-gate.json",
+    "length": 737
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-benchmark-manifest.json",
+    "length": 769
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-calibration-checkpoint.json",
+    "length": 222
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-calibration-decision.json",
+    "length": 5224
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-case-level-error-analysis.json",
+    "length": 765044
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-correctness-gate.json",
+    "length": 850
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-error-analysis-gate.json",
+    "length": 542
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-error-taxonomy.json",
+    "length": 67232
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-evaluation-rows-light.json",
+    "length": 78995
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-false-evidence-audit.json",
+    "length": 4863
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-harness-audit.json",
+    "length": 1217
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-input-ablation-summary.json",
+    "length": 18896
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-recovery-calibration-decision.json",
+    "length": 2641
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-regression-baseline.json",
+    "length": 3692
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-regression-case-analysis.json",
+    "length": 94052
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-rejection-calibration-decision.json",
+    "length": 119220
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-root-cause-decision.json",
+    "length": 1336
+  },
+  {
+    "path": "artifacts/real-model-chain/v22-reranker-token-truncation-audit.json",
+    "length": 534
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/dqa_control_path-fp16-b1-r1.json",
+    "length": 75070
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/dqa_control_path-fp16-b1-r2.json",
+    "length": 74958
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/dqa_control_path-fp16-b8-r1.json",
+    "length": 75168
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/dqa_control_path-fp16-b8-r2.json",
+    "length": 75100
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/dqa_control_path-fp32-b1-r1.json",
+    "length": 75094
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/dqa_control_path-fp32-b1-r2.json",
+    "length": 75037
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/dqa_control_path-fp32-b8-r1.json",
+    "length": 74398
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/dqa_control_path-fp32-b8-r2.json",
+    "length": 75294
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/original_index_builder_path-fp16-b1-r1.json",
+    "length": 73020
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/original_index_builder_path-fp16-b1-r2.json",
+    "length": 75101
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/original_index_builder_path-fp16-b8-r1.json",
+    "length": 74627
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/original_index_builder_path-fp16-b8-r2.json",
+    "length": 74981
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/original_index_builder_path-fp32-b1-r1.json",
+    "length": 74680
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/original_index_builder_path-fp32-b1-r2.json",
+    "length": 75265
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/original_index_builder_path-fp32-b8-r1.json",
+    "length": 75297
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/original_index_builder_path-fp32-b8-r2.json",
+    "length": 75200
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/rca_official_direct_path-fp16-b1-r1.json",
+    "length": 75007
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/rca_official_direct_path-fp16-b1-r2.json",
+    "length": 74050
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/rca_official_direct_path-fp16-b8-r1.json",
+    "length": 75162
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/rca_official_direct_path-fp16-b8-r2.json",
+    "length": 72842
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/rca_official_direct_path-fp32-b1-r1.json",
+    "length": 75281
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/rca_official_direct_path-fp32-b1-r2.json",
+    "length": 75086
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/rca_official_direct_path-fp32-b8-r1.json",
+    "length": 75244
+  },
+  {
+    "path": "artifacts/retrieval-optimization/psq-runs/rca_official_direct_path-fp32-b8-r2.json",
+    "length": 74933
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-environment-boundary.json",
+    "length": 2002
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-environment-gate.json",
+    "length": 863
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-index-build.json",
+    "length": 1241
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-index-gate.json",
+    "length": 576
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-index-integrity.json",
+    "length": 402
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-index-manifest.json",
+    "length": 1786
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-index-repeatability.json",
+    "length": 507
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-isolated-environment.json",
+    "length": 980
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-route-closure.json",
+    "length": 2955
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-runtime-smoke.json",
+    "length": 894
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-bge-m3-sparse-tokenizer-parity.json",
+    "length": 948
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-candidate-fusion-calibration-decision.json",
+    "length": 2450
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-candidate-fusion-calibration-gate.json",
+    "length": 367
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-candidate-fusion-calibration-results.json",
+    "length": 239343
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-candidate-fusion-challenge-result.json",
+    "length": 180
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-candidate-fusion-evaluation-lock.json",
+    "length": 766
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-candidate-fusion-evaluation-result.json",
+    "length": 9577
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-candidate-fusion-generalization-analysis.json",
+    "length": 17195
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-candidate-fusion-resource-result.json",
+    "length": 188
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-current-retrieval-baseline.json",
+    "length": 3896
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-current-retrieval-baseline-corrected.json",
+    "length": 3278
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-current-retrieval-configuration.json",
+    "length": 2310
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-faiss-runtime-smoke.json",
+    "length": 635
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-aware-heldout-bad-case-analysis.json",
+    "length": 58160
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-aware-route-closure.json",
+    "length": 1351
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-calibration-decision.json",
+    "length": 2946
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-calibration-repeat-run-1.json",
+    "length": 212664
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-calibration-repeat-run-2.json",
+    "length": 212663
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-calibration-results.json",
+    "length": 90498
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-deep-rank-analysis.json",
+    "length": 268
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-detached-verify.json",
+    "length": 474
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-environment-responsibility.json",
+    "length": 1782
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-case-hashes.json",
+    "length": 260812
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-consumption-audit.json",
+    "length": 359
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-consumption-state.json",
+    "length": 364
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-decision.json",
+    "length": 3868
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-deep-rank-analysis.json",
+    "length": 301
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-flat-results.json",
+    "length": 255
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-index-lock.json",
+    "length": 551
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-input-manifest.json",
+    "length": 936
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-lock.json",
+    "length": 2181
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-no-answer-analysis.json",
+    "length": 224
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-preflight.json",
+    "length": 425
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-resource-result.json",
+    "length": 282
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-selected-results.json",
+    "length": 268
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-evaluation-split-isolation.json",
+    "length": 337
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-hierarchy-audit.json",
+    "length": 12855
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-index-rebuild-parity.json",
+    "length": 1721
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-qc2-candidate-manifest.json",
+    "length": 1031
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-qc2-detached-verify.json",
+    "length": 969
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-qualified-full-regression.json",
+    "length": 387
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-ranking-hash-parity.json",
+    "length": 2711
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-regression-delta.json",
+    "length": 1883
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-reproducibility.json",
+    "length": 1178
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-resource-result.json",
+    "length": 763
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-child-three-layer-regression-delta.json",
+    "length": 1688
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-granularity-audit.json",
+    "length": 6396
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-index-manifest.json",
+    "length": 9946
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-parent-representation-calibration.json",
+    "length": 888
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-90-91-gate.json",
+    "length": 11031
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-92-gate.json",
+    "length": 705
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-94b-dqa-gate.json",
+    "length": 592
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-94b-psq-gate.json",
+    "length": 721
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-94-gate.json",
+    "length": 710
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-95a-gate.json",
+    "length": 788
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-95a-qc2-gate.json",
+    "length": 997
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-95a-qc2-input-lock.json",
+    "length": 1570
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-95a-qc-gate.json",
+    "length": 832
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-95b-gate.json",
+    "length": 841
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-phase-96a-gate.json",
+    "length": 768
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-real-dense-asset-discovery.json",
+    "length": 1634
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-relevant-rank-distribution.json",
+    "length": 2680
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-baseline-gate.json",
+    "length": 771
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-challenge-preservation.json",
+    "length": 545
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-dataset-gate.json",
+    "length": 941
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-dataset-leakage-audit.json",
+    "length": 232
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-experiment-decision-matrix.json",
+    "length": 7880
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-metric-contract-audit.json",
+    "length": 978
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-metric-contract-gate.json",
+    "length": 407
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-miss-analysis-gate.json",
+    "length": 742
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-miss-case-analysis.json",
+    "length": 329679
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-miss-taxonomy-summary.json",
+    "length": 733
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-optimization-priority-decision.json",
+    "length": 2596
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-program-closure.json",
+    "length": 739
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-qualification-v1-manifest.json",
+    "length": 267613
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-qualification-v2-audit.json",
+    "length": 5320
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-qualification-v2-gate.json",
+    "length": 728
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-qualification-v2-manifest.json",
+    "length": 4408
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-reference-baseline-lock.json",
+    "length": 1088
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-representation-gate.json",
+    "length": 429
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-representation-qualification.json",
+    "length": 12800
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-retrieval-runtime-contamination-audit.json",
+    "length": 573
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-batch-parity.json",
+    "length": 1063
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-control-set-results.json",
+    "length": 3203
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-corpus-quality-scorecard.json",
+    "length": 179196
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-dqa-root-cause-decision.json",
+    "length": 495
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-empty-vector-input-profile.json",
+    "length": 136049
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-empty-vector-rca-gate.json",
+    "length": 740
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-empty-vector-root-cause.json",
+    "length": 796
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-empty-vector-stage-trace.json",
+    "length": 674885
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-encoding-configuration-decision.json",
+    "length": 462
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-fp16-fp32-results.json",
+    "length": 17093
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-full-corpus-input-manifest.json",
+    "length": 47543
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-historical-56-reconciliation.json",
+    "length": 610
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-invocation-path-diff.json",
+    "length": 21700
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-model-input-field-audit.json",
+    "length": 166781
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-precision-comparison.json",
+    "length": 2658
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-precision-resource-result.json",
+    "length": 196
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-precision-stability-matrix.json",
+    "length": 28687
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-process-repeatability.json",
+    "length": 2349
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-representation-diagnostic.json",
+    "length": 3126
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-single-batch-parity.json",
+    "length": 378
+  },
+  {
+    "path": "artifacts/retrieval-optimization/v23-sparse-wrapper-official-parity.json",
+    "length": 246
+  },
+  {
+    "path": "artifacts/sbom/admin.cdx.json",
+    "length": 262
+  },
+  {
+    "path": "artifacts/sbom/customer.cdx.json",
+    "length": 265
+  },
+  {
+    "path": "artifacts/sbom/java.cdx.json",
+    "length": 10880
+  },
+  {
+    "path": "artifacts/sbom/python.cdx.json",
+    "length": 10087
+  },
+  {
+    "path": "compliance/license-policy.yml",
+    "length": 287
+  },
+  {
+    "path": "config/examples/v22-real-model-assets.example.json",
+    "length": 1106
+  },
+  {
+    "path": "config/local/application-agent-rag-local.example.yml",
+    "length": 915
+  },
+  {
+    "path": "config/qualification/v23-hybrid-retrieval-candidate-fusion.yml",
+    "length": 662
+  },
+  {
+    "path": "config/qualification/v23-parent-child-heldout-evaluation.yml",
+    "length": 1514
+  },
+  {
+    "path": "config/qualification/v23-parent-child-retrieval-candidate.yml",
+    "length": 1110
+  },
+  {
+    "path": "config/qualification/v23-retrieval-reference-baseline.yml",
+    "length": 959
+  },
+  {
+    "path": "data/authorized_intake/audit/authorization_manifest_validation.json",
+    "length": 620
+  },
+  {
+    "path": "data/authorized_intake/audit/authorized_dataset_leakage_audit.json",
+    "length": 714
+  },
+  {
+    "path": "data/authorized_intake/audit/authorized_sft_readiness.json",
+    "length": 639
+  },
+  {
+    "path": "data/authorized_intake/audit/intake_run_summary.json",
+    "length": 891
+  },
+  {
+    "path": "data/authorized_intake/audit/technical_capability_freeze.json",
+    "length": 969
+  },
+  {
+    "path": "data/authorized_intake/schemas/authorized_annotation_schema.json",
+    "length": 1113
+  },
+  {
+    "path": "data/authorized_intake/schemas/authorized_multimodal_schema.json",
+    "length": 1091
+  },
+  {
+    "path": "data/authorized_intake/schemas/authorized_review_schema.json",
+    "length": 1249
+  },
+  {
+    "path": "data/authorized_intake/split_manifest/authorized_dataset_splits.json",
+    "length": 399
+  },
+  {
+    "path": "data/authorized_intake/statistics/redaction_summary.json",
+    "length": 311
+  },
+  {
+    "path": "data/authorized_intake/templates/adjudication_template.jsonl",
+    "length": 264
+  },
+  {
+    "path": "data/authorized_intake/templates/annotation_batch_template.jsonl",
+    "length": 340
+  },
+  {
+    "path": "data/authorized_intake/templates/authorization_manifest_template.yaml",
+    "length": 1393
+  },
+  {
+    "path": "data/contracts/e_review_decision_v2.schema.json",
+    "length": 2767
+  },
+  {
+    "path": "data/eval/review_schema_eval.jsonl",
+    "length": 38324
+  },
+  {
+    "path": "data/governance/private_research_source_matrix.yaml",
+    "length": 1378
+  },
+  {
+    "path": "data/governance/project_mode.yaml",
+    "length": 1686
+  },
+  {
+    "path": "data/multimodal/audit/accelerate_wheel_install_status.json",
+    "length": 1013
+  },
+  {
+    "path": "data/multimodal/audit/conda_accelerate_install_result.json",
+    "length": 546
+  },
+  {
+    "path": "data/multimodal/audit/external_test_isolation_audit.json",
+    "length": 3325
+  },
+  {
+    "path": "data/multimodal/audit/gpu_gate_runtime_report.json",
+    "length": 537
+  },
+  {
+    "path": "data/multimodal/audit/network_tls_diagnostics.json",
+    "length": 15255
+  },
+  {
+    "path": "data/multimodal/audit/qwen3_vl_acquisition_status.json",
+    "length": 4643
+  },
+  {
+    "path": "data/multimodal/audit/qwen3_vl_direct_download_status.json",
+    "length": 3055
+  },
+  {
+    "path": "data/multimodal/audit/qwen3_vl_runtime_diagnostics.json",
+    "length": 2856
+  },
+  {
+    "path": "data/multimodal/audit/sft_data_readiness.json",
+    "length": 792
+  },
+  {
+    "path": "data/multimodal/audit/v161_final_gate_results.json",
+    "length": 4657
+  },
+  {
+    "path": "data/multimodal/audit/v161_final_status_summary.json",
+    "length": 6376
+  },
+  {
+    "path": "data/multimodal/audit/v161_full_regression_results.json",
+    "length": 33687
+  },
+  {
+    "path": "data/multimodal/audit/v161_release_guard_results.json",
+    "length": 1305
+  },
+  {
+    "path": "data/multimodal/audit/v161_requirement_traceability.json",
+    "length": 5484
+  },
+  {
+    "path": "data/multimodal/audit/v161_unblock_prerequisites.json",
+    "length": 2686
+  },
+  {
+    "path": "data/multimodal/audit/vlm_device_placement_comparison.json",
+    "length": 893
+  },
+  {
+    "path": "data/multimodal/audit/vlm_latency_breakdown.json",
+    "length": 1990
+  },
+  {
+    "path": "data/multimodal/audit/vlm_observability_results.json",
+    "length": 705
+  },
+  {
+    "path": "data/multimodal/eval/local_vlm_smoke_results.json",
+    "length": 4464
+  },
+  {
+    "path": "data/multimodal/eval/multimodal_ablation_results.json",
+    "length": 3951
+  },
+  {
+    "path": "data/multimodal/eval/multimodal_failures.jsonl",
+    "length": 0
+  },
+  {
+    "path": "data/multimodal/eval/route_calibration_results.json",
+    "length": 1348
+  },
+  {
+    "path": "data/multimodal/eval/vlm_provider_smoke_results.json",
+    "length": 778
+  },
+  {
+    "path": "data/multimodal/eval/vlm_visual_eval_results.json",
+    "length": 1390
+  },
+  {
+    "path": "data/private_research/audit/deterministic_repair_impact.json",
+    "length": 1236
+  },
+  {
+    "path": "data/private_research/audit/evaluation_pipeline_audit.json",
+    "length": 894
+  },
+  {
+    "path": "data/private_research/audit/private_research_gate_status.json",
+    "length": 1277
+  },
+  {
+    "path": "data/private_research/audit/pypi_tls_recovery.json",
+    "length": 19281
+  },
+  {
+    "path": "data/private_research/audit/qlora_backend_capability.json",
+    "length": 623
+  },
+  {
+    "path": "data/private_research/audit/qlora_backend_capability_v2.json",
+    "length": 1183
+  },
+  {
+    "path": "data/private_research/audit/qwen_runtime_path_audit.json",
+    "length": 1745
+  },
+  {
+    "path": "data/private_research/audit/qwen_text_runtime_budget_smoke.json",
+    "length": 5158
+  },
+  {
+    "path": "data/private_research/audit/schema_contract_matrix.json",
+    "length": 7260
+  },
+  {
+    "path": "data/private_research/audit/schema_source_inventory.json",
+    "length": 11077
+  },
+  {
+    "path": "data/private_research/audit/sft_dependency_inventory.json",
+    "length": 6086
+  },
+  {
+    "path": "data/private_research/audit/sft_dependency_inventory_v2.json",
+    "length": 1896
+  },
+  {
+    "path": "data/private_research/audit/sft_loss_mask_audit.json",
+    "length": 2350
+  },
+  {
+    "path": "data/private_research/audit/sft_training_objective_contract.json",
+    "length": 734
+  },
+  {
+    "path": "data/private_research/audit/synthetic_label_mapping_audit.json",
+    "length": 2446
+  },
+  {
+    "path": "data/private_research/audit/synthetic_qlora_budget.json",
+    "length": 2140
+  },
+  {
+    "path": "data/private_research/audit/synthetic_sft_dataset_audit.json",
+    "length": 990
+  },
+  {
+    "path": "data/private_research/audit/synthetic_sft_readiness.json",
+    "length": 1061
+  },
+  {
+    "path": "data/private_research/audit/synthetic_sft_split_manifest.json",
+    "length": 148635
+  },
+  {
+    "path": "data/private_research/audit/synthetic_sft_split_statistics.json",
+    "length": 564
+  },
+  {
+    "path": "data/private_research/audit/synthetic_target_schema_audit.json",
+    "length": 1807
+  },
+  {
+    "path": "data/private_research/audit/torchtest_environment_after.json",
+    "length": 534
+  },
+  {
+    "path": "data/private_research/audit/torchtest_environment_after_v1633.json",
+    "length": 398
+  },
+  {
+    "path": "data/private_research/audit/torchtest_environment_after_v164.json",
+    "length": 343
+  },
+  {
+    "path": "data/private_research/audit/torchtest_environment_baseline.json",
+    "length": 354
+  },
+  {
+    "path": "data/private_research/audit/train_inference_prompt_alignment.json",
+    "length": 985
+  },
+  {
+    "path": "data/private_research/audit/v1610_checkpoint_integrity.json",
+    "length": 2896
+  },
+  {
+    "path": "data/private_research/audit/v1610_experiment_closure.json",
+    "length": 1112
+  },
+  {
+    "path": "data/private_research/audit/v1610_final_result_freeze.json",
+    "length": 618
+  },
+  {
+    "path": "data/private_research/audit/v1610_memory_root_cause.json",
+    "length": 900
+  },
+  {
+    "path": "data/private_research/audit/v1610_memory_soak.json",
+    "length": 352
+  },
+  {
+    "path": "data/private_research/audit/v1610_memory_timeline_analysis.json",
+    "length": 5963
+  },
+  {
+    "path": "data/private_research/audit/v1610_v22_adapter_value_gate.json",
+    "length": 475
+  },
+  {
+    "path": "data/private_research/audit/v1611_class_distribution_analysis.json",
+    "length": 1043
+  },
+  {
+    "path": "data/private_research/audit/v1611_dataset_access_guard.json",
+    "length": 203
+  },
+  {
+    "path": "data/private_research/audit/v1611_experiment_matrix.json",
+    "length": 716
+  },
+  {
+    "path": "data/private_research/audit/v1611_no_go_root_cause.json",
+    "length": 2367
+  },
+  {
+    "path": "data/private_research/audit/v1611_scenario_diversity_analysis.json",
+    "length": 951
+  },
+  {
+    "path": "data/private_research/audit/v1611_synthetic_v23_design.json",
+    "length": 780
+  },
+  {
+    "path": "data/private_research/audit/v1611_target_template_analysis.json",
+    "length": 443
+  },
+  {
+    "path": "data/private_research/audit/v1611_token_objective_analysis.json",
+    "length": 257
+  },
+  {
+    "path": "data/private_research/audit/v1611_training_curve_analysis.json",
+    "length": 930
+  },
+  {
+    "path": "data/private_research/audit/v1611_v23_build_gate.json",
+    "length": 366
+  },
+  {
+    "path": "data/private_research/audit/v1611_validation_artifact_inventory.json",
+    "length": 804
+  },
+  {
+    "path": "data/private_research/audit/v1611_validation_metrics.json",
+    "length": 1989
+  },
+  {
+    "path": "data/private_research/audit/v1611_validation_slice_analysis.json",
+    "length": 21259
+  },
+  {
+    "path": "data/private_research/audit/v1612_base_data_canary.json",
+    "length": 652
+  },
+  {
+    "path": "data/private_research/audit/v1612_experiment_a_closure.json",
+    "length": 227
+  },
+  {
+    "path": "data/private_research/audit/v1612_experiment_a_contract_freeze.json",
+    "length": 826
+  },
+  {
+    "path": "data/private_research/audit/v1612_experiment_a_controls.json",
+    "length": 910
+  },
+  {
+    "path": "data/private_research/audit/v1612_experiment_a_eval_summary.json",
+    "length": 3605
+  },
+  {
+    "path": "data/private_research/audit/v1612_experiment_a_training_summary.json",
+    "length": 121444
+  },
+  {
+    "path": "data/private_research/audit/v1612_final_result_freeze.json",
+    "length": 1086
+  },
+  {
+    "path": "data/private_research/audit/v1612_synthetic_v23_dataset_audit.json",
+    "length": 2583
+  },
+  {
+    "path": "data/private_research/audit/v1612_synthetic_v23_generation_summary.json",
+    "length": 933
+  },
+  {
+    "path": "data/private_research/audit/v1612_synthetic_v23_split_manifest.json",
+    "length": 2603
+  },
+  {
+    "path": "data/private_research/audit/v1612_v23_qlora_budget.json",
+    "length": 618
+  },
+  {
+    "path": "data/private_research/audit/v164_adapter_invalidation.json",
+    "length": 690
+  },
+  {
+    "path": "data/private_research/audit/v164_experiment_freeze.json",
+    "length": 1054
+  },
+  {
+    "path": "data/private_research/audit/v164_raw_schema_failure_analysis.json",
+    "length": 846
+  },
+  {
+    "path": "data/private_research/audit/v164_synthetic_split_freeze.json",
+    "length": 1073
+  },
+  {
+    "path": "data/private_research/audit/v165_schema_contract_audit_summary.json",
+    "length": 1270
+  },
+  {
+    "path": "data/private_research/audit/v165_schema_contract_final_gate.json",
+    "length": 1257
+  },
+  {
+    "path": "data/private_research/audit/v165_validation_diagnostic.json",
+    "length": 5989
+  },
+  {
+    "path": "data/private_research/audit/v166_base_prompt_canary.json",
+    "length": 801
+  },
+  {
+    "path": "data/private_research/audit/v166_canonical_contract.json",
+    "length": 1494
+  },
+  {
+    "path": "data/private_research/audit/v166_completion_only_mask.json",
+    "length": 1525
+  },
+  {
+    "path": "data/private_research/audit/v166_contract_unification_summary.json",
+    "length": 529
+  },
+  {
+    "path": "data/private_research/audit/v166_prompt_alignment.json",
+    "length": 1005
+  },
+  {
+    "path": "data/private_research/audit/v166_schema_consumer_inventory.json",
+    "length": 2623
+  },
+  {
+    "path": "data/private_research/audit/v166_split_block_freeze.json",
+    "length": 549
+  },
+  {
+    "path": "data/private_research/audit/v166_synthetic_sft_v2_split.json",
+    "length": 1331
+  },
+  {
+    "path": "data/private_research/audit/v166_synthetic_sft_v2_summary.json",
+    "length": 1764
+  },
+  {
+    "path": "data/private_research/audit/v166_training_contract_freeze.json",
+    "length": 608
+  },
+  {
+    "path": "data/private_research/audit/v167_base_prompt_canary.json",
+    "length": 1697
+  },
+  {
+    "path": "data/private_research/audit/v167_synthetic_lineage_audit.json",
+    "length": 5391
+  },
+  {
+    "path": "data/private_research/audit/v167_synthetic_sft_v21_split.json",
+    "length": 2367
+  },
+  {
+    "path": "data/private_research/audit/v167_synthetic_sft_v21_summary.json",
+    "length": 2443
+  },
+  {
+    "path": "data/private_research/audit/v167_training_contract_freeze.json",
+    "length": 847
+  },
+  {
+    "path": "data/private_research/audit/v168_completion_only_qlora_budget.json",
+    "length": 336
+  },
+  {
+    "path": "data/private_research/audit/v168_holdout_provenance.json",
+    "length": 560
+  },
+  {
+    "path": "data/private_research/audit/v168_pretrain_contract_integrity.json",
+    "length": 2601
+  },
+  {
+    "path": "data/private_research/audit/v168_train_validation_data_audit.json",
+    "length": 819
+  },
+  {
+    "path": "data/private_research/audit/v168_truncation_block_freeze.json",
+    "length": 481
+  },
+  {
+    "path": "data/private_research/audit/v168_v21_adapter_value_gate.json",
+    "length": 313
+  },
+  {
+    "path": "data/private_research/audit/v169_base_prompt_canary.json",
+    "length": 1226
+  },
+  {
+    "path": "data/private_research/audit/v169_prompt_v21_compaction.json",
+    "length": 470
+  },
+  {
+    "path": "data/private_research/audit/v169_sft_v22_build_summary.json",
+    "length": 1879
+  },
+  {
+    "path": "data/private_research/audit/v169_sft_v22_dataset_audit.json",
+    "length": 1825
+  },
+  {
+    "path": "data/private_research/audit/v169_sft_v22_token_audit.json",
+    "length": 1235
+  },
+  {
+    "path": "data/private_research/audit/v169_token_length_breakdown.json",
+    "length": 2773
+  },
+  {
+    "path": "data/private_research/audit/v169_training_memory_block_freeze.json",
+    "length": 519
+  },
+  {
+    "path": "data/private_research/audit/v169_v22_adapter_value_gate.json",
+    "length": 344
+  },
+  {
+    "path": "data/private_research/audit/v169_v22_qlora_budget.json",
+    "length": 846
+  },
+  {
+    "path": "data/private_research/audit/v169_v22_training_contract_freeze.json",
+    "length": 1585
+  },
+  {
+    "path": "data/private_research/audit/v170_architecture_inventory.json",
+    "length": 10707
+  },
+  {
+    "path": "data/private_research/audit/v170_enterprise_eval_dataset.json",
+    "length": 651
+  },
+  {
+    "path": "data/private_research/audit/v170_enterprise_quality_gates.json",
+    "length": 2196
+  },
+  {
+    "path": "data/private_research/audit/v180_api_java_integration.json",
+    "length": 1424
+  },
+  {
+    "path": "data/private_research/audit/v180_claim_freeze.json",
+    "length": 1435
+  },
+  {
+    "path": "data/private_research/audit/v180_difficult_benchmark_audit.json",
+    "length": 1398
+  },
+  {
+    "path": "data/private_research/audit/v180_failure_injection.json",
+    "length": 3855
+  },
+  {
+    "path": "data/private_research/audit/v180_final_gate.json",
+    "length": 1969
+  },
+  {
+    "path": "data/private_research/audit/v180_governed_agent_hardening.json",
+    "length": 1092
+  },
+  {
+    "path": "data/private_research/audit/v180_local_embedding_inventory.json",
+    "length": 1649
+  },
+  {
+    "path": "data/private_research/audit/v180_observability_real_signals.json",
+    "length": 902
+  },
+  {
+    "path": "data/private_research/audit/v180_performance_soak.json",
+    "length": 1143
+  },
+  {
+    "path": "data/private_research/audit/v180_security_privacy_hardening.json",
+    "length": 1091
+  },
+  {
+    "path": "data/private_research/audit/v180_v170_truth_audit.json",
+    "length": 3357
+  },
+  {
+    "path": "data/private_research/audit/v181_benchmark_provenance_audit.json",
+    "length": 279
+  },
+  {
+    "path": "data/private_research/audit/v181_capability_evidence_levels.json",
+    "length": 495
+  },
+  {
+    "path": "data/private_research/audit/v181_docker_revalidation.json",
+    "length": 452
+  },
+  {
+    "path": "data/private_research/audit/v181_evidence_inventory.json",
+    "length": 14310
+  },
+  {
+    "path": "data/private_research/audit/v181_failure_injection_revalidation.json",
+    "length": 590
+  },
+  {
+    "path": "data/private_research/audit/v181_faiss_revalidation.json",
+    "length": 551
+  },
+  {
+    "path": "data/private_research/audit/v181_final_audit_freeze.json",
+    "length": 687
+  },
+  {
+    "path": "data/private_research/audit/v181_gate_static_analysis.json",
+    "length": 375
+  },
+  {
+    "path": "data/private_research/audit/v181_independent_benchmark_eval.json",
+    "length": 903
+  },
+  {
+    "path": "data/private_research/audit/v181_independent_readiness_audit.json",
+    "length": 73952
+  },
+  {
+    "path": "data/private_research/audit/v181_java_contract_revalidation.json",
+    "length": 607
+  },
+  {
+    "path": "data/private_research/audit/v181_real_embedding_revalidation.json",
+    "length": 673
+  },
+  {
+    "path": "data/private_research/audit/v181_real_http_revalidation.json",
+    "length": 232
+  },
+  {
+    "path": "data/private_research/audit/v181_soak_revalidation.json",
+    "length": 373
+  },
+  {
+    "path": "data/private_research/audit/v181_sparse_revalidation.json",
+    "length": 350
+  },
+  {
+    "path": "data/private_research/audit/v181_tenant_isolation_revalidation.json",
+    "length": 833
+  },
+  {
+    "path": "data/private_research/audit/v181_test_depth_audit.json",
+    "length": 51690
+  },
+  {
+    "path": "data/private_research/audit/v181_test_semantics_audit.json",
+    "length": 8302
+  },
+  {
+    "path": "data/private_research/audit/v182_benchmark_manifest.json",
+    "length": 355
+  },
+  {
+    "path": "data/private_research/audit/v182_benchmark_provenance.json",
+    "length": 440
+  },
+  {
+    "path": "data/private_research/audit/v182_capability_evidence_levels.json",
+    "length": 338
+  },
+  {
+    "path": "data/private_research/audit/v182_dense_provider_call_graph.json",
+    "length": 1357
+  },
+  {
+    "path": "data/private_research/audit/v182_docker_result.json",
+    "length": 1081
+  },
+  {
+    "path": "data/private_research/audit/v182_final_gate.json",
+    "length": 39687
+  },
+  {
+    "path": "data/private_research/audit/v182_java_test_enablement_audit.json",
+    "length": 224
+  },
+  {
+    "path": "data/private_research/audit/v182_java_test_result.json",
+    "length": 300
+  },
+  {
+    "path": "data/private_research/audit/v182_real_bge_faiss_index.json",
+    "length": 406
+  },
+  {
+    "path": "data/private_research/audit/v182_real_bge_runtime.json",
+    "length": 664
+  },
+  {
+    "path": "data/private_research/audit/v182_retrieval_bootstrap.json",
+    "length": 560
+  },
+  {
+    "path": "data/private_research/audit/v182_retrieval_evaluation.json",
+    "length": 29202
+  },
+  {
+    "path": "data/private_research/audit/v182_soak_verification.json",
+    "length": 657
+  },
+  {
+    "path": "data/private_research/audit/v21_holdout_seal.json",
+    "length": 431
+  },
+  {
+    "path": "data/private_research/audit/v22_holdout_seal.json",
+    "length": 880
+  },
+  {
+    "path": "data/private_research/audit/v23_holdout_seal.json",
+    "length": 1005
+  },
+  {
+    "path": "data/private_research/audit/verified_wheelhouse_manifest.json",
+    "length": 842
+  },
+  {
+    "path": "data/private_research/audit/wddm_gpu_gate_audit.json",
+    "length": 1261
+  },
+  {
+    "path": "data/private_research/enterprise_rag_v180/difficult_corpus.jsonl",
+    "length": 114996
+  },
+  {
+    "path": "data/private_research/enterprise_rag_v180/difficult_queries.jsonl",
+    "length": 29618
+  },
+  {
+    "path": "data/private_research/enterprise_rag_v180/faiss_index/versions/bge-m3-20260716T180438006727Z/manifest.json",
+    "length": 441
+  },
+  {
+    "path": "data/private_research/enterprise_rag_v180/faiss_index/versions/bge-m3-20260716T180438006727Z/metadata.jsonl",
+    "length": 34930
+  },
+  {
+    "path": "data/private_research/eval/private_text_exploratory_manifest.json",
+    "length": 240
+  },
+  {
+    "path": "data/private_research/eval/private_text_exploratory_summary.json",
+    "length": 2561
+  },
+  {
+    "path": "data/private_research/eval/qwen_text_runtime_budget_summary.json",
+    "length": 5158
+  },
+  {
+    "path": "data/private_research/eval/qwen_text_wddm_canary_summary.json",
+    "length": 2424
+  },
+  {
+    "path": "data/private_research/eval/v1610_v22_holdout_evaluation.json",
+    "length": 2439
+  },
+  {
+    "path": "data/private_research/eval/v1610_v22_real_text_robustness.json",
+    "length": 1274
+  },
+  {
+    "path": "data/private_research/eval/v1612_v23_real_text_robustness.json",
+    "length": 1231
+  },
+  {
+    "path": "data/private_research/eval/v168_v21_holdout_evaluation.json",
+    "length": 289
+  },
+  {
+    "path": "data/private_research/eval/v168_v21_real_text_robustness.json",
+    "length": 316
+  },
+  {
+    "path": "data/private_research/eval/v169_v22_holdout_evaluation.json",
+    "length": 350
+  },
+  {
+    "path": "data/private_research/eval/v169_v22_real_text_robustness.json",
+    "length": 336
+  },
+  {
+    "path": "data/private_research/eval/v180_real_retrieval_eval.json",
+    "length": 3839
+  },
+  {
+    "path": "data/private_research/training/synthetic_qlora_smoke_config.json",
+    "length": 455
+  },
+  {
+    "path": "data/private_research/training/synthetic_qlora_smoke_summary.json",
+    "length": 1113
+  },
+  {
+    "path": "data/private_research/training/v1610_v22_resumed_training_summary.json",
+    "length": 34190
+  },
+  {
+    "path": "data/private_research/training/v1610_v22_training_config.json",
+    "length": 705
+  },
+  {
+    "path": "data/private_research/training/v1612_experiment_a_training_log.json",
+    "length": 120665
+  },
+  {
+    "path": "data/private_research/training/v164_controlled_training_config.json",
+    "length": 679
+  },
+  {
+    "path": "data/private_research/training/v164_controlled_training_summary.json",
+    "length": 16157
+  },
+  {
+    "path": "data/private_research/training/v164_holdout_eval_summary.json",
+    "length": 4368
+  },
+  {
+    "path": "data/private_research/training/v164_memory_summary.json",
+    "length": 25446
+  },
+  {
+    "path": "data/private_research/training/v164_private_real_text_robustness.json",
+    "length": 1639
+  },
+  {
+    "path": "data/private_research/training/v168_v21_training_config.json",
+    "length": 380
+  },
+  {
+    "path": "data/private_research/training/v168_v21_training_summary.json",
+    "length": 435
+  },
+  {
+    "path": "data/private_research/training/v169_v22_training_config.json",
+    "length": 595
+  },
+  {
+    "path": "data/private_research/training/v169_v22_training_summary.json",
+    "length": 11771
+  },
+  {
+    "path": "data/qualification/v22-real-llm-quality-dataset.jsonl",
+    "length": 289325
+  },
+  {
+    "path": "data/rag/audit/exact_duplicates.jsonl",
+    "length": 0
+  },
+  {
+    "path": "data/rag/audit/high_overlap_queries.jsonl",
+    "length": 319
+  },
+  {
+    "path": "data/rag/audit/leakage_audit_summary.json",
+    "length": 873
+  },
+  {
+    "path": "data/rag/audit/metadata_shortcuts.jsonl",
+    "length": 15744
+  },
+  {
+    "path": "data/rag/audit/near_duplicates.jsonl",
+    "length": 0
+  },
+  {
+    "path": "data/rag/audit/normalized_duplicates.jsonl",
+    "length": 0
+  },
+  {
+    "path": "data/rag/audit/qwen_realworld_external_eval_results.json",
+    "length": 2874
+  },
+  {
+    "path": "data/rag/audit/template_families.json",
+    "length": 62545
+  },
+  {
+    "path": "data/rag/audit/validity_external_eval_failures.jsonl",
+    "length": 99050
+  },
+  {
+    "path": "data/rag/audit/validity_external_eval_results.json",
+    "length": 12978
+  },
+  {
+    "path": "data/rag/cases/risk_cases_240.jsonl",
+    "length": 130287
+  },
+  {
+    "path": "data/rag/comments/review_samples_1200.jsonl",
+    "length": 605070
+  },
+  {
+    "path": "data/rag/dataset_stats.json",
+    "length": 583
+  },
+  {
+    "path": "data/rag/eval/qwen_rag_downstream_results.json",
+    "length": 204231
+  },
+  {
+    "path": "data/rag/eval/rag_eval_failures.jsonl",
+    "length": 903
+  },
+  {
+    "path": "data/rag/eval/rag_eval_results.json",
+    "length": 5427
+  },
+  {
+    "path": "data/rag/golden_queries/golden_queries_80.jsonl",
+    "length": 36570
+  },
+  {
+    "path": "data/rag/index/risk_cases_bge_m3_meta.json",
+    "length": 182636
+  },
+  {
+    "path": "data/real_world/annotation_manifest/annotation_template.jsonl",
+    "length": 773
+  },
+  {
+    "path": "data/real_world/audit/annotation_agreement.json",
+    "length": 268
+  },
+  {
+    "path": "data/real_world/audit/image_privacy_detector_capabilities.json",
+    "length": 5043
+  },
+  {
+    "path": "data/real_world/audit/local_privacy_dependency_inventory.json",
+    "length": 2026
+  },
+  {
+    "path": "data/real_world/audit/pilot_baseline_snapshot.json",
+    "length": 10597
+  },
+  {
+    "path": "data/real_world/audit/pilot_dataset_role_freeze.json",
+    "length": 1371
+  },
+  {
+    "path": "data/real_world/audit/pilot_duplicate_audit.json",
+    "length": 347
+  },
+  {
+    "path": "data/real_world/audit/pilot_image_download_retry.json",
+    "length": 510
+  },
+  {
+    "path": "data/real_world/audit/pilot_image_privacy_audit.json",
+    "length": 364
+  },
+  {
+    "path": "data/real_world/audit/pilot_image_redaction.json",
+    "length": 151
+  },
+  {
+    "path": "data/real_world/audit/pilot_scale_readiness.json",
+    "length": 1036
+  },
+  {
+    "path": "data/real_world/audit/pilot_source_locator_recovery.json",
+    "length": 699
+  },
+  {
+    "path": "data/real_world/audit/pilot_taxonomy_coverage.json",
+    "length": 570
+  },
+  {
+    "path": "data/real_world/audit/pilot_taxonomy_mapping_quality.json",
+    "length": 1087
+  },
+  {
+    "path": "data/real_world/audit/pilot_unrecoverable_locator_closure.json",
+    "length": 827
+  },
+  {
+    "path": "data/real_world/audit/pilot_vlm_eligibility.json",
+    "length": 358
+  },
+  {
+    "path": "data/real_world/audit/privacy_detector_self_test.json",
+    "length": 1621
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_domain_taxonomy_fit.json",
+    "length": 1583
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_image_privacy_v3.json",
+    "length": 776
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_status.json",
+    "length": 1273
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v1_freeze_manifest.json",
+    "length": 2537
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v2_image_acquisition.json",
+    "length": 533
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v2_image_privacy.json",
+    "length": 693
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v2_sampling_report.json",
+    "length": 2501
+  },
+  {
+    "path": "data/real_world/audit/private_pilot_v2_scale_readiness.json",
+    "length": 902
+  },
+  {
+    "path": "data/real_world/audit/private_real_image_vlm_compatibility.json",
+    "length": 1052
+  },
+  {
+    "path": "data/real_world/audit/public_pilot_final_freeze.json",
+    "length": 987
+  },
+  {
+    "path": "data/real_world/audit/realworld_vlm_private_pilot.json",
+    "length": 611
+  },
+  {
+    "path": "data/real_world/audit/sft_data_readiness.json",
+    "length": 308
+  },
+  {
+    "path": "data/real_world/audit/source_approval_status.json",
+    "length": 808
+  },
+  {
+    "path": "data/real_world/audit/source_license_audit.json",
+    "length": 6819
+  },
+  {
+    "path": "data/real_world/eval/real_multimodal_ablation_results.json",
+    "length": 214
+  },
+  {
+    "path": "data/real_world/eval/real_qwen_text_external_results.json",
+    "length": 179
+  },
+  {
+    "path": "data/real_world/eval/real_text_rag_external_results.json",
+    "length": 176
+  },
+  {
+    "path": "data/real_world/eval/real_vlm_external_results.json",
+    "length": 194
+  },
+  {
+    "path": "data/real_world/eval/realworld_route_calibration.json",
+    "length": 238
+  },
+  {
+    "path": "data/real_world/pilot_manifest/image_privacy_aggregate_manifest.jsonl",
+    "length": 2376
+  },
+  {
+    "path": "data/real_world/pilot_manifest/private_pilot_aggregate_manifest.jsonl",
+    "length": 54016
+  },
+  {
+    "path": "data/real_world/schemas/real_multimodal_schema.json",
+    "length": 2100
+  },
+  {
+    "path": "data/real_world/schemas/real_review_schema.json",
+    "length": 1493
+  },
+  {
+    "path": "data/real_world/source_manifest/approved_sources.jsonl",
+    "length": 1853
+  },
+  {
+    "path": "data/real_world/source_manifest/authorized_data_intake_template.yaml",
+    "length": 940
+  },
+  {
+    "path": "data/real_world/source_manifest/delegated_approved_sources.jsonl",
+    "length": 1853
+  },
+  {
+    "path": "data/real_world/source_manifest/manual_source_approval.yaml",
+    "length": 4703
+  },
+  {
+    "path": "data/real_world/source_manifest/source_candidate_dossier.jsonl",
+    "length": 7946
+  },
+  {
+    "path": "data/real_world/source_manifest/source_candidates.jsonl",
+    "length": 5096
+  },
+  {
+    "path": "data/real_world/source_manifest/source_evidence_index.jsonl",
+    "length": 2664
+  },
+  {
+    "path": "data/real_world/source_manifest/source_manifest.jsonl",
+    "length": 3187
+  },
+  {
+    "path": "data/synthetic/golden_queries/golden_queries_strict_80.jsonl",
+    "length": 51519
+  },
+  {
+    "path": "deploy/litemall/application.yml",
+    "length": 4287
+  },
+  {
+    "path": "docker/docker-compose.yml",
+    "length": 1561
+  },
+  {
+    "path": "docker/litemall/application.yml",
+    "length": 4282
+  },
+  {
+    "path": "docker-compose.yml",
+    "length": 895
+  },
+  {
+    "path": "docs/agent_cards/case_retriever.agent.json",
+    "length": 727
+  },
+  {
+    "path": "docs/agent_cards/operation_advisor.agent.json",
+    "length": 799
+  },
+  {
+    "path": "docs/agent_cards/review_analyst.agent.json",
+    "length": 784
+  },
+  {
+    "path": "docs/agent_cards/risk_auditor.agent.json",
+    "length": 804
+  },
+  {
+    "path": "docs/eval/golden_rag_queries.jsonl",
+    "length": 5345
+  },
+  {
+    "path": "docs/eval/golden_reviews.jsonl",
+    "length": 12697
+  },
+  {
+    "path": "docs/qualification/examples/v2.1-assets.example.json",
+    "length": 977
+  },
+  {
+    "path": "docs/v24_dataset_protocol/dataset_protocol_validation.json",
+    "length": 2284
+  },
+  {
+    "path": "docs/v24_dataset_protocol/evidence/archive_deployment_validation.json",
+    "length": 1477
+  },
+  {
+    "path": "docs/v24_dataset_protocol/evidence/archive_safety_check.json",
+    "length": 15051
+  },
+  {
+    "path": "docs/v24_dataset_protocol/evidence/package_manifest_validation.json",
+    "length": 11558
+  },
+  {
+    "path": "docs/v24_dataset_protocol/examples/example_annotation.json",
+    "length": 1100
+  },
+  {
+    "path": "docs/v24_dataset_protocol/examples/example_candidate.json",
+    "length": 1285
+  },
+  {
+    "path": "docs/v24_dataset_protocol/inventory/candidate_dataset_files.json",
+    "length": 65317
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/adjudication_record.schema.json",
+    "length": 1404
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/dataset_annotation.schema.json",
+    "length": 4021
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/dataset_candidate.schema.json",
+    "length": 3951
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/dataset_gold.schema.json",
+    "length": 2186
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/dataset_manifest.schema.json",
+    "length": 2030
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/dedup_report.schema.json",
+    "length": 1634
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/risk_ontology_v0.1.json",
+    "length": 2697
+  },
+  {
+    "path": "docs/v24_dataset_protocol/schema/source_manifest.schema.json",
+    "length": 1423
+  },
+  {
+    "path": "docs/v24_golden_path_live/golden_path_live_validation.json",
+    "length": 7154
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/dashboard/agent_rag_overview.json",
+    "length": 12360
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/dashboard/agent_rag_run4_detail.json",
+    "length": 11137
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/dashboard/agent_rag_run6_detail.json",
+    "length": 9982
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/dashboard/ai_dashboard_summary.json",
+    "length": 717
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/dashboard/ai_operation_list.json",
+    "length": 3043
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/dashboard/ai_risk_list.json",
+    "length": 3043
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/database/sql_import_final_report.json",
+    "length": 1530
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_analyze_comment_1015.json",
+    "length": 87
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_analyze_comment_1015_contract_ok.json",
+    "length": 21395
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_analyze_comment_1015_hybrid_real.json",
+    "length": 87
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_analyze_comment_1015_live_faiss.json",
+    "length": 1931
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_analyze_comment_1015_live_faiss_fresh.json",
+    "length": 27632
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_compare_run4_run6.json",
+    "length": 2118
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_duplicate_idempotency_run4.json",
+    "length": 17992
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_health_unauth.json",
+    "length": 57
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_override_run4.json",
+    "length": 198
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_override_run4_success.json",
+    "length": 1740
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_replay_run4.json",
+    "length": 27149
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_agent_rag_replay_run4_retry_max256.json",
+    "length": 27858
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_login_admin123.json",
+    "length": 409
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_login_for_agent_rag_live.json",
+    "length": 377
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_patrol_run_once.json",
+    "length": 330
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_patrol_status_after_run.json",
+    "length": 1103
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/admin_patrol_status_before_run.json",
+    "length": 427
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/fastapi_health_after_restart.json",
+    "length": 76
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/frontend_http_smoke.json",
+    "length": 1414
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/golden_path_user_flow_summary.json",
+    "length": 224
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_address_list_before.json",
+    "length": 268
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_address_save.json",
+    "length": 69
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_cart_fastadd.json",
+    "length": 69
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_goods_detail.json",
+    "length": 21211
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_goods_list.json",
+    "length": 23794
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_home_index.json",
+    "length": 25546
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_login_user123.json",
+    "length": 341
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_order_comment.json",
+    "length": 52
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_order_confirm.json",
+    "length": 52
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_order_detail_after_confirm.json",
+    "length": 3165
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_order_mock_pay.json",
+    "length": 255
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_order_mock_ship.json",
+    "length": 255
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/http/wx_order_submit.json",
+    "length": 191
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/agent_rag_metrics_after_live.json",
+    "length": 7940
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/dense_and_llm_health_after_llm_fix.json",
+    "length": 2842
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/dense_health_after_agent_rag_live.json",
+    "length": 5928
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/dense_health_after_live_faiss.json",
+    "length": 5928
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/dense_health_after_live_faiss_raw.json",
+    "length": 5
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/dense_health_after_replay_token_config.json",
+    "length": 2966
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/dense_health_bge_after_target_fix.json",
+    "length": 2691
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/dense_health_hybrid_real.json",
+    "length": 2827
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/live_faiss_index_build.json",
+    "length": 2865
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/live-faiss-index/versions/v24-golden-live-20260728T064909Z/manifest.json",
+    "length": 1336
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/live-faiss-index/versions/v24-golden-live-20260728T064909Z/metadata.jsonl",
+    "length": 4013
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/live-faiss-index/versions/v24-golden-live-20260728T064951Z/manifest.json",
+    "length": 1325
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/model/live-faiss-index/versions/v24-golden-live-20260728T064951Z/metadata.jsonl",
+    "length": 4013
+  },
+  {
+    "path": "docs/v24_golden_path_live/runtime-evidence/trace/agent_rag_concurrency_5_results.json",
+    "length": 4996
+  },
+  {
+    "path": "docs/v24_reranker_compat/install_run/bge-regression.json",
+    "length": 1080
+  },
+  {
+    "path": "docs/v24_reranker_compat/install_run/install_validation.json",
+    "length": 1571
+  },
+  {
+    "path": "docs/v24_reranker_compat/install_run/phase3b-gate-result-after-fix.json",
+    "length": 1027
+  },
+  {
+    "path": "docs/v24_reranker_compat/install_run/phase3b-gate-result-final.json",
+    "length": 1027
+  },
+  {
+    "path": "docs/v24_reranker_compat/install_run/phase3b-gate-result-rerun.json",
+    "length": 1009
+  },
+  {
+    "path": "docs/v24_reranker_compat/install_run/version-matrix-final.json",
+    "length": 524
+  },
+  {
+    "path": "docs/v24_reranker_compat/reranker_compat_validation.json",
+    "length": 1971
+  },
+  {
+    "path": "docs/v24_reranker_compat/transformers451_validation.json",
+    "length": 2874
+  },
+  {
+    "path": "litemall-admin/jsconfig.json",
+    "length": 145
+  },
+  {
+    "path": "litemall-admin/package.json",
+    "length": 2857
+  },
+  {
+    "path": "litemall-admin/src/icons/svgo.yml",
+    "length": 270
+  },
+  {
+    "path": "litemall-admin-api/src/main/resources/application.yml",
+    "length": 319
+  },
+  {
+    "path": "litemall-admin-api/src/main/resources/application-admin.yml",
+    "length": 1094
+  },
+  {
+    "path": "litemall-all/src/main/resources/application.yml",
+    "length": 458
+  },
+  {
+    "path": "litemall-all-war/src/main/resources/application.yml",
+    "length": 224
+  },
+  {
+    "path": "litemall-core/src/main/resources/application.yml",
+    "length": 216
+  },
+  {
+    "path": "litemall-core/src/main/resources/application-core.yml",
+    "length": 3542
+  },
+  {
+    "path": "litemall-db/src/main/resources/application.yml",
+    "length": 208
+  },
+  {
+    "path": "litemall-db/src/main/resources/application-db.yml",
+    "length": 984
+  },
+  {
+    "path": "litemall-vue/package.json",
+    "length": 1311
+  },
+  {
+    "path": "litemall-vue/src/views/user/module-address-edit/area.json",
+    "length": 93809
+  },
+  {
+    "path": "litemall-wx/app.json",
+    "length": 3547
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/action-sheet/index.json",
+    "length": 166
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/area/index.json",
+    "length": 94
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/button/index.json",
+    "length": 130
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/card/index.json",
+    "length": 88
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/cell/index.json",
+    "length": 88
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/cell-group/index.json",
+    "length": 25
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/checkbox/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/checkbox-group/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/circle/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/col/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/collapse/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/collapse-item/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/count-down/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/datetime-picker/index.json",
+    "length": 94
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/dialog/index.json",
+    "length": 130
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/divider/index.json",
+    "length": 51
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/dropdown-item/index.json",
+    "length": 160
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/dropdown-menu/index.json",
+    "length": 25
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/field/index.json",
+    "length": 122
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/goods-action/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/goods-action-button/index.json",
+    "length": 94
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/goods-action-icon/index.json",
+    "length": 128
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/grid/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/grid-item/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/icon/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/image/index.json",
+    "length": 130
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/index-anchor/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/index-bar/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/info/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/loading/index.json",
+    "length": 25
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/nav-bar/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/notice-bar/index.json",
+    "length": 88
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/notify/index.json",
+    "length": 102
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/overlay/index.json",
+    "length": 102
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/panel/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/picker/index.json",
+    "length": 140
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/picker-column/index.json",
+    "length": 25
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/popup/index.json",
+    "length": 130
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/progress/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/radio/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/radio-group/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/rate/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/row/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/search/index.json",
+    "length": 92
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/sidebar/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/sidebar-item/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/skeleton/index.json",
+    "length": 51
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/slider/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/stepper/index.json",
+    "length": 25
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/steps/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/sticky/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/submit-bar/index.json",
+    "length": 128
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/swipe-cell/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/switch/index.json",
+    "length": 96
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/tab/index.json",
+    "length": 25
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/tabbar/index.json",
+    "length": 27
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/tabbar-item/index.json",
+    "length": 124
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/tabs/index.json",
+    "length": 128
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/tag/index.json",
+    "length": 25
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/toast/index.json",
+    "length": 216
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/transition/index.json",
+    "length": 25
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/tree-select/index.json",
+    "length": 180
+  },
+  {
+    "path": "litemall-wx/lib/vant-weapp/uploader/index.json",
+    "length": 90
+  },
+  {
+    "path": "litemall-wx/pages/about/about.json",
+    "length": 2
+  },
+  {
+    "path": "litemall-wx/pages/auth/accountLogin/accountLogin.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/auth/login/login.json",
+    "length": 42
+  },
+  {
+    "path": "litemall-wx/pages/auth/register/register.json",
+    "length": 42
+  },
+  {
+    "path": "litemall-wx/pages/auth/reset/reset.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/brand/brand.json",
+    "length": 51
+  },
+  {
+    "path": "litemall-wx/pages/brandDetail/brandDetail.json",
+    "length": 51
+  },
+  {
+    "path": "litemall-wx/pages/cart/cart.json",
+    "length": 79
+  },
+  {
+    "path": "litemall-wx/pages/catalog/catalog.json",
+    "length": 42
+  },
+  {
+    "path": "litemall-wx/pages/category/category.json",
+    "length": 2
+  },
+  {
+    "path": "litemall-wx/pages/checkout/checkout.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/comment/comment.json",
+    "length": 76
+  },
+  {
+    "path": "litemall-wx/pages/commentPost/commentPost.json",
+    "length": 42
+  },
+  {
+    "path": "litemall-wx/pages/coupon/coupon.json",
+    "length": 51
+  },
+  {
+    "path": "litemall-wx/pages/goods/goods.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/groupon/grouponDetail/grouponDetail.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/groupon/grouponList/grouponList.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/groupon/myGroupon/myGroupon.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/help/help.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/hotGoods/hotGoods.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/index/index.json",
+    "length": 76
+  },
+  {
+    "path": "litemall-wx/pages/newGoods/newGoods.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/payResult/payResult.json",
+    "length": 94
+  },
+  {
+    "path": "litemall-wx/pages/search/search.json",
+    "length": 42
+  },
+  {
+    "path": "litemall-wx/pages/topic/topic.json",
+    "length": 42
+  },
+  {
+    "path": "litemall-wx/pages/topicComment/topicComment.json",
+    "length": 76
+  },
+  {
+    "path": "litemall-wx/pages/topicCommentPost/topicCommentPost.json",
+    "length": 42
+  },
+  {
+    "path": "litemall-wx/pages/topicDetail/topicDetail.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/address/address.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/addressAdd/addressAdd.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/aftersale/aftersale.json",
+    "length": 42
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/aftersaleDetail/aftersaleDetail.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/aftersaleList/aftersaleList.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/collect/collect.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/couponList/couponList.json",
+    "length": 85
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/couponSelect/couponSelect.json",
+    "length": 51
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/feedback/feedback.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/footprint/footprint.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/index/index.json",
+    "length": 116
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/order/order.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/pages/ucenter/orderDetail/orderDetail.json",
+    "length": 48
+  },
+  {
+    "path": "litemall-wx/project.config.json",
+    "length": 8456
+  },
+  {
+    "path": "litemall-wx/project.private.config.json",
+    "length": 7266
+  },
+  {
+    "path": "litemall-wx/sitemap.json",
+    "length": 480
+  },
+  {
+    "path": "litemall-wx-api/src/main/resources/application.yml",
+    "length": 475
+  },
+  {
+    "path": "litemall-wx-api/src/main/resources/application-wx.yml",
+    "length": 0
+  },
+  {
+    "path": "PACKAGE_MANIFEST.json",
+    "length": 6791
+  },
+  {
+    "path": "renard-wx/app.json",
+    "length": 2170
+  },
+  {
+    "path": "renard-wx/components/capsule/index.json",
+    "length": 27
+  },
+  {
+    "path": "renard-wx/components/good/good.json",
+    "length": 51
+  },
+  {
+    "path": "renard-wx/components/goodList/goodList.json",
+    "length": 78
+  },
+  {
+    "path": "renard-wx/components/icon/index.json",
+    "length": 27
+  },
+  {
+    "path": "renard-wx/components/notice-bar/index.json",
+    "length": 88
+  },
+  {
+    "path": "renard-wx/components/notify/index.json",
+    "length": 25
+  },
+  {
+    "path": "renard-wx/components/sharePop/sharePop.json",
+    "length": 51
+  },
+  {
+    "path": "renard-wx/pages/auth/login/login.json",
+    "length": 42
+  },
+  {
+    "path": "renard-wx/pages/brand/brand.json",
+    "length": 51
+  },
+  {
+    "path": "renard-wx/pages/brandDetail/brandDetail.json",
+    "length": 130
+  },
+  {
+    "path": "renard-wx/pages/cart/cart.json",
+    "length": 78
+  },
+  {
+    "path": "renard-wx/pages/catalog/catalog.json",
+    "length": 42
+  },
+  {
+    "path": "renard-wx/pages/category/category.json",
+    "length": 82
+  },
+  {
+    "path": "renard-wx/pages/commentPost/commentPost.json",
+    "length": 42
+  },
+  {
+    "path": "renard-wx/pages/goods/goods.json",
+    "length": 224
+  },
+  {
+    "path": "renard-wx/pages/groupon/grouponDetail/grouponDetail.json",
+    "length": 127
+  },
+  {
+    "path": "renard-wx/pages/groupon/grouponList/grouponList.json",
+    "length": 126
+  },
+  {
+    "path": "renard-wx/pages/groupon/myGroupon/myGroupon.json",
+    "length": 126
+  },
+  {
+    "path": "renard-wx/pages/hotGoods/hotGoods.json",
+    "length": 48
+  },
+  {
+    "path": "renard-wx/pages/index/index.json",
+    "length": 225
+  },
+  {
+    "path": "renard-wx/pages/newGoods/newGoods.json",
+    "length": 127
+  },
+  {
+    "path": "renard-wx/pages/payResult/payResult.json",
+    "length": 94
+  },
+  {
+    "path": "renard-wx/pages/search/search.json",
+    "length": 121
+  },
+  {
+    "path": "renard-wx/pages/shopping/checkout/checkout.json",
+    "length": 48
+  },
+  {
+    "path": "renard-wx/pages/topic/topic.json",
+    "length": 42
+  },
+  {
+    "path": "renard-wx/pages/topicDetail/topicDetail.json",
+    "length": 83
+  },
+  {
+    "path": "renard-wx/pages/ucenter/address/address.json",
+    "length": 48
+  },
+  {
+    "path": "renard-wx/pages/ucenter/addressAdd/addressAdd.json",
+    "length": 48
+  },
+  {
+    "path": "renard-wx/pages/ucenter/coupon/coupon.json",
+    "length": 45
+  },
+  {
+    "path": "renard-wx/pages/ucenter/index/index.json",
+    "length": 116
+  },
+  {
+    "path": "renard-wx/pages/ucenter/order/order.json",
+    "length": 126
+  },
+  {
+    "path": "renard-wx/pages/ucenter/orderDetail/orderDetail.json",
+    "length": 48
+  },
+  {
+    "path": "renard-wx/project.config.json",
+    "length": 5116
+  },
+  {
+    "path": "renard-wx/sitemap.json",
+    "length": 197
+  },
+  {
+    "path": "schemas/offline/v22-offline-bundle.schema.json",
+    "length": 1977
+  },
+  {
+    "path": "schemas/qualification/model-provenance.schema.json",
+    "length": 1374
+  },
+  {
+    "path": "schemas/qualification/qualification-asset-manifest.schema.json",
+    "length": 2873
+  },
+  {
+    "path": "schemas/real-model-chain/v22-real-model-assets.schema.json",
+    "length": 2308
+  },
+  {
+    "path": "scripts/database/agent-rag-migrations.json",
+    "length": 2155
+  },
+  {
+    "path": "state/v170_enterprise_upgrade_progress.json",
+    "length": 2779
+  },
+  {
+    "path": "state/v180_readiness_progress.json",
+    "length": 15291
+  },
+  {
+    "path": "state/v181_audit_progress.json",
+    "length": 547
+  },
+  {
+    "path": "state/v182_remediation_progress.json",
+    "length": 4457
+  }
+]

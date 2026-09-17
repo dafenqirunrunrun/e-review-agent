@@ -1,0 +1,18 @@
+{
+  "contractVersion": "text-router-metrics-v1",
+  "scopePatchVersion": "step21.2.2b.1",
+  "defaultEvaluationTarget": "RISK_CLASSIFICATION",
+  "riskClassificationEligibility": "evaluationTarget == RISK_CLASSIFICATION",
+  "abstentionEligibility": "evaluationTarget == ABSTENTION",
+  "riskMetrics": [
+    "precision",
+    "recall",
+    "f1",
+    "accuracy"
+  ],
+  "abstentionMetrics": {
+    "abstentionAccuracy": "correct abstain/escalate/needs-more-context outcomes divided by ABSTENTION cases",
+    "escalationAccuracy": "correct escalate or needs-more-context outcomes divided by ABSTENTION cases",
+    "falseConfidentClassificationCount": "ABSTENTION cases receiving a confident business risk classification"
+  }
+}

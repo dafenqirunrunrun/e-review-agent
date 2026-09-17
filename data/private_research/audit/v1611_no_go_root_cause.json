@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-07-16T11:32:23.163122+00:00",
+  "status": "NO_GO_ROOT_CAUSE_CONFIRMED",
+  "root_causes": [
+    {
+      "code": "ROOT_CAUSE_BASE_ALREADY_STRONG_ON_SCHEMA",
+      "confidence": 0.72,
+      "supporting_metrics": {
+        "base_raw_schema": 0.92592593,
+        "adapter_raw_schema": 0.74074074
+      },
+      "contradicting_evidence": [],
+      "recommended_intervention": "Use validation-only diagnosis to target task semantics rather than schema format.",
+      "single_major_factor_change": "data_distribution"
+    },
+    {
+      "code": "ROOT_CAUSE_TARGET_TEMPLATE_OVERFIT",
+      "confidence": 0.74,
+      "supporting_metrics": {
+        "normalized_target_duplicate_rate": 0.61794872,
+        "route_reason_top1_share": 0.41794872
+      },
+      "contradicting_evidence": [],
+      "recommended_intervention": "Increase target wording diversity while preserving canonical labels.",
+      "single_major_factor_change": "target_diversity"
+    },
+    {
+      "code": "ROOT_CAUSE_SYNTHETIC_SCENARIO_HOMOGENEITY",
+      "confidence": 0.8,
+      "supporting_metrics": {
+        "scenario_family_count": 9,
+        "boundary_sample_count": 0
+      },
+      "contradicting_evidence": [],
+      "recommended_intervention": "Generate v2.3 with explicit boundary and contrast quotas.",
+      "single_major_factor_change": "synthetic_v23_data"
+    },
+    {
+      "code": "ROOT_CAUSE_SEMANTIC_LABEL_TOKEN_UNDERWEIGHT",
+      "confidence": 0.62,
+      "supporting_metrics": {
+        "semantic_label_token_ratio": 0.06600314
+      },
+      "contradicting_evidence": [
+        "Token ratio alone is medium evidence and cannot be the only root cause."
+      ],
+      "recommended_intervention": "Keep schema fixed but rebalance examples so semantic labels are less template-correlated.",
+      "single_major_factor_change": "synthetic_v23_data"
+    },
+    {
+      "code": "ROOT_CAUSE_FORMAT_LEARNING_WITHOUT_TASK_GAIN",
+      "confidence": 0.76,
+      "supporting_metrics": {
+        "train_loss_reduction_relative": 0.74392831,
+        "final_validation_loss": 0.4064420169150388
+      },
+      "contradicting_evidence": [],
+      "recommended_intervention": "Do not add epochs first; test data-first v2.3 Experiment A.",
+      "single_major_factor_change": "synthetic_v23_data"
+    }
+  ]
+}

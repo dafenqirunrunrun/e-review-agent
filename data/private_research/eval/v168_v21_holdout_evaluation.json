@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-07-15T14:00:19.911879+00:00",
+  "status": "V21_ENGINEERING_HOLDOUT_EVALUATION_NOT_RUN_TRAINING_BLOCKED",
+  "holdout_unsealed_once": false,
+  "base_real_inference_count": 0,
+  "adapter_real_inference_count": 0,
+  "blocked_reason": "training did not run"
+}

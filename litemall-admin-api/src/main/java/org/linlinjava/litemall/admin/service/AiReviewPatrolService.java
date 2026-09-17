@@ -9,6 +9,7 @@ import org.linlinjava.litemall.db.domain.LitemallAiPatrolLog;
 import org.linlinjava.litemall.db.domain.LitemallComment;
 import org.linlinjava.litemall.db.domain.LitemallGoods;
 import org.linlinjava.litemall.db.domain.LitemallReviewAiAnalysis;
+import org.linlinjava.litemall.db.domain.ReviewRatingSource;
 import org.linlinjava.litemall.db.service.LitemallAiDemoReviewService;
 import org.linlinjava.litemall.db.service.LitemallAiCaseKnowledgeService;
 import org.linlinjava.litemall.db.service.LitemallAiPatrolLogService;
@@ -61,6 +62,9 @@ public class AiReviewPatrolService {
 
     @Autowired
     private ObjectMapper objectMapper;
+
+    @Autowired
+    private ReviewGovernanceTraceService governanceTraceService;
 
     @Value("${ai.patrol.enabled:true}")
     private Boolean configuredEnabled;
@@ -288,6 +292,9 @@ public class AiReviewPatrolService {
         request.setProductName(review.getProductName());
         request.setCategory(review.getCategoryName());
         request.setRating(review.getRating());
+        request.setRatingSource(review.getRating() == null
+                ? ReviewRatingSource.UNKNOWN.name()
+                : ReviewRatingSource.USER_PROVIDED.name());
         request.setReviewText(review.getReviewText());
         request.setImageUrls(review.getImageUrl() == null || review.getImageUrl().length() == 0
                 ? Collections.<String>emptyList()
@@ -301,7 +308,12 @@ public class AiReviewPatrolService {
         request.setProductId(comment.getValueId());
         LitemallGoods goods = comment.getValueId() == null ? null : goodsService.findById(comment.getValueId());
         request.setProductName(goods == null ? "商品 " + comment.getValueId() : goods.getName());
-        request.setRating(comment.getStar() == null ? null : comment.getStar().intValue());
+        boolean userProvidedRating = ReviewRatingSource.isUserProvided(comment.getRatingSource())
+                && comment.getStar() != null;
+        request.setRating(userProvidedRating ? comment.getStar().intValue() : null);
+        request.setRatingSource(userProvidedRating
+                ? ReviewRatingSource.USER_PROVIDED.name()
+                : ReviewRatingSource.UNKNOWN.name());
         request.setReviewText(comment.getContent());
         request.setImageUrls(comment.getPicUrls() == null
                 ? Collections.<String>emptyList()
@@ -329,7 +341,7 @@ public class AiReviewPatrolService {
         analysis.setEvidenceJson(writeJson(response.getEvidence()));
         analysis.setSimilarCasesJson(writeJson(response.getSimilarCases()));
         analysis.setAgentSuggestionJson(writeJson(response.getAgentSuggestion()));
-        analysis.setWorkflowTraceJson(writeJson(response.getWorkflowTrace()));
+        analysis.setWorkflowTraceJson(writeJson(governanceTraceService.workflowTraceWithGovernance(response)));
         return analysis;
     }
 

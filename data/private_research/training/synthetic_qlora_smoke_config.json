@@ -1,0 +1,19 @@
+{
+  "model_label": "<repo-external>/models/Qwen3-1.7B",
+  "run_dir_label": "<data-private>/training-runs/qwen3-1.7b-synthetic-qlora-smoke-v1633",
+  "max_steps": 20,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "max_length": 384,
+  "learning_rate": 0.0001,
+  "warmup_ratio": 0.0,
+  "weight_decay": 0.0,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "bf16": true,
+  "seed": 1633
+}

@@ -1,0 +1,376 @@
+﻿{
+    "sourceZip":  "D:\\EReviewAgent\\litemall-v24-goldenpath\\EReview_Dataset_Protocol_v0.1_ResearchPack.zip",
+    "sourceZipSha256":  "8bfd3f37423e5613d6621cbd94e90132786e91e587b7548df51ef9a558964ef9",
+    "sourceZipSize":  47816,
+    "checkedAt":  "2026-07-28T16:36:16.6612104+08:00",
+    "entryCount":  36,
+    "totalUncompressedBytes":  82869,
+    "unsafeCount":  0,
+    "unsafeEntries":  [
+
+                      ],
+    "entries":  [
+                    {
+                        "path":  "CODEX_AUDIT_AND_ADAPT_PROMPT.md",
+                        "length":  3930,
+                        "compressedLength":  2216,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "PACKAGE_MANIFEST.json",
+                        "length":  6791,
+                        "compressedLength":  2440,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "README_部署与使用说明.md",
+                        "length":  2876,
+                        "compressedLength":  1731,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/00_RESEARCH_SYNTHESIS.md",
+                        "length":  5804,
+                        "compressedLength":  3124,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/01_DATASET_OBJECTIVES.md",
+                        "length":  2699,
+                        "compressedLength":  1642,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/02_CURRENT_PROJECT_DATA_INVENTORY.md",
+                        "length":  1596,
+                        "compressedLength":  970,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/03_RISK_ONTOLOGY.md",
+                        "length":  2981,
+                        "compressedLength":  1831,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/04_SOURCE_AND_COMPLIANCE_POLICY.md",
+                        "length":  2284,
+                        "compressedLength":  1381,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/05_SCREENING_PROTOCOL.md",
+                        "length":  2020,
+                        "compressedLength":  1283,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/06_DEDUPLICATION_PROTOCOL.md",
+                        "length":  2608,
+                        "compressedLength":  1462,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/07_ANNOTATION_GUIDELINES.md",
+                        "length":  2158,
+                        "compressedLength":  1367,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/08_EVIDENCE_AND_CITATION_LABELING.md",
+                        "length":  1781,
+                        "compressedLength":  1060,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/09_SPLIT_AND_LEAKAGE_POLICY.md",
+                        "length":  1963,
+                        "compressedLength":  1207,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/10_QUALITY_ASSURANCE_AND_ADJUDICATION.md",
+                        "length":  1751,
+                        "compressedLength":  1043,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/11_PILOT_60_DESIGN.md",
+                        "length":  1773,
+                        "compressedLength":  1121,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/12_DATASET_VERSIONING_AND_MANIFEST.md",
+                        "length":  1449,
+                        "compressedLength":  831,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/13_DATASET_COLLECTION_RUNBOOK.md",
+                        "length":  2333,
+                        "compressedLength":  1324,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/14_PROTOCOL_DECISION_LOG.md",
+                        "length":  1951,
+                        "compressedLength":  1165,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/15_PROTOCOL_REVIEW_REPORT.md",
+                        "length":  1978,
+                        "compressedLength":  1300,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/16_PILOT_READINESS.md",
+                        "length":  1540,
+                        "compressedLength":  760,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/17_EXECUTIVE_SUMMARY.md",
+                        "length":  1240,
+                        "compressedLength":  911,
+                        "extension":  ".md",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/dataset_protocol_validation.json",
+                        "length":  2284,
+                        "compressedLength":  1100,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/examples/example_annotation.json",
+                        "length":  1100,
+                        "compressedLength":  644,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/examples/example_candidate.json",
+                        "length":  1285,
+                        "compressedLength":  653,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/requirements-protocol-tools.txt",
+                        "length":  20,
+                        "compressedLength":  22,
+                        "extension":  ".txt",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/schema/adjudication_record.schema.json",
+                        "length":  1404,
+                        "compressedLength":  425,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/schema/dataset_annotation.schema.json",
+                        "length":  4021,
+                        "compressedLength":  1073,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/schema/dataset_candidate.schema.json",
+                        "length":  3951,
+                        "compressedLength":  1016,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/schema/dataset_gold.schema.json",
+                        "length":  2186,
+                        "compressedLength":  584,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/schema/dataset_manifest.schema.json",
+                        "length":  2030,
+                        "compressedLength":  564,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/schema/dedup_report.schema.json",
+                        "length":  1634,
+                        "compressedLength":  506,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/schema/risk_ontology_v0.1.json",
+                        "length":  2697,
+                        "compressedLength":  1279,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/schema/source_manifest.schema.json",
+                        "length":  1423,
+                        "compressedLength":  566,
+                        "extension":  ".json",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/scripts/check_protocol_consistency.py",
+                        "length":  2324,
+                        "compressedLength":  1043,
+                        "extension":  ".py",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/scripts/check_required_terms.py",
+                        "length":  1081,
+                        "compressedLength":  647,
+                        "extension":  ".py",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    },
+                    {
+                        "path":  "docs/v24_dataset_protocol/scripts/validate_protocol_schemas.py",
+                        "length":  1923,
+                        "compressedLength":  859,
+                        "extension":  ".py",
+                        "safe":  true,
+                        "reasons":  [
+
+                                    ]
+                    }
+                ],
+    "stagingRoot":  "D:\\EReviewAgent\\_staging\\dataset-protocol-v01-20260728_163616",
+    "stagingExtract":  "D:\\EReviewAgent\\_staging\\dataset-protocol-v01-20260728_163616\\extracted"
+}

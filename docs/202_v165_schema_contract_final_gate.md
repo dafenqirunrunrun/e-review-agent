@@ -1,0 +1,6 @@
+# V1.6.5 Schema Contract Final Gate
+
+Status: `SYNTHETIC_SFT_V2_REBUILD_BLOCKED`
+- root_causes: `['ROOT_CAUSE_SCHEMA_VERSION_DRIFT', 'ROOT_CAUSE_TRAIN_INFERENCE_PROMPT_MISMATCH', 'ROOT_CAUSE_DESTRUCTIVE_REPAIR', 'ROOT_CAUSE_EVALUATION_FIELD_MAPPING_BUG', 'ROOT_CAUSE_INSUFFICIENT_TRAINING_SIGNAL']`
+- adapter_status: `V164_ADAPTER_INVALIDATED_BY_SCHEMA_CONTRACT_DRIFT`
+- Synthetic SFT v2 rebuild remains blocked until schema, target, loss mask, prompt and evaluation are aligned.

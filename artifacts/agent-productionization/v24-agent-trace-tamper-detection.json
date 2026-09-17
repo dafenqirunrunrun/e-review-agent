@@ -1,0 +1,8 @@
+{
+  "decision": "AGENT_TRACE_TAMPER_DETECTION_PASS",
+  "deletedEventDetected": true,
+  "insertedEventDetected": true,
+  "modifiedEventDetected": true,
+  "reorderedEventDetected": true,
+  "tamperCasesDetected": 4
+}

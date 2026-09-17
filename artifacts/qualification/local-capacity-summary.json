@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "v2.1-local-capacity",
+  "generatedAt": "2026-07-21T02:20:47+00:00",
+  "syntheticOnly": true,
+  "productionSlaClaimed": false,
+  "profiles": [
+    {
+      "concurrency": 1,
+      "measured": 100,
+      "throughputPerSecond": 64.538464,
+      "p50Ms": 15.3581,
+      "p95Ms": 16.057,
+      "p99Ms": 16.3189,
+      "fallbackRate": 0.06,
+      "controlledTimeoutRate": 0,
+      "unhandledErrorRate": 0,
+      "duplicateRuns": 0,
+      "duplicateEvidence": 0,
+      "duplicateRiskTasks": 0,
+      "semaphoreLeaks": 0,
+      "indexLeaseLeaks": 0
+    },
+    {
+      "concurrency": 2,
+      "measured": 100,
+      "throughputPerSecond": 128.860217,
+      "p50Ms": 15.44435,
+      "p95Ms": 16.1211,
+      "p99Ms": 16.3623,
+      "fallbackRate": 0.06,
+      "controlledTimeoutRate": 0,
+      "unhandledErrorRate": 0,
+      "duplicateRuns": 0,
+      "duplicateEvidence": 0,
+      "duplicateRiskTasks": 0,
+      "semaphoreLeaks": 0,
+      "indexLeaseLeaks": 0
+    },
+    {
+      "concurrency": 4,
+      "measured": 100,
+      "throughputPerSecond": 255.270702,
+      "p50Ms": 15.55695,
+      "p95Ms": 16.4795,
+      "p99Ms": 16.6564,
+      "fallbackRate": 0.06,
+      "controlledTimeoutRate": 0,
+      "unhandledErrorRate": 0,
+      "duplicateRuns": 0,
+      "duplicateEvidence": 0,
+      "duplicateRiskTasks": 0,
+      "semaphoreLeaks": 0,
+      "indexLeaseLeaks": 0
+    },
+    {
+      "concurrency": 8,
+      "measured": 100,
+      "throughputPerSecond": 490.789115,
+      "p50Ms": 15.5221,
+      "p95Ms": 16.1548,
+      "p99Ms": 16.4147,
+      "fallbackRate": 0.06,
+      "controlledTimeoutRate": 0,
+      "unhandledErrorRate": 0,
+      "duplicateRuns": 0,
+      "duplicateEvidence": 0,
+      "duplicateRiskTasks": 0,
+      "semaphoreLeaks": 0,
+      "indexLeaseLeaks": 0
+    },
+    {
+      "concurrency": 16,
+      "measured": 100,
+      "throughputPerSecond": 911.189129,
+      "p50Ms": 15.4683,
+      "p95Ms": 16.0249,
+      "p99Ms": 16.0737,
+      "fallbackRate": 0.06,
+      "controlledTimeoutRate": 0,
+      "unhandledErrorRate": 0,
+      "duplicateRuns": 0,
+      "duplicateEvidence": 0,
+      "duplicateRiskTasks": 0,
+      "semaphoreLeaks": 0,
+      "indexLeaseLeaks": 0
+    }
+  ],
+  "soak": {
+    "durationSecondsRequested": 1800,
+    "durationSecondsObserved": 1800.009,
+    "completedRequests": 463232,
+    "p95Ms": 15.9718,
+    "unhandledErrors": 0,
+    "rssTrendObserved": "not_measured",
+    "cudaTrendObserved": "not_applicable_for_synthetic_capacity",
+    "pass30MinuteSoak": true
+  },
+  "safety": {
+    "tenantViolations": 0,
+    "duplicateRuns": 0,
+    "duplicateEvidence": 0,
+    "duplicateRiskTasks": 0,
+    "semaphoreLeaks": 0,
+    "indexLeaseLeaks": 0,
+    "unhandledErrors": 0
+  },
+  "tokens": [
+    "LOCAL_QUALIFICATION_CAPACITY_OBSERVED",
+    "E_REVIEW_V21_30_MINUTE_SOAK_PASS"
+  ]
+}

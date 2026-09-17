@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "providerType": "bge-m3",
+  "providerImpl": "flagembedding",
+  "providerConformance": "official-library",
+  "modelName": "BAAI/bge-m3",
+  "dimension": 1024,
+  "documentShape": [
+    2,
+    1024
+  ],
+  "queryShape": [
+    1,
+    1024
+  ],
+  "finite": true,
+  "l2Norms": [
+    1.0,
+    1.0
+  ],
+  "normalized": true,
+  "cudaAvailable": true,
+  "cudaUsed": true,
+  "hashProviderUsed": false,
+  "modelFingerprintPresent": true,
+  "assetFingerprintPresent": true,
+  "durationMs": 11622,
+  "cudaPeakMb": 1094.92,
+  "health": {
+    "status": "ready",
+    "loaded": true,
+    "reason": "",
+    "device": "cuda",
+    "dimension": 1024,
+    "modelFingerprint": "0e3658e6741b4745495ee83404e4882ade6fe6f1ca0d261fd2ab6a8512d6fcbf",
+    "assetFingerprint": "0af2bcb93170622899c47385fa14765000029b339f5ba681f89b27594b62c394",
+    "providerFingerprint": "505f28e590fef3e50bebba0618812f27193f39f6b0186bd769f76e8f560b95f3",
+    "effectiveEmbeddingFingerprint": "0e3658e6741b4745495ee83404e4882ade6fe6f1ca0d261fd2ab6a8512d6fcbf"
+  }
+}

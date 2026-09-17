@@ -1,0 +1,19 @@
+{
+  "status": "PARTIAL_DIRECT_RECOVERY_WITH_OFFLINE_BUNDLE_WORKFLOW_READY",
+  "targetPython": "3.10.0",
+  "targetBits": 64,
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "cudaAvailable": true,
+  "winHttpProxy": "direct",
+  "proxyEnvironmentConfigured": false,
+  "pypiPowerShell": "http_200",
+  "huggingFacePowerShell": "http_200",
+  "pypiPythonDefault": "proxy_tls_eof",
+  "huggingFacePythonDefault": "proxy_tls_eof_or_connection_reset",
+  "pypiPipWithNoProxy": "pass",
+  "huggingFacePythonWithNoProxy": "connection_reset",
+  "selectedRoute": "direct_pip_recovery_for_wheels; os_https_metadata; external_model_manifest; offline_bundle_workflow_retained",
+  "forbiddenMitigationsUsed": [],
+  "rawDiagnosticsLocation": "<repo-external>/offline/v2.2/target-environment"
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "v2.1-build-provenance",
+  "generatedAt": "2026-07-21T01:50:24+00:00",
+  "sourceCommit": "681bc05dcb9d3ec7dc85c48a17d05022afbea5a7",
+  "branch": "experiment/v2.1-model-quality-scale",
+  "javaVersion": [
+    "java version \"1.8.0_401\""
+  ],
+  "mavenVersion": [],
+  "pythonVersion": "3.10.0",
+  "nodeVersion": "v20.17.0",
+  "npmVersion": "",
+  "dependencyLockHashes": {
+    "adminPackageLock": null,
+    "customerPackageLock": null,
+    "migrationManifest": "38856dd1f1647a33a6f01a7b8a6820728650d5d7725b0e115b18cd3283056b51"
+  },
+  "modelAssetFingerprints": [
+    {
+      "assetType": "reranker",
+      "envName": "RAG_RERANKER_MODEL_PATH",
+      "available": false,
+      "fileCount": 0,
+      "sizeBytes": 0,
+      "architecture": [],
+      "modelType": null,
+      "weightFormat": [],
+      "assetFingerprint": null,
+      "blockerCodes": [
+        "ENV_PATH_NOT_SET"
+      ]
+    },
+    {
+      "assetType": "llm",
+      "envName": "AGENT_LLM_MODEL_PATH",
+      "available": false,
+      "fileCount": 0,
+      "sizeBytes": 0,
+      "architecture": [],
+      "modelType": null,
+      "weightFormat": [],
+      "assetFingerprint": null,
+      "blockerCodes": [
+        "ENV_PATH_NOT_SET"
+      ]
+    }
+  ]
+}

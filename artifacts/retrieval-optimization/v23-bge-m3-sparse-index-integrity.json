@@ -1,0 +1,13 @@
+{
+  "allContentHashesConsistent": true,
+  "allEligibleChunksEncoded": true,
+  "allIndexedChunksFromSameSnapshot": true,
+  "allSparseVectorsValid": true,
+  "disabledIndexedCount": 0,
+  "expiredIndexedCount": 0,
+  "inactiveIndexedCount": 0,
+  "schemaVersion": "agent-rag-v23-bge-m3-sparse-index-integrity-v1",
+  "status": "PASS",
+  "tenantViolationCount": 0,
+  "tombstonedIndexedCount": 0
+}

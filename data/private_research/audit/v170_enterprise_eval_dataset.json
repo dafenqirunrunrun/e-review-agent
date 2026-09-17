@@ -1,0 +1,21 @@
+{
+  "status": "V170_ENTERPRISE_EVAL_DATASET_PASS",
+  "private_dataset_label": "<data-private>/enterprise-eval-v170/enterprise_eval_v170.jsonl",
+  "case_count": 160,
+  "sha256": "7446522a7ee09650197e422b7271ee69dd32e0f544e7c26b73a032e9ddba3d5a",
+  "category_distribution": {
+    "retrieval": 40,
+    "hybrid_boundary": 30,
+    "agent_routing": 25,
+    "human_review": 20,
+    "prompt_injection": 20,
+    "tool_governance": 10,
+    "idempotency": 10,
+    "timeout_failure": 5
+  },
+  "uses_v23_holdout": false,
+  "uses_v22_holdout": false,
+  "uses_amazon_asap": false,
+  "uses_external_test": false,
+  "uses_real_user_text": false
+}

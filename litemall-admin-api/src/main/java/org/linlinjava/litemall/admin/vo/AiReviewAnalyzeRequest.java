@@ -9,6 +9,7 @@ public class AiReviewAnalyzeRequest {
     private String productName;
     private String reviewText;
     private Integer rating;
+    private String ratingSource;
     private List<String> imageUrls;
     private BigDecimal price;
     private String category;
@@ -51,6 +52,14 @@ public class AiReviewAnalyzeRequest {
 
     public void setRating(Integer rating) {
         this.rating = rating;
+    }
+
+    public String getRatingSource() {
+        return ratingSource;
+    }
+
+    public void setRatingSource(String ratingSource) {
+        this.ratingSource = ratingSource;
     }
 
     public List<String> getImageUrls() {

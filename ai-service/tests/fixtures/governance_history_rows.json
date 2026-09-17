@@ -1,0 +1,60 @@
+[
+  {
+    "analysisId": 101,
+    "reviewId": "legacy-supported",
+    "reviewText": "商家承诺五星截图返现。",
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v1\",\"riskTypes\":[\"rating_manipulation\"],\"evidenceStatus\":\"supported\",\"decision\":{\"code\":\"manual_review\"}}}]",
+    "riskTaskId": 201,
+    "status": "pending"
+  },
+  {
+    "analysisId": 102,
+    "reviewId": "legacy-missing-fields",
+    "reviewText": "正常收到商品。",
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v1\",\"decision\":{\"code\":\"auto_pass\"}}}]",
+    "riskTaskId": 202,
+    "status": "pending"
+  },
+  {
+    "analysisId": 103,
+    "reviewId": "legacy-unknown-risk",
+    "reviewText": "历史特殊风险。",
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v1\",\"riskTypes\":[\"legacy_unclassified\"],\"evidenceStatus\":\"insufficient\",\"decision\":{\"code\":\"manual_review\"}}}]",
+    "riskTaskId": 203,
+    "status": "pending"
+  },
+  {
+    "analysisId": 104,
+    "reviewId": "legacy-human-resolved",
+    "reviewText": "退款后客服已处理。",
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v1\",\"riskTypes\":[\"after_sales_risk\"],\"evidenceStatus\":\"insufficient\",\"decision\":{\"code\":\"manual_review\"}}}]",
+    "riskTaskId": 204,
+    "status": "closed",
+    "handler": "operator-a",
+    "handleNote": "人工改判：无需处置"
+  },
+  {
+    "analysisId": 105,
+    "reviewId": "legacy-cashback-conflict",
+    "reviewText": "五星截图返现，晒图后返10元。",
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v1\",\"riskTypes\":[\"after_sales_risk\",\"rating_manipulation\"],\"evidenceStatus\":\"mismatch\",\"decision\":{\"code\":\"manual_review\"}}}]",
+    "riskTaskId": 205,
+    "status": "pending"
+  },
+  {
+    "analysisId": 106,
+    "reviewId": "current-v2",
+    "reviewText": "普通评价。",
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v2\",\"governanceSchemaVersion\":\"review-governance-v2\",\"riskTypes\":[\"normal_review\"],\"evidenceStatus\":\"supported\",\"decision\":{\"code\":\"auto_pass\"}}}]",
+    "riskTaskId": 206,
+    "status": "pending"
+  },
+  {
+    "analysisId": 107,
+    "reviewId": "legacy-alias",
+    "reviewText": "疑似组织化刷评。",
+    "workflowTraceJson": "[{\"node\":\"review_governance_snapshot\",\"output\":{\"schemaVersion\":\"review-governance-v1\",\"riskTypes\":[\"fake_engagement\"],\"evidenceStatus\":\"supported\",\"decision\":{\"code\":\"suggest_action\"}}}]",
+    "riskTaskId": 207,
+    "status": "pending"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-reproducibility-v2",
+  "blockingReasons": [],
+  "comparison": {
+    "allHashesMatch": true,
+    "coverageAt20TargetPass": true,
+    "deepRankRecoveryTargetPass": true,
+    "hashMatches": {
+      "childBm25Fingerprint": true,
+      "childFaissProbeHash": true,
+      "childIndexCanonicalFingerprint": true,
+      "deterministicRankingCorpusHash": true,
+      "finalEvidenceCorpusHash": true,
+      "flatCandidateCorpusHash": true,
+      "hierarchicalCandidateCorpusHash": true,
+      "parentBm25Fingerprint": true,
+      "parentCandidateCorpusHash": true,
+      "parentFaissProbeHash": true,
+      "parentIndexCanonicalFingerprint": true,
+      "unionCandidateCorpusHash": true
+    },
+    "hierarchicalOnlyHitTargetPass": true,
+    "metricsMatch": true,
+    "mrrMatchWithinTolerance": true,
+    "ndcgAt5MatchWithinTolerance": true,
+    "safetyPass": true
+  },
+  "freshProcessExecuted": true,
+  "frozenConfigurationOnly": true,
+  "run1Id": "fresh-process-1",
+  "run2Id": "fresh-process-2",
+  "splitUsed": "calibration",
+  "status": "E_REVIEW_V23_PARENT_CHILD_CALIBRATION_REPRODUCIBILITY_PASS"
+}

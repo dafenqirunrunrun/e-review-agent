@@ -1,0 +1,16 @@
+{
+  "activeTokenIdsMismatchCount": 0,
+  "batchSizes": [
+    1,
+    4,
+    8,
+    16
+  ],
+  "checkedChunkCount": 20,
+  "emptyStatusMismatchCount": 0,
+  "mismatchCount": 0,
+  "mismatches": [],
+  "resultHash": "b4fa545a6cca0a666a89d2a2be7d5a566db0385742233dae95262128c97c6221",
+  "schemaVersion": "agent-rag-v23-sparse-single-batch-parity-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,59 @@
+{
+  "status": "V180_REAL_LOCAL_EMBEDDING_AVAILABLE",
+  "selected": {
+    "name": "configured_bge_m3",
+    "model_id": "BAAI/bge-m3",
+    "path_label": "<repo-external>/models/bge-m3",
+    "exists": true,
+    "required_missing": [],
+    "file_count": 10,
+    "total_size_bytes": 4564380154,
+    "model_hash": "dfb1897399b5033f6cf3a6c0f14395a9de4c5629de470c8b17db52464c768602",
+    "torch_importable": true,
+    "transformers_importable": true,
+    "numpy_importable": true,
+    "status": "READY",
+    "embedding_dimension": 1024,
+    "probe": {
+      "real_encode_executed": true,
+      "document_count": 2,
+      "query_count": 1,
+      "dtype": "float32",
+      "l2_norms": [
+        1.0,
+        1.0
+      ],
+      "latency_ms": 10506.2
+    }
+  },
+  "candidates": [
+    {
+      "name": "configured_bge_m3",
+      "model_id": "BAAI/bge-m3",
+      "path_label": "<repo-external>/models/bge-m3",
+      "exists": true,
+      "required_missing": [],
+      "file_count": 10,
+      "total_size_bytes": 4564380154,
+      "model_hash": "dfb1897399b5033f6cf3a6c0f14395a9de4c5629de470c8b17db52464c768602",
+      "torch_importable": true,
+      "transformers_importable": true,
+      "numpy_importable": true,
+      "status": "READY",
+      "embedding_dimension": 1024,
+      "probe": {
+        "real_encode_executed": true,
+        "document_count": 2,
+        "query_count": 1,
+        "dtype": "float32",
+        "l2_norms": [
+          1.0,
+          1.0
+        ],
+        "latency_ms": 10506.2
+      }
+    }
+  ],
+  "network_download_used": false,
+  "hash_dense_allowed_for_enterprise": false
+}

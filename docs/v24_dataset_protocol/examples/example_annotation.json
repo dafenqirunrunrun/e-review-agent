@@ -1,0 +1,37 @@
+{
+  "_notice": "EXAMPLE_ONLY / NOT_DATASET / NOT_HELD_OUT / NOT_FOR_METRICS",
+  "sampleId": "ER-CAND-EXAMPLE-0001",
+  "annotationId": "ER-ANN-EXAMPLE-0001",
+  "annotatorId": "ANN-EXAMPLE",
+  "guidelineVersion": "dataset-protocol-v0.1",
+  "annotationTimestamp": "2026-07-28T00:00:00Z",
+  "independent": true,
+  "inScope": true,
+  "answerable": true,
+  "hasRisk": true,
+  "primaryRiskType": "AFTER_SALES_RISK",
+  "secondaryRiskTypes": [
+    "NEGATIVE_REVIEW"
+  ],
+  "severity": "HIGH",
+  "evidenceAvailability": "SUFFICIENT",
+  "goldEvidenceIds": [
+    "CHUNK-EXAMPLE-1"
+  ],
+  "goldEvidenceRelevance": {
+    "CHUNK-EXAMPLE-1": 3
+  },
+  "minimumSufficientEvidenceSet": [
+    "CHUNK-EXAMPLE-1"
+  ],
+  "requiresHumanReview": true,
+  "expressionStyle": "DIRECT",
+  "robustnessTags": [],
+  "containsPII": false,
+  "containsPromptInjection": false,
+  "ambiguity": false,
+  "candidateAlternativeLabels": [],
+  "annotationRationale": "?????????????????????????? AFTER_SALES_RISK??????? schema ???????????",
+  "uncertaintyReason": null,
+  "adjudicationStatus": "NOT_REQUIRED"
+}

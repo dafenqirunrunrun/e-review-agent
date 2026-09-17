@@ -652,7 +652,10 @@ public class AgentPlatformService {
         request.setProductId(intValue(analysis.get("productId")));
         request.setProductName(stringValue(analysis.get("productName")));
         request.setReviewText(stringValue(analysis.get("reviewText")));
-        request.setRating(intValue(analysis.get("rating")));
+        // Historical analysis rows do not contain rating provenance. Treat them
+        // as unknown instead of replaying a legacy database default as one star.
+        request.setRating(null);
+        request.setRatingSource("UNKNOWN");
         request.setImageUrls(parseStringList(stringValue(analysis.get("imageUrls"))));
         return request;
     }

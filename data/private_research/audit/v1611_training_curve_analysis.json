@@ -1,0 +1,30 @@
+{
+  "status": "TRAINING_CURVE_ANALYSIS_COMPLETE",
+  "initial_train_loss": 1.5460374057292938,
+  "final_train_loss": 0.3958964180201292,
+  "absolute_train_loss_reduction": 1.15014099,
+  "relative_train_loss_reduction": 0.74392831,
+  "validation_loss_by_step": {
+    "7": 1.0708318573457223,
+    "14": 0.6580156761187094,
+    "21": 0.5248127552094283,
+    "28": 0.4592875802406558,
+    "35": 0.43630363323070387,
+    "42": 0.4064420169150388
+  },
+  "best_validation_loss": 0.4064420169150388,
+  "final_validation_loss": 0.4064420169150388,
+  "train_validation_gap": 0.0105456,
+  "slope_1_14": -0.08217985,
+  "slope_15_28": 0.00954039,
+  "slope_29_42": -0.00858877,
+  "gradient_norm_start": 4.20162381977258,
+  "gradient_norm_final": 1.0132174320634788,
+  "learning_rate_unique": [
+    0.0001
+  ],
+  "loss_improved_task_not_improved": true,
+  "judgements": [
+    "OPTIMIZATION_STABLE_SIGNAL_WEAK"
+  ]
+}

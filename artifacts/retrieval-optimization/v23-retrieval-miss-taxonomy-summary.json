@@ -1,0 +1,23 @@
+{
+  "bm25Top100Hits": 39,
+  "bothTop100Hits": 39,
+  "candidateKCounts": {
+    "CANDIDATE_K_100_RECOVERABLE": 5,
+    "CANDIDATE_K_10_RECOVERABLE": 38,
+    "CANDIDATE_K_20_RECOVERABLE": 21,
+    "CANDIDATE_K_50_RECOVERABLE": 26
+  },
+  "candidateKRecoverable": 90,
+  "consumed": true,
+  "denseTop100Hits": 90,
+  "diagnosticCases": 90,
+  "neitherTop100Hits": 0,
+  "primaryMissTypeCounts": {
+    "CANDIDATE_K_TOO_SMALL": 90
+  },
+  "schemaVersion": "agent-rag-v23-retrieval-miss-taxonomy-summary-v1",
+  "sensitivePayloadPolicy": "hashes, ranks, counts, classifications only",
+  "summaryHash": "13a5b38bb3b42a1e8107ffe6d1d5da173bcb0278d7f0d5930a868699e3aeb4a2",
+  "unionTop100Coverage": 1.0,
+  "unionTop100Hits": 90
+}

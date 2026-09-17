@@ -1,0 +1,12 @@
+﻿{
+    "errno":  0,
+    "errmsg":  "成功",
+    "data":  {
+                 "token":  "REDACTED",
+                 "tokenLength":  36,
+                 "adminInfo":  {
+                                   "nickName":  "admin123",
+                                   "avatar":  "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif"
+                               }
+             }
+}

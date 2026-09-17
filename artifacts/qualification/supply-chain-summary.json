@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "v2.1-supply-chain",
+  "generatedAt": "2026-07-21T01:50:25+00:00",
+  "sbomFiles": [
+    "artifacts/sbom/java.cdx.json",
+    "artifacts/sbom/python.cdx.json",
+    "artifacts/sbom/admin.cdx.json",
+    "artifacts/sbom/customer.cdx.json"
+  ],
+  "vulnerabilityAudit": {
+    "status": "VULNERABILITY_DATABASE_UNAVAILABLE",
+    "critical": null,
+    "high": null,
+    "medium": null,
+    "low": null,
+    "unknown": null,
+    "note": "No authoritative vulnerability database was queried by this offline qualification script."
+  },
+  "licenseInventory": "artifacts/qualification/dependency-license-inventory.json",
+  "buildProvenance": "artifacts/qualification/build-provenance.json",
+  "tokens": [
+    "E_REVIEW_V21_SBOM_PASS",
+    "E_REVIEW_V21_BUILD_PROVENANCE_PASS",
+    "VULNERABILITY_DATABASE_UNAVAILABLE",
+    "LICENSE_REVIEW_REQUIRED"
+  ]
+}

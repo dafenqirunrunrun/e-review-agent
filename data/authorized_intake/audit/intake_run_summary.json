@@ -1,0 +1,31 @@
+{
+  "marker": "AUTHORIZED_DATA_INTAKE_DRY_RUN",
+  "run_id": "a884f627f1419f58",
+  "source_id": "no_manifest",
+  "intended_use": "internal_evaluation",
+  "authorization_decision": {
+    "decision": "incomplete",
+    "reason_codes": [
+      "authorization_manifest_missing"
+    ],
+    "missing_fields": [
+      "manifest"
+    ],
+    "conflicting_fields": [],
+    "authorization_reference": null,
+    "evaluated_at": "2026-07-14T19:16:42Z"
+  },
+  "input_sha256": "cdc9fa7a4d1cebec58ee5138f5d2f02b48cb2db0a05c22f556eb0427bbcf181a",
+  "input_record_count": 1,
+  "schema_valid_count": 0,
+  "pii_flagged_count": 0,
+  "duplicate_count": 0,
+  "rejected_count": 1,
+  "validated_count": 0,
+  "text_count": 0,
+  "image_count": 0,
+  "annotation_count": 0,
+  "private_audit_log_written": false,
+  "validated_write_performed": false,
+  "created_at": "2026-07-14T19:16:42Z"
+}

@@ -16,6 +16,9 @@ public class AiReviewAnalyzeResponse {
     private Map<String, Double> scores;
     private List<String> evidence;
 
+    @JsonProperty("risk_level")
+    private String riskLevel;
+
     @JsonProperty("similar_cases")
     private List<Map<String, Object>> similarCases;
 
@@ -85,8 +88,19 @@ public class AiReviewAnalyzeResponse {
     private String routeReason;
     @JsonProperty("evidence_sufficient")
     private Boolean evidenceSufficient;
+    @JsonProperty("evidence_status")
+    private String evidenceStatus;
+    @JsonProperty("reflection_reason")
+    private String reflectionReason;
+    @JsonProperty("risk_types")
+    private List<String> riskTypes;
+    @JsonProperty("requires_human_review")
+    private Boolean requiresHumanReview;
     @JsonProperty("human_review_trigger")
     private String humanReviewTrigger;
+
+    @JsonProperty("review_governance")
+    private Map<String, Object> reviewGovernance;
 
     @JsonProperty("modality_conflict")
     private Map<String, Object> modalityConflict;
@@ -135,6 +149,9 @@ public class AiReviewAnalyzeResponse {
     public void setEvidence(List<String> evidence) {
         this.evidence = evidence;
     }
+
+    public String getRiskLevel() { return riskLevel; }
+    public void setRiskLevel(String riskLevel) { this.riskLevel = riskLevel; }
 
     public List<Map<String, Object>> getSimilarCases() {
         return similarCases;
@@ -220,8 +237,18 @@ public class AiReviewAnalyzeResponse {
     public void setRouteReason(String routeReason) { this.routeReason = routeReason; }
     public Boolean getEvidenceSufficient() { return evidenceSufficient; }
     public void setEvidenceSufficient(Boolean evidenceSufficient) { this.evidenceSufficient = evidenceSufficient; }
+    public String getEvidenceStatus() { return evidenceStatus; }
+    public void setEvidenceStatus(String evidenceStatus) { this.evidenceStatus = evidenceStatus; }
+    public String getReflectionReason() { return reflectionReason; }
+    public void setReflectionReason(String reflectionReason) { this.reflectionReason = reflectionReason; }
+    public List<String> getRiskTypes() { return riskTypes; }
+    public void setRiskTypes(List<String> riskTypes) { this.riskTypes = riskTypes; }
+    public Boolean getRequiresHumanReview() { return requiresHumanReview; }
+    public void setRequiresHumanReview(Boolean requiresHumanReview) { this.requiresHumanReview = requiresHumanReview; }
     public String getHumanReviewTrigger() { return humanReviewTrigger; }
     public void setHumanReviewTrigger(String humanReviewTrigger) { this.humanReviewTrigger = humanReviewTrigger; }
+    public Map<String, Object> getReviewGovernance() { return reviewGovernance; }
+    public void setReviewGovernance(Map<String, Object> reviewGovernance) { this.reviewGovernance = reviewGovernance; }
 
     public Map<String, Object> getModalityConflict() {
         return modalityConflict;

@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ereview.local/schema/dataset_candidate.schema.json",
+  "title": "E-Review Dataset Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sampleId",
+    "protocolVersion",
+    "sourceType",
+    "sourceRecordHash",
+    "collectionDate",
+    "licenseOrPermission",
+    "redactedText",
+    "normalizedText",
+    "piiStatus",
+    "screeningStatus",
+    "screeningReasons",
+    "seenDuringDevelopment",
+    "splitEligibility"
+  ],
+  "properties": {
+    "sampleId": {
+      "type": "string",
+      "pattern": "^ER-CAND-[A-Z0-9-]{8,64}$"
+    },
+    "protocolVersion": {
+      "type": "string",
+      "const": "dataset-protocol-v0.1"
+    },
+    "sourceType": {
+      "enum": [
+        "REAL_AUTHORIZED",
+        "PUBLIC_LICENSED",
+        "HUMAN_REWRITTEN",
+        "SCENARIO_AUTHORED",
+        "KNOWLEDGE_GROUNDED_SYNTHETIC",
+        "ROBUSTNESS_TRANSFORMATION",
+        "SECURITY_AUTHORED",
+        "UNKNOWN"
+      ]
+    },
+    "sourceRecordId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 256
+    },
+    "sourceRecordHash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "sourceEventId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 128
+    },
+    "generationParentId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 128
+    },
+    "scenarioGroupId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 128
+    },
+    "duplicateGroupId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 128
+    },
+    "templateFamilyId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 128
+    },
+    "collectionDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "licenseOrPermission": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 512
+    },
+    "allowedUse": {
+      "enum": [
+        "INTERNAL_EVALUATION_ONLY",
+        "RESEARCH_USE",
+        "PUBLIC_RELEASE",
+        "REJECTED"
+      ]
+    },
+    "rawTextLocation": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 512
+    },
+    "redactedText": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20000
+    },
+    "normalizedText": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20000
+    },
+    "normalizerVersion": {
+      "type": "string",
+      "default": "zh-review-normalizer-v0.1"
+    },
+    "piiStatus": {
+      "enum": [
+        "NONE",
+        "REDACTED",
+        "QUARANTINED",
+        "UNKNOWN"
+      ]
+    },
+    "screeningStatus": {
+      "enum": [
+        "PENDING",
+        "ACCEPTED",
+        "REJECTED",
+        "QUARANTINED",
+        "NEEDS_REVIEW"
+      ]
+    },
+    "screeningReasons": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "maxLength": 256
+      },
+      "uniqueItems": true
+    },
+    "seenDuringDevelopment": {
+      "type": "boolean"
+    },
+    "developmentUseReason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 512
+    },
+    "splitEligibility": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "DEVELOPMENT",
+          "REGRESSION",
+          "PILOT",
+          "HELD_OUT",
+          "RESERVE",
+          "UNSUITABLE"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "generatorModel": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 128
+    },
+    "generatorPromptVersion": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 128
+    },
+    "generationSeed": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "humanReviewed": {
+      "type": "boolean",
+      "default": false
+    },
+    "humanAccepted": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    }
+  }
+}

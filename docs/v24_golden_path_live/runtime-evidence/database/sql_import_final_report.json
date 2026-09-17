@@ -1,0 +1,26 @@
+﻿[
+    {
+        "file":  "docs\\v24_golden_path_live\\runtime-evidence\\database\\generated_litemall_ai_agent_replay_mysql8.sql",
+        "sha256":  "9B9B7C7951858F920CB6774AC9E41610ED66CEF097A79E854B2AD1436D9FF0A2",
+        "exitCode":  0,
+        "started":  "2026-07-28T14:22:12.0543587+08:00",
+        "ended":  "2026-07-28T14:22:12.2334455+08:00",
+        "log":  "D:\\EReviewAgent\\litemall-v24-goldenpath\\docs\\v24_golden_path_live\\runtime-evidence\\database\\import_generated_litemall_ai_agent_replay_mysql8.sql.txt"
+    },
+    {
+        "file":  "litemall-db\\sql\\litemall_agent_rag_security_governance.sql",
+        "sha256":  "B7E35B43D2CC7A95FB0FFB481A284C7FE52A13DA3138A71473745D8B95F991A9",
+        "exitCode":  0,
+        "started":  "2026-07-28T14:22:12.2386709+08:00",
+        "ended":  "2026-07-28T14:22:12.4343221+08:00",
+        "log":  "D:\\EReviewAgent\\litemall-v24-goldenpath\\docs\\v24_golden_path_live\\runtime-evidence\\database\\import_litemall_agent_rag_security_governance.sql.txt"
+    },
+    {
+        "file":  "litemall-db\\sql\\litemall_ai_source_type_migration.sql",
+        "sha256":  "6584D8324C98CB183CF4314D70A561F2C132D59109DCF656C12695FFDB2226E6",
+        "exitCode":  0,
+        "started":  "2026-07-28T14:22:12.4353288+08:00",
+        "ended":  "2026-07-28T14:22:12.5231138+08:00",
+        "log":  "D:\\EReviewAgent\\litemall-v24-goldenpath\\docs\\v24_golden_path_live\\runtime-evidence\\database\\import_litemall_ai_source_type_migration.sql.txt"
+    }
+]

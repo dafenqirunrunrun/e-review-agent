@@ -1,0 +1,23 @@
+{
+  "artifactVersion": "agent-rag-v23-parent-child-resource-result-v1",
+  "childIndexSizeBytes": 4284,
+  "childSearchP50Ms": 3.441728,
+  "childSearchP95Ms": 4.130074,
+  "denseRuntimeBoundary": {
+    "availableInDefaultEnvironment": false,
+    "notMisstatedAsDenseRuntimeFailure": true,
+    "reason": "ModuleNotFoundError",
+    "status": "REAL_DENSE_RUNTIME_NOT_AVAILABLE_IN_DEFAULT_ENVIRONMENT"
+  },
+  "flatBaselineP95Ms": 137.438,
+  "indexSizeRatio": 1.06,
+  "parentEncodeDurationMs": 0,
+  "parentIndexSizeBytes": 630,
+  "parentSearchP50Ms": 3.441728,
+  "parentSearchP95Ms": 4.130074,
+  "peakCpuMemoryBytes": 0,
+  "peakCudaMemoryBytes": 0,
+  "resourceGatePass": true,
+  "totalRetrievalP50Ms": 6.883456,
+  "totalRetrievalP95Ms": 8.260147
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "e-review-v24-transformers451-validation-v1",
+  "worktree": "D:\\EReviewAgent\\litemall-v24-reranker-fix",
+  "branch": "fix/v24-reranker-compat",
+  "baselineCommit": "d91358ae6f42830c49af706356cb501b283113ae",
+  "pythonEnvironment": "D:\\anaconda\\envs\\ereview-v24-transformers451\\python.exe",
+  "targetMatrix": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.51.3",
+    "FlagEmbedding": "1.3.5",
+    "sentence-transformers": "3.0.1"
+  },
+  "before": {
+    "torch": "2.5.1+cu121",
+    "transformers": "5.3.0",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "1.7.1",
+    "FlagEmbedding": "1.3.5",
+    "sentence-transformers": "3.0.1",
+    "accelerate": "1.14.0",
+    "peft": "0.19.1",
+    "safetensors": "0.7.0"
+  },
+  "after": {
+    "torch": "2.5.1+cu121",
+    "transformers": "5.3.0",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "1.7.1",
+    "FlagEmbedding": "1.3.5",
+    "sentence-transformers": "3.0.1",
+    "accelerate": "1.14.0",
+    "peft": "0.19.1",
+    "safetensors": "0.7.0"
+  },
+  "wheelhouse": {
+    "path": "D:\\EReviewAgent\\wheelhouse\\transformers451",
+    "status": "MISSING_EMPTY",
+    "localCacheHasTransformers451": false,
+    "condaCacheOnlyOlderTransformers": "4.24.0",
+    "pipDownloadAttempt": "FAILED_TLS_SSL_EOF"
+  },
+  "dryRun": "NOT_RUN_WHEELHOUSE_MISSING",
+  "install": "NOT_RUN_WHEELHOUSE_MISSING",
+  "pipCheck": "FAIL_PREEXISTING_SENTENCE_TRANSFORMERS_TRANSFORMERS_DECLARED_CONFLICT",
+  "torchFxImport": "NOT_RUN_TARGET_STACK_NOT_INSTALLED",
+  "flagRerankerImport": "NOT_RUN_TARGET_STACK_NOT_INSTALLED",
+  "qwen3Import": "NOT_RUN_TARGET_STACK_NOT_INSTALLED",
+  "formalRerankerTest": "NOT_RUN_TARGET_STACK_NOT_INSTALLED",
+  "phase3bGate": "NOT_RUN_TARGET_STACK_NOT_INSTALLED",
+  "fallbackUsed": null,
+  "realInference": null,
+  "bgeM3Smoke": "NOT_RUN_TARGET_STACK_NOT_INSTALLED",
+  "qwenRegression": "NOT_RUN_TARGET_STACK_NOT_INSTALLED",
+  "traceReplay": "NOT_RUN_TARGET_STACK_NOT_INSTALLED",
+  "pythonFullTests": "NOT_RUN_TARGET_STACK_NOT_INSTALLED",
+  "requirementsChanged": false,
+  "lockFile": null,
+  "codeChanged": false,
+  "newCommit": null,
+  "planAClassification": "BLOCKED_ON_WHEELHOUSE",
+  "planBRequired": false,
+  "blockers": [
+    "D:\\EReviewAgent\\wheelhouse\\transformers451 has no required wheels",
+    "pip download transformers==4.51.3 failed due PyPI TLS/SSL EOF",
+    "current environment remains transformers==5.3.0",
+    "pre-existing pip check conflict remains: sentence-transformers 3.0.1 requires transformers<5"
+  ],
+  "evidence": [
+    "docs/v24_reranker_compat/logs/version-matrix-451-before.log",
+    "docs/v24_reranker_compat/logs/pip-check-451-before.log",
+    "docs/v24_reranker_compat/logs/conda-cache-transformers451.log",
+    "docs/v24_reranker_compat/logs/pip-download-transformers451.log"
+  ]
+}

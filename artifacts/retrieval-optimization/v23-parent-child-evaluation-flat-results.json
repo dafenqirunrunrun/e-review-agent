@@ -1,0 +1,13 @@
+{
+  "caseCount": 120,
+  "coverageAt10": 0.5,
+  "coverageAt20": 0.65,
+  "coverageAt30": 0.75,
+  "coverageAt5": 0.3,
+  "mrr": 0.17893,
+  "ndcgAt5": 0.177197,
+  "recallAt10": 0.5,
+  "recallAt20": 0.65,
+  "recallAt30": 0.75,
+  "recallAt5": 0.3
+}

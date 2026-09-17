@@ -12,7 +12,7 @@ export function userDetail(id) {
   return request({
     url: '/user/detail',
     method: 'get',
-    params: { id }
+    params: {id}
   })
 }
 

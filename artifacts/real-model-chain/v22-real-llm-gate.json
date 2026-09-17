@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "agent-rag-v22-real-llm-gate-v1",
+  "status": "PASS",
+  "checks": {
+    "assetPass": true,
+    "runtimeIntegrationPass": true,
+    "e2ePass": true,
+    "soakPass": true,
+    "evaluationPresent": true,
+    "caseCount250": true,
+    "schemaPass": true,
+    "groundingPass": true,
+    "safetyPass": true,
+    "qualityVerified": true
+  },
+  "tokens": [
+    "AGENT_RAG_V22_LLM_ASSET_PASS",
+    "AGENT_RAG_V22_REAL_LLM_RUNTIME_PASS",
+    "AGENT_RAG_V22_LLM_SCHEMA_PASS",
+    "AGENT_RAG_V22_LLM_GROUNDING_PASS",
+    "AGENT_RAG_V22_LLM_SAFETY_PASS",
+    "AGENT_RAG_V22_REAL_LLM_PASS",
+    "REAL_LLM_QUALITY_VERIFIED"
+  ],
+  "boundaries": [
+    "REAL_LLM_QUALITY_VERIFIED",
+    "NO_PUSH",
+    "NO_TAG",
+    "NO_RELEASE"
+  ]
+}

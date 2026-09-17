@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-07-16T14:04:52.560561+00:00",
+  "status": "V23_BASE_DATA_CANARY_PASS",
+  "holdout_read": false,
+  "old_adapter_used": false,
+  "real_inference_count": 18,
+  "sample_count": 18,
+  "raw_schema_valid_rate": 0.7777777777777778,
+  "task_coverage_rate": 0.7777777777777778,
+  "fallback_rate": 0.2222222222222222,
+  "raw_json_object_extract_rate": 0.8888888888888888,
+  "input_echo_rate": 0.0,
+  "prohibited_action_count": 0,
+  "oom_count": 0,
+  "avg_generate_ms": 29790.51,
+  "p95_generate_ms": 34937.39,
+  "output_source_distribution": {
+    "raw_or_normalized": 14,
+    "operational_safety_fallback": 4
+  }
+}

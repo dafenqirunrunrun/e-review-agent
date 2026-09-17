@@ -1,0 +1,95 @@
+{
+  "forbiddenClaims": [
+    "RETRIEVAL_QUALITY_VERIFIED",
+    "PRODUCTION_RETRIEVAL_PASS"
+  ],
+  "ranking": [
+    {
+      "affectedCaseCount": 90,
+      "affectedCaseRate": 1.0,
+      "expectedRecoverableCases": 90,
+      "implementationComplexity": 2,
+      "indexCost": 2,
+      "name": "Candidate K",
+      "priorityScore": 10.0,
+      "recommendedPhase": "Phase 9.2",
+      "risk": "low",
+      "runtimeCost": 2
+    },
+    {
+      "affectedCaseCount": 0,
+      "affectedCaseRate": 0.0,
+      "expectedRecoverableCases": 0,
+      "implementationComplexity": 2,
+      "indexCost": 2,
+      "name": "Index Repair",
+      "priorityScore": 4.0,
+      "recommendedPhase": "Phase 9.2",
+      "risk": "low",
+      "runtimeCost": 1
+    },
+    {
+      "affectedCaseCount": 0,
+      "affectedCaseRate": 0.0,
+      "expectedRecoverableCases": 0,
+      "implementationComplexity": 2,
+      "indexCost": 2,
+      "name": "Query Normalization",
+      "priorityScore": 1.5,
+      "recommendedPhase": "Phase 9.2",
+      "risk": "low",
+      "runtimeCost": 2
+    },
+    {
+      "affectedCaseCount": 0,
+      "affectedCaseRate": 0.0,
+      "expectedRecoverableCases": 0,
+      "implementationComplexity": 2,
+      "indexCost": 2,
+      "name": "RRF Window",
+      "priorityScore": 1.5,
+      "recommendedPhase": "Phase 9.2",
+      "risk": "low",
+      "runtimeCost": 2
+    },
+    {
+      "affectedCaseCount": 0,
+      "affectedCaseRate": 0.0,
+      "expectedRecoverableCases": 0,
+      "implementationComplexity": 3,
+      "indexCost": 3,
+      "name": "Title + Section Retrieval Content",
+      "priorityScore": 1.0,
+      "recommendedPhase": "Phase 9.2",
+      "risk": "medium",
+      "runtimeCost": 3
+    },
+    {
+      "affectedCaseCount": 0,
+      "affectedCaseRate": 0.0,
+      "expectedRecoverableCases": 0,
+      "implementationComplexity": 4,
+      "indexCost": 4,
+      "name": "BGE-M3 Sparse",
+      "priorityScore": 0.5,
+      "recommendedPhase": "Phase 9.3",
+      "risk": "medium",
+      "runtimeCost": 4
+    },
+    {
+      "affectedCaseCount": 0,
+      "affectedCaseRate": 0.0,
+      "expectedRecoverableCases": 0,
+      "implementationComplexity": 5,
+      "indexCost": 5,
+      "name": "Multi-vector",
+      "priorityScore": 0.4,
+      "recommendedPhase": "Phase 9.3",
+      "risk": "medium",
+      "runtimeCost": 5
+    }
+  ],
+  "recommendedPhase": "PHASE_92_PRIORITY_CANDIDATE_K_AND_FUSION",
+  "schemaVersion": "agent-rag-v23-retrieval-optimization-priority-decision-v1",
+  "status": "COMPLETE"
+}
